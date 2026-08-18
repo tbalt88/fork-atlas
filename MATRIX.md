@@ -1,13 +1,13 @@
 # Fork Atlas — Matrix
 
-_Generated 2026-08-18T04:17:35Z · 205 forks · 205 classified · 3 need review_
+_Generated 2026-08-18T04:20:03Z · 205 forks · 205 classified · 2 need review_
 
 Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-once; edit `overrides/` to correct Domain/Form.
 
 ## Contents
 
 - [LLM inference & training](#llm-inference-training) (10)
-- [Agents, skills & prompt packs](#agents-skills) (88)
+- [Agents, skills & prompt packs](#agents-skills) (87)
 - [Image, video & audio generation](#media-generation) (11)
 - [Developer tooling & CLIs](#dev-tooling) (6)
 - [Data, ETL, search & RAG](#data-rag) (16)
@@ -20,6 +20,7 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 - [Business apps, CRM/ERP & Power Platform](#business-apps) (8)
 - [Finance & trading](#finance-trading) (7)
 - [Computer vision, sensing & IoT](#vision-sensing) (5)
+- [Self-hosted AI platforms & chat UIs](#ai-platforms) (1)
 - [Scientific ML, datasets & simulation](#science-research) (1)
 - [Games & fun](#games-fun) (1)
 
@@ -46,7 +47,6 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 |---|---|---:|---|---|---|
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Application / UI | 232075 | Hermes Agent (Nous Research) is a self-improving AI agent with a full terminal UI, a messaging gateway (Telegram, Discord, Slack, WhatsApp, Signal, Email), and a closed learning loop that autonomously creates and refines skills, persists memory, and searche… | • Run a persistent personal AI agent reachable from Telegram or Discord<br>• Set up scheduled cron automations delivered to a chat platform<br>• Give an agent a self-improving skill/memory loop across sessions<br>• Host an agent on serverless sandbox infra that hibernates when idle | ai-agent, automation, memory, messaging-gateway, multi-provider, self-improving, skills, tui |
 | [langgenius/dify](https://github.com/langgenius/dify) | Application / UI | 152732 | Dify is a widely-adopted open-source LLM application development platform combining a visual workflow builder, RAG pipeline, agent tooling (function calling / ReAct with 50+ built-in tools), a prompt IDE, and LLMOps observability into one self-hostable or c… | • Build a RAG-based chatbot without writing backend code<br>• Design agentic workflows on a visual canvas<br>• Self-host an LLM app platform for a team | agent-builder, llm-workflow, low-code, mcp, orchestration, rag, self-hosted |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) ⚠ | Application / UI | 149062 | Open WebUI is a massively popular, self-hosted, extensible AI interface that sits in front of Ollama and any OpenAI-compatible API, giving individuals and enterprises a ChatGPT-like frontend with built-in RAG (9 vector DB backends), web search, image genera… | • Stand up a self-hosted ChatGPT-style interface in front of local Ollama models<br>• Give a team RAG over internal documents with hybrid search and reranking<br>• Wrap a base model with custom tools and instructions to build a specialized in-house agent<br>• Deploy an enterprise AI platform with SSO, RBAC, and OpenTelemetry observability | agents, chat-ui, docker, enterprise, mcp, ollama, rag, self-hosted |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | Application / UI | 80187 | DeerFlow is ByteDance's open-source 'super agent harness' that orchestrates sub-agents, sandboxes, long-term memory, and extensible skills to run long-horizon research, coding, and creation tasks lasting minutes to hours. It ships a Python/LangGraph backend… | • Self-host a long-horizon research and coding agent harness<br>• Wire an agent into Slack, Discord, or Telegram as a channel bot<br>• Run sandboxed multi-agent workflows with persistent memory<br>• Drive DeerFlow tasks via CLI-backed models like Claude Code or Codex CLI | agent-harness, deep-research, langgraph, long-term-memory, mcp, multi-agent, sandbox, sub-agents |
 | [stablyai/orca](https://github.com/stablyai/orca) | Application / UI | 47497 | Orca is a YC-backed 'agent IDE' (ADE) desktop app for running many coding agents (Claude Code, Codex, Cursor, Grok, GitHub Copilot, OpenCode, and more) in parallel, each in its own isolated git worktree, with a Ghostty-class terminal, SSH remote worktrees, … | • Run five coding agents in parallel worktrees and merge the best result<br>• Monitor and steer a running coding agent from a phone<br>• Run a coding agent on a remote box over SSH with full terminal access<br>• Script agent workflows from the CLI, e.g. create worktree, snapshot, click | agent-ide, claude-code, codex, electron, orchestration, parallel-agents, terminal, worktrees |
 | [multica-ai/multica](https://github.com/multica-ai/multica) | Application / UI | 46531 | Multica is a self-hostable, Kanban-style workspace where AI coding agents (Claude Code, Codex, Cursor, and 17 more CLIs) are added as teammates, assigned issues, and picked up automatically on a daemon-controlled runtime, reporting progress, raising blocker… | • Assign a GitHub issue to Claude Code or Codex as if it were a teammate<br>• Self-host a board that drives 20 different coding-agent CLIs<br>• Track token cost and execution logs per agent run<br>• Run scheduled agent standups or audits via autopilots | agent-orchestration, claude-code, codex, issue-tracker, kanban, multi-agent, runtime, self-hosted |
@@ -309,6 +309,13 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 | [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) | Library / SDK | 56662 | The classic, widely-used Python library and CLI ('the world's simplest facial recognition API') built on dlib's deep-learning face recognition model, claiming 99.38% accuracy on the LFW benchmark. Provides face detection, facial-landmark extraction, and fac… | • Identify known people in a folder of photos from the command line<br>• Build real-time webcam face recognition into a Python app<br>• Extract facial landmarks for filters or digital makeup effects<br>• Batch-process a large photo set to find and box all faces | cli, computer-vision, deep-learning, dlib, face-detection, face-recognition, python |
 | [yakhyo/uniface](https://github.com/yakhyo/uniface) | Library / SDK | 1456 | UniFace is a Python computer-vision library that unifies fifteen face-analysis tasks — detection, recognition/verification, tracking, landmarks, face mesh, parsing/segmentation, portrait matting, gaze/head-pose estimation, demographics, emotion, face states… | • Detect and recognize faces in an image with one unified API<br>• Anonymize faces in a dataset before publishing images<br>• Check for spoofed or replayed faces in a liveness check<br>• Estimate age, emotion, or gaze direction from a photo | anti-spoofing, computer-vision, face-detection, face-mesh, face-recognition, landmarks, onnxruntime, python |
 | [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) | Server / service / API | 35163 | Frigate is a self-hosted Network Video Recorder that runs realtime local object detection on IP camera feeds using OpenCV/TensorFlow (with optional Coral/GPU acceleration), tightly integrated with Home Assistant via MQTT. It's aimed at homelab and home-auto… | • Run local AI object detection on home security cameras<br>• Integrate camera alerts into Home Assistant automations<br>• Self-host a privacy-first NVR without cloud video processing | docker, home-assistant, homelab, ip-cameras, mqtt, nvr, object-detection, self-hosted |
+
+<a id="ai-platforms"></a>
+## Self-hosted AI platforms & chat UIs
+
+| Repo | Form | ★ | What it is | Use cases | Keywords |
+|---|---|---:|---|---|---|
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | Application / UI | 149062 | Open WebUI is a massively popular, self-hosted, extensible AI interface that sits in front of Ollama and any OpenAI-compatible API, giving individuals and enterprises a ChatGPT-like frontend with built-in RAG (9 vector DB backends), web search, image genera… | • Stand up a self-hosted ChatGPT-style interface in front of local Ollama models<br>• Give a team RAG over internal documents with hybrid search and reranking<br>• Wrap a base model with custom tools and instructions to build a specialized in-house agent<br>• Deploy an enterprise AI platform with SSO, RBAC, and OpenTelemetry observability | agents, chat-ui, docker, enterprise, mcp, ollama, rag, self-hosted |
 
 <a id="science-research"></a>
 ## Scientific ML, datasets & simulation

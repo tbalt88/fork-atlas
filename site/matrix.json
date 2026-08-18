@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T04:17:35Z",
+ "generated_at": "2026-08-18T04:20:03Z",
  "taxonomy": {
   "domains": [
    {
@@ -73,6 +73,11 @@
     "hint": "image/face recognition, camera/NVR, WiFi/RF sensing, robotics, edge devices"
    },
    {
+    "key": "ai-platforms",
+    "label": "Self-hosted AI platforms & chat UIs",
+    "hint": "turnkey self-hosted LLM front-ends and platforms (Open WebUI-style chat UIs, all-in-one AI workbenches, model routers with UI)"
+   },
+   {
     "key": "science-research",
     "label": "Scientific ML, datasets & simulation",
     "hint": "research datasets, physics/bio/climate simulation, scientific foundation models, benchmarks"
@@ -133,7 +138,7 @@
   "total": 205,
   "classified": 205,
   "unclassified": 0,
-  "needs_review": 3
+  "needs_review": 2
  },
  "keywords": {
   "mcp": [
@@ -10382,8 +10387,8 @@
     "make"
    ],
    "status": "classified",
-   "domain": "agents-skills",
-   "domain_label": "Agents, skills & prompt packs",
+   "domain": "ai-platforms",
+   "domain_label": "Self-hosted AI platforms & chat UIs",
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -10432,11 +10437,11 @@
    ],
    "confidence": 0.55,
    "proposed_domain": "self-hosted-ai-platform",
-   "needs_review": true,
+   "needs_review": false,
    "classified_at": "2026-08-18T02:24:16Z",
    "note": null,
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/agentic-ai-starters",
