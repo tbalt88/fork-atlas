@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T04:20:53Z",
+ "generated_at": "2026-08-18T04:22:59Z",
  "taxonomy": {
   "domains": [
    {
@@ -143,7 +143,7 @@
   "total": 205,
   "classified": 205,
   "unclassified": 0,
-  "needs_review": 1
+  "needs_review": 0
  },
  "keywords": {
   "mcp": [
@@ -1057,6 +1057,11 @@
    "tbalt88/all-agentic-architectures",
    "tbalt88/fara"
   ],
+  "marketing": [
+   "tbalt88/automate-faceless-content",
+   "tbalt88/scroll-world",
+   "tbalt88/social-media-scraping-apis"
+  ],
   "social-media": [
    "tbalt88/automate-faceless-content",
    "tbalt88/Agent-Reach",
@@ -1217,6 +1222,11 @@
    "tbalt88/airgapped-offfline-rag",
    "tbalt88/bRAG-langchain"
   ],
+  "research": [
+   "tbalt88/ChatDev",
+   "tbalt88/wifi-3d-fusion",
+   "tbalt88/social-media-scraping-apis"
+  ],
   "streamlit": [
    "tbalt88/ai-data-science-team",
    "tbalt88/airgapped-offfline-rag",
@@ -1369,10 +1379,6 @@
   "knowledge-graph": [
    "tbalt88/context-ontology-accelerator",
    "tbalt88/Understand-Anything"
-  ],
-  "marketing": [
-   "tbalt88/automate-faceless-content",
-   "tbalt88/scroll-world"
   ],
   "claude-code-plugin": [
    "tbalt88/power-platform-skills",
@@ -1609,10 +1615,6 @@
   "llm-agents": [
    "tbalt88/ChatDev",
    "tbalt88/crewAI"
-  ],
-  "research": [
-   "tbalt88/ChatDev",
-   "tbalt88/wifi-3d-fusion"
   ],
   "real-time": [
    "tbalt88/ten-framework",
@@ -3005,10 +3007,16 @@
   "apify": [
    "tbalt88/social-media-scraping-apis"
   ],
+  "audience-research": [
+   "tbalt88/social-media-scraping-apis"
+  ],
   "linkedin": [
    "tbalt88/social-media-scraping-apis"
   ],
   "scraping": [
+   "tbalt88/social-media-scraping-apis"
+  ],
+  "strategy": [
    "tbalt88/social-media-scraping-apis"
   ],
   "beginner-project": [
@@ -15570,19 +15578,23 @@
    ],
    "keywords": [
     "apify",
+    "audience-research",
     "curated-list",
     "instagram",
     "linkedin",
+    "marketing",
+    "research",
     "scraping",
-    "social-media"
+    "social-media",
+    "strategy"
    ],
    "confidence": 0.4,
    "proposed_domain": null,
-   "needs_review": true,
+   "needs_review": false,
    "classified_at": "2026-08-18T02:24:16Z",
-   "note": null,
+   "note": "Social media research & strategy tool — curated scraping/data APIs for audience, competitor and content research.",
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/Jarvis-Desktop-Voice-Assistant",
