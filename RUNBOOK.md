@@ -6,7 +6,7 @@
 
 - **Matrix:** https://tbalt88.github.io/fork-atlas/ — every repo `tbalt88` has forked, classified Domain × Form, with a one-shot LLM analysis, use cases and keywords. Search it when you have a use case and want to know what you already own.
 - **Assistant (homepage):** https://tbalt88.github.io/fork-atlas/agent.html — "I want to build X that does a, b, c" → grounded recommendations from your forks, with reasons, caveats and gaps. Also shows the **Keeper** (health of the catalog) and your vault **Project board**.
-- **Repo:** https://github.com/tbalt88/fork-atlas (public). Local clone (win): `C:\Users\dmdom\OneDrive\Documents\Projects\fork-atlas`.
+- **Repo:** https://github.com/tbalt88/fork-atlas (public). All scripts run from the root of your local clone.
 
 ## What runs by itself
 
@@ -51,7 +51,7 @@ Everything in ⚙ lives in that browser's localStorage. **Nothing here is ever c
 
 - **Memory Bridge:** project entry `4eee11a1-d54a-418d-a08a-0af4ce155eb4` (facts, decisions, prompts) · open Mac-mini task `7375ade0-c55d-4f2f-93fe-9724d255a2b3` (board snapshot automation).
 - **Vault:** `Projects/Fork Atlas.md` (project note, on the board) · `Debriefs/2026-08-18 - fork-atlas-build-debrief.md`.
-- **Local Claude Code memory (win):** `~/.claude/projects/C--Users-dmdom-OneDrive-Documents-Projects/memory/fork-atlas-project.md`.
+- **Local Claude Code memory (win):** Claude Code auto-memory for the project folder on each machine (`~/.claude/projects/<folder>/memory/fork-atlas-project.md`).
 
 ## Layout
 
