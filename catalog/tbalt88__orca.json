@@ -1,0 +1,120 @@
+{
+  "fork": {
+    "full_name": "tbalt88/orca",
+    "url": "https://github.com/tbalt88/orca",
+    "created_at": "2026-08-15T20:31:21Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-15T20:28:06Z"
+  },
+  "upstream": {
+    "full_name": "stablyai/orca",
+    "url": "https://github.com/stablyai/orca",
+    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+    "stars": 47483,
+    "forks": 3291,
+    "watchers": 103,
+    "open_issues": 4053,
+    "language": "TypeScript",
+    "topics": [
+      "ade",
+      "agent-ide",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex",
+      "cursor-agent",
+      "devtools",
+      "ghostty",
+      "ide",
+      "mobile-app",
+      "opencode",
+      "orchestration",
+      "parallel-agents",
+      "pi",
+      "terminal",
+      "worktrees",
+      "yc-backed"
+    ],
+    "license": "MIT",
+    "homepage": "https://onOrca.dev",
+    "default_branch": "main",
+    "created_at": "2026-03-17T03:28:57Z",
+    "pushed_at": "2026-08-18T02:10:26Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:49Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:49Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 108137659,
+      "JavaScript": 2731813,
+      "Swift": 290842,
+      "CSS": 234562,
+      "HTML": 106049,
+      "PowerShell": 71420,
+      "Python": 51383,
+      "Shell": 44278,
+      "Ruby": 26271,
+      "Kotlin": 22918,
+      "C#": 8386,
+      "Dockerfile": 2354,
+      "NSIS": 1123,
+      "Batchfile": 737
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:49Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Orca is a YC-backed 'agent IDE' (ADE) desktop app for running many coding agents (Claude Code, Codex, Cursor, Grok, GitHub Copilot, OpenCode, and more) in parallel, each in its own isolated git worktree, with a Ghostty-class terminal, SSH remote worktrees, a mobile companion app for monitoring/steering agents remotely, GitHub/Linear integration, and a scriptable CLI. Targets developers running fleets of parallel AI coding agents who need to compare and merge results, on macOS/Windows/Linux plus iOS/Android.",
+    "keywords": [
+      "agent-ide",
+      "claude-code",
+      "codex",
+      "electron",
+      "orchestration",
+      "parallel-agents",
+      "terminal",
+      "worktrees"
+    ],
+    "use_cases": [
+      {
+        "title": "Run five coding agents in parallel worktrees and merge the best result",
+        "keywords": [
+          "parallel-agents",
+          "worktrees"
+        ]
+      },
+      {
+        "title": "Monitor and steer a running coding agent from a phone",
+        "keywords": [
+          "mobile-companion"
+        ]
+      },
+      {
+        "title": "Run a coding agent on a remote box over SSH with full terminal access",
+        "keywords": [
+          "ssh-worktrees"
+        ]
+      },
+      {
+        "title": "Script agent workflows from the CLI, e.g. create worktree, snapshot, click",
+        "keywords": [
+          "automation",
+          "cli"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

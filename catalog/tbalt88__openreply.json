@@ -1,0 +1,83 @@
+{
+  "fork": {
+    "full_name": "tbalt88/openreply",
+    "url": "https://github.com/tbalt88/openreply",
+    "created_at": "2026-08-13T18:45:53Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-08T21:59:22Z"
+  },
+  "upstream": {
+    "full_name": "diwenne/openreply",
+    "url": "https://github.com/diwenne/openreply",
+    "description": "Open-source ManyChat alternative: comment-dm automation + account analytics. NOTE: the link below will not allow you to OAuth; you must self-host with your own API keys.",
+    "stars": 1365,
+    "forks": 405,
+    "watchers": 9,
+    "open_issues": 5,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": "https://diwen.dev/openreply",
+    "default_branch": "main",
+    "created_at": "2026-07-17T02:01:45Z",
+    "pushed_at": "2026-08-17T16:42:51Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:52Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:52Z",
+    "signals": [
+      "claude-md",
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 606305,
+      "CSS": 2119,
+      "JavaScript": 559
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:43Z"
+  },
+  "classification": {
+    "domain": "automation-integrations",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "OpenReply is a self-hosted, open-source alternative to ManyChat for Instagram comment-to-DM automation: when a comment matches a keyword, it sends the commenter a private reply via Meta's official Instagram API, with optional public replies, tracked links, follow gates, and per-account rate limiting. Built on Next.js, Prisma/PostgreSQL, and BullMQ/Redis with a separate worker process for sending, it targets creators and small agencies who want ManyChat-style comment automation without a recurring subscription or seat limits. It uses only the official Meta API (no scraping or password use) and includes multi-account workspaces with roles for agency use.",
+    "keywords": [
+      "bullmq",
+      "comment-automation",
+      "dm-automation",
+      "instagram",
+      "manychat-alternative",
+      "nextjs",
+      "self-hosted",
+      "webhook"
+    ],
+    "use_cases": [
+      {
+        "title": "Auto-DM a link to anyone who comments a keyword on an Instagram post",
+        "keywords": [
+          "comment-automation",
+          "instagram"
+        ]
+      },
+      {
+        "title": "Self-host a free ManyChat-style comment-to-DM tool for creator clients",
+        "keywords": [
+          "manychat-alternative",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Track click-through rates on links sent via automated Instagram DMs",
+        "keywords": [
+          "dm-automation"
+        ]
+      }
+    ],
+    "confidence": 0.65,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

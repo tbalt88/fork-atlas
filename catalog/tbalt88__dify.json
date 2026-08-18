@@ -1,0 +1,116 @@
+{
+  "fork": {
+    "full_name": "tbalt88/dify",
+    "url": "https://github.com/tbalt88/dify",
+    "created_at": "2026-02-21T20:21:09Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:04Z"
+  },
+  "upstream": {
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "stars": 152729,
+    "forks": 24119,
+    "watchers": 821,
+    "open_issues": 1008,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "automation",
+      "claude",
+      "genai",
+      "gpt",
+      "llm",
+      "low-code",
+      "mcp",
+      "nextjs",
+      "no-code",
+      "openai",
+      "orchestration",
+      "python",
+      "rag",
+      "skills",
+      "workflow"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://dify.ai",
+    "default_branch": "main",
+    "created_at": "2023-04-12T07:40:24Z",
+    "pushed_at": "2026-08-18T02:12:12Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:07Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:07Z",
+    "signals": [
+      "claude-skill",
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 38234599,
+      "Python": 35479973,
+      "JavaScript": 1473507,
+      "MDX": 842043,
+      "Go": 286967,
+      "CSS": 265272,
+      "HTML": 165358,
+      "Shell": 118181,
+      "Gherkin": 58619,
+      "Makefile": 17148,
+      "PowerShell": 12462,
+      "Dockerfile": 12284,
+      "PHP": 6106,
+      "Mako": 518
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:13Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Dify is a widely-adopted open-source LLM application development platform combining a visual workflow builder, RAG pipeline, agent tooling (function calling / ReAct with 50+ built-in tools), a prompt IDE, and LLMOps observability into one self-hostable or cloud-hosted product. It supports hundreds of model providers and exposes every feature as an API, so teams can go from prototype chatbots/agents to production backend services without writing glue code. Deployed via Docker Compose, Kubernetes, or major cloud Terraform/CDK modules; has an enterprise edition.",
+    "keywords": [
+      "agent-builder",
+      "llm-workflow",
+      "low-code",
+      "mcp",
+      "orchestration",
+      "rag",
+      "self-hosted"
+    ],
+    "use_cases": [
+      {
+        "title": "Build a RAG-based chatbot without writing backend code",
+        "keywords": [
+          "low-code",
+          "rag"
+        ]
+      },
+      {
+        "title": "Design agentic workflows on a visual canvas",
+        "keywords": [
+          "agentic-workflow",
+          "visual-canvas"
+        ]
+      },
+      {
+        "title": "Self-host an LLM app platform for a team",
+        "keywords": [
+          "llmops",
+          "self-hosted"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

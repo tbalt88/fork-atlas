@@ -1,0 +1,100 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agent-skills",
+    "url": "https://github.com/tbalt88/agent-skills",
+    "created_at": "2026-05-18T01:07:34Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:25Z"
+  },
+  "upstream": {
+    "full_name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "stars": 88067,
+    "forks": 9441,
+    "watchers": 463,
+    "open_issues": 109,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "antigravity",
+      "claude-code",
+      "codex",
+      "cursor",
+      "skills"
+    ],
+    "license": "MIT",
+    "homepage": "https://skills.addy.ie",
+    "default_branch": "main",
+    "created_at": "2026-02-15T20:20:26Z",
+    "pushed_at": "2026-08-14T18:51:33Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:41Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:41Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "JavaScript": 87419,
+      "Shell": 32668,
+      "Python": 990,
+      "HTML": 869,
+      "TypeScript": 306
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:50Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "A curated pack of 24 production-grade engineering skills (spec-driven development, TDD, code review, API design, web performance, etc.) for AI coding agents like Claude Code, Cursor, Codex, and Gemini CLI. Ships as slash commands (/spec, /plan, /build, /test, /review, /ship) that activate the right skill automatically, plus an eval harness to test skill quality. Built by Addy Osmani; installable via the skills CLI or as a native Claude Code / Codex / Antigravity plugin.",
+    "keywords": [
+      "agent-skills",
+      "claude-code",
+      "code-review",
+      "codex",
+      "cursor",
+      "slash-commands",
+      "spec-driven-development",
+      "tdd"
+    ],
+    "use_cases": [
+      {
+        "title": "Install a standardized engineering workflow into Claude Code",
+        "keywords": [
+          "claude-code",
+          "workflow"
+        ]
+      },
+      {
+        "title": "Enforce spec-first, test-driven development across agent sessions",
+        "keywords": [
+          "spec-driven-development",
+          "tdd"
+        ]
+      },
+      {
+        "title": "Add automated code review and security-audit subagents to a repo",
+        "keywords": [
+          "code-review",
+          "security-auditor"
+        ]
+      },
+      {
+        "title": "Pick individual skills like test-driven-development instead of the whole pack",
+        "keywords": [
+          "skill-pack"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

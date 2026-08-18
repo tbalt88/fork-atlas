@@ -1,0 +1,109 @@
+{
+  "fork": {
+    "full_name": "tbalt88/frigate",
+    "url": "https://github.com/tbalt88/frigate",
+    "created_at": "2026-05-22T21:59:35Z",
+    "default_branch": "dev",
+    "pushed_at": "2026-07-19T08:06:16Z"
+  },
+  "upstream": {
+    "full_name": "blakeblackshear/frigate",
+    "url": "https://github.com/blakeblackshear/frigate",
+    "description": "NVR with realtime local object detection for IP cameras",
+    "stars": 35162,
+    "forks": 3513,
+    "watchers": 251,
+    "open_issues": 167,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "camera",
+      "google-coral",
+      "home-assistant",
+      "home-automation",
+      "homeautomation",
+      "mqtt",
+      "nvr",
+      "object-detection",
+      "realtime",
+      "rtsp",
+      "tensorflow"
+    ],
+    "license": "MIT",
+    "homepage": "https://frigate.video",
+    "default_branch": "dev",
+    "created_at": "2019-01-26T13:52:38Z",
+    "pushed_at": "2026-08-17T21:26:55Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:33Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:33Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions",
+      "make",
+      "python"
+    ],
+    "languages": {
+      "TypeScript": 4250538,
+      "Python": 3727492,
+      "Shell": 29800,
+      "CSS": 29465,
+      "Dockerfile": 20550,
+      "JavaScript": 15970,
+      "Makefile": 5611,
+      "HCL": 4492,
+      "Jupyter Notebook": 2605,
+      "HTML": 2525,
+      "Go Template": 1977
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:38Z"
+  },
+  "classification": {
+    "domain": "infra-devops",
+    "form": "service",
+    "maturity": "production",
+    "analysis": "Frigate is a self-hosted Network Video Recorder that runs realtime local object detection on IP camera feeds using OpenCV/TensorFlow (with optional Coral/GPU acceleration), tightly integrated with Home Assistant via MQTT. It's aimed at homelab and home-automation users who want privacy-preserving, low-latency camera AI without cloud dependency, and ships as a Docker container with a TypeScript/React web UI. Large, mature, and very actively maintained (35k+ stars, near-daily commits).",
+    "keywords": [
+      "docker",
+      "home-assistant",
+      "homelab",
+      "ip-cameras",
+      "mqtt",
+      "nvr",
+      "object-detection",
+      "self-hosted",
+      "tensorflow"
+    ],
+    "use_cases": [
+      {
+        "title": "Run local AI object detection on home security cameras",
+        "keywords": [
+          "cameras",
+          "object-detection"
+        ]
+      },
+      {
+        "title": "Integrate camera alerts into Home Assistant automations",
+        "keywords": [
+          "home-assistant",
+          "mqtt"
+        ]
+      },
+      {
+        "title": "Self-host a privacy-first NVR without cloud video processing",
+        "keywords": [
+          "privacy",
+          "self-hosted"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

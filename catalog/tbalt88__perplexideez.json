@@ -1,0 +1,94 @@
+{
+  "fork": {
+    "full_name": "tbalt88/perplexideez",
+    "url": "https://github.com/tbalt88/perplexideez",
+    "created_at": "2026-01-31T07:12:08Z",
+    "default_branch": "main",
+    "pushed_at": "2024-11-17T21:26:34Z"
+  },
+  "upstream": {
+    "full_name": "brunostjohn/perplexideez",
+    "url": "https://github.com/brunostjohn/perplexideez",
+    "description": "Search the web and your self-hosted apps using local AI agents.",
+    "stars": 573,
+    "forks": 45,
+    "watchers": 6,
+    "open_issues": 16,
+    "language": "Svelte",
+    "topics": [],
+    "license": "AGPL-3.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2024-11-04T13:20:14Z",
+    "pushed_at": "2024-11-17T21:26:34Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:36Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:36Z",
+    "signals": [
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "Svelte": 245953,
+      "TypeScript": 141495,
+      "CSS": 2110,
+      "Smarty": 1832,
+      "Dockerfile": 864,
+      "HTML": 403,
+      "JavaScript": 344
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:54Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "app",
+    "maturity": "dormant",
+    "analysis": "Perplexideez is a self-hosted Perplexity-style AI search app (SvelteKit/TypeScript) that answers queries by searching the web through a SearXNG instance, grounds responses with clickable source citations, and generates follow-up questions, backed by Postgres and either Ollama or OpenAI-compatible LLM endpoints. It targets self-hosters who want multi-user support, SSO/OIDC, shareable search links with access control, and Kubernetes/Docker deployment, distinguishing it from other homelab Perplexity clones by that integration and multi-tenancy focus. Development appears stalled since November 2024 with no further commits.",
+    "keywords": [
+      "ai-search",
+      "multi-user",
+      "ollama",
+      "rag",
+      "searxng",
+      "self-hosted",
+      "sveltekit"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a private, citation-grounded AI search assistant",
+        "keywords": [
+          "ai-search",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Give a homelab multi-user access to AI web search with SSO",
+        "keywords": [
+          "multi-user",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Wire local Ollama models to a SearXNG-backed search UI",
+        "keywords": [
+          "ollama",
+          "searxng"
+        ]
+      },
+      {
+        "title": "Deploy an AI search app via Helm/Kubernetes manifests",
+        "keywords": [
+          "self-hosted",
+          "sveltekit"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

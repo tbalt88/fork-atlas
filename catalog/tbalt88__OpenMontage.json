@@ -1,0 +1,115 @@
+{
+  "fork": {
+    "full_name": "tbalt88/OpenMontage",
+    "url": "https://github.com/tbalt88/OpenMontage",
+    "created_at": "2026-06-22T22:56:08Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:07Z"
+  },
+  "upstream": {
+    "full_name": "calesthio/OpenMontage",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+    "stars": 48617,
+    "forks": 6084,
+    "watchers": 277,
+    "open_issues": 227,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "claude",
+      "copilot",
+      "cursor",
+      "elevenlabs",
+      "ffmpeg",
+      "flux",
+      "image-generation",
+      "open-source",
+      "openai",
+      "python",
+      "remotion",
+      "stable-diffusion",
+      "text-to-speech",
+      "text-to-video",
+      "video-generation",
+      "video-production"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": "https://www.openmontage.video/",
+    "default_branch": "main",
+    "created_at": "2026-03-29T15:23:22Z",
+    "pushed_at": "2026-08-14T00:23:49Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:20Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:20Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "Python": 4769587,
+      "HTML": 1316799,
+      "JavaScript": 389417,
+      "TypeScript": 324951,
+      "CSS": 52055,
+      "Shell": 34403,
+      "Makefile": 7365
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:42Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "OpenMontage is an open-source library of 700+ agent skill and production-knowledge files (plus 100+ tools across 12 pipelines) that turns an existing AI coding assistant (Claude Code, Cursor, Copilot, Codex, Windsurf) into a full video production studio, orchestrating research, scripting, image/video generation (Flux, Kling, Veo, Stable Diffusion), voice/TTS (ElevenLabs), music, and Remotion-based composition from a plain-language prompt. It includes a local \"Backlot\" web board for live production status, scene-by-scene approval gates, and per-video cost tracking, and can also start from a reference video (YouTube/TikTok) to reverse-engineer a production plan. A fast-growing project aimed at solo creators wanting AI-agent-driven video production without a traditional editing pipeline.",
+    "keywords": [
+      "agent-skills",
+      "agentic-ai",
+      "claude-code",
+      "elevenlabs",
+      "ffmpeg",
+      "flux",
+      "remotion",
+      "text-to-video",
+      "video-production"
+    ],
+    "use_cases": [
+      {
+        "title": "Turn your coding assistant into a video production studio",
+        "keywords": [
+          "agent-skills",
+          "video-production"
+        ]
+      },
+      {
+        "title": "Generate a short film from a text prompt with cost estimates",
+        "keywords": [
+          "cost-tracking",
+          "text-to-video"
+        ]
+      },
+      {
+        "title": "Recreate a reference YouTube or TikTok video's style with AI agents",
+        "keywords": [
+          "reference-video",
+          "remix"
+        ]
+      },
+      {
+        "title": "Draw on a large real-world library of agent skill files for video tasks",
+        "keywords": [
+          "reference",
+          "skill-pack"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

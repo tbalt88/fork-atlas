@@ -1,0 +1,94 @@
+{
+  "fork": {
+    "full_name": "tbalt88/cooragent",
+    "url": "https://github.com/tbalt88/cooragent",
+    "created_at": "2025-12-01T21:38:06Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:04:10Z"
+  },
+  "upstream": {
+    "full_name": "LeapLabTHU/cooragent",
+    "url": "https://github.com/LeapLabTHU/cooragent",
+    "description": "Official Repository of Cooragent.",
+    "stars": 1674,
+    "forks": 145,
+    "watchers": 62,
+    "open_issues": 13,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache-2.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-04-11T14:59:45Z",
+    "pushed_at": "2026-04-29T03:51:31Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:18Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:18Z",
+    "signals": [
+      "docker",
+      "make",
+      "python"
+    ],
+    "languages": {
+      "Python": 393559,
+      "HTML": 3122,
+      "Dockerfile": 1952,
+      "Shell": 563,
+      "Makefile": 155
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:56Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Cooragent is a multi-agent collaboration framework/platform where users describe a task in natural language and it auto-generates and orchestrates specialized agents (browser, coder, crawler, file manager, reporter, researcher, etc.) to complete it, with a CLI, a planner/supervisor architecture, and a hosted Agent Studio web app. It supports three workflow modes (Launch, Polish, Production) for building, refining, and running agent workflows, plus MCP integration for external tools similar to Claude Desktop. Built by LeapLabTHU (Tsinghua) in Python with LangChain-style tooling including Excel manipulation, browser automation, Gmail/Office365/Slack tools, and web crawling, targeting developers who want to auto-build task-specific agent teams rather than hand-crafting prompts.",
+    "keywords": [
+      "agent-orchestration",
+      "agent-studio",
+      "cli",
+      "langchain",
+      "mcp",
+      "multi-agent",
+      "python",
+      "workflow"
+    ],
+    "use_cases": [
+      {
+        "title": "Auto-generate a team of collaborating agents from a single task description",
+        "keywords": [
+          "agent-factory",
+          "multi-agent"
+        ]
+      },
+      {
+        "title": "Build and refine an agentic workflow with a CLI, then run it in production mode",
+        "keywords": [
+          "cli",
+          "workflow"
+        ]
+      },
+      {
+        "title": "Integrate MCP tool servers (maps, AWS KB, etc.) into a custom agent team",
+        "keywords": [
+          "integrations",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Automate research and report generation tasks like stock analysis or trip planning",
+        "keywords": [
+          "automation",
+          "research"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

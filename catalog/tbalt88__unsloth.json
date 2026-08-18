@@ -1,0 +1,121 @@
+{
+  "fork": {
+    "full_name": "tbalt88/unsloth",
+    "url": "https://github.com/tbalt88/unsloth",
+    "created_at": "2026-08-16T23:54:47Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-16T22:19:14Z"
+  },
+  "upstream": {
+    "full_name": "unslothai/unsloth",
+    "url": "https://github.com/unslothai/unsloth",
+    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+    "stars": 73256,
+    "forks": 6602,
+    "watchers": 375,
+    "open_issues": 1276,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "ai",
+      "chatgpt",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "image-generation",
+      "llama",
+      "llm",
+      "llms",
+      "openai",
+      "python",
+      "qwen",
+      "reinforcement-learning",
+      "self-hosted",
+      "stable-diffusion",
+      "text-to-speech",
+      "tts",
+      "ui",
+      "unsloth"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://unsloth.ai/docs",
+    "default_branch": "main",
+    "created_at": "2023-11-29T16:50:09Z",
+    "pushed_at": "2026-08-18T01:49:12Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:44Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:44Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 43739835,
+      "TypeScript": 13593846,
+      "Shell": 1077247,
+      "PowerShell": 1068080,
+      "Rust": 1007036,
+      "CSS": 163993,
+      "Jinja": 38581,
+      "JavaScript": 38065,
+      "NSIS": 36224,
+      "HTML": 12678,
+      "Jupyter Notebook": 6657,
+      "Batchfile": 218
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:49Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Unsloth has grown from a fine-tuning acceleration library into a full local-first desktop app (Tauri-based Unsloth Desktop plus a web-based Unsloth Studio and a code-based Unsloth Core) for running, training, and deploying LLMs, diffusion, embedding, and audio models such as Kimi K3, Qwen3.8, DeepSeek-V4, Gemma 4, and FLUX. It supports 2x faster/70% less VRAM LoRA/QLoRA/full fine-tuning, RL (GRPO/DPO), GGUF/NVFP4/FP8 export, an OpenAI-compatible serving API, remote access via Cloudflare tunnels, and integration as a local model backend for Claude Code, Codex, and other coding agents via MCP. It targets ML practitioners and hobbyists who want to fine-tune and self-host open models across CPU/NVIDIA/AMD/Intel/Apple Silicon hardware.",
+    "keywords": [
+      "desktop-app",
+      "diffusion",
+      "fine-tuning",
+      "gguf",
+      "local-llm",
+      "lora",
+      "qlora",
+      "reinforcement-learning",
+      "self-hosted"
+    ],
+    "use_cases": [
+      {
+        "title": "Fine-tune an open LLM with LoRA/QLoRA on consumer GPU hardware",
+        "keywords": [
+          "fine-tuning",
+          "lora"
+        ]
+      },
+      {
+        "title": "Run a local desktop app to chat with and train open-weight models",
+        "keywords": [
+          "desktop-app",
+          "local-llm"
+        ]
+      },
+      {
+        "title": "Connect a locally fine-tuned model to Claude Code or Codex as a subagent",
+        "keywords": [
+          "claude-code",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Export a fine-tuned model to GGUF or FP8 for deployment",
+        "keywords": [
+          "export",
+          "gguf"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,90 @@
+{
+  "fork": {
+    "full_name": "tbalt88/fara",
+    "url": "https://github.com/tbalt88/fara",
+    "created_at": "2025-12-01T18:15:43Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-17T10:47:08Z"
+  },
+  "upstream": {
+    "full_name": "microsoft/fara",
+    "url": "https://github.com/microsoft/fara",
+    "description": "Fara1.5 – A family of frontier computer use agent models",
+    "stars": 6143,
+    "forks": 601,
+    "watchers": 42,
+    "open_issues": 38,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "browser-use",
+      "computer-use",
+      "computer-use-agent",
+      "cua"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.microsoft.com/en-us/research/articles/fara1-5-computer-use-agent/",
+    "default_branch": "main",
+    "created_at": "2025-10-29T16:23:22Z",
+    "pushed_at": "2026-07-22T17:03:30Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:19Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:19Z",
+    "signals": [
+      "python"
+    ],
+    "languages": {
+      "Python": 1314565,
+      "Jupyter Notebook": 109940,
+      "JavaScript": 50493,
+      "Jinja": 13477,
+      "Shell": 525
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:26Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "model-dataset",
+    "maturity": "active",
+    "analysis": "Fara1.5 is Microsoft Research's family of native computer-use agent models (4B/9B/27B, built on Qwen3.5) that operate a browser directly from screenshots — clicking, typing, and scrolling via predicted coordinates without accessibility trees. It's aimed at researchers and developers building autonomous web-task agents (form filling, shopping, bookings, research), and ships open weights on Hugging Face, an eval harness (WebTailBench, Online-Mind2Web), and a Playwright-based execution environment. It's designed to be used standalone via `fara-cli` or inside Microsoft's Magentic-UI for sandboxed, audited browser automation.",
+    "keywords": [
+      "benchmark",
+      "browser-agent",
+      "computer-use",
+      "microsoft-research",
+      "model-weights",
+      "playwright",
+      "qwen",
+      "webagent"
+    ],
+    "use_cases": [
+      {
+        "title": "Automate multi-step web tasks with a local computer-use model",
+        "keywords": [
+          "browser-agent",
+          "computer-use"
+        ]
+      },
+      {
+        "title": "Benchmark a web agent against WebVoyager or Online-Mind2Web",
+        "keywords": [
+          "benchmark"
+        ]
+      },
+      {
+        "title": "Run a sandboxed browser agent with audit logging via Magentic-UI",
+        "keywords": [
+          "browser-agent",
+          "playwright"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

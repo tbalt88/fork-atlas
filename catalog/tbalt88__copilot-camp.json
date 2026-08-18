@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/copilot-camp",
+    "url": "https://github.com/tbalt88/copilot-camp",
+    "created_at": "2026-02-03T09:09:43Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-13T08:57:38Z"
+  },
+  "upstream": {
+    "full_name": "microsoft/copilot-camp",
+    "url": "https://github.com/microsoft/copilot-camp",
+    "description": "Hands-on labs for extending Microsoft 365 Copilot and building custom engine agents",
+    "stars": 650,
+    "forks": 169,
+    "watchers": 18,
+    "open_issues": 95,
+    "language": "C#",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2024-01-31T16:31:33Z",
+    "pushed_at": "2026-08-14T03:21:40Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:30Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:30Z",
+    "signals": [
+      "claude-skill",
+      "gh-actions"
+    ],
+    "languages": {
+      "C#": 1188142,
+      "TypeScript": 868913,
+      "Bicep": 345289,
+      "JavaScript": 225644,
+      "Shell": 75096,
+      "PowerShell": 61329,
+      "HTML": 22306,
+      "Python": 8920,
+      "TypeSpec": 4700,
+      "CSS": 372
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:58Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "Microsoft's official hands-on workshop repo for building and extending Microsoft 365 Copilot: declarative agents, custom-engine agents (M365 Agents SDK + Semantic Kernel, or Agent Framework), Copilot Cowork extensibility, MCP servers with Entra ID auth, and SharePoint agents. Structured as multiple bundled lab tracks (A-E) with full C#/TypeScript/Bicep sample projects (e.g. an insurance-claims agent with vision analysis and document search) for enterprise developers on the Microsoft stack.",
+    "keywords": [
+      "agent-framework",
+      "azure",
+      "declarative-agents",
+      "mcp",
+      "microsoft-365-copilot",
+      "semantic-kernel",
+      "workshop"
+    ],
+    "use_cases": [
+      {
+        "title": "Follow guided labs to build a Microsoft 365 Copilot declarative agent",
+        "keywords": [
+          "declarative-agents",
+          "labs"
+        ]
+      },
+      {
+        "title": "Build a custom-engine agent with the M365 Agents SDK and Semantic Kernel",
+        "keywords": [
+          "agents-sdk",
+          "semantic-kernel"
+        ]
+      },
+      {
+        "title": "Secure an MCP server with OAuth 2.0 and Entra ID",
+        "keywords": [
+          "entra-id",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Ground a Copilot agent in enterprise data via Copilot Connectors",
+        "keywords": [
+          "copilot-connectors"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

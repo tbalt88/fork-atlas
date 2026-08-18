@@ -1,0 +1,99 @@
+{
+  "fork": {
+    "full_name": "tbalt88/freqtrade",
+    "url": "https://github.com/tbalt88/freqtrade",
+    "created_at": "2026-08-05T22:05:20Z",
+    "default_branch": "develop",
+    "pushed_at": "2026-08-05T18:48:58Z"
+  },
+  "upstream": {
+    "full_name": "freqtrade/freqtrade",
+    "url": "https://github.com/freqtrade/freqtrade",
+    "description": "Free, open source crypto trading bot",
+    "stars": 53394,
+    "forks": 11103,
+    "watchers": 765,
+    "open_issues": 34,
+    "language": "Python",
+    "topics": [
+      "algorithmic-trading",
+      "bitcoin",
+      "cryptocurrencies",
+      "cryptocurrency",
+      "freqtrade",
+      "python",
+      "telegram-bot",
+      "trade",
+      "trading-bot"
+    ],
+    "license": "GPL-3.0",
+    "homepage": "https://www.freqtrade.io",
+    "default_branch": "develop",
+    "created_at": "2017-05-17T23:48:53Z",
+    "pushed_at": "2026-08-18T01:46:21Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:00Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:00Z",
+    "signals": [
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 5229695,
+      "Jinja": 38642,
+      "PowerShell": 15797,
+      "Jupyter Notebook": 14363,
+      "Shell": 10740,
+      "Dockerfile": 1551,
+      "HTML": 753,
+      "Gnuplot": 221
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:35Z"
+  },
+  "classification": {
+    "domain": "automation-integrations",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Freqtrade is a mature, free open-source Python crypto trading bot that automates buy/sell strategies across major exchanges (Binance, Kraken, Bybit, OKX, and more), with backtesting, hyperparameter optimization, machine-learning-driven strategy tuning (FreqAI), a built-in web UI, and Telegram remote control. It targets developers and traders comfortable writing Python strategy code who are expected to run in dry-run mode before risking real funds. An extremely active, long-running project (since 2017) with a strong community, CI pipeline, and Docker-based deployment.",
+    "keywords": [
+      "algorithmic-trading",
+      "backtesting",
+      "cryptocurrency",
+      "exchange-api",
+      "machine-learning",
+      "python",
+      "telegram",
+      "trading-bot"
+    ],
+    "use_cases": [
+      {
+        "title": "Automate a crypto trading strategy across multiple exchanges",
+        "keywords": [
+          "crypto",
+          "trading-bot"
+        ]
+      },
+      {
+        "title": "Backtest and optimize a trading strategy with FreqAI",
+        "keywords": [
+          "backtesting",
+          "machine-learning"
+        ]
+      },
+      {
+        "title": "Control a running trading bot remotely via Telegram",
+        "keywords": [
+          "remote-control",
+          "telegram"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

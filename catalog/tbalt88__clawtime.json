@@ -1,0 +1,86 @@
+{
+  "fork": {
+    "full_name": "tbalt88/clawtime",
+    "url": "https://github.com/tbalt88/clawtime",
+    "created_at": "2026-02-20T06:01:07Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:02:16Z"
+  },
+  "upstream": {
+    "full_name": "youngkent/clawtime",
+    "url": "https://github.com/youngkent/clawtime",
+    "description": "An engaging 1-on-1 chat interface between you and your AI agent.",
+    "stars": 69,
+    "forks": 16,
+    "watchers": 2,
+    "open_issues": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-02-08T07:06:19Z",
+    "pushed_at": "2026-02-24T21:30:06Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:10Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:10Z",
+    "signals": [
+      "claude-skill",
+      "node"
+    ],
+    "languages": {
+      "JavaScript": 451738,
+      "CSS": 42006,
+      "HTML": 17035,
+      "Shell": 12271
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:46Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "dormant",
+    "analysis": "ClawTime is a self-hosted Node.js web chat interface that connects directly over WebSocket to a locally running OpenClaw AI agent gateway, offering voice conversations (browser speech recognition plus edge-tts), an animated 3D voxel avatar reflecting agent state, passkey (WebAuthn) authentication, and end-to-end encryption. It stores all history and credentials locally (`~/.clawtime/`) rather than routing through cloud chat services, and is designed to be installed and customized by the AI agent itself via a bundled SKILL.md. It targets hobbyists running a personal OpenClaw agent who want a private, expressive chat UI instead of a generic cloud chatbot.",
+    "keywords": [
+      "avatar",
+      "chat-ui",
+      "e2e-encryption",
+      "openclaw",
+      "self-hosted",
+      "tts",
+      "voice",
+      "webauthn",
+      "websocket"
+    ],
+    "use_cases": [
+      {
+        "title": "Give a self-hosted AI agent a private voice-and-avatar chat UI",
+        "keywords": [
+          "chat-ui",
+          "openclaw"
+        ]
+      },
+      {
+        "title": "Talk to a local AI agent by voice from a mobile browser over a tunnel",
+        "keywords": [
+          "tunnel",
+          "voice"
+        ]
+      },
+      {
+        "title": "Let an agent customize its own chat interface and avatar in real time",
+        "keywords": [
+          "agent-modifiable",
+          "avatar"
+        ]
+      }
+    ],
+    "confidence": 0.65,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

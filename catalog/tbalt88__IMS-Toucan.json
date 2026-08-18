@@ -1,0 +1,86 @@
+{
+  "fork": {
+    "full_name": "tbalt88/IMS-Toucan",
+    "url": "https://github.com/tbalt88/IMS-Toucan",
+    "created_at": "2025-12-06T22:02:43Z",
+    "default_branch": "MassiveScaleToucan",
+    "pushed_at": "2026-06-12T21:03:59Z"
+  },
+  "upstream": {
+    "full_name": "DigitalPhonetics/IMS-Toucan",
+    "url": "https://github.com/DigitalPhonetics/IMS-Toucan",
+    "description": "Controllable and fast Text-to-Speech for over 7000 languages!",
+    "stars": 2209,
+    "forks": 316,
+    "watchers": 25,
+    "open_issues": 3,
+    "language": "Python",
+    "topics": [
+      "deep-learning",
+      "pytorch",
+      "speech",
+      "speech-processing",
+      "speech-synthesis",
+      "text-to-speech",
+      "toolkit",
+      "tts"
+    ],
+    "license": "Apache-2.0",
+    "homepage": null,
+    "default_branch": "MassiveScaleToucan",
+    "created_at": "2021-08-05T10:12:38Z",
+    "pushed_at": "2026-01-25T14:45:14Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:12Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:12Z",
+    "signals": [],
+    "languages": {
+      "Python": 1204968
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:55Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "IMS Toucan is a research-grade PyTorch toolkit for training and running text-to-speech synthesis across more than 7000 languages, developed at the University of Stuttgart. It provides inference interfaces for controllable/cloned voices, GAN-based controllability, an aligner, vocoder (HiFiGAN/BigVGAN), and full training/finetuning pipelines, with pretrained models and datasets published on Hugging Face. Targets speech researchers and developers who need multilingual or low-resource-language TTS rather than a plug-and-play consumer app.",
+    "keywords": [
+      "multilingual",
+      "pytorch",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts-toolkit",
+      "voice-cloning"
+    ],
+    "use_cases": [
+      {
+        "title": "Synthesize speech in a low-resource or unusual language",
+        "keywords": [
+          "multilingual",
+          "tts"
+        ]
+      },
+      {
+        "title": "Fine-tune a TTS model on a custom voice dataset",
+        "keywords": [
+          "fine-tuning",
+          "voice-cloning"
+        ]
+      },
+      {
+        "title": "Run inference with a pretrained multilingual TTS model",
+        "keywords": [
+          "inference",
+          "pretrained-model"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

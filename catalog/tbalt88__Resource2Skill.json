@@ -1,0 +1,93 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Resource2Skill",
+    "url": "https://github.com/tbalt88/Resource2Skill",
+    "created_at": "2026-08-13T17:57:26Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-17T16:38:13Z"
+  },
+  "upstream": {
+    "full_name": "microsoft/Resource2Skill",
+    "url": "https://github.com/microsoft/Resource2Skill",
+    "description": "A general framework for distilling human-created multimodal resources into reusable, executable skills that AI agents can browse, compose, and run, validated across diverse domains including web, PowerPoint, Excel, Blender, CAD, Unreal Engine 5, and REAPER-based music production.",
+    "stars": 472,
+    "forks": 56,
+    "watchers": 5,
+    "open_issues": 5,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT",
+    "homepage": "https://aka.ms/Resource2Skill",
+    "default_branch": "main",
+    "created_at": "2026-05-12T18:31:15Z",
+    "pushed_at": "2026-07-17T16:38:13Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:54Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:54Z",
+    "signals": [
+      "python"
+    ],
+    "languages": {
+      "Python": 27865218,
+      "JavaScript": 52485,
+      "CSS": 15607,
+      "HTML": 4879
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:12Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "Resource2Skill is a Microsoft Research framework and runtime that distills human-created multimodal resources (tutorial videos, articles, reference artifacts, code) into reusable, executable \"skills\" that an AI agent can browse, retrieve, compose, and run against real software tools. It ships domain adapters and MCP servers for Web (Playwright), PowerPoint, Excel, Blender, CAD, Unreal Engine 5, and REAPER-based music production, plus a skill-wiki/retrieval layer (BM25 + LLM rerank) and a CLI (`cli.py agent --domain ...`) for running tasks against a chosen domain. It's aimed at AI researchers and agent builders exploring skill-grounded agent execution rather than end users, and its distilled skill libraries are separately published as a Hugging Face dataset, backed by an accompanying arXiv paper.",
+    "keywords": [
+      "agent-skills",
+      "blender",
+      "excel",
+      "mcp",
+      "microsoft-research",
+      "multimodal",
+      "powerpoint",
+      "python",
+      "skill-distillation",
+      "unreal-engine"
+    ],
+    "use_cases": [
+      {
+        "title": "Distill a tutorial video into an executable skill an agent can reuse",
+        "keywords": [
+          "skill-distillation",
+          "video"
+        ]
+      },
+      {
+        "title": "Have an agent build a PowerPoint deck or Excel workbook via retrieved reference skills",
+        "keywords": [
+          "excel",
+          "powerpoint"
+        ]
+      },
+      {
+        "title": "Ground an agent's Blender or Unreal Engine actions in real prior examples",
+        "keywords": [
+          "blender",
+          "unreal-engine"
+        ]
+      },
+      {
+        "title": "Browse and search a skill wiki with BM25 + LLM reranking before agent execution",
+        "keywords": [
+          "retrieval",
+          "skill-wiki"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

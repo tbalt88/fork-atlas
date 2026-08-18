@@ -1,0 +1,113 @@
+{
+  "fork": {
+    "full_name": "tbalt88/kilocode",
+    "url": "https://github.com/tbalt88/kilocode",
+    "created_at": "2026-06-17T15:53:56Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-18T07:40:15Z"
+  },
+  "upstream": {
+    "full_name": "Kilo-Org/kilocode",
+    "url": "https://github.com/Kilo-Org/kilocode",
+    "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+    "stars": 26903,
+    "forks": 3065,
+    "watchers": 109,
+    "open_issues": 614,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-age",
+      "ai-coding",
+      "ai-developer-tools",
+      "chatgpt",
+      "claude",
+      "cli",
+      "gemini",
+      "jetbrains",
+      "sonnet",
+      "vscode",
+      "vscode-extension"
+    ],
+    "license": "MIT",
+    "homepage": "https://kilo.ai/",
+    "default_branch": "main",
+    "created_at": "2025-03-10T15:34:26Z",
+    "pushed_at": "2026-08-17T23:38:55Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:23Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:23Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 32042386,
+      "Kotlin": 4811746,
+      "CSS": 1104531,
+      "HTML": 83387,
+      "JavaScript": 76473,
+      "Tree-sitter Query": 40228,
+      "Shell": 34599,
+      "Nix": 14289,
+      "Dockerfile": 5138,
+      "Python": 3646,
+      "PowerShell": 2301,
+      "Rust": 1044,
+      "Go": 912,
+      "Batchfile": 692,
+      "PHP": 633,
+      "Scheme": 441
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:01Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Kilo Code is an open-source AI coding agent available as a VS Code extension, JetBrains plugin, and standalone CLI, supporting 500+ models with mid-task switching and no markup on provider pricing. It ships specialized agent modes (Code, Plan, Ask, Debug, Review), inline autocomplete, terminal/browser control, an MCP marketplace, and a fully autonomous `--auto` mode for CI/CD pipelines. A large, actively developed project (fork of OpenCode) aimed at developers who want an editor-integrated, model-agnostic coding agent.",
+    "keywords": [
+      "ai-coding-agent",
+      "autonomous-agent",
+      "cli",
+      "code-generation",
+      "jetbrains",
+      "mcp",
+      "vscode-extension"
+    ],
+    "use_cases": [
+      {
+        "title": "Run an AI coding agent inside VS Code or JetBrains",
+        "keywords": [
+          "jetbrains",
+          "vscode-extension"
+        ]
+      },
+      {
+        "title": "Drive autonomous coding tasks from the CLI in CI/CD",
+        "keywords": [
+          "automation",
+          "cli"
+        ]
+      },
+      {
+        "title": "Switch between 500+ models mid-task at provider rates",
+        "keywords": [
+          "model-agnostic"
+        ]
+      },
+      {
+        "title": "Extend agent capabilities via the MCP marketplace",
+        "keywords": [
+          "mcp"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

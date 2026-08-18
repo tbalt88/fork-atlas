@@ -1,0 +1,93 @@
+{
+  "fork": {
+    "full_name": "tbalt88/GLM-OCR",
+    "url": "https://github.com/tbalt88/GLM-OCR",
+    "created_at": "2026-03-17T18:35:16Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:16:53Z"
+  },
+  "upstream": {
+    "full_name": "zai-org/GLM-OCR",
+    "url": "https://github.com/zai-org/GLM-OCR",
+    "description": "GLM-OCR: Accurate ×  Fast × Comprehensive",
+    "stars": 7289,
+    "forks": 657,
+    "watchers": 30,
+    "open_issues": 50,
+    "language": "Python",
+    "topics": [
+      "glm",
+      "image2text",
+      "ocr"
+    ],
+    "license": "Apache-2.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-02-02T12:59:43Z",
+    "pushed_at": "2026-04-21T08:52:11Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:57Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:57Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "node",
+      "python"
+    ],
+    "languages": {
+      "Python": 605393,
+      "TypeScript": 306509,
+      "CSS": 10590,
+      "Shell": 6033,
+      "Dockerfile": 3009,
+      "HTML": 555
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:45Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "model-dataset",
+    "maturity": "active",
+    "analysis": "GLM-OCR is a compact (0.9B parameter) multimodal OCR model from Zhipu AI for complex document understanding — layout analysis, table/formula recognition, and information extraction — built on a GLM-V encoder-decoder with a CogViT visual encoder. It targets developers building document-parsing pipelines who need either a hosted MaaS API or self-hosted deployment via vLLM, SGLang, or Ollama, and ships a Python SDK/CLI (`glmocr`), a Flask service mode, and a React frontend/FastAPI backend demo app. It claims #1 on the OmniDocBench V1.5 benchmark.",
+    "keywords": [
+      "document-parsing",
+      "glm",
+      "layout-analysis",
+      "ocr",
+      "self-hosted",
+      "table-extraction",
+      "vllm",
+      "vlm"
+    ],
+    "use_cases": [
+      {
+        "title": "Extract markdown/JSON from scanned PDFs and images",
+        "keywords": [
+          "document-parsing",
+          "ocr"
+        ]
+      },
+      {
+        "title": "Self-host an OCR model behind vLLM or SGLang",
+        "keywords": [
+          "self-hosted",
+          "vllm"
+        ]
+      },
+      {
+        "title": "Parse complex tables and formulas from business documents",
+        "keywords": [
+          "layout-analysis",
+          "table-extraction"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

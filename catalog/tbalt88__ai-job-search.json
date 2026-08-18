@@ -1,0 +1,105 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ai-job-search",
+    "url": "https://github.com/tbalt88/ai-job-search",
+    "created_at": "2026-06-03T21:08:08Z",
+    "default_branch": "master",
+    "pushed_at": "2026-07-19T08:06:13Z"
+  },
+  "upstream": {
+    "full_name": "MadsLorentzen/ai-job-search",
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+    "stars": 32118,
+    "forks": 11234,
+    "watchers": 117,
+    "open_issues": 9,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "career",
+      "claude-code",
+      "cover-letter",
+      "cv",
+      "interview-preparation",
+      "job-application",
+      "job-hunting",
+      "job-search",
+      "latex",
+      "resume"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2026-03-18T14:33:04Z",
+    "pushed_at": "2026-08-16T18:04:43Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:26Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:26Z",
+    "signals": [
+      "claude-skill",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 224766,
+      "Python": 219388,
+      "TeX": 12823
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:02Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "AI Job Search is a personal job-application framework built on Claude Code, combining slash commands (/setup, /scrape, /apply, /interview, /outcome, and more) with TypeScript CLI skills that query job portals (Jobindex, Jobnet, LinkedIn, etc.) and integrate with other agent tools like Codex and Gemini CLI. Users fork the repo, fill in their profile and documents, and let Claude evaluate job postings, draft LaTeX CVs and cover letters, and prep for interviews. It's built for individual job seekers comfortable running Claude Code, Bun, and a LaTeX toolchain locally; the portal-search skills are Denmark-specific but the evaluation/application pipeline is designed to be language- and country-agnostic.",
+    "keywords": [
+      "agent-skills",
+      "career",
+      "claude-code",
+      "cover-letter",
+      "cv",
+      "job-search",
+      "latex",
+      "resume"
+    ],
+    "use_cases": [
+      {
+        "title": "Fork and customize a personal AI job-search workflow",
+        "keywords": [
+          "fork",
+          "personal-tool"
+        ]
+      },
+      {
+        "title": "Auto-draft a tailored CV and cover letter from a job posting",
+        "keywords": [
+          "cover-letter",
+          "cv"
+        ]
+      },
+      {
+        "title": "Track application outcomes and prep for interviews",
+        "keywords": [
+          "interview-prep",
+          "tracking"
+        ]
+      },
+      {
+        "title": "Search local job portals via Claude Code CLI skills",
+        "keywords": [
+          "cli",
+          "job-portals"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

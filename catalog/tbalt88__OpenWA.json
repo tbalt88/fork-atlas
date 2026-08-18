@@ -1,0 +1,107 @@
+{
+  "fork": {
+    "full_name": "tbalt88/OpenWA",
+    "url": "https://github.com/tbalt88/OpenWA",
+    "created_at": "2026-05-18T17:28:34Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:26Z"
+  },
+  "upstream": {
+    "full_name": "rmyndharis/OpenWA",
+    "url": "https://github.com/rmyndharis/OpenWA",
+    "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+    "stars": 12876,
+    "forks": 2958,
+    "watchers": 68,
+    "open_issues": 7,
+    "language": "TypeScript",
+    "topics": [
+      "api",
+      "bot",
+      "gateway",
+      "self-hosted",
+      "whatsapp",
+      "whatsapp-api",
+      "whatsapp-automation",
+      "whatsapp-bot",
+      "whatsapp-gateway",
+      "whatsapp-gateway-api",
+      "whatsapp-web",
+      "whatsapp-web-api"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.open-wa.org",
+    "default_branch": "main",
+    "created_at": "2026-02-02T12:14:45Z",
+    "pushed_at": "2026-08-18T01:59:45Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:39Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:39Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 8077109,
+      "Java": 319679,
+      "JavaScript": 262200,
+      "Go": 232079,
+      "CSS": 193594,
+      "Python": 164043,
+      "PHP": 146453,
+      "Shell": 46701,
+      "Dockerfile": 13796,
+      "Go Template": 1307,
+      "HTML": 532
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:48Z"
+  },
+  "classification": {
+    "domain": "automation-integrations",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "OpenWA is a self-hosted, open-source WhatsApp API Gateway built on NestJS/TypeScript that exposes a REST API for sending/receiving text, media, reactions, groups, and channels over WhatsApp, using reverse-engineered clients (whatsapp-web.js and Baileys) rather than Meta's official Cloud API. It has a pluggable architecture (SQLite/PostgreSQL, Local/S3, Redis cache), a React management dashboard, webhooks with HMAC signing, multi-session support, official plugins for Chatwoot/Typebot, and n8n community nodes for workflow automation. Aimed at developers and automation hobbyists who need WhatsApp bot/notification infrastructure without vendor lock-in, with explicit documentation warning about account-ban risk since it's unofficial and not suited for regulated/compliance-sensitive deployments.",
+    "keywords": [
+      "api-gateway",
+      "automation",
+      "bot",
+      "chatwoot",
+      "n8n",
+      "nestjs",
+      "self-hosted",
+      "webhooks",
+      "whatsapp"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a WhatsApp API to send automated notifications or OTPs",
+        "keywords": [
+          "self-hosted",
+          "whatsapp"
+        ]
+      },
+      {
+        "title": "Build a WhatsApp chatbot integrated with n8n or Chatwoot",
+        "keywords": [
+          "automation",
+          "chatbot"
+        ]
+      },
+      {
+        "title": "Run multiple WhatsApp sessions with webhook events for a support tool",
+        "keywords": [
+          "multi-session",
+          "webhooks"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

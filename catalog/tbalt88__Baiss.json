@@ -1,0 +1,92 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Baiss",
+    "url": "https://github.com/tbalt88/Baiss",
+    "created_at": "2025-12-27T00:55:08Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:17:40Z"
+  },
+  "upstream": {
+    "full_name": "Tbeninnovation/Baiss",
+    "url": "https://github.com/Tbeninnovation/Baiss",
+    "description": null,
+    "stars": 141,
+    "forks": 25,
+    "watchers": 1,
+    "open_issues": 2,
+    "language": "C#",
+    "topics": [],
+    "license": "Apache-2.0",
+    "homepage": "https://baiss.ai/",
+    "default_branch": "main",
+    "created_at": "2025-12-14T21:13:27Z",
+    "pushed_at": "2025-12-29T01:10:14Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:51Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:51Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "C#": 1191660,
+      "Python": 635375,
+      "C++": 65925,
+      "Makefile": 1496,
+      "Shell": 53
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:28Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Baiss is a cross-platform desktop AI assistant (Windows, macOS, Linux) built with a .NET 8 / Avalonia UI frontend in Clean Architecture and a Python/FastAPI backend, running local LLMs via llama.cpp with RAG powered by DuckDB and FlashRank re-ranking. It targets privacy-focused developers and researchers who want a local-first chat/RAG assistant without cloud dependencies, with support for multiple AI providers and an extensible plugin architecture. Ships as installable desktop binaries with SQL migrations tracking active feature development.",
+    "keywords": [
+      "avalonia",
+      "desktop-app",
+      "dotnet",
+      "duckdb",
+      "llama-cpp",
+      "local-llm",
+      "privacy",
+      "rag"
+    ],
+    "use_cases": [
+      {
+        "title": "Run a private, local-first AI chat assistant on desktop",
+        "keywords": [
+          "desktop-app",
+          "local-llm"
+        ]
+      },
+      {
+        "title": "Reference a Clean Architecture C#/Python hybrid app for AI desktop tools",
+        "keywords": [
+          "clean-architecture",
+          "dotnet"
+        ]
+      },
+      {
+        "title": "Build local RAG search over personal documents with DuckDB",
+        "keywords": [
+          "duckdb",
+          "rag"
+        ]
+      },
+      {
+        "title": "Study integrating llama.cpp with a FastAPI backend and native UI",
+        "keywords": [
+          "fastapi",
+          "llama-cpp"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

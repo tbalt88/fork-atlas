@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/aithing",
+    "url": "https://github.com/tbalt88/aithing",
+    "created_at": "2026-02-14T07:41:23Z",
+    "default_branch": "main",
+    "pushed_at": "2026-01-04T05:07:17Z"
+  },
+  "upstream": {
+    "full_name": "thisisnsh/aithing",
+    "url": "https://github.com/thisisnsh/aithing",
+    "description": "AI, Agents, and Automation",
+    "stars": 92,
+    "forks": 13,
+    "watchers": 2,
+    "open_issues": 16,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT",
+    "homepage": "https://aithing.dev",
+    "default_branch": "main",
+    "created_at": "2025-12-05T01:16:58Z",
+    "pushed_at": "2026-01-04T05:07:17Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:13Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:13Z",
+    "signals": [
+      "node",
+      "rust"
+    ],
+    "languages": {
+      "Swift": 511859,
+      "MDX": 66648,
+      "JavaScript": 30421,
+      "CSS": 22503,
+      "HTML": 15737,
+      "Rust": 10327
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:09Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "AI Thing is a privacy-first, BYOK desktop AI automation app for macOS (Swift/AppKit) with a companion Tauri-based cross-platform shell, letting users run frontier models (Anthropic, OpenAI, Gemini) and connect agents like Google Workspace, GitHub, and Notion via MCP servers. It supports background automations, multi-model switching within a single conversation, and complex multi-app tasks, all with local storage of conversations and API keys instead of a hosted backend. It targets individuals who want a self-hosted alternative to paid agent platforms and is now fully open source. Notable tech: Swift/SwiftUI native macOS app, Firebase auth, Tauri/Rust shell, MCP client integration.",
+    "keywords": [
+      "automation",
+      "background-tasks",
+      "byok",
+      "desktop-app",
+      "macos",
+      "mcp",
+      "multi-agent",
+      "privacy",
+      "swift",
+      "tauri"
+    ],
+    "use_cases": [
+      {
+        "title": "Run background AI automations that span multiple apps and tools",
+        "keywords": [
+          "automation",
+          "background"
+        ]
+      },
+      {
+        "title": "Use your own Anthropic/OpenAI/Gemini API keys in a local-first chat client",
+        "keywords": [
+          "byok",
+          "privacy"
+        ]
+      },
+      {
+        "title": "Connect an AI agent to GitHub, Google Workspace, and Notion via MCP",
+        "keywords": [
+          "integrations",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Switch between multiple frontier models mid-conversation on desktop",
+        "keywords": [
+          "desktop",
+          "model-switching"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,97 @@
+{
+  "fork": {
+    "full_name": "tbalt88/skill-recorder",
+    "url": "https://github.com/tbalt88/skill-recorder",
+    "created_at": "2026-08-03T19:28:38Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-03T10:12:20Z"
+  },
+  "upstream": {
+    "full_name": "microsoft/skill-recorder",
+    "url": "https://github.com/microsoft/skill-recorder",
+    "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
+    "stars": 3225,
+    "forks": 320,
+    "watchers": 18,
+    "open_issues": 31,
+    "language": "TypeScript",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "automation",
+      "copilot",
+      "copilot-cli",
+      "copilot-cowork",
+      "copilot-studio",
+      "electron",
+      "microsoft-scout",
+      "screen-recording"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-07-29T18:16:14Z",
+    "pushed_at": "2026-08-12T13:31:33Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:04Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:04Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 980272,
+      "JavaScript": 195015,
+      "CSS": 63565,
+      "PowerShell": 39703,
+      "Shell": 20117,
+      "HTML": 15038,
+      "NSIS": 367
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:24Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Skill Recorder is a Microsoft Electron desktop app (macOS primary, Windows supported) that records a user's on-screen work session — clicks, window/app switches, browser URLs, clipboard, and optional spoken narration — then uses the GitHub Copilot CLI to reconstruct the session into a clear intent plus ordered steps. From that reconstruction it generates a reusable `SKILL.md` Skill or a scheduled Automation for Microsoft Scout, Copilot Cowork, or Copilot Studio, preferring native agent tools (like `gh` CLI or web_fetch) over UI-click replay so a single recorded example generalizes to similar tasks. Aimed at non-technical and technical users who want to teach an AI agent a repeatable procedure by demonstrating it once, with local-only capture and explicit warnings about not recording secrets since Analyze sends data to GitHub's cloud.",
+    "keywords": [
+      "automation",
+      "copilot-cowork",
+      "electron",
+      "github-copilot",
+      "microsoft-scout",
+      "screen-recording",
+      "skill-generation",
+      "whisper"
+    ],
+    "use_cases": [
+      {
+        "title": "Record a manual workflow once and turn it into a reusable agent Skill",
+        "keywords": [
+          "screen-recording",
+          "skill-generation"
+        ]
+      },
+      {
+        "title": "Generate a scheduled Automation from a demonstrated task",
+        "keywords": [
+          "automation"
+        ]
+      },
+      {
+        "title": "Teach an agent to fill out forms by demonstrating one example",
+        "keywords": [
+          "automation",
+          "generalization"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

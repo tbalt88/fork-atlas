@@ -1,0 +1,94 @@
+{
+  "fork": {
+    "full_name": "tbalt88/yt-dlp-mcp",
+    "url": "https://github.com/tbalt88/yt-dlp-mcp",
+    "created_at": "2025-12-02T19:10:25Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:04:08Z"
+  },
+  "upstream": {
+    "full_name": "kevinwatt/yt-dlp-mcp",
+    "url": "https://github.com/kevinwatt/yt-dlp-mcp",
+    "description": "A Model Context Protocol (MCP) server that bridges Video & Audio content with Large Language Models using yt-dlp.",
+    "stars": 270,
+    "forks": 59,
+    "watchers": 2,
+    "open_issues": 4,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-02-10T18:40:09Z",
+    "pushed_at": "2026-08-11T10:39:40Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:17Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:17Z",
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "node",
+      "python",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 134197,
+      "JavaScript": 51567,
+      "Python": 17454
+    },
+    "inputs_prepared_at": "2026-08-18T02:19:03Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "yt-dlp-mcp is a Model Context Protocol server that wraps yt-dlp to give LLMs (Claude, Dive, Cursor, etc.) tools for searching YouTube, extracting video/channel metadata, downloading subtitles/transcripts, downloading video/audio, and pulling flat or threaded comments in JSON or Markdown. It targets developers wanting natural-language video-platform access from any MCP-compatible AI client, with configurable proxy/cookie support via env vars or the yt-dlp config file, and includes a bundled Claude Code MCP-builder skill. A TypeScript/Node package published to npm, actively maintained with a broad test suite.",
+    "keywords": [
+      "claude",
+      "mcp",
+      "subtitles",
+      "transcripts",
+      "typescript",
+      "video-download",
+      "youtube",
+      "yt-dlp"
+    ],
+    "use_cases": [
+      {
+        "title": "Let an LLM search and summarize YouTube videos",
+        "keywords": [
+          "mcp",
+          "youtube-search"
+        ]
+      },
+      {
+        "title": "Pull clean transcripts or subtitles for an agent to read",
+        "keywords": [
+          "subtitles",
+          "transcripts"
+        ]
+      },
+      {
+        "title": "Download video/audio from a natural-language request",
+        "keywords": [
+          "audio-extraction",
+          "video-download"
+        ]
+      },
+      {
+        "title": "Fetch threaded YouTube comments for sentiment analysis",
+        "keywords": [
+          "comments",
+          "youtube"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

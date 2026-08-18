@@ -1,0 +1,75 @@
+{
+  "fork": {
+    "full_name": "tbalt88/resources-to-become-a-great-engineering-leader",
+    "url": "https://github.com/tbalt88/resources-to-become-a-great-engineering-leader",
+    "created_at": "2025-12-04T17:48:29Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:04:03Z"
+  },
+  "upstream": {
+    "full_name": "gregorojstersek/resources-to-become-a-great-engineering-leader",
+    "url": "https://github.com/gregorojstersek/resources-to-become-a-great-engineering-leader",
+    "description": "List of books, blogs, newsletters and people!",
+    "stars": 7324,
+    "forks": 887,
+    "watchers": 113,
+    "open_issues": 1,
+    "language": null,
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2024-01-16T09:59:06Z",
+    "pushed_at": "2026-05-06T12:57:45Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:14Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:14Z",
+    "signals": [],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T02:18:13Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A single-README awesome-list of over 200 curated resources for growing into an engineering leadership role, spanning books, blogs, newsletters, and people to follow across system design, management/leadership, data engineering, and AI/product/business topics. It's maintained by newsletter author Gregor Ojstersek and is purely a link/recommendation list with no code, aimed at engineers transitioning into or growing within tech leadership. Actively updated (last push May 2026) with strong community traction (7300+ stars).",
+    "keywords": [
+      "awesome-list",
+      "career",
+      "curated-resources",
+      "engineering-leadership",
+      "management",
+      "system-design"
+    ],
+    "use_cases": [
+      {
+        "title": "Find books and newsletters for growing into an engineering manager role",
+        "keywords": [
+          "career",
+          "engineering-leadership"
+        ]
+      },
+      {
+        "title": "Curate a reading list for system design and architecture skills",
+        "keywords": [
+          "curated-resources",
+          "system-design"
+        ]
+      },
+      {
+        "title": "Discover people and blogs to follow on engineering leadership",
+        "keywords": [
+          "curated-resources",
+          "management"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

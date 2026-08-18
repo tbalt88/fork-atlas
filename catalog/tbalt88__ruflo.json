@@ -1,0 +1,114 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ruflo",
+    "url": "https://github.com/tbalt88/ruflo",
+    "created_at": "2026-07-01T03:44:19Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-14T07:53:00Z"
+  },
+  "upstream": {
+    "full_name": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+    "stars": 68093,
+    "forks": 8161,
+    "watchers": 440,
+    "open_issues": 836,
+    "language": "TypeScript",
+    "topics": [
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "agents",
+      "ai-agents",
+      "ai-assistant",
+      "ai-coding",
+      "ai-skills",
+      "autonomous-agents",
+      "claude-code",
+      "codex",
+      "harness",
+      "mcp-server",
+      "multi-agent",
+      "multi-agent-systems",
+      "npm",
+      "skills",
+      "swarm",
+      "swarm-intelligence",
+      "typescript"
+    ],
+    "license": "MIT",
+    "homepage": "https://Cognitum.One",
+    "default_branch": "main",
+    "created_at": "2025-06-02T21:24:20Z",
+    "pushed_at": "2026-08-17T09:20:39Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:18Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:18Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "TypeScript": 24759519,
+      "JavaScript": 3068143,
+      "Shell": 1000016,
+      "Svelte": 395556,
+      "Rust": 289149,
+      "PLpgSQL": 120942,
+      "Dockerfile": 14878,
+      "PowerShell": 14271,
+      "HTML": 10589,
+      "CSS": 9895,
+      "Batchfile": 3366,
+      "Makefile": 2818,
+      "Go Template": 534,
+      "Standard ML": 89
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:17Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Ruflo (formerly Claude Flow) is an 'agent meta-harness' layered on top of Claude Code and Codex, installed via `npx ruflo init`, that adds 98+ specialized agents, swarm coordination, self-learning/adaptive memory, RAG integration, an MCP server, hooks, and 35 optional plugins (security audit, testgen, browser automation, cross-machine federation, etc.). It's aimed at power users who want their coding agent to self-organize into coordinated multi-agent workflows and remember context across sessions, distributed as an npm CLI plus a Claude Code plugin marketplace. Large, very active ecosystem (68k stars, daily pushes).",
+    "keywords": [
+      "agent-harness",
+      "claude-code",
+      "mcp-server",
+      "memory",
+      "multi-agent",
+      "orchestration",
+      "swarm"
+    ],
+    "use_cases": [
+      {
+        "title": "Add multi-agent swarm coordination to Claude Code",
+        "keywords": [
+          "claude-code",
+          "swarm"
+        ]
+      },
+      {
+        "title": "Give an AI coding agent persistent cross-session memory",
+        "keywords": [
+          "mcp",
+          "memory"
+        ]
+      },
+      {
+        "title": "Federate agents across machines securely",
+        "keywords": [
+          "federation",
+          "multi-agent"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

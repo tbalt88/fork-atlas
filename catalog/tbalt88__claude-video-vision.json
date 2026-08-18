@@ -1,0 +1,105 @@
+{
+  "fork": {
+    "full_name": "tbalt88/claude-video-vision",
+    "url": "https://github.com/tbalt88/claude-video-vision",
+    "created_at": "2026-07-19T22:04:25Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-01T14:37:37Z"
+  },
+  "upstream": {
+    "full_name": "jordanrendric/claude-video-vision",
+    "url": "https://github.com/jordanrendric/claude-video-vision",
+    "description": "Give Claude the ability to watch and understand videos — Claude Code plugin with frame extraction and multimodal audio analysis",
+    "stars": 1237,
+    "forks": 146,
+    "watchers": 9,
+    "open_issues": 16,
+    "language": "TypeScript",
+    "topics": [
+      "claude-code",
+      "claude-code-plugin",
+      "ffmpeg",
+      "gemini",
+      "mcp",
+      "mcp-server",
+      "multimodal",
+      "video-analysis",
+      "whisper"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/jordanrendric/claude-video-vision",
+    "default_branch": "main",
+    "created_at": "2026-03-31T19:49:52Z",
+    "pushed_at": "2026-08-07T02:28:19Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:11Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:11Z",
+    "signals": [
+      "claude-skill",
+      "gh-actions",
+      "mcp",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 189979,
+      "JavaScript": 18192
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:42Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "Claude Code Video Vision is a Claude Code plugin (MCP server + skill + slash commands) that gives Claude the ability to watch and understand video by extracting frames with ffmpeg and transcribing audio via Gemini API, local Whisper, or the OpenAI API. It acts purely as a perception layer — Claude receives raw frames and timestamped transcripts and does the reasoning itself — and supports local files as well as YouTube URLs (via yt-dlp, preferring official captions when available). Built in Node.js/TypeScript, it's aimed at Claude Code users who want their agent to analyze tutorials, bug-report recordings, or YouTube content directly inside a coding session, with an interactive setup wizard and auto-installing MCP server via npx.",
+    "keywords": [
+      "claude-code",
+      "ffmpeg",
+      "gemini",
+      "mcp",
+      "multimodal",
+      "plugin",
+      "transcription",
+      "video-analysis",
+      "whisper",
+      "youtube"
+    ],
+    "use_cases": [
+      {
+        "title": "Have Claude Code summarize or answer questions about a local screen recording",
+        "keywords": [
+          "claude-code",
+          "video-analysis"
+        ]
+      },
+      {
+        "title": "Feed a YouTube tutorial into Claude and ask what language or tool it demonstrates",
+        "keywords": [
+          "transcription",
+          "youtube"
+        ]
+      },
+      {
+        "title": "Run fully offline video/audio analysis with local Whisper instead of paid APIs",
+        "keywords": [
+          "local",
+          "whisper"
+        ]
+      },
+      {
+        "title": "Drill into a specific timestamp of a previously analyzed video",
+        "keywords": [
+          "mcp",
+          "video-detail"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

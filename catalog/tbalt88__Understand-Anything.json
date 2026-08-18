@@ -1,0 +1,114 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Understand-Anything",
+    "url": "https://github.com/tbalt88/Understand-Anything",
+    "created_at": "2026-05-07T20:45:12Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:23Z"
+  },
+  "upstream": {
+    "full_name": "Egonex-AI/Understand-Anything",
+    "url": "https://github.com/Egonex-AI/Understand-Anything",
+    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+    "stars": 79630,
+    "forks": 6685,
+    "watchers": 249,
+    "open_issues": 284,
+    "language": "TypeScript",
+    "topics": [
+      "antigravity-skills",
+      "business-knowledge",
+      "claude-code",
+      "claude-skills",
+      "codebase-analysis",
+      "codex",
+      "codex-skills",
+      "developer-tools-ai-agent",
+      "gemini-cli-skills",
+      "karpathy-llm-wiki",
+      "knowledge-base",
+      "knowledge-graph",
+      "memory",
+      "opencode-skills",
+      "pi-agent",
+      "understandcode",
+      "vibe-coding"
+    ],
+    "license": "MIT",
+    "homepage": "https://understand-anything.com/",
+    "default_branch": "main",
+    "created_at": "2026-03-15T02:30:51Z",
+    "pushed_at": "2026-08-11T14:13:37Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:47Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:47Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 1545211,
+      "JavaScript": 551987,
+      "Python": 201165,
+      "Astro": 65977,
+      "CSS": 11373,
+      "PowerShell": 11256,
+      "Shell": 9544,
+      "HTML": 705
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:47Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "Understand Anything is a multi-platform coding-agent plugin/skill (native for Claude Code, plus installers for Codex, Cursor, Copilot, Gemini CLI, and a dozen more) that runs a multi-agent pipeline to build an interactive knowledge graph of a codebase's files, functions, classes, and dependencies, then serves it through a searchable, zoomable web dashboard. It targets developers onboarding to large or unfamiliar codebases, offering guided tours, diff-impact analysis, business-domain-flow views, and chat-style Q&A (`/understand-chat`) over the graph, with incremental re-analysis to control token cost. Very actively developed with a large plans/specs archive and strong adoption (79k+ stars).",
+    "keywords": [
+      "claude-code",
+      "codebase-analysis",
+      "developer-tools",
+      "knowledge-graph",
+      "mcp",
+      "onboarding",
+      "skill-pack"
+    ],
+    "use_cases": [
+      {
+        "title": "Generate an interactive knowledge graph to onboard onto a large codebase",
+        "keywords": [
+          "codebase-analysis",
+          "onboarding"
+        ]
+      },
+      {
+        "title": "Ask an agent plain-English questions about how a system works",
+        "keywords": [
+          "developer-tools",
+          "knowledge-graph"
+        ]
+      },
+      {
+        "title": "Analyze the impact of a diff before committing changes",
+        "keywords": [
+          "codebase-analysis",
+          "developer-tools"
+        ]
+      },
+      {
+        "title": "Install a codebase-understanding skill across Claude Code, Cursor, and Copilot",
+        "keywords": [
+          "claude-code",
+          "skill-pack"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

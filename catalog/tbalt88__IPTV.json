@@ -1,0 +1,75 @@
+{
+  "fork": {
+    "full_name": "tbalt88/IPTV",
+    "url": "https://github.com/tbalt88/IPTV",
+    "created_at": "2026-02-01T05:13:03Z",
+    "default_branch": "master",
+    "pushed_at": "2026-07-07T09:32:10Z"
+  },
+  "upstream": {
+    "full_name": "Free-TV/IPTV",
+    "url": "https://github.com/Free-TV/IPTV",
+    "description": "M3U Playlist for free TV channels",
+    "stars": 19910,
+    "forks": 2880,
+    "watchers": 771,
+    "open_issues": 2,
+    "language": "Python",
+    "topics": [
+      "help-wanted",
+      "looking-for-contributors"
+    ],
+    "license": null,
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2021-04-13T09:13:48Z",
+    "pushed_at": "2026-08-17T19:43:30Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:32Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:32Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 5698,
+      "Shell": 949
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:57Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "This repository maintains a curated, community-sourced M3U8 playlist of free, legal-to-stream TV channels from around the world, organized by country in per-country markdown files and compiled into a single playlist via a Python script. It targets IPTV app users who want a ready-made channel list rather than software to build with, and enforces a strict quality bar (HD only, one URL per channel, no paid or geoblocked-only content). It is very actively maintained with automated CI to validate and rebuild the playlist.",
+    "keywords": [
+      "curated-list",
+      "free-tv",
+      "iptv",
+      "m3u",
+      "playlist",
+      "streaming"
+    ],
+    "use_cases": [
+      {
+        "title": "Point an IPTV player at a maintained free-TV playlist by country",
+        "keywords": [
+          "iptv",
+          "playlist"
+        ]
+      },
+      {
+        "title": "Contribute a new free, legal streaming channel via pull request",
+        "keywords": [
+          "curated-list"
+        ]
+      }
+    ],
+    "confidence": 0.6,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

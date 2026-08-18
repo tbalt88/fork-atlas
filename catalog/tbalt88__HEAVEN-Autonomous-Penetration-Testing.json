@@ -1,0 +1,112 @@
+{
+  "fork": {
+    "full_name": "tbalt88/HEAVEN-Autonomous-Penetration-Testing",
+    "url": "https://github.com/tbalt88/HEAVEN-Autonomous-Penetration-Testing",
+    "created_at": "2026-08-16T21:55:30Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-12T12:04:38Z"
+  },
+  "upstream": {
+    "full_name": "nishu2402/HEAVEN-Autonomous-Penetration-Testing",
+    "url": "https://github.com/nishu2402/HEAVEN-Autonomous-Penetration-Testing",
+    "description": "☠️ A production-grade autonomous penetration testing platform that automates deep reconnaissance, machine learning-driven risk scoring, verified exploitation, and compliance reporting. Features 172 modules, an async task graph orchestrator, and automated threat mapping to MITRE ATT&CK and OWASP Top 10.",
+    "stars": 49,
+    "forks": 10,
+    "watchers": 1,
+    "open_issues": 0,
+    "language": "Python",
+    "topics": [
+      "automated-pentesting",
+      "cybersecurity",
+      "fastapi",
+      "machine-learning",
+      "mitre-attack",
+      "offensive-security",
+      "penetration-testing",
+      "python",
+      "red-team",
+      "vulnerability-scanners"
+    ],
+    "license": "NOASSERTION",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-05-05T15:30:45Z",
+    "pushed_at": "2026-08-18T00:33:51Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:44Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:44Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "Python": 4738573,
+      "JavaScript": 484393,
+      "CSS": 84670,
+      "PLpgSQL": 41882,
+      "Shell": 39361,
+      "PowerShell": 24336,
+      "Dockerfile": 3802,
+      "Go Template": 1651,
+      "HTML": 1560,
+      "Mako": 635
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:47Z"
+  },
+  "classification": {
+    "domain": "security",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "HEAVEN is a production-grade autonomous penetration-testing platform written primarily in Python/FastAPI that automates reconnaissance, vulnerability detection, verified exploitation, post-exploitation, and compliance reporting, usable via a 55-command CLI, a 25-page React web UI, or a 77-route RBAC REST/WebSocket API. It combines classical security tooling (nmap, sqlmap, Nuclei, GTFOBins-based privesc engines) with an LLM observe-plan-act loop (Anthropic/OpenAI/Gemini, or a deterministic no-API-key fallback) for recon planning, attack-chain building, and false-positive review, plus a CVSS ML risk predictor and MITRE ATT&CK/kill-chain mapping. It targets professional penetration testers and red teams who want to automate the repeatable parts of an authorized engagement while retaining human judgment for exploitation decisions, and ships with Docker/Helm deployment and an extensive test suite.",
+    "keywords": [
+      "cvss",
+      "fastapi",
+      "go",
+      "llm-agent",
+      "mitre-attack",
+      "offensive-security",
+      "penetration-testing",
+      "red-team",
+      "reporting",
+      "vulnerability-scanning"
+    ],
+    "use_cases": [
+      {
+        "title": "Run an automated recon-to-report pentest engagement from the CLI in CI",
+        "keywords": [
+          "automation",
+          "cli"
+        ]
+      },
+      {
+        "title": "Triage and prioritize findings with an ML-based CVSS risk predictor",
+        "keywords": [
+          "cvss",
+          "risk-scoring"
+        ]
+      },
+      {
+        "title": "Map discovered vulnerabilities to MITRE ATT&CK techniques for a compliance report",
+        "keywords": [
+          "compliance",
+          "mitre-attack"
+        ]
+      },
+      {
+        "title": "Drive a bug-bounty or CTF engagement through a web dashboard with live findings",
+        "keywords": [
+          "bug-bounty",
+          "web-ui"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

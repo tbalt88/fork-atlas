@@ -1,0 +1,79 @@
+{
+  "fork": {
+    "full_name": "tbalt88/awesome-cli-coding-agents",
+    "url": "https://github.com/tbalt88/awesome-cli-coding-agents",
+    "created_at": "2026-05-20T06:11:21Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-14T07:53:44Z"
+  },
+  "upstream": {
+    "full_name": "bradAGI/awesome-cli-coding-agents",
+    "url": "https://github.com/bradAGI/awesome-cli-coding-agents",
+    "description": "Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous loops, and agent infrastructure. ",
+    "stars": 1013,
+    "forks": 284,
+    "watchers": 12,
+    "open_issues": 50,
+    "language": "Python",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-02-07T00:53:24Z",
+    "pushed_at": "2026-08-17T08:32:33Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:35Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:35Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 5703
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:24Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "An awesome-list curating 110+ terminal-native AI coding agents (Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode, Goose, and many more) plus the harnesses, session managers, and orchestrators that wrap them. It's aimed at developers scanning the fast-moving CLI coding-agent landscape who want a single sorted-by-stars reference with short descriptions, licenses, and provider tags. The repo is essentially markdown plus a small Python script that auto-updates star counts via a scheduled GitHub Action.",
+    "keywords": [
+      "awesome-list",
+      "claude-code",
+      "cli-agents",
+      "codex",
+      "coding-agents",
+      "curated-list",
+      "harness",
+      "terminal"
+    ],
+    "use_cases": [
+      {
+        "title": "Find a terminal-native AI coding agent to try",
+        "keywords": [
+          "cli-agents",
+          "curated-list"
+        ]
+      },
+      {
+        "title": "Compare open-source vs closed-source coding agent options",
+        "keywords": [
+          "coding-agents"
+        ]
+      },
+      {
+        "title": "Discover harnesses and orchestrators for running multiple agents",
+        "keywords": [
+          "harness"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

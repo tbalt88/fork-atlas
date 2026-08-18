@@ -1,0 +1,118 @@
+{
+  "fork": {
+    "full_name": "tbalt88/stenoai",
+    "url": "https://github.com/tbalt88/stenoai",
+    "created_at": "2025-12-27T06:31:21Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:38Z"
+  },
+  "upstream": {
+    "full_name": "stenolabs/stenoai",
+    "url": "https://github.com/stenolabs/stenoai",
+    "description": "Steno is the highly secure privacy-first AI notepad & notetaker for all your confidential conversations. On Windows & MacOS. For government and defence sectors.",
+    "stars": 1278,
+    "forks": 168,
+    "watchers": 4,
+    "open_issues": 45,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "apple-silicon",
+      "defense",
+      "defense-tech",
+      "gemma4",
+      "gov-tech",
+      "government",
+      "healthcare",
+      "healthcare-ai",
+      "legal",
+      "legal-ai",
+      "legal-tech",
+      "localllm",
+      "meeting-minutes",
+      "meeting-notes",
+      "privacy",
+      "sovereign-ai",
+      "windows"
+    ],
+    "license": "MIT",
+    "homepage": "https://stenoai.co/",
+    "default_branch": "main",
+    "created_at": "2025-08-19T19:26:28Z",
+    "pushed_at": "2026-08-12T07:47:06Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:50Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:50Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "Python": 1906774,
+      "TypeScript": 1895496,
+      "JavaScript": 1093217,
+      "Astro": 122680,
+      "CSS": 60352,
+      "Swift": 50209,
+      "Shell": 37409,
+      "HTML": 1519,
+      "Makefile": 345
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:33Z"
+  },
+  "classification": {
+    "domain": "knowledge-productivity",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Steno (stenoai) is a privacy-first, 100% on-device macOS (and alpha Windows) desktop app that records, live-transcribes with speaker labels, summarizes, and lets you query meetings using local AI models (Parakeet TDT v3 for live transcription, Whisper for other languages, Gemma/Qwen via Ollama for summarization), with no cloud dependency by default. It supports auto-detecting meeting start/stop, system audio capture without Screen Recording permission, Markdown export, Obsidian sync, custom report templates, and optional bring-your-own-cloud-model (OpenAI/Anthropic/Bedrock), plus agent skills (`/steno`, `granola-to-steno`) for querying notes from Claude Code. It targets government, defense, legal, healthcare, and privacy-conscious professionals who need confidential meeting notes that never leave their machine.",
+    "keywords": [
+      "electron",
+      "local-llm",
+      "meeting-notes",
+      "notetaker",
+      "obsidian",
+      "on-device",
+      "privacy",
+      "transcription",
+      "whisper"
+    ],
+    "use_cases": [
+      {
+        "title": "Record and transcribe confidential meetings entirely on-device",
+        "keywords": [
+          "privacy",
+          "transcription"
+        ]
+      },
+      {
+        "title": "Ask natural-language questions across your meeting history",
+        "keywords": [
+          "local-llm",
+          "notetaker"
+        ]
+      },
+      {
+        "title": "Sync meeting notes into an Obsidian vault as Markdown",
+        "keywords": [
+          "markdown",
+          "obsidian"
+        ]
+      },
+      {
+        "title": "Query Steno meeting notes from Claude Code via the /steno agent skill",
+        "keywords": [
+          "claude-code-skills",
+          "notetaker"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

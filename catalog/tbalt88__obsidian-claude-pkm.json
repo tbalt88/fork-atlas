@@ -1,0 +1,97 @@
+{
+  "fork": {
+    "full_name": "tbalt88/obsidian-claude-pkm",
+    "url": "https://github.com/tbalt88/obsidian-claude-pkm",
+    "created_at": "2025-12-26T13:32:08Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:03:30Z"
+  },
+  "upstream": {
+    "full_name": "ballred/obsidian-claude-pkm",
+    "url": "https://github.com/ballred/obsidian-claude-pkm",
+    "description": "A complete starter kit for an Obsidian + Claude Code personal knowledge management system.",
+    "stars": 1826,
+    "forks": 124,
+    "watchers": 12,
+    "open_issues": 11,
+    "language": "Shell",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "goal-tracking",
+      "obsidian",
+      "pkm",
+      "productivity",
+      "second-brain"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-08-07T22:09:42Z",
+    "pushed_at": "2026-02-18T02:01:08Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:55Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:55Z",
+    "signals": [
+      "claude-md",
+      "claude-skill"
+    ],
+    "languages": {
+      "Shell": 36399,
+      "Batchfile": 7292
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:28Z"
+  },
+  "classification": {
+    "domain": "knowledge-productivity",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "This is a complete starter kit that turns an Obsidian vault into an AI-driven personal knowledge management and accountability system powered by Claude Code. It wires a goal cascade (3-year vision to yearly/monthly/weekly goals to daily notes) together with Claude Code skills (/daily, /weekly, /monthly, /project, /adopt) and four specialized subagents (goal-aligner, weekly-reviewer, note-organizer, inbox-processor) that carry cross-session memory. It's aimed at Obsidian users who want their notes, goals, and daily tasks kept in sync automatically via bash hooks and zero external dependencies, and it supports both fresh vaults and adopting an existing one.",
+    "keywords": [
+      "automation",
+      "claude-code",
+      "goal-tracking",
+      "obsidian",
+      "pkm",
+      "productivity",
+      "second-brain",
+      "skills",
+      "subagents"
+    ],
+    "use_cases": [
+      {
+        "title": "Set up an Obsidian vault where Claude Code manages daily and weekly reviews",
+        "keywords": [
+          "claude-code",
+          "obsidian"
+        ]
+      },
+      {
+        "title": "Connect long-term goals to daily tasks with an automated goal cascade",
+        "keywords": [
+          "goal-tracking"
+        ]
+      },
+      {
+        "title": "Retrofit Claude Code skills and agents onto an existing Obsidian vault",
+        "keywords": [
+          "pkm",
+          "skills"
+        ]
+      },
+      {
+        "title": "Use an AI accountability coach output style to stay aligned with goals",
+        "keywords": [
+          "productivity"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

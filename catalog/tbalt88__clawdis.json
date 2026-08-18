@@ -1,0 +1,98 @@
+{
+  "fork": {
+    "full_name": "tbalt88/clawdis",
+    "url": "https://github.com/tbalt88/clawdis",
+    "created_at": "2025-12-26T13:43:52Z",
+    "default_branch": "main",
+    "pushed_at": "2025-12-25T08:35:55Z"
+  },
+  "upstream": {
+    "full_name": "0xSojalSec/clawdis",
+    "url": "https://github.com/0xSojalSec/clawdis",
+    "description": "Your own personal AI assistant. Talk via WhatsApp, Telegram or Web.",
+    "stars": 4,
+    "forks": 2,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "topics": [],
+    "license": "MIT",
+    "homepage": "https://clawdis.ai",
+    "default_branch": "main",
+    "created_at": "2025-12-25T17:41:27Z",
+    "pushed_at": "2025-12-25T08:35:55Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:53Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:53Z",
+    "signals": [
+      "claude-md",
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 1855477,
+      "Swift": 1801910,
+      "JavaScript": 558929,
+      "Kotlin": 233967,
+      "Shell": 49122,
+      "HTML": 15188,
+      "Python": 11232,
+      "CSS": 11106,
+      "Ruby": 2765
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:45Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "dormant",
+    "analysis": "Clawdis is a self-hosted personal AI assistant with a TypeScript Gateway control plane (WebSocket/TCP) that connects a Pi agent runtime to multiple surfaces: WhatsApp, Telegram, WebChat, a macOS menu-bar app with voice wake and push-to-talk, and paired iOS/Android nodes with a live Canvas UI. It supports browser control, cron/scheduling, group chat activation rules, and Gmail-triggered wake hooks, aiming to be a single-user, local-first assistant that feels always-on across devices. The repository has almost no external adoption (4 stars) and shows no commit activity beyond its initial push.",
+    "keywords": [
+      "canvas",
+      "gateway",
+      "ios",
+      "macos",
+      "personal-assistant",
+      "telegram",
+      "voice",
+      "whatsapp"
+    ],
+    "use_cases": [
+      {
+        "title": "Run a self-hosted AI assistant reachable via WhatsApp and Telegram",
+        "keywords": [
+          "telegram",
+          "whatsapp"
+        ]
+      },
+      {
+        "title": "Add voice wake and push-to-talk to a personal agent on macOS",
+        "keywords": [
+          "macos",
+          "voice"
+        ]
+      },
+      {
+        "title": "Pair a phone as a remote node for camera/screen agent commands",
+        "keywords": [
+          "android",
+          "bridge",
+          "ios"
+        ]
+      },
+      {
+        "title": "Trigger an agent workflow from an incoming Gmail message",
+        "keywords": [
+          "automation",
+          "gmail"
+        ]
+      }
+    ],
+    "confidence": 0.55,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

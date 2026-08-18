@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/PokeTokenBar",
+    "url": "https://github.com/tbalt88/PokeTokenBar",
+    "created_at": "2026-08-16T18:45:03Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-16T14:57:08Z"
+  },
+  "upstream": {
+    "full_name": "chattymin/PokeTokenBar",
+    "url": "https://github.com/chattymin/PokeTokenBar",
+    "description": "Use your tokens to raise, evolve, and collect Pokémon! 🥚",
+    "stars": 131,
+    "forks": 41,
+    "watchers": 0,
+    "open_issues": 16,
+    "language": "Swift",
+    "topics": [
+      "ai-coding",
+      "claude-code",
+      "codex",
+      "gemini-cli",
+      "macos",
+      "menu-bar",
+      "menubar-app",
+      "pokemon",
+      "swift",
+      "swiftui",
+      "token-usage"
+    ],
+    "license": "MIT",
+    "homepage": "https://chattymin.github.io/PokeTokenBar/",
+    "default_branch": "main",
+    "created_at": "2026-06-15T01:26:32Z",
+    "pushed_at": "2026-08-16T14:57:08Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:46Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:46Z",
+    "signals": [
+      "claude-md",
+      "gh-actions"
+    ],
+    "languages": {
+      "Swift": 1368445,
+      "Shell": 30196
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:57Z"
+  },
+  "classification": {
+    "domain": "games-fun",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "PokeTokenBar is a native Swift/SwiftUI macOS menu-bar app that gamifies AI coding token usage: it reads local usage logs from Claude Code, Codex, Gemini CLI, Antigravity, Cursor, and several other CLIs, and turns tokens spent into a growing, hatching, evolving Pokémon companion with a Pokédex, shop, and rare-candy economy, on top of a genuine usage/cost/rate-limit tracker. All data is read locally from each tool's own log files with no external usage CLI required. It targets developers who use multiple AI coding CLIs and want a more engaging way to monitor token spend and rate limits than a plain dashboard.",
+    "keywords": [
+      "claude-code",
+      "gamification",
+      "macos",
+      "menu-bar",
+      "pokemon",
+      "swift",
+      "swiftui",
+      "token-usage",
+      "usage-tracker"
+    ],
+    "use_cases": [
+      {
+        "title": "Track daily/weekly Claude Code or Codex token usage from the macOS menu bar",
+        "keywords": [
+          "menu-bar",
+          "token-usage"
+        ]
+      },
+      {
+        "title": "Gamify AI coding usage by hatching and evolving a Pokémon companion",
+        "keywords": [
+          "gamification",
+          "pokemon"
+        ]
+      },
+      {
+        "title": "Get burn-rate forecasts and alerts before hitting 5-hour/weekly rate limits",
+        "keywords": [
+          "rate-limits",
+          "usage-tracker"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

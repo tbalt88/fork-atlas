@@ -1,0 +1,117 @@
+{
+  "fork": {
+    "full_name": "tbalt88/pm-claude-skills",
+    "url": "https://github.com/tbalt88/pm-claude-skills",
+    "created_at": "2026-05-17T21:13:55Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-17T13:37:05Z"
+  },
+  "upstream": {
+    "full_name": "mohitagw15856/pm-claude-skills",
+    "url": "https://github.com/mohitagw15856/pm-claude-skills",
+    "description": "1098 professional Agent Skills for Claude, ChatGPT, Gemini, Cursor & Codex — from PRDs and postmortems to appealing a disability benefit, building a go-bag, and settling into a new country. Plain-markdown, MIT, in Anthropic's official plugin directory. Free in-browser or 'npx pm-claude-skills add'.",
+    "stars": 1292,
+    "forks": 231,
+    "watchers": 10,
+    "open_issues": 17,
+    "language": "HTML",
+    "topics": [
+      "agent-skills",
+      "agents",
+      "ai-agents",
+      "ai-tools",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cursor",
+      "developer-tools",
+      "gemini",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "product-management",
+      "productivity",
+      "prompt-engineering",
+      "prompts",
+      "skills"
+    ],
+    "license": "MIT",
+    "homepage": "https://mohitagw15856.github.io/pm-claude-skills/",
+    "default_branch": "main",
+    "created_at": "2026-01-29T08:28:07Z",
+    "pushed_at": "2026-08-17T13:35:14Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:42Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:42Z",
+    "signals": [
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "HTML": 2274548,
+      "JavaScript": 1190718,
+      "Python": 535089,
+      "Shell": 93394,
+      "CSS": 52929,
+      "Rust": 4589,
+      "TypeScript": 1377,
+      "Dockerfile": 468
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:56Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "PM Skills is a library of over 1,000 plain-markdown SKILL.md files that teach an AI assistant to perform professional-grade tasks — from writing PRDs and running postmortems to decoding a lease or building a go-bag — each bundling a framework, output template, and quality checks. It works natively in Claude Code and Hermes Agent, with ready exports for ChatGPT, Gemini, Cursor, Codex, plus integrations for Telegram, Slack, Raycast, Obsidian, and n8n, and is listed in Anthropic's official plugin directory. Aimed at professionals and power users who want structured, senior-level outputs instead of generic LLM answers, distributed as MIT-licensed markdown with npm/pip installers and a browser playground.",
+    "keywords": [
+      "chatgpt",
+      "claude-code",
+      "cross-tool",
+      "mcp",
+      "prd",
+      "productivity",
+      "prompt-pack",
+      "skills"
+    ],
+    "use_cases": [
+      {
+        "title": "Install a library of professional-task skills into Claude Code",
+        "keywords": [
+          "claude-code",
+          "skill-pack"
+        ]
+      },
+      {
+        "title": "Generate a structured PRD or postmortem with a reusable skill template",
+        "keywords": [
+          "postmortem",
+          "prd"
+        ]
+      },
+      {
+        "title": "Export the same skills for ChatGPT, Gemini, or Cursor",
+        "keywords": [
+          "cross-tool",
+          "exports"
+        ]
+      },
+      {
+        "title": "Trigger a skill from Slack or Telegram via the bundled integrations",
+        "keywords": [
+          "slack",
+          "telegram"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

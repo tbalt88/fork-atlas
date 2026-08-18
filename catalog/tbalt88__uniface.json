@@ -1,0 +1,110 @@
+{
+  "fork": {
+    "full_name": "tbalt88/uniface",
+    "url": "https://github.com/tbalt88/uniface",
+    "created_at": "2026-08-09T21:27:08Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-07T15:32:40Z"
+  },
+  "upstream": {
+    "full_name": "yakhyo/uniface",
+    "url": "https://github.com/yakhyo/uniface",
+    "description": "UniFace: A Unified Face Analysis Library for Python | Detection, alignment, landmarks, face-mesh, recognition, parsing, gaze, attributes and anti-spoofing under one API.",
+    "stars": 1456,
+    "forks": 195,
+    "watchers": 11,
+    "open_issues": 2,
+    "language": "Python",
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "face-alignment",
+      "face-analysis",
+      "face-anonymization",
+      "face-anti-spoofing",
+      "face-attributes",
+      "face-detection",
+      "face-mesh",
+      "face-parsing",
+      "face-quality-assessment",
+      "face-recognition",
+      "face-segmentation",
+      "face-tracking",
+      "facial-landmarks",
+      "gaze-estimation",
+      "head-pose-estimation",
+      "onnxruntime",
+      "portrait-matting",
+      "python"
+    ],
+    "license": "MIT",
+    "homepage": "https://yakhyo.github.io/uniface/",
+    "default_branch": "main",
+    "created_at": "2024-11-14T06:12:34Z",
+    "pushed_at": "2026-08-16T08:48:16Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:57Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:57Z",
+    "signals": [
+      "claude-md",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 667586
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:48Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "proposed_domain": "computer-vision",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "UniFace is a Python computer-vision library that unifies fifteen face-analysis tasks — detection, recognition/verification, tracking, landmarks, face mesh, parsing/segmentation, portrait matting, gaze/head-pose estimation, demographics, emotion, face states, quality assessment, anti-spoofing, and anonymization — behind one `FaceAnalyzer` API, backed by ONNX Runtime models (RetinaFace, ArcFace, BiSeNet, MODNet, etc.) that run on CPU, Apple Silicon, or CUDA. It ships a FAISS-backed embedding store and downloads SHA-256-verified weights on first use. This is a classical deep-learning face-analysis toolkit rather than an LLM or generative-media tool, so it doesn't fit the listed domains cleanly; it's filed under media-generation as the closest match.",
+    "keywords": [
+      "anti-spoofing",
+      "computer-vision",
+      "face-detection",
+      "face-mesh",
+      "face-recognition",
+      "landmarks",
+      "onnxruntime",
+      "python"
+    ],
+    "use_cases": [
+      {
+        "title": "Detect and recognize faces in an image with one unified API",
+        "keywords": [
+          "face-detection",
+          "face-recognition"
+        ]
+      },
+      {
+        "title": "Anonymize faces in a dataset before publishing images",
+        "keywords": [
+          "anonymization",
+          "privacy"
+        ]
+      },
+      {
+        "title": "Check for spoofed or replayed faces in a liveness check",
+        "keywords": [
+          "anti-spoofing"
+        ]
+      },
+      {
+        "title": "Estimate age, emotion, or gaze direction from a photo",
+        "keywords": [
+          "attributes",
+          "gaze"
+        ]
+      }
+    ],
+    "confidence": 0.55,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

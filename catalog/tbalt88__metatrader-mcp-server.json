@@ -1,0 +1,100 @@
+{
+  "fork": {
+    "full_name": "tbalt88/metatrader-mcp-server",
+    "url": "https://github.com/tbalt88/metatrader-mcp-server",
+    "created_at": "2026-05-27T20:29:05Z",
+    "default_branch": "main",
+    "pushed_at": "2026-03-28T18:39:29Z"
+  },
+  "upstream": {
+    "full_name": "ariadng/metatrader-mcp-server",
+    "url": "https://github.com/ariadng/metatrader-mcp-server",
+    "description": "Model Context Protocol (MCP) to enable AI LLMs to trade using MetaTrader platform",
+    "stars": 741,
+    "forks": 246,
+    "watchers": 21,
+    "open_issues": 27,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "finance",
+      "investment",
+      "llm",
+      "mcp",
+      "metatrader",
+      "quantitative-finance",
+      "trading"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-04-10T09:15:15Z",
+    "pushed_at": "2026-03-28T18:39:29Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:31Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:31Z",
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 273330
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:20Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "An MCP server that bridges AI assistants (Claude Desktop/Code, ChatGPT via Open WebUI) to the MetaTrader 5 trading platform, letting an LLM check balances, fetch market data, and place/modify/close orders using natural language. It exposes MT5 functionality as stdio/SSE MCP tools plus a REST API and a WebSocket live-quote stream, and ships a bundled Claude Code skill for structured trading-assistant behavior. Aimed at traders and developers who want to script or converse with MT5 through an LLM; the README explicitly disclaims financial-advice liability.",
+    "keywords": [
+      "algorithmic-trading",
+      "claude-desktop",
+      "finance",
+      "mcp",
+      "metatrader",
+      "python",
+      "trading",
+      "websocket"
+    ],
+    "use_cases": [
+      {
+        "title": "Let an LLM place and manage MT5 trades via natural language",
+        "keywords": [
+          "mcp",
+          "trading"
+        ]
+      },
+      {
+        "title": "Stream live market ticks over WebSocket for a dashboard",
+        "keywords": [
+          "market-data",
+          "websocket"
+        ]
+      },
+      {
+        "title": "Query account balance/equity/margin from an AI assistant",
+        "keywords": [
+          "account-data",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Install a Claude Code skill for structured trading workflows",
+        "keywords": [
+          "claude-skill",
+          "trading"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

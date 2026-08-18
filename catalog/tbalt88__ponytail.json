@@ -1,0 +1,94 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ponytail",
+    "url": "https://github.com/tbalt88/ponytail",
+    "created_at": "2026-07-05T23:28:00Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-16T08:03:43Z"
+  },
+  "upstream": {
+    "full_name": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "stars": 104768,
+    "forks": 5784,
+    "watchers": 257,
+    "open_issues": 140,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
+    ],
+    "license": "MIT",
+    "homepage": "https://ponytail.dev",
+    "default_branch": "main",
+    "created_at": "2026-06-12T00:52:37Z",
+    "pushed_at": "2026-08-07T21:44:01Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:17Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:17Z",
+    "signals": [
+      "claude-skill",
+      "gh-actions"
+    ],
+    "languages": {
+      "JavaScript": 181496,
+      "Python": 109292,
+      "PowerShell": 885,
+      "Shell": 696
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:58Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "Ponytail is a prompt/skill pack that makes AI coding agents (Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI, OpenCode, and ~15 others) prefer the smallest correct change over generated boilerplate, by injecting a 'laziness ladder' (YAGNI, reuse, stdlib, native feature, one-liner) before the agent writes code. It ships as skills/rules/hooks for each supported CLI/editor and includes its own benchmark suite measuring LOC/token/cost reduction against a no-skill baseline. Aimed at developers who find agentic coding tools over-engineer simple tasks; rapidly growing adoption (100k+ stars in weeks).",
+    "keywords": [
+      "agent-skill",
+      "claude-code-plugin",
+      "code-minimalism",
+      "multi-agent-cli",
+      "prompt-engineering",
+      "yagni"
+    ],
+    "use_cases": [
+      {
+        "title": "Stop an AI coding agent from over-engineering simple changes",
+        "keywords": [
+          "code-minimalism",
+          "yagni"
+        ]
+      },
+      {
+        "title": "Install a lazy-senior-dev skill into Claude Code or Codex",
+        "keywords": [
+          "claude-code-plugin",
+          "skill-install"
+        ]
+      },
+      {
+        "title": "Benchmark agent code output size across models",
+        "keywords": [
+          "agent-eval",
+          "benchmarking"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,110 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Vibe-Trading",
+    "url": "https://github.com/tbalt88/Vibe-Trading",
+    "created_at": "2026-04-12T20:34:05Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-02T08:46:50Z"
+  },
+  "upstream": {
+    "full_name": "HKUDS/Vibe-Trading",
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "stars": 31124,
+    "forks": 5045,
+    "watchers": 165,
+    "open_issues": 29,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "algorithmic-trading",
+      "backtesting",
+      "fintech",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "python",
+      "quantitative-finance",
+      "trading"
+    ],
+    "license": "MIT",
+    "homepage": "https://vibetrading.wiki/",
+    "default_branch": "main",
+    "created_at": "2026-04-01T09:52:20Z",
+    "pushed_at": "2026-08-17T09:22:40Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:51Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:51Z",
+    "signals": [
+      "claude-skill",
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 12594898,
+      "TypeScript": 1088018,
+      "HTML": 116024,
+      "JavaScript": 87862,
+      "CSS": 24541,
+      "PowerShell": 19041,
+      "Shell": 12779,
+      "Dockerfile": 5541,
+      "Jinja": 4741
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:51Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "proposed_domain": "algo-trading",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Vibe-Trading is a personal AI trading agent that connects an LLM (via LangChain, MCP, or an installable skill) to a large multi-market backtesting engine (equities, crypto, forex, futures, options across US/China/Korea/India and more), 25+ market data loaders, portfolio optimizers, and a FastAPI + React web UI with a desktop packaging pipeline. It's aimed at quant-curious developers who want an agent that can research, backtest, and reason about trading strategies with guardrails like a hash-chained audit ledger and paper/live-mode separation. Very actively developed with a detailed changelog of bug fixes and features shipping almost daily.",
+    "keywords": [
+      "backtesting",
+      "fastapi",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "quant-finance",
+      "react",
+      "trading-agent"
+    ],
+    "use_cases": [
+      {
+        "title": "Run an LLM-powered personal trading research agent",
+        "keywords": [
+          "llm",
+          "trading-agent"
+        ]
+      },
+      {
+        "title": "Backtest quant strategies across multiple markets",
+        "keywords": [
+          "backtesting",
+          "quant-finance"
+        ]
+      },
+      {
+        "title": "Connect trading data/tools to an agent via MCP",
+        "keywords": [
+          "integration",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Analyze options payoffs and portfolio risk",
+        "keywords": [
+          "options",
+          "risk-analysis"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

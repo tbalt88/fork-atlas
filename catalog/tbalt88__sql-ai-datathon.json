@@ -1,0 +1,106 @@
+{
+  "fork": {
+    "full_name": "tbalt88/sql-ai-datathon",
+    "url": "https://github.com/tbalt88/sql-ai-datathon",
+    "created_at": "2026-02-19T19:12:40Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:02:19Z"
+  },
+  "upstream": {
+    "full_name": "microsoft/sql-ai-datathon",
+    "url": "https://github.com/microsoft/sql-ai-datathon",
+    "description": null,
+    "stars": 27,
+    "forks": 29,
+    "watchers": 0,
+    "open_issues": 5,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "ai",
+      "azuresql",
+      "csharp",
+      "polyglot-notebooks",
+      "python",
+      "sqlserver-2025",
+      "vector-database",
+      "vector-search"
+    ],
+    "license": "MIT",
+    "homepage": "https://microsoft.github.io/sql-ai-datathon/",
+    "default_branch": "main",
+    "created_at": "2026-01-15T19:06:53Z",
+    "pushed_at": "2026-02-20T01:11:00Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:12Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:12Z",
+    "signals": [
+      "docker",
+      "node",
+      "python"
+    ],
+    "languages": {
+      "Jupyter Notebook": 328996,
+      "TSQL": 41653,
+      "HTML": 19799,
+      "C#": 9891,
+      "Python": 8014,
+      "Shell": 5881,
+      "PowerShell": 5189,
+      "Dockerfile": 711
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:27Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "template",
+    "maturity": "toy",
+    "analysis": "A Microsoft-run hackathon starter repo with four guided missions teaching how to build AI-powered applications on SQL Server 2025/Azure SQL: embeddings and vector search, RAG chat over SQL data, orchestrating SQL+AI workflows in C#/Python, and a full-stack AI app, culminating in an open-ended hack submission for SQLCon 2026. It's a devcontainer-based, fork-and-clone workshop template for developers learning vector search and RAG patterns specifically on Microsoft SQL, not a general-purpose library or ongoing product. Time-boxed event repo with low traffic outside the datathon window.",
+    "keywords": [
+      "azure-sql",
+      "datathon",
+      "embeddings",
+      "microsoft",
+      "rag",
+      "sql-server",
+      "vector-search",
+      "workshop"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn vector search and RAG on SQL Server via guided missions",
+        "keywords": [
+          "tutorial",
+          "vector-search"
+        ]
+      },
+      {
+        "title": "Fork a datathon starter for a SQL+AI hackathon",
+        "keywords": [
+          "hackathon",
+          "template"
+        ]
+      },
+      {
+        "title": "Build a chatbot grounded in SQL Server data",
+        "keywords": [
+          "chatbot",
+          "rag"
+        ]
+      },
+      {
+        "title": "Prototype a full-stack AI app with Data API Builder",
+        "keywords": [
+          "dab",
+          "full-stack"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

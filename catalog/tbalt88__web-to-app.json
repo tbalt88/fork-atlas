@@ -1,0 +1,95 @@
+{
+  "fork": {
+    "full_name": "tbalt88/web-to-app",
+    "url": "https://github.com/tbalt88/web-to-app",
+    "created_at": "2026-04-13T03:28:33Z",
+    "default_branch": "main",
+    "pushed_at": "2026-04-12T03:13:12Z"
+  },
+  "upstream": {
+    "full_name": "shiaho777/web-to-app",
+    "url": "https://github.com/shiaho777/web-to-app",
+    "description": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
+    "stars": 5654,
+    "forks": 809,
+    "watchers": 25,
+    "open_issues": 3,
+    "language": "Kotlin",
+    "topics": [
+      "android",
+      "app",
+      "web"
+    ],
+    "license": "Unlicense",
+    "homepage": "https://shiaho777.github.io/web-to-app/",
+    "default_branch": "main",
+    "created_at": "2025-11-26T04:45:16Z",
+    "pushed_at": "2026-08-17T15:22:25Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:50Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:50Z",
+    "signals": [
+      "gh-actions",
+      "go"
+    ],
+    "languages": {
+      "Kotlin": 14636947,
+      "Python": 10470963,
+      "PHP": 211442,
+      "HTML": 150382,
+      "JavaScript": 131764,
+      "C": 114174,
+      "Go": 58025,
+      "C++": 54343,
+      "CSS": 36194,
+      "CMake": 7226
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:54Z"
+  },
+  "classification": {
+    "domain": "dev-tooling",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "WebToApp is an Android app that packages websites, static frontends, or local Node.js/PHP/Python/Go/WordPress server runtimes into signed installable APKs entirely on-device, with no PC or remote build server required. It goes well beyond simple WebView wrapping — it includes on-device V1/V2/V3 APK signing, a hardened anti-censorship network stack (DoH, TLS fingerprint spoofing, ECH), userscript/MV3 extension support, and a 50+ tool AI agent for automating the build process. Aimed at developers and power users who want to turn web projects into distributable Android apps directly from a phone.",
+    "keywords": [
+      "android",
+      "apk-builder",
+      "apk-signing",
+      "kotlin",
+      "mobile-dev",
+      "no-pc-build",
+      "web-to-app",
+      "webview"
+    ],
+    "use_cases": [
+      {
+        "title": "Package a website into a signed Android APK from your phone",
+        "keywords": [
+          "android",
+          "apk-builder"
+        ]
+      },
+      {
+        "title": "Run a local Node/PHP/Python server inside an Android app",
+        "keywords": [
+          "mobile",
+          "on-device-server"
+        ]
+      },
+      {
+        "title": "Publish a WebView app to Google Play without a PC",
+        "keywords": [
+          "apk-signing",
+          "play-store"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

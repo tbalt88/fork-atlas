@@ -1,0 +1,94 @@
+{
+  "fork": {
+    "full_name": "tbalt88/CodeMazeGuides",
+    "url": "https://github.com/tbalt88/CodeMazeGuides",
+    "created_at": "2023-06-10T20:07:28Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:04:27Z"
+  },
+  "upstream": {
+    "full_name": "CodeMazeBlog/CodeMazeGuides",
+    "url": "https://github.com/CodeMazeBlog/CodeMazeGuides",
+    "description": "The main repository for all the Code Maze guides",
+    "stars": 979,
+    "forks": 1170,
+    "watchers": 27,
+    "open_issues": 4,
+    "language": "C#",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2021-09-16T11:17:55Z",
+    "pushed_at": "2026-08-17T10:26:34Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:28Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:28Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "C#": 51963871,
+      "HTML": 345453,
+      "JavaScript": 342832,
+      "CSS": 277259,
+      "TypeScript": 43541,
+      "Liquid": 5617,
+      "Go Template": 3564,
+      "Handlebars": 2686,
+      "Gherkin": 1124,
+      "TSQL": 1100,
+      "PowerShell": 611,
+      "SCSS": 579,
+      "Shell": 33,
+      "Batchfile": 13
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:51Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "CodeMazeGuides is the code-sample repository backing the Code Maze .NET blog, containing hundreds of small, self-contained ASP.NET Core / .NET solutions (one folder per article) covering topics like background services, MVC controllers, EF Core, and web API patterns. It is primarily a reference collection for C#/.NET developers to browse working examples tied to specific blog posts and tutorials rather than a single cohesive application. It is very actively maintained, with new example projects added continuously and CI validating each solution builds.",
+    "keywords": [
+      "aspnetcore",
+      "blazor",
+      "code-samples",
+      "csharp",
+      "dotnet",
+      "reference",
+      "tutorials",
+      "web-api"
+    ],
+    "use_cases": [
+      {
+        "title": "Find a working ASP.NET Core example for a specific pattern like background services or MVC",
+        "keywords": [
+          "aspnetcore",
+          "code-samples"
+        ]
+      },
+      {
+        "title": "Follow along with a Code Maze blog tutorial using the matching solution folder",
+        "keywords": [
+          "dotnet",
+          "tutorials"
+        ]
+      },
+      {
+        "title": "Copy a minimal reproducible .NET project as a starting point for a new feature",
+        "keywords": [
+          "csharp",
+          "reference"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

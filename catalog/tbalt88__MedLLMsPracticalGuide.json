@@ -1,0 +1,83 @@
+{
+  "fork": {
+    "full_name": "tbalt88/MedLLMsPracticalGuide",
+    "url": "https://github.com/tbalt88/MedLLMsPracticalGuide",
+    "created_at": "2025-12-07T04:14:21Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-11T07:47:30Z"
+  },
+  "upstream": {
+    "full_name": "AI-in-Health/MedLLMsPracticalGuide",
+    "url": "https://github.com/AI-in-Health/MedLLMsPracticalGuide",
+    "description": " [Nature Reviews Bioengineering🔥] Application of Large Language Models in Medicine.  A curated list of practical guide resources of Medical LLMs (Medical LLMs Tree, Tables, and Papers)",
+    "stars": 2038,
+    "forks": 177,
+    "watchers": 78,
+    "open_issues": 0,
+    "language": null,
+    "topics": [
+      "ai-in-medicine",
+      "clinical-ai",
+      "large-language-models",
+      "medical-large-language-models",
+      "survey"
+    ],
+    "license": "MIT",
+    "homepage": "https://arxiv.org/abs/2311.05112",
+    "default_branch": "main",
+    "created_at": "2023-11-07T10:11:16Z",
+    "pushed_at": "2026-07-10T16:26:08Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:10Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:10Z",
+    "signals": [],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T02:17:17Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "MedLLMsPracticalGuide is a curated, actively maintained awesome-list accompanying a Nature Reviews Bioengineering survey paper on applying Large Language Models in medicine. It catalogs papers, models, and datasets across the medical LLM pipeline: pre-training from scratch, fine-tuning, prompting, clinical data sources, downstream biomedical tasks (summarization, QA, entity extraction, RAG), clinical applications (decision-making, coding, report generation), and open challenges (hallucination, evaluation, ethics). Aimed at researchers and practitioners building or evaluating medical/clinical LLMs, maintained by an academic consortium (Oxford, Imperial, MIT, Harvard among others) with periodic updates.",
+    "keywords": [
+      "awesome-list",
+      "clinical-ai",
+      "fine-tuning",
+      "healthcare",
+      "medical-llm",
+      "rag",
+      "reference",
+      "survey"
+    ],
+    "use_cases": [
+      {
+        "title": "Find published medical LLM papers organized by pipeline stage",
+        "keywords": [
+          "awesome-list",
+          "medical-llm"
+        ]
+      },
+      {
+        "title": "Research which fine-tuning or RAG approaches work for clinical applications",
+        "keywords": [
+          "fine-tuning",
+          "rag"
+        ]
+      },
+      {
+        "title": "Survey open challenges in medical LLM evaluation and safety",
+        "keywords": [
+          "clinical-ai",
+          "evaluation"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

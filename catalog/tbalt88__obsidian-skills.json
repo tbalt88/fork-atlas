@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/obsidian-skills",
+    "url": "https://github.com/tbalt88/obsidian-skills",
+    "created_at": "2026-07-08T15:52:08Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-08T16:12:01Z"
+  },
+  "upstream": {
+    "full_name": "kepano/obsidian-skills",
+    "url": "https://github.com/kepano/obsidian-skills",
+    "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+    "stars": 46537,
+    "forks": 3341,
+    "watchers": 242,
+    "open_issues": 64,
+    "language": null,
+    "topics": [
+      "agents",
+      "agentskills",
+      "bases",
+      "claude",
+      "clawdbot",
+      "cli",
+      "codex",
+      "defuddle",
+      "hermes",
+      "jsoncanvas",
+      "markdown",
+      "md",
+      "obsidian",
+      "openclaw",
+      "opencode",
+      "skills"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-01-02T21:45:11Z",
+    "pushed_at": "2026-06-08T16:12:01Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:15Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:15Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T02:17:28Z"
+  },
+  "classification": {
+    "domain": "knowledge-productivity",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "A collection of Agent Skills (following the agentskills.io spec) that teach AI coding agents like Claude Code, Codex, and OpenCode how to work with Obsidian — writing Obsidian-flavored Markdown, editing Bases and JSON Canvas files, using the Obsidian CLI, and extracting clean markdown from web pages via Defuddle. Aimed at Obsidian power users who want their coding agent to correctly manipulate vault files and open formats. Popular (46k+ stars) and lightweight — just SKILL.md files with reference docs, no runtime code.",
+    "keywords": [
+      "agent-skills",
+      "claude-code",
+      "json-canvas",
+      "markdown",
+      "obsidian",
+      "obsidian-bases",
+      "pkm",
+      "skill-pack"
+    ],
+    "use_cases": [
+      {
+        "title": "Let Claude Code correctly edit Obsidian vault notes",
+        "keywords": [
+          "claude-code",
+          "obsidian"
+        ]
+      },
+      {
+        "title": "Generate JSON Canvas or Obsidian Bases files with an agent",
+        "keywords": [
+          "bases",
+          "json-canvas"
+        ]
+      },
+      {
+        "title": "Extract clean markdown from web pages for a vault",
+        "keywords": [
+          "defuddle",
+          "web-scraping"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,87 @@
+{
+  "fork": {
+    "full_name": "tbalt88/technical",
+    "url": "https://github.com/tbalt88/technical",
+    "created_at": "2026-08-05T22:06:52Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-30T17:35:26Z"
+  },
+  "upstream": {
+    "full_name": "freqtrade/technical",
+    "url": "https://github.com/freqtrade/technical",
+    "description": "Various indicators developed or collected for the Freqtrade",
+    "stars": 1027,
+    "forks": 250,
+    "watchers": 44,
+    "open_issues": 5,
+    "language": "Python",
+    "topics": [
+      "dataframe",
+      "freqtrade",
+      "technical-analysis",
+      "trading"
+    ],
+    "license": "GPL-3.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2018-06-12T19:10:56Z",
+    "pushed_at": "2026-08-14T04:10:38Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:58Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:58Z",
+    "signals": [
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 119083
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:39Z"
+  },
+  "classification": {
+    "domain": "misc",
+    "proposed_domain": "trading-technical-analysis",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "Technical is a Python companion library for the Freqtrade crypto trading bot, providing a large collection of technical-analysis indicators (consensus models, VFI, Madrid ribbons, Ichimoku, trendlines, Fibonacci retracements, pivot points, Supertrend, ALMA, and more) plus dataframe utilities for timeframe resampling and merging. It wraps and standardizes indicators from around the community into a single pandas-dataframe-based API for use in Freqtrade strategy development. Aimed at algorithmic/crypto traders building custom strategies; mature and still actively maintained.",
+    "keywords": [
+      "algo-trading",
+      "crypto",
+      "freqtrade",
+      "indicators",
+      "pandas",
+      "technical-analysis",
+      "trading"
+    ],
+    "use_cases": [
+      {
+        "title": "Add technical indicators to a Freqtrade trading strategy",
+        "keywords": [
+          "freqtrade",
+          "indicators"
+        ]
+      },
+      {
+        "title": "Resample and merge multi-timeframe OHLCV dataframes",
+        "keywords": [
+          "pandas",
+          "resampling"
+        ]
+      },
+      {
+        "title": "Build a consensus signal across multiple indicators",
+        "keywords": [
+          "consensus",
+          "trading"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

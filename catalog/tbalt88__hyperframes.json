@@ -1,0 +1,108 @@
+{
+  "fork": {
+    "full_name": "tbalt88/hyperframes",
+    "url": "https://github.com/tbalt88/hyperframes",
+    "created_at": "2026-06-08T16:11:38Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:18Z"
+  },
+  "upstream": {
+    "full_name": "heygen-com/hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "description": "Write HTML. Render video. Built for agents.",
+    "stars": 41400,
+    "forks": 3957,
+    "watchers": 117,
+    "open_issues": 232,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "animation",
+      "ffmpeg",
+      "framework",
+      "gsap",
+      "html",
+      "mcp",
+      "puppeteer",
+      "rendering",
+      "typescript",
+      "video"
+    ],
+    "license": "Apache-2.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-03-10T01:51:06Z",
+    "pushed_at": "2026-08-18T02:06:07Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:25Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:25Z",
+    "signals": [
+      "claude-skill",
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 24030459,
+      "JavaScript": 2670698,
+      "Shell": 82316,
+      "Python": 60138,
+      "CSS": 28110,
+      "HCL": 13205,
+      "Dockerfile": 9429
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:54Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "HyperFrames is an open-source TypeScript/Node framework that turns HTML, CSS, GSAP/Lottie/Three.js animations, and media into deterministic MP4 video via a CLI, and is explicitly designed for AI coding agents to drive through a large set of installable skills. It ships 20 agent skills (a `/hyperframes` router plus creation workflows for product-launch videos, faceless explainers, PR-to-video changelogs, captions, motion graphics, slideshows, etc.) that work with Claude Code, Cursor, Gemini CLI, and Codex, plus local, cloud (HeyGen), and AWS Lambda rendering. It targets developers and agent-driven content pipelines who want programmatic, reproducible video generation instead of a timeline-based video editor like Remotion.",
+    "keywords": [
+      "animation",
+      "claude-code-skills",
+      "cli",
+      "ffmpeg",
+      "gsap",
+      "html-to-video",
+      "mcp",
+      "rendering",
+      "video-generation"
+    ],
+    "use_cases": [
+      {
+        "title": "Generate a product launch or marketing video from a website URL with an AI agent",
+        "keywords": [
+          "agent-skills",
+          "video-generation"
+        ]
+      },
+      {
+        "title": "Turn a GitHub pull request into a changelog explainer video",
+        "keywords": [
+          "changelog",
+          "pr-to-video"
+        ]
+      },
+      {
+        "title": "Render deterministic MP4 video from HTML/CSS animations via CLI",
+        "keywords": [
+          "cli",
+          "html-to-video"
+        ]
+      },
+      {
+        "title": "Port an existing Remotion React composition to HyperFrames HTML",
+        "keywords": [
+          "migration",
+          "remotion"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

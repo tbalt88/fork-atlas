@@ -1,0 +1,77 @@
+{
+  "fork": {
+    "full_name": "tbalt88/get-shit-done",
+    "url": "https://github.com/tbalt88/get-shit-done",
+    "created_at": "2026-02-13T20:07:32Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:17:07Z"
+  },
+  "upstream": {
+    "full_name": "gsd-build/get-shit-done",
+    "url": "https://github.com/gsd-build/get-shit-done",
+    "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+    "stars": 64686,
+    "forks": 5464,
+    "watchers": 268,
+    "open_issues": 0,
+    "language": "JavaScript",
+    "topics": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-12-14T14:17:12Z",
+    "pushed_at": "2026-05-31T17:46:54Z",
+    "archived": true,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:16Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:16Z",
+    "signals": [],
+    "languages": {
+      "JavaScript": 7254398,
+      "TypeScript": 2632050,
+      "Shell": 44482
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:41Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "dormant",
+    "analysis": "GSD was a lightweight meta-prompting, context-engineering and spec-driven-development system for Claude Code, providing structured phase/plan/milestone workflows via slash commands and hooks. The repository is now archived and its README simply redirects users to the successor project 'GSD Core' at open-gsd/gsd-core, where active development continues. Kept only as a historical pointer; not usable or maintained in its current form.",
+    "keywords": [
+      "archived",
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "plugin",
+      "spec-driven-development"
+    ],
+    "use_cases": [
+      {
+        "title": "Find the successor project for archived GSD tooling",
+        "keywords": [
+          "archived",
+          "redirect"
+        ]
+      },
+      {
+        "title": "Reference historical spec-driven-development workflow design for Claude Code",
+        "keywords": [
+          "claude-code",
+          "spec-driven-development"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

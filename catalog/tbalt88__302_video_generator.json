@@ -1,0 +1,89 @@
+{
+  "fork": {
+    "full_name": "tbalt88/302_video_generator",
+    "url": "https://github.com/tbalt88/302_video_generator",
+    "created_at": "2026-02-10T22:09:50Z",
+    "default_branch": "main",
+    "pushed_at": "2025-08-25T02:03:43Z"
+  },
+  "upstream": {
+    "full_name": "302ai/302_video_generator",
+    "url": "https://github.com/302ai/302_video_generator",
+    "description": "🎬🤖 302 AI Video Generator! 🚀✨",
+    "stars": 110,
+    "forks": 36,
+    "watchers": 5,
+    "open_issues": 2,
+    "language": "TypeScript",
+    "topics": [
+      "302ai",
+      "video-generator"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": "https://302.ai/tools/vgen/",
+    "default_branch": "main",
+    "created_at": "2024-10-29T04:55:02Z",
+    "pushed_at": "2025-08-25T02:03:43Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:18Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:18Z",
+    "signals": [
+      "docker",
+      "nextjs",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 506546,
+      "Dockerfile": 2456,
+      "CSS": 2183,
+      "JavaScript": 1010
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:44Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "form": "app",
+    "maturity": "dormant",
+    "analysis": "A Next.js web app that wraps the 302.AI video generation API, letting users create AI videos from text and images through models like Luma, Runway Gen-3, Kling, and CogVideoX. It is the open-source frontend for the closed-source 302.AI service and requires a 302.AI API key to function, rather than running any model locally. Built with Next.js 14, Tailwind/Shadcn UI, Zod/react-hook-form, and Zustand, and ships as a Docker image for self-hosting. Development appears to have stalled after August 2025 with no recent commits.",
+    "keywords": [
+      "302ai",
+      "ai-video",
+      "docker",
+      "image-to-video",
+      "multi-model",
+      "nextjs",
+      "text-to-video",
+      "video-generation"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a multi-provider AI video generation UI",
+        "keywords": [
+          "self-hosted",
+          "video-generation"
+        ]
+      },
+      {
+        "title": "Prototype a branded AI video tool on top of 302.AI's API",
+        "keywords": [
+          "302ai",
+          "white-label"
+        ]
+      },
+      {
+        "title": "Compare Luma, Runway, Kling and CogVideoX outputs from one interface",
+        "keywords": [
+          "model-comparison",
+          "video"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

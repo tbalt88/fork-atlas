@@ -1,0 +1,108 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agentmemory",
+    "url": "https://github.com/tbalt88/agentmemory",
+    "created_at": "2026-05-19T03:51:33Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-29T10:48:01Z"
+  },
+  "upstream": {
+    "full_name": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+    "stars": 27120,
+    "forks": 2316,
+    "watchers": 76,
+    "open_issues": 476,
+    "language": "TypeScript",
+    "topics": [
+      "agentmemory",
+      "agents",
+      "ai",
+      "claude",
+      "claudecode",
+      "codex",
+      "copilot",
+      "cursor",
+      "genai",
+      "harness",
+      "hermes",
+      "memory",
+      "openclaw"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://agent-memory.dev",
+    "default_branch": "main",
+    "created_at": "2026-02-25T07:32:52Z",
+    "pushed_at": "2026-08-17T06:12:00Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:38Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:38Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 2712172,
+      "JavaScript": 254761,
+      "HTML": 221512,
+      "CSS": 40000,
+      "Shell": 25529,
+      "Python": 15568,
+      "Dockerfile": 5107
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:56Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "agentmemory is a persistent memory server for AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, and 15+ others), built on the 'iii' engine and installed via npx as a local memory daemon on port 3111. It captures session context automatically via hooks and exposes 54 MCP tools plus a REST API so any MCP-speaking agent can recall prior work instead of re-deriving it, with a real-time viewer and no external database dependency. Benchmarked against long-context memory tasks claiming 95% retrieval recall and 92% fewer tokens. Aimed at developers running multiple coding agents who want shared, durable context across tools and sessions.",
+    "keywords": [
+      "agent-tooling",
+      "claude-code",
+      "codex",
+      "context-persistence",
+      "cursor",
+      "hooks",
+      "mcp",
+      "memory"
+    ],
+    "use_cases": [
+      {
+        "title": "Give a coding agent persistent memory across sessions",
+        "keywords": [
+          "mcp",
+          "memory"
+        ]
+      },
+      {
+        "title": "Share context between Claude Code, Codex and Cursor on the same project",
+        "keywords": [
+          "hooks",
+          "multi-agent"
+        ]
+      },
+      {
+        "title": "Stop re-explaining project architecture to an agent every session",
+        "keywords": [
+          "context",
+          "recall"
+        ]
+      },
+      {
+        "title": "Benchmark agent memory recall quality against LongMemEval",
+        "keywords": [
+          "benchmark",
+          "evaluation"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

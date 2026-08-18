@@ -1,0 +1,97 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agentic-ai-starters",
+    "url": "https://github.com/tbalt88/agentic-ai-starters",
+    "created_at": "2026-05-08T21:29:03Z",
+    "default_branch": "main",
+    "pushed_at": "2026-04-07T16:12:14Z"
+  },
+  "upstream": {
+    "full_name": "cporter202/agentic-ai-starters",
+    "url": "https://github.com/cporter202/agentic-ai-starters",
+    "description": "A practical collection of plug-and-play starter blueprints for building autonomous AI apps with real APIs. Discover ready-to-build agent workflows, API stacks, architecture patterns, prompts, and monetization ideas for research agents, lead gen systems, SEO automations, MCP toolchains, and more.",
+    "stars": 225,
+    "forks": 64,
+    "watchers": 1,
+    "open_issues": 1,
+    "language": null,
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "api-workflows",
+      "autonomous-workflows",
+      "customer-support-ai",
+      "lead-generation",
+      "mcp",
+      "multi-agent-systems",
+      "real-estate-automation",
+      "research-automation",
+      "seo-automation",
+      "social-listening"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-04-07T13:28:33Z",
+    "pushed_at": "2026-04-07T16:12:14Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:46Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:46Z",
+    "signals": [],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T02:14:53Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "A curated collection of starter blueprints for building autonomous AI agent products, covering verticals like research, lead-gen, SEO content, social listening, outreach, real estate, and job hunting. Each starter bundles a README (product concept), architecture.md, prompts.md, and stack.md pointing to recommended third-party APIs (mostly Apify scrapers). It targets founders, agencies, and indie hackers who want opinionated MVP direction rather than raw code, and is itself mostly documentation with affiliate-linked API recommendations.",
+    "keywords": [
+      "ai-agents",
+      "lead-generation",
+      "mcp",
+      "multi-agent",
+      "prompt-engineering",
+      "research-automation",
+      "seo-automation",
+      "starter-kit"
+    ],
+    "use_cases": [
+      {
+        "title": "Bootstrap a research or competitor-intel agent MVP",
+        "keywords": [
+          "mcp",
+          "research-agent"
+        ]
+      },
+      {
+        "title": "Find a stack and prompt pattern for a lead-gen or outreach agent",
+        "keywords": [
+          "lead-generation",
+          "outreach"
+        ]
+      },
+      {
+        "title": "Reuse architecture notes for a multi-agent ops/orchestration system",
+        "keywords": [
+          "multi-agent",
+          "orchestration"
+        ]
+      },
+      {
+        "title": "Scaffold an SEO content or social-listening agent product",
+        "keywords": [
+          "seo-automation",
+          "social-listening"
+        ]
+      }
+    ],
+    "confidence": 0.65,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

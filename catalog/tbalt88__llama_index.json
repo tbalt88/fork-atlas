@@ -1,0 +1,109 @@
+{
+  "fork": {
+    "full_name": "tbalt88/llama_index",
+    "url": "https://github.com/tbalt88/llama_index",
+    "created_at": "2025-11-25T08:11:54Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-16T08:03:45Z"
+  },
+  "upstream": {
+    "full_name": "run-llama/llama_index",
+    "url": "https://github.com/run-llama/llama_index",
+    "description": "LlamaIndex is the leading document agent and OCR platform",
+    "stars": 51712,
+    "forks": 7954,
+    "watchers": 279,
+    "open_issues": 619,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "application",
+      "data",
+      "fine-tuning",
+      "framework",
+      "llamaindex",
+      "llm",
+      "multi-agents",
+      "rag",
+      "vector-database"
+    ],
+    "license": "MIT",
+    "homepage": "https://developers.llamaindex.ai",
+    "default_branch": "main",
+    "created_at": "2022-11-02T04:24:54Z",
+    "pushed_at": "2026-08-17T21:24:42Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:21Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:21Z",
+    "signals": [
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "Python": 16145638,
+      "Jupyter Notebook": 5526595,
+      "Makefile": 413533,
+      "JavaScript": 86436,
+      "HTML": 57132,
+      "Shell": 8131,
+      "EdgeQL": 3396,
+      "Starlark": 341
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:07Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "LlamaIndex is a mature, widely-used open-source Python framework for building LLM applications over private data: it provides data connectors for ingesting documents/APIs/SQL, indexing structures (vector, graph, keyword), retrieval/query engines, and agent workflows, and integrates with over 300 LLM/embedding/vector-store providers via LlamaHub. Alongside the OSS core, the same org runs LlamaParse/LlamaCloud, a commercial platform for agentic OCR, document parsing, extraction, and hosted document agents. It's aimed at developers building RAG pipelines and document-processing agents, from a 5-line quickstart to fully customized retrieval stacks, and remains one of the most starred RAG frameworks in the ecosystem.",
+    "keywords": [
+      "agents",
+      "document-parsing",
+      "embeddings",
+      "indexing",
+      "llamaparse",
+      "ocr",
+      "python",
+      "rag",
+      "retrieval",
+      "vector-store"
+    ],
+    "use_cases": [
+      {
+        "title": "Build a RAG pipeline over a folder of PDFs or docs in a few lines of Python",
+        "keywords": [
+          "quickstart",
+          "rag"
+        ]
+      },
+      {
+        "title": "Swap in a local LLM (Ollama) and embedding model for a fully offline RAG stack",
+        "keywords": [
+          "local",
+          "ollama"
+        ]
+      },
+      {
+        "title": "Parse and extract structured data from complex documents with LlamaParse",
+        "keywords": [
+          "extraction",
+          "ocr"
+        ]
+      },
+      {
+        "title": "Persist and reload a vector index across sessions for a production knowledge base",
+        "keywords": [
+          "persistence",
+          "vector-store"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

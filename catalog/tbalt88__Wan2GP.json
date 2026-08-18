@@ -1,0 +1,112 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Wan2GP",
+    "url": "https://github.com/tbalt88/Wan2GP",
+    "created_at": "2026-08-16T20:08:40Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-16T19:06:12Z"
+  },
+  "upstream": {
+    "full_name": "deepbeepmeep/Wan2GP",
+    "url": "https://github.com/deepbeepmeep/Wan2GP",
+    "description": "A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, LTX-2, Qwen Image, Hunyuan Video, LTX  Video and Flux.",
+    "stars": 8703,
+    "forks": 1362,
+    "watchers": 100,
+    "open_issues": 1097,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "flux",
+      "flux2",
+      "generative-ai",
+      "hunyuan-video",
+      "ltx-2",
+      "ltx-video",
+      "qwen",
+      "tts",
+      "video",
+      "wan"
+    ],
+    "license": "NOASSERTION",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-02-27T23:52:36Z",
+    "pushed_at": "2026-08-16T19:06:12Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:45Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:45Z",
+    "signals": [
+      "docker"
+    ],
+    "languages": {
+      "Python": 21343871,
+      "JavaScript": 2623506,
+      "TypeScript": 231154,
+      "Svelte": 133475,
+      "Cuda": 41758,
+      "CSS": 27038,
+      "C": 26924,
+      "Shell": 22728,
+      "HTML": 13792,
+      "Batchfile": 12345,
+      "C++": 3908,
+      "Dockerfile": 3039
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:52Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "WanGP (Wan2GP) is a fast, actively developed all-in-one generative media app for GPU-constrained users, wrapping many open-source video (Wan, LTX-2, Hunyuan Video, LongCat), image (Qwen Image, Flux, HiDream), and audio/TTS (Ace Step, Qwen3 TTS, Chatterbox) models behind one web UI. It supports low-VRAM setups (as little as 6GB), older and AMD GPUs, LoRA customization, quantized checkpoints (int8/fp8/GGUF/NVFP4), a generation queue, headless batch mode, and an API for embedding generation into other apps. An extremely active project with frequent weekly releases and a large Discord community, aimed at hobbyists and builders who want broad open-source model coverage without high-end hardware.",
+    "keywords": [
+      "flux",
+      "gguf",
+      "hunyuan",
+      "image-generation",
+      "lora",
+      "low-vram",
+      "text-to-speech",
+      "video-generation",
+      "wan"
+    ],
+    "use_cases": [
+      {
+        "title": "Generate AI video, image, or audio on a low-VRAM or older GPU",
+        "keywords": [
+          "low-vram",
+          "video-generation"
+        ]
+      },
+      {
+        "title": "Run a queued batch of generation jobs headlessly",
+        "keywords": [
+          "batch",
+          "headless"
+        ]
+      },
+      {
+        "title": "Add generative video/image/audio capability to your own app via API",
+        "keywords": [
+          "api",
+          "integration"
+        ]
+      },
+      {
+        "title": "Apply LoRAs across many open-source video and image models",
+        "keywords": [
+          "customization",
+          "lora"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

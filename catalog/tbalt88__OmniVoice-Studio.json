@@ -1,0 +1,120 @@
+{
+  "fork": {
+    "full_name": "tbalt88/OmniVoice-Studio",
+    "url": "https://github.com/tbalt88/OmniVoice-Studio",
+    "created_at": "2026-05-19T18:26:33Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:37Z"
+  },
+  "upstream": {
+    "full_name": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. No accounts, no API keys, no cloud.",
+    "stars": 10041,
+    "forks": 1667,
+    "watchers": 55,
+    "open_issues": 14,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "audiobook",
+      "cuda",
+      "dubbing",
+      "elevenlabs-alternative",
+      "huggingface",
+      "local-first",
+      "mlx",
+      "omnivoice-studio",
+      "speech-to-text",
+      "tauri",
+      "text-to-speech",
+      "transcription",
+      "translate",
+      "tts",
+      "voice-ai",
+      "voice-cloning",
+      "voice-generation",
+      "voicestudio",
+      "workflow"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": "https://voicestudio.sh",
+    "default_branch": "main",
+    "created_at": "2026-04-09T21:40:26Z",
+    "pushed_at": "2026-08-16T16:25:31Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:37Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:37Z",
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 8326220,
+      "JavaScript": 3839872,
+      "Rust": 552791,
+      "TypeScript": 548945,
+      "CSS": 243440,
+      "Shell": 238748,
+      "Jupyter Notebook": 55956,
+      "PowerShell": 7057,
+      "Dockerfile": 6225,
+      "HTML": 1074,
+      "Mako": 594
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:34Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "VoiceStudio (formerly OmniVoice-Studio) is a local-first, open-source desktop application (Tauri) that bundles 16 TTS engines and 11 ASR engines for voice cloning, voice design, video dubbing, dictation, and audiobook creation across 646 languages, positioned as a fully offline ElevenLabs alternative. It targets creators and privacy-conscious users who want zero-account, zero-API-key local voice generation with GPU auto-detection (CUDA/MPS/ROCm), and it also exposes a local REST/SSE/WebSocket API, an OpenAI-compatible audio API, and an MCP server for programmatic use. Actively developed in beta with cross-platform installers for macOS, Windows, and Linux plus Docker.",
+    "keywords": [
+      "audiobook",
+      "dubbing",
+      "local-first",
+      "mcp",
+      "speech-to-text",
+      "tauri",
+      "tts",
+      "voice-cloning"
+    ],
+    "use_cases": [
+      {
+        "title": "Clone a voice locally without cloud APIs or subscriptions",
+        "keywords": [
+          "local-first",
+          "voice-cloning"
+        ]
+      },
+      {
+        "title": "Dub a video into another language with speaker preservation",
+        "keywords": [
+          "dubbing",
+          "tts"
+        ]
+      },
+      {
+        "title": "Generate an audiobook from an EPUB/PDF with multiple voices",
+        "keywords": [
+          "audiobook",
+          "tts"
+        ]
+      },
+      {
+        "title": "Run local dictation with system-wide transcription shortcut",
+        "keywords": [
+          "speech-to-text"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

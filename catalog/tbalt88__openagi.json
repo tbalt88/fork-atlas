@@ -1,0 +1,92 @@
+{
+  "fork": {
+    "full_name": "tbalt88/openagi",
+    "url": "https://github.com/tbalt88/openagi",
+    "created_at": "2025-12-26T13:22:15Z",
+    "default_branch": "main",
+    "pushed_at": "2025-02-25T11:22:33Z"
+  },
+  "upstream": {
+    "full_name": "aiplanethub/openagi",
+    "url": "https://github.com/aiplanethub/openagi",
+    "description": "Paving the way for open agents and AGI for all.",
+    "stars": 623,
+    "forks": 129,
+    "watchers": 12,
+    "open_issues": 10,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "agents",
+      "agi",
+      "generative-ai",
+      "hacktoberfest",
+      "hacktoberfest-accepted",
+      "hacktoberfest2023",
+      "hacktoberfest2024",
+      "large-language-models",
+      "llm",
+      "openagi",
+      "openai"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://openagi.aiplanet.com/",
+    "default_branch": "main",
+    "created_at": "2024-04-04T06:33:47Z",
+    "pushed_at": "2025-02-25T11:22:33Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:57Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:57Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Jupyter Notebook": 255660,
+      "Python": 239585
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:38Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "library",
+    "maturity": "dormant",
+    "analysis": "OpenAGI is a Python framework for building autonomous, human-like multi-agent systems, structured around an Admin agent that assigns Worker agents (with roles, instructions, and tool actions) using a TaskPlanner for manual or fully autonomous task decomposition, plus optional long-term memory for cross-session recall. It supports multiple LLM backends (OpenAI, Gemini) and pluggable tools like DuckDuckGo/Tavily search, targeting developers who want a lower-level building-block library rather than a polished product. Development has stalled since February 2025, with no recent commits despite moderate community interest (623 stars).",
+    "keywords": [
+      "agent-framework",
+      "autonomous-agents",
+      "long-term-memory",
+      "multi-agent",
+      "python",
+      "task-planning"
+    ],
+    "use_cases": [
+      {
+        "title": "Build an Admin/Worker multi-agent hierarchy for a task pipeline",
+        "keywords": [
+          "agent-framework",
+          "multi-agent"
+        ]
+      },
+      {
+        "title": "Give agents long-term memory across conversations",
+        "keywords": [
+          "agent-framework",
+          "long-term-memory"
+        ]
+      },
+      {
+        "title": "Prototype autonomous task decomposition with a TaskPlanner",
+        "keywords": [
+          "autonomous-agents",
+          "task-planning"
+        ]
+      }
+    ],
+    "confidence": 0.65,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

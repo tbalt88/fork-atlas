@@ -1,0 +1,89 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Auto-Claude",
+    "url": "https://github.com/tbalt88/Auto-Claude",
+    "created_at": "2026-02-14T08:03:14Z",
+    "default_branch": "develop",
+    "pushed_at": "2026-06-14T09:25:02Z"
+  },
+  "upstream": {
+    "full_name": "AndyMik90/Aperant",
+    "url": "https://github.com/AndyMik90/Aperant",
+    "description": "Autonomous multi-session AI coding",
+    "stars": 14532,
+    "forks": 1920,
+    "watchers": 108,
+    "open_issues": 74,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "AGPL-3.0",
+    "homepage": "https://aperant.com",
+    "default_branch": "develop",
+    "created_at": "2025-12-04T22:10:37Z",
+    "pushed_at": "2026-06-14T08:27:00Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:12Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:12Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "node",
+      "typescript",
+      "vite"
+    ],
+    "languages": {
+      "TypeScript": 10829755,
+      "JavaScript": 68181,
+      "CSS": 59294,
+      "Shell": 19497,
+      "HTML": 1573
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:19Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Aperant (formerly Auto-Claude) is a cross-platform Electron desktop app that orchestrates autonomous multi-agent coding sessions on top of Claude Code, running up to 12 parallel agent terminals in isolated git worktrees with a kanban-style task board. It handles planning, implementation, self-validating QA, and AI-assisted merge-conflict resolution, and integrates with GitHub/GitLab and Linear. Targeted at developers who want hands-off, parallelized autonomous coding backed by a Claude subscription; the 2.x app is currently in maintenance mode while a 3.0 rewrite happens in a separate repo.",
+    "keywords": [
+      "autonomous-agents",
+      "claude-code",
+      "coding-automation",
+      "desktop-app",
+      "electron",
+      "git-worktrees",
+      "kanban",
+      "multi-agent"
+    ],
+    "use_cases": [
+      {
+        "title": "Run multiple autonomous coding agents in parallel worktrees",
+        "keywords": [
+          "parallel-agents",
+          "worktrees"
+        ]
+      },
+      {
+        "title": "Turn a GitHub issue into an AI-implemented pull request",
+        "keywords": [
+          "automation",
+          "github"
+        ]
+      },
+      {
+        "title": "Track agent coding tasks on a kanban board",
+        "keywords": [
+          "kanban",
+          "task-management"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

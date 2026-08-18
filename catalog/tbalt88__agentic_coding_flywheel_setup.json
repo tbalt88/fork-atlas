@@ -1,0 +1,100 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agentic_coding_flywheel_setup",
+    "url": "https://github.com/tbalt88/agentic_coding_flywheel_setup",
+    "created_at": "2025-12-24T04:19:14Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-05T17:25:26Z"
+  },
+  "upstream": {
+    "full_name": "Dicklesworthstone/agentic_coding_flywheel_setup",
+    "url": "https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup",
+    "description": "Bootstraps a fresh Ubuntu VPS into a complete multi-agent AI development environment in 30 minutes: coding agents, session management, safety tools, and coordination infrastructure",
+    "stars": 1598,
+    "forks": 179,
+    "watchers": 4,
+    "open_issues": 2,
+    "language": "Shell",
+    "topics": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agentmail",
+      "beads",
+      "bv"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://agent-flywheel.com/",
+    "default_branch": "main",
+    "created_at": "2025-12-20T03:17:03Z",
+    "pushed_at": "2026-08-17T22:28:16Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:00Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:00Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Shell": 6908048,
+      "TypeScript": 6250291,
+      "CSS": 26246,
+      "Python": 12510,
+      "JavaScript": 11520
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:55Z"
+  },
+  "classification": {
+    "domain": "dev-tooling",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Agentic Coding Flywheel Setup (ACFS) is a one-liner curl-to-bash installer that turns a fresh Ubuntu VPS into a fully configured multi-agent AI coding environment in about 30 minutes. It installs and wires up three coding agents (Claude Code, Codex CLI, Antigravity CLI), a modern shell (zsh/oh-my-zsh/p10k), language runtimes, and a suite of agent-coordination utilities (NTM, MCP Agent Mail, SLB) plus an onboarding curriculum for beginners. It is manifest-driven (a single YAML source of truth generates installer scripts and doctor checks) and ships an accompanying wizard website for non-technical users to rent a VPS and SSH in. Aimed at solo builders and small teams who want a reproducible, idempotent agentic-coding VPS without hand-configuring tools one by one.",
+    "keywords": [
+      "agent-orchestration",
+      "bootstrap",
+      "claude-code",
+      "codex",
+      "dev-environment",
+      "installer",
+      "onboarding",
+      "shell",
+      "ubuntu",
+      "vps"
+    ],
+    "use_cases": [
+      {
+        "title": "Spin up a fresh VPS pre-configured for AI coding agents in one command",
+        "keywords": [
+          "installer",
+          "vps"
+        ]
+      },
+      {
+        "title": "Standardize a team's agentic dev environment so every box is identical",
+        "keywords": [
+          "idempotent",
+          "reproducibility"
+        ]
+      },
+      {
+        "title": "Onboard a non-technical beginner to agent-assisted coding via a guided wizard",
+        "keywords": [
+          "onboarding",
+          "wizard"
+        ]
+      },
+      {
+        "title": "Wire up coordination tooling (NTM, MCP Agent Mail) for multiple agents working in parallel",
+        "keywords": [
+          "coordination",
+          "multi-agent"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

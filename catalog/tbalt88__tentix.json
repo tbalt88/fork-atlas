@@ -1,0 +1,97 @@
+{
+  "fork": {
+    "full_name": "tbalt88/tentix",
+    "url": "https://github.com/tbalt88/tentix",
+    "created_at": "2025-12-27T02:00:17Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:17:39Z"
+  },
+  "upstream": {
+    "full_name": "labring/tentix",
+    "url": "https://github.com/labring/tentix",
+    "description": "TenTix (10x Efficiency) - An AI native customer service platform with 10x accelerated resolution. Support MCP extension, and AI knowlage base system.",
+    "stars": 410,
+    "forks": 61,
+    "watchers": 2,
+    "open_issues": 9,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "NOASSERTION",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-04-10T01:41:45Z",
+    "pushed_at": "2026-08-17T08:31:56Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:51Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:51Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions",
+      "make",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 2070531,
+      "CSS": 24564,
+      "JavaScript": 9120,
+      "Makefile": 3397,
+      "Dockerfile": 753,
+      "HTML": 607
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:43Z"
+  },
+  "classification": {
+    "domain": "automation-integrations",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Tentix is an open-source AI-native customer service and ticketing platform (TypeScript, Bun) that pairs a support-ticket system with a LangGraph AI agent doing RAG over a unified PostgreSQL+pgvector knowledge base (starred conversations, historical tickets, general docs), configurable handoff and MCP-style workflow nodes, and Feishu notifications. Aimed at teams wanting a self-hosted, AI-accelerated helpdesk with an admin knowledge-base UI and a visual React Flow workflow editor for the AI agent's behavior.",
+    "keywords": [
+      "customer-service",
+      "helpdesk",
+      "langgraph",
+      "mcp",
+      "pgvector",
+      "rag",
+      "ticketing",
+      "typescript"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host an AI-assisted customer support ticketing system",
+        "keywords": [
+          "helpdesk",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Build a RAG knowledge base from historical support tickets",
+        "keywords": [
+          "knowledge-base",
+          "rag"
+        ]
+      },
+      {
+        "title": "Design an agent handoff and escalation workflow visually",
+        "keywords": [
+          "react-flow",
+          "workflow"
+        ]
+      },
+      {
+        "title": "Route customer messages to a support agent via Feishu",
+        "keywords": [
+          "feishu",
+          "notifications"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

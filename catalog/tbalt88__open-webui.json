@@ -1,0 +1,119 @@
+{
+  "fork": {
+    "full_name": "tbalt88/open-webui",
+    "url": "https://github.com/tbalt88/open-webui",
+    "created_at": "2026-05-09T01:26:37Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-01T09:36:01Z"
+  },
+  "upstream": {
+    "full_name": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "stars": 149057,
+    "forks": 21711,
+    "watchers": 651,
+    "open_issues": 356,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "llm",
+      "llm-ui",
+      "llm-webui",
+      "llms",
+      "mcp",
+      "ollama",
+      "ollama-webui",
+      "open-webui",
+      "openai",
+      "openapi",
+      "rag",
+      "self-hosted",
+      "ui",
+      "webui"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://openwebui.com",
+    "default_branch": "main",
+    "created_at": "2023-10-06T22:08:27Z",
+    "pushed_at": "2026-08-17T20:56:30Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:45Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:45Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "Python": 4107888,
+      "Svelte": 3612860,
+      "JavaScript": 2424269,
+      "TypeScript": 543728,
+      "CSS": 237132,
+      "Shell": 20476,
+      "Dockerfile": 8990,
+      "HTML": 6775,
+      "Batchfile": 2055,
+      "Mako": 665,
+      "Makefile": 643
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:37Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "proposed_domain": "self-hosted-ai-platform",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Open WebUI is a massively popular, self-hosted, extensible AI interface that sits in front of Ollama and any OpenAI-compatible API, giving individuals and enterprises a ChatGPT-like frontend with built-in RAG (9 vector DB backends), web search, image generation, voice/video calls, persistent memory, calendars/automations, and pluggable Filters/Actions/Pipes/Tools/Skills including MCP and OpenAPI tool servers. Built with a Python/FastAPI backend and Svelte frontend, it supports enterprise features like RBAC, SSO/SCIM, OpenTelemetry observability, and horizontal scaling with Redis, and anchors a wider ecosystem (Open WebUI Computer, Open Terminal, oikb, desktop app). It's aimed at anyone who wants full control over their AI stack — from a single-user Docker deployment to enterprise-scale self-hosted LLM infrastructure — without depending on a hosted SaaS chat product.",
+    "keywords": [
+      "agents",
+      "chat-ui",
+      "docker",
+      "enterprise",
+      "mcp",
+      "ollama",
+      "rag",
+      "self-hosted",
+      "vector-database",
+      "web-search"
+    ],
+    "use_cases": [
+      {
+        "title": "Stand up a self-hosted ChatGPT-style interface in front of local Ollama models",
+        "keywords": [
+          "ollama",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Give a team RAG over internal documents with hybrid search and reranking",
+        "keywords": [
+          "knowledge-base",
+          "rag"
+        ]
+      },
+      {
+        "title": "Wrap a base model with custom tools and instructions to build a specialized in-house agent",
+        "keywords": [
+          "agents",
+          "customization"
+        ]
+      },
+      {
+        "title": "Deploy an enterprise AI platform with SSO, RBAC, and OpenTelemetry observability",
+        "keywords": [
+          "enterprise",
+          "observability"
+        ]
+      }
+    ],
+    "confidence": 0.55,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,99 @@
+{
+  "fork": {
+    "full_name": "tbalt88/all-agentic-architectures",
+    "url": "https://github.com/tbalt88/all-agentic-architectures",
+    "created_at": "2025-12-07T04:25:36Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:48:04Z"
+  },
+  "upstream": {
+    "full_name": "FareedKhan-dev/all-agentic-architectures",
+    "url": "https://github.com/FareedKhan-dev/all-agentic-architectures",
+    "description": "35 production-grade agentic AI architectures (Reflexion, LATS, GraphRAG, MemGPT, Voyager, BrowserAgent, ...) — a Python library and runnable textbook with multi-provider LLM support and a 17-task benchmark leaderboard.",
+    "stars": 4125,
+    "forks": 727,
+    "watchers": 37,
+    "open_issues": 9,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "langchain",
+      "langgraph",
+      "langsmith",
+      "llm"
+    ],
+    "license": "MIT",
+    "homepage": "https://fareedkhan-dev.github.io/all-agentic-architectures/",
+    "default_branch": "main",
+    "created_at": "2025-09-24T11:47:58Z",
+    "pushed_at": "2026-06-22T06:16:53Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:10Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:10Z",
+    "signals": [
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "Jupyter Notebook": 1997892,
+      "Python": 1237524,
+      "Dockerfile": 2041
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:10Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "A Python library and runnable textbook implementing 35 production-grade agentic AI patterns (Reflection, ReAct, Tree of Thoughts, LATS, MemGPT, GraphRAG, Debate, SWE-Agent, BrowserAgent, etc.) as uniform Architecture classes with a shared .run(task) interface, built on LangGraph and supporting 9 LLM providers. Each pattern ships with a fully executed Jupyter notebook, 283 passing tests, and a 17-task benchmark leaderboard, plus a documented 'deterministic-picker' discipline for avoiding LLM-as-judge pitfalls. Aimed at engineers and researchers who want a reference implementation and comparative benchmark for choosing or composing agent architectures.",
+    "keywords": [
+      "agentic-ai",
+      "benchmark",
+      "langgraph",
+      "memory",
+      "multi-agent",
+      "rag",
+      "react",
+      "reflexion",
+      "tree-of-thoughts"
+    ],
+    "use_cases": [
+      {
+        "title": "Compare agentic architectures against a benchmark before choosing one",
+        "keywords": [
+          "agentic-ai",
+          "benchmark"
+        ]
+      },
+      {
+        "title": "Drop in a ReAct or Plan-Execute-Verify agent via a uniform Python interface",
+        "keywords": [
+          "langgraph",
+          "react"
+        ]
+      },
+      {
+        "title": "Study reference implementations of RAG variants (Corrective, Self-RAG, GraphRAG)",
+        "keywords": [
+          "graphrag",
+          "rag"
+        ]
+      },
+      {
+        "title": "Learn the deterministic-picker pattern to avoid LLM-as-scorer pitfalls",
+        "keywords": [
+          "agentic-ai",
+          "evaluation"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

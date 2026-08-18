@@ -1,0 +1,88 @@
+{
+  "fork": {
+    "full_name": "tbalt88/promptfx",
+    "url": "https://github.com/tbalt88/promptfx",
+    "created_at": "2025-11-01T12:08:51Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:18:05Z"
+  },
+  "upstream": {
+    "full_name": "aplpolaris/promptfx",
+    "url": "https://github.com/aplpolaris/promptfx",
+    "description": "Kotlin LLM Prompts and User Interface",
+    "stars": 38,
+    "forks": 8,
+    "watchers": 1,
+    "open_issues": 43,
+    "language": "Kotlin",
+    "topics": [],
+    "license": "Apache-2.0",
+    "homepage": "https://aplpolaris.github.io/promptfx/",
+    "default_branch": "main",
+    "created_at": "2023-07-07T16:28:58Z",
+    "pushed_at": "2026-07-28T00:21:52Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:24Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:24Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "java"
+    ],
+    "languages": {
+      "Kotlin": 2267684,
+      "Java": 22121,
+      "PowerShell": 5365,
+      "Shell": 5055,
+      "CSS": 2870,
+      "Batchfile": 693
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:03Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "toy",
+    "analysis": "PromptFx is a Kotlin prototype for LLM prompt engineering and chaining (the promptkt/promptex libraries) paired with a JavaFX demo UI for testing OpenAI- and Gemini-compatible models: document Q&A/RAG over local PDFs, prompt template/scripting tools, translation/summarization/sentiment views, and image/audio playgrounds. The promptex module adds an execution layer with agent, tool, and pipeline logic plus an MCP server/client. The README explicitly frames it as built for demonstration and exploration rather than production use, aimed at JVM developers experimenting with prompt engineering and RAG patterns outside the Python ecosystem.",
+    "keywords": [
+      "document-qa",
+      "gemini",
+      "javafx",
+      "kotlin",
+      "mcp",
+      "openai",
+      "prompt-engineering",
+      "rag"
+    ],
+    "use_cases": [
+      {
+        "title": "Experiment with prompt templates and chaining in a desktop JVM app",
+        "keywords": [
+          "javafx",
+          "prompt-engineering"
+        ]
+      },
+      {
+        "title": "Run local document Q&A over a folder of PDFs",
+        "keywords": [
+          "document-qa",
+          "rag"
+        ]
+      },
+      {
+        "title": "Prototype an MCP server or client from Kotlin",
+        "keywords": [
+          "kotlin",
+          "mcp"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

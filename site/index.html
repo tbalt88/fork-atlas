@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fork Atlas</title>
+<style>
+  :root {
+    --bg: #f7f7f5; --panel: #ffffff; --ink: #1c1c1a; --ink2: #55554f; --muted: #8a8a82;
+    --line: #e3e3de; --accent: #2f6fdd; --accent-bg: #e8f0fd; --warn: #b8741a; --warn-bg: #fdf3e2;
+    --chip: #f0f0ec; --pin: #7a3fd1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141416; --panel: #1d1d20; --ink: #ececea; --ink2: #b4b4ae; --muted: #7d7d77;
+      --line: #2c2c31; --accent: #7aa7f2; --accent-bg: #1e2a44; --warn: #e0a34a; --warn-bg: #3a2c15;
+      --chip: #26262b; --pin: #b48cf0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+  header { padding: 18px 22px 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 14px; }
+  header h1 { margin: 0; font-size: 20px; letter-spacing: .2px; }
+  header .stats { color: var(--ink2); font-size: 13px; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 22px 12px; align-items: center; }
+  input[type=search], select { background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font: inherit; }
+  input[type=search] { min-width: 320px; flex: 1; }
+  .toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .toggle button { background: var(--panel); color: var(--ink2); border: 0; padding: 8px 12px; font: inherit; cursor: pointer; }
+  .toggle button.on { background: var(--accent-bg); color: var(--accent); font-weight: 600; }
+  label.chk { display: inline-flex; gap: 6px; align-items: center; color: var(--ink2); }
+  main { padding: 0 22px 40px; }
+  .matrix { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; margin-bottom: 18px; }
+  .matrix table { border-collapse: collapse; width: 100%; min-width: 900px; }
+  .matrix th, .matrix td { border-bottom: 1px solid var(--line); padding: 8px 10px; text-align: center; font-size: 13px; }
+  .matrix th { color: var(--ink2); font-weight: 600; background: var(--panel); position: sticky; top: 0; }
+  .matrix td.rowh, .matrix th.rowh { text-align: left; font-weight: 600; white-space: nowrap; }
+  .matrix td.cell { cursor: pointer; }
+  .matrix td.cell:hover { background: var(--accent-bg); }
+  .matrix td.cell.on { background: var(--accent-bg); color: var(--accent); font-weight: 700; outline: 2px solid var(--accent); outline-offset: -2px; }
+  .matrix td.zero { color: var(--muted); }
+  .matrix td.tot { font-weight: 600; color: var(--ink2); }
+  .kw { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+  .kw button { background: var(--chip); border: 1px solid transparent; color: var(--ink2); border-radius: 999px; padding: 3px 10px; font: inherit; font-size: 12px; cursor: pointer; }
+  .kw button.on { background: var(--accent-bg); color: var(--accent); border-color: var(--accent); }
+  .kw button small { color: var(--muted); margin-left: 4px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 12px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; cursor: pointer; display: flex; flex-direction: column; gap: 6px; }
+  .card:hover { border-color: var(--accent); }
+  .card h3 { margin: 0; font-size: 15px; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+  .card h3 .stars { color: var(--muted); font-weight: 400; font-size: 12px; }
+  .card .meta { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { background: var(--chip); color: var(--ink2); border-radius: 6px; padding: 1px 7px; font-size: 12px; }
+  .tag.dom { background: var(--accent-bg); color: var(--accent); }
+  .tag.warn { background: var(--warn-bg); color: var(--warn); }
+  .tag.pin { color: var(--pin); }
+  .card p { margin: 2px 0 0; color: var(--ink2); }
+  .card ul { margin: 2px 0 0; padding-left: 18px; color: var(--ink2); }
+  .card ul li { margin: 0; }
+  .empty { color: var(--muted); padding: 40px; text-align: center; }
+  /* list view */
+  table.list { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  table.list th, table.list td { border-bottom: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; font-size: 13px; }
+  table.list th { color: var(--ink2); cursor: pointer; user-select: none; white-space: nowrap; }
+  table.list tr:hover td { background: var(--accent-bg); }
+  table.list td.num { text-align: right; white-space: nowrap; }
+  /* drawer */
+  .drawer { position: fixed; top: 0; right: 0; height: 100%; width: min(560px, 100%); background: var(--panel); border-left: 1px solid var(--line); box-shadow: -8px 0 30px rgba(0,0,0,.15); transform: translateX(100%); transition: transform .18s ease; overflow-y: auto; padding: 22px 24px; z-index: 10; }
+  .drawer.open { transform: none; }
+  .drawer .close { float: right; background: none; border: 0; font-size: 20px; cursor: pointer; color: var(--ink2); }
+  .drawer h2 { margin: 0 0 4px; font-size: 18px; }
+  .drawer dl { display: grid; grid-template-columns: 110px 1fr; gap: 4px 10px; margin: 12px 0; font-size: 13px; }
+  .drawer dt { color: var(--muted); } .drawer dd { margin: 0; }
+  .drawer h4 { margin: 14px 0 4px; font-size: 13px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); }
+  .drawer .note { background: var(--warn-bg); color: var(--warn); border-radius: 8px; padding: 8px 10px; }
+  code { background: var(--chip); padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+  footer { color: var(--muted); font-size: 12px; padding: 0 22px 20px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Fork Atlas</h1>
+  <span class="stats" id="stats">loading…</span>
+</header>
+<div class="bar">
+  <input id="q" type="search" placeholder="Search name, description, analysis, use cases, keywords…  (e.g. 'fine-tune video', 'obsidian', 'mcp')">
+  <select id="fDomain"><option value="">All domains</option></select>
+  <select id="fForm"><option value="">All forms</option></select>
+  <select id="fMat"><option value="">Any maturity</option></select>
+  <select id="fLang"><option value="">Any language</option></select>
+  <select id="fSort">
+    <option value="forked">Newest fork</option>
+    <option value="stars">Most stars</option>
+    <option value="pushed">Recently pushed</option>
+    <option value="name">Name</option>
+  </select>
+  <label class="chk"><input type="checkbox" id="fReview"> needs review</label>
+  <label class="chk"><input type="checkbox" id="fRecent"> forked ≤30d</label>
+  <div class="toggle"><button data-view="cards" class="on">Cards</button><button data-view="list">List</button></div>
+  <button id="reset" class="tag" style="cursor:pointer;border:1px solid var(--line);padding:6px 10px;">Reset</button>
+</div>
+<main>
+  <div class="matrix" id="matrix"></div>
+  <div class="kw" id="kw"></div>
+  <div id="results"></div>
+</main>
+<footer id="foot"></footer>
+<aside class="drawer" id="drawer"></aside>
+
+<script>
+(async function () {
+  const $ = s => document.querySelector(s);
+  const data = await (await fetch('matrix.json?' + Date.now())).json();
+  const items = data.items;
+  const tax = data.taxonomy;
+  const domains = [...tax.domains.map(d => ({key: d.key, label: d.label})), {key: 'unclassified', label: 'Unclassified'}];
+  const forms = [...tax.forms.map(f => ({key: f.key, label: f.label})), {key: 'unclassified', label: 'Unclassified'}];
+  const domainKeys = domains.map(d => d.key), formKeys = forms.map(f => f.key);
+
+  const state = { q: '', domain: '', form: '', mat: '', lang: '', sort: 'forked', review: false, recent: false, kw: '', view: 'cards' };
+  const fromHash = () => { try { Object.assign(state, JSON.parse(decodeURIComponent(location.hash.slice(1) || '{}'))); } catch {} };
+  const toHash = () => { const s = {}; for (const k in state) if (state[k]) s[k] = state[k]; history.replaceState(null, '', '#' + encodeURIComponent(JSON.stringify(s))); };
+  fromHash();
+
+  // populate selects
+  const opt = (sel, list, valFn, labFn) => list.forEach(x => { const o = document.createElement('option'); o.value = valFn(x); o.textContent = labFn(x); sel.appendChild(o); });
+  opt($('#fDomain'), domains, d => d.key, d => d.label);
+  opt($('#fForm'), forms, f => f.key, f => f.label);
+  opt($('#fMat'), tax.maturity, m => m, m => m);
+  const langs = [...new Set(items.map(i => i.language).filter(Boolean))].sort();
+  opt($('#fLang'), langs, l => l, l => l);
+
+  const syncControls = () => {
+    $('#q').value = state.q; $('#fDomain').value = state.domain; $('#fForm').value = state.form;
+    $('#fMat').value = state.mat; $('#fLang').value = state.lang; $('#fSort').value = state.sort;
+    $('#fReview').checked = state.review; $('#fRecent').checked = state.recent;
+    document.querySelectorAll('.toggle button').forEach(b => b.classList.toggle('on', b.dataset.view === state.view));
+  };
+
+  const hay = i => (i.name + ' ' + (i.upstream||'') + ' ' + i.description + ' ' + i.analysis + ' ' + i.keywords.join(' ') + ' ' + i.topics.join(' ') + ' ' + i.use_cases.map(u => u.title + ' ' + u.keywords.join(' ')).join(' ') + ' ' + (i.note||'') + ' ' + i.domain_label + ' ' + i.form_label + ' ' + (i.language||'')).toLowerCase();
+  const thirtyDays = 30 * 864e5;
+
+  function baseFilter(ignoreCell) {
+    const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    return items.filter(i => {
+      if (!ignoreCell) { if (state.domain && i.domain !== state.domain) return false; if (state.form && i.form !== state.form) return false; }
+      if (state.mat && i.maturity !== state.mat) return false;
+      if (state.lang && i.language !== state.lang) return false;
+      if (state.review && !i.needs_review) return false;
+      if (state.recent && (Date.now() - Date.parse(i.forked_at)) > thirtyDays) return false;
+      if (state.kw && !i.keywords.includes(state.kw)) return false;
+      if (terms.length) { const h = hay(i); if (!terms.every(t => h.includes(t))) return false; }
+      return true;
+    });
+  }
+
+  function sortItems(list) {
+    const s = state.sort;
+    return list.sort((a, b) => (b.pinned - a.pinned) || (
+      s === 'stars' ? (b.stars||0) - (a.stars||0) :
+      s === 'pushed' ? (b.pushed_at||'').localeCompare(a.pushed_at||'') :
+      s === 'name' ? a.name.localeCompare(b.name) :
+      (b.forked_at||'').localeCompare(a.forked_at||'')));
+  }
+
+  function renderMatrix() {
+    const pool = baseFilter(true);
+    const counts = {}; pool.forEach(i => { counts[i.domain + '|' + i.form] = (counts[i.domain + '|' + i.form] || 0) + 1; });
+    const usedForms = formKeys.filter(f => pool.some(i => i.form === f));
+    const usedDoms = domainKeys.filter(d => pool.some(i => i.domain === d));
+    let h = '<table><thead><tr><th class="rowh">Domain \\ Form</th>' + usedForms.map(f => `<th>${forms.find(x=>x.key===f).label}</th>`).join('') + '<th>Total</th></tr></thead><tbody>';
+    for (const d of usedDoms) {
+      let tot = 0;
+      h += `<tr><td class="rowh cell ${state.domain===d && !state.form?'on':''}" data-d="${d}" data-f="">${domains.find(x=>x.key===d).label}</td>`;
+      for (const f of usedForms) { const n = counts[d+'|'+f] || 0; tot += n; h += `<td class="cell ${n?'':'zero'} ${state.domain===d&&state.form===f?'on':''}" data-d="${d}" data-f="${f}">${n||'·'}</td>`; }
+      h += `<td class="tot">${tot}</td></tr>`;
+    }
+    h += '<tr><td class="rowh tot">Total</td>' + usedForms.map(f => `<td class="cell tot ${!state.domain&&state.form===f?'on':''}" data-d="" data-f="${f}">${pool.filter(i=>i.form===f).length}</td>`).join('') + `<td class="tot">${pool.length}</td></tr>`;
+    h += '</tbody></table>';
+    $('#matrix').innerHTML = h;
+    $('#matrix').querySelectorAll('td.cell').forEach(td => td.onclick = () => {
+      const d = td.dataset.d, f = td.dataset.f;
+      if (state.domain === d && state.form === f) { state.domain = ''; state.form = ''; } else { state.domain = d; state.form = f; }
+      render();
+    });
+  }
+
+  function renderKeywords(list) {
+    const c = {}; list.forEach(i => i.keywords.forEach(k => c[k] = (c[k]||0)+1));
+    const top = Object.entries(c).sort((a,b) => b[1]-a[1]).slice(0, 40);
+    if (state.kw && !top.some(([k]) => k === state.kw)) top.unshift([state.kw, c[state.kw]||0]);
+    $('#kw').innerHTML = top.map(([k,n]) => `<button data-k="${k}" class="${state.kw===k?'on':''}">${k}<small>${n}</small></button>`).join('');
+    $('#kw').querySelectorAll('button').forEach(b => b.onclick = () => { state.kw = state.kw === b.dataset.k ? '' : b.dataset.k; render(); });
+  }
+
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const fmtDate = s => s ? s.slice(0,10) : '';
+
+  function card(i) {
+    return `<div class="card" data-id="${esc(i.id)}">
+      <h3>${i.pinned?'<span class="tag pin">📌</span>':''}<span>${esc(i.upstream||i.name)}</span><span class="stars">★ ${i.stars||0}${i.archived?' · archived':''}${i.upstream_deleted?' · upstream gone':''}</span></h3>
+      <div class="meta"><span class="tag dom">${esc(i.domain_label)}</span><span class="tag">${esc(i.form_label)}</span>${i.maturity?`<span class="tag">${esc(i.maturity)}</span>`:''}${i.language?`<span class="tag">${esc(i.language)}</span>`:''}${i.needs_review?'<span class="tag warn">⚠ review</span>':''}${i.status!=='classified'?'<span class="tag warn">unclassified</span>':''}</div>
+      <p>${esc(i.analysis || i.description || '—')}</p>
+      ${i.use_cases.length?`<ul>${i.use_cases.slice(0,3).map(u=>`<li>${esc(u.title)}</li>`).join('')}</ul>`:''}
+    </div>`;
+  }
+
+  function listRow(i) {
+    return `<tr data-id="${esc(i.id)}"><td><b>${esc(i.upstream||i.name)}</b>${i.pinned?' 📌':''}${i.needs_review?' ⚠':''}<br><span style="color:var(--muted)">${esc(i.language||'')}</span></td>
+      <td>${esc(i.domain_label)}</td><td>${esc(i.form_label)}</td><td class="num">${i.stars||0}</td>
+      <td>${esc((i.analysis||i.description||'').slice(0,220))}</td>
+      <td>${i.use_cases.slice(0,3).map(u=>'• '+esc(u.title)).join('<br>')}</td>
+      <td>${i.keywords.slice(0,6).map(k=>`<span class="tag">${esc(k)}</span>`).join(' ')}</td>
+      <td class="num">${fmtDate(i.forked_at)}</td></tr>`;
+  }
+
+  function render() {
+    syncControls(); toHash(); renderMatrix();
+    const list = sortItems(baseFilter(false));
+    renderKeywords(list);
+    const r = $('#results');
+    if (!list.length) r.innerHTML = '<div class="empty">No forks match. Try fewer terms or reset filters.</div>';
+    else if (state.view === 'list') r.innerHTML = `<table class="list"><thead><tr><th>Repo</th><th>Domain</th><th>Form</th><th>★</th><th>What it is</th><th>Use cases</th><th>Keywords</th><th>Forked</th></tr></thead><tbody>${list.map(listRow).join('')}</tbody></table>`;
+    else r.innerHTML = `<div class="grid">${list.map(card).join('')}</div>`;
+    r.querySelectorAll('[data-id]').forEach(el => el.onclick = e => { if (e.target.tagName !== 'A') openDrawer(el.dataset.id); });
+    $('#stats').textContent = `${list.length} of ${data.counts.total} forks · ${data.counts.classified} classified · ${data.counts.needs_review} need review · updated ${fmtDate(data.generated_at)}`;
+  }
+
+  function openDrawer(id) {
+    const i = items.find(x => x.id === id); if (!i) return;
+    const d = $('#drawer');
+    d.innerHTML = `<button class="close" title="close">×</button>
+      <h2>${esc(i.upstream||i.name)}</h2>
+      <div class="meta"><span class="tag dom">${esc(i.domain_label)}</span> <span class="tag">${esc(i.form_label)}</span> ${i.maturity?`<span class="tag">${esc(i.maturity)}</span>`:''} ${i.needs_review?'<span class="tag warn">⚠ needs review</span>':''}</div>
+      ${i.note?`<p class="note">${esc(i.note)}</p>`:''}
+      ${i.proposed_domain && !i.overridden?`<p class="note">LLM proposed new domain: <b>${esc(i.proposed_domain)}</b> — accept by adding it to taxonomy.yaml + an override, or leave in ${esc(i.domain_label)}.</p>`:''}
+      <dl>
+        <dt>Upstream</dt><dd>${i.upstream_url?`<a href="${esc(i.upstream_url)}" target="_blank" rel="noopener">${esc(i.upstream)}</a>`:'(deleted)'}${i.upstream_deleted?' · <b>gone</b>':''}</dd>
+        <dt>My fork</dt><dd><a href="${esc(i.fork_url)}" target="_blank" rel="noopener">${esc(i.id)}</a></dd>
+        ${i.homepage?`<dt>Homepage</dt><dd><a href="${esc(i.homepage)}" target="_blank" rel="noopener">${esc(i.homepage)}</a></dd>`:''}
+        <dt>Stars</dt><dd>${i.stars||0}${i.archived?' · archived':''}</dd>
+        <dt>Language</dt><dd>${esc(i.language||'—')}${i.signals.length?' · '+esc(i.signals.join(', ')):''}</dd>
+        <dt>License</dt><dd>${esc(i.license||'—')}</dd>
+        <dt>Forked</dt><dd>${fmtDate(i.forked_at)}</dd>
+        <dt>Last push</dt><dd>${fmtDate(i.pushed_at)}</dd>
+        <dt>Classified</dt><dd>${fmtDate(i.classified_at)||'not yet'}${i.confidence!=null?` · confidence ${Math.round(i.confidence*100)}%`:''}</dd>
+      </dl>
+      <h4>Description</h4><p>${esc(i.description||'—')}</p>
+      <h4>LLM analysis</h4><p>${esc(i.analysis||'— (unclassified; run scripts/classify.py)')}</p>
+      <h4>Potential use cases</h4>${i.use_cases.length?`<ul>${i.use_cases.map(u=>`<li>${esc(u.title)} ${u.keywords.map(k=>`<span class="tag">${esc(k)}</span>`).join(' ')}</li>`).join('')}</ul>`:'<p>—</p>'}
+      <h4>Keywords</h4><p>${i.keywords.map(k=>`<span class="tag">${esc(k)}</span>`).join(' ')||'—'}</p>
+      ${i.topics.length?`<h4>GitHub topics</h4><p>${i.topics.map(k=>`<span class="tag">${esc(k)}</span>`).join(' ')}</p>`:''}
+      <h4>Override</h4><p>Create <code>overrides/${esc(i.id.replace('/','__'))}.yaml</code> to correct domain/form or add a note.</p>`;
+    d.classList.add('open');
+    d.querySelector('.close').onclick = () => d.classList.remove('open');
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') $('#drawer').classList.remove('open'); if (e.key === '/' && document.activeElement !== $('#q')) { e.preventDefault(); $('#q').focus(); } });
+
+  // wire controls
+  let t; $('#q').oninput = e => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value; render(); }, 120); };
+  $('#fDomain').onchange = e => { state.domain = e.target.value; render(); };
+  $('#fForm').onchange = e => { state.form = e.target.value; render(); };
+  $('#fMat').onchange = e => { state.mat = e.target.value; render(); };
+  $('#fLang').onchange = e => { state.lang = e.target.value; render(); };
+  $('#fSort').onchange = e => { state.sort = e.target.value; render(); };
+  $('#fReview').onchange = e => { state.review = e.target.checked; render(); };
+  $('#fRecent').onchange = e => { state.recent = e.target.checked; render(); };
+  document.querySelectorAll('.toggle button').forEach(b => b.onclick = () => { state.view = b.dataset.view; render(); });
+  $('#reset').onclick = () => { Object.assign(state, { q:'', domain:'', form:'', mat:'', lang:'', review:false, recent:false, kw:'' }); render(); };
+  $('#foot').textContent = 'Data: matrix.json (rebuilt nightly by GitHub Actions). LLM analysis is one-shot per repo; corrections live in overrides/. Press / to search.';
+  render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+{
+  "fork": {
+    "full_name": "tbalt88/mem0",
+    "url": "https://github.com/tbalt88/mem0",
+    "created_at": "2026-02-06T18:28:23Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-18T07:40:43Z"
+  },
+  "upstream": {
+    "full_name": "mem0ai/mem0",
+    "url": "https://github.com/mem0ai/mem0",
+    "description": "Universal memory layer for AI Agents",
+    "stars": 63473,
+    "forks": 7421,
+    "watchers": 241,
+    "open_issues": 683,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "application",
+      "chatbots",
+      "chatgpt",
+      "genai",
+      "llm",
+      "long-term-memory",
+      "memory",
+      "memory-management",
+      "python",
+      "rag",
+      "state-management"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://mem0.ai",
+    "default_branch": "main",
+    "created_at": "2023-06-20T08:58:36Z",
+    "pushed_at": "2026-08-18T01:48:00Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:25Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:25Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "make",
+      "node"
+    ],
+    "languages": {
+      "Python": 3205036,
+      "TypeScript": 3128445,
+      "Shell": 101241,
+      "JavaScript": 42562,
+      "CSS": 17783,
+      "Makefile": 11520,
+      "Dockerfile": 2150,
+      "Mako": 635
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:18Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "Mem0 is a widely-adopted universal memory layer for AI agents and assistants, giving them persistent, personalized user/session/agent-level memory with multi-signal (semantic + BM25 + entity) retrieval and temporal reasoning. Offered as a Python/TypeScript library, a self-hosted Docker server, a managed cloud platform, and a CLI, plus installable Claude Code/Codex/Cursor 'skills' for wiring memory into a codebase. Backed by a published paper and a YC-backed company, used for chatbots, customer support, and long-term-memory agentic applications.",
+    "keywords": [
+      "ai-agents",
+      "long-term-memory",
+      "mcp",
+      "memory",
+      "python",
+      "rag",
+      "typescript",
+      "vector-db"
+    ],
+    "use_cases": [
+      {
+        "title": "Add persistent long-term memory to an LLM chatbot",
+        "keywords": [
+          "chatbot",
+          "memory"
+        ]
+      },
+      {
+        "title": "Self-host a Mem0 memory server for a team of agents",
+        "keywords": [
+          "docker",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Wire Mem0 into an existing repo via the mem0-integrate skill",
+        "keywords": [
+          "agent-skills",
+          "integration"
+        ]
+      },
+      {
+        "title": "Retrieve user preferences across sessions for personalized responses",
+        "keywords": [
+          "personalization"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

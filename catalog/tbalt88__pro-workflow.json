@@ -1,0 +1,106 @@
+{
+  "fork": {
+    "full_name": "tbalt88/pro-workflow",
+    "url": "https://github.com/tbalt88/pro-workflow",
+    "created_at": "2026-02-08T01:40:43Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:07:35Z"
+  },
+  "upstream": {
+    "full_name": "rohitg00/pro-workflow",
+    "url": "https://github.com/rohitg00/pro-workflow",
+    "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
+    "stars": 2775,
+    "forks": 270,
+    "watchers": 23,
+    "open_issues": 27,
+    "language": "JavaScript",
+    "topics": [
+      "agent-orchestration",
+      "ai-agents",
+      "ai-coding",
+      "ai-workflow",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "context-engineering",
+      "cursor",
+      "developer-tools",
+      "gemini-cli",
+      "hooks",
+      "productivity",
+      "self-correction",
+      "workflow",
+      "worktrees"
+    ],
+    "license": null,
+    "homepage": "https://rohitg00.github.io/pro-workflow/infographic.html",
+    "default_branch": "main",
+    "created_at": "2026-02-01T19:47:29Z",
+    "pushed_at": "2026-08-17T20:24:39Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:22Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:22Z",
+    "signals": [
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "JavaScript": 157087,
+      "TypeScript": 75032,
+      "Shell": 2763
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:02Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "Pro Workflow is a Claude Code plugin (also installable into 30+ agents via `skills add`) that layers a SQLite-backed self-correcting memory, FTS5-indexed research wikis, and quality-gate hooks on top of coding sessions, so corrections become durable rules and research persists across sessions. It ships 41 skills, 8 agents, 23 commands, and 37 hook scripts covering things like cost tracking, permission tuning, and a budget-capped auto-research loop with multi-LLM council deliberation. Aimed at heavy Claude Code / Cursor users who want cross-session memory and knowledge accumulation instead of losing context on every compaction.",
+    "keywords": [
+      "agent-teams",
+      "claude-code",
+      "context-engineering",
+      "fts5",
+      "hooks",
+      "memory",
+      "plugin",
+      "skills",
+      "sqlite",
+      "worktrees"
+    ],
+    "use_cases": [
+      {
+        "title": "Give Claude Code persistent memory of corrections across sessions",
+        "keywords": [
+          "memory",
+          "self-correction"
+        ]
+      },
+      {
+        "title": "Build a searchable research wiki inside a coding agent",
+        "keywords": [
+          "research",
+          "wiki"
+        ]
+      },
+      {
+        "title": "Track token cost and permission denials for agent sessions",
+        "keywords": [
+          "cost-tracking",
+          "hooks"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/power-platform-skills",
+    "url": "https://github.com/tbalt88/power-platform-skills",
+    "created_at": "2026-07-26T00:47:55Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-25T23:19:37Z"
+  },
+  "upstream": {
+    "full_name": "microsoft/power-platform-skills",
+    "url": "https://github.com/microsoft/power-platform-skills",
+    "description": "A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
+    "stars": 721,
+    "forks": 150,
+    "watchers": 10,
+    "open_issues": 81,
+    "language": "JavaScript",
+    "topics": [
+      "claude-code-plugin",
+      "claude-code-skills",
+      "code-apps",
+      "github-copilot-plugin",
+      "power-apps",
+      "power-pages",
+      "power-platform"
+    ],
+    "license": "MIT",
+    "homepage": "https://aka.ms/ppskills",
+    "default_branch": "main",
+    "created_at": "2026-01-21T18:25:14Z",
+    "pushed_at": "2026-08-18T01:42:17Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:07Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:07Z",
+    "signals": [
+      "claude-md",
+      "gh-actions"
+    ],
+    "languages": {
+      "JavaScript": 6854582,
+      "TypeScript": 501954,
+      "HTML": 292216,
+      "Astro": 24094,
+      "Vue": 23812,
+      "C#": 2185,
+      "CSS": 1332
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:59Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "Power Platform Skills is Microsoft's official Claude Code / GitHub Copilot plugin marketplace providing skills, agents, and commands for building Power Platform solutions: Power Pages code sites, model-driven Power Apps, MCP App widgets, Power Apps code and mobile apps, Canvas Apps, and Power Automate cloud flows. It installs via a one-line installer or in-CLI `/plugin` commands, is evaluated with a built-in eval harness, and ships telemetry with documented opt-out controls. Aimed at low-code/Power Platform developers who want AI-coding-assistant-driven scaffolding and deployment for Microsoft's business-app platform.",
+    "keywords": [
+      "claude-code-plugin",
+      "github-copilot",
+      "low-code",
+      "microsoft",
+      "power-apps",
+      "power-automate",
+      "power-platform",
+      "skill-pack"
+    ],
+    "use_cases": [
+      {
+        "title": "Build a Power Apps model-driven app from a natural-language spec",
+        "keywords": [
+          "model-driven",
+          "power-apps"
+        ]
+      },
+      {
+        "title": "Scaffold a Power Pages code site with an AI coding assistant",
+        "keywords": [
+          "power-pages",
+          "scaffolding"
+        ]
+      },
+      {
+        "title": "Author and debug Power Automate flows via an MCP server",
+        "keywords": [
+          "mcp",
+          "power-automate"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

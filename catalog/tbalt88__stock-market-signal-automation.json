@@ -1,0 +1,78 @@
+{
+  "fork": {
+    "full_name": "tbalt88/stock-market-signal-automation",
+    "url": "https://github.com/tbalt88/stock-market-signal-automation",
+    "created_at": "2026-07-30T15:15:29Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-24T03:36:16Z"
+  },
+  "upstream": {
+    "full_name": "cporter202/stock-market-signal-automation",
+    "url": "https://github.com/cporter202/stock-market-signal-automation",
+    "description": "Build your own data-driven market edge with swing-trade signal webhooks, dashboards, alerts, AI agents, and automation examples.",
+    "stars": 152,
+    "forks": 45,
+    "watchers": 1,
+    "open_issues": 0,
+    "language": null,
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-06-13T04:24:25Z",
+    "pushed_at": "2026-06-24T03:36:16Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:07Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:07Z",
+    "signals": [
+      "node",
+      "python"
+    ],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T02:18:34Z"
+  },
+  "classification": {
+    "domain": "automation-integrations",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "A public starter kit showing how to consume KamdenAI's swing-trade signal webhooks and route them into Discord alerts, Google Sheets logs, a private dashboard, Make/Zapier workflows, or AI-agent prompt summaries. It ships example Node and Python webhook receivers, signature verification docs, and sample payloads, but deliberately excludes the proprietary signal-generation logic itself — it's an integration-layer reference, not the trading product. Aimed at traders/developers who already have (or want) a KamdenAI membership and need to wire signal events into their own tools.",
+    "keywords": [
+      "automation",
+      "dashboard",
+      "discord-bot",
+      "no-code",
+      "trading-signals",
+      "webhooks"
+    ],
+    "use_cases": [
+      {
+        "title": "Route trading signal webhooks into Discord or Sheets",
+        "keywords": [
+          "discord",
+          "webhooks"
+        ]
+      },
+      {
+        "title": "Prototype a trading signal dashboard from sample payloads",
+        "keywords": [
+          "dashboard",
+          "sample-data"
+        ]
+      },
+      {
+        "title": "Build a no-code automation recipe for signal events",
+        "keywords": [
+          "make-com",
+          "no-code"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,89 @@
+{
+  "fork": {
+    "full_name": "tbalt88/CloudGallery",
+    "url": "https://github.com/tbalt88/CloudGallery",
+    "created_at": "2025-12-27T00:12:59Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-14T09:25:20Z"
+  },
+  "upstream": {
+    "full_name": "AKS-Labs/CloudGallery",
+    "url": "https://github.com/AKS-Labs/CloudGallery",
+    "description": "CloudGallery is an Android app that lets you instantly back up all your images to Telegram using Bot API — simple, Secure, and infinite.",
+    "stars": 445,
+    "forks": 46,
+    "watchers": 5,
+    "open_issues": 16,
+    "language": "Kotlin",
+    "topics": [
+      "android",
+      "cloud-storage",
+      "foss",
+      "jetpack-compose",
+      "material-design",
+      "telegram"
+    ],
+    "license": "GPL-3.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-08-05T16:07:06Z",
+    "pushed_at": "2026-06-13T11:45:05Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:52Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:52Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Kotlin": 876773
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:49Z"
+  },
+  "classification": {
+    "domain": "infra-devops",
+    "proposed_domain": "photo-backup",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Chitralaya CloudGallery is an open-source Android app (Kotlin, Jetpack Compose) that backs up phone photos to a user's own Telegram account via the Telegram Bot API, functioning as a free, privacy-first alternative to Google Photos or iCloud. Bot tokens and chat IDs are stored in the Android keystore, and a local (and Telegram-backed) JSON metadata database tracks synced images for browsing and cross-device restore. It targets individual privacy-conscious users wanting unlimited photo backup without a company-run cloud, and is a solo-developer, community-supported project that intentionally lacks advanced features like sharing links, multi-user support, or end-to-end encryption.",
+    "keywords": [
+      "android",
+      "cloud-storage",
+      "foss",
+      "jetpack-compose",
+      "kotlin",
+      "photo-backup",
+      "privacy",
+      "telegram"
+    ],
+    "use_cases": [
+      {
+        "title": "Back up phone photos privately using your own Telegram bot",
+        "keywords": [
+          "photo-backup",
+          "telegram"
+        ]
+      },
+      {
+        "title": "Avoid Google Photos or iCloud by self-managing cloud storage",
+        "keywords": [
+          "privacy",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Reference a Jetpack Compose Android app with local database sync",
+        "keywords": [
+          "android",
+          "kotlin"
+        ]
+      }
+    ],
+    "confidence": 0.6,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

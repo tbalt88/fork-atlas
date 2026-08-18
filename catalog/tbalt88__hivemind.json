@@ -1,0 +1,112 @@
+{
+  "fork": {
+    "full_name": "tbalt88/hivemind",
+    "url": "https://github.com/tbalt88/hivemind",
+    "created_at": "2026-08-14T02:53:00Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-13T23:53:32Z"
+  },
+  "upstream": {
+    "full_name": "activeloopai/hivemind",
+    "url": "https://github.com/activeloopai/hivemind",
+    "description": "Hivemind turns your traces into reusable skills across agents",
+    "stars": 1561,
+    "forks": 101,
+    "watchers": 10,
+    "open_issues": 46,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-memory",
+      "anthropic",
+      "artificial-intelligence",
+      "claude",
+      "claude-agent-sdk",
+      "claude-agents",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "embeddings",
+      "long-term-memory",
+      "memory-engine",
+      "openclaw",
+      "openclaw-skills",
+      "postgres",
+      "rag"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://deeplake.ai/hivemind",
+    "default_branch": "main",
+    "created_at": "2026-04-03T21:02:08Z",
+    "pushed_at": "2026-08-14T20:42:04Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:51Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:51Z",
+    "signals": [
+      "claude-skill",
+      "gh-actions",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 5530928,
+      "JavaScript": 551091,
+      "Shell": 9535
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:51Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "Hivemind is a cloud-backed shared-memory service (from Activeloop/Deeplake) that captures every coding-agent session's prompts, tool calls, and responses as structured traces, then mines them into reusable SKILL.md files that propagate across every agent on a team. It installs via a single npm command and wires hooks/MCP/plugins into Claude Code, Codex, Cursor, OpenClaw, Hermes, pi, and Claude Cowork, with hybrid lexical+semantic search over traces and skills, BYOC storage (GCS/Azure/S3/on-prem), and session summarization into wiki pages. Aimed at teams who want a single 'brain' so one engineer's fix becomes every agent's capability, with published LoCoMo benchmark numbers showing cost/token/turn reductions versus no shared memory.",
+    "keywords": [
+      "claude-code",
+      "embeddings",
+      "mcp",
+      "memory",
+      "openclaw",
+      "skill-mining",
+      "team-memory",
+      "traces"
+    ],
+    "use_cases": [
+      {
+        "title": "Share one memory brain across a team's coding agents",
+        "keywords": [
+          "mcp",
+          "team-memory"
+        ]
+      },
+      {
+        "title": "Auto-generate reusable SKILL.md files from agent traces",
+        "keywords": [
+          "skill-mining",
+          "skillify"
+        ]
+      },
+      {
+        "title": "Search past agent sessions with hybrid lexical and semantic retrieval",
+        "keywords": [
+          "embeddings",
+          "search"
+        ]
+      },
+      {
+        "title": "Bring your own cloud storage for captured agent session data",
+        "keywords": [
+          "byoc",
+          "storage"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

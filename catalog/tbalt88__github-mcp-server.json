@@ -1,0 +1,97 @@
+{
+  "fork": {
+    "full_name": "tbalt88/github-mcp-server",
+    "url": "https://github.com/tbalt88/github-mcp-server",
+    "created_at": "2025-12-12T02:54:00Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:46Z"
+  },
+  "upstream": {
+    "full_name": "github/github-mcp-server",
+    "url": "https://github.com/github/github-mcp-server",
+    "description": "GitHub's official MCP Server",
+    "stars": 32318,
+    "forks": 4812,
+    "watchers": 375,
+    "open_issues": 380,
+    "language": "Go",
+    "topics": [
+      "github",
+      "mcp",
+      "mcp-server"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-03-04T16:42:04Z",
+    "pushed_at": "2026-08-17T18:36:38Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:07Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:07Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "go"
+    ],
+    "languages": {
+      "Go": 3268588,
+      "TypeScript": 149447,
+      "Shell": 30466,
+      "HTML": 5621,
+      "Dockerfile": 2262,
+      "JavaScript": 400
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:44Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "production",
+    "analysis": "GitHub's official Model Context Protocol server, written in Go, that exposes GitHub's platform (repos, issues, PRs, Actions, code scanning, Dependabot) as MCP tools so AI agents and assistants (Claude, Copilot, Cursor, Codex, Windsurf, etc.) can browse code, manage issues/PRs, and automate CI/CD workflows via natural language. Available as a hosted remote server (OAuth or PAT) or as a local Docker/binary server, with per-host installation guides and configurable toolsets/scopes.",
+    "keywords": [
+      "agent-tooling",
+      "ci-cd",
+      "docker",
+      "github",
+      "go",
+      "mcp",
+      "mcp-server",
+      "oauth"
+    ],
+    "use_cases": [
+      {
+        "title": "Let Claude Code or Copilot manage GitHub issues and PRs via natural language",
+        "keywords": [
+          "issue-management",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Give an AI agent read access to repo code and commit history",
+        "keywords": [
+          "code-analysis"
+        ]
+      },
+      {
+        "title": "Monitor and triage GitHub Actions workflow failures with an agent",
+        "keywords": [
+          "ci-cd"
+        ]
+      },
+      {
+        "title": "Self-host the GitHub MCP server in Docker with a scoped PAT",
+        "keywords": [
+          "docker",
+          "self-hosted"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

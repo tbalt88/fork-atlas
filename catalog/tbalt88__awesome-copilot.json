@@ -1,0 +1,109 @@
+{
+  "fork": {
+    "full_name": "tbalt88/awesome-copilot",
+    "url": "https://github.com/tbalt88/awesome-copilot",
+    "created_at": "2025-12-20T01:29:12Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-05T17:30:38Z"
+  },
+  "upstream": {
+    "full_name": "github/awesome-copilot",
+    "url": "https://github.com/github/awesome-copilot",
+    "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+    "stars": 37951,
+    "forks": 4788,
+    "watchers": 340,
+    "open_issues": 59,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "agents",
+      "ai",
+      "awesome",
+      "custom-agents",
+      "github-copilot",
+      "hacktoberfest",
+      "prompt-engineering"
+    ],
+    "license": "MIT",
+    "homepage": "https://awesome-copilot.github.com/",
+    "default_branch": "main",
+    "created_at": "2025-06-11T16:57:39Z",
+    "pushed_at": "2026-08-17T23:50:24Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:01Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:01Z",
+    "signals": [
+      "claude-skill",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 2913396,
+      "JavaScript": 2763366,
+      "HTML": 406803,
+      "Astro": 225484,
+      "CSS": 217498,
+      "TypeScript": 184271,
+      "PowerShell": 129511,
+      "Shell": 73177,
+      "C#": 65145,
+      "Java": 21323,
+      "Go": 21039,
+      "Bicep": 759
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:25Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "production",
+    "analysis": "A large, community-maintained collection of custom agents, instructions, skills, hooks, workflows, and plugins for GitHub Copilot, installable via the Copilot CLI/VS Code plugin marketplace. It's organized into browsable categories (agents, instructions, skills, plugins, cookbook) with hundreds of entries spanning cloud architecture, accessibility testing, and language-specific experts, plus a companion website with search and a learning hub. Aimed at developers who want ready-made Copilot customizations rather than authoring prompt/agent configs from scratch.",
+    "keywords": [
+      "agents",
+      "awesome-list",
+      "github-copilot",
+      "instructions",
+      "marketplace",
+      "plugins",
+      "prompt-engineering",
+      "skills"
+    ],
+    "use_cases": [
+      {
+        "title": "Install a pre-built Copilot agent for a specific stack",
+        "keywords": [
+          "agents",
+          "copilot"
+        ]
+      },
+      {
+        "title": "Find coding-standard instructions to auto-apply by file pattern",
+        "keywords": [
+          "coding-standards",
+          "instructions"
+        ]
+      },
+      {
+        "title": "Browse reusable Copilot skill packs before writing your own",
+        "keywords": [
+          "reuse",
+          "skills"
+        ]
+      },
+      {
+        "title": "Bundle agents and skills into a plugin for a workflow",
+        "keywords": [
+          "plugins",
+          "workflow"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

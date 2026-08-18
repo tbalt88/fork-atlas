@@ -1,0 +1,90 @@
+{
+  "fork": {
+    "full_name": "tbalt88/mcpservers",
+    "url": "https://github.com/tbalt88/mcpservers",
+    "created_at": "2025-11-25T04:34:08Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-07T09:31:34Z"
+  },
+  "upstream": {
+    "full_name": "modelcontextprotocol/servers",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "description": "Model Context Protocol Servers",
+    "stars": 89643,
+    "forks": 11470,
+    "watchers": 633,
+    "open_issues": 526,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "NOASSERTION",
+    "homepage": "https://modelcontextprotocol.io",
+    "default_branch": "main",
+    "created_at": "2024-11-19T01:10:17Z",
+    "pushed_at": "2026-08-10T02:41:59Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:23Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:23Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions",
+      "mcp",
+      "node",
+      "python",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 382377,
+      "Python": 97690,
+      "JavaScript": 55419,
+      "Dockerfile": 6012
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:16Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "production",
+    "analysis": "The official Model Context Protocol reference-servers repository, maintained by the MCP steering group at Anthropic together with the community, containing implementations like Everything (test server), Fetch, Filesystem, Git, Memory, Sequential Thinking, and Time. Each server demonstrates MCP SDK usage (TypeScript/Python) and is runnable directly via npx/uvx or configured into MCP clients such as Claude Desktop. The canonical starting point for anyone learning how to build or wire up MCP servers, with 89k+ stars and constant activity.",
+    "keywords": [
+      "filesystem",
+      "git",
+      "mcp",
+      "memory",
+      "model-context-protocol",
+      "python-sdk",
+      "reference-servers",
+      "typescript-sdk"
+    ],
+    "use_cases": [
+      {
+        "title": "Wire a filesystem or git MCP server into Claude Desktop",
+        "keywords": [
+          "filesystem",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Learn MCP SDK patterns from reference server implementations",
+        "keywords": [
+          "mcp",
+          "sdk"
+        ]
+      },
+      {
+        "title": "Give an LLM persistent memory via the Memory MCP server",
+        "keywords": [
+          "mcp",
+          "memory"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

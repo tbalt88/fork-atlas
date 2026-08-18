@@ -1,0 +1,100 @@
+{
+  "fork": {
+    "full_name": "tbalt88/memos",
+    "url": "https://github.com/tbalt88/memos",
+    "created_at": "2026-05-22T22:01:39Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:29Z"
+  },
+  "upstream": {
+    "full_name": "usememos/memos",
+    "url": "https://github.com/usememos/memos",
+    "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+    "stars": 62311,
+    "forks": 4663,
+    "watchers": 185,
+    "open_issues": 45,
+    "language": "Go",
+    "topics": [
+      "docker",
+      "foss",
+      "go",
+      "markdown",
+      "memo",
+      "microblog",
+      "note-taking",
+      "notecard",
+      "own-your-data",
+      "react",
+      "self-hosted",
+      "social-network",
+      "sqlite"
+    ],
+    "license": "MIT",
+    "homepage": "https://usememos.com",
+    "default_branch": "main",
+    "created_at": "2021-12-08T15:30:18Z",
+    "pushed_at": "2026-08-18T01:16:40Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:33Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:33Z",
+    "signals": [
+      "gh-actions",
+      "go"
+    ],
+    "languages": {
+      "Go": 2273533,
+      "TypeScript": 2119712,
+      "Shell": 23303,
+      "CSS": 13421,
+      "JavaScript": 4802,
+      "Dockerfile": 1928,
+      "HTML": 1068
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:19Z"
+  },
+  "classification": {
+    "domain": "knowledge-productivity",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Memos is a mature, self-hosted, Markdown-native note-taking application with a timeline-first quick-capture interface, a Go backend with SQLite/MySQL/PostgreSQL support, and a React frontend. It's for people who want to fully own their note data outside SaaS PKM tools, deployable as a single binary or Docker container, with REST/gRPC APIs and an official browser web-clipper extension. It has grown AI-adjacent features (audio/vision LLM integration for transcription and processing) while remaining primarily a personal knowledge/microblog tool.",
+    "keywords": [
+      "go",
+      "markdown",
+      "microblog",
+      "note-taking",
+      "open-source",
+      "pkm",
+      "self-hosted",
+      "sqlite"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a quick-capture notes app instead of a SaaS PKM tool",
+        "keywords": [
+          "note-taking",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Clip web pages into a Markdown-native memo timeline",
+        "keywords": [
+          "markdown"
+        ]
+      },
+      {
+        "title": "Build on the Memos REST/gRPC API for custom integrations",
+        "keywords": [
+          "open-source"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

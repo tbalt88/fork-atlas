@@ -1,0 +1,99 @@
+{
+  "fork": {
+    "full_name": "tbalt88/claude-quickstarts",
+    "url": "https://github.com/tbalt88/claude-quickstarts",
+    "created_at": "2026-02-21T06:27:53Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-16T08:04:58Z"
+  },
+  "upstream": {
+    "full_name": "anthropics/claude-quickstarts",
+    "url": "https://github.com/anthropics/claude-quickstarts",
+    "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+    "stars": 17454,
+    "forks": 3010,
+    "watchers": 168,
+    "open_issues": 195,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2024-08-29T19:52:32Z",
+    "pushed_at": "2026-08-06T17:17:51Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:08Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:08Z",
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "docker",
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "TypeScript": 640215,
+      "Python": 561286,
+      "Jupyter Notebook": 190500,
+      "JavaScript": 42579,
+      "HTML": 28140,
+      "CSS": 20740,
+      "Shell": 10097,
+      "Dockerfile": 5858
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:41Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "template",
+    "maturity": "production",
+    "analysis": "Anthropic's official collection of starter projects for building on the Claude API, including a customer support agent, financial data analyst, computer-use and browser-use demos, an autonomous coding agent built on the Claude Agent SDK, and several Managed Agents examples (chat SDK, CopilotKit/AG-UI, knowledge wiki). Each subproject is a self-contained, cloneable reference implementation with its own README and setup steps, meant for developers learning Claude API patterns like tool use, computer use, and multi-agent orchestration. Mixed Python/TypeScript stack with Docker support for the computer/browser-use demos.",
+    "keywords": [
+      "agent-sdk",
+      "anthropic",
+      "browser-use",
+      "claude-api",
+      "computer-use",
+      "managed-agents",
+      "quickstart",
+      "starter-templates"
+    ],
+    "use_cases": [
+      {
+        "title": "Bootstrap a Claude-powered customer support agent",
+        "keywords": [
+          "customer-support",
+          "quickstart"
+        ]
+      },
+      {
+        "title": "Give Claude control of a desktop or browser",
+        "keywords": [
+          "browser-use",
+          "computer-use"
+        ]
+      },
+      {
+        "title": "Build an autonomous multi-session coding agent",
+        "keywords": [
+          "agent-sdk",
+          "autonomous-coding"
+        ]
+      },
+      {
+        "title": "Wire a Managed Agents session into a chat UI",
+        "keywords": [
+          "chat-sdk",
+          "managed-agents"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

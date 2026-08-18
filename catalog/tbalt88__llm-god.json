@@ -1,0 +1,99 @@
+{
+  "fork": {
+    "full_name": "tbalt88/llm-god",
+    "url": "https://github.com/tbalt88/llm-god",
+    "created_at": "2026-01-14T04:15:45Z",
+    "default_branch": "master",
+    "pushed_at": "2026-06-12T21:03:13Z"
+  },
+  "upstream": {
+    "full_name": "czhou578/llm-god",
+    "url": "https://github.com/czhou578/llm-god",
+    "description": "Desktop app to multi-prompt ChatGPT, Gemini and more at the same time!",
+    "stars": 280,
+    "forks": 56,
+    "watchers": 5,
+    "open_issues": 9,
+    "language": "TypeScript",
+    "topics": [
+      "chatgpt",
+      "claude",
+      "deepseek",
+      "desktop-app",
+      "electron",
+      "gemini",
+      "grok",
+      "javascript",
+      "llm",
+      "open-source",
+      "typescript",
+      "windows"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2024-07-24T19:38:35Z",
+    "pushed_at": "2026-08-07T14:46:55Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:46Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:46Z",
+    "signals": [
+      "gh-actions",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 241222,
+      "HTML": 32336,
+      "JavaScript": 13017,
+      "CSS": 2407
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:09Z"
+  },
+  "classification": {
+    "domain": "automation-integrations",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "LLM-God is a Windows-first Electron desktop app that embeds multiple LLM chat web interfaces (ChatGPT, Gemini, Claude, Grok, DeepSeek, Copilot) as browser views side by side, letting a user broadcast one prompt to all of them at once via Ctrl+Enter and paste text or screenshots into a shared input. It works by JavaScript-injecting into each provider's web UI (login required per service) rather than calling any API, so it's a productivity wrapper, not an LLM client library. Aimed at individuals who want to quickly compare answers across multiple chat providers without copy-pasting between browser tabs.",
+    "keywords": [
+      "browser-injection",
+      "chatgpt",
+      "claude",
+      "desktop-app",
+      "electron",
+      "gemini",
+      "multi-llm",
+      "windows"
+    ],
+    "use_cases": [
+      {
+        "title": "Compare answers from ChatGPT, Gemini, and Claude side by side",
+        "keywords": [
+          "comparison",
+          "multi-llm"
+        ]
+      },
+      {
+        "title": "Broadcast one prompt to several AI chat web UIs at once",
+        "keywords": [
+          "broadcast",
+          "productivity"
+        ]
+      },
+      {
+        "title": "Paste a screenshot into multiple LLM chats simultaneously",
+        "keywords": [
+          "clipboard",
+          "screenshots"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

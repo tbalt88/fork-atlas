@@ -1,0 +1,103 @@
+{
+  "fork": {
+    "full_name": "tbalt88/learn-claude-code",
+    "url": "https://github.com/tbalt88/learn-claude-code",
+    "created_at": "2026-03-05T22:42:56Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-27T08:29:51Z"
+  },
+  "upstream": {
+    "full_name": "shareAI-lab/learn-claude-code",
+    "url": "https://github.com/shareAI-lab/learn-claude-code",
+    "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+    "stars": 74496,
+    "forks": 12050,
+    "watchers": 295,
+    "open_issues": 47,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "agent-development",
+      "ai-agent",
+      "claude",
+      "claude-code",
+      "educational",
+      "llm",
+      "python",
+      "teaching",
+      "tutorial"
+    ],
+    "license": "MIT",
+    "homepage": "https://learn.shareai.run",
+    "default_branch": "main",
+    "created_at": "2025-06-29T15:34:15Z",
+    "pushed_at": "2026-08-17T06:27:58Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:03Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:03Z",
+    "signals": [
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 852854,
+      "TypeScript": 389394,
+      "CSS": 10281,
+      "JavaScript": 94
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:05Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A structured, multi-language (English/Chinese/Japanese) tutorial series that teaches how to build an agent harness from scratch, mirroring Claude Code's architecture: the agent loop, tool use, permissions, hooks, todo tracking, subagents, context compaction, task systems, and worktree isolation, each as a runnable Python lesson with an accompanying README and diagrams. It's aimed at engineers who want to understand agent-harness engineering, as distinct from prompt-chaining frameworks, by building the mechanisms themselves rather than reading about them abstractly. An extremely popular educational repo (74k+ stars) with a companion learn.shareai.run site.",
+    "keywords": [
+      "agent-harness",
+      "agent-loop",
+      "claude-code",
+      "educational",
+      "python",
+      "teaching",
+      "tool-use",
+      "tutorial"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn how Claude Code's agent loop actually works",
+        "keywords": [
+          "agent-loop",
+          "tutorial"
+        ]
+      },
+      {
+        "title": "Build a minimal coding-agent harness step by step",
+        "keywords": [
+          "harness-engineering",
+          "python"
+        ]
+      },
+      {
+        "title": "Study subagent and worktree isolation patterns",
+        "keywords": [
+          "subagent",
+          "worktree"
+        ]
+      },
+      {
+        "title": "Teach a team the mechanics behind agent tooling",
+        "keywords": [
+          "reference",
+          "teaching"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

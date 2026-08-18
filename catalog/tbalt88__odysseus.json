@@ -1,0 +1,98 @@
+{
+  "fork": {
+    "full_name": "tbalt88/odysseus",
+    "url": "https://github.com/tbalt88/odysseus",
+    "created_at": "2026-06-02T04:19:40Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-12T08:07:27Z"
+  },
+  "upstream": {
+    "full_name": "arcahyadi/odysseus",
+    "url": "https://github.com/arcahyadi/odysseus",
+    "description": "Self-hosted AI workspace. ",
+    "stars": 69,
+    "forks": 10879,
+    "watchers": 1,
+    "open_issues": 4,
+    "language": "Python",
+    "topics": [],
+    "license": "AGPL-3.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-05-31T15:09:46Z",
+    "pushed_at": "2026-06-23T01:15:19Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:27Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:27Z",
+    "signals": [
+      "claude-skill",
+      "docker",
+      "gh-actions",
+      "node",
+      "python"
+    ],
+    "languages": {
+      "Python": 7340911,
+      "JavaScript": 5814386,
+      "CSS": 1207267,
+      "HTML": 254980,
+      "Shell": 63673,
+      "PowerShell": 8523,
+      "TypeScript": 3846,
+      "Dockerfile": 2690,
+      "Batchfile": 1246
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:31Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Odysseus is a self-hosted, Docker-deployed AI workspace combining chat/agents, deep research, document editing, an IMAP/SMTP email client, notes/tasks/calendar, and a model-recommendation cookbook, with local/API model support, MCP tools, and Claude/Codex skill integrations. It targets privacy-conscious users who want an all-in-one local alternative to cloud AI assistants, running as a Python/FastAPI backend with a web UI and bundled MCP servers (email, image-gen, memory, RAG). Young project (created mid-2026) with active security tooling (threat model, CI scanning) but still low adoption.",
+    "keywords": [
+      "agents",
+      "ai-workspace",
+      "deep-research",
+      "docker",
+      "email-client",
+      "local-first",
+      "mcp",
+      "self-hosted"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a private, all-in-one AI assistant workspace",
+        "keywords": [
+          "local-first",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Triage and draft email replies with an AI agent",
+        "keywords": [
+          "agents",
+          "email-client"
+        ]
+      },
+      {
+        "title": "Run deep multi-step web research locally",
+        "keywords": [
+          "deep-research"
+        ]
+      },
+      {
+        "title": "Extend the workspace with custom MCP servers",
+        "keywords": [
+          "mcp"
+        ]
+      }
+    ],
+    "confidence": 0.65,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

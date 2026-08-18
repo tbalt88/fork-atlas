@@ -1,0 +1,102 @@
+{
+  "fork": {
+    "full_name": "tbalt88/claude-code-best-practice",
+    "url": "https://github.com/tbalt88/claude-code-best-practice",
+    "created_at": "2026-02-07T20:44:54Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:14Z"
+  },
+  "upstream": {
+    "full_name": "shanraisshan/claude-code-best-practice",
+    "url": "https://github.com/shanraisshan/claude-code-best-practice",
+    "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+    "stars": 64626,
+    "forks": 6422,
+    "watchers": 480,
+    "open_issues": 29,
+    "language": "HTML",
+    "topics": [
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-engineering",
+      "agentic-workflow",
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "best-practices",
+      "boris",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-agents",
+      "claude-code-best-practices",
+      "claude-code-commands",
+      "claude-code-skills",
+      "context-engineering",
+      "pakistan",
+      "pakistani-developer",
+      "vibe-coding"
+    ],
+    "license": "MIT",
+    "homepage": "https://linkedin.com/in/shanraisshan",
+    "default_branch": "main",
+    "created_at": "2025-10-31T14:15:28Z",
+    "pushed_at": "2026-08-17T06:47:54Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:23Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:23Z",
+    "signals": [],
+    "languages": {
+      "HTML": 593729,
+      "Python": 28999
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:34Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A very popular, near-daily-updated reference repo documenting the full Claude Code feature surface (subagents, commands, skills, hooks, MCP, workflows, agent teams, scheduled tasks, and more) with paired 'best practice' and 'implemented' example docs for each concept. It bundles a working example .claude/ config (agents, commands, skills, hooks with sound effects) that readers can copy directly, plus presentation decks and video transcripts. Aimed at Claude Code power users and teams wanting a living cheat-sheet of the tool's rapidly expanding capabilities.",
+    "keywords": [
+      "agents",
+      "best-practices",
+      "cheatsheet",
+      "claude-code",
+      "hooks",
+      "mcp",
+      "prompt-engineering",
+      "skills",
+      "subagents"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn how to structure Claude Code subagents and skills",
+        "keywords": [
+          "skills",
+          "subagents"
+        ]
+      },
+      {
+        "title": "Copy working .claude config examples into a new project",
+        "keywords": [
+          "claude-config",
+          "templates"
+        ]
+      },
+      {
+        "title": "Keep up with new Claude Code features as they ship",
+        "keywords": [
+          "changelog",
+          "reference"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

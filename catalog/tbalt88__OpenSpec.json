@@ -1,0 +1,97 @@
+{
+  "fork": {
+    "full_name": "tbalt88/OpenSpec",
+    "url": "https://github.com/tbalt88/OpenSpec",
+    "created_at": "2026-01-28T08:57:53Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:08Z"
+  },
+  "upstream": {
+    "full_name": "Fission-AI/OpenSpec",
+    "url": "https://github.com/Fission-AI/OpenSpec",
+    "description": "Spec-driven development (SDD) for AI coding assistants.",
+    "stars": 65229,
+    "forks": 4497,
+    "watchers": 270,
+    "open_issues": 209,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "context-engineering",
+      "engineering",
+      "planning",
+      "prd",
+      "sdd",
+      "sdlc",
+      "spec",
+      "spec-driven-development",
+      "specification"
+    ],
+    "license": "MIT",
+    "homepage": "https://openspec.dev/",
+    "default_branch": "main",
+    "created_at": "2025-08-05T10:37:45Z",
+    "pushed_at": "2026-08-17T01:46:12Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:39Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:39Z",
+    "signals": [
+      "claude-skill",
+      "gh-actions",
+      "nix"
+    ],
+    "languages": {
+      "TypeScript": 3819480,
+      "JavaScript": 35991,
+      "Shell": 6345,
+      "Nix": 2992,
+      "CSS": 427
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:46Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "cli",
+    "maturity": "production",
+    "analysis": "OpenSpec is a spec-driven-development CLI and slash-command workflow (`/opsx:explore`, `/opsx:propose`, `/opsx:apply`, `/opsx:archive`) that gets AI coding assistants and humans to agree on plain-Markdown specs before code is written, storing proposals/specs/design/tasks per change under an `openspec/` folder. It supports 30+ AI tools (Claude, Cursor, Codex, Copilot, etc.), an optional cross-repo 'Stores' feature for shared team specs, and is installed globally via npm. A widely adopted, actively maintained lightweight alternative to heavier spec frameworks like GitHub's Spec Kit.",
+    "keywords": [
+      "ai-coding-assistant",
+      "cli",
+      "context-engineering",
+      "npm",
+      "planning",
+      "slash-commands",
+      "spec-driven-development"
+    ],
+    "use_cases": [
+      {
+        "title": "Get an AI coding assistant to agree on a spec before writing code",
+        "keywords": [
+          "planning",
+          "spec-driven-development"
+        ]
+      },
+      {
+        "title": "Track in-flight feature proposals as versioned Markdown changes",
+        "keywords": [
+          "markdown",
+          "proposal"
+        ]
+      },
+      {
+        "title": "Share specs across repos on a team via OpenSpec Stores",
+        "keywords": [
+          "stores",
+          "team-workflow"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

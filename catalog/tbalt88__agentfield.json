@@ -1,0 +1,119 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agentfield",
+    "url": "https://github.com/tbalt88/agentfield",
+    "created_at": "2026-02-20T22:14:58Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-05T17:26:51Z"
+  },
+  "upstream": {
+    "full_name": "Agent-Field/agentfield",
+    "url": "https://github.com/Agent-Field/agentfield",
+    "description": "Build, run and scale AI agents like API and microservices",
+    "stars": 2520,
+    "forks": 402,
+    "watchers": 20,
+    "open_issues": 60,
+    "language": "Go",
+    "topics": [
+      "agent",
+      "agent-auth",
+      "agent-authentication",
+      "agent-indentity",
+      "agent-scaling",
+      "agentic-ai",
+      "ai",
+      "ai-backend",
+      "aiagent",
+      "anthropic",
+      "cloud-native",
+      "genai",
+      "go",
+      "kubernetes",
+      "llm",
+      "multiagent",
+      "multiagent-systems",
+      "python",
+      "rag",
+      "typescript"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "http://www.agentfield.ai",
+    "default_branch": "main",
+    "created_at": "2025-11-05T02:04:44Z",
+    "pushed_at": "2026-08-18T01:47:18Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:09Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:09Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "Go": 9420093,
+      "TypeScript": 4872879,
+      "Python": 3162007,
+      "Shell": 78522,
+      "CSS": 75193,
+      "JavaScript": 29468,
+      "Go Template": 15537,
+      "Makefile": 4788,
+      "Dockerfile": 2296,
+      "HTML": 872
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:51Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "AgentField is an open-source control plane that turns agent functions written in Python, Go, or TypeScript into production REST APIs, handling routing, fan-out, retries, async execution, human-in-the-loop pauses, and observability across thousands of concurrent agent invocations. It targets developers building multi-agent backends who want their existing framework code (LangGraph, CrewAI, etc.) to run as durable, callable microservices rather than one-off scripts. Notable tech includes a Go control plane, SDKs in three languages, Kubernetes/Docker deployment, and a coding-agent installer flow (works with Claude Code, Codex, Gemini CLI).",
+    "keywords": [
+      "agent-framework",
+      "control-plane",
+      "human-in-the-loop",
+      "kubernetes",
+      "multiagent",
+      "observability",
+      "orchestration",
+      "rest-api"
+    ],
+    "use_cases": [
+      {
+        "title": "Turn agent functions into production REST endpoints",
+        "keywords": [
+          "agent-framework",
+          "rest-api"
+        ]
+      },
+      {
+        "title": "Fan out one request across thousands of parallel agent branches",
+        "keywords": [
+          "multiagent",
+          "orchestration"
+        ]
+      },
+      {
+        "title": "Add human approval gates to autonomous agent workflows",
+        "keywords": [
+          "human-in-the-loop"
+        ]
+      },
+      {
+        "title": "Deploy a multi-agent backend with Docker Compose or Kubernetes",
+        "keywords": [
+          "control-plane",
+          "kubernetes"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

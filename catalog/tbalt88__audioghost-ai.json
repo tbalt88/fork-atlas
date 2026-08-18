@@ -1,0 +1,88 @@
+{
+  "fork": {
+    "full_name": "tbalt88/audioghost-ai",
+    "url": "https://github.com/tbalt88/audioghost-ai",
+    "created_at": "2026-02-10T08:13:28Z",
+    "default_branch": "main",
+    "pushed_at": "2025-12-29T18:10:03Z"
+  },
+  "upstream": {
+    "full_name": "0x0funky/audioghost-ai",
+    "url": "https://github.com/0x0funky/audioghost-ai",
+    "description": "Extract any sound with text prompts. Memory-optimized SAM-Audio with modern UI.",
+    "stars": 467,
+    "forks": 50,
+    "watchers": 2,
+    "open_issues": 4,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "NOASSERTION",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-12-22T17:58:42Z",
+    "pushed_at": "2025-12-29T18:10:03Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:19Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:19Z",
+    "signals": [
+      "docker",
+      "node",
+      "python",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 138372,
+      "Python": 46882,
+      "Batchfile": 8682,
+      "CSS": 6280,
+      "JavaScript": 559
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:17Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "AudioGhost AI is a full-stack web app for text-prompted audio source separation: users describe a sound in natural language (e.g. \"vocals\", \"a dog barking\") and the app extracts or removes it from an uploaded audio or video file. It wraps Meta's SAM-Audio model in a memory-optimized \"lite mode\" that cuts VRAM usage up to 40%, with a Next.js/Tailwind frontend, FastAPI backend, and Celery/Redis task queue for async processing. Aimed at hobbyists and audio engineers with a CUDA GPU who want local, prompt-driven stem separation without a full 12GB+ VRAM requirement.",
+    "keywords": [
+      "audio-separation",
+      "celery",
+      "fastapi",
+      "gpu",
+      "nextjs",
+      "sam-audio",
+      "stem-mixer",
+      "text-to-audio",
+      "video"
+    ],
+    "use_cases": [
+      {
+        "title": "Extract vocals or specific sounds from an audio file using a text prompt",
+        "keywords": [
+          "audio-separation"
+        ]
+      },
+      {
+        "title": "Remove background noise or a specific sound source from a video's audio track",
+        "keywords": [
+          "audio-separation",
+          "video"
+        ]
+      },
+      {
+        "title": "Run SAM-Audio inference locally on a consumer GPU with reduced VRAM footprint",
+        "keywords": [
+          "gpu",
+          "sam-audio"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

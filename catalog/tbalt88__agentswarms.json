@@ -1,0 +1,117 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agentswarms",
+    "url": "https://github.com/tbalt88/agentswarms",
+    "created_at": "2026-08-04T07:16:20Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-04T07:08:25Z"
+  },
+  "upstream": {
+    "full_name": "AgentSwarms-fyi/agentswarms",
+    "url": "https://github.com/AgentSwarms-fyi/agentswarms",
+    "description": "Unified Agentic AI and Business Intelligence Platform",
+    "stars": 198,
+    "forks": 39,
+    "watchers": 3,
+    "open_issues": 20,
+    "language": "TypeScript",
+    "topics": [
+      "agentic-ai",
+      "agentic-bi",
+      "agentic-workflow",
+      "agents",
+      "ai",
+      "ai-workflows",
+      "artificial-intelligence",
+      "business-analytics",
+      "business-intelligence",
+      "langchain",
+      "langgraph",
+      "rag",
+      "rag-chatbot",
+      "rag-pipeline",
+      "typescript",
+      "visual-editor"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://agentswarms.fyi",
+    "default_branch": "main",
+    "created_at": "2026-07-21T21:35:03Z",
+    "pushed_at": "2026-08-17T21:32:18Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:03Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:03Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "node",
+      "python"
+    ],
+    "languages": {
+      "TypeScript": 10516270,
+      "PLpgSQL": 268323,
+      "Python": 80043,
+      "JavaScript": 25535,
+      "Shell": 24060,
+      "CSS": 12215,
+      "PowerShell": 6931,
+      "Dockerfile": 5995,
+      "HTML": 1801
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:59Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "AgentSwarms is a self-hosted agentic AI plus business-intelligence platform combining a visual multi-agent workflow canvas, RAG knowledge bases, a semantic metric layer, data-warehouse connectors (Snowflake, BigQuery, Postgres, and more), and Python notebook developer workspaces. It generates BI dashboards, editable documents (PPTX/DOCX/XLSX), and SQL-grounded chat answers, enforcing per-user model rules, spend budgets, and a hash-chained audit trail before calls run, all deployed via Supabase and Docker with the user's own model provider keys. Aimed at teams and technical tinkerers who want an owned alternative to hosted agent-plus-BI platforms; built on TanStack Start, React, LangChain, and LangGraph.",
+    "keywords": [
+      "agents",
+      "business-intelligence",
+      "langchain",
+      "langgraph",
+      "mcp",
+      "multi-agent",
+      "rag",
+      "self-hosted",
+      "semantic-layer",
+      "supabase"
+    ],
+    "use_cases": [
+      {
+        "title": "Stand up a self-hosted agentic BI platform with your own data",
+        "keywords": [
+          "business-intelligence",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Design multi-agent swarm workflows on a visual canvas",
+        "keywords": [
+          "multi-agent",
+          "workflow"
+        ]
+      },
+      {
+        "title": "Ground LLM answers in warehouse data with a semantic layer",
+        "keywords": [
+          "rag",
+          "semantic-layer"
+        ]
+      },
+      {
+        "title": "Generate PowerPoint or Excel reports directly from agent chat",
+        "keywords": [
+          "document-generation"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

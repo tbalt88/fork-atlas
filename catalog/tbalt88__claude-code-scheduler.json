@@ -1,0 +1,82 @@
+{
+  "fork": {
+    "full_name": "tbalt88/claude-code-scheduler",
+    "url": "https://github.com/tbalt88/claude-code-scheduler",
+    "created_at": "2026-02-09T07:07:18Z",
+    "default_branch": "main",
+    "pushed_at": "2026-01-19T18:25:35Z"
+  },
+  "upstream": {
+    "full_name": "jshchnz/claude-code-scheduler",
+    "url": "https://github.com/jshchnz/claude-code-scheduler",
+    "description": "Put Claude on autopilot",
+    "stars": 509,
+    "forks": 37,
+    "watchers": 6,
+    "open_issues": 1,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-01-08T22:38:22Z",
+    "pushed_at": "2026-01-19T18:25:35Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:21Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:21Z",
+    "signals": [],
+    "languages": {
+      "TypeScript": 126920,
+      "Shell": 11862,
+      "Python": 6877,
+      "PowerShell": 3377
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:36Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "A Claude Code plugin that schedules one-time and recurring tasks (natural-language triggers like 'every weekday at 9am') and runs them headlessly via `claude -p`, registering with the OS's native scheduler (launchd, crontab, Task Scheduler). Supports autonomous execution with permission bypass, optional git-worktree isolation for changes, execution logging, and slash commands for managing schedules. Built for developers who want Claude Code to run recurring code reviews, audits, or maintenance tasks unattended.",
+    "keywords": [
+      "automation",
+      "autonomous-agent",
+      "claude-code",
+      "cron",
+      "plugin",
+      "scheduler",
+      "task-scheduling",
+      "worktree"
+    ],
+    "use_cases": [
+      {
+        "title": "Schedule recurring Claude Code review or audit tasks",
+        "keywords": [
+          "code-review",
+          "scheduler"
+        ]
+      },
+      {
+        "title": "Run Claude Code autonomously overnight with worktree isolation",
+        "keywords": [
+          "autonomous",
+          "worktree"
+        ]
+      },
+      {
+        "title": "Automate dependency and dead-code checks on a cron schedule",
+        "keywords": [
+          "automation",
+          "cron"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,116 @@
+{
+  "fork": {
+    "full_name": "tbalt88/9router",
+    "url": "https://github.com/tbalt88/9router",
+    "created_at": "2026-07-09T17:08:36Z",
+    "default_branch": "master",
+    "pushed_at": "2026-07-19T08:06:40Z"
+  },
+  "upstream": {
+    "full_name": "decolua/9router",
+    "url": "https://github.com/decolua/9router",
+    "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+    "stars": 25676,
+    "forks": 4593,
+    "watchers": 142,
+    "open_issues": 1687,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "ai-gateway",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "cline",
+      "codex",
+      "copilot",
+      "cursor",
+      "deepseek",
+      "free-ai",
+      "gemini",
+      "gemini-cli",
+      "llm",
+      "llm-gateway",
+      "openai",
+      "openai-proxy",
+      "qwen",
+      "token-saver"
+    ],
+    "license": "MIT",
+    "homepage": "https://9router.com",
+    "default_branch": "master",
+    "created_at": "2026-01-05T02:59:30Z",
+    "pushed_at": "2026-08-14T10:08:34Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:13Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:13Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "JavaScript": 6092724,
+      "CSS": 20334,
+      "PowerShell": 4001,
+      "Dockerfile": 1980,
+      "Shell": 157
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:45Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "9Router is a local proxy/router that sits between AI coding tools (Claude Code, Codex, Cursor, Cline, Copilot, Antigravity) and 40+ upstream LLM providers, exposing an OpenAI-compatible API on localhost. It auto-falls back across subscription, cheap, and free tiers, tracks quota usage, and compresses tool-result payloads (RTK) to cut token consumption 20-40%. It ships as both an npm CLI/tray app and a Next.js dashboard, with Docker support for self-hosting. Aimed at developers who want to avoid hitting rate limits or paying for multiple LLM subscriptions while using AI coding assistants.",
+    "keywords": [
+      "ai-router",
+      "claude-code",
+      "coding-agents",
+      "llm-gateway",
+      "openai-compatible",
+      "proxy",
+      "quota-tracking",
+      "self-hosted",
+      "token-saver"
+    ],
+    "use_cases": [
+      {
+        "title": "Route Claude Code requests through free or cheap LLM providers to avoid subscription limits",
+        "keywords": [
+          "claude-code",
+          "llm-gateway"
+        ]
+      },
+      {
+        "title": "Reduce token spend on agentic coding tools via automatic tool-output compression",
+        "keywords": [
+          "token-saver"
+        ]
+      },
+      {
+        "title": "Self-host a unified OpenAI-compatible endpoint for multiple AI coding CLIs",
+        "keywords": [
+          "proxy",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Auto-fallback between subscription, cheap, and free model tiers to prevent downtime",
+        "keywords": [
+          "auto-fallback",
+          "quota-tracking"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

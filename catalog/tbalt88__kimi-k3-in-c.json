@@ -1,0 +1,108 @@
+{
+  "fork": {
+    "full_name": "tbalt88/kimi-k3-in-c",
+    "url": "https://github.com/tbalt88/kimi-k3-in-c",
+    "created_at": "2026-08-12T14:11:29Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-07T16:39:26Z"
+  },
+  "upstream": {
+    "full_name": "FareedKhan-dev/kimi-k3-in-c",
+    "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+    "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+    "stars": 5951,
+    "forks": 971,
+    "watchers": 60,
+    "open_issues": 21,
+    "language": "C",
+    "topics": [
+      "avx2",
+      "c99",
+      "cpu-inference",
+      "deep-learning",
+      "from-scratch",
+      "inference-engine",
+      "kimi-k3",
+      "linear-attention",
+      "llm",
+      "llm-inference",
+      "machine-learning",
+      "memory-efficient",
+      "mixture-of-experts",
+      "moe",
+      "mxfp4",
+      "quantization",
+      "simd",
+      "systems-programming",
+      "transformer",
+      "zero-dependencies"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59",
+    "default_branch": "main",
+    "created_at": "2026-08-01T09:29:38Z",
+    "pushed_at": "2026-08-07T16:39:26Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:55Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:55Z",
+    "signals": [
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "C": 428731,
+      "Python": 196651,
+      "Shell": 31162,
+      "Makefile": 12406,
+      "CMake": 7414
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:02Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "kimi-k3-in-c is a from-scratch, dependency-free C99 inference engine that runs the 2.78-trillion-parameter Kimi K3 mixture-of-experts model on a single CPU using only 8.24 GB of peak RAM, by streaming the 1.56 TB checkpoint's routed experts from disk (never resident) while keeping a small dense trunk in memory with an LRU expert cache. It uses AVX2/FMA SIMD kernels, MXFP4 quantization, and techniques like KDA linear attention and MLA to make an enormous MoE model runnable on ordinary consumer hardware (laptop to workstation) with byte-identical output regardless of RAM budget, only trading off speed. Aimed at systems programmers and ML engineers interested in low-level, zero-framework LLM inference engineering; extensively documented with benchmarks, architecture diagrams, and a test-gated build (make test) that validates against a PyTorch reference.",
+    "keywords": [
+      "c99",
+      "cpu-inference",
+      "kimi-k3",
+      "memory-efficient",
+      "mixture-of-experts",
+      "moe",
+      "quantization",
+      "simd",
+      "systems-programming"
+    ],
+    "use_cases": [
+      {
+        "title": "Run a 2.78T-parameter model locally on a laptop with just 8GB RAM",
+        "keywords": [
+          "cpu-inference",
+          "moe"
+        ]
+      },
+      {
+        "title": "Study a from-scratch C99 transformer/MoE inference engine implementation",
+        "keywords": [
+          "reference-implementation",
+          "systems-programming"
+        ]
+      },
+      {
+        "title": "Learn how expert streaming and LRU caching make huge MoE models fit in limited memory",
+        "keywords": [
+          "memory-efficient",
+          "quantization"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

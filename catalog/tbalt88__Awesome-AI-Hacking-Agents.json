@@ -1,0 +1,75 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Awesome-AI-Hacking-Agents",
+    "url": "https://github.com/tbalt88/Awesome-AI-Hacking-Agents",
+    "created_at": "2026-06-08T16:11:07Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-18T07:40:52Z"
+  },
+  "upstream": {
+    "full_name": "EvanThomasLuke/Awesome-AI-Hacking-Agents",
+    "url": "https://github.com/EvanThomasLuke/Awesome-AI-Hacking-Agents",
+    "description": "List of AI Hacking Agents",
+    "stars": 638,
+    "forks": 100,
+    "watchers": 13,
+    "open_issues": 3,
+    "language": null,
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-02-06T02:08:01Z",
+    "pushed_at": "2026-08-10T17:33:31Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:26Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:26Z",
+    "signals": [],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T02:15:23Z"
+  },
+  "classification": {
+    "domain": "security",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A curated, actively-updated list of roughly 64 open-source AI/LLM-powered offensive-security and penetration-testing agents (e.g. PentestGPT, hackingBuddyGPT, PentAGI, CAI, Cyber-AutoAgent), each linked with DeepWiki/CodeWiki documentation and creation date. Explicitly framed for educational and authorized security testing, aimed at security researchers and red teamers surveying the AI-hacking-agent landscape. It is a plain markdown table with no code of its own, growing via community submissions.",
+    "keywords": [
+      "ai-agents",
+      "awesome-list",
+      "ctf",
+      "offensive-security",
+      "pentesting",
+      "red-team",
+      "security"
+    ],
+    "use_cases": [
+      {
+        "title": "Survey open-source AI pentesting agents before building or picking one",
+        "keywords": [
+          "pentesting",
+          "survey"
+        ]
+      },
+      {
+        "title": "Find a CTF-solving or vulnerability-hunting agent to try",
+        "keywords": [
+          "ctf",
+          "vulnerability-scanning"
+        ]
+      },
+      {
+        "title": "Track benchmark scores across AI hacking agent projects",
+        "keywords": [
+          "benchmarks"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

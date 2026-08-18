@@ -1,0 +1,99 @@
+{
+  "fork": {
+    "full_name": "tbalt88/API-mega-list",
+    "url": "https://github.com/tbalt88/API-mega-list",
+    "created_at": "2025-12-09T18:38:44Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-14T07:54:23Z"
+  },
+  "upstream": {
+    "full_name": "cporter202/API-mega-list",
+    "url": "https://github.com/cporter202/API-mega-list",
+    "description": "This GitHub repo is a powerhouse collection of APIs you can start using immediately to build everything from simple automations to full-scale applications. One of the most valuable API lists on GitHub—period. 💪",
+    "stars": 7477,
+    "forks": 1443,
+    "watchers": 89,
+    "open_issues": 19,
+    "language": "JavaScript",
+    "topics": [
+      "ai-tools",
+      "api",
+      "api-collection",
+      "api-directory",
+      "api-list",
+      "apify",
+      "artificial-intelligence",
+      "automation",
+      "awesome-list",
+      "data-collection",
+      "developer-resources",
+      "developer-tools",
+      "ecommerce",
+      "lead-generation",
+      "mcp",
+      "open-source",
+      "public-apis",
+      "real-estate",
+      "social-media",
+      "web-scraping"
+    ],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-12-09T15:36:20Z",
+    "pushed_at": "2026-07-23T19:20:07Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:08Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:08Z",
+    "signals": [],
+    "languages": {
+      "JavaScript": 37100
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:15Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A large curated directory of public and commercial APIs organized by category (AI, automation, e-commerce, real estate, social media, MCP servers, etc.), each with its own README describing what the API does and how to access it. It's aimed at developers and builders looking for a starting point to wire up integrations or automations quickly rather than researching APIs from scratch. Mostly markdown content with a few JS scripts for generating/validating the listings.",
+    "keywords": [
+      "api-directory",
+      "automation",
+      "awesome-list",
+      "developer-resources",
+      "lead-generation",
+      "mcp",
+      "web-scraping"
+    ],
+    "use_cases": [
+      {
+        "title": "Find an API for a specific automation or integration task",
+        "keywords": [
+          "api-directory",
+          "automation"
+        ]
+      },
+      {
+        "title": "Browse MCP-server-compatible APIs for agent tooling",
+        "keywords": [
+          "api",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Source APIs for lead-gen, scraping, or real-estate projects",
+        "keywords": [
+          "lead-generation",
+          "web-scraping"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

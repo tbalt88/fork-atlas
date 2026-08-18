@@ -1,0 +1,113 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Rockxy",
+    "url": "https://github.com/tbalt88/Rockxy",
+    "created_at": "2026-08-15T16:31:10Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-13T12:20:33Z"
+  },
+  "upstream": {
+    "full_name": "RockxyApp/Rockxy",
+    "url": "https://github.com/RockxyApp/Rockxy",
+    "description": "Open-source native macOS HTTP debugging proxy — intercept HTTPS, inspect APIs, mock responses, debug WebSocket & GraphQL. Community-driven. For developers, by developers.",
+    "stars": 890,
+    "forks": 49,
+    "watchers": 2,
+    "open_issues": 96,
+    "language": "Swift",
+    "topics": [
+      "ai",
+      "api-debugging",
+      "charles-proxy-alternative",
+      "debugging-proxy",
+      "graphql",
+      "http-proxy",
+      "https-inspection",
+      "macos-app",
+      "man-in-the-middle",
+      "mock-api",
+      "network-debugging",
+      "proxy-server",
+      "proxyman",
+      "proxyman-alternative",
+      "swift",
+      "swiftnio",
+      "swiftui",
+      "traffic-capture",
+      "web3",
+      "websocket"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": "https://rockxy.io",
+    "default_branch": "main",
+    "created_at": "2026-03-26T14:28:14Z",
+    "pushed_at": "2026-08-16T10:52:33Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:50Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:50Z",
+    "signals": [
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "Swift": 7867904,
+      "Python": 28577,
+      "HTML": 255,
+      "Makefile": 167
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:16Z"
+  },
+  "classification": {
+    "domain": "dev-tooling",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Rockxy is a native macOS Swift application that acts as an HTTP/HTTPS/WebSocket/GraphQL debugging proxy, positioned as an open-source (AGPL Community edition) alternative to Proxyman and Charles Proxy. It offers traffic capture and inspection, advanced filtering, TLS certificate management, map-local/map-remote, block/bypass lists, a built-in AI assistant (local analysis plus optional Ollama or cloud providers) for investigating captured traffic, and a local MCP server exposing ten read-only tools so Claude Desktop or Cursor can query captured traffic directly. It targets iOS/API/backend developers debugging network traffic on a Mac who want a trustworthy, inspectable, locally-run proxy tool.",
+    "keywords": [
+      "certificate-management",
+      "graphql",
+      "http-proxy",
+      "https-inspection",
+      "macos-app",
+      "mcp",
+      "network-debugging",
+      "websocket"
+    ],
+    "use_cases": [
+      {
+        "title": "Intercept and inspect HTTPS traffic from an iOS app or Mac process",
+        "keywords": [
+          "https-inspection",
+          "network-debugging"
+        ]
+      },
+      {
+        "title": "Ask an AI assistant to explain why a captured API call failed",
+        "keywords": [
+          "ai-assistant",
+          "network-debugging"
+        ]
+      },
+      {
+        "title": "Query captured network traffic from Claude Desktop or Cursor via MCP",
+        "keywords": [
+          "claude-desktop",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Mock or redirect a flaky third-party API with Map Local/Map Remote",
+        "keywords": [
+          "map-remote",
+          "mock-api"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

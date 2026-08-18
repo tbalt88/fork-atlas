@@ -1,0 +1,92 @@
+{
+  "fork": {
+    "full_name": "tbalt88/anthro-skills",
+    "url": "https://github.com/tbalt88/anthro-skills",
+    "created_at": "2025-12-20T01:28:44Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-17T08:00:07Z"
+  },
+  "upstream": {
+    "full_name": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "stars": 170035,
+    "forks": 20240,
+    "watchers": 1099,
+    "open_issues": 1119,
+    "language": "Python",
+    "topics": [
+      "agent-skills"
+    ],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-09-22T15:53:31Z",
+    "pushed_at": "2026-08-17T17:23:18Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:02Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:02Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "Python": 547955,
+      "HTML": 72900,
+      "Shell": 11441,
+      "JavaScript": 7826
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:12Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "production",
+    "analysis": "This is Anthropic's official public repository of Agent Skills — self-contained folders with SKILL.md instructions, scripts and templates that Claude loads dynamically for specialized tasks like document creation (docx, pdf, pptx, xlsx), canvas/algorithmic art, brand guidelines, and MCP server generation. It doubles as the reference implementation and specification source for the Agent Skills standard, installable as a Claude Code plugin marketplace or used directly in Claude.ai and the API. Intended for anyone building or customizing skills for Claude, with some skills (the document tools) being the same ones powering Claude's production document capabilities.",
+    "keywords": [
+      "anthropic",
+      "claude",
+      "document-generation",
+      "mcp",
+      "plugin",
+      "prompt-pack",
+      "skill.md",
+      "skills"
+    ],
+    "use_cases": [
+      {
+        "title": "Install official Claude Code skill plugins for document editing",
+        "keywords": [
+          "claude-code",
+          "docx"
+        ]
+      },
+      {
+        "title": "Study SKILL.md patterns to author a custom skill",
+        "keywords": [
+          "skill-authoring",
+          "template"
+        ]
+      },
+      {
+        "title": "Add PDF/PPTX/XLSX handling to a Claude workflow",
+        "keywords": [
+          "document-skills"
+        ]
+      },
+      {
+        "title": "Browse example skills for creative and enterprise tasks",
+        "keywords": [
+          "examples",
+          "reference"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

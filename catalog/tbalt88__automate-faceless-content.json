@@ -1,0 +1,77 @@
+{
+  "fork": {
+    "full_name": "tbalt88/automate-faceless-content",
+    "url": "https://github.com/tbalt88/automate-faceless-content",
+    "created_at": "2026-08-02T22:30:55Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-04T03:06:11Z"
+  },
+  "upstream": {
+    "full_name": "cporter202/automate-faceless-content",
+    "url": "https://github.com/cporter202/automate-faceless-content",
+    "description": "Learn how to automate faceless short-form + long-form video content and dominate YouTube, TikTok, Facebook & Instagram on autopilot — from idea → script → video → scheduled posts.",
+    "stars": 2952,
+    "forks": 581,
+    "watchers": 19,
+    "open_issues": 1,
+    "language": null,
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-12-08T22:51:39Z",
+    "pushed_at": "2026-06-04T03:06:11Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:06Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:06Z",
+    "signals": [],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T02:15:21Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A marketing-driven course and guide repository (all Markdown, no code) teaching people how to produce and monetize AI-generated 'faceless' short/long-form video content across YouTube, TikTok, Instagram and Facebook. It is structured as an 11-module course plus feature/monetization/workflow guides, but functions primarily as a funnel promoting the commercial SaaS product ViralWave Studio. Useful only as reading material for content-creation strategy, not as software.",
+    "keywords": [
+      "content-creation",
+      "course",
+      "faceless-video",
+      "marketing",
+      "monetization",
+      "social-media",
+      "tiktok",
+      "youtube"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn a workflow for automating faceless video content",
+        "keywords": [
+          "automation",
+          "content-creation"
+        ]
+      },
+      {
+        "title": "Research monetization strategies for short-form video channels",
+        "keywords": [
+          "monetization",
+          "youtube"
+        ]
+      },
+      {
+        "title": "Evaluate ViralWave Studio as a content-automation tool",
+        "keywords": [
+          "content-creation",
+          "saas"
+        ]
+      }
+    ],
+    "confidence": 0.6,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

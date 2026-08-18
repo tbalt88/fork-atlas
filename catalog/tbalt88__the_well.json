@@ -1,0 +1,91 @@
+{
+  "fork": {
+    "full_name": "tbalt88/the_well",
+    "url": "https://github.com/tbalt88/the_well",
+    "created_at": "2026-08-05T15:57:17Z",
+    "default_branch": "master",
+    "pushed_at": "2026-07-23T14:39:04Z"
+  },
+  "upstream": {
+    "full_name": "PolymathicAI/the_well",
+    "url": "https://github.com/PolymathicAI/the_well",
+    "description": "A 15TB Collection of Physics Simulation Datasets",
+    "stars": 4356,
+    "forks": 554,
+    "watchers": 49,
+    "open_issues": 22,
+    "language": "Jupyter Notebook",
+    "topics": [],
+    "license": "BSD-3-Clause",
+    "homepage": "https://polymathic-ai.org/the_well/",
+    "default_branch": "master",
+    "created_at": "2024-12-02T12:04:15Z",
+    "pushed_at": "2026-07-23T14:39:04Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:01Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:01Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Jupyter Notebook": 11062163,
+      "Python": 416509,
+      "Shell": 4341
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:45Z"
+  },
+  "classification": {
+    "domain": "misc",
+    "proposed_domain": "scientific-ml-datasets",
+    "form": "model-dataset",
+    "maturity": "active",
+    "analysis": "The Well is a 15TB collection of 16 numerical physics-simulation datasets (fluid dynamics, magnetohydrodynamics, acoustic scattering, biological systems, supernova/neutron-star mergers, etc.) packaged as a PyTorch-loadable Python library, plus benchmark surrogate-model training code (FNO and others) with Hydra-configured experiments and pretrained checkpoints on Hugging Face. It's aimed at ML researchers building physics-informed / PDE surrogate models who need large, diverse, standardized simulation data with a common dataset interface (WellDataset), streamable directly from Hugging Face or downloaded locally. Produced by Polymathic AI in collaboration with several universities and national labs, published at NeurIPS 2024.",
+    "keywords": [
+      "benchmark",
+      "dataset",
+      "huggingface",
+      "pde",
+      "physics-simulation",
+      "pytorch",
+      "scientific-ml",
+      "surrogate-modeling"
+    ],
+    "use_cases": [
+      {
+        "title": "Train a PDE surrogate model on standardized physics data",
+        "keywords": [
+          "pde",
+          "surrogate-modeling"
+        ]
+      },
+      {
+        "title": "Stream large physics simulation datasets from Hugging Face",
+        "keywords": [
+          "huggingface",
+          "streaming"
+        ]
+      },
+      {
+        "title": "Benchmark a new architecture against FNO baselines",
+        "keywords": [
+          "benchmark",
+          "fno"
+        ]
+      },
+      {
+        "title": "Load fluid-dynamics or MHD simulation data into a training pipeline",
+        "keywords": [
+          "dataloader",
+          "fluid-dynamics"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,92 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Run-Local-LLMs-on-Any-Device",
+    "url": "https://github.com/tbalt88/Run-Local-LLMs-on-Any-Device",
+    "created_at": "2026-02-07T09:30:19Z",
+    "default_branch": "main",
+    "pushed_at": "2025-05-27T20:05:19Z"
+  },
+  "upstream": {
+    "full_name": "0xSojalSec/Run-Local-LLMs-on-Any-Device",
+    "url": "https://github.com/0xSojalSec/Run-Local-LLMs-on-Any-Device",
+    "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
+    "stars": 53,
+    "forks": 17,
+    "watchers": 1,
+    "open_issues": 0,
+    "language": null,
+    "topics": [],
+    "license": "MIT",
+    "homepage": "https://nomic.ai/gpt4all",
+    "default_branch": "main",
+    "created_at": "2025-12-21T19:46:40Z",
+    "pushed_at": "2025-05-27T20:05:19Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:24Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:24Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "C++": 817324,
+      "QML": 476639,
+      "Python": 119931,
+      "CMake": 84613,
+      "JavaScript": 50906,
+      "C": 14523,
+      "Qt Script": 5374,
+      "Shell": 3489,
+      "Makefile": 843,
+      "Batchfile": 747,
+      "PowerShell": 526,
+      "Objective-C++": 313,
+      "CSS": 80
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:18Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "app",
+    "maturity": "dormant",
+    "analysis": "This is a fork/mirror of Nomic AI's GPT4All, a desktop application (with Python and C++ bindings and a Qt UI) for running open-weight LLMs such as Llama 3 and Mistral locally via llama.cpp, requiring no GPU or API key, plus a \"LocalDocs\" RAG feature for chatting with local files. It targets non-technical users who want a private, offline chat application as well as Python developers wanting a simple local-inference client. This particular fork/mirror shows no push activity beyond its original snapshot and has only a handful of stars, indicating a stale copy rather than an actively maintained project (the actual upstream GPT4All repo is far larger and more active).",
+    "keywords": [
+      "desktop-app",
+      "gpt4all",
+      "llama-cpp",
+      "local-llm",
+      "offline",
+      "python-bindings",
+      "quantization",
+      "rag"
+    ],
+    "use_cases": [
+      {
+        "title": "Run an open-weight LLM chatbot fully offline on a laptop",
+        "keywords": [
+          "local-llm",
+          "offline"
+        ]
+      },
+      {
+        "title": "Chat with local documents via LocalDocs RAG",
+        "keywords": [
+          "local-docs",
+          "rag"
+        ]
+      },
+      {
+        "title": "Embed a local LLM in a Python app via the gpt4all client",
+        "keywords": [
+          "python-bindings"
+        ]
+      }
+    ],
+    "confidence": 0.55,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

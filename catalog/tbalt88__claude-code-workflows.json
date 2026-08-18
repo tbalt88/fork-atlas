@@ -1,0 +1,104 @@
+{
+  "fork": {
+    "full_name": "tbalt88/claude-code-workflows",
+    "url": "https://github.com/tbalt88/claude-code-workflows",
+    "created_at": "2026-07-06T04:56:28Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-16T08:02:19Z"
+  },
+  "upstream": {
+    "full_name": "shinpr/claude-code-workflows",
+    "url": "https://github.com/shinpr/claude-code-workflows",
+    "description": "Development workflows for Claude Code that keep broad exploration focused on the outcome you approved.",
+    "stars": 669,
+    "forks": 102,
+    "watchers": 8,
+    "open_issues": 0,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "agentic-ai",
+      "agentic-coding",
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "code-quality",
+      "code-review",
+      "developer-tools",
+      "development-workflow",
+      "llm-orchestration",
+      "productivity",
+      "subagents"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-10-10T10:11:27Z",
+    "pushed_at": "2026-08-16T13:46:57Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:16Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:16Z",
+    "signals": [
+      "claude-skill",
+      "gh-actions"
+    ],
+    "languages": {
+      "JavaScript": 16407
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:37Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "claude-code-workflows is a Claude Code plugin marketplace of slash-command recipes, subagents, and skills that structure larger development changes into staged phases: scope agreement, design-doc review, task planning with gap tracking, per-task implementation with verification, and an independent final security/design review. It ships separate plugins for backend, frontend (React/TypeScript), and full-stack work, each bundling ~20 specialized subagents (code-reviewer, security-reviewer, task-decomposer, design-sync, etc.) and reference skills (coding-principles, testing-principles, typescript-rules). It's aimed at teams and solo developers using Claude Code who want repeatable, auditable convergence on non-trivial changes rather than open-ended exploration, installed via `/plugin marketplace add`.",
+    "keywords": [
+      "claude-code",
+      "code-review",
+      "design-doc",
+      "developer-tools",
+      "plugin",
+      "prompt-pack",
+      "subagents",
+      "workflow"
+    ],
+    "use_cases": [
+      {
+        "title": "Install a Claude Code plugin that gates large changes behind design review and task planning",
+        "keywords": [
+          "claude-code",
+          "plugin"
+        ]
+      },
+      {
+        "title": "Run a scoped end-to-end feature implementation with independent security review",
+        "keywords": [
+          "security-review",
+          "workflow"
+        ]
+      },
+      {
+        "title": "Standardize a team's Claude Code usage with a shared marketplace plugin",
+        "keywords": [
+          "team-workflow"
+        ]
+      },
+      {
+        "title": "Design a React/TypeScript frontend feature with a UI-spec-driven recipe",
+        "keywords": [
+          "frontend",
+          "react"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

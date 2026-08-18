@@ -1,0 +1,89 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agency-agents",
+    "url": "https://github.com/tbalt88/agency-agents",
+    "created_at": "2026-03-09T03:38:05Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-18T07:40:37Z"
+  },
+  "upstream": {
+    "full_name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "stars": 146000,
+    "forks": 23587,
+    "watchers": 1082,
+    "open_issues": 140,
+    "language": "Shell",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-10-13T12:12:29Z",
+    "pushed_at": "2026-08-06T13:29:47Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:00Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:00Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Shell": 110942,
+      "Python": 22283,
+      "PowerShell": 1617
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:47Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "Agency Agents is a large library of markdown-defined AI agent personas (engineering, design, academic, finance, game-dev, and more) meant to be installed into Claude Code, Cursor, Codex, Gemini CLI and other coding assistants. Each agent file encodes an identity, workflows, and deliverables so a generic coding assistant can be switched into a specialized persona on demand. Install scripts and a companion native app handle cross-tool installation and updates. Aimed at solo developers who want ready-made specialist subagents without writing their own system prompts.",
+    "keywords": [
+      "agent-roster",
+      "claude-code",
+      "cursor",
+      "gemini-cli",
+      "multi-tool",
+      "personas",
+      "prompt-pack",
+      "subagents"
+    ],
+    "use_cases": [
+      {
+        "title": "Install specialized coding subagents into Claude Code",
+        "keywords": [
+          "claude-code",
+          "subagents"
+        ]
+      },
+      {
+        "title": "Add domain-expert agent personas to Cursor or Codex",
+        "keywords": [
+          "codex",
+          "cursor"
+        ]
+      },
+      {
+        "title": "Browse agent definitions for prompt-engineering ideas",
+        "keywords": [
+          "prompt-engineering"
+        ]
+      },
+      {
+        "title": "Install only specific agent divisions like engineering or security",
+        "keywords": [
+          "divisions",
+          "install-script"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

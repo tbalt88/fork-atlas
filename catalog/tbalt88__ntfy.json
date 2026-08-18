@@ -1,0 +1,97 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ntfy",
+    "url": "https://github.com/tbalt88/ntfy",
+    "created_at": "2026-08-03T23:20:40Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-03T21:09:26Z"
+  },
+  "upstream": {
+    "full_name": "binwiederhier/ntfy",
+    "url": "https://github.com/binwiederhier/ntfy",
+    "description": "Send push notifications to your phone or desktop using PUT/POST",
+    "stars": 33572,
+    "forks": 1548,
+    "watchers": 97,
+    "open_issues": 358,
+    "language": "Go",
+    "topics": [
+      "curl",
+      "notifications",
+      "ntfy",
+      "ntfysh",
+      "pubsub",
+      "push-notifications",
+      "rest-api"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://ntfy.sh",
+    "default_branch": "main",
+    "created_at": "2021-10-23T19:25:32Z",
+    "pushed_at": "2026-08-11T21:43:48Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:03Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:03Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "Go": 2023132,
+      "JavaScript": 736505,
+      "Makefile": 18227,
+      "Shell": 7535,
+      "HTML": 4924,
+      "CSS": 1025,
+      "Dockerfile": 638
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:27Z"
+  },
+  "classification": {
+    "domain": "infra-devops",
+    "form": "service",
+    "maturity": "production",
+    "analysis": "ntfy is a mature, widely-used HTTP-based pub-sub push notification service written in Go that lets anyone send notifications to a phone or desktop via a simple PUT/POST request, with no signup required and official Android/iOS apps. It is self-hostable (the server and client are open source) with a hosted ntfy.sh offering paid tiers, and it targets developers and self-hosters wanting simple scriptable alerts, making it a common homelab, CI, and monitoring companion. Long track record since 2021, large community (Discord/Matrix), extensive documentation, and active ongoing maintenance.",
+    "keywords": [
+      "cli",
+      "go",
+      "homelab",
+      "monitoring",
+      "pub-sub",
+      "push-notifications",
+      "rest-api",
+      "self-hosted"
+    ],
+    "use_cases": [
+      {
+        "title": "Send a notification to your phone from a shell script or cron job",
+        "keywords": [
+          "cli",
+          "push-notifications"
+        ]
+      },
+      {
+        "title": "Self-host a notification server for homelab alerts",
+        "keywords": [
+          "homelab",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Wire CI/CD or monitoring alerts into a simple HTTP endpoint",
+        "keywords": [
+          "automation",
+          "monitoring"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

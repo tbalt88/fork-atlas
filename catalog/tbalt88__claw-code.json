@@ -1,0 +1,84 @@
+{
+  "fork": {
+    "full_name": "tbalt88/claw-code",
+    "url": "https://github.com/tbalt88/claw-code",
+    "created_at": "2026-05-19T22:35:48Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-27T08:31:20Z"
+  },
+  "upstream": {
+    "full_name": "ultraworkers/claw-code",
+    "url": "https://github.com/ultraworkers/claw-code",
+    "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+    "stars": 195066,
+    "forks": 109076,
+    "watchers": 1942,
+    "open_issues": 40,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-03-31T08:58:08Z",
+    "pushed_at": "2026-08-16T06:18:45Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:36Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:36Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "Rust": 4077650,
+      "Python": 168159,
+      "Shell": 19072,
+      "HTML": 7128,
+      "Dockerfile": 932
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:43Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Claw Code is a Rust CLI agent harness (the `claw` binary) explicitly billed by its own README as an agent-managed 'museum exhibit' rather than a serious product, developed and maintained autonomously by AI harnesses (LazyCodex, Gajae-Code) with no direct human intervention. It provides a terminal coding-agent interface with sessions, doctor/health checks, and multi-provider auth (Anthropic, OpenAI keys), positioned as a curiosity/experiment in fully agent-run software maintenance rather than a tool end users should adopt for real work. Actively and continuously pushed by automated agents, with extensive internal goal-tracking and quality-gate logs.",
+    "keywords": [
+      "agent-harness",
+      "anthropic-api",
+      "cli",
+      "coding-agent",
+      "rust",
+      "self-maintaining"
+    ],
+    "use_cases": [
+      {
+        "title": "Inspect an example of a fully agent-maintained CLI codebase",
+        "keywords": [
+          "agent-harness",
+          "self-maintaining"
+        ]
+      },
+      {
+        "title": "Study Rust CLI architecture for a coding-agent terminal tool",
+        "keywords": [
+          "cli",
+          "rust"
+        ]
+      },
+      {
+        "title": "Reference an agent-governance / goal-tracking ledger pattern (.omx)",
+        "keywords": [
+          "agent-harness"
+        ]
+      }
+    ],
+    "confidence": 0.55,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

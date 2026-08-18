@@ -1,0 +1,103 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agents-from-scratch",
+    "url": "https://github.com/tbalt88/agents-from-scratch",
+    "created_at": "2026-05-22T21:44:09Z",
+    "default_branch": "main",
+    "pushed_at": "2026-01-14T09:38:39Z"
+  },
+  "upstream": {
+    "full_name": "pguso/agents-from-scratch",
+    "url": "https://github.com/pguso/agents-from-scratch",
+    "description": "Build AI agents from first principles using a local LLM - no frameworks, no cloud APIs, no hidden reasoning.",
+    "stars": 958,
+    "forks": 240,
+    "watchers": 13,
+    "open_issues": 3,
+    "language": "Python",
+    "topics": [
+      "agent-architecture",
+      "ai-agents",
+      "ai-education",
+      "ai-from-scratch",
+      "artificial-intelligence",
+      "llama",
+      "llm",
+      "local-llm",
+      "machine-learning",
+      "no-framework",
+      "open-source-education",
+      "prompt-engineering",
+      "python"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-12-22T09:09:42Z",
+    "pushed_at": "2026-07-25T15:42:36Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:34Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:34Z",
+    "signals": [
+      "python"
+    ],
+    "languages": {
+      "Python": 83821
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:58Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A step-by-step educational repository that builds a single AI agent from a local LLM call, adding capabilities (structured output, tools, memory, planning, evals, telemetry) across 12 lessons with no agent framework and no cloud APIs. It targets developers who want a mechanical understanding of how agents work rather than a production-ready starter kit. Uses Python with local GGUF models via llama.cpp-style loading; deliberately avoids LangChain-style abstractions.",
+    "keywords": [
+      "agent-loop",
+      "education",
+      "evals",
+      "from-scratch",
+      "local-llm",
+      "memory",
+      "planning",
+      "prompt-engineering",
+      "telemetry"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn how AI agent loops work from first principles",
+        "keywords": [
+          "agent-loop",
+          "education"
+        ]
+      },
+      {
+        "title": "Build a local-only agent without cloud APIs or frameworks",
+        "keywords": [
+          "local-llm",
+          "no-framework"
+        ]
+      },
+      {
+        "title": "Study agent memory and planning implementation patterns",
+        "keywords": [
+          "memory",
+          "planning"
+        ]
+      },
+      {
+        "title": "Reference a minimal agent evals and telemetry setup",
+        "keywords": [
+          "evals",
+          "telemetry"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

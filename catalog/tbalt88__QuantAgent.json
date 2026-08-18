@@ -1,0 +1,90 @@
+{
+  "fork": {
+    "full_name": "tbalt88/QuantAgent",
+    "url": "https://github.com/tbalt88/QuantAgent",
+    "created_at": "2026-01-29T23:28:13Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:02:57Z"
+  },
+  "upstream": {
+    "full_name": "Y-Research-SBU/QuantHarness",
+    "url": "https://github.com/Y-Research-SBU/QuantHarness",
+    "description": "Official Repository for QuantHarness",
+    "stars": 2832,
+    "forks": 609,
+    "watchers": 27,
+    "open_issues": 5,
+    "language": "HTML",
+    "topics": [
+      "agentic-ai",
+      "large-language-models"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-07-10T00:26:45Z",
+    "pushed_at": "2026-07-24T01:38:07Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:38Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:38Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "HTML": 217222,
+      "Python": 141806
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:07Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "QuantHarness (forked here as QuantAgent) is a research multi-agent trading-analysis system built with LangChain/LangGraph, coordinating Indicator, Pattern, Trend, and Decision agents that read K-line charts and technical indicators (RSI, MACD, Stochastic) to produce LONG/SHORT trade recommendations with entry/exit/stop-loss levels. It ships a Flask web interface plus a Python API (TradingGraph), supports Claude, GPT, Qwen, and MiniMax as the underlying LLM, and comes from an academic paper (Stony Brook/CMU/Yale/Fudan) with published benchmarks - intended for researchers and quant-curious developers, not production trading.",
+    "keywords": [
+      "flask",
+      "langgraph",
+      "llm-agent",
+      "multi-agent",
+      "python",
+      "technical-analysis",
+      "trading"
+    ],
+    "use_cases": [
+      {
+        "title": "Get an LLM-generated LONG/SHORT trade call from live K-line data",
+        "keywords": [
+          "trading-signal"
+        ]
+      },
+      {
+        "title": "Run a multi-agent chart-pattern and trend analysis pipeline",
+        "keywords": [
+          "pattern-recognition",
+          "trend-analysis"
+        ]
+      },
+      {
+        "title": "Swap in Claude, Qwen, or MiniMax as the trading-agent LLM backend",
+        "keywords": [
+          "llm-agent",
+          "multi-provider"
+        ]
+      },
+      {
+        "title": "Reproduce or extend the QuantHarness academic benchmark results",
+        "keywords": [
+          "benchmark",
+          "research"
+        ]
+      }
+    ],
+    "confidence": 0.6,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

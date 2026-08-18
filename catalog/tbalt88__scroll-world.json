@@ -1,0 +1,81 @@
+{
+  "fork": {
+    "full_name": "tbalt88/scroll-world",
+    "url": "https://github.com/tbalt88/scroll-world",
+    "created_at": "2026-07-18T13:41:59Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-16T01:23:39Z"
+  },
+  "upstream": {
+    "full_name": "oso95/scroll-world",
+    "url": "https://github.com/oso95/scroll-world",
+    "description": "A skill that turn any brand into a scrollable 3D world landing page",
+    "stars": 8271,
+    "forks": 938,
+    "watchers": 32,
+    "open_issues": 6,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-07-06T21:28:58Z",
+    "pushed_at": "2026-07-29T04:44:56Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:12Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:12Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "JavaScript": 28697,
+      "Python": 2855,
+      "HTML": 2713
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:19Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "scroll-world is an agent skill (SKILL.md, installable into Claude Code, Codex, and other agent hosts) that generates a scroll-scrubbed, cinematic \"fly through the world\" 3D landing page for any brand or industry, similar to Apple-style scroll-driven product pages. It interviews the user for brand/industry/scene details, then orchestrates AI image and video generation (GPT Image via Higgsfield or Codex, Seedance/Kling video via Monid or Higgsfield) to produce frame-locked connector clips, and wires them into a portable vanilla-JS scroll engine that drops into any HTML/Next.js/Vue stack. Aimed at marketers, agencies, and developers who want a striking generated landing page without hand-building 3D scenes, at a real per-generation cost (~$27 for a 6-scene chain).",
+    "keywords": [
+      "3d",
+      "ai-video-generation",
+      "claude-code-skill",
+      "codex",
+      "landing-page",
+      "marketing",
+      "mermaid",
+      "scroll-animation"
+    ],
+    "use_cases": [
+      {
+        "title": "Generate a scroll-driven cinematic landing page for a brand using AI image and video models",
+        "keywords": [
+          "ai-video-generation",
+          "landing-page"
+        ]
+      },
+      {
+        "title": "Install a reusable Claude Code / Codex skill for building immersive product pages",
+        "keywords": [
+          "claude-code-skill"
+        ]
+      },
+      {
+        "title": "Drop a portable scroll-scrub engine into an existing Next.js or Vue site",
+        "keywords": [
+          "scroll-animation"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

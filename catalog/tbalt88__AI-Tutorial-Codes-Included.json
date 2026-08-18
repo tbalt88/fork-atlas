@@ -1,0 +1,95 @@
+{
+  "fork": {
+    "full_name": "tbalt88/AI-Tutorial-Codes-Included",
+    "url": "https://github.com/tbalt88/AI-Tutorial-Codes-Included",
+    "created_at": "2025-10-25T11:51:07Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:06Z"
+  },
+  "upstream": {
+    "full_name": "MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
+    "url": "https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
+    "description": "Multi-agent systems, memory, planning, reasoning loops",
+    "stars": 2875,
+    "forks": 620,
+    "watchers": 77,
+    "open_issues": 9,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "agent-skills",
+      "agentic-ai",
+      "agentic-ai-development",
+      "agentic-coding",
+      "agentic-engineering",
+      "agentic-framework",
+      "agentic-rag",
+      "agentic-workflow",
+      "ai",
+      "aiagent",
+      "aiagents"
+    ],
+    "license": null,
+    "homepage": "https://marktechpost.com/",
+    "default_branch": "main",
+    "created_at": "2025-05-15T09:00:54Z",
+    "pushed_at": "2026-08-17T19:17:34Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:25Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:25Z",
+    "signals": [
+      "python"
+    ],
+    "languages": {
+      "Jupyter Notebook": 126293746,
+      "Python": 1446233
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:03Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A massive, continuously growing collection of Jupyter notebooks and Python scripts from Marktechpost's tutorial site, covering agentic AI, multi-agent systems, memory, planning, RAG, adversarial attacks, and dozens of specific frameworks (LangGraph, CrewAI, smolagents, MCP, etc). Each item pairs a runnable Colab notebook with a published how-to article, aimed at developers learning current AI-agent techniques through worked examples rather than a cohesive library. It is essentially a running index of applied AI-agent tutorials, not a maintained product.",
+    "keywords": [
+      "agentic-ai",
+      "colab",
+      "jupyter-notebooks",
+      "langgraph",
+      "learning",
+      "mcp",
+      "multi-agent",
+      "rag",
+      "tutorials"
+    ],
+    "use_cases": [
+      {
+        "title": "Find a worked example for a specific agentic-AI technique",
+        "keywords": [
+          "agentic-ai",
+          "tutorials"
+        ]
+      },
+      {
+        "title": "Copy a Colab notebook as a starting point for a new agent prototype",
+        "keywords": [
+          "colab",
+          "prototyping"
+        ]
+      },
+      {
+        "title": "Survey current agent frameworks and patterns via curated examples",
+        "keywords": [
+          "frameworks",
+          "learning"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

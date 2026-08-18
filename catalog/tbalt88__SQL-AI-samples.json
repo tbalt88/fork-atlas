@@ -1,0 +1,103 @@
+{
+  "fork": {
+    "full_name": "tbalt88/SQL-AI-samples",
+    "url": "https://github.com/tbalt88/SQL-AI-samples",
+    "created_at": "2026-02-19T20:00:29Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:02:18Z"
+  },
+  "upstream": {
+    "full_name": "Azure-Samples/SQL-AI-samples",
+    "url": "https://github.com/Azure-Samples/SQL-AI-samples",
+    "description": "Samples using AI and Azure SQL DB",
+    "stars": 330,
+    "forks": 207,
+    "watchers": 12,
+    "open_issues": 28,
+    "language": "HTML",
+    "topics": [
+      "ai",
+      "azure",
+      "azure-sql-database",
+      "azure-sql-db",
+      "database",
+      "llm",
+      "openai",
+      "vectors"
+    ],
+    "license": "MIT",
+    "homepage": "https://aka.ms/sql-ai",
+    "default_branch": "main",
+    "created_at": "2023-10-30T19:50:36Z",
+    "pushed_at": "2026-06-03T00:33:13Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:11Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:11Z",
+    "signals": [
+      "python"
+    ],
+    "languages": {
+      "HTML": 488582,
+      "Jupyter Notebook": 209747,
+      "Python": 41185,
+      "Jinja": 13444,
+      "TSQL": 7140
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:29Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "SQL-AI-samples is Microsoft's official collection of sample notebooks, scripts, and end-to-end projects showing how to build AI applications on Azure SQL Database, covering vector embeddings and similarity search (Cognitive Search, FAISS, Redis/ACRE, custom IVFFlat/KMeans indexes), RAG chatbots (LangChain, Semantic Kernel, PromptFlow), NL2SQL agents, content moderation, and an MSSQL MCP server for agent tool access. It's organized as a grab-bag reference repo of Jupyter notebooks and small standalone projects (many linking out to sibling Azure-Samples repos) rather than a single cohesive product, aimed at developers integrating Azure OpenAI/AI Search with SQL-backed data. It's steadily maintained with periodic additions rather than fast-moving, reflecting its role as a documentation/sample companion to Azure SQL AI features.",
+    "keywords": [
+      "azure-openai",
+      "azure-sql",
+      "embeddings",
+      "faiss",
+      "langchain",
+      "mcp",
+      "nl2sql",
+      "notebooks",
+      "rag",
+      "vector-search"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn how to generate and query vector embeddings directly from Azure SQL Database",
+        "keywords": [
+          "azure-sql",
+          "embeddings"
+        ]
+      },
+      {
+        "title": "Build a NL2SQL chatbot over your own Azure SQL data with LangChain",
+        "keywords": [
+          "langchain",
+          "nl2sql"
+        ]
+      },
+      {
+        "title": "Connect an AI agent to an MSSQL database via the official MCP server",
+        "keywords": [
+          "mcp",
+          "mssql"
+        ]
+      },
+      {
+        "title": "Compare FAISS, Redis, and native SQL vector indexing approaches on the same dataset",
+        "keywords": [
+          "faiss",
+          "vector-search"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

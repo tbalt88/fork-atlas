@@ -1,0 +1,103 @@
+{
+  "fork": {
+    "full_name": "tbalt88/aiallinonesandbox",
+    "url": "https://github.com/tbalt88/aiallinonesandbox",
+    "created_at": "2026-06-10T16:18:00Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-03T08:55:09Z"
+  },
+  "upstream": {
+    "full_name": "agent-infra/sandbox",
+    "url": "https://github.com/agent-infra/sandbox",
+    "description": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.",
+    "stars": 5734,
+    "forks": 515,
+    "watchers": 32,
+    "open_issues": 68,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "all-in-one",
+      "browser",
+      "filesystem",
+      "mcp",
+      "sandbox",
+      "shell"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://sandbox.agent-infra.com",
+    "default_branch": "main",
+    "created_at": "2025-08-06T14:51:05Z",
+    "pushed_at": "2026-08-17T07:49:03Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:23Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:23Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 1462584,
+      "TypeScript": 973549,
+      "MDX": 170186,
+      "SCSS": 13187,
+      "JavaScript": 1007,
+      "HTML": 376,
+      "Shell": 80
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:05Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "production",
+    "analysis": "AIO Sandbox is an all-in-one Docker container that bundles a browser (VNC + CDP), shell terminal, file system, VSCode Server, Jupyter notebook, and MCP servers into a single agent execution environment with a shared filesystem across all components. It exposes a REST API plus Python/TypeScript/Go SDKs so AI agent frameworks (browser-use, LangChain, LangGraph deepagents, ag2) can spin up an isolated sandbox for code execution, browser automation, and file manipulation in one place. It targets AI agent developers who need a secure, unified sandbox rather than stitching together separate single-purpose containers, and includes an evaluation harness for benchmarking agent performance inside the sandbox. Backed by a published paper and active releases on PyPI/npm/GHCR.",
+    "keywords": [
+      "agent-infra",
+      "browser-automation",
+      "code-execution",
+      "docker",
+      "jupyter",
+      "mcp",
+      "sandbox",
+      "vscode-server"
+    ],
+    "use_cases": [
+      {
+        "title": "Run an AI agent's browser automation and shell commands in one isolated container",
+        "keywords": [
+          "browser-automation",
+          "sandbox"
+        ]
+      },
+      {
+        "title": "Give a LangGraph or browser-use agent a shared filesystem across browser, shell, and file tools",
+        "keywords": [
+          "agent-tooling",
+          "langgraph"
+        ]
+      },
+      {
+        "title": "Self-host a secure code-execution backend for an AI coding assistant",
+        "keywords": [
+          "code-execution",
+          "self-hosting"
+        ]
+      },
+      {
+        "title": "Benchmark agent task performance using the included evaluation dataset",
+        "keywords": [
+          "evaluation"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

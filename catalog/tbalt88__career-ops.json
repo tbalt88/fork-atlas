@@ -1,0 +1,120 @@
+{
+  "fork": {
+    "full_name": "tbalt88/career-ops",
+    "url": "https://github.com/tbalt88/career-ops",
+    "created_at": "2026-05-18T14:36:18Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:11:33Z"
+  },
+  "upstream": {
+    "full_name": "santifer/career-ops",
+    "url": "https://github.com/santifer/career-ops",
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+    "stars": 64742,
+    "forks": 12654,
+    "watchers": 251,
+    "open_issues": 336,
+    "language": "JavaScript",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "anthropic",
+      "ats",
+      "automation",
+      "beginner-friendly",
+      "career",
+      "careerops",
+      "claude",
+      "claude-code",
+      "cli",
+      "first-timers-only",
+      "golang",
+      "good-first-issue",
+      "interview-prep",
+      "job-application",
+      "job-hunting",
+      "job-search",
+      "open-source",
+      "resume"
+    ],
+    "license": "MIT",
+    "homepage": "https://career-ops.org",
+    "default_branch": "main",
+    "created_at": "2026-04-04T18:21:18Z",
+    "pushed_at": "2026-08-17T22:24:43Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:40Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:40Z",
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "JavaScript": 6040596,
+      "TypeScript": 753456,
+      "Go": 357754,
+      "HTML": 109744,
+      "Shell": 51830,
+      "CSS": 8764,
+      "TeX": 4168,
+      "Dockerfile": 1839,
+      "Nix": 1594
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:31Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "career-ops turns an AI coding CLI (Claude Code, Codex, OpenCode, etc.) into a job-search command center: it scans job portals with Playwright, scores listings A-F against your CV, generates ATS-tailored PDF resumes and cover letters, and tracks applications in a local pipeline with integrity checks. It ships as an agent-skill-standard skill (SKILL.md files for a dozen different CLIs) plus Node/Go tooling for batch evaluation, negotiation scripts, and a terminal dashboard. Built for individual job seekers who want an agentic, human-in-the-loop alternative to spray-and-pray applying.",
+    "keywords": [
+      "ats",
+      "automation",
+      "career",
+      "claude-code-skill",
+      "cv-generation",
+      "job-search",
+      "playwright",
+      "resume"
+    ],
+    "use_cases": [
+      {
+        "title": "Automate scanning and scoring job listings against your CV",
+        "keywords": [
+          "automation",
+          "job-search"
+        ]
+      },
+      {
+        "title": "Generate ATS-tailored resumes per job posting",
+        "keywords": [
+          "ats",
+          "resume"
+        ]
+      },
+      {
+        "title": "Track job applications from an AI coding CLI",
+        "keywords": [
+          "cli-skill",
+          "tracking"
+        ]
+      },
+      {
+        "title": "Draft cover letters and outreach emails for applications",
+        "keywords": [
+          "cover-letter",
+          "outreach"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

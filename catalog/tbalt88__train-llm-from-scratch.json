@@ -1,0 +1,100 @@
+{
+  "fork": {
+    "full_name": "tbalt88/train-llm-from-scratch",
+    "url": "https://github.com/tbalt88/train-llm-from-scratch",
+    "created_at": "2026-05-30T16:21:26Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-25T08:52:56Z"
+  },
+  "upstream": {
+    "full_name": "FareedKhan-dev/train-llm-from-scratch",
+    "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+    "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+    "stars": 9151,
+    "forks": 1265,
+    "watchers": 69,
+    "open_issues": 7,
+    "language": "Python",
+    "topics": [
+      "gemini",
+      "large-language-models",
+      "llm",
+      "openai",
+      "training",
+      "transformers"
+    ],
+    "license": "MIT",
+    "homepage": "https://fareedkhan-dev.github.io/train-llm-from-scratch/",
+    "default_branch": "main",
+    "created_at": "2025-01-12T04:03:05Z",
+    "pushed_at": "2026-08-17T05:07:26Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:30Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:30Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 270993,
+      "Jupyter Notebook": 152690,
+      "Mermaid": 17387,
+      "Shell": 6564
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:46Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "train-llm-from-scratch is a heavily documented, hand-written PyTorch implementation of the full LLM lifecycle — tokenization, a from-scratch Transformer, pretraining, SFT, a Bradley-Terry reward model, and DPO/PPO/GRPO alignment — with no reliance on `transformers`, `trl`, or `peft`. It includes a MkDocs documentation site with diagrams for every stage, a Streamlit control panel for launching runs, and JSON-driven configs sized for anything from a free Colab T4 up to multi-billion-parameter models on an A100. It's explicitly written as a teaching resource for students, developers, and researchers who want to understand every algorithm (attention, GAE, GRPO/RLVR) by reading and running real, minimal code rather than a black-box library.",
+    "keywords": [
+      "dpo",
+      "education",
+      "fine-tuning",
+      "grpo",
+      "ppo",
+      "pretraining",
+      "pytorch",
+      "reward-model",
+      "tokenization",
+      "transformer"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn how a Transformer's attention and training loop work by reading minimal PyTorch code",
+        "keywords": [
+          "education",
+          "transformer"
+        ]
+      },
+      {
+        "title": "Pretrain a small LLM from scratch on a single free-tier GPU",
+        "keywords": [
+          "gpu",
+          "pretraining"
+        ]
+      },
+      {
+        "title": "Implement DPO or GRPO alignment without depending on trl or peft",
+        "keywords": [
+          "dpo",
+          "grpo"
+        ]
+      },
+      {
+        "title": "Run a full pretrain-to-chat pipeline via a Streamlit control panel",
+        "keywords": [
+          "pipeline",
+          "streamlit"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

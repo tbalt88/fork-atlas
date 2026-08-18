@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/watermarks-remover",
+    "url": "https://github.com/tbalt88/watermarks-remover",
+    "created_at": "2026-08-13T18:21:27Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-13T16:00:21Z"
+  },
+  "upstream": {
+    "full_name": "guillaumemeyer/watermarks-remover",
+    "url": "https://github.com/guillaumemeyer/watermarks-remover",
+    "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+    "stars": 13550,
+    "forks": 1485,
+    "watchers": 60,
+    "open_issues": 6,
+    "language": "Python",
+    "topics": [
+      "agent-skill",
+      "ai",
+      "c2pa",
+      "claude",
+      "provenance",
+      "synthid",
+      "watermark"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/guillaumemeyer/watermarks-remover",
+    "default_branch": "main",
+    "created_at": "2026-08-11T16:32:38Z",
+    "pushed_at": "2026-08-18T01:31:25Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:53Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:53Z",
+    "signals": [
+      "claude-skill",
+      "docker",
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "Python": 658212,
+      "Shell": 18038,
+      "PowerShell": 15280,
+      "Makefile": 4329,
+      "Dockerfile": 2444
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:53Z"
+  },
+  "classification": {
+    "domain": "security",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "watermarks-remover is an agent skill paired with a stdlib-only Python HTTP service that strips multi-vendor AI provenance marks — invisible Unicode artifacts, statistical text watermarks (SynthID-text, Kirchenbauer-style), and C2PA/EXIF/XMP metadata — from text and files (PNG, JPEG, SVG, PDF, DOCX, HTML, Markdown, and more). It ships as a thin agent skill (Claude, Cursor, Grok) that calls a local HTTP service over `/inspect`, `/detect`, and `/clean` endpoints, with Docker images bundling optional heavier detection backends (MarkLLM, MarkDiffusion, SynthID scorer). It's aimed at developers and privacy-conscious users who want to audit and clean AI-generation provenance markers from content they own, with explicit responsible-use documentation and fail-soft detection.",
+    "keywords": [
+      "agent-skill",
+      "c2pa",
+      "claude-skill",
+      "http-service",
+      "metadata",
+      "privacy",
+      "provenance",
+      "synthid",
+      "watermark-removal"
+    ],
+    "use_cases": [
+      {
+        "title": "Strip C2PA and EXIF provenance metadata from an AI-generated image",
+        "keywords": [
+          "c2pa",
+          "watermark-removal"
+        ]
+      },
+      {
+        "title": "Detect and remove invisible Unicode watermarks from AI-written text",
+        "keywords": [
+          "privacy",
+          "provenance"
+        ]
+      },
+      {
+        "title": "Run a local HTTP service to audit files for AI generation markers before publishing",
+        "keywords": [
+          "http-service"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

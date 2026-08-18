@@ -1,0 +1,115 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ten-framework",
+    "url": "https://github.com/tbalt88/ten-framework",
+    "created_at": "2026-02-03T19:37:19Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:19Z"
+  },
+  "upstream": {
+    "full_name": "TEN-framework/ten-framework",
+    "url": "https://github.com/TEN-framework/ten-framework",
+    "description": " Open-source framework for conversational voice AI agents",
+    "stars": 11058,
+    "forks": 1348,
+    "watchers": 72,
+    "open_issues": 228,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "multi-modal",
+      "real-time",
+      "video",
+      "voice"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://agent.theten.ai/",
+    "default_branch": "main",
+    "created_at": "2024-06-19T14:26:15Z",
+    "pushed_at": "2026-08-17T08:03:11Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:29Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:29Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions",
+      "nextjs",
+      "node"
+    ],
+    "languages": {
+      "Python": 8463268,
+      "C": 5308768,
+      "C++": 3681949,
+      "TypeScript": 3078088,
+      "Rust": 2746518,
+      "Go": 735853,
+      "Shell": 227517,
+      "Dockerfile": 87975,
+      "CSS": 78259,
+      "HTML": 76539,
+      "JavaScript": 47483,
+      "PowerShell": 33641,
+      "Lambdapi": 8672,
+      "Cython": 8046,
+      "Answer Set Programming": 2571,
+      "CMake": 1539,
+      "Jinja": 1303,
+      "Objective-C": 449
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:42Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "TEN Framework is an open-source real-time multimodal conversational AI framework for building voice/video agents that combine ASR, LLM, and TTS extensions (STT/LLM/TTS pluggable via a visual TMAN Designer) with low-latency RTC and WebSocket transport. It ships ready-made agent examples (multi-purpose voice assistant, lip-sync avatars with Live2D/HeyGen/Tavus, speaker diarization, SIP phone calls, live transcription, ESP32 hardware integration) and a broader ecosystem including TEN VAD and TEN Turn Detection for full-duplex dialogue. Implemented across Python, C/C++, TypeScript, Rust and Go, deployable via Docker or Codespaces, and targeted at developers building production voice AI assistants, avatars, and telephony bots.",
+    "keywords": [
+      "agent-framework",
+      "asr",
+      "avatar",
+      "conversational-ai",
+      "multimodal",
+      "real-time",
+      "tts",
+      "voice-ai",
+      "webrtc"
+    ],
+    "use_cases": [
+      {
+        "title": "Build a low-latency real-time voice assistant with pluggable STT/LLM/TTS",
+        "keywords": [
+          "real-time",
+          "voice-ai"
+        ]
+      },
+      {
+        "title": "Create a lip-synced avatar agent using Live2D or HeyGen",
+        "keywords": [
+          "avatar",
+          "lip-sync"
+        ]
+      },
+      {
+        "title": "Add phone call support to an AI agent via SIP",
+        "keywords": [
+          "sip",
+          "telephony"
+        ]
+      },
+      {
+        "title": "Run real-time speaker diarization for a multi-party voice application",
+        "keywords": [
+          "diarization"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

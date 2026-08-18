@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/tech-interview-handbook",
+    "url": "https://github.com/tbalt88/tech-interview-handbook",
+    "created_at": "2025-12-04T17:47:54Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:17:57Z"
+  },
+  "upstream": {
+    "full_name": "yangshun/tech-interview-handbook",
+    "url": "https://github.com/yangshun/tech-interview-handbook",
+    "description": "Curated coding interview preparation materials for busy software engineers",
+    "stars": 141934,
+    "forks": 16754,
+    "watchers": 2188,
+    "open_issues": 34,
+    "language": "TypeScript",
+    "topics": [
+      "algorithm",
+      "algorithm-interview",
+      "algorithm-interview-questions",
+      "algorithms",
+      "behavioral-interviews",
+      "coding-interviews",
+      "interview-practice",
+      "interview-preparation",
+      "interview-questions",
+      "system-design"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.techinterviewhandbook.org",
+    "default_branch": "main",
+    "created_at": "2016-07-05T05:00:48Z",
+    "pushed_at": "2026-08-07T12:06:42Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:16Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:16Z",
+    "signals": [
+      "gh-actions",
+      "nextjs",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 1048393,
+      "JavaScript": 72035,
+      "Python": 20569,
+      "CSS": 7745
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:38Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "production",
+    "analysis": "Tech Interview Handbook is a widely-used, free curated collection of coding-interview prep material - algorithm cheatsheets, the Grind 75 study plan, and resume and behavioral-interview guides - published via a Docusaurus site, alongside a companion Next.js/Prisma community portal app for company-specific interview questions and salary data. It's aimed at software engineers preparing for FAANG-style technical interviews and has reportedly helped over a million readers since 2016. The value is the curated content and portal app rather than a reusable code library.",
+    "keywords": [
+      "algorithms",
+      "career",
+      "docusaurus",
+      "grind75",
+      "interview-prep",
+      "leetcode",
+      "resume"
+    ],
+    "use_cases": [
+      {
+        "title": "Study a structured coding-interview prep plan like Grind 75",
+        "keywords": [
+          "algorithms",
+          "study-plan"
+        ]
+      },
+      {
+        "title": "Prepare a resume and behavioral-interview answers",
+        "keywords": [
+          "behavioral-interview",
+          "resume"
+        ]
+      },
+      {
+        "title": "Browse company-specific interview questions and salary data",
+        "keywords": [
+          "portal",
+          "salary-data"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

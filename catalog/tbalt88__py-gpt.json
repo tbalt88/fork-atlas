@@ -1,0 +1,115 @@
+{
+  "fork": {
+    "full_name": "tbalt88/py-gpt",
+    "url": "https://github.com/tbalt88/py-gpt",
+    "created_at": "2026-07-19T22:04:54Z",
+    "default_branch": "master",
+    "pushed_at": "2026-02-06T03:08:43Z"
+  },
+  "upstream": {
+    "full_name": "szczyglis-dev/py-gpt",
+    "url": "https://github.com/szczyglis-dev/py-gpt",
+    "description": "Desktop AI Assistant powered by GPT-5, GPT-4, o1, o3, Gemini, Claude, Ollama, DeepSeek, Perplexity, Grok, Bielik, chat, vision, voice, RAG, image and video generation, agents, tools, MCP, plugins, speech synthesis and recognition, web search, memory, presets, assistants,and more. Linux, Windows, Mac",
+    "stars": 1882,
+    "forks": 334,
+    "watchers": 44,
+    "open_issues": 54,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-assistant",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "chatbot",
+      "claude",
+      "deepseek",
+      "desktop-app",
+      "gemini",
+      "gpt-4",
+      "gpt-5",
+      "grok",
+      "llama-index",
+      "llm",
+      "mcp",
+      "o1",
+      "ollama",
+      "openai",
+      "perplexity",
+      "sora2"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://pygpt.net",
+    "default_branch": "master",
+    "created_at": "2023-04-09T23:48:06Z",
+    "pushed_at": "2026-08-16T20:19:43Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:10Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:10Z",
+    "signals": [
+      "gh-actions",
+      "make",
+      "python"
+    ],
+    "languages": {
+      "Python": 16221866,
+      "JavaScript": 5159184,
+      "CSS": 213059,
+      "Shell": 9701,
+      "Batchfile": 5127
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:05Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "PyGPT is an all-in-one desktop AI assistant for Linux, Windows and Mac supporting GPT-5, Claude, Gemini, Grok, DeepSeek, and local Ollama models through a single Python/PySide UI. It offers 11 operating modes (chat, RAG chat-with-files via LlamaIndex, agents, vision, image/video generation, autonomous mode), plugin-based tool execution (filesystem, code interpreter, web search, MCP), speech synthesis/recognition, and long-term context memory. A mature, actively maintained open-source project (since 2023, distributed via PyPI/Snap/Microsoft Store) for power users wanting a local, provider-agnostic ChatGPT-like assistant.",
+    "keywords": [
+      "agents",
+      "desktop-assistant",
+      "image-generation",
+      "llamaindex",
+      "mcp",
+      "multi-model",
+      "pyside",
+      "rag",
+      "speech"
+    ],
+    "use_cases": [
+      {
+        "title": "Run a provider-agnostic desktop AI assistant with your own API keys",
+        "keywords": [
+          "desktop-assistant",
+          "multi-model"
+        ]
+      },
+      {
+        "title": "Chat with local files via RAG and LlamaIndex",
+        "keywords": [
+          "llamaindex",
+          "rag"
+        ]
+      },
+      {
+        "title": "Automate tasks with plugin-based tool execution and MCP",
+        "keywords": [
+          "mcp",
+          "plugins"
+        ]
+      },
+      {
+        "title": "Use voice input/output with an AI assistant offline-friendly setup",
+        "keywords": [
+          "speech"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

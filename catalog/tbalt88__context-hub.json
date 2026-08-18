@@ -1,0 +1,83 @@
+{
+  "fork": {
+    "full_name": "tbalt88/context-hub",
+    "url": "https://github.com/tbalt88/context-hub",
+    "created_at": "2026-03-16T17:58:03Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:16:55Z"
+  },
+  "upstream": {
+    "full_name": "andrewyng/context-hub",
+    "url": "https://github.com/andrewyng/context-hub",
+    "description": null,
+    "stars": 13924,
+    "forks": 1202,
+    "watchers": 86,
+    "open_issues": 143,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-10-30T12:20:34Z",
+    "pushed_at": "2026-05-31T18:41:45Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:59Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:59Z",
+    "signals": [
+      "claude-skill",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "JavaScript": 310240
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:53Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Context Hub (chub) is a CLI and MCP server that gives coding agents curated, versioned, language-specific API documentation instead of letting them guess or scrape the web. Agents run `chub search`/`chub get` to fetch docs, can attach local annotations when they find gaps, and can send up/down feedback back to maintainers to improve the shared content over time. It's built for agent builders on tools like Claude Code and Cursor who want more reliable code generation against real APIs, with all doc content stored as open markdown in the repo.",
+    "keywords": [
+      "annotations",
+      "api-docs",
+      "cli",
+      "coding-agents",
+      "documentation",
+      "mcp",
+      "npm",
+      "rag"
+    ],
+    "use_cases": [
+      {
+        "title": "Fetch curated API docs for a coding agent mid-task",
+        "keywords": [
+          "api-docs",
+          "cli"
+        ]
+      },
+      {
+        "title": "Wire chub into Claude Code as an agent skill",
+        "keywords": [
+          "claude-skill",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Let agents leave annotations that persist across sessions",
+        "keywords": [
+          "annotations",
+          "self-improving"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

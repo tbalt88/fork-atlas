@@ -1,0 +1,72 @@
+{
+  "fork": {
+    "full_name": "tbalt88/D365WebApi",
+    "url": "https://github.com/tbalt88/D365WebApi",
+    "created_at": "2019-02-28T18:47:39Z",
+    "default_branch": "master",
+    "pushed_at": "2018-12-17T16:23:25Z"
+  },
+  "upstream": {
+    "full_name": "Kimlv/WebAPI.REST.js",
+    "url": "https://github.com/Kimlv/WebAPI.REST.js",
+    "description": "Javascript libary for Dynamics CRM Web API",
+    "stars": 0,
+    "forks": 1,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2018-08-01T09:46:31Z",
+    "pushed_at": "2016-07-11T15:01:42Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:30Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:30Z",
+    "signals": [],
+    "languages": {
+      "JavaScript": 62792,
+      "HTML": 12431,
+      "C#": 1439
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:08Z"
+  },
+  "classification": {
+    "domain": "dev-tooling",
+    "form": "library",
+    "maturity": "dormant",
+    "analysis": "D365WebApi is a small JavaScript library for calling the Dynamics 365 / Dynamics CRM Web API from form scripts and web resources, inspired by SDK.REST.js and using superagent.js for HTTP requests and q.js for promises. It is meant for Dynamics 365 developers who need a thin promise-based wrapper over the Web API without pulling in a full SDK. The upstream project (WebAPI.REST.js by Kimlv) has had no commits since 2016 and this fork has zero stars, indicating it is effectively unmaintained.",
+    "keywords": [
+      "crm",
+      "dynamics-365",
+      "javascript",
+      "microsoft",
+      "sdk",
+      "web-api"
+    ],
+    "use_cases": [
+      {
+        "title": "Call Dynamics 365 Web API from a form script with promises",
+        "keywords": [
+          "dynamics-365",
+          "web-api"
+        ]
+      },
+      {
+        "title": "Reference a lightweight alternative to the full Dynamics SDK",
+        "keywords": [
+          "crm",
+          "sdk"
+        ]
+      }
+    ],
+    "confidence": 0.55,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

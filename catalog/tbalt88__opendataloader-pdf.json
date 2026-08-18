@@ -1,0 +1,117 @@
+{
+  "fork": {
+    "full_name": "tbalt88/opendataloader-pdf",
+    "url": "https://github.com/tbalt88/opendataloader-pdf",
+    "created_at": "2026-07-08T15:54:55Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-15T07:57:18Z"
+  },
+  "upstream": {
+    "full_name": "opendataloader-project/opendataloader-pdf",
+    "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+    "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+    "stars": 28517,
+    "forks": 2722,
+    "watchers": 110,
+    "open_issues": 82,
+    "language": "Java",
+    "topics": [
+      "a11y",
+      "accessibility",
+      "ai",
+      "bounding-box",
+      "document-parsing",
+      "eaa",
+      "html",
+      "json",
+      "markdown",
+      "ocr",
+      "ocr-recognition",
+      "pdf",
+      "pdf-accessibility",
+      "pdf-converter",
+      "pdf-extraction",
+      "pdf-parser",
+      "pdf-ua",
+      "rag",
+      "tables",
+      "tagged-pdf"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://opendataloader.org",
+    "default_branch": "main",
+    "created_at": "2025-05-13T05:48:02Z",
+    "pushed_at": "2026-08-18T02:11:45Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:14Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:14Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "java",
+      "python"
+    ],
+    "languages": {
+      "Java": 1782050,
+      "Python": 283890,
+      "TypeScript": 55271,
+      "Shell": 33083,
+      "JavaScript": 32067
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:40Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "OpenDataLoader PDF is an open-source, benchmark-leading PDF parser (Java core with Python/Node.js/Java SDKs) that converts PDFs into Markdown, JSON with bounding boxes, HTML, and Tagged PDF/PDF-UA output, combining a fast deterministic local mode with an AI-backed hybrid mode for complex tables, OCR, formulas, and charts. It doubles as an accessibility-automation tool, auto-tagging untagged PDFs for screen readers (Apache 2.0) with enterprise PDF/UA export, built in collaboration with the PDF Association and veraPDF. It targets developers building RAG/LLM ingestion pipelines from PDFs as well as teams needing to meet PDF accessibility regulations (EAA, ADA, Section 508) at scale.",
+    "keywords": [
+      "accessibility",
+      "document-parsing",
+      "langchain",
+      "markdown",
+      "ocr",
+      "pdf-parsing",
+      "pdf-ua",
+      "rag",
+      "table-extraction"
+    ],
+    "use_cases": [
+      {
+        "title": "Convert a folder of PDFs into Markdown/JSON chunks for a RAG pipeline",
+        "keywords": [
+          "pdf-parsing",
+          "rag"
+        ]
+      },
+      {
+        "title": "Extract tables and bounding-box coordinates from scanned or digital PDFs",
+        "keywords": [
+          "ocr",
+          "table-extraction"
+        ]
+      },
+      {
+        "title": "Auto-tag untagged PDFs into accessible Tagged PDFs for compliance",
+        "keywords": [
+          "accessibility",
+          "pdf-ua"
+        ]
+      },
+      {
+        "title": "Benchmark a PDF extraction pipeline against docling, marker, and other parsers",
+        "keywords": [
+          "benchmarking",
+          "document-parsing"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

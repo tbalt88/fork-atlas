@@ -1,0 +1,109 @@
+{
+  "fork": {
+    "full_name": "tbalt88/openrouter-mcp-multimodal",
+    "url": "https://github.com/tbalt88/openrouter-mcp-multimodal",
+    "created_at": "2026-07-19T22:05:28Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-13T06:29:30Z"
+  },
+  "upstream": {
+    "full_name": "stabgan/openrouter-mcp-multimodal",
+    "url": "https://github.com/stabgan/openrouter-mcp-multimodal",
+    "description": "MCP server for OpenRouter — chat with 300+ LLMs (Claude, Gemini, GPT), analyze images / audio / video, generate images / speech / music / video (Veo 3.1, Sora, Seedance, Wan) from Claude Desktop, Cursor, Kiro, VS Code.",
+    "stars": 75,
+    "forks": 25,
+    "watchers": 3,
+    "open_issues": 3,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agent",
+      "claude",
+      "claude-desktop",
+      "cursor",
+      "docker",
+      "gemini",
+      "image-generation",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "multimodal",
+      "openrouter",
+      "sora",
+      "stt",
+      "tts",
+      "typescript",
+      "veo",
+      "video-generation",
+      "vision"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://www.npmjs.com/package/@stabgan/openrouter-mcp-multimodal",
+    "default_branch": "main",
+    "created_at": "2025-03-26T16:49:03Z",
+    "pushed_at": "2026-08-17T04:01:50Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:10Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:10Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "node",
+      "python"
+    ],
+    "languages": {
+      "TypeScript": 352953,
+      "JavaScript": 67803,
+      "Python": 2245,
+      "Dockerfile": 1461
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:44Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "production",
+    "analysis": "A production-grade MCP server (TypeScript, published on npm/PyPI/Docker/the official MCP Registry) that connects Claude Desktop, Cursor, VS Code, and other MCP clients to OpenRouter's unified API for 300+ LLMs, exposing chat, vision, audio, and video analysis/generation tools (Veo, Sora, Seedance, Wan) in one install. It includes hardening like SSRF guards, path sandboxes, structured errors, and 650+ automated tests, making it suitable for real deployments rather than a demo. Aimed at developers who want a single multimodal MCP integration instead of separate servers per modality.",
+    "keywords": [
+      "image-generation",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "multimodal",
+      "openrouter",
+      "tts",
+      "video-generation",
+      "vision"
+    ],
+    "use_cases": [
+      {
+        "title": "Give a coding agent access to 300+ LLMs via one MCP server",
+        "keywords": [
+          "mcp",
+          "openrouter"
+        ]
+      },
+      {
+        "title": "Generate or analyze images, audio, and video from an AI agent",
+        "keywords": [
+          "generation",
+          "multimodal"
+        ]
+      },
+      {
+        "title": "Add vision/OCR tool calls to Claude Desktop or Cursor",
+        "keywords": [
+          "mcp-server",
+          "vision"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

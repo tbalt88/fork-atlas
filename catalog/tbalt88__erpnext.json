@@ -1,0 +1,105 @@
+{
+  "fork": {
+    "full_name": "tbalt88/erpnext",
+    "url": "https://github.com/tbalt88/erpnext",
+    "created_at": "2026-05-18T17:28:58Z",
+    "default_branch": "develop",
+    "pushed_at": "2026-07-19T08:06:30Z"
+  },
+  "upstream": {
+    "full_name": "frappe/erpnext",
+    "url": "https://github.com/frappe/erpnext",
+    "description": "Free and Open Source Enterprise Resource Planning (ERP)",
+    "stars": 38199,
+    "forks": 12505,
+    "watchers": 670,
+    "open_issues": 1920,
+    "language": "Python",
+    "topics": [
+      "accounting",
+      "asset-management",
+      "crm",
+      "distribution",
+      "erp",
+      "erpnext",
+      "frappe",
+      "healthcare",
+      "hrms",
+      "manufacturing",
+      "point-of-sale",
+      "procurement",
+      "project-management",
+      "python",
+      "retail",
+      "support"
+    ],
+    "license": "GPL-3.0",
+    "homepage": "https://frappe.io/erpnext",
+    "default_branch": "develop",
+    "created_at": "2011-06-08T08:20:56Z",
+    "pushed_at": "2026-08-18T01:44:35Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:39Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:39Z",
+    "signals": [
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "Python": 12391357,
+      "JavaScript": 2245786,
+      "TypeScript": 754775,
+      "HTML": 283271,
+      "SCSS": 42144,
+      "CSS": 38256
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:21Z"
+  },
+  "classification": {
+    "domain": "misc",
+    "proposed_domain": "enterprise-resource-planning",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "ERPNext is a free, open-source Enterprise Resource Planning system covering accounting, inventory, manufacturing, asset management, projects, CRM, HR and more for running an entire business. Built on the Frappe Framework (Python/JavaScript full-stack) with a Vue-based Frappe UI, it can be self-hosted via Docker/bench or run on managed Frappe Cloud. A mature, widely deployed product with 38k+ stars and 15 years of continuous development, aimed at businesses and integrators replacing multiple disparate SaaS tools.",
+    "keywords": [
+      "accounting",
+      "business-software",
+      "crm",
+      "erp",
+      "frappe",
+      "inventory",
+      "manufacturing",
+      "self-hosted"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a full ERP system for a small/medium business",
+        "keywords": [
+          "erp",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Manage accounting, inventory and manufacturing in one platform",
+        "keywords": [
+          "accounting",
+          "manufacturing"
+        ]
+      },
+      {
+        "title": "Build custom business apps on the Frappe Framework",
+        "keywords": [
+          "customization",
+          "frappe"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

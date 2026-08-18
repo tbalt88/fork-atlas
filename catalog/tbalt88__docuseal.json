@@ -1,0 +1,104 @@
+{
+  "fork": {
+    "full_name": "tbalt88/docuseal",
+    "url": "https://github.com/tbalt88/docuseal",
+    "created_at": "2026-05-06T02:28:01Z",
+    "default_branch": "master",
+    "pushed_at": "2026-07-14T07:53:43Z"
+  },
+  "upstream": {
+    "full_name": "docusealco/docuseal",
+    "url": "https://github.com/docusealco/docuseal",
+    "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+    "stars": 18265,
+    "forks": 1822,
+    "watchers": 66,
+    "open_issues": 118,
+    "language": "Ruby",
+    "topics": [
+      "document-signing",
+      "documents",
+      "e-signature",
+      "hotwired-turbo",
+      "open-source",
+      "pdf",
+      "pdf-sign",
+      "pdf-signature",
+      "ruby-on-rails",
+      "self-hosted",
+      "tailwindcss",
+      "vue",
+      "webpack"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": "https://www.docuseal.com",
+    "default_branch": "master",
+    "created_at": "2023-07-03T19:54:54Z",
+    "pushed_at": "2026-08-17T10:25:54Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:48Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:48Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "ruby"
+    ],
+    "languages": {
+      "Ruby": 1167076,
+      "Vue": 832583,
+      "HTML": 586987,
+      "JavaScript": 358579,
+      "Dockerfile": 4921,
+      "SCSS": 4701,
+      "Procfile": 39
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:17Z"
+  },
+  "classification": {
+    "domain": "misc",
+    "proposed_domain": "document-signing",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "DocuSeal is a self-hosted, open-source alternative to DocuSign for creating, filling, and digitally signing PDF documents. It provides a WYSIWYG form builder with 12 field types, multi-submitter workflows, email notifications, and a REST API/webhooks, built on Ruby on Rails with a Vue frontend and Hotwired Turbo. It targets businesses and developers who want to self-host e-signature workflows or embed signing forms into their own products, with paid \"Pro\" tiers for white-labeling, SSO, and bulk sending on top of the free core.",
+    "keywords": [
+      "api",
+      "document-signing",
+      "e-signature",
+      "forms",
+      "pdf",
+      "ruby-on-rails",
+      "self-hosted",
+      "vue",
+      "webhooks"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a DocuSign alternative for signing PDF contracts",
+        "keywords": [
+          "e-signature",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Embed a document signing form into a custom product via API",
+        "keywords": [
+          "api",
+          "pdf"
+        ]
+      },
+      {
+        "title": "Collect signatures from multiple submitters on a single document workflow",
+        "keywords": [
+          "document-signing"
+        ]
+      }
+    ],
+    "confidence": 0.6,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

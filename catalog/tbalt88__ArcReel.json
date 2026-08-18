@@ -1,0 +1,111 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ArcReel",
+    "url": "https://github.com/tbalt88/ArcReel",
+    "created_at": "2026-06-26T06:13:54Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:24Z"
+  },
+  "upstream": {
+    "full_name": "ArcReel/ArcReel",
+    "url": "https://github.com/ArcReel/ArcReel",
+    "description": "AI Agent 驱动的开源可自部署视频工作台：将小说与剧本转为角色、场景、道具资产、分镜、视频和剪映草稿，支持跨镜头一致性、多供应商与费用追踪 | Self-hosted AI video workspace for stories, storyboards and short-form video production",
+    "stars": 4038,
+    "forks": 806,
+    "watchers": 17,
+    "open_issues": 111,
+    "language": "Python",
+    "topics": [
+      "agentic-workflow",
+      "ai-agent",
+      "ai-animation",
+      "ai-video-generator",
+      "capcut",
+      "claude-agent-sdk",
+      "content-creation",
+      "docker",
+      "ffmpeg",
+      "image-to-video",
+      "multi-provider",
+      "novel-to-video",
+      "reference-to-video",
+      "script-to-video",
+      "self-hosted",
+      "short-drama",
+      "short-video",
+      "storyboard",
+      "text-to-video",
+      "video-generation"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": "https://arc-reel.com",
+    "default_branch": "main",
+    "created_at": "2026-02-07T08:17:10Z",
+    "pushed_at": "2026-08-18T01:14:02Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:18Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:18Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "Python": 12735161,
+      "TypeScript": 4284729,
+      "Shell": 144275,
+      "JavaScript": 47596,
+      "CSS": 37042,
+      "HTML": 32420,
+      "MDX": 2802,
+      "Dockerfile": 2388,
+      "Mako": 704
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:17Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "ArcReel is a self-hosted, agent-driven video production workbench that converts novels, finished scripts, or product material into characters, scenes, storyboards, video clips, and finished short-form videos (or editable CapCut/Jianying drafts). It chains content analysis, asset generation, storyboarding, video/TTS generation, and cost tracking into a resumable, auditable production pipeline, deployed via Docker Compose with SQLite or PostgreSQL. Built in Python and TypeScript with Claude Agent SDK integration and a large bundled skills library used for its own coding-agent-driven review and development workflows.",
+    "keywords": [
+      "agentic-workflow",
+      "capcut",
+      "claude-agent-sdk",
+      "docker",
+      "ffmpeg",
+      "novel-to-video",
+      "self-hosted",
+      "storyboard",
+      "video-generation"
+    ],
+    "use_cases": [
+      {
+        "title": "Turn a novel or script into a finished short video",
+        "keywords": [
+          "novel-to-video",
+          "storyboard"
+        ]
+      },
+      {
+        "title": "Self-host a video production pipeline with cost tracking",
+        "keywords": [
+          "self-hosted",
+          "video-production"
+        ]
+      },
+      {
+        "title": "Export generated scenes as editable CapCut/Jianying drafts",
+        "keywords": [
+          "capcut",
+          "export"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

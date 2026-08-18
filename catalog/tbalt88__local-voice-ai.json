@@ -1,0 +1,90 @@
+{
+  "fork": {
+    "full_name": "tbalt88/local-voice-ai",
+    "url": "https://github.com/tbalt88/local-voice-ai",
+    "created_at": "2025-12-26T13:20:12Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-17T07:59:56Z"
+  },
+  "upstream": {
+    "full_name": "ShayneP/local-voice-ai",
+    "url": "https://github.com/ShayneP/local-voice-ai",
+    "description": "Local voice AI powered by llama-cpp, Kokoro, Nemotron STT, and LiveKit.",
+    "stars": 689,
+    "forks": 202,
+    "watchers": 14,
+    "open_issues": 0,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-04-29T13:30:20Z",
+    "pushed_at": "2026-08-16T14:49:02Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:57Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:57Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "node",
+      "python",
+      "typescript"
+    ],
+    "languages": {
+      "Python": 104598,
+      "TypeScript": 75468,
+      "CSS": 5140,
+      "Dockerfile": 4782,
+      "JavaScript": 570
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:12Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "A self-hosted, real-time local voice AI assistant that runs STT, LLM, and TTS entirely in one Docker container, supervised by a single Python parent process: llama.cpp (default Gemma model) for the LLM, Nemotron or faster-whisper for speech-to-text, Kokoro for text-to-speech, and LiveKit Agents/WebRTC for the real-time pipeline, fronted by a Next.js frontend. Any component can be swapped for a cloud provider (OpenAI, LiveKit Cloud, remote STT/TTS) via a base-URL environment variable. Aimed at developers who want a private, offline-capable voice assistant runnable on a single machine, with documented GPU (NVIDIA) and Apple Silicon (Metal) paths.",
+    "keywords": [
+      "docker",
+      "kokoro",
+      "livekit",
+      "llama-cpp",
+      "real-time",
+      "self-hosted",
+      "stt",
+      "tts",
+      "voice-ai"
+    ],
+    "use_cases": [
+      {
+        "title": "Run a fully local, private real-time voice assistant",
+        "keywords": [
+          "self-hosted",
+          "voice-ai"
+        ]
+      },
+      {
+        "title": "Prototype a LiveKit-based voice agent with swappable providers",
+        "keywords": [
+          "livekit",
+          "voice-agent"
+        ]
+      },
+      {
+        "title": "Deploy a single-container STT+LLM+TTS stack",
+        "keywords": [
+          "docker",
+          "stt-tts"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

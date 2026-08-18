@@ -1,0 +1,86 @@
+{
+  "fork": {
+    "full_name": "tbalt88/llm-council",
+    "url": "https://github.com/tbalt88/llm-council",
+    "created_at": "2025-11-28T17:33:04Z",
+    "default_branch": "master",
+    "pushed_at": "2025-11-22T23:35:21Z"
+  },
+  "upstream": {
+    "full_name": "karpathy/llm-council",
+    "url": "https://github.com/karpathy/llm-council",
+    "description": "LLM Council works together to answer your hardest questions",
+    "stars": 24122,
+    "forks": 4274,
+    "watchers": 287,
+    "open_issues": 145,
+    "language": "Python",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2025-11-22T23:24:14Z",
+    "pushed_at": "2025-11-22T23:35:21Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:19Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:19Z",
+    "signals": [
+      "claude-md",
+      "node",
+      "python",
+      "vite"
+    ],
+    "languages": {
+      "Python": 24729,
+      "JavaScript": 20694,
+      "CSS": 9346,
+      "Shell": 625,
+      "HTML": 357
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:08Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "toy",
+    "analysis": "LLM Council is Andrej Karpathy's small local web app (FastAPI backend + React/Vite frontend) that sends a query to several LLMs via OpenRouter, has each model anonymously review and rank the others' answers, and has a designated 'Chairman' model synthesize a final response. It's explicitly a weekend vibe-coded hack for comparing LLM outputs side by side, not intended to be supported or extended by the author, with storage as flat JSON files. Useful for anyone who wants a minimal reference implementation of a multi-model panel/ensemble pattern.",
+    "keywords": [
+      "ensemble",
+      "fastapi",
+      "llm-comparison",
+      "multi-model",
+      "openrouter",
+      "react"
+    ],
+    "use_cases": [
+      {
+        "title": "Compare answers from several LLMs side by side on one query",
+        "keywords": [
+          "llm-comparison",
+          "multi-model"
+        ]
+      },
+      {
+        "title": "Reference a minimal panel/ensemble pattern with a chairman model",
+        "keywords": [
+          "ensemble",
+          "multi-model"
+        ]
+      },
+      {
+        "title": "Fork a small FastAPI+React starter for LLM-facing local tools",
+        "keywords": [
+          "fastapi",
+          "react"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

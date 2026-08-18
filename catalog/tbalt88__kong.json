@@ -1,0 +1,94 @@
+{
+  "fork": {
+    "full_name": "tbalt88/kong",
+    "url": "https://github.com/tbalt88/kong",
+    "created_at": "2026-03-17T23:12:33Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:01:55Z"
+  },
+  "upstream": {
+    "full_name": "amruth-sn/kong",
+    "url": "https://github.com/amruth-sn/kong",
+    "description": "The world's first agentic reverse engineer.",
+    "stars": 1082,
+    "forks": 126,
+    "watchers": 10,
+    "open_issues": 6,
+    "language": "Python",
+    "topics": [
+      "agentic-ai",
+      "ghidra",
+      "reverse-engineering"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://docs.kong.fyi",
+    "default_branch": "main",
+    "created_at": "2026-02-23T05:21:07Z",
+    "pushed_at": "2026-04-03T02:39:01Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:54Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:54Z",
+    "signals": [
+      "gh-actions",
+      "python",
+      "rust"
+    ],
+    "languages": {
+      "Python": 511846,
+      "Rust": 24484,
+      "Shell": 15218,
+      "C": 69
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:03Z"
+  },
+  "classification": {
+    "domain": "security",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Kong is an agentic reverse-engineering CLI that automates binary analysis: it drives Ghidra in-process (via PyGhidra) to triage, LLM-decompile, deobfuscate, and rename functions/structs in stripped or obfuscated binaries, then writes recovered names and types back into Ghidra's program database. Aimed at security researchers and reverse engineers, it supports Claude and OpenAI as LLM backends, includes an agentic deobfuscation pipeline for anti-RE techniques (control-flow flattening, VM protection, string encryption), and ships an eval harness scoring output against ground-truth source.",
+    "keywords": [
+      "binary-analysis",
+      "deobfuscation",
+      "ghidra",
+      "llm-agent",
+      "python",
+      "reverse-engineering",
+      "security"
+    ],
+    "use_cases": [
+      {
+        "title": "Auto-recover function names and types from a stripped binary",
+        "keywords": [
+          "ghidra",
+          "type-recovery"
+        ]
+      },
+      {
+        "title": "Deobfuscate a binary with control-flow flattening or VM protection",
+        "keywords": [
+          "deobfuscation"
+        ]
+      },
+      {
+        "title": "Run an LLM-guided decompilation pipeline over an unknown binary",
+        "keywords": [
+          "decompilation",
+          "llm-agent"
+        ]
+      },
+      {
+        "title": "Score reverse-engineering output accuracy against known source",
+        "keywords": [
+          "eval-harness"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

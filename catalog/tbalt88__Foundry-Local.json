@@ -1,0 +1,111 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Foundry-Local",
+    "url": "https://github.com/tbalt88/Foundry-Local",
+    "created_at": "2025-12-07T03:30:32Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-18T07:40:10Z"
+  },
+  "upstream": {
+    "full_name": "microsoft/foundry-local",
+    "url": "https://github.com/microsoft/foundry-local",
+    "description": null,
+    "stars": 2513,
+    "forks": 361,
+    "watchers": 76,
+    "open_issues": 68,
+    "language": "C++",
+    "topics": [
+      "ai-sdk",
+      "chat-completions",
+      "foundry-local",
+      "gpu-acceleration",
+      "local-ai",
+      "microsoft",
+      "on-device-inference",
+      "onnx-runtime",
+      "speech-to-text",
+      "whisper"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://foundrylocal.ai",
+    "default_branch": "main",
+    "created_at": "2025-03-31T21:51:15Z",
+    "pushed_at": "2026-08-18T00:12:30Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:11Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:11Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "C++": 2789761,
+      "C#": 760696,
+      "Python": 681947,
+      "Rust": 623569,
+      "TypeScript": 594708,
+      "Svelte": 195243,
+      "C": 98752,
+      "CMake": 93376,
+      "JavaScript": 62445,
+      "PowerShell": 19174,
+      "CSS": 6670,
+      "HTML": 3254,
+      "Shell": 2437,
+      "Batchfile": 203
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:30Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "Foundry Local is Microsoft's end-to-end on-device AI runtime and SDK (C#, JavaScript, Python, Rust) for shipping applications with local, offline LLM and Whisper speech-to-text inference via ONNX Runtime, with automatic hardware acceleration (NPU/GPU/CPU) and an OpenAI-compatible API. It targets application developers who want to embed a curated, quantized model catalog directly into consumer apps without cloud costs or API keys, and also ships an optional local server and CLI for development/experimentation. It is an actively maintained official Microsoft product with a large samples library across all four languages.",
+    "keywords": [
+      "local-inference",
+      "microsoft",
+      "on-device-ai",
+      "onnx-runtime",
+      "openai-compatible",
+      "sdk",
+      "whisper"
+    ],
+    "use_cases": [
+      {
+        "title": "Embed offline chat completions into a desktop or mobile app",
+        "keywords": [
+          "on-device-ai",
+          "sdk"
+        ]
+      },
+      {
+        "title": "Add local speech-to-text transcription via Whisper models",
+        "keywords": [
+          "on-device-ai",
+          "whisper"
+        ]
+      },
+      {
+        "title": "Point an existing OpenAI SDK integration at a local model endpoint",
+        "keywords": [
+          "local-inference",
+          "openai-compatible"
+        ]
+      },
+      {
+        "title": "Auto-select the best hardware execution provider (NPU/GPU/CPU) for inference",
+        "keywords": [
+          "local-inference",
+          "onnx-runtime"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

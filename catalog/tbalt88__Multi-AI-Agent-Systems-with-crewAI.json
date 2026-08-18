@@ -1,0 +1,97 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Multi-AI-Agent-Systems-with-crewAI",
+    "url": "https://github.com/tbalt88/Multi-AI-Agent-Systems-with-crewAI",
+    "created_at": "2026-01-03T08:34:59Z",
+    "default_branch": "main",
+    "pushed_at": "2024-06-11T14:01:02Z"
+  },
+  "upstream": {
+    "full_name": "ksm26/Multi-AI-Agent-Systems-with-crewAI",
+    "url": "https://github.com/ksm26/Multi-AI-Agent-Systems-with-crewAI",
+    "description": "Master the art of designing and organizing AI agents. Learn to automate complex, multi-step business processes by creating specialized AI agent teams using the open-source library crewAI.",
+    "stars": 166,
+    "forks": 61,
+    "watchers": 2,
+    "open_issues": 1,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "agent-cooperation",
+      "ai-agents",
+      "ai-memory",
+      "ai-workflow-optimization",
+      "business-process-automation",
+      "complex-task-management",
+      "crewai",
+      "custom-tools",
+      "customer-support-automation",
+      "error-handling",
+      "event-planning",
+      "financial-analysis",
+      "multi-agent-systems",
+      "natural-language-prompting",
+      "open-source-ai",
+      "resume-tailoring",
+      "role-playing",
+      "task-automation",
+      "technical-writing"
+    ],
+    "license": null,
+    "homepage": "https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/",
+    "default_branch": "main",
+    "created_at": "2024-05-27T13:55:05Z",
+    "pushed_at": "2024-06-11T14:01:02Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:46Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:46Z",
+    "signals": [],
+    "languages": {
+      "Jupyter Notebook": 538748
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:22Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "reference",
+    "maturity": "dormant",
+    "analysis": "This is the notebook set for DeepLearning.AI's 'Multi AI Agent Systems with crewAI' short course, taught by CrewAI founder João Moura, covering role-playing agents, memory, tools, and cooperation patterns (sequential, parallel, hierarchical) using the open-source crewAI library. Each lesson notebook builds a business-process crew — research/writing, customer support, outreach, event planning, financial analysis, resume tailoring — as a worked example rather than a reusable library. It's course material for developers learning multi-agent design, unmaintained since 2024 (course content is static by nature).",
+    "keywords": [
+      "business-automation",
+      "course",
+      "crewai",
+      "deeplearning-ai",
+      "jupyter-notebook",
+      "multi-agent"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn crewAI's role/goal/backstory pattern via worked notebooks",
+        "keywords": [
+          "course",
+          "crewai"
+        ]
+      },
+      {
+        "title": "Copy a multi-agent business-process example (support, outreach, event planning)",
+        "keywords": [
+          "business-automation",
+          "multi-agent"
+        ]
+      },
+      {
+        "title": "See sequential vs hierarchical agent crew orchestration examples",
+        "keywords": [
+          "crewai",
+          "multi-agent"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

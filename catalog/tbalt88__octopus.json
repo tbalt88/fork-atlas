@@ -1,0 +1,100 @@
+{
+  "fork": {
+    "full_name": "tbalt88/octopus",
+    "url": "https://github.com/tbalt88/octopus",
+    "created_at": "2025-12-28T01:35:00Z",
+    "default_branch": "dev",
+    "pushed_at": "2026-06-12T21:17:36Z"
+  },
+  "upstream": {
+    "full_name": "bestruirui/octopus",
+    "url": "https://github.com/bestruirui/octopus",
+    "description": "One Hub All LLMs For You | 为个人打造的 LLM API 聚合网关",
+    "stars": 2407,
+    "forks": 381,
+    "watchers": 11,
+    "open_issues": 20,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-gateway",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "codex",
+      "llm-gateway",
+      "openai",
+      "self-hosted"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2025-11-18T01:41:03Z",
+    "pushed_at": "2026-08-18T01:33:34Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:48Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:48Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "go"
+    ],
+    "languages": {
+      "TypeScript": 481897,
+      "Go": 218251,
+      "CSS": 7327,
+      "JavaScript": 5542,
+      "Shell": 4808,
+      "Python": 4205,
+      "HTML": 4025,
+      "Dockerfile": 536
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:29Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "Octopus is a self-hosted Go/TypeScript gateway that aggregates multiple LLM provider channels (OpenAI, Anthropic, Gemini, etc.) behind one API, converting between OpenAI Chat/Responses and Anthropic message formats, syncing model pricing, and tracking usage analytics through a web admin panel. It's built for individuals who want to point tools like Claude Code, Codex, or OpenAI-SDK clients at a single local endpoint that fans out to many upstream LLM accounts and keys. Supports SQLite/MySQL/Postgres and ships as a Docker image or single Go binary.",
+    "keywords": [
+      "anthropic",
+      "api-aggregation",
+      "claude-code",
+      "go",
+      "llm-gateway",
+      "openai",
+      "proxy",
+      "self-hosted"
+    ],
+    "use_cases": [
+      {
+        "title": "Route Claude Code or Codex traffic through a self-hosted multi-provider gateway",
+        "keywords": [
+          "claude-code",
+          "llm-gateway"
+        ]
+      },
+      {
+        "title": "Aggregate several LLM provider API keys behind one endpoint",
+        "keywords": [
+          "api-aggregation",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Track token usage and cost across LLM providers",
+        "keywords": [
+          "analytics",
+          "cost-tracking"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

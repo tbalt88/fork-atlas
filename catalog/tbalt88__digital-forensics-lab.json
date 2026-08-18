@@ -1,0 +1,99 @@
+{
+  "fork": {
+    "full_name": "tbalt88/digital-forensics-lab",
+    "url": "https://github.com/tbalt88/digital-forensics-lab",
+    "created_at": "2026-06-21T20:15:42Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-11T07:47:41Z"
+  },
+  "upstream": {
+    "full_name": "frankwxu/digital-forensics-lab",
+    "url": "https://github.com/frankwxu/digital-forensics-lab",
+    "description": "Free hands-on digital forensics labs for students and faculty",
+    "stars": 2921,
+    "forks": 617,
+    "watchers": 90,
+    "open_issues": 11,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "cyber",
+      "cybercrime",
+      "cybersecurity",
+      "cybersecurity-education",
+      "digital",
+      "education",
+      "forensics",
+      "free",
+      "hands-on",
+      "investigation"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://github.com/frankwxu/digital-forensics-lab",
+    "default_branch": "main",
+    "created_at": "2021-01-11T00:14:20Z",
+    "pushed_at": "2026-07-28T16:27:26Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:21Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:21Z",
+    "signals": [],
+    "languages": {
+      "Jupyter Notebook": 694200,
+      "HTML": 302295,
+      "Python": 56343,
+      "Rich Text Format": 42337,
+      "ColdFusion": 40410,
+      "DIGITAL Command Language": 39737,
+      "Shell": 18360,
+      "Dockerfile": 18002,
+      "Java": 17902,
+      "Batchfile": 894
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:15Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A large, continually updated collection of free digital forensics lab exercises for students and faculty, covering Windows, Linux, and mobile/IoT forensics, network forensics, and AI-assisted forensic analysis (LLM-based browser-history profiling, phishing-scenario knowledge graphs). Materials include PowerPoint decks, Jupyter notebooks, real case-study datasets (e.g. NIST Data Leakage), and Kali Linux tooling scripts, funded by DOJ/DHS/NSF grants and tied to a companion textbook and a COMPSAC conference paper. It is aimed at cybersecurity educators and students rather than practitioners building production tooling.",
+    "keywords": [
+      "ai-forensics",
+      "cybersecurity",
+      "digital-forensics",
+      "education",
+      "forensic-analysis",
+      "jupyter",
+      "kali-linux",
+      "tutorials"
+    ],
+    "use_cases": [
+      {
+        "title": "Teach or take a hands-on digital forensics course",
+        "keywords": [
+          "education",
+          "forensics"
+        ]
+      },
+      {
+        "title": "Practice investigating a simulated data-leakage or hacking case",
+        "keywords": [
+          "case-study",
+          "kali-linux"
+        ]
+      },
+      {
+        "title": "Explore LLM-assisted forensic evidence analysis notebooks",
+        "keywords": [
+          "ai-forensics",
+          "jupyter"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

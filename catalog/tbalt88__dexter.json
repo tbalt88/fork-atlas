@@ -1,0 +1,93 @@
+{
+  "fork": {
+    "full_name": "tbalt88/dexter",
+    "url": "https://github.com/tbalt88/dexter",
+    "created_at": "2026-02-10T15:12:06Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-14T07:53:20Z"
+  },
+  "upstream": {
+    "full_name": "virattt/dexter",
+    "url": "https://github.com/virattt/dexter",
+    "description": "An autonomous agent for deep financial research",
+    "stars": 27523,
+    "forks": 3413,
+    "watchers": 160,
+    "open_issues": 103,
+    "language": "TypeScript",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-10-14T21:02:00Z",
+    "pushed_at": "2026-08-04T15:20:42Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:19Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:19Z",
+    "signals": [
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 904192,
+      "HTML": 9049,
+      "Shell": 2955,
+      "JavaScript": 1178
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:11Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Dexter is an autonomous financial research agent built in TypeScript/Bun that decomposes complex financial questions into research plans, autonomously calls tools to pull real-time market data (income statements, balance sheets, cash flow), self-checks its work, and iterates until confident. It ships as an interactive terminal UI (like Claude Code but for finance), includes an eval suite with LangSmith tracking and LLM-as-judge scoring, a scratchpad debug log, and a WhatsApp gateway so users can chat with the agent via their own WhatsApp number. It is explicitly for educational/informational use, not real trading advice, and targets developers or hobbyists exploring agentic financial research.",
+    "keywords": [
+      "autonomous-agent",
+      "bun",
+      "evals",
+      "financial-research",
+      "langsmith",
+      "task-planning",
+      "tui",
+      "typescript",
+      "whatsapp"
+    ],
+    "use_cases": [
+      {
+        "title": "Ask an autonomous agent to research a stock using live financial statements",
+        "keywords": [
+          "autonomous-agent",
+          "financial-research"
+        ]
+      },
+      {
+        "title": "Chat with a financial research agent through your own WhatsApp number",
+        "keywords": [
+          "gateway",
+          "whatsapp"
+        ]
+      },
+      {
+        "title": "Evaluate agent accuracy on financial Q&A with LLM-as-judge scoring",
+        "keywords": [
+          "evals",
+          "langsmith"
+        ]
+      },
+      {
+        "title": "Study a real-world TUI agent architecture for task planning and tool execution",
+        "keywords": [
+          "task-planning",
+          "tui"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

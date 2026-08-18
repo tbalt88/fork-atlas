@@ -1,0 +1,101 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agents-course",
+    "url": "https://github.com/tbalt88/agents-course",
+    "created_at": "2026-03-16T20:48:35Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-29T10:47:59Z"
+  },
+  "upstream": {
+    "full_name": "huggingface/agents-course",
+    "url": "https://github.com/huggingface/agents-course",
+    "description": "This repository contains the Hugging Face Agents Course. ",
+    "stars": 31077,
+    "forks": 2205,
+    "watchers": 219,
+    "open_issues": 157,
+    "language": "MDX",
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "course",
+      "huggingface",
+      "langchain",
+      "llamaindex",
+      "smolagents"
+    ],
+    "license": "Apache-2.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-01-16T19:50:22Z",
+    "pushed_at": "2026-06-30T00:53:26Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:58Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:58Z",
+    "signals": [
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "MDX": 2619181,
+      "Python": 8090
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:57Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "The Hugging Face Agents Course is a free, structured curriculum teaching how to build AI agents, delivered as MDX lesson content plus quizzes and a small companion Python quiz-pusher script. It covers agent fundamentals, then hands-on units on smolagents, LlamaIndex, and LangGraph, agentic RAG, fine-tuning for function-calling, observability/evaluation, and a final certified project with a leaderboard. It targets developers and students learning agent frameworks from Hugging Face, with translations maintained by the community.",
+    "keywords": [
+      "agents",
+      "course",
+      "education",
+      "fine-tuning",
+      "huggingface",
+      "langgraph",
+      "llamaindex",
+      "rag",
+      "smolagents",
+      "tutorial"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn how AI agents and LLM tool-calling work from scratch",
+        "keywords": [
+          "agents",
+          "education"
+        ]
+      },
+      {
+        "title": "Compare smolagents, LangGraph, and LlamaIndex agent frameworks",
+        "keywords": [
+          "langgraph",
+          "llamaindex",
+          "smolagents"
+        ]
+      },
+      {
+        "title": "Follow a hands-on unit on fine-tuning an LLM for function calling",
+        "keywords": [
+          "fine-tuning",
+          "function-calling"
+        ]
+      },
+      {
+        "title": "Build an agentic RAG use case and get it certified via the final project",
+        "keywords": [
+          "certification",
+          "rag"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

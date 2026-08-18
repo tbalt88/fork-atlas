@@ -1,0 +1,90 @@
+{
+  "fork": {
+    "full_name": "tbalt88/claude-howto",
+    "url": "https://github.com/tbalt88/claude-howto",
+    "created_at": "2026-05-19T22:28:31Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:07:02Z"
+  },
+  "upstream": {
+    "full_name": "luongnv89/claude-howto",
+    "url": "https://github.com/luongnv89/claude-howto",
+    "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+    "stars": 41082,
+    "forks": 5022,
+    "watchers": 185,
+    "open_issues": 32,
+    "language": "Python",
+    "topics": [
+      "claude-code",
+      "guide",
+      "tutorial"
+    ],
+    "license": "MIT",
+    "homepage": "http://luongnv.com/claude-howto/",
+    "default_branch": "main",
+    "created_at": "2025-11-07T22:59:34Z",
+    "pushed_at": "2026-08-17T05:44:48Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:36Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:36Z",
+    "signals": [
+      "claude-skill",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 315797,
+      "Shell": 84809,
+      "HTML": 20005,
+      "Jinja": 12443,
+      "JavaScript": 8543,
+      "CSS": 2989
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:39Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A visual, example-driven learning guide that teaches every Claude Code feature (slash commands, memory, skills, subagents, MCP, hooks, plugins, checkpoints) through a structured 10-module, 11-13 hour progressive path with Mermaid diagrams and copy-paste templates. Includes built-in self-assessment and lesson-quiz Claude Code skills to identify knowledge gaps. Aimed at developers who already installed Claude Code but want to combine its features into real workflows rather than just read reference docs.",
+    "keywords": [
+      "claude-code",
+      "hooks",
+      "learning-path",
+      "mcp",
+      "skills",
+      "slash-commands",
+      "subagents",
+      "tutorial"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn Claude Code end to end with a guided, hands-on curriculum",
+        "keywords": [
+          "learning-path",
+          "tutorial"
+        ]
+      },
+      {
+        "title": "Copy ready-made slash commands, hooks, and MCP configs into a project",
+        "keywords": [
+          "hooks",
+          "templates"
+        ]
+      },
+      {
+        "title": "Self-assess Claude Code knowledge gaps with an in-tool quiz",
+        "keywords": [
+          "self-assessment"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

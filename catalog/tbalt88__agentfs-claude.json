@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agentfs-claude",
+    "url": "https://github.com/tbalt88/agentfs-claude",
+    "created_at": "2025-12-17T06:51:10Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:03:49Z"
+  },
+  "upstream": {
+    "full_name": "run-llama/agentfs-claude",
+    "url": "https://github.com/run-llama/agentfs-claude",
+    "description": "Run Claude Code/Codex within AgentFS, orchestrated by LlamaIndex Workflows",
+    "stars": 324,
+    "forks": 31,
+    "watchers": 6,
+    "open_issues": 0,
+    "language": "TypeScript",
+    "topics": [
+      "claude-code",
+      "codex",
+      "coding-agents",
+      "filesystem"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-12-05T21:55:32Z",
+    "pushed_at": "2025-12-19T12:49:52Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:07Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:07Z",
+    "signals": [
+      "gh-actions",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 47219
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:52Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "A demo project showing how to run Claude Code or Codex inside AgentFS, a fully-virtualized filesystem, orchestrated by LlamaIndex Workflows. All file operations are routed through a custom filesystem MCP server backed by a LibSQL database, with non-text files (PDF/DOCX/PPTX/XLSX) parsed via LlamaCloud/LlamaParse into markdown for the agent to read. It targets developers exploring agent sandboxing patterns, human-in-the-loop workflows, and virtualized file access for coding agents, built in TypeScript with vitest tests.",
+    "keywords": [
+      "agentfs",
+      "claude-code",
+      "codex",
+      "filesystem",
+      "llamaindex",
+      "mcp",
+      "sandboxing",
+      "typescript",
+      "workflow-orchestration"
+    ],
+    "use_cases": [
+      {
+        "title": "Sandbox a coding agent's filesystem access",
+        "keywords": [
+          "agentfs",
+          "sandboxing"
+        ]
+      },
+      {
+        "title": "Orchestrate multi-step agent runs with LlamaIndex Workflows",
+        "keywords": [
+          "llamaindex",
+          "orchestration"
+        ]
+      },
+      {
+        "title": "Feed PDFs and Word docs into an agent via LlamaParse",
+        "keywords": [
+          "document-parsing",
+          "llamacloud"
+        ]
+      },
+      {
+        "title": "Prototype a virtualized-filesystem MCP server",
+        "keywords": [
+          "filesystem",
+          "mcp"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

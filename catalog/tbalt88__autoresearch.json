@@ -1,0 +1,81 @@
+{
+  "fork": {
+    "full_name": "tbalt88/autoresearch",
+    "url": "https://github.com/tbalt88/autoresearch",
+    "created_at": "2026-03-08T02:37:29Z",
+    "default_branch": "master",
+    "pushed_at": "2026-06-12T21:02:02Z"
+  },
+  "upstream": {
+    "full_name": "karpathy/autoresearch",
+    "url": "https://github.com/karpathy/autoresearch",
+    "description": "AI agents running research on single-GPU nanochat training automatically",
+    "stars": 94021,
+    "forks": 13323,
+    "watchers": 722,
+    "open_issues": 197,
+    "language": "Python",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2026-03-06T22:00:43Z",
+    "pushed_at": "2026-03-26T00:07:37Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:01Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:01Z",
+    "signals": [
+      "python"
+    ],
+    "languages": {
+      "Python": 41273,
+      "Jupyter Notebook": 8208
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:22Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "template",
+    "maturity": "dormant",
+    "analysis": "Autoresearch, from Andrej Karpathy, is a minimal single-GPU LLM training harness designed to be driven autonomously by a coding agent (Claude/Codex) overnight: the agent edits train.py (a simplified nanochat GPT implementation with Muon+AdamW optimizer), runs fixed 5-minute training experiments, checks the val_bpb metric, and keeps or discards changes in a loop guided by a program.md instruction file. It's aimed at ML researchers and hobbyists experimenting with agent-driven neural architecture/hyperparameter search on a single NVIDIA GPU (tested on H100). The repo is intentionally tiny (three files) and had a short burst of activity in March 2026 with community forks adding macOS/Windows/AMD support.",
+    "keywords": [
+      "agentic-research",
+      "autonomous-agent",
+      "gpu",
+      "hyperparameter-search",
+      "karpathy",
+      "llm-training",
+      "nanochat",
+      "pytorch"
+    ],
+    "use_cases": [
+      {
+        "title": "Let a coding agent autonomously iterate on a small GPT training loop overnight",
+        "keywords": [
+          "autonomous-agent",
+          "training"
+        ]
+      },
+      {
+        "title": "Study a minimal single-GPU nanochat-style training implementation",
+        "keywords": [
+          "nanochat",
+          "reference-implementation"
+        ]
+      },
+      {
+        "title": "Prototype agent-driven hyperparameter/architecture search on limited compute",
+        "keywords": [
+          "hyperparameter-search"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

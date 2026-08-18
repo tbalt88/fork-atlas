@@ -1,0 +1,126 @@
+{
+  "fork": {
+    "full_name": "tbalt88/AiSOC",
+    "url": "https://github.com/tbalt88/AiSOC",
+    "created_at": "2026-08-11T00:46:46Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-10T06:15:43Z"
+  },
+  "upstream": {
+    "full_name": "beenuar/AiSOC",
+    "url": "https://github.com/beenuar/AiSOC",
+    "description": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
+    "stars": 2476,
+    "forks": 258,
+    "watchers": 35,
+    "open_issues": 20,
+    "language": "Python",
+    "topics": [
+      "agentic-ai",
+      "ai-security",
+      "alert-triage",
+      "clickhouse",
+      "cybersecurity",
+      "detection-engineering",
+      "incident-response",
+      "investigation-ledger",
+      "langgraph",
+      "mitre-attack",
+      "neo4j",
+      "open-source",
+      "purple-team",
+      "security-operations",
+      "self-hosted",
+      "siem",
+      "soar",
+      "soc",
+      "threat-detection",
+      "threat-intelligence"
+    ],
+    "license": "MIT",
+    "homepage": "https://tryaisoc.com",
+    "default_branch": "main",
+    "created_at": "2026-05-02T03:30:19Z",
+    "pushed_at": "2026-08-17T06:17:57Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:56Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:56Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "Python": 13496869,
+      "TypeScript": 3586386,
+      "Go": 548891,
+      "PLpgSQL": 193225,
+      "Shell": 144876,
+      "HCL": 139992,
+      "JavaScript": 87862,
+      "PowerShell": 67030,
+      "MDX": 63477,
+      "Dockerfile": 33319,
+      "HTML": 31437,
+      "CSS": 17587,
+      "Go Template": 15765,
+      "Makefile": 7561,
+      "Smarty": 5236
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:08Z"
+  },
+  "classification": {
+    "domain": "security",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "AiSOC is an open-source, self-hostable AI Security Operations Center that ingests security events from EDR/SIEM/cloud/identity/network sources, correlates and fuses alerts, and runs an AI agent (a ~600-line LangGraph orchestrator) to investigate incidents with a fully logged, replayable decision trail. It targets security teams who want an auditable, self-hosted alternative to closed-source AI SOC vendors, with detection content (Sigma/YARA/KQL rules), a public CI-gated eval harness, and deployment via Docker Compose, Helm, or Terraform. Built on Python/Go/TypeScript with Kafka, ClickHouse, Neo4j, and Postgres in its stack.",
+    "keywords": [
+      "alert-triage",
+      "detection-engineering",
+      "incident-response",
+      "langgraph",
+      "mitre-attack",
+      "security-operations",
+      "self-hosted",
+      "siem",
+      "soc"
+    ],
+    "use_cases": [
+      {
+        "title": "Stand up a self-hosted AI-driven SOC console",
+        "keywords": [
+          "self-hosted",
+          "soc"
+        ]
+      },
+      {
+        "title": "Automate alert triage and noise suppression",
+        "keywords": [
+          "alert-triage",
+          "automation"
+        ]
+      },
+      {
+        "title": "Audit an AI agent's investigation reasoning step by step",
+        "keywords": [
+          "audit",
+          "investigation-ledger"
+        ]
+      },
+      {
+        "title": "Run purple-team drills against seeded incident scenarios",
+        "keywords": [
+          "detection",
+          "purple-team"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

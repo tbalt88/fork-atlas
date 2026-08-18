@@ -1,0 +1,93 @@
+{
+  "fork": {
+    "full_name": "tbalt88/python-agentframework-demos",
+    "url": "https://github.com/tbalt88/python-agentframework-demos",
+    "created_at": "2026-02-25T19:10:05Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-08T08:17:27Z"
+  },
+  "upstream": {
+    "full_name": "Azure-Samples/python-agentframework-demos",
+    "url": "https://github.com/Azure-Samples/python-agentframework-demos",
+    "description": null,
+    "stars": 242,
+    "forks": 161,
+    "watchers": 4,
+    "open_issues": 19,
+    "language": "Bicep",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-02-09T13:49:40Z",
+    "pushed_at": "2026-07-07T21:08:36Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:05Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:05Z",
+    "signals": [
+      "claude-skill",
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "Bicep": 6320,
+      "PowerShell": 1315,
+      "Dockerfile": 853,
+      "Shell": 809
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:06Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "This is Microsoft's official sample collection demonstrating the Python Microsoft Agent Framework, covering agent basics, tool calling, multi-turn sessions, persistent history (SQLite/Redis), long-term memory (Redis, Mem0), sub-agent context isolation, tool-approval gating, middleware, RAG knowledge retrieval (Azure AI Search, Postgres pgvector, SQLite FTS5), MCP server integration (local and remote), and multi-agent workflows (fan-out/fan-in, sequential orchestration, MagenticOne, streaming). It supports Microsoft Foundry (Azure OpenAI), OpenAI.com, and local Ollama models, and includes IaC (Bicep) for provisioning Azure resources plus a devcontainer/Codespaces setup. Aimed at Python developers learning or evaluating the Microsoft Agent Framework for building production-grade agentic applications.",
+    "keywords": [
+      "agent-framework",
+      "azure-openai",
+      "mcp",
+      "microsoft-foundry",
+      "multi-agent",
+      "python",
+      "rag",
+      "sample-code",
+      "workflow"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn Microsoft Agent Framework patterns like tool calling, memory, and RAG",
+        "keywords": [
+          "agent-framework",
+          "sample-code"
+        ]
+      },
+      {
+        "title": "Build a multi-agent workflow with fan-out/fan-in or sequential orchestration",
+        "keywords": [
+          "multi-agent",
+          "workflow"
+        ]
+      },
+      {
+        "title": "Connect an agent to a local or remote MCP server for tool use",
+        "keywords": [
+          "mcp"
+        ]
+      },
+      {
+        "title": "Provision Azure OpenAI models via Bicep IaC for agent experiments",
+        "keywords": [
+          "azure",
+          "infra-as-code"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

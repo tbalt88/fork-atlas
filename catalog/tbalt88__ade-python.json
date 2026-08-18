@@ -1,0 +1,86 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ade-python",
+    "url": "https://github.com/tbalt88/ade-python",
+    "created_at": "2025-12-07T20:37:01Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-18T07:40:41Z"
+  },
+  "upstream": {
+    "full_name": "landing-ai/ade-python",
+    "url": "https://github.com/landing-ai/ade-python",
+    "description": "Python library for Agentic Document Extraction (ADE).",
+    "stars": 1026,
+    "forks": 166,
+    "watchers": 9,
+    "open_issues": 13,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache-2.0",
+    "homepage": "https://ade.landing.ai",
+    "default_branch": "main",
+    "created_at": "2025-09-18T07:03:08Z",
+    "pushed_at": "2026-08-18T01:40:28Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:09Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:09Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 982846,
+      "Shell": 27024,
+      "Dockerfile": 332,
+      "Ruby": 12
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:46Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "Python SDK for LandingAI's Agentic Document Extraction (ADE) API, providing sync/async clients to parse PDFs and images into structured, grounded Markdown and extract typed fields via Pydantic models or JSON Schema. Supports async job processing for large documents, automatic retries with backoff, and detailed typed error handling for both a legacy v1 and current v2 API. Aimed at developers building document-processing or RAG pipelines who need reliable structured extraction from unstructured PDFs.",
+    "keywords": [
+      "agentic-document-extraction",
+      "document-extraction",
+      "landingai",
+      "ocr",
+      "pdf-parsing",
+      "pydantic",
+      "sdk",
+      "structured-extraction"
+    ],
+    "use_cases": [
+      {
+        "title": "Parse PDFs into structured markdown for a RAG pipeline",
+        "keywords": [
+          "pdf-parsing",
+          "rag"
+        ]
+      },
+      {
+        "title": "Extract typed fields from invoices or contracts with a schema",
+        "keywords": [
+          "extraction",
+          "schema"
+        ]
+      },
+      {
+        "title": "Process large document batches asynchronously via jobs API",
+        "keywords": [
+          "async",
+          "jobs"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

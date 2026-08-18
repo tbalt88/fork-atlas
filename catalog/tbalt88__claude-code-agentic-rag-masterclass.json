@@ -1,0 +1,85 @@
+{
+  "fork": {
+    "full_name": "tbalt88/claude-code-agentic-rag-masterclass",
+    "url": "https://github.com/tbalt88/claude-code-agentic-rag-masterclass",
+    "created_at": "2026-02-14T06:19:32Z",
+    "default_branch": "master",
+    "pushed_at": "2026-01-29T12:04:40Z"
+  },
+  "upstream": {
+    "full_name": "theaiautomators/claude-code-agentic-rag-masterclass",
+    "url": "https://github.com/theaiautomators/claude-code-agentic-rag-masterclass",
+    "description": "Build an agentic RAG app from scratch by collaborating with Claude Code. 8-module course covering hybrid search, reranking, text-to-SQL, subagents, and more. React + FastAPI + Supabase.",
+    "stars": 181,
+    "forks": 97,
+    "watchers": 1,
+    "open_issues": 1,
+    "language": null,
+    "topics": [
+      "agent",
+      "ai",
+      "claude-code",
+      "rag"
+    ],
+    "license": null,
+    "homepage": "https://www.theaiautomators.com/",
+    "default_branch": "master",
+    "created_at": "2026-01-21T16:05:45Z",
+    "pushed_at": "2026-01-29T12:04:40Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:14Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:14Z",
+    "signals": [
+      "claude-md"
+    ],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T02:15:33Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "This is a companion repo and starter scaffold for an 8-module video course that teaches building an agentic RAG application from scratch by pair-programming with Claude Code. It covers chunking, hybrid search, reranking, text-to-SQL, and subagent patterns on a React + FastAPI + Supabase (pgvector) stack, and ships with a PRD, progress tracker, and Claude Code slash commands (/onboard, /build) rather than a finished app. Aimed at non-coders or junior builders who want a guided, AI-assisted path to a production-style RAG system.",
+    "keywords": [
+      "agentic-rag",
+      "claude-code",
+      "course",
+      "fastapi",
+      "hybrid-search",
+      "pgvector",
+      "rag",
+      "subagents",
+      "supabase"
+    ],
+    "use_cases": [
+      {
+        "title": "Follow a guided course to build an agentic RAG app by directing Claude Code",
+        "keywords": [
+          "claude-code",
+          "course"
+        ]
+      },
+      {
+        "title": "Learn hybrid search, reranking, and text-to-SQL patterns for a RAG pipeline",
+        "keywords": [
+          "hybrid-search",
+          "rag"
+        ]
+      },
+      {
+        "title": "Use as a starter template with Claude Code slash commands for a Supabase-backed RAG app",
+        "keywords": [
+          "supabase",
+          "template"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

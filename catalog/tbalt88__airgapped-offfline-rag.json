@@ -1,0 +1,100 @@
+{
+  "fork": {
+    "full_name": "tbalt88/airgapped-offfline-rag",
+    "url": "https://github.com/tbalt88/airgapped-offfline-rag",
+    "created_at": "2026-01-26T07:20:00Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:17:29Z"
+  },
+  "upstream": {
+    "full_name": "vincentkoc/airgapped-offfline-rag",
+    "url": "https://github.com/vincentkoc/airgapped-offfline-rag",
+    "description": "Secure, locally-run Retrieval-Augmented Generation system for document-based question-answering, utilizing Llama 3, Mistral, and Gemini models with a user-friendly Streamlit interface.",
+    "stars": 87,
+    "forks": 29,
+    "watchers": 4,
+    "open_issues": 1,
+    "language": "Python",
+    "topics": [
+      "chromadb",
+      "docker",
+      "hacktoberfest",
+      "langchain",
+      "llama",
+      "llm",
+      "machine-learning",
+      "mistral",
+      "offline",
+      "privacy",
+      "rag",
+      "streamlit",
+      "vector-database"
+    ],
+    "license": "GPL-3.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2024-07-06T05:51:51Z",
+    "pushed_at": "2026-04-30T20:43:49Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:41Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:41Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions",
+      "make",
+      "python"
+    ],
+    "languages": {
+      "Python": 45973,
+      "Makefile": 2241
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:07Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Airgapped Offline RAG is a Streamlit application for document question-answering that runs entirely locally, using quantized GGUF models (Llama 3, Mistral, Gemma) via llama.cpp, LangChain for orchestration, and ChromaDB/Qdrant for vector storage. It targets privacy-conscious users or air-gapped environments who want to upload PDFs and ask questions without any cloud dependency. The stack is Docker-deployable and supports streaming responses, though several features (multi-modal docs, REST API, observability) remain on the roadmap.",
+    "keywords": [
+      "chromadb",
+      "document-qa",
+      "langchain",
+      "llama-cpp",
+      "offline",
+      "privacy",
+      "rag",
+      "streamlit"
+    ],
+    "use_cases": [
+      {
+        "title": "Ask questions over local PDFs without internet access",
+        "keywords": [
+          "offline",
+          "rag"
+        ]
+      },
+      {
+        "title": "Run a self-hosted document QA tool for sensitive data",
+        "keywords": [
+          "document-qa",
+          "privacy"
+        ]
+      },
+      {
+        "title": "Compare quantized local LLMs (Llama, Mistral, Gemma) for RAG",
+        "keywords": [
+          "llama-cpp",
+          "rag"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

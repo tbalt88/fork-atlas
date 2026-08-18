@@ -1,0 +1,108 @@
+{
+  "fork": {
+    "full_name": "tbalt88/llm-whatgives",
+    "url": "https://github.com/tbalt88/llm-whatgives",
+    "created_at": "2026-03-05T22:53:25Z",
+    "default_branch": "main",
+    "pushed_at": "2026-03-05T18:24:41Z"
+  },
+  "upstream": {
+    "full_name": "AlexsJones/llmfit",
+    "url": "https://github.com/AlexsJones/llmfit",
+    "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+    "stars": 32332,
+    "forks": 2002,
+    "watchers": 97,
+    "open_issues": 63,
+    "language": "Rust",
+    "topics": [
+      "gguf",
+      "llm",
+      "localai",
+      "mlx",
+      "skill",
+      "unsloth"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-02-15T16:11:31Z",
+    "pushed_at": "2026-08-17T07:35:58Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:02Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:02Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "make",
+      "nix",
+      "rust"
+    ],
+    "languages": {
+      "Rust": 1725964,
+      "Python": 195747,
+      "JavaScript": 119234,
+      "CSS": 34037,
+      "Shell": 10978,
+      "HTML": 3860,
+      "Makefile": 3013,
+      "Dockerfile": 1609,
+      "Nix": 1419
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:10Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "llmfit (repo name llm-whatgives, upstream AlexsJones/llmfit) is a Rust terminal tool that detects a machine's RAM, CPU, and GPU/VRAM, then scores hundreds of LLM models across fit, speed, quality, and context to recommend which will actually run well on that hardware. It ships an interactive TUI plus a classic CLI/JSON mode for scripting, supports multi-GPU and MoE architectures, dynamic quantization selection, and integrates with local runtime providers (Ollama, llama.cpp, MLX, Docker Model Runner, LM Studio), with a community benchmark-sharing system for real tok/s numbers. It targets developers and self-hosters deciding which local LLM to download and run on their specific hardware.",
+    "keywords": [
+      "benchmarking",
+      "gguf",
+      "hardware-detection",
+      "local-llm",
+      "mlx",
+      "ollama",
+      "quantization",
+      "rust",
+      "tui"
+    ],
+    "use_cases": [
+      {
+        "title": "Find which local LLMs will run well on your specific GPU/CPU/RAM",
+        "keywords": [
+          "hardware-detection",
+          "local-llm"
+        ]
+      },
+      {
+        "title": "Get a JSON-formatted model recommendation for a script or agent",
+        "keywords": [
+          "automation",
+          "cli"
+        ]
+      },
+      {
+        "title": "Benchmark real tok/s on your machine and compare to community results",
+        "keywords": [
+          "benchmarking",
+          "quantization"
+        ]
+      },
+      {
+        "title": "Pick a quantization and runtime provider (Ollama, llama.cpp, MLX) for a given model",
+        "keywords": [
+          "ollama",
+          "quantization"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

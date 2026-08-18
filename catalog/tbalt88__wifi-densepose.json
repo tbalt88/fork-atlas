@@ -1,0 +1,125 @@
+{
+  "fork": {
+    "full_name": "tbalt88/wifi-densepose",
+    "url": "https://github.com/tbalt88/wifi-densepose",
+    "created_at": "2025-12-26T09:55:18Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-18T00:44:38Z"
+  },
+  "upstream": {
+    "full_name": "ruvnet/RuView",
+    "url": "https://github.com/ruvnet/RuView",
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "stars": 90512,
+    "forks": 12038,
+    "watchers": 808,
+    "open_issues": 501,
+    "language": "Rust",
+    "topics": [
+      "awesome",
+      "claude",
+      "densepose",
+      "esp32",
+      "firmware",
+      "home-assistant",
+      "home-automation",
+      "iot",
+      "monitoring",
+      "networking",
+      "npm",
+      "pose-estimation",
+      "react",
+      "rf",
+      "self-learning",
+      "skills",
+      "spatial-intelligence",
+      "typescript",
+      "wifi",
+      "wifi-security"
+    ],
+    "license": "MIT",
+    "homepage": "https://Cognitum.One/RuView",
+    "default_branch": "main",
+    "created_at": "2025-06-07T04:32:30Z",
+    "pushed_at": "2026-08-18T00:17:13Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:00Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:00Z",
+    "signals": [],
+    "languages": {
+      "Rust": 11541539,
+      "JavaScript": 2454936,
+      "Python": 2399978,
+      "TypeScript": 997811,
+      "C": 698343,
+      "Shell": 493695,
+      "HTML": 369587,
+      "CSS": 181207,
+      "Makefile": 24954,
+      "CMake": 13889,
+      "Jinja": 3157,
+      "Dockerfile": 2549,
+      "Roff": 2188,
+      "PowerShell": 1793,
+      "Swift": 927,
+      "Batchfile": 602,
+      "Mako": 581
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:57Z"
+  },
+  "classification": {
+    "domain": "infra-devops",
+    "proposed_domain": "wifi-sensing-iot",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "RuView (WiFi DensePose) is a Rust-based edge platform that turns Channel State Information from cheap ESP32 sensors into spatial intelligence: presence/occupancy detection, contactless breathing and heart-rate monitoring, fall detection, camera-free pose estimation, and room/environment mapping, all without cameras or wearables. It integrates natively with Home Assistant, Apple Home, Google Home, Alexa and Matter, ships pretrained models on Hugging Face, and includes a large catalog of edge 'cog' modules plus an AI-agent operator harness (Claude/Codex) for calibration and verification. Aimed at smart-home and IoT builders wanting privacy-preserving, camera-free sensing running fully on local edge hardware.",
+    "keywords": [
+      "csi",
+      "edge-computing",
+      "esp32",
+      "home-assistant",
+      "iot",
+      "pose-estimation",
+      "presence-detection",
+      "rust",
+      "wifi-sensing"
+    ],
+    "use_cases": [
+      {
+        "title": "Detect presence and vitals through walls with cheap ESP32 sensors",
+        "keywords": [
+          "esp32",
+          "wifi-sensing"
+        ]
+      },
+      {
+        "title": "Integrate WiFi-based occupancy sensing into Home Assistant",
+        "keywords": [
+          "home-assistant",
+          "iot"
+        ]
+      },
+      {
+        "title": "Run camera-free pose estimation from WiFi CSI data",
+        "keywords": [
+          "csi",
+          "pose-estimation"
+        ]
+      },
+      {
+        "title": "Build fall-detection or sleep-monitoring automations locally",
+        "keywords": [
+          "edge-computing",
+          "fall-detection"
+        ]
+      }
+    ],
+    "confidence": 0.65,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

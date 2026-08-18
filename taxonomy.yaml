@@ -1,0 +1,78 @@
+# Fork Atlas taxonomy — the controlled vocabulary the classifier must choose from.
+# Editing this file does NOT re-classify existing records (LLM fields are write-once).
+# The classifier may PROPOSE a new domain via `proposed_domain`; that lands as
+# `needs-review` in the matrix rather than silently growing this list.
+
+domains:
+  - key: llm-inference-training
+    label: LLM inference & training
+    hint: running, serving, fine-tuning, quantizing, or evaluating language models
+  - key: agents-skills
+    label: Agents, skills & prompt packs
+    hint: agent frameworks, Claude/Codex/Cursor skills, prompt libraries, MCP servers, agent tooling
+  - key: media-generation
+    label: Image, video & audio generation
+    hint: diffusion, video gen, TTS/STT, music, image editing models and UIs
+  - key: dev-tooling
+    label: Developer tooling & CLIs
+    hint: build tools, linters, terminals, editors, git helpers, code generators, SDKs
+  - key: data-rag
+    label: Data, ETL, search & RAG
+    hint: pipelines, vector DBs, embeddings, scraping, knowledge bases, document parsing
+  - key: web-ui
+    label: Web & UI frameworks
+    hint: front-end frameworks, component libraries, design systems, site generators
+  - key: automation-integrations
+    label: Automation & integrations
+    hint: workflow engines, bots, connectors, no/low-code, browser automation
+  - key: infra-devops
+    label: Infra, DevOps & self-hosting
+    hint: containers, orchestration, deployment, homelab, networking, monitoring
+  - key: security
+    label: Security & privacy
+    hint: offensive/defensive tooling, auth, secrets, scanning, privacy tools
+  - key: knowledge-productivity
+    label: Knowledge & productivity
+    hint: note-taking, PKM, Obsidian plugins, task/time management, personal dashboards
+  - key: learning-reference
+    label: Learning & reference
+    hint: awesome-lists, courses, tutorials, papers, curated resources
+  - key: business-apps
+    label: Business apps, CRM/ERP & Power Platform
+    hint: ERP, CRM, e-signature, Dynamics 365 / Power Platform / Dataverse samples, SDKs and connectors
+  - key: finance-trading
+    label: Finance & trading
+    hint: trading bots, strategies, market data, technical analysis, broker/exchange integrations
+  - key: vision-sensing
+    label: Computer vision, sensing & IoT
+    hint: image/face recognition, camera/NVR, WiFi/RF sensing, robotics, edge devices
+  - key: games-fun
+    label: Games & fun
+    hint: games, toys, novelty projects
+  - key: misc
+    label: Miscellaneous
+    hint: does not fit any of the above
+
+forms:
+  - key: library
+    label: Library / SDK
+  - key: app
+    label: Application / UI
+  - key: cli
+    label: CLI tool
+  - key: template
+    label: Template / starter
+  - key: skill-pack
+    label: Skill / plugin / prompt pack
+  - key: model-dataset
+    label: Model / dataset / weights
+  - key: reference
+    label: Reference / docs / list
+  - key: service
+    label: Server / service / API
+
+maturity:
+  - toy          # experiment, demo, hackathon
+  - active       # actively developed, usable
+  - production   # widely used, stable, well-maintained
+  - dormant      # no meaningful activity for a long time

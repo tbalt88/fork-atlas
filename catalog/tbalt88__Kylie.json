@@ -1,0 +1,79 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Kylie",
+    "url": "https://github.com/tbalt88/Kylie",
+    "created_at": "2025-12-26T10:06:05Z",
+    "default_branch": "main",
+    "pushed_at": "2025-11-07T00:01:45Z"
+  },
+  "upstream": {
+    "full_name": "jonathanmuk/Kylie",
+    "url": "https://github.com/jonathanmuk/Kylie",
+    "description": "Whatsap Agent",
+    "stars": 110,
+    "forks": 33,
+    "watchers": 1,
+    "open_issues": 0,
+    "language": "Python",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-11-04T18:03:40Z",
+    "pushed_at": "2025-11-07T00:01:45Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:59Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:59Z",
+    "signals": [
+      "python"
+    ],
+    "languages": {
+      "Python": 116142
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:04Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "dormant",
+    "analysis": "Kylie is a WhatsApp-integrated AI companion agent built with LangGraph, receiving text, voice notes, and images via the WhatsApp Cloud API and responding in kind (Groq LLM for text, ElevenLabs TTS, Whisper STT, Google Vision, FLUX image generation). It's a personal/hobbyist tutorial project demonstrating multimodal agent design: a router node dispatches between conversation, image, audio, calendar-tool, and web-search branches, with short-term SQLite state and long-term Qdrant vector memory. Development appears to have stopped shortly after the initial release (created and last pushed within days of each other in November 2025).",
+    "keywords": [
+      "companion",
+      "google-calendar",
+      "langgraph",
+      "memory",
+      "multimodal",
+      "voice-agent",
+      "whatsapp"
+    ],
+    "use_cases": [
+      {
+        "title": "Study a LangGraph multimodal agent architecture example",
+        "keywords": [
+          "langgraph",
+          "multimodal"
+        ]
+      },
+      {
+        "title": "Build a WhatsApp bot with voice notes and image responses",
+        "keywords": [
+          "voice-agent",
+          "whatsapp"
+        ]
+      },
+      {
+        "title": "See a reference implementation of short/long-term agent memory",
+        "keywords": [
+          "memory"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

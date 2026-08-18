@@ -1,0 +1,103 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ai-data-science-team",
+    "url": "https://github.com/tbalt88/ai-data-science-team",
+    "created_at": "2026-02-04T18:45:52Z",
+    "default_branch": "master",
+    "pushed_at": "2026-01-28T15:44:35Z"
+  },
+  "upstream": {
+    "full_name": "business-science/ai-data-science-team",
+    "url": "https://github.com/business-science/ai-data-science-team",
+    "description": "An AI-powered data science team of agents to help you perform common data science tasks 10X faster.",
+    "stars": 5379,
+    "forks": 924,
+    "watchers": 89,
+    "open_issues": 30,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-engineer",
+      "ai-engineering",
+      "copilot",
+      "data-science",
+      "data-scientist",
+      "generative-ai",
+      "gpt",
+      "machine-learning",
+      "ml-engineer",
+      "ml-engineering",
+      "openai"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2024-12-11T16:07:45Z",
+    "pushed_at": "2026-01-28T15:44:35Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:28Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:28Z",
+    "signals": [
+      "python"
+    ],
+    "languages": {
+      "Python": 1557672
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:00Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "AI Data Science Team is a Python library of specialized LLM agents (data cleaning, wrangling, visualization, feature engineering, SQL, EDA, H2O ML, MLflow) built on LangChain/LangGraph-style patterns, plus a flagship Streamlit app called AI Pipeline Studio for visual, reproducible data pipelines. It targets data scientists and ML engineers who want to automate common data-science grunt work using OpenAI or local Ollama models. The repo bundles runnable example apps (pandas analyst, SQL analyst, exploratory copilot) and notebooks demonstrating each agent.",
+    "keywords": [
+      "agents",
+      "data-science",
+      "eda",
+      "feature-engineering",
+      "h2o",
+      "langchain",
+      "mlflow",
+      "python",
+      "sql-agent",
+      "streamlit"
+    ],
+    "use_cases": [
+      {
+        "title": "Automate data cleaning and wrangling with an LLM agent instead of writing pandas by hand",
+        "keywords": [
+          "agents",
+          "data-cleaning"
+        ]
+      },
+      {
+        "title": "Build a visual, reproducible data pipeline with AI-assisted steps via AI Pipeline Studio",
+        "keywords": [
+          "pipeline",
+          "streamlit"
+        ]
+      },
+      {
+        "title": "Ask natural-language questions over a SQL database using the SQL Database Agent",
+        "keywords": [
+          "data-rag",
+          "sql-agent"
+        ]
+      },
+      {
+        "title": "Generate exploratory data analysis reports automatically with the EDA Tools Agent",
+        "keywords": [
+          "eda"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,77 @@
+{
+  "fork": {
+    "full_name": "tbalt88/social-media-scraping-apis",
+    "url": "https://github.com/tbalt88/social-media-scraping-apis",
+    "created_at": "2026-01-20T18:17:51Z",
+    "default_branch": "main",
+    "pushed_at": "2026-01-20T17:57:07Z"
+  },
+  "upstream": {
+    "full_name": "cporter202/social-media-scraping-apis",
+    "url": "https://github.com/cporter202/social-media-scraping-apis",
+    "description": "A curated collection of social media scraping APIs and tools for Instagram, LinkedIn, Twitter/X, TikTok, YouTube, Facebook, and more. Extract posts, profiles, videos, comments, and engagement metrics.",
+    "stars": 2162,
+    "forks": 445,
+    "watchers": 27,
+    "open_issues": 3,
+    "language": "JavaScript",
+    "topics": [
+      "facebook-api",
+      "facebook-scraping",
+      "linkedin-bot",
+      "linkedin-scraping",
+      "social",
+      "social-media",
+      "social-media-automation"
+    ],
+    "license": null,
+    "homepage": "https://www.skool.com/vibe-coding-with-chris-7196",
+    "default_branch": "main",
+    "created_at": "2026-01-20T16:44:05Z",
+    "pushed_at": "2026-01-20T17:57:07Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:44Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:44Z",
+    "signals": [],
+    "languages": {
+      "JavaScript": 27243
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:26Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "reference",
+    "maturity": "toy",
+    "analysis": "A thin curated list pointing to third-party scraping APIs and Apify actors for extracting posts, profiles, videos, comments, and engagement metrics from Instagram, LinkedIn, Twitter/X, TikTok, YouTube, and Facebook. It appears to be a promotional/lead-gen repo tied to a paid course (skool.com link) with almost no original code — just README content, a follow-creator prompt, and a small script to fetch Apify actor listings. No substantive implementation or documentation was found beyond the top-level tree.",
+    "keywords": [
+      "apify",
+      "curated-list",
+      "instagram",
+      "linkedin",
+      "scraping",
+      "social-media"
+    ],
+    "use_cases": [
+      {
+        "title": "Find a third-party API for scraping a specific social platform",
+        "keywords": [
+          "scraping",
+          "social-media"
+        ]
+      },
+      {
+        "title": "Browse Apify actors for social media data extraction",
+        "keywords": [
+          "apify"
+        ]
+      }
+    ],
+    "confidence": 0.4,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,84 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Xrm.Tools.CRMWebAPI",
+    "url": "https://github.com/tbalt88/Xrm.Tools.CRMWebAPI",
+    "created_at": "2019-02-28T18:04:07Z",
+    "default_branch": "master",
+    "pushed_at": "2026-06-12T21:04:34Z"
+  },
+  "upstream": {
+    "full_name": "davidyack/Xrm.Tools.CRMWebAPI",
+    "url": "https://github.com/davidyack/Xrm.Tools.CRMWebAPI",
+    "description": "This is an API helper for working with the Common Data Service (CDS)  Web API",
+    "stars": 142,
+    "forks": 71,
+    "watchers": 32,
+    "open_issues": 37,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2016-01-16T23:22:39Z",
+    "pushed_at": "2022-12-07T17:17:30Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:31Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:31Z",
+    "signals": [],
+    "languages": {
+      "JavaScript": 314575,
+      "C#": 87390,
+      "HTML": 19502,
+      "PowerShell": 14896,
+      "Python": 11907,
+      "PHP": 10262,
+      "Makefile": 693
+    },
+    "inputs_prepared_at": "2026-08-18T02:19:02Z"
+  },
+  "classification": {
+    "domain": "dev-tooling",
+    "form": "library",
+    "maturity": "dormant",
+    "analysis": "Xrm.Tools.CRMWebAPI is a lightweight API helper library for the Dynamics 365 / Common Data Service Web API, with near-identical implementations across .NET, JavaScript/Node, Python, and PHP so developers can write consistent CRUD/metadata code regardless of platform. It's aimed at Dynamics 365/Power Platform developers integrating with CRM data from web resources or external applications, designed to interoperate with Azure Active Directory auth without baking it in. No commits since December 2022, so it's effectively unmaintained.",
+    "keywords": [
+      "crm",
+      "dotnet",
+      "dynamics-365",
+      "javascript",
+      "power-platform",
+      "sdk",
+      "web-api"
+    ],
+    "use_cases": [
+      {
+        "title": "Call the Dynamics 365 Web API from a JavaScript web resource",
+        "keywords": [
+          "dynamics-365",
+          "javascript"
+        ]
+      },
+      {
+        "title": "Build a .NET integration against Common Data Service data",
+        "keywords": [
+          "dotnet",
+          "web-api"
+        ]
+      },
+      {
+        "title": "Share consistent CRM API code across multiple languages",
+        "keywords": [
+          "power-platform",
+          "sdk"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

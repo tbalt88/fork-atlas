@@ -1,0 +1,106 @@
+{
+  "fork": {
+    "full_name": "tbalt88/open-seo",
+    "url": "https://github.com/tbalt88/open-seo",
+    "created_at": "2026-08-17T04:36:35Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-12T02:39:08Z"
+  },
+  "upstream": {
+    "full_name": "every-app/open-seo",
+    "url": "https://github.com/every-app/open-seo",
+    "description": "Open source alternative to Semrush and Ahrefs",
+    "stars": 12405,
+    "forks": 1416,
+    "watchers": 33,
+    "open_issues": 102,
+    "language": "TypeScript",
+    "topics": [
+      "backlink-analysis",
+      "google-search-console-mcp",
+      "keyword-research",
+      "mcp",
+      "seo",
+      "seo-tools",
+      "site-audit"
+    ],
+    "license": "MIT",
+    "homepage": "https://openseo.so",
+    "default_branch": "main",
+    "created_at": "2026-02-27T18:57:41Z",
+    "pushed_at": "2026-08-12T02:39:08Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:43Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:43Z",
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 3876424,
+      "MDX": 73048,
+      "CSS": 35570,
+      "JavaScript": 22499,
+      "Python": 7136,
+      "HTML": 5310,
+      "Shell": 1890
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:35Z"
+  },
+  "classification": {
+    "domain": "misc",
+    "proposed_domain": "seo-tools",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "OpenSEO is an open-source, self-hostable alternative to Semrush/Ahrefs for keyword research, rank tracking, competitor and backlink analysis, and site audits, built on a pay-as-you-go DataForSEO API key rather than a subscription. It ships a modern TypeScript web UI plus an MCP server and a library of pre-built AI agent skills (keyword research, competitor analysis, site audit, etc.) so tools like Claude Code can drive SEO workflows directly. Aimed at solo operators and small teams who find commercial SEO suites too expensive or bloated and want to self-host or fork a leaner tool.",
+    "keywords": [
+      "backlinks",
+      "dataforseo",
+      "keyword-research",
+      "mcp",
+      "self-hosted",
+      "seo",
+      "site-audit",
+      "typescript"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host an SEO suite instead of paying for Semrush/Ahrefs",
+        "keywords": [
+          "self-hosted",
+          "seo"
+        ]
+      },
+      {
+        "title": "Let an AI agent run keyword research and site audits",
+        "keywords": [
+          "ai-skills",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Track competitor backlinks and rankings",
+        "keywords": [
+          "backlink-analysis",
+          "rank-tracking"
+        ]
+      },
+      {
+        "title": "Fork and customize an SEO tool's workflows",
+        "keywords": [
+          "customization",
+          "fork"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

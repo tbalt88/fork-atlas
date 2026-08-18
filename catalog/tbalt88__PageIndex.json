@@ -1,0 +1,93 @@
+{
+  "fork": {
+    "full_name": "tbalt88/PageIndex",
+    "url": "https://github.com/tbalt88/PageIndex",
+    "created_at": "2026-01-31T22:12:35Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-17T08:00:02Z"
+  },
+  "upstream": {
+    "full_name": "VectifyAI/PageIndex",
+    "url": "https://github.com/VectifyAI/PageIndex",
+    "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+    "stars": 35225,
+    "forks": 3102,
+    "watchers": 141,
+    "open_issues": 158,
+    "language": "Python",
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agents",
+      "context-engineering",
+      "information-retrieval",
+      "llm",
+      "rag",
+      "reasoning",
+      "retrieval",
+      "retrieval-augmented-generation",
+      "vector-database"
+    ],
+    "license": "MIT",
+    "homepage": "https://pageindex.ai",
+    "default_branch": "main",
+    "created_at": "2025-04-01T10:53:54Z",
+    "pushed_at": "2026-08-17T17:23:16Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:33Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:33Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 1389454
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:50Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "PageIndex is a vectorless, reasoning-based RAG library that builds a hierarchical table-of-contents-style tree index from long PDF documents and lets an LLM navigate that tree via reasoning rather than vector similarity search, aiming for traceable, explainable retrieval on professional documents (financial reports, legal filings, regulatory text). It's for developers building document QA/agentic retrieval systems who are frustrated by chunking artifacts and opaque vector search, and it reports 98.7% accuracy on FinanceBench. The open-source Python package covers standard PDF parsing and tree generation, while enhanced OCR, hosted chat, and MCP/API access are offered as a cloud service.",
+    "keywords": [
+      "agentic-retrieval",
+      "document-index",
+      "mcp",
+      "no-vector-db",
+      "pdf-parsing",
+      "rag",
+      "reasoning",
+      "tree-search"
+    ],
+    "use_cases": [
+      {
+        "title": "Build reasoning-based retrieval over long PDFs without a vector DB",
+        "keywords": [
+          "no-vector-db",
+          "rag"
+        ]
+      },
+      {
+        "title": "Generate a table-of-contents tree index for a financial or legal document",
+        "keywords": [
+          "document-index",
+          "pdf-parsing"
+        ]
+      },
+      {
+        "title": "Wire agentic vectorless RAG into an OpenAI Agents SDK pipeline",
+        "keywords": [
+          "agentic-retrieval"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

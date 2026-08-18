@@ -1,0 +1,110 @@
+{
+  "fork": {
+    "full_name": "tbalt88/WindsurfAPI",
+    "url": "https://github.com/tbalt88/WindsurfAPI",
+    "created_at": "2026-05-09T01:53:44Z",
+    "default_branch": "master",
+    "pushed_at": "2026-05-08T23:28:01Z"
+  },
+  "upstream": {
+    "full_name": "dwgx/WindsurfAPI",
+    "url": "https://github.com/dwgx/WindsurfAPI",
+    "description": "Turn Windsurf / Devin Desktop's 100+ AI models (Claude, GPT, Gemini, DeepSeek, Kimi, GLM, SWE) into OpenAI-, Anthropic- & Gemini-compatible APIs. Zero-dependency self-hosted reverse proxy for Claude Code, Cline & Cursor. 把 Windsurf/Devin 云端 100+ 模型变成三套兼容 API。",
+    "stars": 2938,
+    "forks": 607,
+    "watchers": 14,
+    "open_issues": 8,
+    "language": "JavaScript",
+    "topics": [
+      "anthropic-compatible",
+      "api-gateway",
+      "claude",
+      "claude-code",
+      "cline",
+      "codeium",
+      "cursor",
+      "deepseek",
+      "devin",
+      "devin-api",
+      "gemini",
+      "gemini-compatible",
+      "gpt",
+      "llm",
+      "openai",
+      "openai-compatible",
+      "reverse-proxy",
+      "self-hosted",
+      "swe-1-5",
+      "windsurf"
+    ],
+    "license": "MIT",
+    "homepage": "https://dwgx.github.io/WindsurfAPI/",
+    "default_branch": "master",
+    "created_at": "2026-04-09T09:42:05Z",
+    "pushed_at": "2026-08-17T14:39:08Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:44Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:44Z",
+    "signals": [
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "JavaScript": 5524058,
+      "HTML": 673596,
+      "PowerShell": 37523,
+      "Shell": 30962,
+      "Batchfile": 2863,
+      "Python": 1947,
+      "Dockerfile": 1577,
+      "VBScript": 1160
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:58Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "WindsurfAPI is a self-hosted, zero-npm-dependency Node.js reverse proxy that turns Windsurf/Devin Desktop's 100+ backend AI models (Claude, GPT, Gemini, DeepSeek, Kimi, GLM, SWE) into OpenAI-, Anthropic-, and Gemini-compatible API endpoints by translating requests into Windsurf's internal gRPC protocol via its local Language Server binary. It manages an account pool with round-robin rotation, rate-limit isolation, and failover, strips upstream Windsurf identity from responses, and ships a web dashboard, Docker/systemd/launchd deployment scripts, and detailed release/handoff logs. Aimed at developers who want to point Claude Code, Cline, or Cursor at a self-hosted endpoint to access many models through Windsurf/Devin's subscription rather than paying per-provider API costs; the README explicitly frames this as a reverse-engineered, ToS-adjacent proxy.",
+    "keywords": [
+      "anthropic-compatible",
+      "claude-code",
+      "devin",
+      "llm-gateway",
+      "openai-compatible",
+      "reverse-proxy",
+      "self-hosted",
+      "windsurf"
+    ],
+    "use_cases": [
+      {
+        "title": "Point Claude Code or Cursor at a self-hosted multi-model API gateway",
+        "keywords": [
+          "claude-code",
+          "reverse-proxy"
+        ]
+      },
+      {
+        "title": "Access 100+ AI models through an OpenAI-compatible endpoint without per-provider keys",
+        "keywords": [
+          "llm-gateway",
+          "openai-compatible"
+        ]
+      },
+      {
+        "title": "Pool and rotate Windsurf/Devin accounts with automatic failover",
+        "keywords": [
+          "account-pool",
+          "failover"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

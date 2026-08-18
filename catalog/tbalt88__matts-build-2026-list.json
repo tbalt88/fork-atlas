@@ -1,0 +1,71 @@
+{
+  "fork": {
+    "full_name": "tbalt88/matts-build-2026-list",
+    "url": "https://github.com/tbalt88/matts-build-2026-list",
+    "created_at": "2026-06-09T22:37:30Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-05T15:04:50Z"
+  },
+  "upstream": {
+    "full_name": "matthansen0/matts-build-2026-list",
+    "url": "https://github.com/matthansen0/matts-build-2026-list",
+    "description": "As comprehensive a list as possible of all updates from Microsoft Build 2026.",
+    "stars": 18,
+    "forks": 3,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "topics": [
+      "microsoft",
+      "microsoft-build",
+      "microsoft-build-2026"
+    ],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-06-03T19:48:52Z",
+    "pushed_at": "2026-06-05T15:04:50Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:24Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:24Z",
+    "signals": [],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T02:17:13Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "dormant",
+    "analysis": "A single-file, hand-curated reference list of roughly 132 announcements from Microsoft Build 2026, organized by category (Hardware & Infrastructure, Apps & Development, Data & Analytics, AI & Agents, Security & Governance) with links to official Microsoft blog posts. It is a personal note-taking artifact useful for quickly scanning what was announced at the conference without digging through dozens of separate blog posts. It has no code, was only updated for a few days around the event, and has seen no activity since.",
+    "keywords": [
+      "announcements",
+      "azure",
+      "conference-notes",
+      "curated-list",
+      "microsoft-build"
+    ],
+    "use_cases": [
+      {
+        "title": "Scan a categorized summary of Microsoft Build 2026 announcements",
+        "keywords": [
+          "curated-list",
+          "microsoft-build"
+        ]
+      },
+      {
+        "title": "Find the official blog post link for a specific Build 2026 Azure feature",
+        "keywords": [
+          "azure",
+          "reference"
+        ]
+      }
+    ],
+    "confidence": 0.6,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

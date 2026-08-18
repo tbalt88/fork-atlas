@@ -1,0 +1,119 @@
+{
+  "fork": {
+    "full_name": "tbalt88/stash",
+    "url": "https://github.com/tbalt88/stash",
+    "created_at": "2026-07-06T05:33:51Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-18T07:40:30Z"
+  },
+  "upstream": {
+    "full_name": "Fergana-Labs/stash",
+    "url": "https://github.com/Fergana-Labs/stash",
+    "description": "Shared memory for your team's coding agents",
+    "stars": 314,
+    "forks": 50,
+    "watchers": 3,
+    "open_issues": 57,
+    "language": "Python",
+    "topics": [
+      "agent-collaboration",
+      "ai",
+      "artifacts",
+      "claude-code",
+      "cli",
+      "codex",
+      "coding-agent",
+      "context-engineering",
+      "continual-learning",
+      "knowledge-base",
+      "mcp",
+      "memory",
+      "multi-agent",
+      "personal-knowledge-base",
+      "personal-knowledge-management",
+      "semantic-search",
+      "skills",
+      "wiki",
+      "workspace"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.joinstash.ai",
+    "default_branch": "main",
+    "created_at": "2026-02-12T04:36:24Z",
+    "pushed_at": "2026-08-17T18:33:38Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:15Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:15Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 4425698,
+      "TypeScript": 2402962,
+      "JavaScript": 167923,
+      "HTML": 116923,
+      "CSS": 54922,
+      "Rust": 34672,
+      "Shell": 25856,
+      "Dockerfile": 5556,
+      "Vim Snippet": 1942,
+      "Mako": 1103
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:30Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Stash is a self-hostable 'shared memory' platform for teams of coding agents: it automatically streams Claude Code/Codex/Cursor/etc. session transcripts, connects to sources like GitHub, Gmail, Drive, Slack, Notion, Linear, and Jira, and exposes everything to agents via a CLI, ~70-tool MCP server, REST API, and a virtual filesystem shell. A scheduled 'curator' agent compiles new sessions and files into a linked wiki of entities and concepts, and Skills (folders with a SKILL.md) can be published, forked, or auto-installed into other agents' setups. It targets engineering teams and solo builders who want persistent, cross-session context so coding agents stop duplicating prior work, and ships as a Python/TypeScript backend+frontend with a Docker Compose self-hosted deployment.",
+    "keywords": [
+      "agent-memory",
+      "claude-code",
+      "coding-agent",
+      "knowledge-base",
+      "mcp",
+      "self-hosted",
+      "semantic-search",
+      "skills"
+    ],
+    "use_cases": [
+      {
+        "title": "Give a team's coding agents shared, persistent memory across sessions",
+        "keywords": [
+          "agent-memory",
+          "coding-agent"
+        ]
+      },
+      {
+        "title": "Expose GitHub, Slack, Notion, and Gmail to an agent via one MCP server",
+        "keywords": [
+          "knowledge-base",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Auto-generate a wiki of entities and decisions from past agent sessions",
+        "keywords": [
+          "agent-memory",
+          "semantic-search"
+        ]
+      },
+      {
+        "title": "Publish and install reusable Skills across a team's agents",
+        "keywords": [
+          "claude-code",
+          "skills"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

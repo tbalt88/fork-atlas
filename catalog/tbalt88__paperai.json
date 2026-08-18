@@ -1,0 +1,104 @@
+{
+  "fork": {
+    "full_name": "tbalt88/paperai",
+    "url": "https://github.com/tbalt88/paperai",
+    "created_at": "2025-12-18T08:36:42Z",
+    "default_branch": "master",
+    "pushed_at": "2026-07-15T07:56:26Z"
+  },
+  "upstream": {
+    "full_name": "neuml/paperai",
+    "url": "https://github.com/neuml/paperai",
+    "description": "📄 🤖 AI for medical and scientific papers",
+    "stars": 1778,
+    "forks": 146,
+    "watchers": 29,
+    "open_issues": 0,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "document-search",
+      "machine-learning",
+      "medical",
+      "nlp",
+      "python",
+      "scientific-papers",
+      "search",
+      "txtai"
+    ],
+    "license": "Apache-2.0",
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2020-07-21T18:33:30Z",
+    "pushed_at": "2026-07-14T13:48:56Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:04Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:04Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "make",
+      "python"
+    ],
+    "languages": {
+      "Python": 78550,
+      "Dockerfile": 899,
+      "Makefile": 684
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:51Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "paperai is a Python application for bulk AI-driven analysis of medical and scientific papers, built on the txtai embeddings/RAG library plus a SQLite article store, generating Markdown/CSV reports and PDF annotations from LLM-answered questions over a paper corpus. It's aimed at researchers who need to run hundreds of structured queries (e.g. 'sample size', 'list possible causes') across large literature sets rather than reading papers manually, with entry points for indexing, single queries, an interactive shell, and full report generation. Notably used during COVID-19 research on the CORD-19 dataset and recognized in WSJ and Google Cloud coverage.",
+    "keywords": [
+      "document-search",
+      "embeddings",
+      "medical-research",
+      "python",
+      "rag",
+      "report-generation",
+      "scientific-papers",
+      "txtai"
+    ],
+    "use_cases": [
+      {
+        "title": "Bulk-answer research questions across a paper corpus with an LLM",
+        "keywords": [
+          "bulk-inference",
+          "rag"
+        ]
+      },
+      {
+        "title": "Generate a Markdown/CSV literature review report",
+        "keywords": [
+          "csv",
+          "report-generation"
+        ]
+      },
+      {
+        "title": "Annotate extracted answers directly on source PDFs",
+        "keywords": [
+          "annotation",
+          "pdf"
+        ]
+      },
+      {
+        "title": "Build a searchable embeddings index over scientific articles",
+        "keywords": [
+          "embeddings",
+          "search"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

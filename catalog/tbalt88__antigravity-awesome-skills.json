@@ -1,0 +1,124 @@
+{
+  "fork": {
+    "full_name": "tbalt88/antigravity-awesome-skills",
+    "url": "https://github.com/tbalt88/antigravity-awesome-skills",
+    "created_at": "2026-02-03T09:02:56Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-17T07:50:55Z"
+  },
+  "upstream": {
+    "full_name": "sickn33/agentic-awesome-skills",
+    "url": "https://github.com/sickn33/agentic-awesome-skills",
+    "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+    "stars": 45071,
+    "forks": 6594,
+    "watchers": 312,
+    "open_issues": 3,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "agentic-skills",
+      "ai-agent-skills",
+      "ai-agents",
+      "ai-coding",
+      "ai-workflows",
+      "antigravity",
+      "antigravity-skills",
+      "claude-code",
+      "claude-code-skills",
+      "codex-cli",
+      "codex-skills",
+      "cursor",
+      "cursor-skills",
+      "developer-tools",
+      "gemini-cli",
+      "gemini-skills",
+      "kiro",
+      "mcp",
+      "skill-library"
+    ],
+    "license": "MIT",
+    "homepage": "https://sickn33.github.io/agentic-awesome-skills/",
+    "default_branch": "main",
+    "created_at": "2026-01-14T17:48:09Z",
+    "pushed_at": "2026-08-17T21:56:48Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:31Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:31Z",
+    "signals": [
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "Python": 14208467,
+      "JavaScript": 4413442,
+      "Shell": 1152093,
+      "HTML": 592035,
+      "TypeScript": 505749,
+      "CSS": 165039,
+      "Java": 28068,
+      "Go": 25173,
+      "C++": 7821,
+      "Batchfile": 6346,
+      "Go Template": 5192,
+      "Swift": 1521,
+      "PLpgSQL": 1381
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:14Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "AAS Core (agentic-awesome-skills) is a large local, agent-first catalog and control plane of 2,000+ reusable SKILL.md playbooks for coding agents (Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, Kiro, Copilot, and more), packaged as a local MCP server, CLI, and a browser-local Workbench for reviewing agent-selected skill stacks. Instead of ranking or auto-installing skills, it lets the agent inspect a project, search the full catalog, and compose a validated, reproducible manifest (aas-stack.json) before anything is applied. It targets developers who want a curated, distributable skill/plugin ecosystem across multiple AI coding agents rather than ad-hoc prompt copying.",
+    "keywords": [
+      "agent-tooling",
+      "antigravity",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "mcp",
+      "plugin",
+      "skill-catalog",
+      "skills"
+    ],
+    "use_cases": [
+      {
+        "title": "Install a curated skill pack for Claude Code or Cursor from a large catalog",
+        "keywords": [
+          "claude-code",
+          "skills"
+        ]
+      },
+      {
+        "title": "Let an agent search and compose its own validated skill stack via local MCP",
+        "keywords": [
+          "agent-tooling",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Review and approve an agent's proposed skill selection before applying it",
+        "keywords": [
+          "validation",
+          "workbench"
+        ]
+      },
+      {
+        "title": "Bootstrap a new coding agent project with a specialized plugin bundle",
+        "keywords": [
+          "bundle",
+          "plugin"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

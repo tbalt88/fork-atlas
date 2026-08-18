@@ -1,0 +1,104 @@
+{
+  "fork": {
+    "full_name": "tbalt88/OpenSandbox",
+    "url": "https://github.com/tbalt88/OpenSandbox",
+    "created_at": "2026-08-16T01:03:50Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-15T07:51:22Z"
+  },
+  "upstream": {
+    "full_name": "opensandbox-group/OpenSandbox",
+    "url": "https://github.com/opensandbox-group/OpenSandbox",
+    "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+    "stars": 14184,
+    "forks": 1254,
+    "watchers": 57,
+    "open_issues": 157,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-infra",
+      "kubernetes",
+      "sandbox"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://open-sandbox.ai",
+    "default_branch": "main",
+    "created_at": "2025-12-17T08:41:09Z",
+    "pushed_at": "2026-08-18T02:10:39Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:48Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:48Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions",
+      "go",
+      "python"
+    ],
+    "languages": {
+      "Python": 5045406,
+      "Go": 4770819,
+      "Kotlin": 1057146,
+      "C#": 692038,
+      "TypeScript": 565194,
+      "Java": 418198,
+      "Shell": 259658,
+      "JavaScript": 108768,
+      "Makefile": 42543,
+      "C": 28164,
+      "Dockerfile": 25883,
+      "Mustache": 21120,
+      "Go Template": 10268,
+      "Batchfile": 3506
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:45Z"
+  },
+  "classification": {
+    "domain": "infra-devops",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "OpenSandbox is a general-purpose sandbox runtime for AI applications, providing multi-language SDKs (Python, Java/Kotlin, TypeScript, C#, Go), a CLI (osb), and an MCP server for creating isolated sandboxes and running commands, file I/O, and code execution. It runs on Docker or Kubernetes with strong-isolation runtimes like gVisor, Kata, and Firecracker, a credential vault for safe outbound secrets, and an ingress/egress network policy layer, targeting teams that need to safely execute untrusted code from coding agents, browser-automation agents, or RL training loops at scale. Backed by Alibaba and listed in the CNCF landscape, with examples for Claude Code, Gemini CLI, LangGraph, and Playwright sandboxes.",
+    "keywords": [
+      "ai-agents",
+      "code-execution",
+      "credential-vault",
+      "docker",
+      "isolation",
+      "kubernetes",
+      "mcp",
+      "sandbox"
+    ],
+    "use_cases": [
+      {
+        "title": "Run untrusted AI-agent-generated code in an isolated sandbox",
+        "keywords": [
+          "code-execution",
+          "isolation"
+        ]
+      },
+      {
+        "title": "Give a coding agent like Claude Code a disposable sandbox via MCP",
+        "keywords": [
+          "coding-agent",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Scale sandbox workloads on Kubernetes for RL training or evaluation",
+        "keywords": [
+          "kubernetes",
+          "rl-training"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

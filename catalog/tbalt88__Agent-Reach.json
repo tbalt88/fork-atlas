@@ -1,0 +1,114 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Agent-Reach",
+    "url": "https://github.com/tbalt88/Agent-Reach",
+    "created_at": "2026-07-24T00:44:06Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-17T17:49:38Z"
+  },
+  "upstream": {
+    "full_name": "Panniantong/Agent-Reach",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "stars": 72559,
+    "forks": 6171,
+    "watchers": 253,
+    "open_issues": 93,
+    "language": "Python",
+    "topics": [
+      "agent-infrastructure",
+      "ai-agent",
+      "ai-search",
+      "automation",
+      "bilibili",
+      "claude-code",
+      "cli",
+      "cursor",
+      "free-api",
+      "llm-tools",
+      "mcp",
+      "python",
+      "reddit-scraper",
+      "twitter-scraper",
+      "web-scraper",
+      "xiaohongshu",
+      "youtube-transcript"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-02-24T02:10:24Z",
+    "pushed_at": "2026-08-12T03:39:49Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:08Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:08Z",
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 585140,
+      "Shell": 18203,
+      "HTML": 6933
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:49Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Agent Reach is a CLI capability layer that gives AI coding agents (Claude Code, Cursor, OpenClaw, Windsurf) the ability to read and search Twitter/X, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu, LinkedIn, RSS and general web content without paid APIs. It works by probing an ordered list of free backends per platform (yt-dlp, gh CLI, Jina Reader, OpenCLI, bili-cli, Exa via MCP, etc.), auto-selecting whichever is currently working and reporting status via `agent-reach doctor`. It ships an MCP server integration and a Claude Code SKILL.md so an agent can self-configure without the user writing scraper code. Aimed at solo builders/agent tinkerers who want their coding agent to browse social/web platforms cheaply and reliably.",
+    "keywords": [
+      "agent-tooling",
+      "claude-code",
+      "cli",
+      "mcp",
+      "reddit",
+      "skill",
+      "social-media",
+      "twitter",
+      "web-scraping",
+      "youtube"
+    ],
+    "use_cases": [
+      {
+        "title": "Let a coding agent read and summarize a YouTube video via transcript extraction",
+        "keywords": [
+          "transcription",
+          "youtube"
+        ]
+      },
+      {
+        "title": "Give an agent free semantic web search without paying for a search API",
+        "keywords": [
+          "exa",
+          "search"
+        ]
+      },
+      {
+        "title": "Have an agent monitor Reddit/Twitter discussions about a product",
+        "keywords": [
+          "monitoring",
+          "reddit",
+          "twitter"
+        ]
+      },
+      {
+        "title": "Install a Claude Code skill that auto-picks the best scraping backend per platform",
+        "keywords": [
+          "claude-code",
+          "skill-pack"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

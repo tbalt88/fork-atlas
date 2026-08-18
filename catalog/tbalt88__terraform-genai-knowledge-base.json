@@ -1,0 +1,91 @@
+{
+  "fork": {
+    "full_name": "tbalt88/terraform-genai-knowledge-base",
+    "url": "https://github.com/tbalt88/terraform-genai-knowledge-base",
+    "created_at": "2026-01-24T03:44:57Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:17:32Z"
+  },
+  "upstream": {
+    "full_name": "GoogleCloudPlatform/terraform-genai-knowledge-base",
+    "url": "https://github.com/GoogleCloudPlatform/terraform-genai-knowledge-base",
+    "description": "Fine tune an LLM model to answer questions from your documents.",
+    "stars": 174,
+    "forks": 92,
+    "watchers": 34,
+    "open_issues": 34,
+    "language": "HCL",
+    "topics": [
+      "cft-terraform"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://registry.terraform.io/modules/GoogleCloudPlatform/terraform-genai-knowledge-base/google",
+    "default_branch": "main",
+    "created_at": "2023-09-19T19:50:00Z",
+    "pushed_at": "2026-07-10T09:08:54Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:44Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:44Z",
+    "signals": [
+      "gh-actions",
+      "go",
+      "make",
+      "python"
+    ],
+    "languages": {
+      "HCL": 21029,
+      "Jupyter Notebook": 18751,
+      "Python": 18656,
+      "Shell": 8650,
+      "Makefile": 3201,
+      "Go": 2112
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:44Z"
+  },
+  "classification": {
+    "domain": "infra-devops",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "A Google Cloud Platform-maintained Terraform module that stands up an end-to-end generative-AI knowledge-base pipeline: Document AI OCR extracts text from uploaded documents, Vertex AI generates question/answer pairs stored in Firestore, results are indexed in Vector Search, and the QA pairs feed fine-tuning of a Vertex AI LLM. It's for platform/infra engineers who want a deployable reference architecture (published to the Terraform Registry) rather than application code, wiring together Cloud Functions, Firestore, Document AI, and Vertex AI via HCL. Actively maintained with dependabot/renovate and periodic CI.",
+    "keywords": [
+      "document-ai",
+      "fine-tuning",
+      "gcp",
+      "iac",
+      "infrastructure",
+      "terraform",
+      "vector-search",
+      "vertex-ai"
+    ],
+    "use_cases": [
+      {
+        "title": "Deploy a GCP knowledge-base pipeline with Terraform",
+        "keywords": [
+          "gcp",
+          "terraform"
+        ]
+      },
+      {
+        "title": "Auto-generate a fine-tuning dataset from document text via Vertex AI",
+        "keywords": [
+          "fine-tuning",
+          "vertex-ai"
+        ]
+      },
+      {
+        "title": "Provision Document AI OCR plus Vector Search infrastructure as code",
+        "keywords": [
+          "document-ai",
+          "iac"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

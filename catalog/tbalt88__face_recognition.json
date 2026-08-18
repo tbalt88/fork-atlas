@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/face_recognition",
+    "url": "https://github.com/tbalt88/face_recognition",
+    "created_at": "2026-06-02T04:14:41Z",
+    "default_branch": "master",
+    "pushed_at": "2026-06-26T08:57:29Z"
+  },
+  "upstream": {
+    "full_name": "ageitgey/face_recognition",
+    "url": "https://github.com/ageitgey/face_recognition",
+    "description": "The world's simplest facial recognition api for Python and the command line",
+    "stars": 56663,
+    "forks": 13697,
+    "watchers": 1538,
+    "open_issues": 831,
+    "language": "Python",
+    "topics": [
+      "face-detection",
+      "face-recognition",
+      "machine-learning",
+      "python"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2017-03-03T21:52:39Z",
+    "pushed_at": "2026-06-25T11:12:50Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:28Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:28Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "make",
+      "python"
+    ],
+    "languages": {
+      "Python": 35036,
+      "Dockerfile": 6930,
+      "Makefile": 2286
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:24Z"
+  },
+  "classification": {
+    "domain": "misc",
+    "proposed_domain": "computer-vision",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "The classic, widely-used Python library and CLI ('the world's simplest facial recognition API') built on dlib's deep-learning face recognition model, claiming 99.38% accuracy on the LFW benchmark. Provides face detection, facial-landmark extraction, and face-matching/identification from both a Python API and the face_recognition/face_detection command-line tools, with Docker images for CPU/GPU. Long-running, mature project (since 2017) used by developers building face-based identification, webcam recognition, or digital-makeup style demos.",
+    "keywords": [
+      "cli",
+      "computer-vision",
+      "deep-learning",
+      "dlib",
+      "face-detection",
+      "face-recognition",
+      "python"
+    ],
+    "use_cases": [
+      {
+        "title": "Identify known people in a folder of photos from the command line",
+        "keywords": [
+          "cli",
+          "face-recognition"
+        ]
+      },
+      {
+        "title": "Build real-time webcam face recognition into a Python app",
+        "keywords": [
+          "realtime",
+          "webcam"
+        ]
+      },
+      {
+        "title": "Extract facial landmarks for filters or digital makeup effects",
+        "keywords": [
+          "facial-landmarks"
+        ]
+      },
+      {
+        "title": "Batch-process a large photo set to find and box all faces",
+        "keywords": [
+          "batch-processing"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

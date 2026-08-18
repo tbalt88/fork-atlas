@@ -1,0 +1,116 @@
+{
+  "fork": {
+    "full_name": "tbalt88/worldmonitor",
+    "url": "https://github.com/tbalt88/worldmonitor",
+    "created_at": "2026-02-14T05:10:28Z",
+    "default_branch": "main",
+    "pushed_at": "2026-02-13T20:25:12Z"
+  },
+  "upstream": {
+    "full_name": "koala73/worldmonitor",
+    "url": "https://github.com/koala73/worldmonitor",
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "stars": 82691,
+    "forks": 12341,
+    "watchers": 476,
+    "open_issues": 401,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "ai",
+      "dashboard",
+      "geopolitics",
+      "mcp",
+      "mcp-server",
+      "monitoring",
+      "news",
+      "opensource",
+      "osint",
+      "palantir",
+      "situation"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": "https://worldmonitor.app",
+    "default_branch": "main",
+    "created_at": "2026-01-08T17:26:06Z",
+    "pushed_at": "2026-08-17T20:19:35Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:15Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:15Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "TypeScript": 26429332,
+      "JavaScript": 22553453,
+      "CSS": 837400,
+      "HTML": 270122,
+      "Shell": 73371,
+      "Rust": 66326,
+      "Astro": 45231,
+      "Python": 41764,
+      "PLpgSQL": 21111,
+      "Go": 21100,
+      "Ruby": 18102,
+      "Dockerfile": 9296,
+      "Makefile": 7444,
+      "NSIS": 1060
+    },
+    "inputs_prepared_at": "2026-08-18T02:19:01Z"
+  },
+  "classification": {
+    "domain": "knowledge-productivity",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "World Monitor is a real-time, AI-powered global-intelligence dashboard that aggregates news, geopolitical, financial, and infrastructure signals (with a Country Instability Index, dual 3D/flat map engines, flight data, and cross-stream correlation) into a single situational-awareness interface. It ships as public web variants (world/tech/finance/commodity/happy/energy), a Tauri desktop app for macOS/Windows/Linux, an MCP server plus REST API, and official CLI/SDKs (npm, PyPI, RubyGems, Go), supporting local-only inference via Ollama for privacy-conscious users.",
+    "keywords": [
+      "dashboard",
+      "geopolitics",
+      "mcp",
+      "monitoring",
+      "news-aggregation",
+      "osint",
+      "situational-awareness",
+      "tauri"
+    ],
+    "use_cases": [
+      {
+        "title": "Monitor global geopolitical and infrastructure risk on one dashboard",
+        "keywords": [
+          "dashboard",
+          "geopolitics"
+        ]
+      },
+      {
+        "title": "Query world-event and risk data programmatically via MCP or REST",
+        "keywords": [
+          "api",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Run the dashboard locally with Ollama for offline, private AI synthesis",
+        "keywords": [
+          "ollama",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Track a country's instability index over time via the CLI or SDK",
+        "keywords": [
+          "cli",
+          "sdk"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

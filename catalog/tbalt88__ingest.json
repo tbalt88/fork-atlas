@@ -1,0 +1,98 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ingest",
+    "url": "https://github.com/tbalt88/ingest",
+    "created_at": "2025-12-26T13:33:41Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:03:29Z"
+  },
+  "upstream": {
+    "full_name": "sammcj/ingest",
+    "url": "https://github.com/sammcj/ingest",
+    "description": "Parse files (e.g. code repos) and websites to clipboard or a file for ingestions by AI / LLMs",
+    "stars": 385,
+    "forks": 28,
+    "watchers": 5,
+    "open_issues": 2,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "codegen",
+      "ingest",
+      "llama",
+      "llm",
+      "ollama"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2024-07-28T22:07:54Z",
+    "pushed_at": "2026-08-11T11:38:38Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:54Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:54Z",
+    "signals": [
+      "gh-actions",
+      "go",
+      "make"
+    ],
+    "languages": {
+      "Go": 145085,
+      "Makefile": 1376,
+      "Shell": 945
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:56Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Ingest is a Go CLI that walks a directory of source code (or crawls a website or PDF) and flattens it into a single markdown or JSON prompt suitable for feeding to an LLM, with include/exclude glob filtering, git diff/log inclusion, Tree-sitter-based code compression, offline or Anthropic-API token counting, and optional direct hand-off to any OpenAI-compatible LLM endpoint. It targets developers who want to quickly build LLM context from a codebase or web page without manual copy-pasting, and ships as a single Go binary with shell completions. Actively maintained with recent commits and GitHub Actions release automation.",
+    "keywords": [
+      "cli",
+      "code-ingestion",
+      "go",
+      "llm-context",
+      "prompt-generation",
+      "token-counting",
+      "tree-sitter",
+      "web-crawling"
+    ],
+    "use_cases": [
+      {
+        "title": "Turn a code repo into a single LLM-ready markdown prompt",
+        "keywords": [
+          "code-ingestion",
+          "llm-context"
+        ]
+      },
+      {
+        "title": "Crawl a website into markdown for LLM ingestion",
+        "keywords": [
+          "markdown",
+          "web-crawling"
+        ]
+      },
+      {
+        "title": "Count and estimate tokens for a codebase before sending it to an LLM",
+        "keywords": [
+          "token-counting"
+        ]
+      },
+      {
+        "title": "Compress source files with Tree-sitter to save context tokens",
+        "keywords": [
+          "compression",
+          "tree-sitter"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

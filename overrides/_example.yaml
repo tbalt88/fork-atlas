@@ -1,0 +1,9 @@
+# Copy to overrides/<owner>__<repo>.yaml (e.g. tbalt88__unsloth.yaml) and delete
+# the keys you don't need. Overrides win in the matrix; catalog/ files are untouched.
+domain: llm-inference-training   # a key from taxonomy.yaml
+form: app                        # a key from taxonomy.yaml
+maturity: production             # toy | active | production | dormant
+note: "Why I forked this / how I use it."
+keywords_add: [homelab, weekend]
+pinned: false                    # float to top of every view
+hidden: false                    # drop from matrix entirely (record stays in catalog/)

@@ -1,0 +1,127 @@
+{
+  "fork": {
+    "full_name": "tbalt88/hermes-agent",
+    "url": "https://github.com/tbalt88/hermes-agent",
+    "created_at": "2026-04-13T06:47:43Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:22Z"
+  },
+  "upstream": {
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 232062,
+    "forks": 46232,
+    "watchers": 895,
+    "open_issues": 32784,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "nous-research",
+      "openai"
+    ],
+    "license": "MIT",
+    "homepage": "https://hermes-agent.nousresearch.com",
+    "default_branch": "main",
+    "created_at": "2025-07-22T22:22:28Z",
+    "pushed_at": "2026-08-18T02:00:28Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:49Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:49Z",
+    "signals": [
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 69484674,
+      "TypeScript": 18608027,
+      "JavaScript": 1185632,
+      "TeX": 434546,
+      "Shell": 422198,
+      "PowerShell": 319081,
+      "CSS": 174351,
+      "Rust": 173380,
+      "BibTeX Style": 156486,
+      "Nix": 121229,
+      "HTML": 99366,
+      "Dockerfile": 25687,
+      "MDX": 18640,
+      "DIGITAL Command Language": 10601,
+      "C": 9634,
+      "Go Template": 2740,
+      "Batchfile": 1145,
+      "Makefile": 1054,
+      "Roff": 199,
+      "BitBake": 95,
+      "Raku": 79,
+      "Io": 48,
+      "RenderScript": 14,
+      "C++": 10,
+      "IL Assembly": 9
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:49Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Hermes Agent (Nous Research) is a self-improving AI agent with a full terminal UI, a messaging gateway (Telegram, Discord, Slack, WhatsApp, Signal, Email), and a closed learning loop that autonomously creates and refines skills, persists memory, and searches past conversations across sessions. It supports any LLM provider (or Nous Portal for bundled access), runs locally or on remote sandboxed backends (Docker, SSH, Modal, Daytona, Vercel Sandbox), and can spawn subagents and scheduled cron automations. Aimed at power users and developers wanting a persistent, cross-platform personal agent rather than a one-off coding assistant.",
+    "keywords": [
+      "ai-agent",
+      "automation",
+      "memory",
+      "messaging-gateway",
+      "multi-provider",
+      "self-improving",
+      "skills",
+      "tui"
+    ],
+    "use_cases": [
+      {
+        "title": "Run a persistent personal AI agent reachable from Telegram or Discord",
+        "keywords": [
+          "ai-agent",
+          "messaging-gateway"
+        ]
+      },
+      {
+        "title": "Set up scheduled cron automations delivered to a chat platform",
+        "keywords": [
+          "automation",
+          "scheduling"
+        ]
+      },
+      {
+        "title": "Give an agent a self-improving skill/memory loop across sessions",
+        "keywords": [
+          "memory",
+          "skills"
+        ]
+      },
+      {
+        "title": "Host an agent on serverless sandbox infra that hibernates when idle",
+        "keywords": [
+          "automation",
+          "self-improving"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

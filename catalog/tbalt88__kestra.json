@@ -1,0 +1,118 @@
+{
+  "fork": {
+    "full_name": "tbalt88/kestra",
+    "url": "https://github.com/tbalt88/kestra",
+    "created_at": "2026-08-11T16:21:48Z",
+    "default_branch": "develop",
+    "pushed_at": "2026-08-11T15:52:35Z"
+  },
+  "upstream": {
+    "full_name": "kestra-io/kestra",
+    "url": "https://github.com/kestra-io/kestra",
+    "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
+    "stars": 27844,
+    "forks": 2920,
+    "watchers": 184,
+    "open_issues": 545,
+    "language": "Java",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "control-plane",
+      "data-engineering",
+      "data-orchestration",
+      "data-orchestrator",
+      "devops",
+      "etl",
+      "hacktoberfest",
+      "high-availability",
+      "infra-automation",
+      "infra-ops",
+      "infrastructure-as-code",
+      "java",
+      "low-code",
+      "orchestration",
+      "pipeline",
+      "pipeline-as-code",
+      "scheduler",
+      "workflow"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://go.kestra.io/home",
+    "default_branch": "develop",
+    "created_at": "2019-08-24T13:56:15Z",
+    "pushed_at": "2026-08-17T20:21:08Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:56Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:56Z",
+    "signals": [
+      "claude-md",
+      "docker",
+      "gh-actions",
+      "java",
+      "make"
+    ],
+    "languages": {
+      "Java": 11444477,
+      "TypeScript": 4453297,
+      "Vue": 2931714,
+      "JavaScript": 199098,
+      "SCSS": 78597,
+      "PLpgSQL": 24407,
+      "Shell": 14016,
+      "Makefile": 10140,
+      "Go Template": 5294,
+      "HTML": 4583,
+      "Batchfile": 3701,
+      "Dockerfile": 3462,
+      "CSS": 2909
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:59Z"
+  },
+  "classification": {
+    "domain": "automation-integrations",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "Kestra is an open-source, event-driven orchestration platform for data, AI, and infrastructure workflows, defined declaratively in YAML and editable/visualizable from a built-in UI backed by a Java/Vue codebase. It supports both scheduled and real-time event triggers, hundreds of plugins (databases, cloud storage, Kafka, Spark, Slack, etc.), and scripting in any language, with Docker/Kubernetes/Helm deployment options to scale to millions of workflows. Targets data and platform engineers who want an infrastructure-as-code orchestrator with a friendlier UI than typical Airflow-style tools.",
+    "keywords": [
+      "etl",
+      "event-driven",
+      "orchestration",
+      "plugins",
+      "scheduler",
+      "self-hosted",
+      "workflow-engine",
+      "yaml"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host an orchestration platform for scheduled and event-driven pipelines",
+        "keywords": [
+          "orchestration",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Build data or ETL pipelines declaratively in YAML",
+        "keywords": [
+          "etl",
+          "yaml"
+        ]
+      },
+      {
+        "title": "Trigger workflows from real-time events like Kafka or file arrival",
+        "keywords": [
+          "event-driven",
+          "triggers"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

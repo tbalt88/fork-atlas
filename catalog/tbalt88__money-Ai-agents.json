@@ -1,0 +1,98 @@
+{
+  "fork": {
+    "full_name": "tbalt88/money-Ai-agents",
+    "url": "https://github.com/tbalt88/money-Ai-agents",
+    "created_at": "2025-12-26T13:44:28Z",
+    "default_branch": "master",
+    "pushed_at": "2025-12-19T22:49:30Z"
+  },
+  "upstream": {
+    "full_name": "0xSojalSec/money-Ai-agents",
+    "url": "https://github.com/0xSojalSec/money-Ai-agents",
+    "description": "Lucid Agents Commerce SDK. Bootstrap AI agents in 60 seconds that can pay, sell, and participate in agentic commerce supply chains. Our protocol agnostic SDK provides CLI-generated templates and drop-in adapters for Hono, Express, Next.js, and TanStack, giving you instant access to crypto/fiat payment rails (AP2, A2A, x402, ERC8004).",
+    "stars": 3,
+    "forks": 1,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "topics": [],
+    "license": "MIT",
+    "homepage": "https://docs.daydreams.systems/",
+    "default_branch": "master",
+    "created_at": "2025-12-25T23:10:37Z",
+    "pushed_at": "2025-12-19T22:49:30Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:53Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:53Z",
+    "signals": [
+      "gh-actions",
+      "node",
+      "typescript",
+      "vite"
+    ],
+    "languages": {
+      "TypeScript": 1414520,
+      "MDX": 148420,
+      "Shell": 9080,
+      "Just": 7879,
+      "JavaScript": 3206,
+      "CSS": 1461
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:21Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "library",
+    "maturity": "toy",
+    "analysis": "Lucid Agents (repo name money-Ai-agents) is a TypeScript-first, protocol-agnostic framework and CLI for building and monetizing AI agents, with native support for x402 payments, A2A agent-to-agent communication, and ERC-8004 onchain identity. It's a composable monorepo — a protocol-agnostic core runtime plus optional extensions (http, payments, wallets, identity, a2a, ap2) and framework adapters (Hono, Express, Next.js, TanStack) — letting a developer scaffold a paid agent with `bunx @lucid-agents/cli` and accept USDC on Base or Solana out of the box. It targets developers experimenting with agentic commerce and agent marketplaces; the low star/fork count and thin adoption signal an early-stage, still-maturing project rather than production infrastructure.",
+    "keywords": [
+      "a2a",
+      "agent-commerce",
+      "bun",
+      "cli-scaffolding",
+      "erc-8004",
+      "onchain-identity",
+      "payments",
+      "typescript",
+      "wallet",
+      "x402"
+    ],
+    "use_cases": [
+      {
+        "title": "Scaffold a paid AI agent that accepts USDC crypto payments in minutes",
+        "keywords": [
+          "payments",
+          "x402"
+        ]
+      },
+      {
+        "title": "Build an agent marketplace where agents discover and pay each other for services",
+        "keywords": [
+          "a2a",
+          "marketplace"
+        ]
+      },
+      {
+        "title": "Register onchain identity and reputation for an autonomous agent",
+        "keywords": [
+          "erc-8004",
+          "identity"
+        ]
+      },
+      {
+        "title": "Track incoming/outgoing agent payments with exportable analytics for accounting",
+        "keywords": [
+          "payment-analytics",
+          "reporting"
+        ]
+      }
+    ],
+    "confidence": 0.6,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

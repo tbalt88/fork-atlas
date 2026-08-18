@@ -1,0 +1,81 @@
+{
+  "fork": {
+    "full_name": "tbalt88/github-copilot-mcp-tutorial",
+    "url": "https://github.com/tbalt88/github-copilot-mcp-tutorial",
+    "created_at": "2026-06-22T16:46:07Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-18T23:11:51Z"
+  },
+  "upstream": {
+    "full_name": "pamelafox/github-copilot-mcp-tutorial",
+    "url": "https://github.com/pamelafox/github-copilot-mcp-tutorial",
+    "description": "2 hour MCP tutorial focusing on GitHub Copilot",
+    "stars": 41,
+    "forks": 17,
+    "watchers": 0,
+    "open_issues": 15,
+    "language": "Python",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-06-16T16:07:51Z",
+    "pushed_at": "2026-06-18T23:11:51Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:20Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:20Z",
+    "signals": [
+      "mcp",
+      "python"
+    ],
+    "languages": {
+      "Python": 10184
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:43Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "dormant",
+    "analysis": "This is a hands-on 2-hour workshop for GitHub Copilot Day teaching developers how to build MCP (Model Context Protocol) servers in Python using FastMCP, with GitHub Copilot as the coding agent. It walks through three exercises: connecting Copilot to a public MCP server, using the GitHub MCP server to find and fix issues via pull requests, and building a custom MCP server from scratch, complete with slides and step-by-step screenshots for VS Code, Copilot CLI, and Claude Code. Created by pamelafox (Microsoft) as a one-off conference tutorial; useful reference material for anyone learning MCP server development rather than an ongoing tool.",
+    "keywords": [
+      "fastmcp",
+      "github-copilot",
+      "mcp",
+      "python",
+      "tutorial",
+      "vscode",
+      "workshop"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn how to build a custom MCP server in Python step by step",
+        "keywords": [
+          "fastmcp",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Follow a workshop connecting GitHub Copilot to an MCP server",
+        "keywords": [
+          "github-copilot",
+          "tutorial"
+        ]
+      },
+      {
+        "title": "See screenshots of MCP OAuth/config flows across VS Code, Copilot CLI, and Claude Code",
+        "keywords": [
+          "mcp",
+          "reference"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

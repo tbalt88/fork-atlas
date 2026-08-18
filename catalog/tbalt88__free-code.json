@@ -1,0 +1,91 @@
+{
+  "fork": {
+    "full_name": "tbalt88/free-code",
+    "url": "https://github.com/tbalt88/free-code",
+    "created_at": "2026-04-01T03:26:53Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:16:34Z"
+  },
+  "upstream": {
+    "full_name": "freecodexyz/free-code",
+    "url": "https://github.com/freecodexyz/free-code",
+    "description": "The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.",
+    "stars": 8701,
+    "forks": 2045,
+    "watchers": 98,
+    "open_issues": 25,
+    "language": "TypeScript",
+    "topics": [],
+    "license": null,
+    "homepage": "https://x.com/paoloanzn/status/2039022418698907949?s=20",
+    "default_branch": "main",
+    "created_at": "2026-03-31T11:11:49Z",
+    "pushed_at": "2026-07-29T20:31:34Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:52Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:52Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 30320555,
+      "Shell": 4911,
+      "JavaScript": 1340
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:32Z"
+  },
+  "classification": {
+    "domain": "dev-tooling",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "free-code is a community rebuild of Anthropic's Claude Code CLI from a leaked source map, distributed as a buildable Bun/TypeScript project with all telemetry (OpenTelemetry, GrowthBook reporting, Sentry) stripped, Anthropic's injected security-prompt guardrails removed, and most of the 88 compile-time experimental feature flags unlocked (ultraplan, ultrathink, voice mode, IDE bridge, agent triggers, etc.). It supports the same multi-provider auth as upstream (Anthropic direct, OpenAI Codex, AWS Bedrock, Vertex AI, Anthropic Foundry) and is aimed at developers who want an unrestricted, privacy-stripped terminal coding agent. It carries clear provenance and licensing concerns since it repackages Anthropic's proprietary CLI source.",
+    "keywords": [
+      "bun",
+      "claude-code",
+      "cli",
+      "feature-flags",
+      "ink",
+      "mcp",
+      "telemetry-removal",
+      "terminal-agent"
+    ],
+    "use_cases": [
+      {
+        "title": "Run a telemetry-free build of a Claude Code-style terminal agent",
+        "keywords": [
+          "privacy",
+          "telemetry"
+        ]
+      },
+      {
+        "title": "Unlock experimental Claude Code feature flags like ultrathink or voice mode",
+        "keywords": [
+          "experimental",
+          "feature-flags"
+        ]
+      },
+      {
+        "title": "Switch a Claude-Code-like CLI between Anthropic, Bedrock, Vertex, or Codex backends",
+        "keywords": [
+          "multi-provider"
+        ]
+      },
+      {
+        "title": "Inspect the internal architecture of a Claude Code-style CLI (tools, commands, bridge)",
+        "keywords": [
+          "reverse-engineering",
+          "source-study"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,93 @@
+{
+  "fork": {
+    "full_name": "tbalt88/n8n-skills",
+    "url": "https://github.com/tbalt88/n8n-skills",
+    "created_at": "2026-01-28T21:56:36Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-17T07:59:33Z"
+  },
+  "upstream": {
+    "full_name": "czlonkowski/n8n-skills",
+    "url": "https://github.com/czlonkowski/n8n-skills",
+    "description": "n8n skillset for Claude Code to build flawless n8n workflows",
+    "stars": 6074,
+    "forks": 1012,
+    "watchers": 67,
+    "open_issues": 8,
+    "language": "Shell",
+    "topics": [
+      "ai-agents",
+      "n8n",
+      "workflow-automation"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.n8n-skills.com",
+    "default_branch": "main",
+    "created_at": "2025-10-20T05:51:27Z",
+    "pushed_at": "2026-08-07T10:18:39Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:38Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:38Z",
+    "signals": [
+      "claude-md",
+      "claude-skill"
+    ],
+    "languages": {
+      "Shell": 28367
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:25Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "n8n-skills is a Claude Code plugin bundling 14 expert skills plus an always-on router and hook-based enforcement layer that teach Claude how to build correct n8n automation workflows using the companion n8n-mcp MCP server. It covers expression syntax, MCP tool usage, workflow patterns, validation-error interpretation, node configuration, JavaScript/Python code nodes, error handling, binary data, sub-workflows, AI agent nodes, multi-instance targeting, and end-to-end self-hosted n8n deployment (Docker Compose + Caddy). It targets developers using Claude Code/Codex to build or operate n8n workflow automations who want to avoid common MCP and node-configuration pitfalls.",
+    "keywords": [
+      "ai-agents",
+      "claude-code-skills",
+      "code-node",
+      "hooks",
+      "mcp",
+      "n8n",
+      "self-hosting",
+      "workflow-automation"
+    ],
+    "use_cases": [
+      {
+        "title": "Have Claude Code build correct n8n workflows via the n8n-mcp server",
+        "keywords": [
+          "mcp",
+          "n8n"
+        ]
+      },
+      {
+        "title": "Debug n8n validation errors and expression syntax mistakes",
+        "keywords": [
+          "expression-syntax",
+          "validation"
+        ]
+      },
+      {
+        "title": "Design an n8n AI Agent node with tools, memory, and structured output",
+        "keywords": [
+          "ai-agents",
+          "n8n"
+        ]
+      },
+      {
+        "title": "Deploy a production self-hosted n8n instance behind Caddy with HTTPS",
+        "keywords": [
+          "docker",
+          "self-hosting"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

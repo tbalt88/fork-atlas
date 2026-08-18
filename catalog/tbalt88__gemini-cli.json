@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/gemini-cli",
+    "url": "https://github.com/tbalt88/gemini-cli",
+    "created_at": "2025-11-25T07:21:27Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-18T07:40:42Z"
+  },
+  "upstream": {
+    "full_name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "stars": 106543,
+    "forks": 14440,
+    "watchers": 577,
+    "open_issues": 776,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "cli",
+      "gemini",
+      "gemini-api",
+      "mcp-client",
+      "mcp-server"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://geminicli.com",
+    "default_branch": "main",
+    "created_at": "2025-04-17T17:04:31Z",
+    "pushed_at": "2026-08-18T02:01:01Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:22Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:22Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "TypeScript": 20460137,
+      "JavaScript": 356649,
+      "Python": 221907,
+      "Shell": 31159,
+      "C#": 24798,
+      "Dockerfile": 6489,
+      "HTML": 5474,
+      "Makefile": 1336
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:40Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Gemini CLI is Google's open-source terminal AI agent, giving free-tier and API access to Gemini models with built-in file, shell, and web-fetch tools plus MCP client/server support for custom integrations. It supports non-interactive/scripted use, GitHub Actions integration for PR review and issue triage, and a large ecosystem of custom slash commands and skills (code review, docs, CI) maintained by the Gemini CLI team itself. Comparable to Claude Code or Codex CLI, it targets developers who want an agentic coding assistant in the terminal backed by Gemini 3.",
+    "keywords": [
+      "agentic-coding",
+      "ai-agent",
+      "cli",
+      "gemini",
+      "github-actions",
+      "google",
+      "mcp",
+      "terminal"
+    ],
+    "use_cases": [
+      {
+        "title": "Run an agentic coding assistant in the terminal with Gemini",
+        "keywords": [
+          "cli",
+          "coding-agent"
+        ]
+      },
+      {
+        "title": "Automate PR review and issue triage via GitHub Actions",
+        "keywords": [
+          "ci",
+          "github-actions"
+        ]
+      },
+      {
+        "title": "Connect custom MCP servers for extra tools",
+        "keywords": [
+          "extensions",
+          "mcp"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,106 @@
+{
+  "fork": {
+    "full_name": "tbalt88/everything-claude-code",
+    "url": "https://github.com/tbalt88/everything-claude-code",
+    "created_at": "2026-01-24T17:41:18Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-18T07:40:48Z"
+  },
+  "upstream": {
+    "full_name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "stars": 240724,
+    "forks": 36514,
+    "watchers": 1232,
+    "open_issues": 130,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "productivity"
+    ],
+    "license": "MIT",
+    "homepage": "https://ecc.tools",
+    "default_branch": "main",
+    "created_at": "2026-01-18T00:51:51Z",
+    "pushed_at": "2026-08-17T04:55:56Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:43Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:43Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "JavaScript": 6105259,
+      "Rust": 1895316,
+      "Python": 405674,
+      "Shell": 211054,
+      "TypeScript": 93125,
+      "Swift": 8371,
+      "CSS": 4037,
+      "PowerShell": 1547,
+      "Dockerfile": 1312
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:23Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "production",
+    "analysis": "ECC (everything-claude-code) is a large-scale agent-harness operating system for Claude Code and other coding agents (Codex, Cursor, OpenCode, Gemini, Zed, GitHub Copilot), providing 68 specialized subagents, 285 skills, 94 legacy command shims, hooks, persistent memory, continuous learning, and AgentShield security scanning across prompts/hooks/MCP config/secrets. Installed as a Claude Code plugin (`/plugin install ecc@ecc`) or via npm packages (ecc-universal, ecc-agentshield), it enforces a plan-test-implement-review-verify-remember-improve loop so agents follow a consistent engineering process instead of ad hoc prompting. Extremely popular (240k+ stars) and actively developed by a single maintainer with a paid Pro tier for private-repo hosting.",
+    "keywords": [
+      "agent-harness",
+      "claude-code",
+      "hooks",
+      "memory",
+      "plugin",
+      "productivity",
+      "security-scanning",
+      "skills",
+      "subagents"
+    ],
+    "use_cases": [
+      {
+        "title": "Equip Claude Code with a large curated library of skills and subagents",
+        "keywords": [
+          "skills",
+          "subagents"
+        ]
+      },
+      {
+        "title": "Enforce a plan-test-implement-review loop on every agent task",
+        "keywords": [
+          "process",
+          "workflow"
+        ]
+      },
+      {
+        "title": "Scan agent prompts, hooks, and MCP configs for security issues",
+        "keywords": [
+          "agentshield",
+          "security"
+        ]
+      },
+      {
+        "title": "Give a coding agent persistent memory and continuous learning across sessions",
+        "keywords": [
+          "continuous-learning",
+          "memory"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

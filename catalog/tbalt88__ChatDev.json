@@ -1,0 +1,90 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ChatDev",
+    "url": "https://github.com/tbalt88/ChatDev",
+    "created_at": "2026-02-05T17:11:52Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-29T10:47:43Z"
+  },
+  "upstream": {
+    "full_name": "OpenBMB/ChatDev",
+    "url": "https://github.com/OpenBMB/ChatDev",
+    "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+    "stars": 34013,
+    "forks": 4246,
+    "watchers": 360,
+    "open_issues": 67,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache-2.0",
+    "homepage": "https://arxiv.org/abs/2307.07924",
+    "default_branch": "main",
+    "created_at": "2023-08-28T02:18:13Z",
+    "pushed_at": "2026-07-24T08:01:27Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:27Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:27Z",
+    "signals": [
+      "claude-skill",
+      "docker",
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "Python": 1080732,
+      "Vue": 452406,
+      "JavaScript": 34568,
+      "CSS": 6084,
+      "Dockerfile": 2343,
+      "Makefile": 2112,
+      "HTML": 337
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:32Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "ChatDev 2.0 (DevAll) is a zero-code multi-agent orchestration platform where users configure agents, workflows, and tasks through a web console to automate complex work such as data visualization, 3D generation, and deep research; the legacy ChatDev 1.0 (on a separate branch) simulated a virtual software company with CEO/CTO/Programmer agents automating the full SDLC. The backend is Python/uv with a Vue 3 + Vite frontend, Docker Compose deployment, and integration hooks for coding-agent tools that can invoke or create ChatDev workflows. Backed by OpenBMB with an associated NeurIPS paper on evolving multi-agent orchestration; a large, long-running research-to-product project with over 34,000 stars.",
+    "keywords": [
+      "llm-agents",
+      "multi-agent",
+      "orchestration",
+      "python",
+      "research",
+      "vue",
+      "workflow",
+      "zero-code"
+    ],
+    "use_cases": [
+      {
+        "title": "Build a no-code multi-agent workflow for a custom task",
+        "keywords": [
+          "multi-agent",
+          "zero-code"
+        ]
+      },
+      {
+        "title": "Automate a research or content pipeline with agent teams",
+        "keywords": [
+          "agents",
+          "automation"
+        ]
+      },
+      {
+        "title": "Study multi-agent software-development collaboration patterns",
+        "keywords": [
+          "research",
+          "sdlc"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

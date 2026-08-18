@@ -1,0 +1,107 @@
+{
+  "fork": {
+    "full_name": "tbalt88/BrowserAI",
+    "url": "https://github.com/tbalt88/BrowserAI",
+    "created_at": "2026-01-24T20:26:01Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:17:30Z"
+  },
+  "upstream": {
+    "full_name": "sauravpanda/BrowserAI",
+    "url": "https://github.com/sauravpanda/BrowserAI",
+    "description": "Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser",
+    "stars": 1448,
+    "forks": 138,
+    "watchers": 8,
+    "open_issues": 24,
+    "language": "TypeScript",
+    "topics": [
+      "agents",
+      "ai",
+      "llama",
+      "llm",
+      "llm-inference",
+      "local",
+      "localllm",
+      "tts",
+      "webgpu"
+    ],
+    "license": "MIT",
+    "homepage": "https://browserai.dev",
+    "default_branch": "main",
+    "created_at": "2025-01-08T00:26:51Z",
+    "pushed_at": "2026-07-21T02:47:31Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:42Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:42Z",
+    "signals": [
+      "gh-actions",
+      "nextjs",
+      "node",
+      "typescript",
+      "vite"
+    ],
+    "languages": {
+      "TypeScript": 1439264,
+      "JavaScript": 10403,
+      "CSS": 5232,
+      "HTML": 947
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:30Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "BrowserAI is a TypeScript SDK that runs LLMs, speech recognition, TTS, and audio source separation entirely client-side in the browser using WebGPU, with pluggable MLC, Transformers.js, Flare (GGUF/WASM), and Demucs engines. It gives web developers a simple API (loadModel/generateText/transcribeAudio/textToSpeech) for private, serverless AI features that run offline after the initial model download, targeting models like Llama, DeepSeek-distill, Whisper, and Kokoro TTS. It is aimed at front-end developers and privacy-conscious teams building AI features without backend inference infrastructure.",
+    "keywords": [
+      "browser",
+      "gguf",
+      "local-llm",
+      "on-device",
+      "privacy",
+      "transformers.js",
+      "tts",
+      "typescript",
+      "webgpu",
+      "whisper"
+    ],
+    "use_cases": [
+      {
+        "title": "Run a chat LLM fully client-side in a web app with no backend",
+        "keywords": [
+          "local-llm",
+          "webgpu"
+        ]
+      },
+      {
+        "title": "Add browser-based speech-to-text transcription with Whisper",
+        "keywords": [
+          "speech-recognition",
+          "whisper"
+        ]
+      },
+      {
+        "title": "Add offline text-to-speech using Kokoro in a web app",
+        "keywords": [
+          "kokoro",
+          "tts"
+        ]
+      },
+      {
+        "title": "Separate vocals/drums/bass from an audio track in-browser",
+        "keywords": [
+          "audio-separation",
+          "demucs"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

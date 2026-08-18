@@ -1,0 +1,121 @@
+{
+  "fork": {
+    "full_name": "tbalt88/crmtwenty",
+    "url": "https://github.com/tbalt88/crmtwenty",
+    "created_at": "2026-02-10T05:15:26Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-22T08:12:02Z"
+  },
+  "upstream": {
+    "full_name": "twentyhq/twenty",
+    "url": "https://github.com/twentyhq/twenty",
+    "description": "The open alternative to Salesforce, designed for AI.",
+    "stars": 55050,
+    "forks": 8556,
+    "watchers": 216,
+    "open_issues": 175,
+    "language": "TypeScript",
+    "topics": [
+      "crm",
+      "crm-system",
+      "customer",
+      "good-first-issue",
+      "graphql",
+      "hacktoberfest",
+      "javascript",
+      "marketing",
+      "monorepo",
+      "nestjs",
+      "open-source",
+      "postgresql",
+      "react",
+      "reactjs",
+      "sales",
+      "typescript",
+      "web"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://twenty.com",
+    "default_branch": "main",
+    "created_at": "2022-12-01T13:04:40Z",
+    "pushed_at": "2026-08-18T01:38:28Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:20Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:20Z",
+    "signals": [
+      "claude-skill",
+      "docker"
+    ],
+    "languages": {
+      "TypeScript": 75909413,
+      "MDX": 16642480,
+      "JavaScript": 2520886,
+      "Python": 201946,
+      "CSS": 154871,
+      "SCSS": 120540,
+      "Shell": 38247,
+      "HCL": 19327,
+      "Dockerfile": 18054,
+      "Go Template": 7607,
+      "HTML": 3862,
+      "Makefile": 3149
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:06Z"
+  },
+  "classification": {
+    "domain": "misc",
+    "proposed_domain": "crm-business-software",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Twenty is a large, well-funded open-source CRM (an alternative to Salesforce) built as a TypeScript monorepo with a NestJS/PostgreSQL/Redis backend and a React frontend, letting technical teams define custom objects, fields, and views as code and extend the CRM with a CLI-scaffolded app system. It ships AI agents and chat features built into the CRM itself, GraphQL APIs, workflow automation, and self-hosting via Docker Compose alongside a managed cloud offering. It's aimed at businesses and developers who want a CRM they can version, extend, and self-host rather than rent from a closed SaaS vendor, and is one of the most active and heavily starred open-source CRM projects.",
+    "keywords": [
+      "crm",
+      "graphql",
+      "monorepo",
+      "nestjs",
+      "postgresql",
+      "react",
+      "sales",
+      "salesforce-alternative",
+      "self-hosted",
+      "typescript"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host an open-source Salesforce alternative for a small business or startup",
+        "keywords": [
+          "crm",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Scaffold a custom CRM app with defined objects, fields, and views as code",
+        "keywords": [
+          "customization",
+          "twenty-sdk"
+        ]
+      },
+      {
+        "title": "Give a sales team AI agents and chat built directly into their pipeline tool",
+        "keywords": [
+          "ai-agents",
+          "sales"
+        ]
+      },
+      {
+        "title": "Track deals, contacts, and companies in a version-controlled, developer-friendly CRM",
+        "keywords": [
+          "crm",
+          "developer-tools"
+        ]
+      }
+    ],
+    "confidence": 0.6,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

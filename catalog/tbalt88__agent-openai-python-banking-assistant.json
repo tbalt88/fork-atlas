@@ -1,0 +1,101 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agent-openai-python-banking-assistant",
+    "url": "https://github.com/tbalt88/agent-openai-python-banking-assistant",
+    "created_at": "2026-03-05T19:25:10Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-12T21:02:07Z"
+  },
+  "upstream": {
+    "full_name": "Azure-Samples/agent-openai-python-banking-assistant",
+    "url": "https://github.com/Azure-Samples/agent-openai-python-banking-assistant",
+    "description": "Multi-agent banking assistant with Python and Microsoft Agent Framework",
+    "stars": 40,
+    "forks": 46,
+    "watchers": 0,
+    "open_issues": 38,
+    "language": "TypeScript",
+    "topics": [
+      "ai-azd-templates",
+      "azd-templates"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-09-15T08:53:41Z",
+    "pushed_at": "2026-05-27T15:11:11Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:04Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:04Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "TypeScript": 498466,
+      "Python": 302714,
+      "Bicep": 119746,
+      "Java": 39043,
+      "CSS": 12254,
+      "Dockerfile": 7729,
+      "HTML": 1059,
+      "JavaScript": 869
+    },
+    "inputs_prepared_at": "2026-08-18T02:14:48Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "An Azure Samples reference architecture for a multi-agent banking assistant built on Python and the Microsoft Agent Framework, with a React chat widget and Java/business-API microservices. It demonstrates supervisor-based orchestration where domain agents (account, transaction, payment) hand off tasks, expose business logic to agents via MCP tools, and use Azure Document Intelligence for invoice OCR. Intended as a starting template for teams building conversational, multi-agent business assistants on Azure Container Apps with Azure OpenAI/Foundry.",
+    "keywords": [
+      "agent-framework",
+      "azd",
+      "azure",
+      "banking",
+      "chatkit",
+      "document-intelligence",
+      "mcp",
+      "multi-agent",
+      "supervisor-orchestration"
+    ],
+    "use_cases": [
+      {
+        "title": "Bootstrap a multi-agent business assistant on Azure",
+        "keywords": [
+          "azure",
+          "multi-agent"
+        ]
+      },
+      {
+        "title": "Learn supervisor/hand-off orchestration patterns with Microsoft Agent Framework",
+        "keywords": [
+          "agent-framework",
+          "orchestration"
+        ]
+      },
+      {
+        "title": "Wire existing business REST APIs to agents via MCP",
+        "keywords": [
+          "business-api",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Add OCR-driven invoice payment flows with Document Intelligence",
+        "keywords": [
+          "document-intelligence",
+          "ocr"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,98 @@
+{
+  "fork": {
+    "full_name": "tbalt88/system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/tbalt88/system-prompts-and-models-of-ai-tools",
+    "created_at": "2026-02-22T08:16:35Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-13T08:58:10Z"
+  },
+  "upstream": {
+    "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "stars": 142874,
+    "forks": 34844,
+    "watchers": 1669,
+    "open_issues": 159,
+    "language": null,
+    "topics": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "cursorai",
+      "devin",
+      "github-copilot",
+      "lovable",
+      "open-source",
+      "perplexity",
+      "replit",
+      "system-prompts",
+      "trae",
+      "trae-ai",
+      "trae-ide",
+      "v0",
+      "vscode",
+      "windsurf",
+      "windsurf-ai"
+    ],
+    "license": "GPL-3.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-03-05T16:38:29Z",
+    "pushed_at": "2026-08-11T13:01:09Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:06Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:06Z",
+    "signals": [],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T02:18:37Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "A massive, frequently-updated collection of leaked and extracted system prompts, tool definitions, and internal configs from dozens of commercial AI coding and assistant tools (Claude Code, Cursor, Devin, Windsurf, v0, Replit, Lovable, Manus, and many more). It is a pure reference archive of .txt/.json files with no code, used by prompt engineers and AI researchers to study how production AI products structure their system prompts and tool schemas. Extremely popular (142k+ stars) and actively growing with new tool prompts added regularly.",
+    "keywords": [
+      "ai-agents",
+      "claude-code",
+      "cursor",
+      "leaked-prompts",
+      "prompt-engineering",
+      "reference",
+      "system-prompts",
+      "tool-definitions"
+    ],
+    "use_cases": [
+      {
+        "title": "Study how production AI coding tools structure system prompts",
+        "keywords": [
+          "prompt-engineering",
+          "system-prompts"
+        ]
+      },
+      {
+        "title": "Compare tool-call schemas across different AI coding agents",
+        "keywords": [
+          "comparison",
+          "tool-schemas"
+        ]
+      },
+      {
+        "title": "Find inspiration for writing your own agent's system prompt",
+        "keywords": [
+          "agents",
+          "prompt-writing"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

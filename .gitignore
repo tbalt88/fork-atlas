@@ -1,0 +1,4 @@
+.classify-inputs/
+__pycache__/
+*.pyc
+.env

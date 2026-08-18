@@ -1,0 +1,88 @@
+{
+  "fork": {
+    "full_name": "tbalt88/AI-Engineering-Coach",
+    "url": "https://github.com/tbalt88/AI-Engineering-Coach",
+    "created_at": "2026-05-30T16:36:27Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:07:08Z"
+  },
+  "upstream": {
+    "full_name": "microsoft/AI-Engineering-Coach",
+    "url": "https://github.com/microsoft/AI-Engineering-Coach",
+    "description": "better agentic engineering",
+    "stars": 3606,
+    "forks": 509,
+    "watchers": 18,
+    "open_issues": 56,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-05-06T20:27:16Z",
+    "pushed_at": "2026-08-16T17:28:45Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:30Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:30Z",
+    "signals": [
+      "claude-skill",
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 2534729,
+      "CSS": 190334,
+      "HTML": 25431,
+      "JavaScript": 19349,
+      "Shell": 2175,
+      "Dockerfile": 435
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:01Z"
+  },
+  "classification": {
+    "domain": "dev-tooling",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "VS Code extension (also runnable as a GitHub Copilot app canvas) that reads local AI coding session logs and turns them into dashboards on usage patterns, anti-pattern detection, and skill discovery. It runs entirely locally with no telemetry, targeting developers who want to improve how they use Claude Code, Copilot, Cursor and similar agentic coding tools. Built with TypeScript/React and ships 45 editable detection rules plus gamified learning and achievement features.",
+    "keywords": [
+      "agentic-coding",
+      "anti-patterns",
+      "claude-code",
+      "dashboard",
+      "developer-analytics",
+      "github-copilot",
+      "productivity",
+      "vscode-extension"
+    ],
+    "use_cases": [
+      {
+        "title": "Audit your AI coding sessions for bad prompting habits",
+        "keywords": [
+          "anti-patterns",
+          "vscode"
+        ]
+      },
+      {
+        "title": "Track AI-generated code output and model usage over time",
+        "keywords": [
+          "analytics",
+          "dashboard"
+        ]
+      },
+      {
+        "title": "Discover reusable skills from repeated prompt patterns",
+        "keywords": [
+          "prompt-mining",
+          "skills"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

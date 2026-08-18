@@ -1,0 +1,96 @@
+{
+  "fork": {
+    "full_name": "tbalt88/context-ontology-accelerator",
+    "url": "https://github.com/tbalt88/context-ontology-accelerator",
+    "created_at": "2026-08-03T15:24:58Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-31T22:34:45Z"
+  },
+  "upstream": {
+    "full_name": "aws/context-ontology-accelerator",
+    "url": "https://github.com/aws/context-ontology-accelerator",
+    "description": "An open-source, ontology-based semantic context accelerator that enables AI agents to make more accurate, consistent, and explainable decisions.",
+    "stars": 498,
+    "forks": 47,
+    "watchers": 10,
+    "open_issues": 18,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache-2.0",
+    "homepage": "https://aws.github.io/context-ontology-accelerator/",
+    "default_branch": "main",
+    "created_at": "2026-07-28T22:59:24Z",
+    "pushed_at": "2026-08-17T22:16:33Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:05Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:05Z",
+    "signals": [
+      "gh-actions",
+      "make",
+      "node",
+      "typescript",
+      "vite"
+    ],
+    "languages": {
+      "Python": 8915916,
+      "TypeScript": 2721109,
+      "Smithy": 256040,
+      "Shell": 73109,
+      "JavaScript": 47427,
+      "CSS": 22056,
+      "Dockerfile": 10786,
+      "Makefile": 9599,
+      "HTML": 1250,
+      "Lua": 1133,
+      "TeX": 848
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:55Z"
+  },
+  "classification": {
+    "domain": "data-rag",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "An AWS open-source platform that builds a semantic context layer for AI agents by combining knowledge graphs, formal ontologies, and rule-based reasoning over enterprise data sources. It follows a Scan -> Model -> Serve architecture: ingesting and enriching data sources, inducing ontologies and metrics, then serving context to agents via a Virtual Knowledge Graph (SPARQL federation) and an MCP server, with namespace/role-based access control. Built as a monorepo (Python + TypeScript CDK, Smithy API contracts, React/Cloudscape UI) for engineers wanting more accurate, explainable agent decisions grounded in governed enterprise context.",
+    "keywords": [
+      "agent-context",
+      "aws",
+      "cdk",
+      "knowledge-graph",
+      "mcp",
+      "ontology",
+      "rag",
+      "semantic-layer",
+      "sparql"
+    ],
+    "use_cases": [
+      {
+        "title": "Ground AI agent decisions in a governed enterprise knowledge graph",
+        "keywords": [
+          "agent-context",
+          "knowledge-graph"
+        ]
+      },
+      {
+        "title": "Expose SPARQL-queryable ontologies to agents via MCP",
+        "keywords": [
+          "mcp",
+          "sparql"
+        ]
+      },
+      {
+        "title": "Build a role-based semantic context service on AWS CDK",
+        "keywords": [
+          "aws",
+          "cdk"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

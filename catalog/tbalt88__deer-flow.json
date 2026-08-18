@@ -1,0 +1,122 @@
+{
+  "fork": {
+    "full_name": "tbalt88/deer-flow",
+    "url": "https://github.com/tbalt88/deer-flow",
+    "created_at": "2026-05-08T05:41:08Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:06:20Z"
+  },
+  "upstream": {
+    "full_name": "bytedance/deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "stars": 80187,
+    "forks": 10987,
+    "watchers": 333,
+    "open_issues": 943,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "agentic",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "ai-agents",
+      "deep-research",
+      "harness",
+      "langchain",
+      "langgraph",
+      "langmanus",
+      "llm",
+      "multi-agent",
+      "nodejs",
+      "podcast",
+      "python",
+      "superagent",
+      "typescript"
+    ],
+    "license": "MIT",
+    "homepage": "https://deerflow.tech",
+    "default_branch": "main",
+    "created_at": "2025-05-07T02:50:19Z",
+    "pushed_at": "2026-08-17T11:55:30Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:47Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:47Z",
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "docker",
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "Python": 16105186,
+      "TypeScript": 2717115,
+      "MDX": 336973,
+      "HTML": 190924,
+      "Shell": 136724,
+      "CSS": 87225,
+      "JavaScript": 79172,
+      "Dockerfile": 15488,
+      "Makefile": 11261,
+      "Go Template": 6698,
+      "Mako": 728,
+      "Batchfile": 502
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:10Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "DeerFlow is ByteDance's open-source 'super agent harness' that orchestrates sub-agents, sandboxes, long-term memory, and extensible skills to run long-horizon research, coding, and creation tasks lasting minutes to hours. It ships a Python/LangGraph backend and TypeScript frontend, supports many LLM providers (including CLI-backed ones like Claude Code OAuth and Codex CLI), IM channel integrations (Slack, Discord, WeChat, Telegram, Feishu), MCP servers, scheduled tasks, and a terminal workbench TUI. It's aimed at developers who want a configurable, self-hosted deep-research/agent platform rather than a single-purpose tool, and is a ground-up v2 rewrite with active near-daily development.",
+    "keywords": [
+      "agent-harness",
+      "deep-research",
+      "langgraph",
+      "long-term-memory",
+      "mcp",
+      "multi-agent",
+      "sandbox",
+      "sub-agents"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a long-horizon research and coding agent harness",
+        "keywords": [
+          "agent-harness",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Wire an agent into Slack, Discord, or Telegram as a channel bot",
+        "keywords": [
+          "channels",
+          "integrations"
+        ]
+      },
+      {
+        "title": "Run sandboxed multi-agent workflows with persistent memory",
+        "keywords": [
+          "memory",
+          "sandbox"
+        ]
+      },
+      {
+        "title": "Drive DeerFlow tasks via CLI-backed models like Claude Code or Codex CLI",
+        "keywords": [
+          "cli-provider",
+          "codex"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

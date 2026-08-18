@@ -1,0 +1,120 @@
+{
+  "fork": {
+    "full_name": "tbalt88/OmniRoute",
+    "url": "https://github.com/tbalt88/OmniRoute",
+    "created_at": "2026-07-22T04:28:47Z",
+    "default_branch": "release/v3.8.49",
+    "pushed_at": "2026-08-17T19:04:40Z"
+  },
+  "upstream": {
+    "full_name": "diegosouzapw/OmniRoute",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "description": "Never stop coding. Free MIT AI gateway: one endpoint, 340 providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 450+ contributors",
+    "stars": 49869,
+    "forks": 6792,
+    "watchers": 290,
+    "open_issues": 427,
+    "language": "TypeScript",
+    "topics": [
+      "a2a",
+      "ai-agents",
+      "ai-gateway",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cline",
+      "codex",
+      "copilot",
+      "cursor",
+      "deepseek",
+      "free-ai",
+      "gemini",
+      "kimi",
+      "llm-gateway",
+      "mcp",
+      "openai",
+      "openai-proxy",
+      "qwen",
+      "token-saver"
+    ],
+    "license": "MIT",
+    "homepage": "https://omniroute.online",
+    "default_branch": "release/v3.8.50",
+    "created_at": "2026-02-13T12:38:31Z",
+    "pushed_at": "2026-08-18T02:10:02Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:12:09Z",
+    "metadata_refreshed_at": "2026-08-18T02:12:09Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 56520092,
+      "JavaScript": 3034857,
+      "Shell": 103091,
+      "Python": 58100,
+      "Dockerfile": 21951,
+      "CSS": 20443,
+      "C": 5587,
+      "PowerShell": 3110,
+      "HTML": 2084,
+      "Makefile": 1873,
+      "Nix": 889
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:33Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "OmniRoute is a free, open-source AI gateway/proxy that unifies 340+ LLM providers (90+ with free tiers) and 1200+ models behind one OpenAI-compatible endpoint, with quota-aware auto-fallback, token-compression (RTK+Caveman, claims 15-95% savings), and MCP/A2A support. It plugs into coding agents like Claude Code, Codex, Cursor, Cline, and Copilot as a drop-in model router, ships as desktop/PWA apps plus a CLI and opencode plugin/provider packages, and is aimed at developers who want to stretch free-tier LLM quotas across many tools.",
+    "keywords": [
+      "ai-proxy",
+      "claude-code",
+      "free-tier",
+      "llm-gateway",
+      "mcp",
+      "model-routing",
+      "token-compression",
+      "typescript"
+    ],
+    "use_cases": [
+      {
+        "title": "Route Claude Code, Codex, or Cursor traffic through free-tier LLM providers",
+        "keywords": [
+          "free-tier",
+          "llm-gateway"
+        ]
+      },
+      {
+        "title": "Auto-fallback between 340+ AI providers when one hits a rate limit",
+        "keywords": [
+          "auto-fallback"
+        ]
+      },
+      {
+        "title": "Compress prompts to cut token usage 15-95% across agent sessions",
+        "keywords": [
+          "token-compression"
+        ]
+      },
+      {
+        "title": "Self-host a single OpenAI-compatible endpoint for many models",
+        "keywords": [
+          "openai-proxy",
+          "self-hosted"
+        ]
+      }
+    ],
+    "confidence": 0.7,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,105 @@
+{
+  "fork": {
+    "full_name": "tbalt88/multica",
+    "url": "https://github.com/tbalt88/multica",
+    "created_at": "2026-08-16T15:19:44Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-16T08:15:15Z"
+  },
+  "upstream": {
+    "full_name": "multica-ai/multica",
+    "url": "https://github.com/multica-ai/multica",
+    "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
+    "stars": 46524,
+    "forks": 5933,
+    "watchers": 166,
+    "open_issues": 1371,
+    "language": "Go",
+    "topics": [],
+    "license": "NOASSERTION",
+    "homepage": "https://multica.ai",
+    "default_branch": "main",
+    "created_at": "2026-01-13T17:59:46Z",
+    "pushed_at": "2026-08-17T19:56:10Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:48Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:48Z",
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "docker",
+      "gh-actions",
+      "make",
+      "node"
+    ],
+    "languages": {
+      "Go": 19291957,
+      "TypeScript": 14605277,
+      "MDX": 1446593,
+      "PLpgSQL": 134801,
+      "CSS": 106123,
+      "Shell": 89331,
+      "JavaScript": 81086,
+      "PowerShell": 35108,
+      "Makefile": 13870,
+      "Dockerfile": 1507,
+      "Go Template": 1217,
+      "HTML": 377,
+      "Standard ML": 178
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:24Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Multica is a self-hostable, Kanban-style workspace where AI coding agents (Claude Code, Codex, Cursor, and 17 more CLIs) are added as teammates, assigned issues, and picked up automatically on a daemon-controlled runtime, reporting progress, raising blockers, and handing work back for human review as a PR. It has a Next.js web frontend, Go/Chi backend with PostgreSQL+pgvector, Electron desktop apps for macOS/Windows/Linux, an Expo iOS app, and integrations with GitHub/GitLab/Gitea, Slack/Lark/DingTalk/WeCom, plus 'squads' mixing agents and people and 'autopilots' for cron-scheduled agent runs. Aimed at teams or solo builders who want to run many different coding-agent CLIs against real issues with an execution log, review gates, and cost tracking.",
+    "keywords": [
+      "agent-orchestration",
+      "claude-code",
+      "codex",
+      "issue-tracker",
+      "kanban",
+      "multi-agent",
+      "runtime",
+      "self-hosted"
+    ],
+    "use_cases": [
+      {
+        "title": "Assign a GitHub issue to Claude Code or Codex as if it were a teammate",
+        "keywords": [
+          "claude-code",
+          "issue-assignment"
+        ]
+      },
+      {
+        "title": "Self-host a board that drives 20 different coding-agent CLIs",
+        "keywords": [
+          "multi-agent",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Track token cost and execution logs per agent run",
+        "keywords": [
+          "cost-tracking",
+          "observability"
+        ]
+      },
+      {
+        "title": "Run scheduled agent standups or audits via autopilots",
+        "keywords": [
+          "automation",
+          "cron"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

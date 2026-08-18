@@ -1,0 +1,103 @@
+{
+  "fork": {
+    "full_name": "tbalt88/opendocmgmnt",
+    "url": "https://github.com/tbalt88/opendocmgmnt",
+    "created_at": "2026-02-11T04:20:49Z",
+    "default_branch": "master",
+    "pushed_at": "2026-02-09T19:26:47Z"
+  },
+  "upstream": {
+    "full_name": "sismics/docs",
+    "url": "https://github.com/sismics/docs",
+    "description": "Lightweight document management system packed with all the features you can expect from big expensive solutions",
+    "stars": 2558,
+    "forks": 675,
+    "watchers": 51,
+    "open_issues": 113,
+    "language": "JavaScript",
+    "topics": [
+      "cloud",
+      "dms",
+      "docker",
+      "document",
+      "enterprise",
+      "file-sharing",
+      "java",
+      "javascript",
+      "ocr",
+      "open-source",
+      "self-hosting",
+      "sharing",
+      "workflow"
+    ],
+    "license": "GPL-2.0",
+    "homepage": "https://teedy.io",
+    "default_branch": "master",
+    "created_at": "2013-07-27T16:20:09Z",
+    "pushed_at": "2026-08-17T07:16:50Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:17Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:17Z",
+    "signals": [
+      "docker",
+      "gh-actions",
+      "java"
+    ],
+    "languages": {
+      "JavaScript": 1797985,
+      "Java": 1368074,
+      "HTML": 178130,
+      "Less": 11500,
+      "CSS": 4825,
+      "Dockerfile": 2575,
+      "Shell": 1509,
+      "FreeMarker": 1496
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:41Z"
+  },
+  "classification": {
+    "domain": "knowledge-productivity",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Teedy (formerly sismics/docs) is a lightweight, self-hostable document management system with OCR, full-text search, tagging, workflow, versioning, AES-256 encryption, 2FA, and a REST API, plus a native Android client. It targets individuals and small businesses wanting DMS features (comparable to expensive commercial solutions) without the cost, deployable via Docker/Java. Long-running (since 2013), actively maintained with a Docker image, PostgreSQL support, and a live demo.",
+    "keywords": [
+      "dms",
+      "document-management",
+      "file-sharing",
+      "java",
+      "ocr",
+      "self-hosted",
+      "workflow"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a document management system with OCR search",
+        "keywords": [
+          "ocr",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Set up team file sharing with permissions and audit logs",
+        "keywords": [
+          "audit-log",
+          "file-sharing"
+        ]
+      },
+      {
+        "title": "Replace an expensive enterprise DMS with an open-source one",
+        "keywords": [
+          "dms",
+          "open-source"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

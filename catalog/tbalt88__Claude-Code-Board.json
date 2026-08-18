@@ -1,0 +1,98 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Claude-Code-Board",
+    "url": "https://github.com/tbalt88/Claude-Code-Board",
+    "created_at": "2025-12-27T12:14:48Z",
+    "default_branch": "master",
+    "pushed_at": "2026-06-12T21:03:19Z"
+  },
+  "upstream": {
+    "full_name": "cablate/Claude-Code-Board",
+    "url": "https://github.com/cablate/Claude-Code-Board",
+    "description": "Use Claude Code on Kanban WebUI",
+    "stars": 153,
+    "forks": 24,
+    "watchers": 3,
+    "open_issues": 0,
+    "language": "TypeScript",
+    "topics": [
+      "anthropic",
+      "claude-code",
+      "claudeai",
+      "claudecode",
+      "gui",
+      "kanban",
+      "nodejs",
+      "react",
+      "ui",
+      "windows"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2025-07-23T15:21:43Z",
+    "pushed_at": "2026-01-28T15:28:49Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:13:49Z",
+    "metadata_refreshed_at": "2026-08-18T02:13:49Z",
+    "signals": [
+      "docker",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 949574,
+      "Gherkin": 32142,
+      "CSS": 19613,
+      "JavaScript": 4920,
+      "Dockerfile": 1429,
+      "Batchfile": 600,
+      "HTML": 505
+    },
+    "inputs_prepared_at": "2026-08-18T02:15:35Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "dormant",
+    "analysis": "Claude Code Board is a self-hosted Node.js/React web dashboard for managing multiple concurrent Claude Code CLI sessions, offering session creation, work-item/project organization, workflow-stage templates, agent selection from ~/.claude/agents, and real-time WebSocket chat with running sessions. It targets Windows developers who juggle several Claude Code projects at once and want a visual alternative to multiple terminal windows. The author has explicitly marked the project no longer maintained, and it ships with no encryption or real auth, warning it is for personal, local use only.",
+    "keywords": [
+      "claude-code",
+      "kanban",
+      "react",
+      "session-manager",
+      "webui",
+      "windows",
+      "workflow-stages"
+    ],
+    "use_cases": [
+      {
+        "title": "Run and monitor multiple Claude Code sessions from one web UI",
+        "keywords": [
+          "claude-code",
+          "session-manager"
+        ]
+      },
+      {
+        "title": "Organize Claude Code work by project and work item",
+        "keywords": [
+          "project-organization"
+        ]
+      },
+      {
+        "title": "Assign custom agent personas per workflow stage",
+        "keywords": [
+          "agents",
+          "workflow-stages"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

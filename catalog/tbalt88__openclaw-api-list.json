@@ -1,0 +1,78 @@
+{
+  "fork": {
+    "full_name": "tbalt88/openclaw-api-list",
+    "url": "https://github.com/tbalt88/openclaw-api-list",
+    "created_at": "2026-08-17T19:47:17Z",
+    "default_branch": "main",
+    "pushed_at": "2026-03-06T23:44:56Z"
+  },
+  "upstream": {
+    "full_name": "Kevjade/openclaw-api-list",
+    "url": "https://github.com/Kevjade/openclaw-api-list",
+    "description": "OpenClaw API Directory: 10,000+ APIs organized for OpenClaw. Maintained by The Operator Vault.",
+    "stars": 63,
+    "forks": 23,
+    "watchers": 0,
+    "open_issues": 2,
+    "language": "JavaScript",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-03-03T00:20:33Z",
+    "pushed_at": "2026-03-06T23:44:56Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:11:41Z",
+    "metadata_refreshed_at": "2026-08-18T02:11:41Z",
+    "signals": [],
+    "languages": {
+      "JavaScript": 27369
+    },
+    "inputs_prepared_at": "2026-08-18T02:17:39Z"
+  },
+  "classification": {
+    "domain": "automation-integrations",
+    "form": "reference",
+    "maturity": "dormant",
+    "analysis": "openclaw-api-list is a curated directory of over 10,000 third-party APIs organized into category folders (agents, AI, automation, developer tools, ecommerce, lead-generation, MCP servers, social media, etc.), each with its own README, purpose-built for wiring integrations into the OpenClaw agent framework. It includes scripts for fetching Apify actors and generating the README indexes, plus a promotional 'Operator Vault' membership page, suggesting it's maintained as a lead-gen/reference resource rather than an actively curated community list. Useful mainly as a browsable catalog of connector candidates for OpenClaw-based automations; it has seen no updates since shortly after creation.",
+    "keywords": [
+      "api-directory",
+      "automation",
+      "awesome-list",
+      "connectors",
+      "integrations",
+      "mcp-servers",
+      "openclaw"
+    ],
+    "use_cases": [
+      {
+        "title": "Find a third-party API to wire into an OpenClaw automation",
+        "keywords": [
+          "api-discovery",
+          "openclaw"
+        ]
+      },
+      {
+        "title": "Browse MCP server APIs organized by category",
+        "keywords": [
+          "mcp",
+          "reference"
+        ]
+      },
+      {
+        "title": "Locate lead-generation or ecommerce APIs for an integration",
+        "keywords": [
+          "ecommerce",
+          "lead-generation"
+        ]
+      }
+    ],
+    "confidence": 0.5,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

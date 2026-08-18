@@ -1,0 +1,103 @@
+{
+  "fork": {
+    "full_name": "tbalt88/PowerApps-Samples",
+    "url": "https://github.com/tbalt88/PowerApps-Samples",
+    "created_at": "2020-05-04T17:50:40Z",
+    "default_branch": "master",
+    "pushed_at": "2026-07-07T09:32:48Z"
+  },
+  "upstream": {
+    "full_name": "microsoft/PowerApps-Samples",
+    "url": "https://github.com/microsoft/PowerApps-Samples",
+    "description": "Sample code for Power Apps, including Dataverse, model-driven apps, canvas apps, Power Apps component framework, portals, and AI Builder.",
+    "stars": 1972,
+    "forks": 1822,
+    "watchers": 119,
+    "open_issues": 43,
+    "language": "C#",
+    "topics": [
+      "ai-builder",
+      "dataverse",
+      "dynamics-365",
+      "dynamics365",
+      "microsoft-dataverse",
+      "pcf-controls",
+      "power-apps",
+      "power-pages",
+      "power-platform",
+      "powerapps",
+      "powerappscomponentframework",
+      "powerplatform"
+    ],
+    "license": "MIT",
+    "homepage": "https://docs.microsoft.com/powerapps",
+    "default_branch": "master",
+    "created_at": "2018-03-26T22:41:09Z",
+    "pushed_at": "2026-08-12T17:50:42Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:29Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:29Z",
+    "signals": [
+      "claude-md",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "C#": 387398478,
+      "PowerShell": 601863,
+      "TypeScript": 365051,
+      "JavaScript": 220488,
+      "CSS": 93852,
+      "HTML": 45588,
+      "XSLT": 1316,
+      "ASP.NET": 136
+    },
+    "inputs_prepared_at": "2026-08-18T02:18:01Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "This is Microsoft's official sample-code repository for the Power Platform, covering Dataverse, model-driven apps, canvas apps, the Power Apps Component Framework (PCF), Power Pages portals, and AI Builder. It is a large, well-organized reference collection (mostly C# and TypeScript) of runnable examples that Power Platform developers copy from or learn architecture patterns against, rather than a single cohesive product. It is actively maintained by Microsoft with continuous updates and CLA-gated community contributions.",
+    "keywords": [
+      "ai-builder",
+      "dataverse",
+      "dynamics-365",
+      "microsoft",
+      "pcf-controls",
+      "power-apps",
+      "power-pages",
+      "power-platform",
+      "reference"
+    ],
+    "use_cases": [
+      {
+        "title": "Find a working PCF control sample to base a custom Power Apps component on",
+        "keywords": [
+          "pcf-controls",
+          "power-apps"
+        ]
+      },
+      {
+        "title": "Learn Dataverse API patterns from official Microsoft sample code",
+        "keywords": [
+          "dataverse",
+          "reference"
+        ]
+      },
+      {
+        "title": "Copy an AI Builder starter kit for invoice or document processing",
+        "keywords": [
+          "ai-builder"
+        ]
+      }
+    ],
+    "confidence": 0.65,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

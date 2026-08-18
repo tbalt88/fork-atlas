@@ -1,0 +1,98 @@
+{
+  "fork": {
+    "full_name": "tbalt88/crewAI",
+    "url": "https://github.com/tbalt88/crewAI",
+    "created_at": "2025-12-02T20:16:17Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-18T07:40:32Z"
+  },
+  "upstream": {
+    "full_name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+    "stars": 57218,
+    "forks": 8172,
+    "watchers": 391,
+    "open_issues": 819,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "aiagentframework",
+      "llms"
+    ],
+    "license": "MIT",
+    "homepage": "https://crewai.com",
+    "default_branch": "main",
+    "created_at": "2023-10-27T03:26:59Z",
+    "pushed_at": "2026-08-18T00:41:53Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T02:14:16Z",
+    "metadata_refreshed_at": "2026-08-18T02:14:16Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 10717143,
+      "JavaScript": 84736,
+      "CSS": 24684,
+      "Jinja": 17235,
+      "Shell": 25
+    },
+    "inputs_prepared_at": "2026-08-18T02:16:03Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "CrewAI is a widely-used, high-level Python framework for orchestrating multi-agent systems through two complementary abstractions: autonomous role-based Crews and event-driven, precisely controlled Flows. It's aimed at developers building production agentic automations, offering YAML-configured agents/tasks, a CLI scaffolder (crewai create crew), and an optional commercial control plane (AMP) for tracing, deployment, and governance. Certified by over 100,000 developers via its own courses, it's one of the most popular agent-orchestration frameworks in the Python ecosystem.",
+    "keywords": [
+      "agent-orchestration",
+      "automation",
+      "crews",
+      "flows",
+      "llm-agents",
+      "multi-agent",
+      "python",
+      "workflow"
+    ],
+    "use_cases": [
+      {
+        "title": "Orchestrate a team of role-based AI agents on a task",
+        "keywords": [
+          "crews",
+          "multi-agent"
+        ]
+      },
+      {
+        "title": "Build event-driven agentic workflows with fine-grained control",
+        "keywords": [
+          "flows",
+          "orchestration"
+        ]
+      },
+      {
+        "title": "Scaffold a new multi-agent Python project quickly",
+        "keywords": [
+          "cli",
+          "scaffolding"
+        ]
+      },
+      {
+        "title": "Add custom tools and human-in-the-loop steps to an agent crew",
+        "keywords": [
+          "human-in-the-loop",
+          "tools"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T02:24:16Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}
