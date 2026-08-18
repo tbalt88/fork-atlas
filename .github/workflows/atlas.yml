@@ -32,10 +32,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - run: pip install pyyaml
@@ -51,13 +51,16 @@ jobs:
         run: |
           git config user.name "fork-atlas[bot]"
           git config user.email "fork-atlas@users.noreply.github.com"
-          git add -A catalog matrix.json matrix.csv MATRIX.md site/matrix.json
+          # stage every generated output (keep in sync with scripts/build.py write targets)
+          git add -A catalog matrix.json matrix.csv MATRIX.md projects.json \
+                     site/matrix.json site/index.compact.json site/atlas.jsonl site/projects.json
           if git diff --cached --quiet; then echo "no changes"; else
             git commit -m "atlas: nightly discover + build ($(date -u +%F))"
-            git pull --rebase origin main
+            # --autostash: never fail on stray unstaged files; rebase onto anything pushed meanwhile
+            git pull --rebase --autostash origin main
             git push
           fi
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
@@ -69,4 +72,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
