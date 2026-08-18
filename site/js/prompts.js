@@ -89,3 +89,59 @@ export function answerUser(brief, requirements, records, projects, compact = fal
   const projs = projects.length ? '\n\nOWNER\'S PROJECT BOARD (all columns; check for "already built" before recommending forks):\n' + projects.map(p => `- ${p.name} [${p.column || p.status}] status=${p.status}${p.url ? ' · ' + p.url : ''}${p.uses?.length ? ' · uses: ' + p.uses.join(', ') : ''}${p.summary ? '\n  ' + p.summary : ''}${p.brief ? '\n  ' + p.brief.slice(0, 600) : ''}`).join('\n') : '';
   return `BRIEF:\n${brief}\n\nREQUIREMENTS (plan must have exactly these items):\n${reqs || 'a) ' + brief.slice(0, 200)}\n\nRECORDS (one JSON per line; "relation" = fork | owner):\n${recs}${projs}`;
 }
+
+// ---- second pass: validator ---------------------------------------------------
+// Runs after the answer is on screen (lazy). Same records the answer was grounded in are the
+// only truth; the model's job is to say which recommendation claims those records support.
+export const VALIDATE_SCHEMA = {
+  type: 'object',
+  properties: {
+    checks: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          id: { type: 'string' }, requirement: { type: 'string' },
+          verdict: { type: 'string', enum: ['supported', 'partial', 'unsupported'] },
+          issue: { type: 'string' }, corrected_reason: { type: 'string' }, corrected_caveats: { type: 'string' },
+          confidence: { type: 'number' },
+        },
+        required: ['id', 'requirement', 'verdict', 'issue'],
+      },
+    },
+    gaps: {
+      type: 'array',
+      items: { type: 'object', properties: { requirement: { type: 'string' }, verdict: { type: 'string', enum: ['real', 'invented'] }, issue: { type: 'string' } }, required: ['requirement', 'verdict'] },
+    },
+    summary_verdict: { type: 'string', enum: ['supported', 'unsupported'] },
+    summary_issue: { type: 'string' },
+  },
+  required: ['checks', 'gaps', 'summary_verdict'],
+};
+
+export const VALIDATE_SYSTEM = `You are the fact-checker for "Fork Atlas". You get the RECORDS (ground truth about the owner's repositories), the BRIEF with its REQUIREMENTS, and an ANSWER another model wrote from those same records.
+Check every recommendation in the ANSWER against its record, field by field:
+- "reason" and "role" must be backed by the record's analysis / use_cases / keywords / language. Claims the record does not contain are unsupported.
+- "caveats" must match the record: say "archived" only if archived is true, "dormant" only if maturity is dormant, "heavy stack" / license / language only if the record shows it. A caveat the record contradicts is an issue.
+- "confidence" above 0.9 is only justified when the analysis directly matches the requirement.
+- Records with relation "owner" are the owner's OWN repos and are never "unknown" or "third-party".
+Verdicts: "supported" (all claims backed), "partial" (mostly backed; give corrected_reason and/or corrected_caveats using ONLY record facts, and a corrected confidence), "unsupported" (the repo does not fit the requirement or the reason is not in the record; say why in issue).
+For each ANSWER gap: "real" if that requirement is one of the REQUIREMENTS and no record covers it, "invented" if the requirement was not asked or a record does cover it.
+summary_verdict: "unsupported" only if the summary states something the records or the project board contradict.
+Be terse. Return JSON only, matching the schema.`;
+
+export function validateUser(brief, requirements, records, answer, projects) {
+  const reqs = requirements.map((r, i) => `${String.fromCharCode(97 + i)}) ${r}`).join('\n');
+  const recs = records.map(r => JSON.stringify({
+    id: r.id, relation: r.relation || 'fork', stars: r.stars, language: r.language, license: r.license, domain: r.domain_label, form: r.form_label,
+    maturity: r.maturity, archived: !!r.archived, upstream_deleted: !!r.upstream_deleted, pushed_at: (r.pushed_at || '').slice(0, 10),
+    analysis: (r.analysis || r.description || '').slice(0, 420), use_cases: (r.use_cases || []).slice(0, 3).map(u => u.title), keywords: (r.keywords || []).slice(0, 8), note: r.note || undefined,
+  })).join('\n');
+  const ans = JSON.stringify({
+    summary: answer.summary,
+    plan: (answer.plan || []).map(p => ({ requirement: p.requirement, recommended: (p.recommended || []).map(r => ({ id: r.id, role: r.role, reason: r.reason, caveats: r.caveats || '', confidence: r.confidence })) })),
+    gaps: (answer.gaps || []).map(g => ({ requirement: g.requirement, why_uncovered: g.why_uncovered })),
+  });
+  const projs = projects?.length ? '\n\nOWNER\'S PROJECT BOARD:\n' + projects.map(p => `- ${p.name} [${p.column || p.status}]${p.summary ? ' — ' + p.summary.slice(0, 200) : ''}`).join('\n') : '';
+  return `BRIEF:\n${brief}\n\nREQUIREMENTS:\n${reqs || 'a) ' + brief.slice(0, 200)}\n\nRECORDS (ground truth, one JSON per line):\n${recs}${projs}\n\nANSWER TO CHECK:\n${ans}`;
+}

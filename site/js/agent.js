@@ -1,7 +1,7 @@
 // agent.js — Fork Atlas assistant: keeper panel (no LLM), lexical search, two-stage Q&A.
 import { BM25, rankForBrief, itemText, tokenize } from './retrieval.js';
 import { loadConfig, saveConfig, probeOllama, pickOllamaModels, resolveProvider, complete, DEFAULTS } from './llm.js';
-import { SHORTLIST_SCHEMA, ANSWER_SCHEMA, SHORTLIST_SYSTEM, ANSWER_SYSTEM, shortlistUser, answerUser } from './prompts.js';
+import { SHORTLIST_SCHEMA, ANSWER_SCHEMA, SHORTLIST_SYSTEM, ANSWER_SYSTEM, shortlistUser, answerUser, VALIDATE_SCHEMA, VALIDATE_SYSTEM, validateUser } from './prompts.js';
 import { parseBoard, columnKind, fetchBoardLive, fetchBoardSnapshot, boardToProjects, readCache } from './board.js';
 import { fetchPrivateRepos, toItem as privateToItem, fetchReadme, clearPrivateCache } from './private.js';
 
@@ -238,14 +238,119 @@ async function ask() {
     const activeBoard = boardProjects.filter(p => !relProjects.includes(p)).map(p => ({ ...p, brief: '' }));
     setSteps(['done', 'done', 'on']);
     $('#stream').textContent = '';
-    const answer = await complete({ provider: active.provider, cfg, slot: 'reason', system: ANSWER_SYSTEM, user: answerUser(brief, requirements, records, [...relProjects, ...activeBoard.slice(0, 12)], local), schema: ANSWER_SCHEMA, onToken, signal: abort.signal });
+    const boardCtx = [...relProjects, ...activeBoard.slice(0, 12)];
+    const answer = await complete({ provider: active.provider, cfg, slot: 'reason', system: ANSWER_SYSTEM, user: answerUser(brief, requirements, records, boardCtx, local), schema: ANSWER_SCHEMA, onToken, signal: abort.signal });
     normalizeAnswer(answer, requirements);
+    groundAnswer(answer, records, requirements);   // first pass: deterministic, instant — record facts beat model claims
     setSteps(['done', 'done', 'done']); $('#stream').hidden = true;
     renderAnswer(answer, records.map(r => r.id), requirements);
-    pushHistory({ brief, at: new Date().toISOString(), provider: `${active.provider}/${cfg[active.provider].reasonModel}`, answer, context: records.map(r => r.id), requirements });
+    const hist = { brief, at: new Date().toISOString(), provider: `${active.provider}/${cfg[active.provider].reasonModel}`, answer, context: records.map(r => r.id), requirements };
+    pushHistory(hist);
+    // second pass: a separate validator run, lazy — the answer is already on screen; verdicts patch it in place
+    validateAnswer({ brief, requirements, records, answer, projects: boardCtx, signal: abort.signal }).then(v => { if (v) { hist.answer = answer; pushHistory(hist); } });
   } catch (e) {
-    if (e.name !== 'AbortError') { $('#out').innerHTML = `<div class="err">${esc(e.message)}</div>` + $('#out').innerHTML; lexicalOnly(); }
+    if (e.name !== 'AbortError') { const errBox = `<div class="err">${esc(e.message)}</div>`; lexicalOnly(); $('#out').insertAdjacentHTML('afterbegin', errBox); }
   } finally { $('#ask').disabled = false; }
+}
+
+// ---------------------------------------------------------------- grounding (pass 1, deterministic)
+// The records the model saw are the only truth. Anything the answer says that a record contradicts is
+// removed here, instantly, before render; what was changed is written into answer.grounding for display.
+function groundAnswer(a, records, requirements) {
+  const recById = new Map(records.map(r => [r.id, r]));
+  const notes = [];
+  for (const p of a.plan || []) {
+    p.recommended = (p.recommended || []).filter(r => {
+      r.id = resolveId(r.id);
+      if (!recById.has(r.id)) { notes.push(`dropped ${r.id}: not among the records the answer was grounded in`); return false; }
+      const it = recById.get(r.id);
+      r.confidence = Math.max(0, Math.min(1, Number(r.confidence) || 0));
+      if (r.caveats) {
+        const kept = String(r.caveats).split(/[;,]\s*|\s+and\s+/i).map(s => s.trim()).filter(Boolean).filter(seg => {
+          const s = seg.toLowerCase();
+          if (/archiv/.test(s) && !it.archived) { notes.push(`${r.id}: caveat "${seg}" removed — record says archived: false`); return false; }
+          if (/dormant|abandon|inactive|unmaintained|stale/.test(s) && it.maturity !== 'dormant') { notes.push(`${r.id}: caveat "${seg}" removed — record maturity is ${it.maturity || 'unknown'}${it.pushed_at ? ', pushed ' + it.pushed_at.slice(0, 10) : ''}`); return false; }
+          if (/deleted|gone|missing upstream/.test(s) && !it.upstream_deleted) { notes.push(`${r.id}: caveat "${seg}" removed — upstream is not deleted`); return false; }
+          if (/^none$|^n\/a$|^no caveats?$/.test(s)) return false;
+          return true;
+        });
+        r.caveats = kept.join(', ');
+      }
+      if ((it.relation === 'owner') && /third[- ]party|external|unknown (author|origin)/i.test(r.reason + ' ' + (r.caveats || ''))) notes.push(`${r.id}: is the owner's own repo (relation: owner)`);
+      return true;
+    });
+  }
+  // gaps must be about requirements the owner actually stated; anything else is model-raised
+  // one shared word ("context") is not the same requirement: need ≥2 shared content tokens or half the gap's tokens
+  const sameReq = (rq, g) => { const A = new Set((rq.toLowerCase().match(/[a-z0-9]{4,}/g) || [])); const B = [...new Set(g.toLowerCase().match(/[a-z0-9]{4,}/g) || [])]; const n = B.filter(t => A.has(t)).length; return n >= 2 || (B.length > 0 && n / B.length >= 0.5); };
+  a.gaps = (a.gaps || []).map(g => {
+    const asked = requirements.some(rq => sameReq(rq, g.requirement || '')) || (a.plan || []).some(p => sameReq(p.requirement || '', g.requirement || ''));
+    if (!asked) { g.model_added = true; notes.push(`gap "${g.requirement}" was not in your brief — shown as model-raised`); }
+    return g;
+  });
+  a.grounding = notes;
+  return a;
+}
+
+// ---------------------------------------------------------------- validator (pass 2, lazy, in-model)
+// A second, independent model call over the SAME records + the rendered answer. Non-blocking: the user is
+// already reading; verdicts patch the DOM as badges/corrections. Aborted by the next ask.
+async function validateAnswer({ brief, requirements, records, answer, projects, signal }) {
+  const box = $('#validator'); if (!box) return null;
+  const model = cfg[active.provider]?.reasonModel;
+  box.textContent = `verifying with ${active.provider}/${model}…`; box.className = 'muted vstatus';
+  let v;
+  try {
+    v = await complete({ provider: active.provider, cfg, slot: 'reason', system: VALIDATE_SYSTEM, user: validateUser(brief, requirements, records, answer, projects), schema: VALIDATE_SCHEMA, signal });
+  } catch (e) {
+    if (e.name === 'AbortError' || signal.aborted) return null;
+    box.textContent = `validator did not run: ${e.message}`; return null;
+  }
+  if (signal.aborted) return null;
+  const counts = { supported: 0, partial: 0, unsupported: 0 };
+  const recEls = [...document.querySelectorAll('#out .rec[data-id]')];
+  const judged = new Set();   // one verdict per rendered recommendation — a check the model invents for a (repo, requirement) pair the answer never made is dropped
+  const findRec = (id, req) => {
+    const rid = resolveId(id);
+    const exact = recEls.find(el => el.dataset.id === rid && req && tokenOverlap(req, el.dataset.req || '') && !judged.has(el));
+    if (exact) return exact;
+    // requirement text names a different plan item than any this repo was recommended for → the model checked a pairing the answer never made
+    if (req && recEls.some(el => el.dataset.id !== rid && tokenOverlap(req, el.dataset.req || ''))) return null;
+    return recEls.find(el => el.dataset.id === rid && !judged.has(el)) || null;   // mangled/absent requirement text: fall back to the repo, once
+  };
+  for (const c of v.checks || []) {
+    const el = findRec(c.id, c.requirement); if (!el) continue;
+    judged.add(el);
+    const verdict = ['supported', 'partial', 'unsupported'].includes(c.verdict) ? c.verdict : 'partial';
+    counts[verdict]++;
+    el.classList.add('v-' + verdict);
+    const rec = findRecInAnswer(answer, el.dataset.id, el.dataset.req);
+    if (verdict === 'partial') {
+      if (c.corrected_reason && rec) { const p = el.querySelector('p.why'); if (p) p.innerHTML = `<b>Why:</b> ${esc(c.corrected_reason)} <s class="muted">${esc(rec.reason)}</s>`; rec.reason = c.corrected_reason; }
+      if (c.corrected_caveats != null && rec) { let p = el.querySelector('p.cav'); if (!p) { p = document.createElement('p'); p.className = 'cav'; el.appendChild(p); } p.innerHTML = c.corrected_caveats ? `<b>Caveats:</b> ${esc(c.corrected_caveats)}` : ''; rec.caveats = c.corrected_caveats; }
+      if (typeof c.confidence === 'number' && rec) { rec.confidence = Math.max(0, Math.min(1, c.confidence)); const cf = el.querySelector('.conf'); if (cf) cf.textContent = `fit ${Math.round(rec.confidence * 100)}%`; }
+    }
+    if (rec) rec.validation = { verdict, issue: c.issue || '' };
+    el.querySelector('.t')?.insertAdjacentHTML('beforeend', `<span class="vbadge ${verdict}" title="${esc(c.issue || '')}">${verdict === 'supported' ? 'verified' : verdict === 'partial' ? 'corrected' : 'unsupported'}</span>`);
+    if (verdict !== 'supported' && c.issue) el.insertAdjacentHTML('beforeend', `<p class="vnote">Validator: ${esc(c.issue)}</p>`);
+  }
+  for (const g of v.gaps || []) {
+    if (g.verdict !== 'invented') continue;
+    const el = [...document.querySelectorAll('#out .gap[data-req]')].find(e => tokenOverlap(g.requirement || '', e.dataset.req || ''));
+    if (el) { el.classList.add('v-unsupported'); el.insertAdjacentHTML('beforeend', `<div class="vnote">Validator: invented gap${g.issue ? ' — ' + esc(g.issue) : ''}</div>`); }
+    const ag = (answer.gaps || []).find(x => tokenOverlap(g.requirement || '', x.requirement || '')); if (ag) ag.validation = { verdict: 'invented', issue: g.issue || '' };
+  }
+  if (v.summary_verdict === 'unsupported' && v.summary_issue) { document.querySelector('#out .answer > p:first-child')?.insertAdjacentHTML('afterend', `<p class="vnote">Validator on summary: ${esc(v.summary_issue)}</p>`); }
+  answer.validation = { model: `${active.provider}/${model}`, at: new Date().toISOString(), counts, summary_verdict: v.summary_verdict, summary_issue: v.summary_issue || '' };
+  box.className = 'muted vstatus done';
+  box.textContent = `validated by ${model}: ${counts.supported} verified · ${counts.partial} corrected · ${counts.unsupported} unsupported`;
+  return v;
+}
+
+function findRecInAnswer(a, id, req) {
+  for (const p of a.plan || []) for (const r of p.recommended || []) if (r.id === id && (!req || tokenOverlap(req, p.requirement || ''))) return r;
+  for (const p of a.plan || []) for (const r of p.recommended || []) if (r.id === id) return r;
+  return null;
 }
 
 function tokenOverlap(a, b) { const A = new Set(a.toLowerCase().match(/[a-z0-9]{4,}/g) || []); return (b.toLowerCase().match(/[a-z0-9]{4,}/g) || []).some(t => A.has(t)); }
@@ -298,17 +403,22 @@ function renderAnswer(a, contextIds, requirements) {
   (a.plan || []).forEach(p => (p.recommended || []).forEach(r => { r.id = resolveId(r.id); }));
   const link = id => { const it = byId.get(id); return it ? `<a href="index.html#${encodeURIComponent(JSON.stringify({ q: it.name }))}"><b>${esc(it.upstream || id)}</b></a>` : `<b>${esc(id)}</b>`; };
   const meta = id => { const it = byId.get(id); return it ? `<span class="tag dom">${esc(it.domain_label)}</span> <span class="tag">${esc(it.form_label)}</span> ${it.maturity ? `<span class="tag ${it.maturity === 'dormant' ? 'warn' : ''}">${esc(it.maturity)}</span>` : ''} <span class="muted">★ ${it.stars || 0}${it.language ? ' · ' + esc(it.language) : ''}</span> <a class="muted" href="${esc(it.upstream_url || it.fork_url)}" target="_blank" rel="noopener">↗</a>` : ''; };
+  const vb = r => r.validation ? `<span class="vbadge ${esc(r.validation.verdict)}" title="${esc(r.validation.issue || '')}">${r.validation.verdict === 'supported' ? 'verified' : r.validation.verdict === 'partial' ? 'corrected' : 'unsupported'}</span>` : '';
   const plan = (a.plan || []).map(p => `<div class="req"><h3>${esc(p.requirement)}</h3>
-      ${(p.recommended || []).map(r => `<div class="rec"><div class="t">${link(r.id)} ${meta(r.id)}<span class="conf">fit ${Math.round((r.confidence || 0) * 100)}%</span></div>
-        <p><b>Role:</b> ${esc(r.role)}</p><p><b>Why:</b> ${esc(r.reason)}</p>${r.caveats ? `<p class="cav"><b>Caveats:</b> ${esc(r.caveats)}</p>` : ''}</div>`).join('') || '<p class="muted">no direct fit</p>'}
+      ${(p.recommended || []).map(r => `<div class="rec${r.validation ? ' v-' + esc(r.validation.verdict) : ''}" data-id="${esc(r.id)}" data-req="${esc(p.requirement)}"><div class="t">${link(r.id)} ${meta(r.id)}<span class="conf">fit ${Math.round((r.confidence || 0) * 100)}%</span>${vb(r)}</div>
+        <p><b>Role:</b> ${esc(r.role)}</p><p class="why"><b>Why:</b> ${esc(r.reason)}</p>${r.caveats ? `<p class="cav"><b>Caveats:</b> ${esc(r.caveats)}</p>` : ''}${r.validation && r.validation.verdict !== 'supported' && r.validation.issue ? `<p class="vnote">Validator: ${esc(r.validation.issue)}</p>` : ''}</div>`).join('') || '<p class="muted">no direct fit</p>'}
       ${p.alternatives?.length ? `<p class="muted">Alternatives: ${p.alternatives.map(esc).join(', ')}</p>` : ''}</div>`).join('');
-  const gaps = (a.gaps || []).map(g => `<div class="gap"><b>${esc(g.requirement)}</b> — ${esc(g.why_uncovered)}<br><a href="https://github.com/search?q=${encodeURIComponent(g.github_search)}&type=repositories" target="_blank" rel="noopener">Search GitHub: ${esc(g.github_search)}</a></div>`).join('');
+  const gaps = (a.gaps || []).map(g => `<div class="gap${g.model_added ? ' model-added' : ''}${g.validation ? ' v-unsupported' : ''}" data-req="${esc(g.requirement)}">${g.model_added ? '<span class="vbadge partial">model-raised, not in your brief</span> ' : ''}<b>${esc(g.requirement)}</b> — ${esc(g.why_uncovered)}<br><a href="https://github.com/search?q=${encodeURIComponent(g.github_search)}&type=repositories" target="_blank" rel="noopener">Search GitHub: ${esc(g.github_search)}</a>${g.validation ? `<div class="vnote">Validator: invented gap${g.validation.issue ? ' — ' + esc(g.validation.issue) : ''}</div>` : ''}</div>`).join('');
+  const vs = a.validation ? `validated by ${esc(a.validation.model.split('/').slice(1).join('/'))}: ${a.validation.counts.supported} verified · ${a.validation.counts.partial} corrected · ${a.validation.counts.unsupported} unsupported` : '';
   $('#out').innerHTML = `<div class="answer">
     <p>${esc(a.summary)}</p>
+    ${a.validation?.summary_verdict === 'unsupported' && a.validation.summary_issue ? `<p class="vnote">Validator on summary: ${esc(a.validation.summary_issue)}</p>` : ''}
+    <div id="validator" class="muted vstatus${a.validation ? ' done' : ''}">${vs}</div>
     ${plan}
     ${gaps ? `<h3>Gaps — nothing forked covers this</h3>${gaps}` : ''}
     ${a.architecture_note ? `<h3>How it fits together</h3><p>${esc(a.architecture_note)}</p>` : ''}
     ${a.next_actions?.length ? `<h3>Next actions</h3><ol>${a.next_actions.map(s => `<li>${esc(s)}</li>`).join('')}</ol>` : ''}
+    ${a.grounding?.length ? `<details class="grounding"><summary class="muted">Grounding: ${a.grounding.length} correction${a.grounding.length > 1 ? 's' : ''} applied from record facts</summary><ul class="muted">${a.grounding.map(n => `<li>${esc(n)}</li>`).join('')}</ul></details>` : ''}
     <p class="muted" style="margin-top:14px">Context: ${contextIds.length} records — ${contextIds.map(id => esc(id.split('/')[1] || id)).join(', ')} · provider ${esc(active.provider || 'n/a')}</p>
     <div class="row"><button class="ghost" id="copyBrief">Copy as project brief (markdown)</button><button class="ghost" id="copyJson">Copy answer JSON</button></div>
   </div>`;

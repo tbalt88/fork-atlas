@@ -118,6 +118,13 @@ export function splitRequirements(brief) {
     parts.push(...line.split(/;|\band\b(?=[^,]*,)|,\s(?=\w+\s\w+)/i).map(s => s.trim()));
   }
   parts = parts.map(p => p.replace(/^(and|then|also)\s+/i, '').trim()).filter(p => tokenize(p).length >= 1);
+  // Questions and meta-asks ("which direction should I take", "what do you think?") are intent, not
+  // deliverables — the plan must not grow an item for them. Kept only when the brief is nothing else.
+  // a trailing question sentence glued to a real requirement ("RAG over my notes. Which direction should I take?") is cut off, not fatal
+  parts = parts.map(p => p.replace(/[.!]\s+[^.!?]*\?\s*$/, '').trim()).filter(Boolean);
+  const isMeta = p => /\?\s*$/.test(p) || /^(which|what|how|should|could|would|can|do|does|is|are|where|why|any|please)\b/i.test(p) && /\b(i|we|you|me|my|us|direction|think|recommend|suggest|best|approach|option|way)\b/i.test(p);
+  const concrete = parts.filter(p => !isMeta(p));
+  if (concrete.length) parts = concrete;
   // de-dupe, cap
   const seen = new Set(); const out = [];
   for (const p of parts) { const k = p.toLowerCase(); if (!seen.has(k)) { seen.add(k); out.push(p); } }
