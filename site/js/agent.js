@@ -51,14 +51,16 @@ function renderKeeper() {
   const risky = items.filter(i => usedIds.has(i.id) && (i.archived || i.upstream_deleted || i.maturity === 'dormant'));
   const dormantAll = items.filter(i => i.archived || i.upstream_deleted).length;
   const el = $('#keeper');
+  const tile = (n, label, cls = '') => `<div class="tile ${cls}"><b>${n}</b><span>${label}</span></div>`;
   el.innerHTML = `<h2>Keeper</h2>
-    <div class="stat"><span>Forks tracked</span><b>${items.length}</b></div>
-    <div class="stat"><span>Classified</span><b>${matrix.counts.classified}</b></div>
-    <div class="stat"><span>Unclassified (need one-shot LLM)</span><b style="${unclassified.length ? 'color:var(--warn)' : ''}">${unclassified.length}</b></div>
-    <div class="stat"><span>Needs review</span><b style="${review.length ? 'color:var(--warn)' : ''}">${review.length}</b></div>
-    <div class="stat"><span>Forked last 7 days</span><b>${recent.length}</b></div>
-    <div class="stat"><span>Archived / upstream gone</span><b>${dormantAll}</b></div>
-    <div class="stat"><span>Catalog updated</span><b>${fmtDate(matrix.generated_at)}</b></div>
+    <div class="tiles">
+      ${tile(items.length, 'forks tracked')}
+      ${tile(recent.length, 'forked last 7 days', recent.length ? 'ok' : '')}
+      ${tile(unclassified.length, 'unclassified', unclassified.length ? 'warn' : '')}
+      ${tile(review.length, 'need review', review.length ? 'warn' : '')}
+      ${tile(dormantAll, 'archived / gone')}
+      ${tile(`<span style="font-size:15px;line-height:1.5">${fmtDate(matrix.generated_at)}</span>`, 'catalog updated')}
+    </div>
     ${since.length ? `<h2 style="margin-top:12px">New since your last visit${last ? ' (' + fmtDate(last) + ')' : ''}</h2><ul class="plain">${since.slice(0, 8).map(i => `<li><a href="index.html#${encodeURIComponent(JSON.stringify({ q: i.name }))}">${esc(i.upstream || i.name)}</a> <span class="muted">${esc(i.domain_label)}</span></li>`).join('')}${since.length > 8 ? `<li class="muted">+${since.length - 8} more</li>` : ''}</ul>` : ''}
     ${unclassified.length ? `<p class="muted" style="margin:10px 0 0">Run <code>python scripts/classify.py</code> (or ask Claude Code) to classify new forks.</p>` : ''}
     ${risky.length ? `<h2 style="margin-top:12px">Watch — used/pinned repos at risk</h2><ul class="plain">${risky.map(i => `<li>${esc(i.upstream)} <span class="tag warn">${i.archived ? 'archived' : i.upstream_deleted ? 'upstream gone' : 'dormant'}</span></li>`).join('')}</ul>` : ''}`;
@@ -145,7 +147,17 @@ async function ask() {
 function tokenOverlap(a, b) { const A = new Set(a.toLowerCase().match(/[a-z0-9]{4,}/g) || []); return (b.toLowerCase().match(/[a-z0-9]{4,}/g) || []).some(t => A.has(t)); }
 
 // ---------------------------------------------------------------- render answer
+// Small models sometimes drop the owner prefix or cite the upstream name — resolve leniently.
+function resolveId(id) {
+  if (!id) return null;
+  if (byId.has(id)) return id;
+  const s = String(id).toLowerCase();
+  const hit = items.find(i => i.name.toLowerCase() === s || (i.upstream || '').toLowerCase() === s || i.id.toLowerCase().endsWith('/' + s));
+  return hit ? hit.id : id;
+}
+
 function renderAnswer(a, contextIds, requirements) {
+  (a.plan || []).forEach(p => (p.recommended || []).forEach(r => { r.id = resolveId(r.id); }));
   const link = id => { const it = byId.get(id); return it ? `<a href="index.html#${encodeURIComponent(JSON.stringify({ q: it.name }))}"><b>${esc(it.upstream || id)}</b></a>` : `<b>${esc(id)}</b>`; };
   const meta = id => { const it = byId.get(id); return it ? `<span class="tag dom">${esc(it.domain_label)}</span> <span class="tag">${esc(it.form_label)}</span> ${it.maturity ? `<span class="tag ${it.maturity === 'dormant' ? 'warn' : ''}">${esc(it.maturity)}</span>` : ''} <span class="muted">★ ${it.stars || 0}${it.language ? ' · ' + esc(it.language) : ''}</span> <a class="muted" href="${esc(it.upstream_url || it.fork_url)}" target="_blank" rel="noopener">↗</a>` : ''; };
   const plan = (a.plan || []).map(p => `<div class="req"><h3>${esc(p.requirement)}</h3>
