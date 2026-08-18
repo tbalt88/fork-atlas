@@ -15,7 +15,8 @@ on:
       - "overrides/**"
       - "taxonomy.yaml"
       - "scripts/**"
-      - "site/index.html"
+      - "site/**"
+      - "projects/**"
       - ".github/workflows/atlas.yml"
 
 permissions:
