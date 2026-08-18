@@ -42,9 +42,74 @@
   "meta": {
     "discovered_at": "2026-08-18T14:00:23Z",
     "metadata_refreshed_at": "2026-08-18T14:00:23Z",
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "gh-actions"
+    ],
+    "languages": {
+      "Shell": 34975,
+      "Python": 7947
+    },
+    "inputs_prepared_at": "2026-08-18T14:28:55Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "production",
+    "analysis": "Council of High Intelligence is a multi-agent deliberation protocol distributed as a Claude Code plugin/skill (with mirrors for Codex, Gemini CLI, and OpenCode) that assigns a hard decision to 18 distinct analytical personas (Aristotle, Feynman, Taleb, etc.), forces independent analysis and cross-examination, then returns a verdict with dissent, kill criteria, and a concrete next step. It auto-detects available LLM providers (native host, OpenAI, Gemini, Ollama, NVIDIA NIM, Cursor) and routes council seats across them so a single model doesn't argue both sides. Aimed at solo builders/architects who want structured second opinions on high-stakes, irreversible decisions rather than a quick chat answer. Ships with a shell/Python installer, lint and release CI, and a documented protocol contract in SKILL.md.",
+    "keywords": [
+      "claude-code-plugin",
+      "codex",
+      "decision-making",
+      "deliberation",
+      "gemini-cli",
+      "llm-routing",
+      "multi-agent",
+      "opencode",
+      "prompt-engineering",
+      "structured-debate"
+    ],
+    "use_cases": [
+      {
+        "title": "Get a structured second opinion before an irreversible architecture or strategy call",
+        "keywords": [
+          "architecture",
+          "decision-making"
+        ]
+      },
+      {
+        "title": "Run an adversarial debate across multiple LLM providers to pressure-test a plan",
+        "keywords": [
+          "debate",
+          "multi-llm"
+        ]
+      },
+      {
+        "title": "Install as a slash-command plugin for on-demand /council reviews in Claude Code",
+        "keywords": [
+          "claude-code",
+          "plugin"
+        ]
+      },
+      {
+        "title": "Route deliberation seats across Codex, Gemini, and Ollama to avoid single-model bias",
+        "keywords": [
+          "llm-routing",
+          "multi-provider"
+        ]
+      },
+      {
+        "title": "Run a quick duo debate to settle a single high-tension tradeoff",
+        "keywords": [
+          "duo-mode",
+          "tradeoff"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T14:30:39Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
 }

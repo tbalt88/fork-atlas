@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T14:02:49Z",
+ "generated_at": "2026-08-18T14:30:40Z",
  "taxonomy": {
   "domains": [
    {
@@ -146,8 +146,8 @@
  },
  "counts": {
   "total": 207,
-  "classified": 205,
-  "unclassified": 2,
+  "classified": 207,
+  "unclassified": 0,
   "needs_review": 0
  },
  "keywords": {
@@ -330,6 +330,31 @@
    "tbalt88/AI-Tutorial-Codes-Included",
    "tbalt88/awesome-llm-apps"
   ],
+  "multi-agent": [
+   "tbalt88/council-of-high-intelligence",
+   "tbalt88/multica",
+   "tbalt88/AionUi",
+   "tbalt88/agentswarms",
+   "tbalt88/ruflo",
+   "tbalt88/agentic-ai-starters",
+   "tbalt88/deer-flow",
+   "tbalt88/Vibe-Trading",
+   "tbalt88/agent-openai-python-banking-assistant",
+   "tbalt88/python-agentframework-demos",
+   "tbalt88/Auto-Claude",
+   "tbalt88/aithing",
+   "tbalt88/ChatDev",
+   "tbalt88/QuantAgent",
+   "tbalt88/Multi-AI-Agent-Systems-with-crewAI",
+   "tbalt88/nof1.ai-alpha-arena",
+   "tbalt88/openagi",
+   "tbalt88/all-agentic-architectures",
+   "tbalt88/crewAI",
+   "tbalt88/cooragent",
+   "tbalt88/AI-Tutorial-Codes-Included",
+   "tbalt88/autogen",
+   "tbalt88/awesome-llm-apps"
+  ],
   "python": [
    "tbalt88/Resource2Skill",
    "tbalt88/uniface",
@@ -352,30 +377,6 @@
    "tbalt88/crewAI",
    "tbalt88/cooragent",
    "tbalt88/llama_index",
-   "tbalt88/autogen",
-   "tbalt88/awesome-llm-apps"
-  ],
-  "multi-agent": [
-   "tbalt88/multica",
-   "tbalt88/AionUi",
-   "tbalt88/agentswarms",
-   "tbalt88/ruflo",
-   "tbalt88/agentic-ai-starters",
-   "tbalt88/deer-flow",
-   "tbalt88/Vibe-Trading",
-   "tbalt88/agent-openai-python-banking-assistant",
-   "tbalt88/python-agentframework-demos",
-   "tbalt88/Auto-Claude",
-   "tbalt88/aithing",
-   "tbalt88/ChatDev",
-   "tbalt88/QuantAgent",
-   "tbalt88/Multi-AI-Agent-Systems-with-crewAI",
-   "tbalt88/nof1.ai-alpha-arena",
-   "tbalt88/openagi",
-   "tbalt88/all-agentic-architectures",
-   "tbalt88/crewAI",
-   "tbalt88/cooragent",
-   "tbalt88/AI-Tutorial-Codes-Included",
    "tbalt88/autogen",
    "tbalt88/awesome-llm-apps"
   ],
@@ -424,6 +425,19 @@
    "tbalt88/all-agentic-architectures",
    "tbalt88/mcpservers"
   ],
+  "codex": [
+   "tbalt88/council-of-high-intelligence",
+   "tbalt88/multica",
+   "tbalt88/orca",
+   "tbalt88/scroll-world",
+   "tbalt88/awesome-cli-coding-agents",
+   "tbalt88/agentmemory",
+   "tbalt88/agent-skills",
+   "tbalt88/antigravity-awesome-skills",
+   "tbalt88/agentic_coding_flywheel_setup",
+   "tbalt88/quint-code",
+   "tbalt88/agentfs-claude"
+  ],
   "typescript": [
    "tbalt88/open-seo",
    "tbalt88/OmniRoute",
@@ -450,18 +464,6 @@
    "tbalt88/awesome-copilot",
    "tbalt88/anthro-skills"
   ],
-  "codex": [
-   "tbalt88/multica",
-   "tbalt88/orca",
-   "tbalt88/scroll-world",
-   "tbalt88/awesome-cli-coding-agents",
-   "tbalt88/agentmemory",
-   "tbalt88/agent-skills",
-   "tbalt88/antigravity-awesome-skills",
-   "tbalt88/agentic_coding_flywheel_setup",
-   "tbalt88/quint-code",
-   "tbalt88/agentfs-claude"
-  ],
   "docker": [
    "tbalt88/OpenSandbox",
    "tbalt88/ArcReel",
@@ -485,6 +487,17 @@
    "tbalt88/antigravity-awesome-skills",
    "tbalt88/everything-claude-code",
    "tbalt88/anthro-skills"
+  ],
+  "prompt-engineering": [
+   "tbalt88/council-of-high-intelligence",
+   "tbalt88/ponytail",
+   "tbalt88/headroom",
+   "tbalt88/agents-from-scratch",
+   "tbalt88/agentic-ai-starters",
+   "tbalt88/system-prompts-and-models-of-ai-tools",
+   "tbalt88/claude-code-best-practice",
+   "tbalt88/awesome-copilot",
+   "tbalt88/promptfx"
   ],
   "awesome-list": [
    "tbalt88/openclaw-api-list",
@@ -538,16 +551,6 @@
    "tbalt88/airgapped-offfline-rag",
    "tbalt88/cooragent",
    "tbalt88/bRAG-langchain"
-  ],
-  "prompt-engineering": [
-   "tbalt88/ponytail",
-   "tbalt88/headroom",
-   "tbalt88/agents-from-scratch",
-   "tbalt88/agentic-ai-starters",
-   "tbalt88/system-prompts-and-models-of-ai-tools",
-   "tbalt88/claude-code-best-practice",
-   "tbalt88/awesome-copilot",
-   "tbalt88/promptfx"
   ],
   "agent-skills": [
    "tbalt88/skills",
@@ -781,6 +784,12 @@
    "tbalt88/agents-course",
    "tbalt88/free-programming-books"
   ],
+  "llm-agent": [
+   "tbalt88/DorkAgent",
+   "tbalt88/HEAVEN-Autonomous-Penetration-Testing",
+   "tbalt88/kong",
+   "tbalt88/QuantAgent"
+  ],
   "slash-commands": [
    "tbalt88/skills",
    "tbalt88/claude-howto",
@@ -967,6 +976,31 @@
    "tbalt88/D365WebApi",
    "tbalt88/Xrm.Tools.CRMWebAPI"
   ],
+  "crewai": [
+   "tbalt88/DorkAgent",
+   "tbalt88/Multi-AI-Agent-Systems-with-crewAI",
+   "tbalt88/awesome-llm-apps"
+  ],
+  "osint": [
+   "tbalt88/DorkAgent",
+   "tbalt88/Shadowbroker",
+   "tbalt88/worldmonitor"
+  ],
+  "pentesting": [
+   "tbalt88/DorkAgent",
+   "tbalt88/reverse-skill",
+   "tbalt88/Awesome-AI-Hacking-Agents"
+  ],
+  "claude-code-plugin": [
+   "tbalt88/council-of-high-intelligence",
+   "tbalt88/power-platform-skills",
+   "tbalt88/ponytail"
+  ],
+  "gemini-cli": [
+   "tbalt88/council-of-high-intelligence",
+   "tbalt88/agency-agents",
+   "tbalt88/antigravity-awesome-skills"
+  ],
   "openclaw": [
    "tbalt88/openclaw-api-list",
    "tbalt88/hivemind",
@@ -976,11 +1010,6 @@
    "tbalt88/skills",
    "tbalt88/superpowers",
    "tbalt88/agent-skills"
-  ],
-  "llm-agent": [
-   "tbalt88/HEAVEN-Autonomous-Penetration-Testing",
-   "tbalt88/kong",
-   "tbalt88/QuantAgent"
   ],
   "mitre-attack": [
    "tbalt88/HEAVEN-Autonomous-Penetration-Testing",
@@ -1257,6 +1286,14 @@
    "tbalt88/D365WebApi",
    "tbalt88/Xrm.Tools.CRMWebAPI"
   ],
+  "bug-bounty": [
+   "tbalt88/DorkAgent",
+   "tbalt88/Pentest-Swarm-AI"
+  ],
+  "recon": [
+   "tbalt88/DorkAgent",
+   "tbalt88/Shadowbroker"
+  ],
   "api-directory": [
    "tbalt88/openclaw-api-list",
    "tbalt88/API-mega-list"
@@ -1385,10 +1422,6 @@
    "tbalt88/context-ontology-accelerator",
    "tbalt88/Understand-Anything"
   ],
-  "claude-code-plugin": [
-   "tbalt88/power-platform-skills",
-   "tbalt88/ponytail"
-  ],
   "power-apps": [
    "tbalt88/power-platform-skills",
    "tbalt88/PowerApps-Samples"
@@ -1414,10 +1447,6 @@
    "tbalt88/system-design-visualizer"
   ],
   "ctf": [
-   "tbalt88/reverse-skill",
-   "tbalt88/Awesome-AI-Hacking-Agents"
-  ],
-  "pentesting": [
    "tbalt88/reverse-skill",
    "tbalt88/Awesome-AI-Hacking-Agents"
   ],
@@ -1517,10 +1546,6 @@
    "tbalt88/pm-claude-skills",
    "tbalt88/llm-god"
   ],
-  "osint": [
-   "tbalt88/Shadowbroker",
-   "tbalt88/worldmonitor"
-  ],
   "enterprise": [
    "tbalt88/open-webui",
    "tbalt88/Dynamics365-Apps-Samples"
@@ -1552,10 +1577,6 @@
   "npm": [
    "tbalt88/context-hub",
    "tbalt88/OpenSpec"
-  ],
-  "gemini-cli": [
-   "tbalt88/agency-agents",
-   "tbalt88/antigravity-awesome-skills"
   ],
   "llm-training": [
    "tbalt88/autoresearch",
@@ -1657,10 +1678,6 @@
    "tbalt88/llm-god",
    "tbalt88/Claude-Code-Board"
   ],
-  "crewai": [
-   "tbalt88/Multi-AI-Agent-Systems-with-crewAI",
-   "tbalt88/awesome-llm-apps"
-  ],
   "openai": [
    "tbalt88/octopus",
    "tbalt88/promptfx"
@@ -1700,6 +1717,27 @@
   "javascript": [
    "tbalt88/D365WebApi",
    "tbalt88/Xrm.Tools.CRMWebAPI"
+  ],
+  "google-dorking": [
+   "tbalt88/DorkAgent"
+  ],
+  "security-tool": [
+   "tbalt88/DorkAgent"
+  ],
+  "decision-making": [
+   "tbalt88/council-of-high-intelligence"
+  ],
+  "deliberation": [
+   "tbalt88/council-of-high-intelligence"
+  ],
+  "llm-routing": [
+   "tbalt88/council-of-high-intelligence"
+  ],
+  "opencode": [
+   "tbalt88/council-of-high-intelligence"
+  ],
+  "structured-debate": [
+   "tbalt88/council-of-high-intelligence"
   ],
   "connectors": [
    "tbalt88/openclaw-api-list"
@@ -2295,9 +2333,6 @@
   "blackboard-architecture": [
    "tbalt88/Pentest-Swarm-AI"
   ],
-  "bug-bounty": [
-   "tbalt88/Pentest-Swarm-AI"
-  ],
   "swarm-agents": [
    "tbalt88/Pentest-Swarm-AI"
   ],
@@ -2440,9 +2475,6 @@
    "tbalt88/Shadowbroker"
   ],
   "geospatial": [
-   "tbalt88/Shadowbroker"
-  ],
-  "recon": [
    "tbalt88/Shadowbroker"
   ],
   "satellite-tracking": [
@@ -3579,20 +3611,60 @@
    "archived": false,
    "license": "MIT",
    "homepage": null,
-   "signals": [],
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "signals": [
+    "claude-md"
+   ],
+   "status": "classified",
+   "domain": "security",
+   "domain_label": "Security & privacy",
+   "form": "cli",
+   "form_label": "CLI tool",
+   "maturity": "active",
+   "analysis": "DorkAgent is a Python CLI tool built on CrewAI that automates Google Dorking for bug bounty hunting and penetration testing. It combines an LLM (OpenAI, Anthropic Claude, or Gemini) with the Serper search API to generate and run targeted dork queries against a domain, then produces structured, timestamped vulnerability and information-disclosure reports via Pydantic-validated task output. It's aimed at security researchers and bug bounty hunters who want to automate recon-stage OSINT rather than hand-crafting dork queries, and it auto-installs dependencies and prompts for API keys on first run.",
+   "use_cases": [
+    {
+     "title": "Automate Google dork reconnaissance against a target domain for bug bounty hunting",
+     "keywords": [
+      "bug-bounty",
+      "recon"
+     ]
+    },
+    {
+     "title": "Generate structured information-disclosure reports from search-engine exposure findings",
+     "keywords": [
+      "osint",
+      "reporting"
+     ]
+    },
+    {
+     "title": "Swap in Claude, GPT, or Gemini as the LLM backend that drives dork generation",
+     "keywords": [
+      "llm-agent",
+      "multi-provider"
+     ]
+    },
+    {
+     "title": "Customize dork lists and result depth for a specific pentest engagement",
+     "keywords": [
+      "customization",
+      "pentest"
+     ]
+    }
+   ],
+   "keywords": [
+    "bug-bounty",
+    "crewai",
+    "google-dorking",
+    "llm-agent",
+    "osint",
+    "pentesting",
+    "recon",
+    "security-tool"
+   ],
+   "confidence": 0.82,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-08-18T14:30:39Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -3628,20 +3700,71 @@
    "archived": false,
    "license": "MIT",
    "homepage": "https://www.nyk.dev/oss/council-of-high-intelligence",
-   "signals": [],
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "signals": [
+    "claude-md",
+    "claude-skill",
+    "gh-actions"
+   ],
+   "status": "classified",
+   "domain": "agents-skills",
+   "domain_label": "Agents, skills & prompt packs",
+   "form": "skill-pack",
+   "form_label": "Skill / plugin / prompt pack",
+   "maturity": "production",
+   "analysis": "Council of High Intelligence is a multi-agent deliberation protocol distributed as a Claude Code plugin/skill (with mirrors for Codex, Gemini CLI, and OpenCode) that assigns a hard decision to 18 distinct analytical personas (Aristotle, Feynman, Taleb, etc.), forces independent analysis and cross-examination, then returns a verdict with dissent, kill criteria, and a concrete next step. It auto-detects available LLM providers (native host, OpenAI, Gemini, Ollama, NVIDIA NIM, Cursor) and routes council seats across them so a single model doesn't argue both sides. Aimed at solo builders/architects who want structured second opinions on high-stakes, irreversible decisions rather than a quick chat answer. Ships with a shell/Python installer, lint and release CI, and a documented protocol contract in SKILL.md.",
+   "use_cases": [
+    {
+     "title": "Get a structured second opinion before an irreversible architecture or strategy call",
+     "keywords": [
+      "architecture",
+      "decision-making"
+     ]
+    },
+    {
+     "title": "Run an adversarial debate across multiple LLM providers to pressure-test a plan",
+     "keywords": [
+      "debate",
+      "multi-llm"
+     ]
+    },
+    {
+     "title": "Install as a slash-command plugin for on-demand /council reviews in Claude Code",
+     "keywords": [
+      "claude-code",
+      "plugin"
+     ]
+    },
+    {
+     "title": "Route deliberation seats across Codex, Gemini, and Ollama to avoid single-model bias",
+     "keywords": [
+      "llm-routing",
+      "multi-provider"
+     ]
+    },
+    {
+     "title": "Run a quick duo debate to settle a single high-tension tradeoff",
+     "keywords": [
+      "duo-mode",
+      "tradeoff"
+     ]
+    }
+   ],
+   "keywords": [
+    "claude-code-plugin",
+    "codex",
+    "decision-making",
+    "deliberation",
+    "gemini-cli",
+    "llm-routing",
+    "multi-agent",
+    "opencode",
+    "prompt-engineering",
+    "structured-debate"
+   ],
+   "confidence": 0.9,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-08-18T14:30:39Z",
    "note": null,
    "pinned": false,
    "overridden": false

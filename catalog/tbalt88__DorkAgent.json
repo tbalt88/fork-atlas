@@ -39,9 +39,62 @@
   "meta": {
     "discovered_at": "2026-08-18T14:00:22Z",
     "metadata_refreshed_at": "2026-08-18T14:00:22Z",
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-md"
+    ],
+    "languages": {
+      "Python": 44960
+    },
+    "inputs_prepared_at": "2026-08-18T14:28:56Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "security",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "DorkAgent is a Python CLI tool built on CrewAI that automates Google Dorking for bug bounty hunting and penetration testing. It combines an LLM (OpenAI, Anthropic Claude, or Gemini) with the Serper search API to generate and run targeted dork queries against a domain, then produces structured, timestamped vulnerability and information-disclosure reports via Pydantic-validated task output. It's aimed at security researchers and bug bounty hunters who want to automate recon-stage OSINT rather than hand-crafting dork queries, and it auto-installs dependencies and prompts for API keys on first run.",
+    "keywords": [
+      "bug-bounty",
+      "crewai",
+      "google-dorking",
+      "llm-agent",
+      "osint",
+      "pentesting",
+      "recon",
+      "security-tool"
+    ],
+    "use_cases": [
+      {
+        "title": "Automate Google dork reconnaissance against a target domain for bug bounty hunting",
+        "keywords": [
+          "bug-bounty",
+          "recon"
+        ]
+      },
+      {
+        "title": "Generate structured information-disclosure reports from search-engine exposure findings",
+        "keywords": [
+          "osint",
+          "reporting"
+        ]
+      },
+      {
+        "title": "Swap in Claude, GPT, or Gemini as the LLM backend that drives dork generation",
+        "keywords": [
+          "llm-agent",
+          "multi-provider"
+        ]
+      },
+      {
+        "title": "Customize dork lists and result depth for a specific pentest engagement",
+        "keywords": [
+          "customization",
+          "pentest"
+        ]
+      }
+    ],
+    "confidence": 0.82,
+    "classified_at": "2026-08-18T14:30:39Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
 }
