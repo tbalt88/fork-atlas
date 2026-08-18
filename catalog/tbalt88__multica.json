@@ -10,7 +10,7 @@
     "full_name": "multica-ai/multica",
     "url": "https://github.com/multica-ai/multica",
     "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
-    "stars": 46528,
+    "stars": 46531,
     "forks": 5934,
     "watchers": 166,
     "open_issues": 1372,
@@ -26,7 +26,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:48Z",
-    "metadata_refreshed_at": "2026-08-18T02:32:05Z",
+    "metadata_refreshed_at": "2026-08-18T02:35:35Z",
     "signals": [
       "claude-md",
       "claude-skill",

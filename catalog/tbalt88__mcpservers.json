@@ -13,7 +13,7 @@
     "stars": 89643,
     "forks": 11471,
     "watchers": 633,
-    "open_issues": 526,
+    "open_issues": 527,
     "language": "TypeScript",
     "topics": [],
     "license": "NOASSERTION",
@@ -26,7 +26,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:23Z",
-    "metadata_refreshed_at": "2026-08-18T02:34:31Z",
+    "metadata_refreshed_at": "2026-08-18T02:38:05Z",
     "signals": [
       "claude-md",
       "docker",

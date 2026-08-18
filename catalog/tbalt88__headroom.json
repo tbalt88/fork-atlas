@@ -13,7 +13,7 @@
     "stars": 66691,
     "forks": 5121,
     "watchers": 194,
-    "open_issues": 484,
+    "open_issues": 485,
     "language": "Python",
     "topics": [
       "agent",
@@ -47,7 +47,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:19Z",
-    "metadata_refreshed_at": "2026-08-18T02:32:37Z",
+    "metadata_refreshed_at": "2026-08-18T02:36:08Z",
     "signals": [
       "docker",
       "gh-actions",
