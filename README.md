@@ -5,6 +5,12 @@ what each one *is*, grouped by **Domain × Form**, with a one-shot LLM abstracti
 potential use cases, keyword-tagged so a use case can be matched to a fork quickly.
 
 - **Viewer (GitHub Pages):** `site/index.html` — search, Domain×Form matrix, keyword chips, cards/list, detail drawer.
+- **Assistant:** `site/agent.html` — "I want to build X that does a, b, c — which forks, and why?" Keeper panel (new forks,
+  unclassified, at-risk upstreams), lexical search that works with no model, and a two-stage LLM answer
+  (BM25 → local-model shortlist → grounded recommendation with reasons, caveats, gaps + GitHub search terms).
+  Providers, in order: **Ollama on the current machine** (auto-detected) → **Anthropic key saved in this browser** →
+  no-LLM search mode. Provider settings live only in the browser's localStorage — never in the repo.
+  `projects/*.md` briefs (frontmatter: name/status/summary/uses/tags) ground answers in your own projects.
 - **Markdown view:** [`MATRIX.md`](MATRIX.md) — rendered directly on GitHub.
 - **Data:** [`matrix.json`](matrix.json) (full), [`matrix.csv`](matrix.csv) (flat, for Sheets/Excel).
 

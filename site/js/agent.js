@@ -118,7 +118,9 @@ async function ask() {
   const onToken = (_, all) => { $('#stream').textContent = all.slice(-1500); $('#stream').scrollTop = 1e9; };
   try {
     setSteps(['on']);
-    const { requirements, ranked } = rankForBrief(index, brief, { n: 40, boost: boostFn() });
+    // Local models: smaller candidate pool + smaller reasoning context (laptop GPUs prefill slowly).
+    const local = active.provider === 'ollama';
+    const { requirements, ranked } = rankForBrief(index, brief, { n: local ? 28 : 40, boost: boostFn() });
     const cands = ranked.map(r => compactById.get(r.item.id)).filter(Boolean);
     setSteps(['done', 'on']);
     let short;
@@ -126,12 +128,12 @@ async function ask() {
       short = await complete({ provider: active.provider, cfg, slot: 'shortlist', system: SHORTLIST_SYSTEM, user: shortlistUser(brief, requirements, cands), schema: SHORTLIST_SCHEMA, onToken, signal: abort.signal });
     } catch (e) { console.warn('shortlist failed, falling back to lexical top-12', e); short = { candidates: ranked.slice(0, 12).map(r => ({ id: r.item.id, covers: [], hint: '' })), uncovered: [] }; }
     const picked = new Set(short.candidates.map(c => c.id).filter(id => byId.has(id)));
-    ranked.slice(0, 6).forEach(r => picked.add(r.item.id));  // lexical never fully loses
-    const records = [...picked].slice(0, 16).map(id => byId.get(id));
+    ranked.slice(0, local ? 3 : 6).forEach(r => picked.add(r.item.id));  // lexical never fully loses
+    const records = [...picked].slice(0, local ? 10 : 16).map(id => byId.get(id));
     const relProjects = projects.filter(p => (p.uses || []).some(u => picked.has(u)) || tokenOverlap(brief, p.name + ' ' + p.summary + ' ' + p.tags.join(' ')));
     setSteps(['done', 'done', 'on']);
     $('#stream').textContent = '';
-    const answer = await complete({ provider: active.provider, cfg, slot: 'reason', system: ANSWER_SYSTEM, user: answerUser(brief, requirements, records, relProjects), schema: ANSWER_SCHEMA, onToken, signal: abort.signal });
+    const answer = await complete({ provider: active.provider, cfg, slot: 'reason', system: ANSWER_SYSTEM, user: answerUser(brief, requirements, records, relProjects, local), schema: ANSWER_SCHEMA, onToken, signal: abort.signal });
     setSteps(['done', 'done', 'done']); $('#stream').hidden = true;
     renderAnswer(answer, records.map(r => r.id), requirements);
     pushHistory({ brief, at: new Date().toISOString(), provider: `${active.provider}/${cfg[active.provider].reasonModel}`, answer, context: records.map(r => r.id), requirements });

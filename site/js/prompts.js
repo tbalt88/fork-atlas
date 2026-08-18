@@ -72,9 +72,13 @@ export function shortlistUser(brief, requirements, candidates) {
   return `BRIEF:\n${brief}\n\nREQUIREMENTS:\n${reqs || '(none parsed — infer from brief)'}\n\nCANDIDATES:\n${cands}`;
 }
 
-export function answerUser(brief, requirements, records, projects) {
+export function answerUser(brief, requirements, records, projects, compact = false) {
   const reqs = requirements.map((r, i) => `${String.fromCharCode(97 + i)}) ${r}`).join('\n');
-  const recs = records.map(r => JSON.stringify({
+  const recs = records.map(r => JSON.stringify(compact ? {
+    id: r.id, stars: r.stars, language: r.language, domain: r.domain_label, form: r.form_label, maturity: r.maturity,
+    archived: r.archived || r.upstream_deleted || undefined, analysis: (r.analysis || r.description || '').slice(0, 420),
+    use_cases: (r.use_cases || []).slice(0, 3).map(u => u.title), keywords: (r.keywords || []).slice(0, 8), note: r.note || undefined,
+  } : {
     id: r.id, upstream: r.upstream, stars: r.stars, language: r.language, domain: r.domain_label, form: r.form_label,
     maturity: r.maturity, archived: r.archived, upstream_deleted: r.upstream_deleted, license: r.license, pushed_at: r.pushed_at,
     description: r.description, analysis: r.analysis, use_cases: r.use_cases, keywords: r.keywords, signals: r.signals, note: r.note,

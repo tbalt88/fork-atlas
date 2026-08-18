@@ -29,11 +29,13 @@ export async function probeOllama(url, timeoutMs = 700) {
   finally { clearTimeout(t); }
 }
 
-// Prefer chat/instruct models; skip embedding models; prefer bigger for reasoning.
+// Prefer chat/instruct models; skip embedding models. Shortlist = smallest chat model (speed);
+// reasoning = largest that is still "laptop-sized" (<= 6 GB on disk), else the largest available.
 export function pickOllamaModels(models) {
-  const chat = models.filter(m => !/embed|bge|minilm|e5/i.test(m.name));
-  const bySize = [...chat].sort((a, b) => (b.size || 0) - (a.size || 0));
-  return { shortlist: (chat.find(m => (m.size || 0) < 6e9) || bySize.at(-1))?.name || '', reason: bySize[0]?.name || '' };
+  const chat = models.filter(m => !/embed|bge|minilm|e5|rerank/i.test(m.name));
+  const asc = [...chat].sort((a, b) => (a.size || 0) - (b.size || 0));
+  const laptop = asc.filter(m => (m.size || 0) <= 6e9);
+  return { shortlist: asc[0]?.name || '', reason: (laptop.at(-1) || asc.at(-1))?.name || '' };
 }
 
 async function ollamaChat({ url, model, system, user, schema, numCtx, onToken, signal }) {

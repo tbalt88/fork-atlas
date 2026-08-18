@@ -55,9 +55,12 @@ export function splitRequirements(brief) {
   for (const line of lines) {
     const m = line.match(/^(?:[-*•]|\(?[a-z0-9]{1,2}[).:])\s+(.*)$/i);
     if (m) { parts.push(m[1]); continue; }
-    // inline "a) x, b) y" or "1. x 2. y"
+    // inline "a) x, b) y" or "1. x 2. y" — the text before the first marker is preamble, not a requirement
     const inl = line.split(/\s(?=\(?[a-z0-9]{1,2}[).]\s)/i);
-    if (inl.length > 1) { parts.push(...inl.map(s => s.replace(/^\(?[a-z0-9]{1,2}[).]\s*/i, ''))); continue; }
+    if (inl.length > 1) {
+      const segs = inl.filter(s => /^\(?[a-z0-9]{1,2}[).]\s/i.test(s));
+      if (segs.length >= 2) { parts.push(...segs.map(s => s.replace(/^\(?[a-z0-9]{1,2}[).]\s*/i, '').replace(/[,;.]\s*$/, ''))); continue; }
+    }
     parts.push(...line.split(/;|\band\b(?=[^,]*,)|,\s(?=\w+\s\w+)/i).map(s => s.trim()));
   }
   parts = parts.map(p => p.replace(/^(and|then|also)\s+/i, '').trim()).filter(p => tokenize(p).length >= 1);
