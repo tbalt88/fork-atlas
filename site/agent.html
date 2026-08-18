@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fork Atlas · Assistant</title>
+<style>
+  :root { --bg:#f7f7f5; --panel:#fff; --ink:#1c1c1a; --ink2:#55554f; --muted:#8a8a82; --line:#e3e3de; --accent:#2f6fdd; --accent-bg:#e8f0fd; --warn:#b8741a; --warn-bg:#fdf3e2; --ok:#2e7d4f; --ok-bg:#e6f4ea; --chip:#f0f0ec; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141416; --panel:#1d1d20; --ink:#ececea; --ink2:#b4b4ae; --muted:#7d7d77; --line:#2c2c31; --accent:#7aa7f2; --accent-bg:#1e2a44; --warn:#e0a34a; --warn-bg:#3a2c15; --ok:#6fcf97; --ok-bg:#173524; --chip:#26262b; } }
+  * { box-sizing:border-box } body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif }
+  a { color:var(--accent); text-decoration:none } a:hover { text-decoration:underline }
+  header { display:flex; align-items:center; gap:14px; padding:14px 22px; border-bottom:1px solid var(--line); background:var(--panel); position:sticky; top:0; z-index:5 }
+  header h1 { margin:0; font-size:18px } header nav a { margin-right:12px; color:var(--ink2) }
+  .pill { margin-left:auto; display:inline-flex; gap:8px; align-items:center; border:1px solid var(--line); border-radius:999px; padding:4px 10px; font-size:12px; color:var(--ink2); background:var(--bg) }
+  .pill .dot { width:8px; height:8px; border-radius:50%; background:var(--muted) } .pill.ok .dot { background:var(--ok) } .pill.warn .dot { background:var(--warn) }
+  .gear { background:none; border:1px solid var(--line); border-radius:8px; padding:5px 10px; cursor:pointer; color:var(--ink2); font:inherit }
+  main { display:grid; grid-template-columns: 300px 1fr; gap:18px; padding:18px 22px 60px; max-width:1500px; margin:0 auto }
+  @media (max-width: 900px) { main { grid-template-columns:1fr } }
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:14px 16px }
+  .panel h2 { margin:0 0 10px; font-size:13px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted) }
+  .stat { display:flex; justify-content:space-between; padding:4px 0; border-bottom:1px dashed var(--line); font-size:13px } .stat:last-child { border:0 }
+  .stat b { font-variant-numeric: tabular-nums }
+  ul.plain { margin:6px 0 0; padding-left:16px; color:var(--ink2); font-size:13px } ul.plain li { margin:2px 0 }
+  textarea { width:100%; min-height:120px; resize:vertical; background:var(--panel); color:var(--ink); border:1px solid var(--line); border-radius:10px; padding:10px 12px; font:inherit }
+  .row { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:8px }
+  select, input[type=text], input[type=password], input[type=url] { background:var(--panel); color:var(--ink); border:1px solid var(--line); border-radius:8px; padding:7px 9px; font:inherit }
+  button.primary { background:var(--accent); color:#fff; border:0; border-radius:8px; padding:9px 16px; font:inherit; font-weight:600; cursor:pointer } button.primary:disabled { opacity:.5; cursor:default }
+  button.ghost { background:var(--chip); color:var(--ink2); border:1px solid transparent; border-radius:8px; padding:7px 12px; font:inherit; cursor:pointer }
+  label.chk { display:inline-flex; gap:6px; align-items:center; color:var(--ink2); font-size:13px }
+  .steps { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 } .step { font-size:12px; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:3px 10px } .step.on { color:var(--accent); border-color:var(--accent) } .step.done { color:var(--ok); border-color:var(--ok) }
+  pre.stream { max-height:140px; overflow:auto; background:var(--chip); border-radius:8px; padding:8px 10px; font-size:11px; color:var(--muted); white-space:pre-wrap; word-break:break-word }
+  .answer h3 { margin:18px 0 6px; font-size:15px } .answer .req { border-left:3px solid var(--accent); padding-left:12px; margin:10px 0 14px }
+  .rec { background:var(--bg); border:1px solid var(--line); border-radius:10px; padding:10px 12px; margin:8px 0 }
+  .rec .t { display:flex; gap:8px; align-items:baseline; flex-wrap:wrap } .rec .t b { font-size:14px } .rec .conf { color:var(--muted); font-size:12px; margin-left:auto }
+  .rec p { margin:4px 0; color:var(--ink2) } .rec .cav { color:var(--warn) }
+  .tag { background:var(--chip); color:var(--ink2); border-radius:6px; padding:1px 7px; font-size:12px } .tag.dom { background:var(--accent-bg); color:var(--accent) } .tag.ok { background:var(--ok-bg); color:var(--ok) } .tag.warn { background:var(--warn-bg); color:var(--warn) }
+  .gap { background:var(--warn-bg); border-radius:10px; padding:10px 12px; margin:8px 0; color:var(--ink) } .gap a { font-weight:600 }
+  .muted { color:var(--muted); font-size:12px }
+  .err { background:var(--warn-bg); color:var(--warn); border-radius:8px; padding:10px 12px; margin:10px 0 }
+  .drawer { position:fixed; top:0; right:0; height:100%; width:min(520px,100%); background:var(--panel); border-left:1px solid var(--line); box-shadow:-8px 0 30px rgba(0,0,0,.15); transform:translateX(100%); transition:transform .18s ease; overflow-y:auto; padding:20px 22px; z-index:10 }
+  .drawer.open { transform:none } .drawer h2 { margin:0 0 8px; font-size:16px } .drawer h4 { margin:16px 0 6px; font-size:13px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted) }
+  .drawer label { display:block; margin:8px 0 2px; font-size:12px; color:var(--ink2) } .drawer input, .drawer select { width:100% }
+  .drawer .close { float:right; background:none; border:0; font-size:20px; cursor:pointer; color:var(--ink2) }
+  .hist button { display:block; width:100%; text-align:left; background:none; border:0; border-bottom:1px dashed var(--line); padding:6px 0; color:var(--ink2); font:inherit; font-size:12px; cursor:pointer } .hist button:hover { color:var(--accent) }
+  code { background:var(--chip); padding:1px 5px; border-radius:4px; font-size:12px }
+  .lex li { margin:6px 0 } .lex .hits { color:var(--ok); font-size:12px }
+</style>
+</head>
+<body>
+<header>
+  <h1>Fork Atlas · Assistant</h1>
+  <nav><a href="index.html">Matrix</a><a href="https://github.com/tbalt88/fork-atlas" target="_blank" rel="noopener">Repo</a></nav>
+  <span class="pill" id="pill"><span class="dot"></span><span id="pillText">probing providers…</span></span>
+  <button class="gear" id="gear" title="Provider settings">⚙ Providers</button>
+</header>
+<main>
+  <aside>
+    <div class="panel" id="keeper"><h2>Keeper</h2><div class="muted">loading…</div></div>
+    <div class="panel" style="margin-top:14px" id="projects"><h2>Projects</h2><div class="muted">—</div></div>
+    <div class="panel hist" style="margin-top:14px" id="history"><h2>Recent questions</h2><div class="muted">none yet</div></div>
+  </aside>
+  <section>
+    <div class="panel">
+      <textarea id="brief" placeholder="Describe what you want to build. Requirements as a) b) c), bullets, or plain clauses.
+
+e.g. I want to build a travel-deals newsletter app that a) scrapes airline and hotel deal pages, b) summarizes them with an LLM, c) sends a daily email and posts to Instagram."></textarea>
+      <div class="row">
+        <label class="chk"><input type="checkbox" id="selfHosted"> self-hosted only</label>
+        <select id="minMat"><option value="">any maturity</option><option value="active">active or better</option><option value="production">production only</option></select>
+        <select id="lang"><option value="">any language</option></select>
+        <span style="flex:1"></span>
+        <button class="ghost" id="lexOnly" title="Ranked candidates without calling any model">Search only</button>
+        <button class="primary" id="ask">Ask the atlas</button>
+      </div>
+      <div class="steps" id="steps"></div>
+      <pre class="stream" id="stream" hidden></pre>
+      <div id="out"></div>
+    </div>
+  </section>
+</main>
+
+<aside class="drawer" id="drawer">
+  <button class="close" id="closeDrawer">×</button>
+  <h2>Providers</h2>
+  <p class="muted">Settings are stored only in this browser (localStorage). Nothing is written to the repo. Order: Ollama on this machine → Anthropic key → no-LLM search mode.</p>
+  <h4>Ollama (this machine)</h4>
+  <label>URL</label><input type="url" id="oUrl">
+  <div class="row"><button class="ghost" id="oDetect">Detect models</button><span class="muted" id="oStatus"></span></div>
+  <label>Shortlist model (small, fast)</label><select id="oShort"></select>
+  <label>Reasoning model (bigger)</label><select id="oReason"></select>
+  <label>Context window (num_ctx)</label><input type="text" id="oCtx">
+  <label class="chk" style="margin-top:8px"><input type="checkbox" id="oEnabled"> enabled</label>
+  <p class="muted">Ollama must allow this origin: set <code>OLLAMA_ORIGINS=https://tbalt88.github.io</code> (or <code>*</code>) and restart Ollama.</p>
+  <h4>Anthropic (BYO key)</h4>
+  <label>API key</label><input type="password" id="aKey" autocomplete="off" placeholder="sk-ant-…">
+  <label>Shortlist model</label><input type="text" id="aShort">
+  <label>Reasoning model</label><input type="text" id="aReason">
+  <label class="chk" style="margin-top:8px"><input type="checkbox" id="aEnabled"> enabled</label>
+  <div class="row" style="margin-top:16px"><button class="primary" id="saveCfg">Save</button><button class="ghost" id="clearCfg">Clear all</button></div>
+</aside>
+
+<script type="module" src="js/agent.js"></script>
+</body>
+</html>

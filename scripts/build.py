@@ -161,8 +161,67 @@ def main() -> int:
     (SITE / "matrix.json").write_text(js + "\n", encoding="utf-8")
     write_markdown(items, tax, generated)
     write_csv(items)
+    write_agent_artifacts(items, tax, generated)
     print(f"matrix built: {matrix['counts']}")
     return 0
+
+
+# ---------------------------------------------------------------- agent artifacts
+
+def load_projects() -> list[dict]:
+    """projects/<slug>.md with YAML frontmatter -> list of dicts (body kept, truncated)."""
+    out = []
+    pdir = ROOT / "projects"
+    if not pdir.exists():
+        return out
+    import yaml
+    for p in sorted(pdir.glob("*.md")):
+        if p.name.startswith("_"):
+            continue
+        text = p.read_text(encoding="utf-8")
+        fm, body = {}, text
+        if text.startswith("---"):
+            parts = text.split("---", 2)
+            if len(parts) >= 3:
+                fm = yaml.safe_load(parts[1]) or {}
+                body = parts[2].strip()
+        out.append({
+            "slug": p.stem,
+            "name": fm.get("name", p.stem),
+            "status": fm.get("status", "idea"),
+            "summary": fm.get("summary", ""),
+            "uses": fm.get("uses", []) or [],
+            "tags": fm.get("tags", []) or [],
+            "brief": body[:4000],
+        })
+    return out
+
+
+def write_agent_artifacts(items: list[dict], tax: dict, generated: str):
+    """Compact index (LLM shortlist stage), full-record JSONL (context stage), projects."""
+    compact = []
+    for it in items:
+        one = (it["analysis"] or it["description"] or "").strip()
+        # first sentence, capped
+        cut = one.find(". ")
+        one = one[: cut + 1] if 0 < cut < 220 else one[:220]
+        compact.append({
+            "id": it["id"], "d": it["domain"], "f": it["form"], "m": it["maturity"],
+            "s": it["stars"], "l": it["language"], "one": one,
+            "kw": it["keywords"][:10], "uc": [u["title"] for u in it["use_cases"][:4]],
+            "note": it["note"] or None,
+        })
+    (SITE / "index.compact.json").write_text(
+        json.dumps({"generated_at": generated, "items": compact}, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8")
+    with (SITE / "atlas.jsonl").open("w", encoding="utf-8") as f:
+        for it in items:
+            f.write(json.dumps(it, ensure_ascii=False) + "\n")
+    projects = load_projects()
+    (SITE / "projects.json").write_text(json.dumps({"generated_at": generated, "projects": projects},
+                                                   ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    (ROOT / "projects.json").write_text(json.dumps({"generated_at": generated, "projects": projects},
+                                                   ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

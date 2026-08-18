@@ -1,0 +1,21 @@
+{
+ "generated_at": "2026-08-18T04:43:56Z",
+ "projects": [
+  {
+   "slug": "dexevo-site-travel",
+   "name": "dexevo-site-travel",
+   "status": "active",
+   "summary": "Travel site under the Dexevo brand; needs a search-engine-optimization plan and content/social growth loop.",
+   "uses": [
+    "tbalt88/open-seo"
+   ],
+   "tags": [
+    "seo",
+    "travel",
+    "marketing",
+    "content"
+   ],
+   "brief": "## Goal\n\nGrow organic and social traffic for the Dexevo travel site.\n\n## Requirements\n\n- a) SEO plan: keyword research, rank tracking, site audit → **open-seo** (self-hosted Semrush/Ahrefs alternative).\n- b) Social research & strategy → candidates: social-media-scraping-apis, openreply.\n- c) Content pipeline (faceless/short-form) → candidates: automate-faceless-content, media-generation forks.\n\n## Decisions / notes\n\n- 2026-08-18: open-seo reviewed and adopted for (a)."
+  }
+ ]
+}
