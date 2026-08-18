@@ -1,0 +1,81 @@
+{
+  "fork": {
+    "full_name": "tbalt88/DVerseClaudeSkills",
+    "url": "https://github.com/tbalt88/DVerseClaudeSkills",
+    "created_at": "2026-03-11T17:54:07Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-14T17:26:49Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/DVerseClaudeSkills",
+    "url": "https://github.com/tbalt88/DVerseClaudeSkills",
+    "description": "Microsoft Dataverse backend plug-ins generated with   Claude Code and the d365-architect-v3 skill",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "C#",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-03-11T17:54:07Z",
+    "pushed_at": "2026-08-14T17:26:49Z",
+    "archived": true,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:53:42Z",
+    "metadata_refreshed_at": "2026-08-18T17:53:42Z",
+    "actions_checked_at": "2026-08-18T17:53:42Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "C#": 30086
+    },
+    "inputs_prepared_at": "2026-08-18T17:55:15Z"
+  },
+  "classification": {
+    "domain": "business-apps",
+    "form": "skill-pack",
+    "maturity": "dormant",
+    "analysis": "DVerseClaudeSkills is the archived v1 seed of the DVerse project: a Claude Code skill (`d365-architect`) that encodes senior-level Microsoft Dynamics 365 CE / Dataverse plugin-development knowledge (event pipeline, best practices, SDK patterns) so Claude Code can generate production-quality plugins, workflow extensions, tests, and docs from plain-English requirements. It includes sample generated output (a PreValidation plugin and a custom workflow activity, both with xUnit/Moq tests). Explicitly archived and superseded by the governed DVerse harness; the repo documents two known build defects (missing signing key, misplaced test globbing) rather than fixing them, since it is preserved only for provenance.",
+    "keywords": [
+      "archived",
+      "claude-code-skill",
+      "csharp",
+      "d365",
+      "dataverse",
+      "dynamics-365",
+      "plugin-development",
+      "power-platform"
+    ],
+    "use_cases": [
+      {
+        "title": "Reference how a Dataverse domain-knowledge skill for Claude Code was originally structured",
+        "keywords": [
+          "claude-code-skill",
+          "dataverse"
+        ]
+      },
+      {
+        "title": "See a worked example of an AI-generated D365 CE plugin with matching xUnit tests",
+        "keywords": [
+          "dynamics-365",
+          "plugin-development"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

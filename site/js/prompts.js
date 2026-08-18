@@ -58,7 +58,10 @@ export const ANSWER_SYSTEM = `You are the Fork Atlas assistant — the owner's k
 Given a project brief and the FULL RECORDS of shortlisted repos (plus any related project briefs), produce a grounded build recommendation.
 
 Rules:
-- Recommend only repos present in the records. Cite by id exactly. Never invent repos.
+- FIRST check the owner's own PROJECT BOARD (below, all columns incl. shipped): if a listed project already covers part or all of the brief, say so explicitly in "summary" and in the relevant plan item's "role" (e.g. "already built: Dex Fabric (shipped)"), and recommend extending it rather than rebuilding it from forks. Never treat a gap as open if a board project covers it.
+- The "plan" array must contain EXACTLY the REQUIREMENTS listed (same order, same wording, one item each). If only one requirement is listed, "plan" has one item. Never add plan items for schema fields (architecture_note, gaps, summary) — those have their own keys.
+- Recommend only repos present in the records. Cite by id exactly (owner/repo). Never invent repos. Records marked relation "owner" are the owner's OWN repositories — prefer them when they fit.
+- Confidence is fit, 0-1; reserve >0.9 for a repo whose analysis directly matches the requirement.
 - For each requirement, give 1-3 recommendations: the role the repo plays, WHY (grounded in its analysis / use cases / maturity / language), and caveats (dormant, archived, license, heavy stack, overlap).
 - If a requirement is not well covered, put it in "gaps" with a concrete GitHub search query the owner can run.
 - "architecture_note": 2-4 sentences on how the picks fit together (data flow, what glues them, what to build yourself).
@@ -75,14 +78,14 @@ export function shortlistUser(brief, requirements, candidates) {
 export function answerUser(brief, requirements, records, projects, compact = false) {
   const reqs = requirements.map((r, i) => `${String.fromCharCode(97 + i)}) ${r}`).join('\n');
   const recs = records.map(r => JSON.stringify(compact ? {
-    id: r.id, stars: r.stars, language: r.language, domain: r.domain_label, form: r.form_label, maturity: r.maturity,
+    id: r.id, relation: r.relation || 'fork', stars: r.stars, language: r.language, domain: r.domain_label, form: r.form_label, maturity: r.maturity,
     archived: r.archived || r.upstream_deleted || undefined, analysis: (r.analysis || r.description || '').slice(0, 420),
     use_cases: (r.use_cases || []).slice(0, 3).map(u => u.title), keywords: (r.keywords || []).slice(0, 8), note: r.note || undefined,
   } : {
-    id: r.id, upstream: r.upstream, stars: r.stars, language: r.language, domain: r.domain_label, form: r.form_label,
+    id: r.id, relation: r.relation || 'fork', upstream: r.upstream, stars: r.stars, language: r.language, domain: r.domain_label, form: r.form_label,
     maturity: r.maturity, archived: r.archived, upstream_deleted: r.upstream_deleted, license: r.license, pushed_at: r.pushed_at,
     description: r.description, analysis: r.analysis, use_cases: r.use_cases, keywords: r.keywords, signals: r.signals, note: r.note,
   })).join('\n');
-  const projs = projects.length ? '\n\nRELATED PROJECT BRIEFS (owner\'s own projects):\n' + projects.map(p => `## ${p.name} (${p.status}) uses: ${p.uses.join(', ') || '-'}\n${p.summary}\n${p.brief}`).join('\n\n') : '';
-  return `BRIEF:\n${brief}\n\nREQUIREMENTS:\n${reqs || '(infer from brief)'}\n\nRECORDS (one JSON per line):\n${recs}${projs}`;
+  const projs = projects.length ? '\n\nOWNER\'S PROJECT BOARD (all columns; check for "already built" before recommending forks):\n' + projects.map(p => `- ${p.name} [${p.column || p.status}] status=${p.status}${p.url ? ' · ' + p.url : ''}${p.uses?.length ? ' · uses: ' + p.uses.join(', ') : ''}${p.summary ? '\n  ' + p.summary : ''}${p.brief ? '\n  ' + p.brief.slice(0, 600) : ''}`).join('\n') : '';
+  return `BRIEF:\n${brief}\n\nREQUIREMENTS (plan must have exactly these items):\n${reqs || 'a) ' + brief.slice(0, 200)}\n\nRECORDS (one JSON per line; "relation" = fork | owner):\n${recs}${projs}`;
 }

@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:21Z",
-    "metadata_refreshed_at": "2026-08-18T16:54:33Z",
+    "metadata_refreshed_at": "2026-08-18T17:53:06Z",
     "signals": [],
     "languages": {
       "Jupyter Notebook": 694200,
@@ -101,5 +101,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

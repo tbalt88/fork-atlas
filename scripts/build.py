@@ -28,6 +28,7 @@ def flatten(rec: dict, ov: dict, tax: dict) -> dict:
     return {
         "id": rec["fork"]["full_name"],
         "name": rec["fork"]["full_name"].split("/", 1)[1],
+        "relation": rec.get("relation", "fork"),
         "fork_url": rec["fork"]["url"],
         "forked_at": rec["fork"]["created_at"],
         "upstream": up.get("full_name"),
@@ -102,6 +103,8 @@ def write_markdown(items: list[dict], tax: dict, generated: str):
                 repo += " ⚠"
             if it["pinned"]:
                 repo = "📌 " + repo
+            if it["relation"] == "owner":
+                repo += " (own)"
             ucs = "<br>".join("• " + md_escape(u["title"]) for u in it["use_cases"][:4])
             what = md_escape(it["analysis"] or it["description"])
             if len(what) > 260:
@@ -152,6 +155,7 @@ def main() -> int:
             "classified": sum(1 for i in items if i["status"] == "classified"),
             "unclassified": sum(1 for i in items if i["status"] != "classified"),
             "needs_review": sum(1 for i in items if i["needs_review"]),
+            "owned": sum(1 for i in items if i["relation"] == "owner"),
         },
         "keywords": {k: v for k, v in sorted(kw_index.items(), key=lambda kv: -len(kv[1]))},
         "items": items,
@@ -207,7 +211,7 @@ def write_agent_artifacts(items: list[dict], tax: dict, generated: str):
         cut = one.find(". ")
         one = one[: cut + 1] if 0 < cut < 220 else one[:220]
         compact.append({
-            "id": it["id"], "d": it["domain"], "f": it["form"], "m": it["maturity"],
+            "id": it["id"], "rel": it["relation"], "d": it["domain"], "f": it["form"], "m": it["maturity"],
             "s": it["stars"], "l": it["language"], "one": one,
             "kw": it["keywords"][:10], "uc": [u["title"] for u in it["use_cases"][:4]],
             "note": it["note"] or None,

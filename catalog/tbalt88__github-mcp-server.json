@@ -15,10 +15,10 @@
     "full_name": "github/github-mcp-server",
     "url": "https://github.com/github/github-mcp-server",
     "description": "GitHub's official MCP Server",
-    "stars": 32338,
-    "forks": 4817,
+    "stars": 32339,
+    "forks": 4818,
     "watchers": 376,
-    "open_issues": 374,
+    "open_issues": 373,
     "language": "Go",
     "topics": [
       "github",
@@ -35,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:07Z",
-    "metadata_refreshed_at": "2026-08-18T16:57:22Z",
+    "metadata_refreshed_at": "2026-08-18T17:54:45Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -99,5 +99,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

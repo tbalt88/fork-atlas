@@ -1,5 +1,5 @@
 // agent.js — Fork Atlas assistant: keeper panel (no LLM), lexical search, two-stage Q&A.
-import { BM25, rankForBrief, itemText } from './retrieval.js';
+import { BM25, rankForBrief, itemText, tokenize } from './retrieval.js';
 import { loadConfig, saveConfig, probeOllama, pickOllamaModels, resolveProvider, complete, DEFAULTS } from './llm.js';
 import { SHORTLIST_SCHEMA, ANSWER_SCHEMA, SHORTLIST_SYSTEM, ANSWER_SYSTEM, shortlistUser, answerUser } from './prompts.js';
 import { parseBoard, columnKind, fetchBoardLive, fetchBoardSnapshot, boardToProjects, readCache } from './board.js';
@@ -22,6 +22,7 @@ let matrix, items, byId, compactById, projects = [], boardProjects = [], index, 
   matrix = m; items = m.items; byId = new Map(items.map(i => [i.id, i]));
   compactById = new Map(c.items.map(i => [i.id, i])); projects = p.projects || [];
   index = new BM25(items, itemText);
+  window.__atlas = { index, items, rankForBrief, tokenize };  // debugging handle (read-only)
   renderKeeper(); renderHistory();
   const langs = [...new Set(items.map(i => i.language).filter(Boolean))].sort();
   langs.forEach(l => { const o = document.createElement('option'); o.value = l; o.textContent = l; $('#lang').appendChild(o); });
@@ -190,7 +191,10 @@ async function ask() {
     setSteps(['on']);
     // Local models: smaller candidate pool + smaller reasoning context (laptop GPUs prefill slowly).
     const local = active.provider === 'ollama';
-    const { requirements, ranked } = rankForBrief(index, brief, { n: local ? 28 : 40, boost: boostFn() });
+    let { requirements, ranked } = rankForBrief(index, brief, { n: local ? 28 : 40, boost: boostFn() });
+    // Short/free-form briefs give BM25 little to grip: widen the pool so the LLM shortlist can recover synonyms
+    if (requirements.length <= 1) ranked = rankForBrief(index, brief, { n: local ? 40 : 60, boost: boostFn() }).ranked;
+    if (!requirements.length) requirements = [brief.slice(0, 200)];
     const cands = ranked.map(r => compactById.get(r.item.id)).filter(Boolean);
     setSteps(['done', 'on']);
     let short;
@@ -202,11 +206,12 @@ async function ask() {
     const records = [...picked].slice(0, local ? 10 : 16).map(id => byId.get(id));
     const allProjects = [...boardProjects, ...projects];
     const relProjects = allProjects.filter(p => (p.uses || []).some(u => picked.has(u)) || tokenOverlap(brief, p.name + ' ' + p.summary + ' ' + (p.tags || []).join(' ')));
-    // always give the model the active board as light context (names + status only) so it can say "fits Tristan (active)"
-    const activeBoard = boardProjects.filter(p => columnKind(p.column) === 'active' && !relProjects.includes(p)).map(p => ({ ...p, brief: '' }));
+    // always give the model the WHOLE board (it's small) so it can say "already built: Dex Fabric (shipped)"
+    const activeBoard = boardProjects.filter(p => !relProjects.includes(p)).map(p => ({ ...p, brief: '' }));
     setSteps(['done', 'done', 'on']);
     $('#stream').textContent = '';
-    const answer = await complete({ provider: active.provider, cfg, slot: 'reason', system: ANSWER_SYSTEM, user: answerUser(brief, requirements, records, [...relProjects, ...activeBoard.slice(0, 6)], local), schema: ANSWER_SCHEMA, onToken, signal: abort.signal });
+    const answer = await complete({ provider: active.provider, cfg, slot: 'reason', system: ANSWER_SYSTEM, user: answerUser(brief, requirements, records, [...relProjects, ...activeBoard.slice(0, 12)], local), schema: ANSWER_SCHEMA, onToken, signal: abort.signal });
+    normalizeAnswer(answer, requirements);
     setSteps(['done', 'done', 'done']); $('#stream').hidden = true;
     renderAnswer(answer, records.map(r => r.id), requirements);
     pushHistory({ brief, at: new Date().toISOString(), provider: `${active.provider}/${cfg[active.provider].reasonModel}`, answer, context: records.map(r => r.id), requirements });
@@ -218,6 +223,40 @@ async function ask() {
 function tokenOverlap(a, b) { const A = new Set(a.toLowerCase().match(/[a-z0-9]{4,}/g) || []); return (b.toLowerCase().match(/[a-z0-9]{4,}/g) || []).some(t => A.has(t)); }
 
 // ---------------------------------------------------------------- render answer
+// Small models sometimes bend the schema: plan items named after schema keys, gaps stuffed into
+// alternatives, missing arrays. Repair in place so rendering and history stay sane.
+function normalizeAnswer(a, requirements) {
+  const SCHEMA_KEYS = new Set(['architecture_note', 'gaps', 'summary', 'next_actions', 'plan', 'alternatives']);
+  a.plan = Array.isArray(a.plan) ? a.plan : [];
+  a.gaps = Array.isArray(a.gaps) ? a.gaps : [];
+  a.next_actions = Array.isArray(a.next_actions) ? a.next_actions : [];
+  const keep = [];
+  for (const p of a.plan) {
+    if (!p || typeof p !== 'object') continue;
+    const name = String(p.requirement || '').trim();
+    if (SCHEMA_KEYS.has(name.toLowerCase())) {
+      // fold stray "architecture_note"-style items into the first real plan item as alternatives
+      if (keep.length && Array.isArray(p.recommended)) keep[0].recommended.push(...p.recommended.filter(r => r?.id));
+      continue;
+    }
+    p.recommended = Array.isArray(p.recommended) ? p.recommended.filter(r => r?.id) : [];
+    // "alternatives" that look like search queries or the word "gaps" belong in gaps
+    p.alternatives = (Array.isArray(p.alternatives) ? p.alternatives : []).filter(s => {
+      const t = String(s || '').trim();
+      if (!t || /^gaps?$/i.test(t)) return false;
+      const m = t.match(/^search query:\s*"?(.+?)"?$/i);
+      if (m) { a.gaps.push({ requirement: name || 'general', why_uncovered: 'suggested by model', github_search: m[1] }); return false; }
+      return true;
+    });
+    keep.push(p);
+  }
+  a.plan = keep;
+  // de-dupe recommendations within a plan item by id
+  for (const p of a.plan) { const seen = new Set(); p.recommended = p.recommended.filter(r => (seen.has(r.id) ? false : (seen.add(r.id), true))); }
+  if (!a.plan.length && requirements?.length) a.plan = requirements.map(r => ({ requirement: r, recommended: [], alternatives: [] }));
+  return a;
+}
+
 // Small models sometimes drop the owner prefix or cite the upstream name — resolve leniently.
 function resolveId(id) {
   if (!id) return null;

@@ -90,6 +90,7 @@
   <select id="fForm"><option value="">All forms</option></select>
   <select id="fMat"><option value="">Any maturity</option></select>
   <select id="fLang"><option value="">Any language</option></select>
+  <select id="fRel"><option value="">Forks + own</option><option value="fork">Forks only</option><option value="owner">My own repos</option></select>
   <select id="fSort">
     <option value="forked">Newest fork</option>
     <option value="stars">Most stars</option>
@@ -119,7 +120,7 @@
   const forms = [...tax.forms.map(f => ({key: f.key, label: f.label})), {key: 'unclassified', label: 'Unclassified'}];
   const domainKeys = domains.map(d => d.key), formKeys = forms.map(f => f.key);
 
-  const state = { q: '', domain: '', form: '', mat: '', lang: '', sort: 'forked', review: false, recent: false, kw: '', view: 'cards' };
+  const state = { q: '', domain: '', form: '', mat: '', lang: '', rel: '', sort: 'forked', review: false, recent: false, kw: '', view: 'cards' };
   const fromHash = () => { try { Object.assign(state, JSON.parse(decodeURIComponent(location.hash.slice(1) || '{}'))); } catch {} };
   const toHash = () => { const s = {}; for (const k in state) if (state[k]) s[k] = state[k]; history.replaceState(null, '', '#' + encodeURIComponent(JSON.stringify(s))); };
   fromHash();
@@ -134,7 +135,7 @@
 
   const syncControls = () => {
     $('#q').value = state.q; $('#fDomain').value = state.domain; $('#fForm').value = state.form;
-    $('#fMat').value = state.mat; $('#fLang').value = state.lang; $('#fSort').value = state.sort;
+    $('#fMat').value = state.mat; $('#fLang').value = state.lang; $('#fRel').value = state.rel; $('#fSort').value = state.sort;
     $('#fReview').checked = state.review; $('#fRecent').checked = state.recent;
     document.querySelectorAll('.toggle button').forEach(b => b.classList.toggle('on', b.dataset.view === state.view));
   };
@@ -148,6 +149,7 @@
       if (!ignoreCell) { if (state.domain && i.domain !== state.domain) return false; if (state.form && i.form !== state.form) return false; }
       if (state.mat && i.maturity !== state.mat) return false;
       if (state.lang && i.language !== state.lang) return false;
+      if (state.rel && (i.relation || 'fork') !== state.rel) return false;
       if (state.review && !i.needs_review) return false;
       if (state.recent && (Date.now() - Date.parse(i.forked_at)) > thirtyDays) return false;
       if (state.kw && !i.keywords.includes(state.kw)) return false;
@@ -201,7 +203,7 @@
   function card(i) {
     return `<div class="card" data-id="${esc(i.id)}">
       <h3>${i.pinned?'<span class="tag pin">📌</span>':''}<span>${esc(i.upstream||i.name)}</span><span class="stars">★ ${i.stars||0}${i.archived?' · archived':''}${i.upstream_deleted?' · upstream gone':''}</span></h3>
-      <div class="meta"><span class="tag dom">${esc(i.domain_label)}</span><span class="tag">${esc(i.form_label)}</span>${i.maturity?`<span class="tag">${esc(i.maturity)}</span>`:''}${i.language?`<span class="tag">${esc(i.language)}</span>`:''}${i.needs_review?'<span class="tag warn">⚠ review</span>':''}${i.status!=='classified'?'<span class="tag warn">unclassified</span>':''}</div>
+      <div class="meta">${i.relation==='owner'?'<span class="tag" style="background:var(--pin);color:#fff">own</span>':''}<span class="tag dom">${esc(i.domain_label)}</span><span class="tag">${esc(i.form_label)}</span>${i.maturity?`<span class="tag">${esc(i.maturity)}</span>`:''}${i.language?`<span class="tag">${esc(i.language)}</span>`:''}${i.needs_review?'<span class="tag warn">⚠ review</span>':''}${i.status!=='classified'?'<span class="tag warn">unclassified</span>':''}</div>
       <p>${esc(i.analysis || i.description || '—')}</p>
       ${i.use_cases.length?`<ul>${i.use_cases.slice(0,3).map(u=>`<li>${esc(u.title)}</li>`).join('')}</ul>`:''}
     </div>`;
@@ -237,7 +239,7 @@
       ${i.note?`<p class="note">${esc(i.note)}</p>`:''}
       ${i.proposed_domain && !i.overridden?`<p class="note">LLM proposed new domain: <b>${esc(i.proposed_domain)}</b> — accept by adding it to taxonomy.yaml + an override, or leave in ${esc(i.domain_label)}.</p>`:''}
       <dl>
-        <dt>Upstream</dt><dd>${i.upstream_url?`<a href="${esc(i.upstream_url)}" target="_blank" rel="noopener">${esc(i.upstream)}</a>`:'(deleted)'}${i.upstream_deleted?' · <b>gone</b>':''}</dd>
+        <dt>${i.relation==='owner'?'Repo':'Upstream'}</dt><dd>${i.upstream_url?`<a href="${esc(i.upstream_url)}" target="_blank" rel="noopener">${esc(i.upstream)}</a>`:'(deleted)'}${i.upstream_deleted?' · <b>gone</b>':''}</dd>
         <dt>My fork</dt><dd><a href="${esc(i.fork_url)}" target="_blank" rel="noopener">${esc(i.id)}</a></dd>
         ${i.homepage?`<dt>Homepage</dt><dd><a href="${esc(i.homepage)}" target="_blank" rel="noopener">${esc(i.homepage)}</a></dd>`:''}
         <dt>Stars</dt><dd>${i.stars||0}${i.archived?' · archived':''}</dd>
@@ -264,11 +266,12 @@
   $('#fForm').onchange = e => { state.form = e.target.value; render(); };
   $('#fMat').onchange = e => { state.mat = e.target.value; render(); };
   $('#fLang').onchange = e => { state.lang = e.target.value; render(); };
+  $('#fRel').onchange = e => { state.rel = e.target.value; render(); };
   $('#fSort').onchange = e => { state.sort = e.target.value; render(); };
   $('#fReview').onchange = e => { state.review = e.target.checked; render(); };
   $('#fRecent').onchange = e => { state.recent = e.target.checked; render(); };
   document.querySelectorAll('.toggle button').forEach(b => b.onclick = () => { state.view = b.dataset.view; render(); });
-  $('#reset').onclick = () => { Object.assign(state, { q:'', domain:'', form:'', mat:'', lang:'', review:false, recent:false, kw:'' }); render(); };
+  $('#reset').onclick = () => { Object.assign(state, { q:'', domain:'', form:'', mat:'', lang:'', rel:'', review:false, recent:false, kw:'' }); render(); };
   $('#foot').textContent = 'Data: matrix.json (rebuilt nightly by GitHub Actions). LLM analysis is one-shot per repo; corrections live in overrides/. Press / to search.';
   render();
 })();

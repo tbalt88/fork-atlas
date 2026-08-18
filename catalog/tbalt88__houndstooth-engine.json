@@ -1,0 +1,99 @@
+{
+  "fork": {
+    "full_name": "tbalt88/houndstooth-engine",
+    "url": "https://github.com/tbalt88/houndstooth-engine",
+    "created_at": "2026-07-24T17:41:48Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-24T18:05:15Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 25,
+      "failing_scheduled": [
+        "daily-pipeline"
+      ]
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/houndstooth-engine",
+    "url": "https://github.com/tbalt88/houndstooth-engine",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-07-24T17:41:48Z",
+    "pushed_at": "2026-07-24T18:05:15Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:52:49Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:49Z",
+    "actions_checked_at": "2026-08-18T17:52:48Z",
+    "signals": [
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 56746
+    },
+    "inputs_prepared_at": "2026-08-18T17:55:18Z"
+  },
+  "classification": {
+    "domain": "automation-integrations",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Houndstooth is a personal job-application automation pipeline: it scrapes job postings from direct ATS APIs (Greenhouse, Lever, Ashby, Workday) and job boards via JobSpy, scores fit with Claude Haiku, drafts tailored resumes/cover letters with Claude Sonnet constrained to an allowlist of the candidate's own pre-written bullets (an anti-fabrication guardrail), renders and verifies the DOCX output, and delivers a daily emailed digest with Google Drive links. Built for a single user's own job search in Python, it has run unattended in GitHub Actions production daily since July 2026, using an external cron trigger to work around GitHub's unreliable schedule trigger. The public repo ships only the engineering (scraping, scoring, guardrails, delivery) with example/fictional data, not the private live data.",
+    "keywords": [
+      "anti-fabrication",
+      "automation",
+      "career-ops",
+      "claude-api",
+      "docx",
+      "github-actions",
+      "job-search",
+      "resume-generation",
+      "scraping"
+    ],
+    "use_cases": [
+      {
+        "title": "Automate scraping and LLM fit-scoring of job postings from ATS APIs and job boards",
+        "keywords": [
+          "job-search",
+          "scraping"
+        ]
+      },
+      {
+        "title": "Generate tailored resumes and cover letters constrained to a candidate's real, pre-approved bullet points",
+        "keywords": [
+          "anti-fabrication",
+          "resume-generation"
+        ]
+      },
+      {
+        "title": "Deliver a daily job-search digest with verified document links via email and Google Drive",
+        "keywords": [
+          "automation",
+          "career-ops"
+        ]
+      },
+      {
+        "title": "Run a scrape-score-draft-verify-deliver pipeline unattended on a schedule in CI",
+        "keywords": [
+          "automation",
+          "github-actions"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

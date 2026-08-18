@@ -1,0 +1,81 @@
+{
+  "fork": {
+    "full_name": "tbalt88/repo-tracker",
+    "url": "https://github.com/tbalt88/repo-tracker",
+    "created_at": "2026-06-11T20:01:01Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-19T08:08:23Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 38,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/repo-tracker",
+    "url": "https://github.com/tbalt88/repo-tracker",
+    "description": "Local Repo Tracker",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-06-11T20:01:01Z",
+    "pushed_at": "2026-07-19T08:08:23Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:53:09Z",
+    "metadata_refreshed_at": "2026-08-18T17:53:09Z",
+    "actions_checked_at": "2026-08-18T17:53:08Z",
+    "signals": [
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "JavaScript": 26417
+    },
+    "inputs_prepared_at": "2026-08-18T17:55:21Z"
+  },
+  "classification": {
+    "domain": "dev-tooling",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "repo-tracker is a personal GitHub automation tool that generates an auto-updated index and dashboard of all of a user's repositories, including fork-sync status against upstream (auto-rebase vs. conflict needing manual fix). A Node.js script (`scripts/sync.js`) runs on a GitHub Actions schedule to rebase forks where possible, flag conflicts, and write a summary table (repo counts, stars, languages, sync status) into both a JSON index and a profile README embed. Built for the owner's own use to keep dozens of tracked forks up to date and surface which ones need manual attention.",
+    "keywords": [
+      "automation",
+      "dashboard",
+      "fork-sync",
+      "github-actions",
+      "github-forks",
+      "node",
+      "profile-readme"
+    ],
+    "use_cases": [
+      {
+        "title": "Auto-rebase tracked GitHub forks against upstream on a schedule and flag merge conflicts",
+        "keywords": [
+          "fork-sync",
+          "github-actions"
+        ]
+      },
+      {
+        "title": "Generate a live repo-index dashboard embedded in a GitHub profile README",
+        "keywords": [
+          "dashboard",
+          "profile-readme"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

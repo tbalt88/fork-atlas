@@ -1,0 +1,95 @@
+{
+  "fork": {
+    "full_name": "tbalt88/second-brain-template",
+    "url": "https://github.com/tbalt88/second-brain-template",
+    "created_at": "2026-07-24T16:19:16Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-24T18:05:09Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/second-brain-template",
+    "url": "https://github.com/tbalt88/second-brain-template",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-07-24T16:19:16Z",
+    "pushed_at": "2026-07-24T18:05:09Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:52:50Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:50Z",
+    "actions_checked_at": "2026-08-18T17:52:49Z",
+    "signals": [],
+    "languages": {
+      "Python": 307985,
+      "Shell": 27244
+    },
+    "inputs_prepared_at": "2026-08-18T17:55:23Z"
+  },
+  "classification": {
+    "domain": "knowledge-productivity",
+    "form": "template",
+    "maturity": "production",
+    "analysis": "second-brain-template is the public, fictional-data version of the owner's AI-operated Obsidian vault: a folder skeleton, slash-command engine (ported to both Claude Code skills and Gemini CLI commands), and written operating rules (self-contained notes, mandatory frontmatter, cross-links, confidence levels, a Debrief Protocol requiring file:line citations) so an AI agent can read and write the vault reliably across sessions. It syncs one-way from a companion Memory Bridge MCP server for atomic facts, ships a retrieval-eval harness measuring recall@10/MRR against a frozen case set, and enforces staged-then-triaged memory formation via Claude Code hooks (PostCompact capture, Stop-hook blocking) rather than a single unchecked save action. Aimed at builders who want an agent-agnostic, measurably reliable personal knowledge base rather than a note app built for human browsing.",
+    "keywords": [
+      "agent-memory",
+      "claude-code-skill",
+      "gemini-cli",
+      "memory",
+      "obsidian",
+      "pkm",
+      "retrieval-eval",
+      "second-brain",
+      "template"
+    ],
+    "use_cases": [
+      {
+        "title": "Bootstrap an AI-operated Obsidian vault with agent-agnostic slash commands and note rules",
+        "keywords": [
+          "obsidian",
+          "pkm"
+        ]
+      },
+      {
+        "title": "Measure and improve note retrieval quality with a recall@k / MRR eval harness",
+        "keywords": [
+          "pkm",
+          "retrieval-eval"
+        ]
+      },
+      {
+        "title": "Enforce staged, triaged memory formation instead of unchecked auto-save via session hooks",
+        "keywords": [
+          "agent-memory",
+          "claude-code-skill"
+        ]
+      },
+      {
+        "title": "Give both Claude Code and Gemini CLI the same vault commands and operating rules",
+        "keywords": [
+          "claude-code-skill",
+          "gemini-cli"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

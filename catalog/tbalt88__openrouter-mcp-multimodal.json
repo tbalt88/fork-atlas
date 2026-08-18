@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:10Z",
-    "metadata_refreshed_at": "2026-08-18T16:54:12Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:52Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -111,5 +111,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

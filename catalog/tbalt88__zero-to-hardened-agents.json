@@ -1,0 +1,109 @@
+{
+  "fork": {
+    "full_name": "tbalt88/zero-to-hardened-agents",
+    "url": "https://github.com/tbalt88/zero-to-hardened-agents",
+    "created_at": "2026-06-30T05:10:02Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-07T01:01:03Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/zero-to-hardened-agents",
+    "url": "https://github.com/tbalt88/zero-to-hardened-agents",
+    "description": "An 8-stage, hands-on curriculum from your first LLM API call to a hardened, hybrid cloud/local multi-agent system — built live, with every real bug found along the way documented, not hidden.",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "Python",
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "chromadb",
+      "gemini",
+      "llm",
+      "multi-agent-systems",
+      "prompt-injection",
+      "rag",
+      "tutorial"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-06-30T05:10:02Z",
+    "pushed_at": "2026-07-07T01:01:03Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:53:02Z",
+    "metadata_refreshed_at": "2026-08-18T17:53:02Z",
+    "actions_checked_at": "2026-08-18T17:53:02Z",
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 179861,
+      "Shell": 716
+    },
+    "inputs_prepared_at": "2026-08-18T17:55:25Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "zero-to-hardened-agents is an 8-stage, hands-on Python curriculum taking a learner from a raw LLM API call to a hardened, hybrid cloud/local multi-agent system, with each stage runnable and verifiable on its own: basic API calls, a first RAG app that refuses to hallucinate outside its sources, manual tool-calling, real vector search with ChromaDB, a multi-tab Gradio agentic app, a multi-agent DAG with a runaway-loop governor, a cloud/local hybrid router with failover, and an automated adversarial test suite (prompt injection, RAG poisoning, PII containment) mapped to the OWASP Top 10 for LLM Applications. Notably built as a real two-agent collaboration (Gemini/Antigravity for architecture planning, Claude Code as the sole code-writer) with a full logged handoff history, and every real bug hit along the way documented rather than hidden.",
+    "keywords": [
+      "agentic-ai",
+      "chromadb",
+      "curriculum",
+      "hybrid-router",
+      "multi-agent",
+      "owasp",
+      "prompt-injection",
+      "rag",
+      "tutorial"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn to build a multi-agent system step by step from a raw LLM call to a hardened deployment",
+        "keywords": [
+          "curriculum",
+          "multi-agent"
+        ]
+      },
+      {
+        "title": "Reference a runaway-loop governor pattern for multi-agent DAG orchestration",
+        "keywords": [
+          "agentic-ai",
+          "multi-agent"
+        ]
+      },
+      {
+        "title": "Build an adversarial test suite against prompt injection and RAG poisoning for your own agent",
+        "keywords": [
+          "owasp",
+          "prompt-injection"
+        ]
+      },
+      {
+        "title": "Route queries between a cloud LLM and a local Ollama model based on sensitivity and complexity",
+        "keywords": [
+          "hybrid-router",
+          "rag"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -1,0 +1,113 @@
+{
+  "fork": {
+    "full_name": "tbalt88/DVerse",
+    "url": "https://github.com/tbalt88/DVerse",
+    "created_at": "2026-07-27T23:17:30Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-14T18:18:37Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/DVerse",
+    "url": "https://github.com/tbalt88/DVerse",
+    "description": "Governed, pro-code agentic development for Microsoft Dataverse: eleven AI SDLC gates mechanically refuse ungated Power Platform output, with a structural diff engine, an auditable refusal ledger, and six receipted golden imports.",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "C#",
+    "topics": [
+      "agentic-development",
+      "ai-sdlc",
+      "alm",
+      "canvas-apps",
+      "ci-cd",
+      "claude",
+      "dataverse",
+      "governance",
+      "model-driven-apps",
+      "plugin-development",
+      "power-platform",
+      "powerapps",
+      "solution-management",
+      "structural-diff",
+      "verification"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-07-27T23:17:30Z",
+    "pushed_at": "2026-08-14T18:18:37Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:52:47Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:47Z",
+    "actions_checked_at": "2026-08-18T17:52:46Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "C#": 518269
+    },
+    "inputs_prepared_at": "2026-08-18T17:55:14Z"
+  },
+  "classification": {
+    "domain": "business-apps",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "DVerse is a governed AI-SDLC harness for building Microsoft Dataverse / Power Platform solutions with AI agents: eleven code-enforced verification gates mechanically refuse ungated declarative artifacts (solution XML, FormXML, canvas app YAML) before they ship, backed by a structural diff engine, an append-only refusal ledger, and receipted golden imports into a live Dataverse environment. It targets Power Platform architects and AI-SDLC practitioners who want machine-enforced governance over AI-generated low-code output rather than human review. Built in C# with GitHub Actions CI (offline and online gate tiers) and a companion `dv-architect` Claude Code skill that encodes every burned lesson as a citable rule.",
+    "keywords": [
+      "ai-sdlc",
+      "canvas-apps",
+      "ci-cd",
+      "claude-code-skill",
+      "dataverse",
+      "dynamics-365",
+      "governance",
+      "power-platform",
+      "structural-diff",
+      "verification-gates"
+    ],
+    "use_cases": [
+      {
+        "title": "Mechanically block AI-generated Dataverse solutions that break platform rules before import",
+        "keywords": [
+          "dataverse",
+          "governance"
+        ]
+      },
+      {
+        "title": "Diff two versions of a Power Platform solution tree and refuse silent structural changes",
+        "keywords": [
+          "power-platform",
+          "structural-diff"
+        ]
+      },
+      {
+        "title": "Give an AI coding agent a domain skill so it builds plugins and canvas apps under enforced Dataverse rules",
+        "keywords": [
+          "claude-code-skill",
+          "dataverse"
+        ]
+      },
+      {
+        "title": "Run offline/online CI gates over Power Platform artifacts on every PR with zero stored credentials",
+        "keywords": [
+          "ai-sdlc",
+          "ci-cd"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

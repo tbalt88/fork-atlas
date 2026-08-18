@@ -15,7 +15,7 @@
     "full_name": "EbookFoundation/free-programming-books",
     "url": "https://github.com/EbookFoundation/free-programming-books",
     "description": ":books: Freely available programming books",
-    "stars": 394681,
+    "stars": 394685,
     "forks": 66671,
     "watchers": 9798,
     "open_issues": 81,
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:13Z",
-    "metadata_refreshed_at": "2026-08-18T16:57:32Z",
+    "metadata_refreshed_at": "2026-08-18T17:54:50Z",
     "signals": [
       "gh-actions"
     ],
@@ -90,5 +90,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

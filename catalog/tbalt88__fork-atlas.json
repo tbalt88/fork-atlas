@@ -1,0 +1,117 @@
+{
+  "fork": {
+    "full_name": "tbalt88/fork-atlas",
+    "url": "https://github.com/tbalt88/fork-atlas",
+    "created_at": "2026-08-18T02:21:11Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-18T16:58:49Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 1,
+      "failing_scheduled": [
+        "Fork Atlas — discover & publish"
+      ]
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/fork-atlas",
+    "url": "https://github.com/tbalt88/fork-atlas",
+    "description": "Living Domain×Form matrix of every repo I've forked, with one-shot LLM abstraction + use cases. Self-updating via Actions, viewable on Pages.",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "JavaScript",
+    "topics": [
+      "aidlc",
+      "bm25",
+      "catalog",
+      "claude",
+      "developer-tools",
+      "github-actions",
+      "github-forks",
+      "github-pages",
+      "knowledge-management",
+      "llm",
+      "obsidian",
+      "ollama",
+      "personal-knowledge",
+      "rag",
+      "static-site"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-08-18T02:21:11Z",
+    "pushed_at": "2026-08-18T16:58:49Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:52:20Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:20Z",
+    "actions_checked_at": "2026-08-18T17:52:20Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "JavaScript": 48089,
+      "HTML": 35167,
+      "Python": 32335
+    },
+    "inputs_prepared_at": "2026-08-18T17:55:17Z"
+  },
+  "classification": {
+    "domain": "knowledge-productivity",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "fork-atlas is a self-updating, server-less catalog of every GitHub repo the owner has forked, classified into a Domain x Form matrix with a one-shot write-once LLM classification pass and keyword-tagged use cases. It runs entirely on GitHub Actions (discovery/build with only the built-in GITHUB_TOKEN) and GitHub Pages (a vanilla-JS static site with no build step), and includes an assistant page that answers 'which of my forks fit project X' via a two-stage BM25-then-LLM retrieval pipeline against Ollama, an Anthropic API key, or no LLM at all, all provider credentials kept client-side. It is aimed at a solo builder who wants a searchable, governed memory of hundreds of forked repositories without a database or backend server.",
+    "keywords": [
+      "bm25",
+      "catalog",
+      "github-actions",
+      "github-forks",
+      "github-pages",
+      "llm-classification",
+      "ollama",
+      "personal-knowledge",
+      "rag",
+      "static-site"
+    ],
+    "use_cases": [
+      {
+        "title": "Classify hundreds of forked GitHub repos into a searchable domain/form taxonomy automatically",
+        "keywords": [
+          "github-forks",
+          "llm-classification"
+        ]
+      },
+      {
+        "title": "Ask a static assistant page which of my forks best fit a new project brief",
+        "keywords": [
+          "bm25",
+          "rag"
+        ]
+      },
+      {
+        "title": "Run repo discovery and classification with no server, database, or stored secrets",
+        "keywords": [
+          "github-actions",
+          "github-pages"
+        ]
+      },
+      {
+        "title": "Retrieve candidate repos locally via Ollama before falling back to a cloud LLM",
+        "keywords": [
+          "ollama",
+          "rag"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

@@ -9,8 +9,8 @@
 
 *This system is part of the working record behind my [AIDLC series](https://www.linkedin.com/in/dexterdomingo/) on AI-driven development.*
 
-A self-updating catalog of every GitHub repository I have forked, classified into a
-Domain x Form matrix with a one-shot LLM abstraction and keyword-tagged use cases, plus an
+A self-updating catalog of every GitHub repository I have forked (plus my own public repos,
+marked "own"), classified into a Domain x Form matrix with a one-shot LLM abstraction and keyword-tagged use cases, plus an
 assistant page that answers "I want to build X that does a, b, c. Which of my forks apply,
 and why?" from that catalog. It runs on GitHub Actions and Pages with no server, no
 database, and no secrets in the repo.

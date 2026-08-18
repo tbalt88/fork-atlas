@@ -1,0 +1,98 @@
+{
+  "fork": {
+    "full_name": "tbalt88/agentic-crm-support-architecture",
+    "url": "https://github.com/tbalt88/agentic-crm-support-architecture",
+    "created_at": "2026-07-11T07:21:54Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-17T01:46:28Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/agentic-crm-support-architecture",
+    "url": "https://github.com/tbalt88/agentic-crm-support-architecture",
+    "description": "Enterprise-grade AI safety patterns for customer support workflows: deterministic classification with LLM fallbacks, guarded RAG with trust scoring, and human-in-the-loop approval with full audit trails",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-07-11T07:21:54Z",
+    "pushed_at": "2026-07-17T01:46:28Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:52:55Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:55Z",
+    "actions_checked_at": "2026-08-18T17:52:54Z",
+    "signals": [
+      "node"
+    ],
+    "languages": {
+      "JavaScript": 97010,
+      "HTML": 13004,
+      "PLpgSQL": 3147
+    },
+    "inputs_prepared_at": "2026-08-18T17:55:13Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "A Node.js reference architecture demonstrating production-grade AI safety patterns for customer-support automation: a three-stage pipeline (deterministic classification with LLM confidence scoring and rule-based fallback, trust-scored guarded RAG against a knowledge base, and mandatory human-in-the-loop approval) with a full audit trail. It targets engineers designing safe LLM-driven support workflows, using Anthropic's Claude API with a zero-setup JSON file backend or an optional transactional Postgres backend, a colorized CLI demo, and a local operator dashboard web UI. Notably it degrades gracefully to a rule-based fallback when no API key is configured, and enforces audit-trail immutability via a Postgres trigger.",
+    "keywords": [
+      "ai-safety",
+      "audit-trail",
+      "classification",
+      "claude-api",
+      "customer-support",
+      "guarded-rag",
+      "human-in-the-loop",
+      "postgres",
+      "rag"
+    ],
+    "use_cases": [
+      {
+        "title": "Prototype a safe AI customer-support triage pipeline with human approval on high-risk actions",
+        "keywords": [
+          "customer-support",
+          "human-in-the-loop"
+        ]
+      },
+      {
+        "title": "Add trust-scored RAG filtering to prevent knowledge-base poisoning in a support bot",
+        "keywords": [
+          "guarded-rag",
+          "rag"
+        ]
+      },
+      {
+        "title": "Reference a compliance-ready audit trail pattern for LLM-driven decision systems",
+        "keywords": [
+          "audit-trail",
+          "compliance"
+        ]
+      },
+      {
+        "title": "Fall back to deterministic rule-based classification when no LLM API key is present",
+        "keywords": [
+          "ai-safety",
+          "classification"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

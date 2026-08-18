@@ -3,7 +3,10 @@
 
 const STOP = new Set(('a an the and or of to for in on with by from at as is are be this that it its into your our we i you ' +
   'want need build make create app application project using use used which what how can should would like give me some ' +
-  'via per over under about than then also more most very just really so do does done have has had will not no yes').split(' '));
+  'via per over under about than then also more most very just really so do does done have has had will not no yes ' +
+  'common ability able throughout multiple several various across between different new good best simple easy full whole ' +
+  'entire every all each other own way ways thing things kind sort lot lots need needs able allow allows let lets ' +
+  'get gets set sets put take takes without within around out up down there here where when while whether if any').split(' '));
 
 export function tokenize(text) {
   return String(text || '').toLowerCase()
@@ -20,6 +23,53 @@ function stem(t) {
   return t.replace(/(ations?|izations?|isations?)$/, 'ate').replace(/(ings?|ers?|ed|es|s)$/, '');
 }
 
+// Query-side expansion only (documents are never expanded): concept words a person types map to the
+// vocabulary the catalog actually uses. Keeps BM25 honest for briefs like "context fabric" that never
+// say "memory". Small on purpose; extend when a real miss shows up.
+const EXPAND = {
+  context: ['memory', 'context-persistence', 'knowledge-base'],
+  fabric: ['memory', 'sync', 'cross-surface', 'mcp', 'knowledge-base'],
+  knowledge: ['memory', 'knowledge-base', 'rag', 'vault', 'notes'],
+  share: ['shared', 'sync', 'multi-agent', 'team'],
+  shared: ['sync', 'multi-agent', 'team', 'memory'],
+  agents: ['agent', 'multi-agent', 'mcp'],
+  agent: ['agents', 'multi-agent', 'mcp'],
+  computers: ['machines', 'cross-machine', 'sync', 'remote', 'self-hosted'],
+  machines: ['computers', 'cross-machine', 'sync', 'remote'],
+  remember: ['memory', 'persistence'],
+  persistent: ['memory', 'persistence', 'storage'],
+  voice: ['speech', 'tts', 'stt', 'transcription', 'audio'],
+  speech: ['voice', 'tts', 'stt', 'transcription'],
+  transcribe: ['transcription', 'stt', 'whisper', 'speech'],
+  video: ['video-generation', 'diffusion', 'ffmpeg'],
+  image: ['image-generation', 'diffusion', 'vision'],
+  scrape: ['scraping', 'crawler', 'extraction'],
+  scrapes: ['scraping', 'crawler', 'extraction'],
+  email: ['smtp', 'newsletter', 'mail'],
+  chatbot: ['chat', 'assistant', 'llm', 'agent'],
+  dashboard: ['ui', 'web-ui', 'analytics', 'visualization'],
+  automate: ['automation', 'workflow', 'orchestration'],
+  automation: ['workflow', 'orchestration', 'n8n'],
+  finetune: ['fine-tuning', 'training', 'lora'],
+  train: ['training', 'fine-tuning'],
+  security: ['pentest', 'vulnerability', 'scanning', 'auth'],
+  crm: ['dynamics', 'dataverse', 'power-platform', 'sales'],
+  seo: ['keyword-research', 'marketing', 'backlinks'],
+};
+// index EXPAND by stemmed key so lookups match tokenizer output
+const EXPAND_STEMMED = new Map();
+for (const [k, vals] of Object.entries(EXPAND)) {
+  const key = tokenize(k)[0]; if (!key) continue;
+  const set = EXPAND_STEMMED.get(key) || new Set();
+  vals.forEach(v => tokenize(v).forEach(s => set.add(s)));
+  EXPAND_STEMMED.set(key, set);
+}
+export function expandQuery(tokens) {
+  const out = new Set(tokens);
+  for (const t of tokens) (EXPAND_STEMMED.get(t) || []).forEach(s => out.add(s));
+  return [...out];
+}
+
 export class BM25 {
   constructor(items, fields) {
     this.items = items;
@@ -31,18 +81,22 @@ export class BM25 {
     this.N = items.length;
   }
   idf(t) { const n = this.df.get(t) || 0; return Math.log(1 + (this.N - n + 0.5) / (n + 0.5)); }
-  score(queryTokens, i) {
+  score(queryTokens, i) { return this.scoreW(queryTokens, () => 1, i); }
+  scoreW(queryTokens, weight, i) {
     const tf = this.tf[i], dl = this.docs[i].length; let s = 0;
     for (const t of queryTokens) {
       const f = tf.get(t); if (!f) continue;
-      s += this.idf(t) * (f * (this.k1 + 1)) / (f + this.k1 * (1 - this.b + this.b * dl / this.avgdl));
+      s += weight(t) * this.idf(t) * (f * (this.k1 + 1)) / (f + this.k1 * (1 - this.b + this.b * dl / this.avgdl));
     }
     return s;
   }
   search(query, n = 40, boost = null) {
-    const q = [...new Set(tokenize(query))];
-    if (!q.length) return [];
-    const scored = this.items.map((it, i) => ({ item: it, score: this.score(q, i) * (boost ? boost(it) : 1) }))
+    const base = [...new Set(tokenize(query))];
+    if (!base.length) return [];
+    // expanded terms get half weight so they widen recall without outranking literal matches
+    const q = expandQuery(base);
+    const w = t => (base.includes(t) ? 1 : 0.5);
+    const scored = this.items.map((it, i) => ({ item: it, score: this.scoreW(q, w, i) * (boost ? boost(it) : 1) }))
       .filter(r => r.score > 0).sort((a, b) => b.score - a.score);
     return scored.slice(0, n);
   }

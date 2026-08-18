@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:37Z",
-    "metadata_refreshed_at": "2026-08-18T16:56:23Z",
+    "metadata_refreshed_at": "2026-08-18T17:54:15Z",
     "signals": [
       "docker",
       "make",
@@ -89,5 +89,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

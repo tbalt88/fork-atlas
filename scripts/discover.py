@@ -60,6 +60,8 @@ def main() -> int:
     ap.add_argument("--user", default="tbalt88")
     ap.add_argument("--limit", type=int, default=0, help="stop after N forks (debug)")
     ap.add_argument("--recheck-actions", action="store_true", help="re-probe Actions state on every fork now (default: weekly)")
+    ap.add_argument("--include-owned", action=argparse.BooleanOptionalAction, default=True,
+                    help="also catalog the user's own PUBLIC non-fork repos as relation=owner (default: on)")
     args = ap.parse_args()
 
     CATALOG.mkdir(exist_ok=True)
@@ -69,7 +71,8 @@ def main() -> int:
 
     print(f"Listing repos for {args.user} ...")
     for repo in gh_paginate(f"/users/{args.user}/repos", {"type": "owner", "sort": "created"}):
-        if not repo.get("fork"):
+        is_fork = bool(repo.get("fork"))
+        if not is_fork and not args.include_owned:
             continue
         full = repo["full_name"]
         seen.add(full)
@@ -78,12 +81,16 @@ def main() -> int:
 
         # /users/:u/repos omits `parent`; fetch the repo itself to get upstream.
         detail = gh_get(f"/repos/{full}") or {}
-        parent = detail.get("parent")
-        # `parent` from /repos/:o/:r is not the full object (no topics/subscribers) -> fetch upstream directly.
-        if parent:
-            up_full = parent["full_name"]
-            up = gh_get(f"/repos/{up_full}")
-            parent = up or parent
+        if is_fork:
+            parent = detail.get("parent")
+            # `parent` from /repos/:o/:r is not the full object (no topics/subscribers) -> fetch upstream directly.
+            if parent:
+                up_full = parent["full_name"]
+                up = gh_get(f"/repos/{up_full}")
+                parent = up or parent
+        else:
+            # owned (non-fork) repo: it IS its own upstream. Public repos only (this endpoint returns public).
+            parent = detail or repo
 
         fork_block = {
             "full_name": full,
@@ -115,6 +122,7 @@ def main() -> int:
             rec = existing[full]
             before = json.dumps({k: v for k, v in rec.items() if k != "meta"}, sort_keys=True)
             rec["fork"] = fork_block
+            rec["relation"] = "fork" if is_fork else "owner"
             # keep any previously seen upstream identity if it disappeared
             if upstream.get("deleted") and not rec["upstream"].get("deleted"):
                 rec["upstream"]["deleted"] = True
@@ -133,6 +141,7 @@ def main() -> int:
         else:
             rec = {
                 "fork": fork_block,
+                "relation": "fork" if is_fork else "owner",
                 "upstream": upstream,
                 "meta": {
                     "discovered_at": now_iso(),
@@ -146,7 +155,7 @@ def main() -> int:
             }
             save_record(rec)
             new += 1
-            print(f"  + new fork: {full}  (upstream: {upstream.get('full_name', '?')})")
+            print(f"  + new {'fork' if is_fork else 'owned repo'}: {full}" + (f"  (upstream: {upstream.get('full_name', '?')})" if is_fork else ""))
 
     gone = 0
     for full, rec in existing.items():

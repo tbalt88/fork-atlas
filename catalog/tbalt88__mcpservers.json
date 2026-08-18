@@ -15,7 +15,7 @@
     "full_name": "modelcontextprotocol/servers",
     "url": "https://github.com/modelcontextprotocol/servers",
     "description": "Model Context Protocol Servers",
-    "stars": 89661,
+    "stars": 89662,
     "forks": 11474,
     "watchers": 634,
     "open_issues": 524,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:23Z",
-    "metadata_refreshed_at": "2026-08-18T16:57:47Z",
+    "metadata_refreshed_at": "2026-08-18T17:55:01Z",
     "signals": [
       "claude-md",
       "docker",
@@ -92,5 +92,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

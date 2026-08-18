@@ -1,0 +1,64 @@
+{
+  "fork": {
+    "full_name": "tbalt88/flying-monkey",
+    "url": "https://github.com/tbalt88/flying-monkey",
+    "created_at": "2016-07-19T17:33:32Z",
+    "default_branch": "master",
+    "pushed_at": "2016-07-19T17:33:32Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/flying-monkey",
+    "url": "https://github.com/tbalt88/flying-monkey",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "language": null,
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2016-07-19T17:33:32Z",
+    "pushed_at": "2016-07-19T17:33:32Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:55:11Z",
+    "metadata_refreshed_at": "2026-08-18T17:55:11Z",
+    "actions_checked_at": "2026-08-18T17:55:11Z",
+    "signals": [],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T17:55:16Z"
+  },
+  "classification": {
+    "domain": "misc",
+    "form": "reference",
+    "maturity": "toy",
+    "analysis": "flying-monkey is an empty placeholder repository from 2016, containing only a single-line README with the repo's name and nothing else. There is no code, description, language, or topic metadata, so no real functionality or purpose can be determined.",
+    "keywords": [
+      "empty",
+      "placeholder",
+      "stub"
+    ],
+    "use_cases": [
+      {
+        "title": "No practical use case; repository contains no content",
+        "keywords": [
+          "empty"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

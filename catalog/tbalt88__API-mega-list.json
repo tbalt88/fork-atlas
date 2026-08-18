@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:08Z",
-    "metadata_refreshed_at": "2026-08-18T16:57:23Z",
+    "metadata_refreshed_at": "2026-08-18T17:54:46Z",
     "signals": [],
     "languages": {
       "JavaScript": 37100
@@ -101,5 +101,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

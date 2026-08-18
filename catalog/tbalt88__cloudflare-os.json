@@ -15,7 +15,7 @@
     "full_name": "cloudflare/cloudflare-os",
     "url": "https://github.com/cloudflare/cloudflare-os",
     "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
-    "stars": 8553,
+    "stars": 8555,
     "forks": 952,
     "watchers": 29,
     "open_issues": 84,
@@ -25,13 +25,13 @@
     "homepage": "https://os.cloudflare.app",
     "default_branch": "main",
     "created_at": "2026-04-15T22:22:53Z",
-    "pushed_at": "2026-08-18T16:38:42Z",
+    "pushed_at": "2026-08-18T17:47:01Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:47Z",
-    "metadata_refreshed_at": "2026-08-18T16:53:31Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:26Z",
     "signals": [
       "claude-skill",
       "gh-actions",
@@ -89,5 +89,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

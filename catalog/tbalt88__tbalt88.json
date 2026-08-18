@@ -1,0 +1,67 @@
+{
+  "fork": {
+    "full_name": "tbalt88/tbalt88",
+    "url": "https://github.com/tbalt88/tbalt88",
+    "created_at": "2026-02-14T08:25:14Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-24T19:43:27Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/tbalt88",
+    "url": "https://github.com/tbalt88/tbalt88",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-02-14T08:25:14Z",
+    "pushed_at": "2026-07-24T19:43:27Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:53:54Z",
+    "metadata_refreshed_at": "2026-08-18T17:53:54Z",
+    "actions_checked_at": "2026-08-18T17:53:53Z",
+    "signals": [],
+    "languages": {},
+    "inputs_prepared_at": "2026-08-18T17:55:24Z"
+  },
+  "classification": {
+    "domain": "misc",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "This is the owner's GitHub profile README repository (special `tbalt88/tbalt88` repo), containing a bio and portfolio summary of an AI enterprise architect building governed agentic AI systems (agentic-crm-support-architecture, houndstooth, memory-bridge-mcp, zero-to-hardened-agents, DexEvo Travel, Scanner), plus an auto-updated dashboard block injected daily by repo-tracker showing repo counts, fork-sync status, top languages, and recently updated repos. It functions purely as a personal landing page and portfolio index, not a runnable project.",
+    "keywords": [
+      "bio",
+      "github-profile",
+      "personal-branding",
+      "portfolio",
+      "repo-tracker"
+    ],
+    "use_cases": [
+      {
+        "title": "Present a personal AI-architecture portfolio and bio on a GitHub profile page",
+        "keywords": [
+          "github-profile",
+          "portfolio"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

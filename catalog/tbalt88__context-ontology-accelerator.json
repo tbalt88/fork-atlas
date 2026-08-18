@@ -15,23 +15,23 @@
     "full_name": "aws/context-ontology-accelerator",
     "url": "https://github.com/aws/context-ontology-accelerator",
     "description": "An open-source, ontology-based semantic context accelerator that enables AI agents to make more accurate, consistent, and explainable decisions.",
-    "stars": 507,
+    "stars": 508,
     "forks": 49,
     "watchers": 11,
-    "open_issues": 19,
+    "open_issues": 18,
     "language": "Python",
     "topics": [],
     "license": "Apache-2.0",
     "homepage": "https://aws.github.io/context-ontology-accelerator/",
     "default_branch": "main",
     "created_at": "2026-07-28T22:59:24Z",
-    "pushed_at": "2026-08-17T22:16:33Z",
+    "pushed_at": "2026-08-18T17:26:12Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:05Z",
-    "metadata_refreshed_at": "2026-08-18T16:54:04Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:44Z",
     "signals": [
       "gh-actions",
       "make",
@@ -98,5 +98,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

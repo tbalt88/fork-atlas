@@ -1,0 +1,81 @@
+{
+  "fork": {
+    "full_name": "tbalt88/kevinwatt_yt-dlp-mcp",
+    "url": "https://github.com/tbalt88/kevinwatt_yt-dlp-mcp",
+    "created_at": "2025-12-02T19:08:34Z",
+    "default_branch": "main",
+    "pushed_at": "2025-05-14T02:32:39Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/kevinwatt_yt-dlp-mcp",
+    "url": "https://github.com/tbalt88/kevinwatt_yt-dlp-mcp",
+    "description": "Mirror of https://github.com/kevinwatt/yt-dlp-mcp",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-12-02T19:08:34Z",
+    "pushed_at": "2025-05-14T02:32:39Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:54:55Z",
+    "metadata_refreshed_at": "2026-08-18T17:54:55Z",
+    "actions_checked_at": "2026-08-18T17:54:55Z",
+    "signals": [
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "JavaScript": 9447
+    },
+    "inputs_prepared_at": "2026-08-18T17:55:19Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "dormant",
+    "analysis": "This is a mirror/fork of kevinwatt/yt-dlp-mcp, a Model Context Protocol server that wraps yt-dlp to give LLMs YouTube capabilities: listing and downloading subtitles in SRT format, and downloading videos at a chosen resolution to the user's Downloads folder. It's a small Node.js/TypeScript MCP server intended for use with MCP-compatible LLM clients such as Dive Desktop, installed via `npx`. Aimed at developers wiring YouTube content access into an AI agent without exposing tracking-based download paths.",
+    "keywords": [
+      "mcp",
+      "mcp-server",
+      "node",
+      "subtitles",
+      "video-download",
+      "youtube",
+      "yt-dlp"
+    ],
+    "use_cases": [
+      {
+        "title": "Let an LLM download YouTube subtitles or videos on request via MCP",
+        "keywords": [
+          "mcp",
+          "youtube"
+        ]
+      },
+      {
+        "title": "Add YouTube content retrieval as a tool for an MCP-compatible agent client",
+        "keywords": [
+          "mcp-server",
+          "video-download"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}

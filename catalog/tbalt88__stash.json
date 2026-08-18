@@ -18,7 +18,7 @@
     "stars": 314,
     "forks": 50,
     "watchers": 3,
-    "open_issues": 57,
+    "open_issues": 56,
     "language": "Python",
     "topics": [
       "agent-collaboration",
@@ -45,13 +45,13 @@
     "homepage": "https://www.joinstash.ai",
     "default_branch": "main",
     "created_at": "2026-02-12T04:36:24Z",
-    "pushed_at": "2026-08-18T08:56:13Z",
+    "pushed_at": "2026-08-18T17:21:53Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-08-18T16:54:23Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:59Z",
     "signals": [
       "claude-md",
       "docker",
@@ -121,5 +121,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

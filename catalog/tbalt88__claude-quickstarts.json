@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:08Z",
-    "metadata_refreshed_at": "2026-08-18T16:55:41Z",
+    "metadata_refreshed_at": "2026-08-18T17:53:49Z",
     "signals": [
       "claude-md",
       "claude-skill",
@@ -101,5 +101,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

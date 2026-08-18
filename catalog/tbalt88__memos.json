@@ -16,7 +16,7 @@
     "url": "https://github.com/usememos/memos",
     "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
     "stars": 62333,
-    "forks": 4668,
+    "forks": 4667,
     "watchers": 185,
     "open_issues": 45,
     "language": "Go",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:33Z",
-    "metadata_refreshed_at": "2026-08-18T16:54:53Z",
+    "metadata_refreshed_at": "2026-08-18T17:53:19Z",
     "signals": [
       "gh-actions",
       "go"
@@ -102,5 +102,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

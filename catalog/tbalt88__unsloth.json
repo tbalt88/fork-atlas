@@ -15,10 +15,10 @@
     "full_name": "unslothai/unsloth",
     "url": "https://github.com/unslothai/unsloth",
     "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-    "stars": 73519,
-    "forks": 6637,
+    "stars": 73525,
+    "forks": 6638,
     "watchers": 375,
-    "open_issues": 1301,
+    "open_issues": 1305,
     "language": "Python",
     "topics": [
       "agent",
@@ -46,13 +46,13 @@
     "homepage": "https://unsloth.ai/docs",
     "default_branch": "main",
     "created_at": "2023-11-29T16:50:09Z",
-    "pushed_at": "2026-08-18T16:42:52Z",
+    "pushed_at": "2026-08-18T17:49:47Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:44Z",
-    "metadata_refreshed_at": "2026-08-18T16:53:26Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:23Z",
     "signals": [
       "gh-actions"
     ],
@@ -123,5 +123,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

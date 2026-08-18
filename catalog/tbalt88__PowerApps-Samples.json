@@ -44,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:29Z",
-    "metadata_refreshed_at": "2026-08-18T16:57:59Z",
+    "metadata_refreshed_at": "2026-08-18T17:55:07Z",
     "signals": [
       "claude-md",
       "node",
@@ -105,5 +105,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

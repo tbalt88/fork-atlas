@@ -33,7 +33,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:44Z",
-    "metadata_refreshed_at": "2026-08-18T16:56:37Z",
+    "metadata_refreshed_at": "2026-08-18T17:54:22Z",
     "signals": [
       "gh-actions",
       "go",
@@ -93,5 +93,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

@@ -18,7 +18,7 @@
     "stars": 27851,
     "forks": 2922,
     "watchers": 184,
-    "open_issues": 544,
+    "open_issues": 546,
     "language": "Java",
     "topics": [
       "ai-agents",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:56Z",
-    "metadata_refreshed_at": "2026-08-18T16:53:47Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:35Z",
     "signals": [
       "claude-md",
       "docker",
@@ -120,5 +120,6 @@
     "classified_at": "2026-08-18T02:24:16Z",
     "model": "claude-code/sonnet-fanout"
   },
-  "status": "classified"
+  "status": "classified",
+  "relation": "fork"
 }

@@ -1,0 +1,99 @@
+{
+  "fork": {
+    "full_name": "tbalt88/memory-bridge-mcp",
+    "url": "https://github.com/tbalt88/memory-bridge-mcp",
+    "created_at": "2026-07-07T03:43:39Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-06T23:53:59Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "owner",
+  "upstream": {
+    "full_name": "tbalt88/memory-bridge-mcp",
+    "url": "https://github.com/tbalt88/memory-bridge-mcp",
+    "description": "Cross-surface personal memory system exposed as a remote MCP server (Cloudflare Workers + D1).",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-07-07T03:43:39Z",
+    "pushed_at": "2026-08-06T23:53:59Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T17:52:58Z",
+    "metadata_refreshed_at": "2026-08-18T17:52:58Z",
+    "actions_checked_at": "2026-08-18T17:52:58Z",
+    "signals": [
+      "gh-actions",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 54494,
+      "Shell": 5277
+    },
+    "inputs_prepared_at": "2026-08-18T17:55:20Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "production",
+    "analysis": "memory-bridge-mcp is a personal, cross-surface memory system exposed as a remote MCP server on Cloudflare Workers + D1, GitHub OAuth-gated to a single allowlisted user, reachable from claude.ai and Claude Code. It provides an eight-tool surface (ping, write, search, get, list_staged, update, delete, triage) implementing a staged-then-triaged write lifecycle so uncertain memories don't silently pollute the store, plus a documented boundary rule against its companion narrative vault (second-brain-template). Built on Cloudflare's official remote-mcp-github-oauth template with Vitest tests run against real D1 via Miniflare rather than mocks, it targets a single power user who wants durable atomic-fact recall shared across multiple AI agent surfaces.",
+    "keywords": [
+      "agent-memory",
+      "cloudflare-workers",
+      "d1",
+      "mcp",
+      "mcp-server",
+      "memory",
+      "oauth",
+      "personal-knowledge",
+      "typescript"
+    ],
+    "use_cases": [
+      {
+        "title": "Give multiple AI agent surfaces (claude.ai, Claude Code) shared durable memory of facts and decisions",
+        "keywords": [
+          "mcp",
+          "memory"
+        ]
+      },
+      {
+        "title": "Stage uncertain memory writes for later human triage instead of guessing a category",
+        "keywords": [
+          "agent-memory",
+          "mcp-server"
+        ]
+      },
+      {
+        "title": "Self-host a single-user, GitHub-OAuth-gated MCP memory server on Cloudflare Workers",
+        "keywords": [
+          "cloudflare-workers",
+          "oauth"
+        ]
+      },
+      {
+        "title": "Reference a real-D1-tested pattern for a remote MCP server built on Cloudflare's OAuth template",
+        "keywords": [
+          "d1",
+          "mcp-server"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-08-18T17:57:45Z",
+    "model": "claude-code/sonnet-fanout"
+  },
+  "status": "classified"
+}
