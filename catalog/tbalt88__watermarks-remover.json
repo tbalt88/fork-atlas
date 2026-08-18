@@ -10,8 +10,8 @@
     "full_name": "guillaumemeyer/watermarks-remover",
     "url": "https://github.com/guillaumemeyer/watermarks-remover",
     "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-    "stars": 13550,
-    "forks": 1485,
+    "stars": 13563,
+    "forks": 1487,
     "watchers": 60,
     "open_issues": 6,
     "language": "Python",
@@ -34,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:53Z",
-    "metadata_refreshed_at": "2026-08-18T02:11:53Z",
+    "metadata_refreshed_at": "2026-08-18T02:32:11Z",
     "signals": [
       "claude-skill",
       "docker",

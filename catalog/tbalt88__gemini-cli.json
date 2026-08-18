@@ -13,7 +13,7 @@
     "stars": 106543,
     "forks": 14440,
     "watchers": 577,
-    "open_issues": 776,
+    "open_issues": 777,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -34,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:22Z",
-    "metadata_refreshed_at": "2026-08-18T02:14:22Z",
+    "metadata_refreshed_at": "2026-08-18T02:34:30Z",
     "signals": [
       "claude-skill"
     ],

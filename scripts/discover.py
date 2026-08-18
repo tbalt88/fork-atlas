@@ -11,6 +11,7 @@ Usage: python scripts/discover.py [--user tbalt88] [--limit N]
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 
 from common import (all_records, gh_get, gh_paginate, load_record, now_iso, record_path,
@@ -85,6 +86,7 @@ def main() -> int:
 
         if full in existing:
             rec = existing[full]
+            before = json.dumps({k: v for k, v in rec.items() if k != "meta"}, sort_keys=True)
             rec["fork"] = fork_block
             # keep any previously seen upstream identity if it disappeared
             if upstream.get("deleted") and not rec["upstream"].get("deleted"):
@@ -92,11 +94,14 @@ def main() -> int:
                 rec["upstream"]["deleted_at"] = now_iso()
             else:
                 rec["upstream"] = upstream
-            rec["meta"]["metadata_refreshed_at"] = now_iso()
             if rec.get("status") == "gone":
                 rec["status"] = "classified" if rec.get("classification") else "unclassified"
-            save_record(rec)
-            updated += 1
+            after = json.dumps({k: v for k, v in rec.items() if k != "meta"}, sort_keys=True)
+            if before != after:
+                # only touch the file when a real fact changed -> quiet daily diffs
+                rec["meta"]["metadata_refreshed_at"] = now_iso()
+                save_record(rec)
+                updated += 1
         else:
             rec = {
                 "fork": fork_block,
@@ -123,7 +128,7 @@ def main() -> int:
             gone += 1
             print(f"  - fork no longer present: {full}")
 
-    print(f"Done. new={new} refreshed={updated} gone={gone} total={len(seen)}")
+    print(f"Done. new={new} changed={updated} gone={gone} total={len(seen)}")
     return 0
 
 

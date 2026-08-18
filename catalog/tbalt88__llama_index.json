@@ -10,7 +10,7 @@
     "full_name": "run-llama/llama_index",
     "url": "https://github.com/run-llama/llama_index",
     "description": "LlamaIndex is the leading document agent and OCR platform",
-    "stars": 51712,
+    "stars": 51714,
     "forks": 7954,
     "watchers": 279,
     "open_issues": 619,
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:21Z",
-    "metadata_refreshed_at": "2026-08-18T02:14:21Z",
+    "metadata_refreshed_at": "2026-08-18T02:34:29Z",
     "signals": [
       "gh-actions",
       "make"

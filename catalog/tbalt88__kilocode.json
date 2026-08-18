@@ -10,7 +10,7 @@
     "full_name": "Kilo-Org/kilocode",
     "url": "https://github.com/Kilo-Org/kilocode",
     "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
-    "stars": 26903,
+    "stars": 26904,
     "forks": 3065,
     "watchers": 109,
     "open_issues": 614,
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:23Z",
-    "metadata_refreshed_at": "2026-08-18T02:12:23Z",
+    "metadata_refreshed_at": "2026-08-18T02:32:40Z",
     "signals": [
       "gh-actions"
     ],

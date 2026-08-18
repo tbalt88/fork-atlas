@@ -10,7 +10,7 @@
     "full_name": "frappe/erpnext",
     "url": "https://github.com/frappe/erpnext",
     "description": "Free and Open Source Enterprise Resource Planning (ERP)",
-    "stars": 38199,
+    "stars": 38200,
     "forks": 12505,
     "watchers": 670,
     "open_issues": 1920,
@@ -43,7 +43,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:39Z",
-    "metadata_refreshed_at": "2026-08-18T02:12:39Z",
+    "metadata_refreshed_at": "2026-08-18T02:32:56Z",
     "signals": [
       "gh-actions",
       "node"
