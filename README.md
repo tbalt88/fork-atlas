@@ -104,7 +104,8 @@ flowchart TB
 Every box maps to a file. `scripts/common.py` holds the GitHub client and record helpers
 shared by the three scripts. `site/js/retrieval.js` is the BM25 index, `site/js/llm.js`
 the provider adapters, `site/js/prompts.js` the two prompts and JSON schemas,
-`site/js/board.js` the vault board loader, `site/js/agent.js` the orchestration.
+`site/js/board.js` the vault board loader, `site/js/private.js` the live private-repo
+merge, `site/js/agent.js` the orchestration.
 `.github/workflows/atlas.yml` is the whole CI.
 
 <p align="right">(<a href="#fork-atlas">back to top</a>)</p>
@@ -186,6 +187,11 @@ a property of the data, not a memory. 28 overrides exist today; the review queue
    GitHub search query; an architecture note; next actions. Ids the model cites are
    resolved leniently (small models drop the owner prefix), and every answer shows the exact
    records that were in context.
+
+Private repositories never enter the catalog. If a browser holds a read-only token for them,
+`private.js` lists them live from GitHub on load, merges them into the search index as
+"Private (live)" records, and pulls a README on demand when one is shortlisted for a
+question. Nothing about them is written to this repo or to Pages.
 
 Providers are tried in order on each device: Ollama on `localhost` (auto-detected, models
 picked from what is installed, structured output via `format`), an Anthropic key held in

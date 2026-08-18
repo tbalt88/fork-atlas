@@ -160,6 +160,12 @@
   <label>Repo</label><input type="text" id="bRepo">
   <label>Board path</label><input type="text" id="bPath">
   <label class="chk" style="margin-top:10px"><input type="checkbox" id="bEnabled"> enabled</label>
+  <h4>Private repos (live search)</h4>
+  <p class="muted">Lists your private repositories straight from GitHub on each load and merges them into search (matrix + assistant). Nothing is written to the repo or Pages. Needs a fine-grained token, <b>All repositories</b>, <b>Metadata + Contents: Read-only</b>. Use a separate token from the board one so each is independently revocable.</p>
+  <label>GitHub token (read-only, all repos)</label><input type="password" id="pToken" autocomplete="off" placeholder="github_pat_…">
+  <label class="chk" style="margin-top:10px"><input type="checkbox" id="pEnabled"> enabled</label>
+  <label class="chk" style="margin-top:6px"><input type="checkbox" id="pReadme"> fetch README on demand for shortlisted private repos (better answers, 1 call each, cached 24h)</label>
+  <label class="chk" style="margin-top:6px"><input type="checkbox" id="pForks"> include private forks</label>
   <h4>Anthropic (BYO key)</h4>
   <label>API key</label><input type="password" id="aKey" autocomplete="off" placeholder="sk-ant-…">
   <label>Shortlist model</label><input type="text" id="aShort">

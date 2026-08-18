@@ -3,6 +3,7 @@ import { BM25, rankForBrief, itemText, tokenize } from './retrieval.js';
 import { loadConfig, saveConfig, probeOllama, pickOllamaModels, resolveProvider, complete, DEFAULTS } from './llm.js';
 import { SHORTLIST_SCHEMA, ANSWER_SCHEMA, SHORTLIST_SYSTEM, ANSWER_SYSTEM, shortlistUser, answerUser } from './prompts.js';
 import { parseBoard, columnKind, fetchBoardLive, fetchBoardSnapshot, boardToProjects, readCache } from './board.js';
+import { fetchPrivateRepos, toItem as privateToItem, fetchReadme, clearPrivateCache } from './private.js';
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -10,6 +11,7 @@ const fmtDate = s => (s || '').slice(0, 10);
 const HIST_KEY = 'atlas.history.v1', VISIT_KEY = 'atlas.lastVisit';
 
 let matrix, items, byId, compactById, projects = [], boardProjects = [], index, cfg, active = { provider: null, status: {} }, abort;
+let privateItems = [], privateMeta = { state: 'off', text: '' };
 
 // ---------------------------------------------------------------- boot
 (async function boot() {
@@ -28,6 +30,7 @@ let matrix, items, byId, compactById, projects = [], boardProjects = [], index, 
   langs.forEach(l => { const o = document.createElement('option'); o.value = l; o.textContent = l; $('#lang').appendChild(o); });
   cfg = loadConfig();
   loadBoard();            // lazy: snapshot/cache first, live overlay when it arrives — never blocks the page
+  loadPrivate();          // lazy: private repos straight from GitHub (browser token), merged into search when they arrive
   await refreshProvider();
   localStorage.setItem(VISIT_KEY, new Date().toISOString());
   const q = new URLSearchParams(location.search).get('q'); if (q) { $('#brief').value = q; ask(); }
@@ -48,29 +51,49 @@ function renderKeeper() {
   const last = localStorage.getItem(VISIT_KEY);
   const since = last ? items.filter(i => i.forked_at > last) : [];
   const recent = items.filter(i => Date.now() - Date.parse(i.forked_at) < 7 * 864e5);
-  const unclassified = items.filter(i => i.status !== 'classified');
+  const unclassified = items.filter(i => i.status !== 'classified' && !i.private);
   const review = items.filter(i => i.needs_review);
   const usedIds = new Set([...projects.flatMap(p => p.uses || []), ...items.filter(i => i.pinned || i.note).map(i => i.id)]);
   const risky = items.filter(i => usedIds.has(i.id) && (i.archived || i.upstream_deleted || i.maturity === 'dormant'));
   const dormantAll = items.filter(i => i.archived || i.upstream_deleted).length;
-  const cronForks = items.filter(i => i.actions?.enabled && (i.actions.scheduled_runs || 0) > 0);
+  const cronForks = items.filter(i => (i.relation || 'fork') === 'fork' && i.actions?.enabled && (i.actions.scheduled_runs || 0) > 0);
   const cronFailing = cronForks.filter(i => (i.actions.failing_scheduled || []).length);
   const el = $('#keeper');
   const tile = (n, label, cls = '') => `<div class="tile ${cls}"><b>${n}</b><span>${label}</span></div>`;
   el.innerHTML = `<h2>Keeper</h2>
     <div class="tiles">
-      ${tile(items.length, 'forks tracked')}
+      ${tile(items.filter(i => !i.private).length, 'repos tracked')}
       ${tile(recent.length, 'forked last 7 days', recent.length ? 'ok' : '')}
       ${tile(unclassified.length, 'unclassified', unclassified.length ? 'warn' : '')}
       ${tile(review.length, 'need review', review.length ? 'warn' : '')}
       ${tile(dormantAll, 'archived / gone')}
       ${tile(cronForks.length, 'forks running upstream crons', cronForks.length ? 'warn' : 'ok')}
+      ${tile(privateItems.length, 'private repos (live, this browser)', privateMeta.state === 'error' ? 'warn' : privateItems.length ? 'ok' : '')}
       ${tile(`<span style="font-size:15px;line-height:1.5">${fmtDate(matrix.generated_at)}</span>`, 'catalog updated')}
     </div>
+    ${privateMeta.text ? `<div class="muted" style="margin-top:6px;font-size:11px;${privateMeta.state === 'error' ? 'color:var(--warn)' : ''}">${privateMeta.state === 'error' ? '⚠ ' : ''}${esc(privateMeta.text)}</div>` : ''}
     ${cronForks.length ? nag(`${cronForks.length} fork${cronForks.length > 1 ? 's' : ''} run upstream scheduled workflows on your account${cronFailing.length ? ` (${cronFailing.length} failing → emails)` : ''}: ${cronForks.slice(0, 6).map(i => esc(i.name)).join(', ')}${cronForks.length > 6 ? '…' : ''}. Say to Claude Code:`, PROMPTS.crons) : ''}
     ${since.length ? `<h2 style="margin-top:12px">New since your last visit${last ? ' (' + fmtDate(last) + ')' : ''}</h2><ul class="plain">${since.slice(0, 8).map(i => `<li><a href="index.html#${encodeURIComponent(JSON.stringify({ q: i.name }))}">${esc(i.upstream || i.name)}</a> <span class="muted">${esc(i.domain_label)}</span></li>`).join('')}${since.length > 8 ? `<li class="muted">+${since.length - 8} more</li>` : ''}</ul>` : ''}
     ${staleNotes(unclassified.length)}
     ${risky.length ? `<h2 style="margin-top:12px">Watch — used/pinned repos at risk</h2><ul class="plain">${risky.map(i => `<li>${esc(i.upstream)} <span class="tag warn">${i.archived ? 'archived' : i.upstream_deleted ? 'upstream gone' : 'dormant'}</span></li>`).join('')}</ul>` : ''}`;
+}
+
+// ---------------------------------------------------------------- private repos (live, browser-only)
+async function loadPrivate() {
+  if (!cfg.priv?.enabled || !cfg.priv?.token) { privateMeta = { state: 'off', text: 'add a read-only GitHub token in ⚙ to search private repos' }; renderKeeper(); return; }
+  privateMeta = { state: 'loading', text: 'loading private repos…' }; renderKeeper();
+  const r = await fetchPrivateRepos(cfg.priv);
+  if (!r.ok) { privateMeta = { state: 'error', text: r.error }; renderKeeper(); return; }
+  // replace any previous private items, then rebuild the index over public + private
+  items = items.filter(i => !i.private);
+  privateItems = r.repos.map(privateToItem);
+  items = [...items, ...privateItems];
+  byId = new Map(items.map(i => [i.id, i]));
+  privateItems.forEach(p => compactById.set(p.id, { id: p.id, rel: 'private', d: 'private', f: 'unclassified', m: null, s: p.stars, l: p.language, one: p.description.slice(0, 220), kw: p.keywords.slice(0, 10), uc: [], note: null }));
+  index = new BM25(items, itemText);
+  window.__atlas = { index, items, rankForBrief, tokenize };
+  privateMeta = { state: 'live', text: `${privateItems.length} private repos in search · ${r.fromCache ? 'cached' : 'live'} ${fmtDate(r.fetched_at)}${r.stale ? ' (stale: ' + r.error + ')' : ''}` };
+  renderKeeper();
 }
 
 // ---------------------------------------------------------------- staleness — the page carries the runbook so Dexter doesn't have to
@@ -204,6 +227,11 @@ async function ask() {
     const picked = new Set(short.candidates.map(c => c.id).filter(id => byId.has(id)));
     ranked.slice(0, local ? 3 : 6).forEach(r => picked.add(r.item.id));  // lexical never fully loses
     const records = [...picked].slice(0, local ? 10 : 16).map(id => byId.get(id));
+    // private repos have no stored analysis: pull README on demand (bounded) so the reasoning stage has substance
+    if (cfg.priv?.includeReadme && cfg.priv?.token) {
+      const privs = records.filter(r => r.private && !r.analysis).slice(0, 6);
+      await Promise.all(privs.map(async r => { const md = await fetchReadme(cfg.priv, r.id); if (md) r.analysis = 'README (private repo, live): ' + md.replace(/\s+/g, ' ').slice(0, 900); }));
+    }
     const allProjects = [...boardProjects, ...projects];
     const relProjects = allProjects.filter(p => (p.uses || []).some(u => picked.has(u)) || tokenOverlap(brief, p.name + ' ' + p.summary + ' ' + (p.tags || []).join(' ')));
     // always give the model the WHOLE board (it's small) so it can say "already built: Dex Fabric (shipped)"
@@ -304,6 +332,7 @@ function fillDrawer() {
   $('#aKey').value = cfg.anthropic.key; $('#aShort').value = cfg.anthropic.shortlistModel; $('#aReason').value = cfg.anthropic.reasonModel; $('#aEnabled').checked = cfg.anthropic.enabled;
   $('#oStatus').textContent = active.status.ollama || '';
   $('#bToken').value = cfg.board.token; $('#bRepo').value = cfg.board.repo; $('#bPath').value = cfg.board.path; $('#bEnabled').checked = cfg.board.enabled;
+  $('#pToken').value = cfg.priv.token; $('#pEnabled').checked = cfg.priv.enabled; $('#pReadme').checked = cfg.priv.includeReadme; $('#pForks').checked = cfg.priv.includeForks;
 }
 function fillModelSelects(models) {
   for (const [sel, cur] of [[$('#oShort'), cfg.ollama.shortlistModel], [$('#oReason'), cfg.ollama.reasonModel]]) {
@@ -331,6 +360,10 @@ $('#saveCfg').onclick = async () => {
   cfg.board.token = $('#bToken').value.trim(); cfg.board.repo = $('#bRepo').value.trim() || DEFAULTS.board.repo; cfg.board.path = $('#bPath').value.trim() || DEFAULTS.board.path; cfg.board.enabled = $('#bEnabled').checked;
   saveConfig(cfg); await refreshProvider(); $('#oStatus').textContent = active.status.ollama || ''; toast('saved'); $('#drawer').classList.remove('open');
   if (boardChanged) { localStorage.removeItem('atlas.board.cache.v1'); loadBoard(); }
+  const privChanged = cfg.priv.token !== $('#pToken').value.trim() || cfg.priv.enabled !== $('#pEnabled').checked || cfg.priv.includeForks !== $('#pForks').checked;
+  cfg.priv.token = $('#pToken').value.trim(); cfg.priv.enabled = $('#pEnabled').checked; cfg.priv.includeReadme = $('#pReadme').checked; cfg.priv.includeForks = $('#pForks').checked;
+  saveConfig(cfg);
+  if (privChanged) { clearPrivateCache(); loadPrivate(); }
 };
 $('#clearCfg').onclick = async () => { localStorage.removeItem('atlas.llm.v1'); cfg = loadConfig(); await refreshProvider(); fillDrawer(); toast('cleared'); };
 

@@ -10,6 +10,8 @@ export const DEFAULTS = {
   anthropic: { key: '', shortlistModel: 'claude-haiku-4-5-20251001', reasonModel: 'claude-sonnet-5', enabled: true },
   // read-only fine-grained GitHub PAT for the private vault repo (Contents: read) — Project board source
   board: { token: '', repo: 'tbalt88/second-brain', path: 'Boards/Projects.md', branch: 'main', enabled: true },
+  // read-only fine-grained GitHub PAT, "All repositories", Metadata + Contents: read — LIVE private repos in search
+  priv: { token: '', enabled: true, includeReadme: true, includeForks: false },
 };
 
 export function loadConfig() {

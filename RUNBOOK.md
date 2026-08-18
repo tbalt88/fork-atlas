@@ -15,6 +15,7 @@
 | Discover new forks, refresh stars/pushed/archived, rebuild matrix + MATRIX.md + CSV, deploy Pages | GitHub Action `atlas.yml` (holds only `GITHUB_TOKEN`) | nightly 06:17 UTC, on every push, or **Actions → Run workflow** | https://github.com/tbalt88/fork-atlas/actions — GitHub emails you on failure |
 | Board snapshot push (`site/board.snapshot.json`) | Mac mini autopush job (open task in Memory Bridge `7375ade0…`) | after board regeneration | assistant page label `snapshot · <date>` goes stale → see prompts below |
 | Provider auto-detect (Ollama on the machine you're on) | the page, on load | every load | ⚙ Providers → Detect models |
+| Private repos merged into search (if a token is saved in that browser) | the page, on load, GitHub API + ETag cache | every load | keeper tile *private repos (live)* + hint |
 
 ## What needs a human (and the exact words)
 
@@ -38,6 +39,7 @@ Open the assistant → **⚙ Providers**:
 1. **Ollama** — auto-detected at `http://localhost:11434`. Ollama must allow the Pages origin: set `OLLAMA_ORIGINS=https://tbalt88.github.io` (Windows: env var; Mac: `launchctl setenv OLLAMA_ORIGINS https://tbalt88.github.io`) and restart Ollama. Pick a small model for *shortlist* and the best you can run for *reasoning* (on a 4 GB GPU use the smallest for both).
 2. **Anthropic (optional)** — paste an API key with a spend cap; used only when Ollama isn't reachable. Cents per question.
 3. **Project board (optional)** — a **fine-grained GitHub token**, repository access `second-brain` only, permission **Contents: Read-only**. Makes the board live instead of snapshot.
+4. **Private repos in search (optional)** — a *separate* fine-grained token, **All repositories**, **Metadata + Contents: Read-only**. The pages list your private repos live from GitHub on each load and merge them into search (tag *private · live*); READMEs are fetched on demand for shortlisted ones. Nothing about private repos is ever written to this repo or Pages — no LLM classification is stored for them (they sit in "Private (live)"). Want Domain/Form/use cases for private repos too? That is the "private overlay" design (a separate private repo), not built.
 
 Everything in ⚙ lives in that browser's localStorage. **Nothing here is ever committed to the repo.**
 

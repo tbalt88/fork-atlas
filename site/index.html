@@ -90,7 +90,7 @@
   <select id="fForm"><option value="">All forms</option></select>
   <select id="fMat"><option value="">Any maturity</option></select>
   <select id="fLang"><option value="">Any language</option></select>
-  <select id="fRel"><option value="">Forks + own</option><option value="fork">Forks only</option><option value="owner">My own repos</option></select>
+  <select id="fRel"><option value="">Forks + own</option><option value="fork">Forks only</option><option value="owner">My own repos</option><option value="private">Private (live)</option></select>
   <select id="fSort">
     <option value="forked">Newest fork</option>
     <option value="stars">Most stars</option>
@@ -115,8 +115,19 @@
   const $ = s => document.querySelector(s);
   const data = await (await fetch('matrix.json?' + Date.now())).json();
   const items = data.items;
+  // LIVE private repos (browser token only; see js/private.js). Merged before first render if a token is saved.
+  let privateNote = '';
+  try {
+    const cfg = JSON.parse(localStorage.getItem('atlas.llm.v1') || '{}');
+    if (cfg?.priv?.enabled !== false && cfg?.priv?.token) {
+      const P = await import('./js/private.js');
+      const r = await P.fetchPrivateRepos(cfg.priv);
+      if (r.ok) { r.repos.map(P.toItem).forEach(i => items.push(i)); privateNote = ` · ${r.repos.length} private (live)`; }
+      else privateNote = ` · private: ${r.error}`;
+    }
+  } catch (e) { privateNote = ' · private: ' + (e.message || 'error'); }
   const tax = data.taxonomy;
-  const domains = [...tax.domains.map(d => ({key: d.key, label: d.label})), {key: 'unclassified', label: 'Unclassified'}];
+  const domains = [...tax.domains.map(d => ({key: d.key, label: d.label})), {key: 'unclassified', label: 'Unclassified'}, ...(items.some(i => i.private) ? [{key: 'private', label: 'Private (live)'}] : [])];
   const forms = [...tax.forms.map(f => ({key: f.key, label: f.label})), {key: 'unclassified', label: 'Unclassified'}];
   const domainKeys = domains.map(d => d.key), formKeys = forms.map(f => f.key);
 
@@ -203,7 +214,7 @@
   function card(i) {
     return `<div class="card" data-id="${esc(i.id)}">
       <h3>${i.pinned?'<span class="tag pin">📌</span>':''}<span>${esc(i.upstream||i.name)}</span><span class="stars">★ ${i.stars||0}${i.archived?' · archived':''}${i.upstream_deleted?' · upstream gone':''}</span></h3>
-      <div class="meta">${i.relation==='owner'?'<span class="tag" style="background:var(--pin);color:#fff">own</span>':''}<span class="tag dom">${esc(i.domain_label)}</span><span class="tag">${esc(i.form_label)}</span>${i.maturity?`<span class="tag">${esc(i.maturity)}</span>`:''}${i.language?`<span class="tag">${esc(i.language)}</span>`:''}${i.needs_review?'<span class="tag warn">⚠ review</span>':''}${i.status!=='classified'?'<span class="tag warn">unclassified</span>':''}</div>
+      <div class="meta">${i.relation==='owner'?'<span class="tag" style="background:var(--pin);color:#fff">own</span>':''}${i.private?'<span class="tag warn">private · live</span>':''}<span class="tag dom">${esc(i.domain_label)}</span><span class="tag">${esc(i.form_label)}</span>${i.maturity?`<span class="tag">${esc(i.maturity)}</span>`:''}${i.language?`<span class="tag">${esc(i.language)}</span>`:''}${i.needs_review?'<span class="tag warn">⚠ review</span>':''}${i.status!=='classified'?'<span class="tag warn">unclassified</span>':''}</div>
       <p>${esc(i.analysis || i.description || '—')}</p>
       ${i.use_cases.length?`<ul>${i.use_cases.slice(0,3).map(u=>`<li>${esc(u.title)}</li>`).join('')}</ul>`:''}
     </div>`;
@@ -227,7 +238,7 @@
     else if (state.view === 'list') r.innerHTML = `<table class="list"><thead><tr><th>Repo</th><th>Domain</th><th>Form</th><th>★</th><th>What it is</th><th>Use cases</th><th>Keywords</th><th>Forked</th></tr></thead><tbody>${list.map(listRow).join('')}</tbody></table>`;
     else r.innerHTML = `<div class="grid">${list.map(card).join('')}</div>`;
     r.querySelectorAll('[data-id]').forEach(el => el.onclick = e => { if (e.target.tagName !== 'A') openDrawer(el.dataset.id); });
-    $('#stats').textContent = `${list.length} of ${data.counts.total} forks · ${data.counts.classified} classified · ${data.counts.needs_review} need review · updated ${fmtDate(data.generated_at)}`;
+    $('#stats').textContent = `${list.length} of ${data.counts.total} repos · ${data.counts.classified} classified · ${data.counts.needs_review} need review · updated ${fmtDate(data.generated_at)}${privateNote}`;
   }
 
   function openDrawer(id) {
