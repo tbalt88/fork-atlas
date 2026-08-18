@@ -46,6 +46,9 @@ domains:
   - key: vision-sensing
     label: Computer vision, sensing & IoT
     hint: image/face recognition, camera/NVR, WiFi/RF sensing, robotics, edge devices
+  - key: science-research
+    label: Scientific ML, datasets & simulation
+    hint: research datasets, physics/bio/climate simulation, scientific foundation models, benchmarks
   - key: games-fun
     label: Games & fun
     hint: games, toys, novelty projects

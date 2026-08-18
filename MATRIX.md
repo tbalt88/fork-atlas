@@ -1,6 +1,6 @@
 # Fork Atlas — Matrix
 
-_Generated 2026-08-18T04:12:54Z · 205 forks · 205 classified · 4 need review_
+_Generated 2026-08-18T04:17:35Z · 205 forks · 205 classified · 3 need review_
 
 Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-once; edit `overrides/` to correct Domain/Form.
 
@@ -20,8 +20,8 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 - [Business apps, CRM/ERP & Power Platform](#business-apps) (8)
 - [Finance & trading](#finance-trading) (7)
 - [Computer vision, sensing & IoT](#vision-sensing) (5)
+- [Scientific ML, datasets & simulation](#science-research) (1)
 - [Games & fun](#games-fun) (1)
-- [Miscellaneous](#misc) (1)
 
 <a id="llm-inference-training"></a>
 ## LLM inference & training
@@ -310,17 +310,17 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 | [yakhyo/uniface](https://github.com/yakhyo/uniface) | Library / SDK | 1456 | UniFace is a Python computer-vision library that unifies fifteen face-analysis tasks — detection, recognition/verification, tracking, landmarks, face mesh, parsing/segmentation, portrait matting, gaze/head-pose estimation, demographics, emotion, face states… | • Detect and recognize faces in an image with one unified API<br>• Anonymize faces in a dataset before publishing images<br>• Check for spoofed or replayed faces in a liveness check<br>• Estimate age, emotion, or gaze direction from a photo | anti-spoofing, computer-vision, face-detection, face-mesh, face-recognition, landmarks, onnxruntime, python |
 | [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) | Server / service / API | 35163 | Frigate is a self-hosted Network Video Recorder that runs realtime local object detection on IP camera feeds using OpenCV/TensorFlow (with optional Coral/GPU acceleration), tightly integrated with Home Assistant via MQTT. It's aimed at homelab and home-auto… | • Run local AI object detection on home security cameras<br>• Integrate camera alerts into Home Assistant automations<br>• Self-host a privacy-first NVR without cloud video processing | docker, home-assistant, homelab, ip-cameras, mqtt, nvr, object-detection, self-hosted |
 
+<a id="science-research"></a>
+## Scientific ML, datasets & simulation
+
+| Repo | Form | ★ | What it is | Use cases | Keywords |
+|---|---|---:|---|---|---|
+| [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) | Model / dataset / weights | 4356 | The Well is a 15TB collection of 16 numerical physics-simulation datasets (fluid dynamics, magnetohydrodynamics, acoustic scattering, biological systems, supernova/neutron-star mergers, etc.) packaged as a PyTorch-loadable Python library, plus benchmark sur… | • Train a PDE surrogate model on standardized physics data<br>• Stream large physics simulation datasets from Hugging Face<br>• Benchmark a new architecture against FNO baselines<br>• Load fluid-dynamics or MHD simulation data into a training pipeline | benchmark, dataset, huggingface, pde, physics-simulation, pytorch, scientific-ml, surrogate-modeling |
+
 <a id="games-fun"></a>
 ## Games & fun
 
 | Repo | Form | ★ | What it is | Use cases | Keywords |
 |---|---|---:|---|---|---|
 | [chattymin/PokeTokenBar](https://github.com/chattymin/PokeTokenBar) | Application / UI | 132 | PokeTokenBar is a native Swift/SwiftUI macOS menu-bar app that gamifies AI coding token usage: it reads local usage logs from Claude Code, Codex, Gemini CLI, Antigravity, Cursor, and several other CLIs, and turns tokens spent into a growing, hatching, evolv… | • Track daily/weekly Claude Code or Codex token usage from the macOS menu bar<br>• Gamify AI coding usage by hatching and evolving a Pokémon companion<br>• Get burn-rate forecasts and alerts before hitting 5-hour/weekly rate limits | claude-code, gamification, macos, menu-bar, pokemon, swift, swiftui, token-usage |
-
-<a id="misc"></a>
-## Miscellaneous
-
-| Repo | Form | ★ | What it is | Use cases | Keywords |
-|---|---|---:|---|---|---|
-| [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) ⚠ | Model / dataset / weights | 4356 | The Well is a 15TB collection of 16 numerical physics-simulation datasets (fluid dynamics, magnetohydrodynamics, acoustic scattering, biological systems, supernova/neutron-star mergers, etc.) packaged as a PyTorch-loadable Python library, plus benchmark sur… | • Train a PDE surrogate model on standardized physics data<br>• Stream large physics simulation datasets from Hugging Face<br>• Benchmark a new architecture against FNO baselines<br>• Load fluid-dynamics or MHD simulation data into a training pipeline | benchmark, dataset, huggingface, pde, physics-simulation, pytorch, scientific-ml, surrogate-modeling |
 
