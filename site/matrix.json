@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T04:23:41Z",
+ "generated_at": "2026-08-18T04:26:36Z",
  "taxonomy": {
   "domains": [
    {
@@ -4660,8 +4660,8 @@
     "gh-actions"
    ],
    "status": "classified",
-   "domain": "automation-integrations",
-   "domain_label": "Automation & integrations",
+   "domain": "marketing-growth",
+   "domain_label": "Marketing, SEO & growth",
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -4704,7 +4704,7 @@
    "classified_at": "2026-08-18T02:24:16Z",
    "note": null,
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/CopilotKit",
@@ -6131,8 +6131,8 @@
    "homepage": null,
    "signals": [],
    "status": "classified",
-   "domain": "learning-reference",
-   "domain_label": "Learning & reference",
+   "domain": "marketing-growth",
+   "domain_label": "Marketing, SEO & growth",
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -6176,7 +6176,7 @@
    "classified_at": "2026-08-18T02:24:16Z",
    "note": null,
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/stock-market-signal-automation",
