@@ -10,7 +10,10 @@ potential use cases, keyword-tagged so a use case can be matched to a fork quick
   (BM25 → local-model shortlist → grounded recommendation with reasons, caveats, gaps + GitHub search terms).
   Providers, in order: **Ollama on the current machine** (auto-detected) → **Anthropic key saved in this browser** →
   no-LLM search mode. Provider settings live only in the browser's localStorage — never in the repo.
-  `projects/*.md` briefs (frontmatter: name/status/summary/uses/tags) ground answers in your own projects.
+  **Project board** panel mirrors the vault's `Boards/Projects.md` (Kanban auto-generated from `Projects/*.md`
+  frontmatter in the private `second-brain` repo): lazy-loaded live via the GitHub contents API with a read-only
+  fine-grained PAT stored in the browser (⚙), else browser cache, else the committed `site/board.snapshot.json`
+  (dated). Optional atlas-only briefs go in `projects/*.md`.
 - **Markdown view:** [`MATRIX.md`](MATRIX.md) — rendered directly on GitHub.
 - **Data:** [`matrix.json`](matrix.json) (full), [`matrix.csv`](matrix.csv) (flat, for Sheets/Excel).
 

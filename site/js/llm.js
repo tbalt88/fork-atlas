@@ -8,6 +8,8 @@ export const DEFAULTS = {
   order: ['ollama', 'anthropic'],
   ollama: { url: 'http://localhost:11434', shortlistModel: '', reasonModel: '', enabled: true, numCtx: 8192 },
   anthropic: { key: '', shortlistModel: 'claude-haiku-4-5-20251001', reasonModel: 'claude-sonnet-5', enabled: true },
+  // read-only fine-grained GitHub PAT for the private vault repo (Contents: read) — Project board source
+  board: { token: '', repo: 'tbalt88/second-brain', path: 'Boards/Projects.md', branch: 'main', enabled: true },
 };
 
 export function loadConfig() {

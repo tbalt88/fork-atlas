@@ -2,13 +2,14 @@
 import { BM25, rankForBrief, itemText } from './retrieval.js';
 import { loadConfig, saveConfig, probeOllama, pickOllamaModels, resolveProvider, complete, DEFAULTS } from './llm.js';
 import { SHORTLIST_SCHEMA, ANSWER_SCHEMA, SHORTLIST_SYSTEM, ANSWER_SYSTEM, shortlistUser, answerUser } from './prompts.js';
+import { parseBoard, columnKind, fetchBoardLive, fetchBoardSnapshot, boardToProjects, readCache } from './board.js';
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const fmtDate = s => (s || '').slice(0, 10);
 const HIST_KEY = 'atlas.history.v1', VISIT_KEY = 'atlas.lastVisit';
 
-let matrix, items, byId, compactById, projects = [], index, cfg, active = { provider: null, status: {} }, abort;
+let matrix, items, byId, compactById, projects = [], boardProjects = [], index, cfg, active = { provider: null, status: {} }, abort;
 
 // ---------------------------------------------------------------- boot
 (async function boot() {
@@ -21,10 +22,11 @@ let matrix, items, byId, compactById, projects = [], index, cfg, active = { prov
   matrix = m; items = m.items; byId = new Map(items.map(i => [i.id, i]));
   compactById = new Map(c.items.map(i => [i.id, i])); projects = p.projects || [];
   index = new BM25(items, itemText);
-  renderKeeper(); renderProjects(); renderHistory();
+  renderKeeper(); renderHistory();
   const langs = [...new Set(items.map(i => i.language).filter(Boolean))].sort();
   langs.forEach(l => { const o = document.createElement('option'); o.value = l; o.textContent = l; $('#lang').appendChild(o); });
   cfg = loadConfig();
+  loadBoard();            // lazy: snapshot/cache first, live overlay when it arrives — never blocks the page
   await refreshProvider();
   localStorage.setItem(VISIT_KEY, new Date().toISOString());
   const q = new URLSearchParams(location.search).get('q'); if (q) { $('#brief').value = q; ask(); }
@@ -66,10 +68,53 @@ function renderKeeper() {
     ${risky.length ? `<h2 style="margin-top:12px">Watch — used/pinned repos at risk</h2><ul class="plain">${risky.map(i => `<li>${esc(i.upstream)} <span class="tag warn">${i.archived ? 'archived' : i.upstream_deleted ? 'upstream gone' : 'dormant'}</span></li>`).join('')}</ul>` : ''}`;
 }
 
-function renderProjects() {
+// ---------------------------------------------------------------- Project board (vault Boards/Projects.md)
+// Order of truth: live (GitHub API + PAT) > browser cache of last live > committed snapshot.
+async function loadBoard() {
   const el = $('#projects');
-  if (!projects.length) { el.innerHTML = '<h2>Projects</h2><p class="muted">Add briefs in <code>projects/</code> to ground answers in your own work.</p>'; return; }
-  el.innerHTML = '<h2>Projects</h2>' + projects.map(p => `<div class="stat" style="flex-direction:column;align-items:flex-start;gap:2px"><span><b>${esc(p.name)}</b> <span class="tag">${esc(p.status)}</span></span><span class="muted">${esc(p.summary)}</span>${p.uses?.length ? `<span class="muted">uses: ${p.uses.map(u => esc(u.split('/')[1] || u)).join(', ')}</span>` : ''}</div>`).join('');
+  const cached = readCache();
+  if (cached?.markdown) renderBoard(cached.markdown, { kind: 'cached', at: cached.fetched_at, url: cached.html_url });
+  else {
+    el.innerHTML = '<h2>Project board</h2><div class="muted">loading…</div>';
+    const snap = await fetchBoardSnapshot();
+    if (snap?.markdown) renderBoard(snap.markdown, { kind: 'snapshot', at: snap.fetched_at });
+    else el.innerHTML = '<h2>Project board</h2><div class="muted">no snapshot; add a GitHub token in ⚙ to load live.</div>';
+  }
+  if (!cfg.board?.enabled || !cfg.board?.token) { markBoard('offline', 'add a read-only GitHub token in ⚙ to go live'); return; }
+  markBoard('loading', 'refreshing from vault…');
+  const live = await fetchBoardLive(cfg.board);
+  if (live.ok) renderBoard(live.markdown, { kind: 'live', at: live.fetched_at, url: live.html_url || (readCache()?.html_url) });
+  else markBoard('error', live.error);
+}
+
+function markBoard(state, text) {
+  const h = $('#boardHint'); if (!h) return;
+  h.textContent = state === 'loading' ? '⟳ ' + text : state === 'error' ? '⚠ ' + text : text;
+  h.style.color = state === 'error' ? 'var(--warn)' : '';
+  h.title = text;
+}
+
+function renderBoard(markdown, meta) {
+  const cols = parseBoard(markdown);
+  boardProjects = boardToProjects(cols);
+  const label = meta.kind === 'live' ? `live · ${fmtDate(meta.at)}` : meta.kind === 'cached' ? `cached · ${fmtDate(meta.at)}` : `snapshot · ${fmtDate(meta.at)}`;
+  const el = $('#projects');
+  el.innerHTML = `<h2 style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">Project board <span id="boardState" class="tag ${meta.kind === 'live' ? 'ok' : ''}" style="text-transform:none;letter-spacing:0;font-weight:500">${label}</span>
+      ${meta.url ? `<a class="muted" style="margin-left:auto;font-size:11px" href="${esc(meta.url)}" target="_blank" rel="noopener">open ↗</a>` : ''}</h2>
+    <div id="boardHint" class="muted" style="margin:-6px 0 8px;font-size:11px;text-transform:none;letter-spacing:0"></div>` +
+    cols.map(col => {
+      const kind = columnKind(col.title);
+      const collapsed = kind === 'closed' || (kind === 'parked' && !col.cards.length);
+      if (!col.cards.length) return `<div class="bcol"><div class="bhead muted">${esc(col.title)} <span class="muted">— empty</span></div></div>`;
+      return `<details class="bcol" ${collapsed ? '' : 'open'}><summary class="bhead">${esc(col.title)} <span class="muted">${col.cards.length}</span></summary>
+        ${col.cards.map(c => `<div class="bcard ${c.done ? 'done' : ''}">
+          <span class="bname">${esc(c.name)}</span>
+          ${c.status ? `<span class="tag ${kind === 'active' ? 'dom' : ''}">${esc(c.status)}</span>` : ''}
+          ${c.open != null ? `<span class="muted">${c.open} open</span>` : ''}
+          ${c.url ? `<a class="muted" href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url.replace(/^https?:\/\//, ''))}</a>` : ''}
+        </div>`).join('')}</details>`;
+    }).join('') +
+    (projects.length ? `<details class="bcol"><summary class="bhead">Atlas briefs <span class="muted">${projects.length}</span></summary>${projects.map(p => `<div class="bcard"><span class="bname">${esc(p.name)}</span><span class="tag">${esc(p.status)}</span>${p.uses?.length ? `<span class="muted">uses ${p.uses.map(u => esc(u.split('/')[1] || u)).join(', ')}</span>` : ''}</div>`).join('')}</details>` : '');
 }
 
 function history() { try { return JSON.parse(localStorage.getItem(HIST_KEY) || '[]'); } catch { return []; } }
@@ -132,10 +177,13 @@ async function ask() {
     const picked = new Set(short.candidates.map(c => c.id).filter(id => byId.has(id)));
     ranked.slice(0, local ? 3 : 6).forEach(r => picked.add(r.item.id));  // lexical never fully loses
     const records = [...picked].slice(0, local ? 10 : 16).map(id => byId.get(id));
-    const relProjects = projects.filter(p => (p.uses || []).some(u => picked.has(u)) || tokenOverlap(brief, p.name + ' ' + p.summary + ' ' + p.tags.join(' ')));
+    const allProjects = [...boardProjects, ...projects];
+    const relProjects = allProjects.filter(p => (p.uses || []).some(u => picked.has(u)) || tokenOverlap(brief, p.name + ' ' + p.summary + ' ' + (p.tags || []).join(' ')));
+    // always give the model the active board as light context (names + status only) so it can say "fits Tristan (active)"
+    const activeBoard = boardProjects.filter(p => columnKind(p.column) === 'active' && !relProjects.includes(p)).map(p => ({ ...p, brief: '' }));
     setSteps(['done', 'done', 'on']);
     $('#stream').textContent = '';
-    const answer = await complete({ provider: active.provider, cfg, slot: 'reason', system: ANSWER_SYSTEM, user: answerUser(brief, requirements, records, relProjects, local), schema: ANSWER_SCHEMA, onToken, signal: abort.signal });
+    const answer = await complete({ provider: active.provider, cfg, slot: 'reason', system: ANSWER_SYSTEM, user: answerUser(brief, requirements, records, [...relProjects, ...activeBoard.slice(0, 6)], local), schema: ANSWER_SCHEMA, onToken, signal: abort.signal });
     setSteps(['done', 'done', 'done']); $('#stream').hidden = true;
     renderAnswer(answer, records.map(r => r.id), requirements);
     pushHistory({ brief, at: new Date().toISOString(), provider: `${active.provider}/${cfg[active.provider].reasonModel}`, answer, context: records.map(r => r.id), requirements });
@@ -193,6 +241,7 @@ function fillDrawer() {
   fillModelSelects(active.status.ollamaModels || []);
   $('#aKey').value = cfg.anthropic.key; $('#aShort').value = cfg.anthropic.shortlistModel; $('#aReason').value = cfg.anthropic.reasonModel; $('#aEnabled').checked = cfg.anthropic.enabled;
   $('#oStatus').textContent = active.status.ollama || '';
+  $('#bToken').value = cfg.board.token; $('#bRepo').value = cfg.board.repo; $('#bPath').value = cfg.board.path; $('#bEnabled').checked = cfg.board.enabled;
 }
 function fillModelSelects(models) {
   for (const [sel, cur] of [[$('#oShort'), cfg.ollama.shortlistModel], [$('#oReason'), cfg.ollama.reasonModel]]) {
@@ -216,7 +265,10 @@ $('#saveCfg').onclick = async () => {
   cfg.ollama.url = $('#oUrl').value.trim() || DEFAULTS.ollama.url; cfg.ollama.numCtx = parseInt($('#oCtx').value, 10) || 8192; cfg.ollama.enabled = $('#oEnabled').checked;
   cfg.ollama.shortlistModel = $('#oShort').value; cfg.ollama.reasonModel = $('#oReason').value;
   cfg.anthropic.key = $('#aKey').value.trim(); cfg.anthropic.shortlistModel = $('#aShort').value.trim(); cfg.anthropic.reasonModel = $('#aReason').value.trim(); cfg.anthropic.enabled = $('#aEnabled').checked;
+  const boardChanged = cfg.board.token !== $('#bToken').value.trim() || cfg.board.repo !== $('#bRepo').value.trim() || cfg.board.path !== $('#bPath').value.trim();
+  cfg.board.token = $('#bToken').value.trim(); cfg.board.repo = $('#bRepo').value.trim() || DEFAULTS.board.repo; cfg.board.path = $('#bPath').value.trim() || DEFAULTS.board.path; cfg.board.enabled = $('#bEnabled').checked;
   saveConfig(cfg); await refreshProvider(); $('#oStatus').textContent = active.status.ollama || ''; toast('saved'); $('#drawer').classList.remove('open');
+  if (boardChanged) { localStorage.removeItem('atlas.board.cache.v1'); loadBoard(); }
 };
 $('#clearCfg').onclick = async () => { localStorage.removeItem('atlas.llm.v1'); cfg = loadConfig(); await refreshProvider(); fillDrawer(); toast('cleared'); };
 
