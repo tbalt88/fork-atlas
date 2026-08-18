@@ -49,6 +49,9 @@ domains:
   - key: ai-platforms
     label: Self-hosted AI platforms & chat UIs
     hint: turnkey self-hosted LLM front-ends and platforms (Open WebUI-style chat UIs, all-in-one AI workbenches, model routers with UI)
+  - key: media-management
+    label: Photos, media libraries & backup
+    hint: photo/video galleries, media servers, personal cloud backup and sync (Immich/Google-Photos-style), file organizers
   - key: science-research
     label: Scientific ML, datasets & simulation
     hint: research datasets, physics/bio/climate simulation, scientific foundation models, benchmarks

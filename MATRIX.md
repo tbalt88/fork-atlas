@@ -1,6 +1,6 @@
 # Fork Atlas — Matrix
 
-_Generated 2026-08-18T04:20:03Z · 205 forks · 205 classified · 2 need review_
+_Generated 2026-08-18T04:20:53Z · 205 forks · 205 classified · 1 need review_
 
 Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-once; edit `overrides/` to correct Domain/Form.
 
@@ -13,7 +13,7 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 - [Data, ETL, search & RAG](#data-rag) (16)
 - [Web & UI frameworks](#web-ui) (2)
 - [Automation & integrations](#automation-integrations) (10)
-- [Infra, DevOps & self-hosting](#infra-devops) (4)
+- [Infra, DevOps & self-hosting](#infra-devops) (3)
 - [Security & privacy](#security) (9)
 - [Knowledge & productivity](#knowledge-productivity) (6)
 - [Learning & reference](#learning-reference) (21)
@@ -21,6 +21,7 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 - [Finance & trading](#finance-trading) (7)
 - [Computer vision, sensing & IoT](#vision-sensing) (5)
 - [Self-hosted AI platforms & chat UIs](#ai-platforms) (1)
+- [Photos, media libraries & backup](#media-management) (1)
 - [Scientific ML, datasets & simulation](#science-research) (1)
 - [Games & fun](#games-fun) (1)
 
@@ -213,7 +214,6 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 
 | Repo | Form | ★ | What it is | Use cases | Keywords |
 |---|---|---:|---|---|---|
-| [AKS-Labs/CloudGallery](https://github.com/AKS-Labs/CloudGallery) ⚠ | Application / UI | 445 | Chitralaya CloudGallery is an open-source Android app (Kotlin, Jetpack Compose) that backs up phone photos to a user's own Telegram account via the Telegram Bot API, functioning as a free, privacy-first alternative to Google Photos or iCloud. Bot tokens and… | • Back up phone photos privately using your own Telegram bot<br>• Avoid Google Photos or iCloud by self-managing cloud storage<br>• Reference a Jetpack Compose Android app with local database sync | android, cloud-storage, foss, jetpack-compose, kotlin, photo-backup, privacy, telegram |
 | [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) | Server / service / API | 33573 | ntfy is a mature, widely-used HTTP-based pub-sub push notification service written in Go that lets anyone send notifications to a phone or desktop via a simple PUT/POST request, with no signup required and official Android/iOS apps. It is self-hostable (the… | • Send a notification to your phone from a shell script or cron job<br>• Self-host a notification server for homelab alerts<br>• Wire CI/CD or monitoring alerts into a simple HTTP endpoint | cli, go, homelab, monitoring, pub-sub, push-notifications, rest-api, self-hosted |
 | [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | Server / service / API | 14188 | OpenSandbox is a general-purpose sandbox runtime for AI applications, providing multi-language SDKs (Python, Java/Kotlin, TypeScript, C#, Go), a CLI (osb), and an MCP server for creating isolated sandboxes and running commands, file I/O, and code execution.… | • Run untrusted AI-agent-generated code in an isolated sandbox<br>• Give a coding agent like Claude Code a disposable sandbox via MCP<br>• Scale sandbox workloads on Kubernetes for RL training or evaluation | ai-agents, code-execution, credential-vault, docker, isolation, kubernetes, mcp, sandbox |
 | [GoogleCloudPlatform/terraform-genai-knowledge-base](https://github.com/GoogleCloudPlatform/terraform-genai-knowledge-base) | Template / starter | 174 | A Google Cloud Platform-maintained Terraform module that stands up an end-to-end generative-AI knowledge-base pipeline: Document AI OCR extracts text from uploaded documents, Vertex AI generates question/answer pairs stored in Firestore, results are indexed… | • Deploy a GCP knowledge-base pipeline with Terraform<br>• Auto-generate a fine-tuning dataset from document text via Vertex AI<br>• Provision Document AI OCR plus Vector Search infrastructure as code | document-ai, fine-tuning, gcp, iac, infrastructure, terraform, vector-search, vertex-ai |
@@ -316,6 +316,13 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 | Repo | Form | ★ | What it is | Use cases | Keywords |
 |---|---|---:|---|---|---|
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | Application / UI | 149062 | Open WebUI is a massively popular, self-hosted, extensible AI interface that sits in front of Ollama and any OpenAI-compatible API, giving individuals and enterprises a ChatGPT-like frontend with built-in RAG (9 vector DB backends), web search, image genera… | • Stand up a self-hosted ChatGPT-style interface in front of local Ollama models<br>• Give a team RAG over internal documents with hybrid search and reranking<br>• Wrap a base model with custom tools and instructions to build a specialized in-house agent<br>• Deploy an enterprise AI platform with SSO, RBAC, and OpenTelemetry observability | agents, chat-ui, docker, enterprise, mcp, ollama, rag, self-hosted |
+
+<a id="media-management"></a>
+## Photos, media libraries & backup
+
+| Repo | Form | ★ | What it is | Use cases | Keywords |
+|---|---|---:|---|---|---|
+| [AKS-Labs/CloudGallery](https://github.com/AKS-Labs/CloudGallery) | Application / UI | 445 | Chitralaya CloudGallery is an open-source Android app (Kotlin, Jetpack Compose) that backs up phone photos to a user's own Telegram account via the Telegram Bot API, functioning as a free, privacy-first alternative to Google Photos or iCloud. Bot tokens and… | • Back up phone photos privately using your own Telegram bot<br>• Avoid Google Photos or iCloud by self-managing cloud storage<br>• Reference a Jetpack Compose Android app with local database sync | android, cloud-storage, foss, jetpack-compose, kotlin, photo-backup, privacy, telegram |
 
 <a id="science-research"></a>
 ## Scientific ML, datasets & simulation

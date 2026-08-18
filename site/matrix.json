@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T04:20:03Z",
+ "generated_at": "2026-08-18T04:20:53Z",
  "taxonomy": {
   "domains": [
    {
@@ -78,6 +78,11 @@
     "hint": "turnkey self-hosted LLM front-ends and platforms (Open WebUI-style chat UIs, all-in-one AI workbenches, model routers with UI)"
    },
    {
+    "key": "media-management",
+    "label": "Photos, media libraries & backup",
+    "hint": "photo/video galleries, media servers, personal cloud backup and sync (Immich/Google-Photos-style), file organizers"
+   },
+   {
     "key": "science-research",
     "label": "Scientific ML, datasets & simulation",
     "hint": "research datasets, physics/bio/climate simulation, scientific foundation models, benchmarks"
@@ -138,7 +143,7 @@
   "total": 205,
   "classified": 205,
   "unclassified": 0,
-  "needs_review": 2
+  "needs_review": 1
  },
  "keywords": {
   "mcp": [
@@ -16314,8 +16319,8 @@
     "gh-actions"
    ],
    "status": "classified",
-   "domain": "infra-devops",
-   "domain_label": "Infra, DevOps & self-hosting",
+   "domain": "media-management",
+   "domain_label": "Photos, media libraries & backup",
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -16355,11 +16360,11 @@
    ],
    "confidence": 0.6,
    "proposed_domain": "photo-backup",
-   "needs_review": true,
+   "needs_review": false,
    "classified_at": "2026-08-18T02:24:16Z",
    "note": null,
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/money-Ai-agents",
