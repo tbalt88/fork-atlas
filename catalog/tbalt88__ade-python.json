@@ -13,20 +13,20 @@
     "stars": 1026,
     "forks": 166,
     "watchers": 9,
-    "open_issues": 13,
+    "open_issues": 12,
     "language": "Python",
     "topics": [],
     "license": "Apache-2.0",
     "homepage": "https://ade.landing.ai",
     "default_branch": "main",
     "created_at": "2025-09-18T07:03:08Z",
-    "pushed_at": "2026-08-18T01:40:28Z",
+    "pushed_at": "2026-08-18T10:19:36Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:09Z",
-    "metadata_refreshed_at": "2026-08-18T02:14:09Z",
+    "metadata_refreshed_at": "2026-08-18T14:02:28Z",
     "signals": [
       "docker",
       "gh-actions",

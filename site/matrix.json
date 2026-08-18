@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T05:26:06Z",
+ "generated_at": "2026-08-18T14:02:49Z",
  "taxonomy": {
   "domains": [
    {
@@ -145,9 +145,9 @@
   ]
  },
  "counts": {
-  "total": 205,
+  "total": 207,
   "classified": 205,
-  "unclassified": 0,
+  "unclassified": 2,
   "needs_review": 0
  },
  "keywords": {
@@ -3552,6 +3552,101 @@
  },
  "items": [
   {
+   "id": "tbalt88/DorkAgent",
+   "name": "DorkAgent",
+   "fork_url": "https://github.com/tbalt88/DorkAgent",
+   "forked_at": "2026-08-18T13:50:50Z",
+   "upstream": "yee-yore/DorkAgent",
+   "upstream_url": "https://github.com/yee-yore/DorkAgent",
+   "upstream_deleted": false,
+   "description": "🤖 LLM-powered agent for automated Google Dorking in bug hunting & pentesting.",
+   "stars": 314,
+   "language": "Python",
+   "topics": [
+    "agent",
+    "aiagent",
+    "bugbounty",
+    "dorks",
+    "google-dorking",
+    "google-hacking",
+    "hacking",
+    "llm",
+    "osint",
+    "pentest",
+    "pentesting"
+   ],
+   "pushed_at": "2025-12-11T02:28:23Z",
+   "archived": false,
+   "license": "MIT",
+   "homepage": null,
+   "signals": [],
+   "status": "unclassified",
+   "domain": "unclassified",
+   "domain_label": "Unclassified",
+   "form": "unclassified",
+   "form_label": "Unclassified",
+   "maturity": null,
+   "analysis": "",
+   "use_cases": [],
+   "keywords": [],
+   "confidence": null,
+   "proposed_domain": null,
+   "needs_review": false,
+   "classified_at": null,
+   "note": null,
+   "pinned": false,
+   "overridden": false
+  },
+  {
+   "id": "tbalt88/council-of-high-intelligence",
+   "name": "council-of-high-intelligence",
+   "fork_url": "https://github.com/tbalt88/council-of-high-intelligence",
+   "forked_at": "2026-08-18T13:50:23Z",
+   "upstream": "0xNyk/council-of-high-intelligence",
+   "upstream_url": "https://github.com/0xNyk/council-of-high-intelligence",
+   "upstream_deleted": false,
+   "description": "Structured multi-perspective deliberation for hard decisions. Run full councils, focused triads, or duo debates across Claude Code, Codex, Gemini CLI, and OpenCode.",
+   "stars": 3971,
+   "language": "Shell",
+   "topics": [
+    "agent-skill",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "decision-making",
+    "deliberation",
+    "gemini-cli",
+    "llm-routing",
+    "multi-agent-systems",
+    "multi-llm",
+    "open-source",
+    "opencode",
+    "prompt-engineering",
+    "structured-debate"
+   ],
+   "pushed_at": "2026-08-17T05:28:04Z",
+   "archived": false,
+   "license": "MIT",
+   "homepage": "https://www.nyk.dev/oss/council-of-high-intelligence",
+   "signals": [],
+   "status": "unclassified",
+   "domain": "unclassified",
+   "domain_label": "Unclassified",
+   "form": "unclassified",
+   "form_label": "Unclassified",
+   "maturity": null,
+   "analysis": "",
+   "use_cases": [],
+   "keywords": [],
+   "confidence": null,
+   "proposed_domain": null,
+   "needs_review": false,
+   "classified_at": null,
+   "note": null,
+   "pinned": false,
+   "overridden": false
+  },
+  {
    "id": "tbalt88/openclaw-api-list",
    "name": "openclaw-api-list",
    "fork_url": "https://github.com/tbalt88/openclaw-api-list",
@@ -3624,7 +3719,7 @@
    "upstream_url": "https://github.com/mattpocock/skills",
    "upstream_deleted": false,
    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-   "stars": 220452,
+   "stars": 221097,
    "language": "Shell",
    "topics": [],
    "pushed_at": "2026-08-17T07:54:42Z",
@@ -3698,7 +3793,7 @@
    "upstream_url": "https://github.com/every-app/open-seo",
    "upstream_deleted": false,
    "description": "Open source alternative to Semrush and Ahrefs",
-   "stars": 12408,
+   "stars": 12489,
    "language": "TypeScript",
    "topics": [
     "backlink-analysis",
@@ -3784,7 +3879,7 @@
    "upstream_url": "https://github.com/unslothai/unsloth",
    "upstream_deleted": false,
    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-   "stars": 73267,
+   "stars": 73468,
    "language": "Python",
    "topics": [
     "agent",
@@ -3808,7 +3903,7 @@
     "ui",
     "unsloth"
    ],
-   "pushed_at": "2026-08-18T01:49:12Z",
+   "pushed_at": "2026-08-18T13:55:27Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://unsloth.ai/docs",
@@ -3880,7 +3975,7 @@
    "upstream_url": "https://github.com/nishu2402/HEAVEN-Autonomous-Penetration-Testing",
    "upstream_deleted": false,
    "description": "☠️ A production-grade autonomous penetration testing platform that automates deep reconnaissance, machine learning-driven risk scoring, verified exploitation, and compliance reporting. Features 172 modules, an async task graph orchestrator, and automated threat mapping to MITRE ATT&CK and OWASP Top 10.",
-   "stars": 49,
+   "stars": 56,
    "language": "Python",
    "topics": [
     "automated-pentesting",
@@ -3894,7 +3989,7 @@
     "red-team",
     "vulnerability-scanners"
    ],
-   "pushed_at": "2026-08-18T00:33:51Z",
+   "pushed_at": "2026-08-18T07:30:53Z",
    "archived": false,
    "license": "NOASSERTION",
    "homepage": null,
@@ -3969,7 +4064,7 @@
    "upstream_url": "https://github.com/deepbeepmeep/Wan2GP",
    "upstream_deleted": false,
    "description": "A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, LTX-2, Qwen Image, Hunyuan Video, LTX  Video and Flux.",
-   "stars": 8703,
+   "stars": 8716,
    "language": "Python",
    "topics": [
     "ai",
@@ -4056,7 +4151,7 @@
    "upstream_url": "https://github.com/chattymin/PokeTokenBar",
    "upstream_deleted": false,
    "description": "Use your tokens to raise, evolve, and collect Pokémon! 🥚",
-   "stars": 132,
+   "stars": 147,
    "language": "Swift",
    "topics": [
     "ai-coding",
@@ -4137,10 +4232,10 @@
    "upstream_url": "https://github.com/cloudflare/cloudflare-os",
    "upstream_deleted": false,
    "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
-   "stars": 8509,
+   "stars": 8541,
    "language": "TypeScript",
    "topics": [],
-   "pushed_at": "2026-08-18T02:30:15Z",
+   "pushed_at": "2026-08-18T13:23:09Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://os.cloudflare.app",
@@ -4207,10 +4302,10 @@
    "upstream_url": "https://github.com/multica-ai/multica",
    "upstream_deleted": false,
    "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
-   "stars": 46531,
+   "stars": 46650,
    "language": "Go",
    "topics": [],
-   "pushed_at": "2026-08-17T19:56:10Z",
+   "pushed_at": "2026-08-18T12:49:11Z",
    "archived": false,
    "license": "NOASSERTION",
    "homepage": "https://multica.ai",
@@ -4286,7 +4381,7 @@
    "upstream_url": "https://github.com/opensandbox-group/OpenSandbox",
    "upstream_deleted": false,
    "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
-   "stars": 14188,
+   "stars": 14245,
    "language": "Python",
    "topics": [
     "ai",
@@ -4295,7 +4390,7 @@
     "kubernetes",
     "sandbox"
    ],
-   "pushed_at": "2026-08-18T02:16:21Z",
+   "pushed_at": "2026-08-18T13:39:04Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://open-sandbox.ai",
@@ -4363,7 +4458,7 @@
    "upstream_url": "https://github.com/stablyai/orca",
    "upstream_deleted": false,
    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-   "stars": 47497,
+   "stars": 47939,
    "language": "TypeScript",
    "topics": [
     "ade",
@@ -4385,7 +4480,7 @@
     "worktrees",
     "yc-backed"
    ],
-   "pushed_at": "2026-08-18T02:35:12Z",
+   "pushed_at": "2026-08-18T11:40:47Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://onOrca.dev",
@@ -4456,7 +4551,7 @@
    "upstream_url": "https://github.com/RockxyApp/Rockxy",
    "upstream_deleted": false,
    "description": "Open-source native macOS HTTP debugging proxy — intercept HTTPS, inspect APIs, mock responses, debug WebSocket & GraphQL. Community-driven. For developers, by developers.",
-   "stars": 890,
+   "stars": 894,
    "language": "Swift",
    "topics": [
     "ai",
@@ -4648,7 +4743,7 @@
    "upstream_url": "https://github.com/diwenne/openreply",
    "upstream_deleted": false,
    "description": "Open-source ManyChat alternative: comment-dm automation + account analytics. NOTE: the link below will not allow you to OAuth; you must self-host with your own API keys.",
-   "stars": 1366,
+   "stars": 1388,
    "language": "TypeScript",
    "topics": [],
    "pushed_at": "2026-08-17T16:42:51Z",
@@ -4715,7 +4810,7 @@
    "upstream_url": "https://github.com/CopilotKit/CopilotKit",
    "upstream_deleted": false,
    "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
-   "stars": 36806,
+   "stars": 36821,
    "language": "TypeScript",
    "topics": [
     "agent",
@@ -4739,7 +4834,7 @@
     "ts",
     "typescript"
    ],
-   "pushed_at": "2026-08-18T00:17:52Z",
+   "pushed_at": "2026-08-18T13:56:57Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://docs.copilotkit.ai",
@@ -4810,7 +4905,7 @@
    "upstream_url": "https://github.com/guillaumemeyer/watermarks-remover",
    "upstream_deleted": false,
    "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-   "stars": 13567,
+   "stars": 14149,
    "language": "Python",
    "topics": [
     "agent-skill",
@@ -4821,7 +4916,7 @@
     "synthid",
     "watermark"
    ],
-   "pushed_at": "2026-08-18T01:31:25Z",
+   "pushed_at": "2026-08-18T13:46:44Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://github.com/guillaumemeyer/watermarks-remover",
@@ -4888,7 +4983,7 @@
    "upstream_url": "https://github.com/microsoft/Resource2Skill",
    "upstream_deleted": false,
    "description": "A general framework for distilling human-created multimodal resources into reusable, executable skills that AI agents can browse, compose, and run, validated across diverse domains including web, PowerPoint, Excel, Blender, CAD, Unreal Engine 5, and REAPER-based music production.",
-   "stars": 472,
+   "stars": 478,
    "language": "Python",
    "topics": [],
    "pushed_at": "2026-07-17T16:38:13Z",
@@ -4964,7 +5059,7 @@
    "upstream_url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
    "upstream_deleted": false,
    "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-   "stars": 5952,
+   "stars": 5990,
    "language": "C",
    "topics": [
     "avx2",
@@ -5054,7 +5149,7 @@
    "upstream_url": "https://github.com/kestra-io/kestra",
    "upstream_deleted": false,
    "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
-   "stars": 27844,
+   "stars": 27849,
    "language": "Java",
    "topics": [
     "ai-agents",
@@ -5078,7 +5173,7 @@
     "scheduler",
     "workflow"
    ],
-   "pushed_at": "2026-08-17T20:21:08Z",
+   "pushed_at": "2026-08-18T13:55:30Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://go.kestra.io/home",
@@ -5146,7 +5241,7 @@
    "upstream_url": "https://github.com/beenuar/AiSOC",
    "upstream_deleted": false,
    "description": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
-   "stars": 2476,
+   "stars": 2488,
    "language": "Python",
    "topics": [
     "agentic-ai",
@@ -5244,7 +5339,7 @@
    "upstream_url": "https://github.com/yakhyo/uniface",
    "upstream_deleted": false,
    "description": "UniFace: A Unified Face Analysis Library for Python | Detection, alignment, landmarks, face-mesh, recognition, parsing, gaze, attributes and anti-spoofing under one API.",
-   "stars": 1456,
+   "stars": 1462,
    "language": "Python",
    "topics": [
     "computer-vision",
@@ -5268,7 +5363,7 @@
     "portrait-matting",
     "python"
    ],
-   "pushed_at": "2026-08-16T08:48:16Z",
+   "pushed_at": "2026-08-18T08:50:00Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://yakhyo.github.io/uniface/",
@@ -5411,7 +5506,7 @@
    "upstream_url": "https://github.com/freqtrade/freqtrade-strategies",
    "upstream_deleted": false,
    "description": "Free trading strategies for Freqtrade bot",
-   "stars": 5368,
+   "stars": 5367,
    "language": "Python",
    "topics": [
     "bitcoin",
@@ -5474,7 +5569,7 @@
    "upstream_url": "https://github.com/freqtrade/frequi",
    "upstream_deleted": false,
    "description": "Freqtrade UI - Frontend for Freqtrade",
-   "stars": 1047,
+   "stars": 1048,
    "language": "Vue",
    "topics": [
     "freqtrade",
@@ -5551,7 +5646,7 @@
    "upstream_url": "https://github.com/freqtrade/freqtrade",
    "upstream_deleted": false,
    "description": "Free, open source crypto trading bot",
-   "stars": 53396,
+   "stars": 53405,
    "language": "Python",
    "topics": [
     "algorithmic-trading",
@@ -5564,7 +5659,7 @@
     "trade",
     "trading-bot"
    ],
-   "pushed_at": "2026-08-18T01:46:21Z",
+   "pushed_at": "2026-08-18T11:21:57Z",
    "archived": false,
    "license": "GPL-3.0",
    "homepage": "https://www.freqtrade.io",
@@ -5629,7 +5724,7 @@
    "upstream_url": "https://github.com/PolymathicAI/the_well",
    "upstream_deleted": false,
    "description": "A 15TB Collection of Physics Simulation Datasets",
-   "stars": 4356,
+   "stars": 4361,
    "language": "Jupyter Notebook",
    "topics": [],
    "pushed_at": "2026-07-23T14:39:04Z",
@@ -5703,7 +5798,7 @@
    "upstream_url": "https://github.com/iOfficeAI/AionUi",
    "upstream_deleted": false,
    "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
-   "stars": 32066,
+   "stars": 32084,
    "language": "TypeScript",
    "topics": [
     "acp",
@@ -5727,7 +5822,7 @@
     "skills",
     "webui"
    ],
-   "pushed_at": "2026-08-18T02:27:33Z",
+   "pushed_at": "2026-08-18T13:06:10Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://www.aionui.com",
@@ -5801,7 +5896,7 @@
    "upstream_url": "https://github.com/AgentSwarms-fyi/agentswarms",
    "upstream_deleted": false,
    "description": "Unified Agentic AI and Business Intelligence Platform",
-   "stars": 198,
+   "stars": 203,
    "language": "TypeScript",
    "topics": [
     "agentic-ai",
@@ -5821,7 +5916,7 @@
     "typescript",
     "visual-editor"
    ],
-   "pushed_at": "2026-08-17T21:32:18Z",
+   "pushed_at": "2026-08-18T10:20:51Z",
    "archived": false,
    "license": "NOASSERTION",
    "homepage": "https://agentswarms.fyi",
@@ -5896,7 +5991,7 @@
    "upstream_url": "https://github.com/binwiederhier/ntfy",
    "upstream_deleted": false,
    "description": "Send push notifications to your phone or desktop using PUT/POST",
-   "stars": 33573,
+   "stars": 33589,
    "language": "Go",
    "topics": [
     "curl",
@@ -5973,7 +6068,7 @@
    "upstream_url": "https://github.com/microsoft/skill-recorder",
    "upstream_deleted": false,
    "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
-   "stars": 3226,
+   "stars": 3251,
    "language": "TypeScript",
    "topics": [
     "agent-skills",
@@ -6050,7 +6145,7 @@
    "upstream_url": "https://github.com/aws/context-ontology-accelerator",
    "upstream_deleted": false,
    "description": "An open-source, ontology-based semantic context accelerator that enables AI agents to make more accurate, consistent, and explainable decisions.",
-   "stars": 499,
+   "stars": 507,
    "language": "Python",
    "topics": [],
    "pushed_at": "2026-08-17T22:16:33Z",
@@ -6253,7 +6348,7 @@
    "upstream_url": "https://github.com/microsoft/power-platform-skills",
    "upstream_deleted": false,
    "description": "A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
-   "stars": 721,
+   "stars": 728,
    "language": "JavaScript",
    "topics": [
     "claude-code-plugin",
@@ -6264,7 +6359,7 @@
     "power-pages",
     "power-platform"
    ],
-   "pushed_at": "2026-08-18T01:42:17Z",
+   "pushed_at": "2026-08-18T13:43:46Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://aka.ms/ppskills",
@@ -6329,7 +6424,7 @@
    "upstream_url": "https://github.com/Panniantong/Agent-Reach",
    "upstream_deleted": false,
    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-   "stars": 72567,
+   "stars": 72721,
    "language": "Python",
    "topics": [
     "agent-infrastructure",
@@ -6427,7 +6522,7 @@
    "upstream_url": "https://github.com/diegosouzapw/OmniRoute",
    "upstream_deleted": false,
    "description": "Never stop coding. Free MIT AI gateway: one endpoint, 340 providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 450+ contributors",
-   "stars": 49878,
+   "stars": 50239,
    "language": "TypeScript",
    "topics": [
     "a2a",
@@ -6451,7 +6546,7 @@
     "qwen",
     "token-saver"
    ],
-   "pushed_at": "2026-08-18T02:24:32Z",
+   "pushed_at": "2026-08-18T13:58:40Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://omniroute.online",
@@ -6547,7 +6642,7 @@
     "video-generation",
     "vision"
    ],
-   "pushed_at": "2026-08-17T04:01:50Z",
+   "pushed_at": "2026-08-18T03:57:15Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://www.npmjs.com/package/@stabgan/openrouter-mcp-multimodal",
@@ -6712,7 +6807,7 @@
    "upstream_url": "https://github.com/jordanrendric/claude-video-vision",
    "upstream_deleted": false,
    "description": "Give Claude the ability to watch and understand videos — Claude Code plugin with frame extraction and multimodal audio analysis",
-   "stars": 1237,
+   "stars": 1238,
    "language": "TypeScript",
    "topics": [
     "claude-code",
@@ -6802,7 +6897,7 @@
    "upstream_url": "https://github.com/oso95/scroll-world",
    "upstream_deleted": false,
    "description": "A skill that turn any brand into a scrollable 3D world landing page",
-   "stars": 8272,
+   "stars": 8287,
    "language": "JavaScript",
    "topics": [],
    "pushed_at": "2026-07-29T04:44:56Z",
@@ -6867,7 +6962,7 @@
    "upstream_url": "https://github.com/zhaoxuya520/reverse-skill",
    "upstream_deleted": false,
    "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-   "stars": 26039,
+   "stars": 26208,
    "language": "PowerShell",
    "topics": [],
    "pushed_at": "2026-08-16T12:41:00Z",
@@ -6943,7 +7038,7 @@
    "upstream_url": "https://github.com/decolua/9router",
    "upstream_deleted": false,
    "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-   "stars": 25677,
+   "stars": 25722,
    "language": "JavaScript",
    "topics": [
     "ai-agents",
@@ -7041,7 +7136,7 @@
    "upstream_url": "https://github.com/opendataloader-project/opendataloader-pdf",
    "upstream_deleted": false,
    "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
-   "stars": 28517,
+   "stars": 28542,
    "language": "Java",
    "topics": [
     "a11y",
@@ -7065,7 +7160,7 @@
     "tables",
     "tagged-pdf"
    ],
-   "pushed_at": "2026-08-18T02:11:45Z",
+   "pushed_at": "2026-08-18T09:38:42Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://opendataloader.org",
@@ -7140,7 +7235,7 @@
    "upstream_url": "https://github.com/kepano/obsidian-skills",
    "upstream_deleted": false,
    "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
-   "stars": 46540,
+   "stars": 46634,
    "language": null,
    "topics": [
     "agents",
@@ -7247,7 +7342,7 @@
     "wiki",
     "workspace"
    ],
-   "pushed_at": "2026-08-17T18:33:38Z",
+   "pushed_at": "2026-08-18T08:56:13Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://www.joinstash.ai",
@@ -7320,7 +7415,7 @@
    "upstream_url": "https://github.com/shinpr/claude-code-workflows",
    "upstream_deleted": false,
    "description": "Development workflows for Claude Code that keep broad exploration focused on the outcome you approved.",
-   "stars": 669,
+   "stars": 668,
    "language": "JavaScript",
    "topics": [
     "agent-skills",
@@ -7339,7 +7434,7 @@
     "productivity",
     "subagents"
    ],
-   "pushed_at": "2026-08-16T13:46:57Z",
+   "pushed_at": "2026-08-18T10:54:32Z",
    "archived": false,
    "license": "MIT",
    "homepage": null,
@@ -7410,7 +7505,7 @@
    "upstream_url": "https://github.com/DietrichGebert/ponytail",
    "upstream_deleted": false,
    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-   "stars": 104783,
+   "stars": 105158,
    "language": "JavaScript",
    "topics": [
     "agent-skills",
@@ -7487,7 +7582,7 @@
    "upstream_url": "https://github.com/ruvnet/ruflo",
    "upstream_deleted": false,
    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-   "stars": 68095,
+   "stars": 68165,
    "language": "TypeScript",
    "topics": [
     "agentic-ai",
@@ -7511,7 +7606,7 @@
     "swarm-intelligence",
     "typescript"
    ],
-   "pushed_at": "2026-08-17T09:20:39Z",
+   "pushed_at": "2026-08-18T13:50:37Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://Cognitum.One",
@@ -7574,7 +7669,7 @@
    "upstream_url": "https://github.com/ArcReel/ArcReel",
    "upstream_deleted": false,
    "description": "AI Agent 驱动的开源可自部署视频工作台：将小说与剧本转为角色、场景、道具资产、分镜、视频和剪映草稿，支持跨镜头一致性、多供应商与费用追踪 | Self-hosted AI video workspace for stories, storyboards and short-form video production",
-   "stars": 4039,
+   "stars": 4058,
    "language": "Python",
    "topics": [
     "agentic-workflow",
@@ -7598,7 +7693,7 @@
     "text-to-video",
     "video-generation"
    ],
-   "pushed_at": "2026-08-18T01:14:02Z",
+   "pushed_at": "2026-08-18T09:50:51Z",
    "archived": false,
    "license": "AGPL-3.0",
    "homepage": "https://arc-reel.com",
@@ -7663,7 +7758,7 @@
    "upstream_url": "https://github.com/headroomlabs-ai/headroom",
    "upstream_deleted": false,
    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-   "stars": 66691,
+   "stars": 66752,
    "language": "Python",
    "topics": [
     "agent",
@@ -7687,7 +7782,7 @@
     "tokens",
     "typescript"
    ],
-   "pushed_at": "2026-08-18T01:10:13Z",
+   "pushed_at": "2026-08-18T05:08:36Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://docs.headroomlabs.ai/docs",
@@ -7761,7 +7856,7 @@
    "upstream_url": "https://github.com/calesthio/OpenMontage",
    "upstream_deleted": false,
    "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-   "stars": 48619,
+   "stars": 48727,
    "language": "Python",
    "topics": [
     "agent",
@@ -7923,7 +8018,7 @@
    "upstream_url": "https://github.com/frankwxu/digital-forensics-lab",
    "upstream_deleted": false,
    "description": "Free hands-on digital forensics labs for students and faculty",
-   "stars": 2921,
+   "stars": 2923,
    "language": "Jupyter Notebook",
    "topics": [
     "cyber",
@@ -7999,7 +8094,7 @@
    "upstream_url": "https://github.com/obra/superpowers",
    "upstream_deleted": false,
    "description": "An agentic skills framework & software development methodology that works.",
-   "stars": 273257,
+   "stars": 273501,
    "language": "Shell",
    "topics": [
     "ai",
@@ -8078,7 +8173,7 @@
    "upstream_url": "https://github.com/Kilo-Org/kilocode",
    "upstream_deleted": false,
    "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
-   "stars": 26904,
+   "stars": 26911,
    "language": "TypeScript",
    "topics": [
     "ai",
@@ -8094,7 +8189,7 @@
     "vscode",
     "vscode-extension"
    ],
-   "pushed_at": "2026-08-17T23:38:55Z",
+   "pushed_at": "2026-08-18T13:55:06Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://kilo.ai/",
@@ -8162,7 +8257,7 @@
    "upstream_url": "https://github.com/agent-infra/sandbox",
    "upstream_deleted": false,
    "description": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.",
-   "stars": 5734,
+   "stars": 5745,
    "language": "Python",
    "topics": [
     "agent",
@@ -8304,7 +8399,7 @@
    "upstream_url": "https://github.com/heygen-com/hyperframes",
    "upstream_deleted": false,
    "description": "Write HTML. Render video. Built for agents.",
-   "stars": 41402,
+   "stars": 41499,
    "language": "TypeScript",
    "topics": [
     "ai",
@@ -8319,7 +8414,7 @@
     "typescript",
     "video"
    ],
-   "pushed_at": "2026-08-18T02:27:11Z",
+   "pushed_at": "2026-08-18T13:51:52Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": null,
@@ -8392,7 +8487,7 @@
    "upstream_url": "https://github.com/EvanThomasLuke/Awesome-AI-Hacking-Agents",
    "upstream_deleted": false,
    "description": "List of AI Hacking Agents",
-   "stars": 638,
+   "stars": 641,
    "language": null,
    "topics": [],
    "pushed_at": "2026-08-10T17:33:31Z",
@@ -8455,7 +8550,7 @@
    "upstream_url": "https://github.com/MadsLorentzen/ai-job-search",
    "upstream_deleted": false,
    "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-   "stars": 32118,
+   "stars": 32204,
    "language": "TypeScript",
    "topics": [
     "ai",
@@ -8544,7 +8639,7 @@
    "upstream_url": "https://github.com/arcahyadi/odysseus",
    "upstream_deleted": false,
    "description": "Self-hosted AI workspace. ",
-   "stars": 69,
+   "stars": 70,
    "language": "Python",
    "topics": [],
    "pushed_at": "2026-06-23T01:15:19Z",
@@ -8699,7 +8794,7 @@
    "upstream_url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
    "upstream_deleted": false,
    "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude API, and 7+ native security tools.",
-   "stars": 2206,
+   "stars": 2209,
    "language": "Go",
    "topics": [
     "ai-agents",
@@ -8788,7 +8883,7 @@
    "upstream_url": "https://github.com/microsoft/AI-Engineering-Coach",
    "upstream_deleted": false,
    "description": "better agentic engineering",
-   "stars": 3606,
+   "stars": 3608,
    "language": "TypeScript",
    "topics": [],
    "pushed_at": "2026-08-16T17:28:45Z",
@@ -8857,7 +8952,7 @@
    "upstream_url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
    "upstream_deleted": false,
    "description": "A straightforward method for training your LLM, from downloading data to generating text.",
-   "stars": 9151,
+   "stars": 9169,
    "language": "Python",
    "topics": [
     "gemini",
@@ -8940,7 +9035,7 @@
    "upstream_url": "https://github.com/ariadng/metatrader-mcp-server",
    "upstream_deleted": false,
    "description": "Model Context Protocol (MCP) to enable AI LLMs to trade using MetaTrader platform",
-   "stars": 741,
+   "stars": 747,
    "language": "Python",
    "topics": [
     "ai",
@@ -9111,7 +9206,7 @@
    "upstream_url": "https://github.com/usememos/memos",
    "upstream_deleted": false,
    "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
-   "stars": 62311,
+   "stars": 62328,
    "language": "Go",
    "topics": [
     "docker",
@@ -9128,7 +9223,7 @@
     "social-network",
     "sqlite"
    ],
-   "pushed_at": "2026-08-18T01:16:40Z",
+   "pushed_at": "2026-08-18T13:24:27Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://usememos.com",
@@ -9191,7 +9286,7 @@
    "upstream_url": "https://github.com/blakeblackshear/frigate",
    "upstream_deleted": false,
    "description": "NVR with realtime local object detection for IP cameras",
-   "stars": 35163,
+   "stars": 35176,
    "language": "TypeScript",
    "topics": [
     "ai",
@@ -9207,7 +9302,7 @@
     "rtsp",
     "tensorflow"
    ],
-   "pushed_at": "2026-08-17T21:26:55Z",
+   "pushed_at": "2026-08-18T13:27:41Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://frigate.video",
@@ -9365,7 +9460,7 @@
    "upstream_url": "https://github.com/bradAGI/awesome-cli-coding-agents",
    "upstream_deleted": false,
    "description": "Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous loops, and agent infrastructure. ",
-   "stars": 1014,
+   "stars": 1021,
    "language": "Python",
    "topics": [],
    "pushed_at": "2026-08-17T08:32:33Z",
@@ -9430,7 +9525,7 @@
    "upstream_url": "https://github.com/ultraworkers/claw-code",
    "upstream_deleted": false,
    "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
-   "stars": 195066,
+   "stars": 195081,
    "language": "Rust",
    "topics": [],
    "pushed_at": "2026-08-16T06:18:45Z",
@@ -9496,7 +9591,7 @@
    "upstream_url": "https://github.com/luongnv89/claude-howto",
    "upstream_deleted": false,
    "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-   "stars": 41082,
+   "stars": 41091,
    "language": "Python",
    "topics": [
     "claude-code",
@@ -9567,7 +9662,7 @@
    "upstream_url": "https://github.com/debpalash/VoiceStudio",
    "upstream_deleted": false,
    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. No accounts, no API keys, no cloud.",
-   "stars": 10042,
+   "stars": 10059,
    "language": "Python",
    "topics": [
     "ai",
@@ -9663,7 +9758,7 @@
    "upstream_url": "https://github.com/rohitg00/agentmemory",
    "upstream_deleted": false,
    "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-   "stars": 27120,
+   "stars": 27138,
    "language": "TypeScript",
    "topics": [
     "agentmemory",
@@ -9751,7 +9846,7 @@
    "upstream_url": "https://github.com/frappe/erpnext",
    "upstream_deleted": false,
    "description": "Free and Open Source Enterprise Resource Planning (ERP)",
-   "stars": 38200,
+   "stars": 38221,
    "language": "Python",
    "topics": [
     "accounting",
@@ -9771,7 +9866,7 @@
     "retail",
     "support"
    ],
-   "pushed_at": "2026-08-18T01:44:35Z",
+   "pushed_at": "2026-08-18T10:15:05Z",
    "archived": false,
    "license": "GPL-3.0",
    "homepage": "https://frappe.io/erpnext",
@@ -9836,7 +9931,7 @@
    "upstream_url": "https://github.com/rmyndharis/OpenWA",
    "upstream_deleted": false,
    "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
-   "stars": 12876,
+   "stars": 12921,
    "language": "TypeScript",
    "topics": [
     "api",
@@ -9852,7 +9947,7 @@
     "whatsapp-web",
     "whatsapp-web-api"
    ],
-   "pushed_at": "2026-08-18T02:18:17Z",
+   "pushed_at": "2026-08-18T12:28:52Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://www.open-wa.org",
@@ -9919,7 +10014,7 @@
    "upstream_url": "https://github.com/santifer/career-ops",
    "upstream_deleted": false,
    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-   "stars": 64783,
+   "stars": 65275,
    "language": "JavaScript",
    "topics": [
     "ai",
@@ -9943,7 +10038,7 @@
     "open-source",
     "resume"
    ],
-   "pushed_at": "2026-08-18T02:29:26Z",
+   "pushed_at": "2026-08-18T12:30:30Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://career-ops.org",
@@ -10017,7 +10112,7 @@
    "upstream_url": "https://github.com/addyosmani/agent-skills",
    "upstream_deleted": false,
    "description": "Production-grade engineering skills for AI coding agents.",
-   "stars": 88074,
+   "stars": 88235,
    "language": "JavaScript",
    "topics": [
     "agent-skills",
@@ -10099,7 +10194,7 @@
    "upstream_url": "https://github.com/mohitagw15856/pm-claude-skills",
    "upstream_deleted": false,
    "description": "1098 professional Agent Skills for Claude, ChatGPT, Gemini, Cursor & Codex — from PRDs and postmortems to appealing a disability benefit, building a go-bag, and settling into a new country. Plain-markdown, MIT, in Anthropic's official plugin directory. Free in-browser or 'npx pm-claude-skills add'.",
-   "stars": 1292,
+   "stars": 1293,
    "language": "HTML",
    "topics": [
     "agent-skills",
@@ -10123,7 +10218,7 @@
     "prompts",
     "skills"
    ],
-   "pushed_at": "2026-08-17T13:35:14Z",
+   "pushed_at": "2026-08-18T08:31:03Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://mohitagw15856.github.io/pm-claude-skills/",
@@ -10195,7 +10290,7 @@
    "upstream_url": "https://github.com/BigBodyCobain/Shadowbroker",
    "upstream_deleted": false,
    "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
-   "stars": 10859,
+   "stars": 10870,
    "language": "Python",
    "topics": [
     "ads-b",
@@ -10287,7 +10382,7 @@
    "upstream_url": "https://github.com/dwgx/WindsurfAPI",
    "upstream_deleted": false,
    "description": "Turn Windsurf / Devin Desktop's 100+ AI models (Claude, GPT, Gemini, DeepSeek, Kimi, GLM, SWE) into OpenAI-, Anthropic- & Gemini-compatible APIs. Zero-dependency self-hosted reverse proxy for Claude Code, Cline & Cursor. 把 Windsurf/Devin 云端 100+ 模型变成三套兼容 API。",
-   "stars": 2938,
+   "stars": 2941,
    "language": "JavaScript",
    "topics": [
     "anthropic-compatible",
@@ -10311,7 +10406,7 @@
     "swe-1-5",
     "windsurf"
    ],
-   "pushed_at": "2026-08-17T14:39:08Z",
+   "pushed_at": "2026-08-18T02:57:58Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://dwgx.github.io/WindsurfAPI/",
@@ -10376,7 +10471,7 @@
    "upstream_url": "https://github.com/open-webui/open-webui",
    "upstream_deleted": false,
    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "stars": 149062,
+   "stars": 149123,
    "language": "Python",
    "topics": [
     "ai",
@@ -10555,7 +10650,7 @@
    "upstream_url": "https://github.com/bytedance/deer-flow",
    "upstream_deleted": false,
    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-   "stars": 80187,
+   "stars": 80247,
    "language": "Python",
    "topics": [
     "agent",
@@ -10652,7 +10747,7 @@
    "upstream_url": "https://github.com/Egonex-AI/Understand-Anything",
    "upstream_deleted": false,
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-   "stars": 79632,
+   "stars": 79702,
    "language": "TypeScript",
    "topics": [
     "antigravity-skills",
@@ -10745,7 +10840,7 @@
    "upstream_url": "https://github.com/docusealco/docuseal",
    "upstream_deleted": false,
    "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
-   "stars": 18265,
+   "stars": 18279,
    "language": "Ruby",
    "topics": [
     "document-signing",
@@ -10828,7 +10923,7 @@
    "upstream_url": "https://github.com/NousResearch/hermes-agent",
    "upstream_deleted": false,
    "description": "The agent that grows with you",
-   "stars": 232075,
+   "stars": 232370,
    "language": "Python",
    "topics": [
     "ai",
@@ -10845,7 +10940,7 @@
     "nous-research",
     "openai"
    ],
-   "pushed_at": "2026-08-18T02:36:16Z",
+   "pushed_at": "2026-08-18T13:52:38Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://hermes-agent.nousresearch.com",
@@ -10917,14 +11012,14 @@
    "upstream_url": "https://github.com/shiaho777/web-to-app",
    "upstream_deleted": false,
    "description": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
-   "stars": 5653,
+   "stars": 5659,
    "language": "Kotlin",
    "topics": [
     "android",
     "app",
     "web"
    ],
-   "pushed_at": "2026-08-17T15:22:25Z",
+   "pushed_at": "2026-08-18T07:08:03Z",
    "archived": false,
    "license": "Unlicense",
    "homepage": "https://shiaho777.github.io/web-to-app/",
@@ -10989,7 +11084,7 @@
    "upstream_url": "https://github.com/HKUDS/Vibe-Trading",
    "upstream_deleted": false,
    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-   "stars": 31129,
+   "stars": 31188,
    "language": "Python",
    "topics": [
     "ai-agent",
@@ -11003,7 +11098,7 @@
     "quantitative-finance",
     "trading"
    ],
-   "pushed_at": "2026-08-17T09:22:40Z",
+   "pushed_at": "2026-08-18T12:42:54Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://vibetrading.wiki/",
@@ -11076,7 +11171,7 @@
    "upstream_url": "https://github.com/freecodexyz/free-code",
    "upstream_deleted": false,
    "description": "The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.",
-   "stars": 8701,
+   "stars": 8703,
    "language": "TypeScript",
    "topics": [],
    "pushed_at": "2026-07-29T20:31:34Z",
@@ -11151,7 +11246,7 @@
    "upstream_url": "https://github.com/skalesapp/skales",
    "upstream_deleted": false,
    "description": "Personal AI desktop agent for Windows, macOS, Linux, Android & iOS. Set a goal, it works on its own. Teams (pair two desktops, agents + humans), Agent2Agent, Workflows, Codework, multi-agent orgs, desktop + browser automation. 15+ AI providers, BYOK. No Docker, no terminal. Agent Skills (SKILL.md). Migration importer. Recurring autonomous tasks.",
-   "stars": 1669,
+   "stars": 1671,
    "language": "TypeScript",
    "topics": [
     "agentic-ai",
@@ -11240,7 +11335,7 @@
    "upstream_url": "https://github.com/amruth-sn/kong",
    "upstream_deleted": false,
    "description": "The world's first agentic reverse engineer.",
-   "stars": 1082,
+   "stars": 1083,
    "language": "Python",
    "topics": [
     "agentic-ai",
@@ -11317,7 +11412,7 @@
    "upstream_url": "https://github.com/zai-org/GLM-OCR",
    "upstream_deleted": false,
    "description": "GLM-OCR: Accurate ×  Fast × Comprehensive",
-   "stars": 7289,
+   "stars": 7290,
    "language": "Python",
    "topics": [
     "glm",
@@ -11391,7 +11486,7 @@
    "upstream_url": "https://github.com/huggingface/agents-course",
    "upstream_deleted": false,
    "description": "This repository contains the Hugging Face Agents Course. ",
-   "stars": 31077,
+   "stars": 31100,
    "language": "MDX",
    "topics": [
     "agentic-ai",
@@ -11477,7 +11572,7 @@
    "upstream_url": "https://github.com/andrewyng/context-hub",
    "upstream_deleted": false,
    "description": "",
-   "stars": 13924,
+   "stars": 13925,
    "language": "JavaScript",
    "topics": [],
    "pushed_at": "2026-05-31T18:41:45Z",
@@ -11546,7 +11641,7 @@
    "upstream_url": "https://github.com/msitarzewski/agency-agents",
    "upstream_deleted": false,
    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-   "stars": 146000,
+   "stars": 146071,
    "language": "Shell",
    "topics": [],
    "pushed_at": "2026-08-06T13:29:47Z",
@@ -11619,7 +11714,7 @@
    "upstream_url": "https://github.com/karpathy/autoresearch",
    "upstream_deleted": false,
    "description": "AI agents running research on single-GPU nanochat training automatically",
-   "stars": 94025,
+   "stars": 94061,
    "language": "Python",
    "topics": [],
    "pushed_at": "2026-03-26T00:07:37Z",
@@ -11685,7 +11780,7 @@
    "upstream_url": "https://github.com/AlexsJones/llmfit",
    "upstream_deleted": false,
    "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-   "stars": 32347,
+   "stars": 32626,
    "language": "Rust",
    "topics": [
     "gguf",
@@ -11695,7 +11790,7 @@
     "skill",
     "unsloth"
    ],
-   "pushed_at": "2026-08-17T07:35:58Z",
+   "pushed_at": "2026-08-18T10:34:33Z",
    "archived": false,
    "license": "MIT",
    "homepage": null,
@@ -11771,7 +11866,7 @@
    "upstream_url": "https://github.com/shareAI-lab/learn-claude-code",
    "upstream_deleted": false,
    "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-   "stars": 74496,
+   "stars": 74559,
    "language": "Python",
    "topics": [
     "agent",
@@ -11937,7 +12032,7 @@
    "upstream_url": "https://github.com/Azure-Samples/python-agentframework-demos",
    "upstream_deleted": false,
    "description": "",
-   "stars": 242,
+   "stars": 243,
    "language": "Bicep",
    "topics": [],
    "pushed_at": "2026-07-07T21:08:36Z",
@@ -12013,7 +12108,7 @@
    "upstream_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
    "upstream_deleted": false,
    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-   "stars": 142874,
+   "stars": 142886,
    "language": null,
    "topics": [
     "ai",
@@ -12099,7 +12194,7 @@
    "upstream_url": "https://github.com/langgenius/dify",
    "upstream_deleted": false,
    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-   "stars": 152732,
+   "stars": 152803,
    "language": "TypeScript",
    "topics": [
     "agent",
@@ -12123,7 +12218,7 @@
     "skills",
     "workflow"
    ],
-   "pushed_at": "2026-08-18T02:33:59Z",
+   "pushed_at": "2026-08-18T13:50:24Z",
    "archived": false,
    "license": "NOASSERTION",
    "homepage": "https://dify.ai",
@@ -12188,7 +12283,7 @@
    "upstream_url": "https://github.com/anthropics/claude-quickstarts",
    "upstream_deleted": false,
    "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-   "stars": 17454,
+   "stars": 17457,
    "language": "TypeScript",
    "topics": [],
    "pushed_at": "2026-08-06T17:17:51Z",
@@ -12290,7 +12385,7 @@
     "rag",
     "typescript"
    ],
-   "pushed_at": "2026-08-18T01:47:18Z",
+   "pushed_at": "2026-08-18T13:03:18Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "http://www.agentfield.ai",
@@ -12601,7 +12696,7 @@
    "upstream_url": "https://github.com/AndyMik90/Aperant",
    "upstream_deleted": false,
    "description": "Autonomous multi-session AI coding",
-   "stars": 14532,
+   "stars": 14533,
    "language": "TypeScript",
    "topics": [],
    "pushed_at": "2026-06-14T08:27:00Z",
@@ -12822,7 +12917,7 @@
    "upstream_url": "https://github.com/koala73/worldmonitor",
    "upstream_deleted": false,
    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-   "stars": 82697,
+   "stars": 82854,
    "language": "TypeScript",
    "topics": [
     "agent",
@@ -12838,7 +12933,7 @@
     "palantir",
     "situation"
    ],
-   "pushed_at": "2026-08-17T20:19:35Z",
+   "pushed_at": "2026-08-18T14:00:10Z",
    "archived": false,
    "license": "AGPL-3.0",
    "homepage": "https://worldmonitor.app",
@@ -12911,7 +13006,7 @@
    "upstream_url": "https://github.com/gsd-build/get-shit-done",
    "upstream_deleted": false,
    "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
-   "stars": 64686,
+   "stars": 64680,
    "language": "JavaScript",
    "topics": [
     "claude-code",
@@ -13126,7 +13221,7 @@
    "upstream_url": "https://github.com/virattt/dexter",
    "upstream_deleted": false,
    "description": "An autonomous agent for deep financial research",
-   "stars": 27523,
+   "stars": 27525,
    "language": "TypeScript",
    "topics": [],
    "pushed_at": "2026-08-04T15:20:42Z",
@@ -13202,7 +13297,7 @@
    "upstream_url": "https://github.com/0x0funky/audioghost-ai",
    "upstream_deleted": false,
    "description": "Extract any sound with text prompts. Memory-optimized SAM-Audio with modern UI.",
-   "stars": 467,
+   "stars": 468,
    "language": "TypeScript",
    "topics": [],
    "pushed_at": "2025-12-29T18:10:03Z",
@@ -13272,7 +13367,7 @@
    "upstream_url": "https://github.com/twentyhq/twenty",
    "upstream_deleted": false,
    "description": "The open alternative to Salesforce, designed for AI.",
-   "stars": 55053,
+   "stars": 55084,
    "language": "TypeScript",
    "topics": [
     "crm",
@@ -13293,7 +13388,7 @@
     "typescript",
     "web"
    ],
-   "pushed_at": "2026-08-18T02:33:05Z",
+   "pushed_at": "2026-08-18T13:56:26Z",
    "archived": false,
    "license": "NOASSERTION",
    "homepage": "https://twenty.com",
@@ -13432,7 +13527,7 @@
    "upstream_url": "https://github.com/rohitg00/pro-workflow",
    "upstream_deleted": false,
    "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
-   "stars": 2775,
+   "stars": 2776,
    "language": "JavaScript",
    "topics": [
     "agent-orchestration",
@@ -13522,7 +13617,7 @@
    "upstream_url": "https://github.com/shanraisshan/claude-code-best-practice",
    "upstream_deleted": false,
    "description": "from vibe coding to agentic engineering - practice makes claude perfect",
-   "stars": 64628,
+   "stars": 64657,
    "language": "HTML",
    "topics": [
     "agentic-ai",
@@ -13546,7 +13641,7 @@
     "pakistani-developer",
     "vibe-coding"
    ],
-   "pushed_at": "2026-08-17T06:47:54Z",
+   "pushed_at": "2026-08-18T06:37:38Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://linkedin.com/in/shanraisshan",
@@ -13675,7 +13770,7 @@
    "upstream_url": "https://github.com/mem0ai/mem0",
    "upstream_deleted": false,
    "description": "Universal memory layer for AI Agents",
-   "stars": 63475,
+   "stars": 63526,
    "language": "Python",
    "topics": [
     "agents",
@@ -13693,7 +13788,7 @@
     "rag",
     "state-management"
    ],
-   "pushed_at": "2026-08-18T02:33:11Z",
+   "pushed_at": "2026-08-18T05:29:39Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://mem0.ai",
@@ -13766,7 +13861,7 @@
    "upstream_url": "https://github.com/FlowiseAI/Flowise",
    "upstream_deleted": false,
    "description": "Build AI Agents, Visually",
-   "stars": 55379,
+   "stars": 55381,
    "language": "TypeScript",
    "topics": [
     "agentic-ai",
@@ -13864,7 +13959,7 @@
    "upstream_url": "https://github.com/thedotmack/claude-mem",
    "upstream_deleted": false,
    "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-   "stars": 91025,
+   "stars": 91105,
    "language": "JavaScript",
    "topics": [
     "ai",
@@ -13888,7 +13983,7 @@
     "sqlite",
     "supermemory"
    ],
-   "pushed_at": "2026-08-17T15:46:17Z",
+   "pushed_at": "2026-08-18T11:45:29Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://claude-mem.ai",
@@ -13954,7 +14049,7 @@
    "upstream_url": "https://github.com/OpenBMB/ChatDev",
    "upstream_deleted": false,
    "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
-   "stars": 34013,
+   "stars": 34019,
    "language": "Python",
    "topics": [],
    "pushed_at": "2026-07-24T08:01:27Z",
@@ -14113,7 +14208,7 @@
    "upstream_url": "https://github.com/TEN-framework/ten-framework",
    "upstream_deleted": false,
    "description": " Open-source framework for conversational voice AI agents",
-   "stars": 11058,
+   "stars": 11062,
    "language": "Python",
    "topics": [
     "ai",
@@ -14122,7 +14217,7 @@
     "video",
     "voice"
    ],
-   "pushed_at": "2026-08-17T08:03:11Z",
+   "pushed_at": "2026-08-18T12:45:32Z",
    "archived": false,
    "license": "NOASSERTION",
    "homepage": "https://agent.theten.ai/",
@@ -14270,7 +14365,7 @@
    "upstream_url": "https://github.com/sickn33/agentic-awesome-skills",
    "upstream_deleted": false,
    "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-   "stars": 45071,
+   "stars": 45085,
    "language": "Python",
    "topics": [
     "agent-skills",
@@ -14294,7 +14389,7 @@
     "mcp",
     "skill-library"
    ],
-   "pushed_at": "2026-08-17T21:56:48Z",
+   "pushed_at": "2026-08-18T07:31:38Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://sickn33.github.io/agentic-awesome-skills/",
@@ -14368,13 +14463,13 @@
    "upstream_url": "https://github.com/Free-TV/IPTV",
    "upstream_deleted": false,
    "description": "M3U Playlist for free TV channels",
-   "stars": 19911,
+   "stars": 19917,
    "language": "Python",
    "topics": [
     "help-wanted",
     "looking-for-contributors"
    ],
-   "pushed_at": "2026-08-17T19:43:30Z",
+   "pushed_at": "2026-08-18T11:02:07Z",
    "archived": false,
    "license": null,
    "homepage": null,
@@ -14428,7 +14523,7 @@
    "upstream_url": "https://github.com/VectifyAI/PageIndex",
    "upstream_deleted": false,
    "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-   "stars": 35225,
+   "stars": 35229,
    "language": "Python",
    "topics": [
     "agentic-ai",
@@ -14444,7 +14539,7 @@
     "retrieval-augmented-generation",
     "vector-database"
    ],
-   "pushed_at": "2026-08-17T17:23:16Z",
+   "pushed_at": "2026-08-18T09:10:46Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://pageindex.ai",
@@ -14605,7 +14700,7 @@
     "react",
     "rust"
    ],
-   "pushed_at": "2026-08-17T20:37:59Z",
+   "pushed_at": "2026-08-18T05:15:18Z",
    "archived": false,
    "license": "MIT",
    "homepage": null,
@@ -14828,7 +14923,7 @@
     "agentic-ai",
     "large-language-models"
    ],
-   "pushed_at": "2026-07-24T01:38:07Z",
+   "pushed_at": "2026-08-18T08:35:31Z",
    "archived": false,
    "license": "MIT",
    "homepage": null,
@@ -14897,7 +14992,7 @@
    "upstream_url": "https://github.com/czlonkowski/n8n-skills",
    "upstream_deleted": false,
    "description": "n8n skillset for Claude Code to build flawless n8n workflows",
-   "stars": 6074,
+   "stars": 6080,
    "language": "Shell",
    "topics": [
     "ai-agents",
@@ -14976,7 +15071,7 @@
    "upstream_url": "https://github.com/Fission-AI/OpenSpec",
    "upstream_deleted": false,
    "description": "Spec-driven development (SDD) for AI coding assistants.",
-   "stars": 65232,
+   "stars": 65337,
    "language": "TypeScript",
    "topics": [
     "ai",
@@ -15387,7 +15482,7 @@
    "upstream_url": "https://github.com/affaan-m/ECC",
    "upstream_deleted": false,
    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-   "stars": 240730,
+   "stars": 240841,
    "language": "JavaScript",
    "topics": [
     "ai-agents",
@@ -15543,7 +15638,7 @@
    "upstream_url": "https://github.com/cporter202/social-media-scraping-apis",
    "upstream_deleted": false,
    "description": "A curated collection of social media scraping APIs and tools for Instagram, LinkedIn, Twitter/X, TikTok, YouTube, Facebook, and more. Extract posts, profiles, videos, comments, and engagement metrics.",
-   "stars": 2162,
+   "stars": 2163,
    "language": "JavaScript",
    "topics": [
     "facebook-api",
@@ -15610,7 +15705,7 @@
    "upstream_url": "https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant",
    "upstream_deleted": false,
    "description": "A python based desktop voice assistant capable of executing system-level commands, integrating speech recognition and text-to-speech, and handling asynchronous user interactions.",
-   "stars": 883,
+   "stars": 884,
    "language": "Python",
    "topics": [
     "bot",
@@ -15913,7 +16008,7 @@
    "upstream_url": "https://github.com/bestruirui/octopus",
    "upstream_deleted": false,
    "description": "One Hub All LLMs For You | 为个人打造的 LLM API 聚合网关",
-   "stars": 2409,
+   "stars": 2424,
    "language": "TypeScript",
    "topics": [
     "ai",
@@ -15926,7 +16021,7 @@
     "openai",
     "self-hosted"
    ],
-   "pushed_at": "2026-08-18T01:33:34Z",
+   "pushed_at": "2026-08-18T13:50:32Z",
    "archived": false,
    "license": "AGPL-3.0",
    "homepage": null,
@@ -16853,7 +16948,7 @@
    "upstream_url": "https://github.com/ShayneP/local-voice-ai",
    "upstream_deleted": false,
    "description": "Local voice AI powered by llama-cpp, Kokoro, Nemotron STT, and LiveKit.",
-   "stars": 689,
+   "stars": 690,
    "language": "Python",
    "topics": [],
    "pushed_at": "2026-08-16T14:49:02Z",
@@ -17059,7 +17154,7 @@
    "upstream_url": "https://github.com/ruvnet/RuView",
    "upstream_deleted": false,
    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-   "stars": 90513,
+   "stars": 90631,
    "language": "Rust",
    "topics": [
     "awesome",
@@ -17083,7 +17178,7 @@
     "wifi",
     "wifi-security"
    ],
-   "pushed_at": "2026-08-18T00:17:13Z",
+   "pushed_at": "2026-08-18T12:11:51Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://Cognitum.One/RuView",
@@ -17162,7 +17257,7 @@
     "beads",
     "bv"
    ],
-   "pushed_at": "2026-08-17T22:28:16Z",
+   "pushed_at": "2026-08-18T10:32:23Z",
    "archived": false,
    "license": "NOASSERTION",
    "homepage": "https://agent-flywheel.com/",
@@ -17235,7 +17330,7 @@
    "upstream_url": "https://github.com/github/awesome-copilot",
    "upstream_deleted": false,
    "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-   "stars": 37951,
+   "stars": 37974,
    "language": "Python",
    "topics": [
     "agent-skills",
@@ -17247,7 +17342,7 @@
     "hacktoberfest",
     "prompt-engineering"
    ],
-   "pushed_at": "2026-08-17T23:50:24Z",
+   "pushed_at": "2026-08-18T05:32:37Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://awesome-copilot.github.com/",
@@ -17319,12 +17414,12 @@
    "upstream_url": "https://github.com/anthropics/skills",
    "upstream_deleted": false,
    "description": "Public repository for Agent Skills",
-   "stars": 170041,
+   "stars": 170196,
    "language": "Python",
    "topics": [
     "agent-skills"
    ],
-   "pushed_at": "2026-08-17T17:23:18Z",
+   "pushed_at": "2026-08-18T12:26:22Z",
    "archived": false,
    "license": null,
    "homepage": null,
@@ -17482,7 +17577,7 @@
    "upstream_url": "https://github.com/google/mcp",
    "upstream_deleted": false,
    "description": "Google 💚 MCP",
-   "stars": 4516,
+   "stars": 4520,
    "language": null,
    "topics": [],
    "pushed_at": "2026-08-17T19:46:40Z",
@@ -17718,14 +17813,14 @@
    "upstream_url": "https://github.com/github/github-mcp-server",
    "upstream_deleted": false,
    "description": "GitHub's official MCP Server",
-   "stars": 32318,
+   "stars": 32337,
    "language": "Go",
    "topics": [
     "github",
     "mcp",
     "mcp-server"
    ],
-   "pushed_at": "2026-08-17T18:36:38Z",
+   "pushed_at": "2026-08-18T12:50:41Z",
    "archived": false,
    "license": "MIT",
    "homepage": null,
@@ -17796,7 +17891,7 @@
    "upstream_url": "https://github.com/cporter202/API-mega-list",
    "upstream_deleted": false,
    "description": "This GitHub repo is a powerhouse collection of APIs you can start using immediately to build everything from simple automations to full-scale applications. One of the most valuable API lists on GitHub—period. 💪",
-   "stars": 7477,
+   "stars": 7485,
    "language": "JavaScript",
    "topics": [
     "ai-tools",
@@ -17884,7 +17979,7 @@
    "stars": 1026,
    "language": "Python",
    "topics": [],
-   "pushed_at": "2026-08-18T01:40:28Z",
+   "pushed_at": "2026-08-18T10:19:36Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://ade.landing.ai",
@@ -17950,7 +18045,7 @@
    "upstream_url": "https://github.com/FareedKhan-dev/all-agentic-architectures",
    "upstream_deleted": false,
    "description": "35 production-grade agentic AI architectures (Reflexion, LATS, GraphRAG, MemGPT, Voyager, BrowserAgent, ...) — a Python library and runnable textbook with multi-provider LLM support and a 17-task benchmark leaderboard.",
-   "stars": 4125,
+   "stars": 4126,
    "language": "Jupyter Notebook",
    "topics": [
     "agentic-ai",
@@ -18104,7 +18199,7 @@
    "upstream_url": "https://github.com/microsoft/foundry-local",
    "upstream_deleted": false,
    "description": "",
-   "stars": 2513,
+   "stars": 2515,
    "language": "C++",
    "topics": [
     "ai-sdk",
@@ -18118,7 +18213,7 @@
     "speech-to-text",
     "whisper"
    ],
-   "pushed_at": "2026-08-18T00:12:30Z",
+   "pushed_at": "2026-08-18T07:53:24Z",
    "archived": false,
    "license": "NOASSERTION",
    "homepage": "https://foundrylocal.ai",
@@ -18188,7 +18283,7 @@
    "upstream_url": "https://github.com/DigitalPhonetics/IMS-Toucan",
    "upstream_deleted": false,
    "description": "Controllable and fast Text-to-Speech for over 7000 languages!",
-   "stars": 2209,
+   "stars": 2207,
    "language": "Python",
    "topics": [
     "deep-learning",
@@ -18260,7 +18355,7 @@
    "upstream_url": "https://github.com/EbookFoundation/free-programming-books",
    "upstream_deleted": false,
    "description": ":books: Freely available programming books",
-   "stars": 394640,
+   "stars": 394667,
    "language": "Python",
    "topics": [
     "books",
@@ -18269,7 +18364,7 @@
     "list",
     "resource"
    ],
-   "pushed_at": "2026-08-16T17:14:23Z",
+   "pushed_at": "2026-08-18T10:18:08Z",
    "archived": false,
    "license": "CC-BY-4.0",
    "homepage": "https://ebookfoundation.github.io/free-programming-books/",
@@ -18333,7 +18428,7 @@
    "upstream_url": "https://github.com/gregorojstersek/resources-to-become-a-great-engineering-leader",
    "upstream_deleted": false,
    "description": "List of books, blogs, newsletters and people!",
-   "stars": 7325,
+   "stars": 7326,
    "language": null,
    "topics": [],
    "pushed_at": "2026-05-06T12:57:45Z",
@@ -18396,7 +18491,7 @@
    "upstream_url": "https://github.com/jwasham/coding-interview-university",
    "upstream_deleted": false,
    "description": "A complete computer science study plan to become a software engineer.",
-   "stars": 359074,
+   "stars": 359122,
    "language": null,
    "topics": [
     "algorithm",
@@ -18476,7 +18571,7 @@
    "upstream_url": "https://github.com/yangshun/tech-interview-handbook",
    "upstream_deleted": false,
    "description": "Curated coding interview preparation materials for busy software engineers",
-   "stars": 141934,
+   "stars": 141954,
    "language": "TypeScript",
    "topics": [
     "algorithm",
@@ -18555,7 +18650,7 @@
    "upstream_url": "https://github.com/crewAIInc/crewAI",
    "upstream_deleted": false,
    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-   "stars": 57218,
+   "stars": 57251,
    "language": "Python",
    "topics": [
     "agents",
@@ -18564,7 +18659,7 @@
     "aiagentframework",
     "llms"
    ],
-   "pushed_at": "2026-08-18T00:41:53Z",
+   "pushed_at": "2026-08-18T06:50:06Z",
    "archived": false,
    "license": "MIT",
    "homepage": "https://crewai.com",
@@ -18861,7 +18956,7 @@
    "upstream_url": "https://github.com/karpathy/llm-council",
    "upstream_deleted": false,
    "description": "LLM Council works together to answer your hardest questions",
-   "stars": 24122,
+   "stars": 24132,
    "language": "Python",
    "topics": [],
    "pushed_at": "2025-11-22T23:35:21Z",
@@ -18986,7 +19081,7 @@
    "upstream_url": "https://github.com/run-llama/llama_index",
    "upstream_deleted": false,
    "description": "LlamaIndex is the leading document agent and OCR platform",
-   "stars": 51714,
+   "stars": 51725,
    "language": "Python",
    "topics": [
     "agents",
@@ -19074,7 +19169,7 @@
    "upstream_url": "https://github.com/google-gemini/gemini-cli",
    "upstream_deleted": false,
    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-   "stars": 106543,
+   "stars": 106551,
    "language": "TypeScript",
    "topics": [
     "ai",
@@ -19085,7 +19180,7 @@
     "mcp-client",
     "mcp-server"
    ],
-   "pushed_at": "2026-08-18T02:01:01Z",
+   "pushed_at": "2026-08-18T13:56:49Z",
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://geminicli.com",
@@ -19149,7 +19244,7 @@
    "upstream_url": "https://github.com/modelcontextprotocol/servers",
    "upstream_deleted": false,
    "description": "Model Context Protocol Servers",
-   "stars": 89643,
+   "stars": 89657,
    "language": "TypeScript",
    "topics": [],
    "pushed_at": "2026-08-10T02:41:59Z",
@@ -19222,7 +19317,7 @@
    "upstream_url": "https://github.com/bragai/bRAG-langchain",
    "upstream_deleted": false,
    "description": "Everything you need to know to build your own RAG application",
-   "stars": 4148,
+   "stars": 4150,
    "language": "Jupyter Notebook",
    "topics": [
     "agentic-rag",
@@ -19373,7 +19468,7 @@
    "upstream_url": "https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
    "upstream_deleted": false,
    "description": "Multi-agent systems, memory, planning, reasoning loops",
-   "stars": 2875,
+   "stars": 2876,
    "language": "Jupyter Notebook",
    "topics": [
     "agent-skills",
@@ -19453,7 +19548,7 @@
    "upstream_url": "https://github.com/microsoft/autogen",
    "upstream_deleted": false,
    "description": "A programming framework for agentic AI",
-   "stars": 60477,
+   "stars": 60490,
    "language": "Python",
    "topics": [
     "agentic",
@@ -19532,7 +19627,7 @@
    "upstream_url": "https://github.com/rasbt/LLMs-from-scratch",
    "upstream_deleted": false,
    "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-   "stars": 102854,
+   "stars": 102907,
    "language": "Jupyter Notebook",
    "topics": [
     "ai",
@@ -19619,7 +19714,7 @@
    "upstream_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "upstream_deleted": false,
    "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-   "stars": 132990,
+   "stars": 133086,
    "language": "Python",
    "topics": [
     "agents",

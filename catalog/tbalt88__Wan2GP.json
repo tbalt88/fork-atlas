@@ -10,10 +10,10 @@
     "full_name": "deepbeepmeep/Wan2GP",
     "url": "https://github.com/deepbeepmeep/Wan2GP",
     "description": "A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, LTX-2, Qwen Image, Hunyuan Video, LTX  Video and Flux.",
-    "stars": 8703,
+    "stars": 8716,
     "forks": 1362,
     "watchers": 100,
-    "open_issues": 1097,
+    "open_issues": 1098,
     "language": "Python",
     "topics": [
       "ai",
@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:45Z",
-    "metadata_refreshed_at": "2026-08-18T02:11:45Z",
+    "metadata_refreshed_at": "2026-08-18T14:00:27Z",
     "signals": [
       "docker"
     ],

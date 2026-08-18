@@ -10,8 +10,8 @@
     "full_name": "cporter202/API-mega-list",
     "url": "https://github.com/cporter202/API-mega-list",
     "description": "This GitHub repo is a powerhouse collection of APIs you can start using immediately to build everything from simple automations to full-scale applications. One of the most valuable API lists on GitHub—period. 💪",
-    "stars": 7477,
-    "forks": 1443,
+    "stars": 7485,
+    "forks": 1445,
     "watchers": 89,
     "open_issues": 19,
     "language": "JavaScript",
@@ -47,7 +47,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:08Z",
-    "metadata_refreshed_at": "2026-08-18T02:14:08Z",
+    "metadata_refreshed_at": "2026-08-18T14:02:28Z",
     "signals": [],
     "languages": {
       "JavaScript": 37100

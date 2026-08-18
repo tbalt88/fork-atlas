@@ -10,10 +10,10 @@
     "full_name": "diwenne/openreply",
     "url": "https://github.com/diwenne/openreply",
     "description": "Open-source ManyChat alternative: comment-dm automation + account analytics. NOTE: the link below will not allow you to OAuth; you must self-host with your own API keys.",
-    "stars": 1366,
-    "forks": 405,
-    "watchers": 9,
-    "open_issues": 5,
+    "stars": 1388,
+    "forks": 415,
+    "watchers": 8,
+    "open_issues": 6,
     "language": "TypeScript",
     "topics": [],
     "license": "MIT",
@@ -26,7 +26,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:52Z",
-    "metadata_refreshed_at": "2026-08-18T02:32:10Z",
+    "metadata_refreshed_at": "2026-08-18T14:00:33Z",
     "signals": [
       "claude-md",
       "gh-actions"

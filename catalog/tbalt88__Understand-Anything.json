@@ -10,8 +10,8 @@
     "full_name": "Egonex-AI/Understand-Anything",
     "url": "https://github.com/Egonex-AI/Understand-Anything",
     "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-    "stars": 79632,
-    "forks": 6685,
+    "stars": 79702,
+    "forks": 6691,
     "watchers": 249,
     "open_issues": 284,
     "language": "TypeScript",
@@ -44,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:47Z",
-    "metadata_refreshed_at": "2026-08-18T02:33:03Z",
+    "metadata_refreshed_at": "2026-08-18T14:01:23Z",
     "signals": [
       "claude-md",
       "gh-actions",

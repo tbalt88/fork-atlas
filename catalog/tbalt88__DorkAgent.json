@@ -1,0 +1,47 @@
+{
+  "fork": {
+    "full_name": "tbalt88/DorkAgent",
+    "url": "https://github.com/tbalt88/DorkAgent",
+    "created_at": "2026-08-18T13:50:50Z",
+    "default_branch": "main",
+    "pushed_at": "2025-12-11T02:28:23Z"
+  },
+  "upstream": {
+    "full_name": "yee-yore/DorkAgent",
+    "url": "https://github.com/yee-yore/DorkAgent",
+    "description": "🤖 LLM-powered agent for automated Google Dorking in bug hunting & pentesting.",
+    "stars": 314,
+    "forks": 48,
+    "watchers": 4,
+    "open_issues": 0,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "aiagent",
+      "bugbounty",
+      "dorks",
+      "google-dorking",
+      "google-hacking",
+      "hacking",
+      "llm",
+      "osint",
+      "pentest",
+      "pentesting"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-02-26T04:56:34Z",
+    "pushed_at": "2025-12-11T02:28:23Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-08-18T14:00:22Z",
+    "metadata_refreshed_at": "2026-08-18T14:00:22Z",
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

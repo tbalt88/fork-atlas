@@ -10,8 +10,8 @@
     "full_name": "RockxyApp/Rockxy",
     "url": "https://github.com/RockxyApp/Rockxy",
     "description": "Open-source native macOS HTTP debugging proxy — intercept HTTPS, inspect APIs, mock responses, debug WebSocket & GraphQL. Community-driven. For developers, by developers.",
-    "stars": 890,
-    "forks": 49,
+    "stars": 894,
+    "forks": 50,
     "watchers": 2,
     "open_issues": 96,
     "language": "Swift",
@@ -47,7 +47,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:50Z",
-    "metadata_refreshed_at": "2026-08-18T02:11:50Z",
+    "metadata_refreshed_at": "2026-08-18T14:00:31Z",
     "signals": [
       "gh-actions",
       "make"

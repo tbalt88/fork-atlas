@@ -10,10 +10,10 @@
     "full_name": "unslothai/unsloth",
     "url": "https://github.com/unslothai/unsloth",
     "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-    "stars": 73267,
-    "forks": 6604,
+    "stars": 73468,
+    "forks": 6630,
     "watchers": 375,
-    "open_issues": 1276,
+    "open_issues": 1287,
     "language": "Python",
     "topics": [
       "agent",
@@ -41,13 +41,13 @@
     "homepage": "https://unsloth.ai/docs",
     "default_branch": "main",
     "created_at": "2023-11-29T16:50:09Z",
-    "pushed_at": "2026-08-18T01:49:12Z",
+    "pushed_at": "2026-08-18T13:55:27Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:44Z",
-    "metadata_refreshed_at": "2026-08-18T02:35:31Z",
+    "metadata_refreshed_at": "2026-08-18T14:00:25Z",
     "signals": [
       "gh-actions"
     ],

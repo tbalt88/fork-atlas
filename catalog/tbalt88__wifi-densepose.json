@@ -4,16 +4,16 @@
     "url": "https://github.com/tbalt88/wifi-densepose",
     "created_at": "2025-12-26T09:55:18Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-18T00:44:38Z"
+    "pushed_at": "2026-08-18T12:32:26Z"
   },
   "upstream": {
     "full_name": "ruvnet/RuView",
     "url": "https://github.com/ruvnet/RuView",
     "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-    "stars": 90513,
-    "forks": 12038,
-    "watchers": 808,
-    "open_issues": 501,
+    "stars": 90631,
+    "forks": 12056,
+    "watchers": 809,
+    "open_issues": 503,
     "language": "Rust",
     "topics": [
       "awesome",
@@ -41,13 +41,13 @@
     "homepage": "https://Cognitum.One/RuView",
     "default_branch": "main",
     "created_at": "2025-06-07T04:32:30Z",
-    "pushed_at": "2026-08-18T00:17:13Z",
+    "pushed_at": "2026-08-18T12:11:51Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:00Z",
-    "metadata_refreshed_at": "2026-08-18T02:34:09Z",
+    "metadata_refreshed_at": "2026-08-18T14:02:21Z",
     "signals": [],
     "languages": {
       "Rust": 11541539,

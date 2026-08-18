@@ -10,10 +10,10 @@
     "full_name": "ArcReel/ArcReel",
     "url": "https://github.com/ArcReel/ArcReel",
     "description": "AI Agent 驱动的开源可自部署视频工作台：将小说与剧本转为角色、场景、道具资产、分镜、视频和剪映草稿，支持跨镜头一致性、多供应商与费用追踪 | Self-hosted AI video workspace for stories, storyboards and short-form video production",
-    "stars": 4039,
-    "forks": 807,
-    "watchers": 17,
-    "open_issues": 111,
+    "stars": 4058,
+    "forks": 810,
+    "watchers": 18,
+    "open_issues": 110,
     "language": "Python",
     "topics": [
       "agentic-workflow",
@@ -41,13 +41,13 @@
     "homepage": "https://arc-reel.com",
     "default_branch": "main",
     "created_at": "2026-02-07T08:17:10Z",
-    "pushed_at": "2026-08-18T01:14:02Z",
+    "pushed_at": "2026-08-18T09:50:51Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:18Z",
-    "metadata_refreshed_at": "2026-08-18T02:36:07Z",
+    "metadata_refreshed_at": "2026-08-18T14:00:58Z",
     "signals": [
       "claude-skill"
     ],

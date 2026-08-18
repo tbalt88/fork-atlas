@@ -10,10 +10,10 @@
     "full_name": "santifer/career-ops",
     "url": "https://github.com/santifer/career-ops",
     "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-    "stars": 64783,
-    "forks": 12657,
-    "watchers": 252,
-    "open_issues": 336,
+    "stars": 65275,
+    "forks": 12685,
+    "watchers": 254,
+    "open_issues": 345,
     "language": "JavaScript",
     "topics": [
       "ai",
@@ -41,13 +41,13 @@
     "homepage": "https://career-ops.org",
     "default_branch": "main",
     "created_at": "2026-04-04T18:21:18Z",
-    "pushed_at": "2026-08-18T02:29:26Z",
+    "pushed_at": "2026-08-18T12:30:30Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:40Z",
-    "metadata_refreshed_at": "2026-08-18T02:36:30Z",
+    "metadata_refreshed_at": "2026-08-18T14:01:17Z",
     "signals": [
       "claude-md",
       "claude-skill",
