@@ -1,7 +1,7 @@
 {
  "source": "tbalt88/second-brain:Boards/Projects.md",
- "sha": "050b2d3d12439f7d36842ec0bd3bf53c034b6945",
- "fetched_at": "2026-08-18T20:28:23Z",
+ "sha": "15d5bc485b3b39a76641142bc81cbf83df42b161",
+ "fetched_at": "2026-08-18T21:13:50Z",
  "fetched_via": "mac-mini autopush",
- "markdown": "---\n\nkanban-plugin: board\n\n---\n\n> [!info] AUTO-GENERATED from `Projects/*.md` frontmatter by `scripts/gen_projects_board.py`.\n> To move a card, change `status:` in the project note — never edit cards here (regeneration overwrites).\n\n## 🟡 Active\n\n- [ ] **[[DVerse v2]]** · `v2-closed` · 4 open\n- [ ] **[[DexEvo Site Design]]** · `active`\n- [ ] **[[DexEvo Travel]]** · `v2-closed` · 12 open · travel.dexevo.io\n- [ ] **[[Omni Channel]]** · `research`\n- [ ] **[[Tristan]]** · `active` · 6 open\n\n## 🚀 Shipped\n\n- [ ] **[[Auction Scanner]]** · `phase-2a-shipped` · 4 open · scanner.dexevo.io\n- [ ] **[[Dex Fabric]]** · `shipped`\n\n## ✅ Closed\n\n- [x] **[[Agentic CRM Support Architecture]]** · `completed`\n\n## 💤 Parked\n\n\n"
+ "markdown": "---\n\nkanban-plugin: board\n\n---\n\n> [!info] AUTO-GENERATED from `Projects/*.md` frontmatter by `scripts/gen_projects_board.py`.\n> To move a card, change `status:` in the project note — never edit cards here (regeneration overwrites).\n\n## 🟡 Active\n\n- [ ] **[[DVerse v2]]** · `v2-closed` · 4 open\n- [ ] **[[DexEvo Site Design]]** · `active`\n- [ ] **[[DexEvo Travel]]** · `v2-closed` · 12 open · travel.dexevo.io\n- [ ] **[[Fork Atlas]]** · `active`\n- [ ] **[[Omni Channel]]** · `research`\n- [ ] **[[Tristan]]** · `active` · 6 open\n\n## 🚀 Shipped\n\n- [ ] **[[Auction Scanner]]** · `phase-2a-shipped` · 4 open · scanner.dexevo.io\n- [ ] **[[Dex Fabric]]** · `shipped`\n\n## ✅ Closed\n\n- [x] **[[Agentic CRM Support Architecture]]** · `completed`\n\n## 💤 Parked\n\n\n"
 }
