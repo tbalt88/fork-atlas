@@ -13,7 +13,7 @@
 | Thing | How | When | Where to look if it stops |
 |---|---|---|---|
 | Discover new forks, refresh stars/pushed/archived, rebuild matrix + MATRIX.md + CSV, deploy Pages | GitHub Action `atlas.yml` (holds only `GITHUB_TOKEN`) | nightly 06:17 UTC, on every push, or **Actions → Run workflow** | https://github.com/tbalt88/fork-atlas/actions — GitHub emails you on failure |
-| Board snapshot push (`site/board.snapshot.json`) | Mac mini autopush job (open task in Memory Bridge `7375ade0…`) | after board regeneration | assistant page label `snapshot · <date>` goes stale → see prompts below |
+| Board snapshot push (`site/board.snapshot.json`) | Mac mini `~/.config/obsidian-second-brain/vault-autopush.sh` → `push_board_snapshot()` (Claude Code SessionEnd hook + launchd `io.dexevo.secondbrain.autopush` daily 22:40; skips when board sha unchanged, state in `fork-atlas-board.sha`; done 2026-08-18, Memory Bridge `7375ade0…` archived) | after board regeneration | `/tmp/vault-autopush.log` on the Mac mini; assistant page label `snapshot · <date>` goes stale → see prompts below |
 | Provider auto-detect (Ollama on the machine you're on) | the page, on load | every load | ⚙ Providers → Detect models |
 | Private repos merged into search (if a token is saved in that browser) | the page, on load, GitHub API + ETag cache | every load | keeper tile *private repos (live)* + hint |
 
@@ -52,7 +52,7 @@ Everything in ⚙ lives in that browser's localStorage. **Nothing here is ever c
 
 ## Where the memory lives (for agents)
 
-- **Memory Bridge:** project entry `4eee11a1-d54a-418d-a08a-0af4ce155eb4` (facts, decisions, prompts) · open Mac-mini task `7375ade0-c55d-4f2f-93fe-9724d255a2b3` (board snapshot automation).
+- **Memory Bridge:** project entry `4eee11a1-d54a-418d-a08a-0af4ce155eb4` (facts, decisions, prompts) · Mac-mini task `7375ade0-c55d-4f2f-93fe-9724d255a2b3` (board snapshot automation — done + receipted 2026-08-18, archived).
 - **Vault:** `Projects/Fork Atlas.md` (project note, on the board) · `Debriefs/2026-08-18 - fork-atlas-build-debrief.md`.
 - **Local Claude Code memory (win):** Claude Code auto-memory for the project folder on each machine (`~/.claude/projects/<folder>/memory/fork-atlas-project.md`).
 
