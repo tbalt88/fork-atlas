@@ -37,6 +37,9 @@ domains:
   - key: learning-reference
     label: Learning & reference
     hint: awesome-lists, courses, tutorials, papers, curated resources
+  - key: marketing-growth
+    label: Marketing, SEO & growth
+    hint: SEO tooling, social listening/research, analytics, content and ad tooling, audience research
   - key: business-apps
     label: Business apps, CRM/ERP & Power Platform
     hint: ERP, CRM, e-signature, Dynamics 365 / Power Platform / Dataverse samples, SDKs and connectors

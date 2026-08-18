@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T04:22:59Z",
+ "generated_at": "2026-08-18T04:23:41Z",
  "taxonomy": {
   "domains": [
    {
@@ -56,6 +56,11 @@
     "key": "learning-reference",
     "label": "Learning & reference",
     "hint": "awesome-lists, courses, tutorials, papers, curated resources"
+   },
+   {
+    "key": "marketing-growth",
+    "label": "Marketing, SEO & growth",
+    "hint": "SEO tooling, social listening/research, analytics, content and ad tooling, audience research"
    },
    {
     "key": "business-apps",
@@ -3715,8 +3720,8 @@
     "node"
    ],
    "status": "classified",
-   "domain": "automation-integrations",
-   "domain_label": "Automation & integrations",
+   "domain": "marketing-growth",
+   "domain_label": "Marketing, SEO & growth",
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -15555,8 +15560,8 @@
    "homepage": "https://www.skool.com/vibe-coding-with-chris-7196",
    "signals": [],
    "status": "classified",
-   "domain": "data-rag",
-   "domain_label": "Data, ETL, search & RAG",
+   "domain": "marketing-growth",
+   "domain_label": "Marketing, SEO & growth",
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "toy",
