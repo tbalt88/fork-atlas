@@ -19,6 +19,8 @@ potential use cases, keyword-tagged so a use case can be matched to a fork quick
 
 Nothing here depends on Claude or any specific LLM to *view*. Any tool can read the JSON.
 
+**Forgot how it works? Read [RUNBOOK.md](RUNBOOK.md).**
+
 ## How it stays alive
 
 | Piece | Runs where | Frequency | Touches LLM fields? |

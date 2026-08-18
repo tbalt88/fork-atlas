@@ -55,6 +55,7 @@
   .tile.warn b { color:var(--warn) } .tile.ok b { color:var(--ok) }
   .stat { display:flex; justify-content:space-between; gap:8px; padding:6px 0; border-bottom:1px dashed var(--line); font-size:13px } .stat:last-child { border:0 }
   ul.plain { margin:6px 0 0; padding-left:16px; color:var(--ink2); font-size:13px } ul.plain li { margin:3px 0 }
+  .nag { background:var(--warn-bg); border-radius:10px; padding:8px 10px; margin:6px 0; font-size:12px; color:var(--ink) } .nag b { color:var(--warn); font-weight:600 } .nag code { font-size:11px }
   .bcol { margin-top:6px } .bcol summary { list-style:none; cursor:pointer } .bcol summary::-webkit-details-marker { display:none }
   .bhead { font-size:12px; font-weight:600; color:var(--ink2); padding:6px 0 4px; display:flex; gap:6px; align-items:center }
   .bhead .muted { font-weight:500 } details.bcol > summary.bhead::before { content:'▸'; color:var(--muted); font-size:10px; transition:transform .12s } details.bcol[open] > summary.bhead::before { transform:rotate(90deg) }
@@ -112,7 +113,7 @@
 <body>
 <header>
   <div class="brand"><span class="logo">D</span>Dexter's Fork Atlas <small>/ assistant</small></div>
-  <nav><a href="index.html">Matrix</a><a href="https://github.com/tbalt88/fork-atlas" target="_blank" rel="noopener">Repo</a></nav>
+  <nav><a href="index.html">Matrix</a><a href="https://github.com/tbalt88/fork-atlas" target="_blank" rel="noopener">Repo</a><a href="https://github.com/tbalt88/fork-atlas/blob/main/RUNBOOK.md" target="_blank" rel="noopener" title="What runs itself, what needs you, exact prompts">Runbook</a></nav>
   <span class="pill" id="pill"><span class="dot"></span><span id="pillText">probing providers…</span></span>
   <button class="gear" id="gear" title="Provider settings">⚙ Providers</button>
 </header>

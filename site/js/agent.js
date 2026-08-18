@@ -64,9 +64,26 @@ function renderKeeper() {
       ${tile(`<span style="font-size:15px;line-height:1.5">${fmtDate(matrix.generated_at)}</span>`, 'catalog updated')}
     </div>
     ${since.length ? `<h2 style="margin-top:12px">New since your last visit${last ? ' (' + fmtDate(last) + ')' : ''}</h2><ul class="plain">${since.slice(0, 8).map(i => `<li><a href="index.html#${encodeURIComponent(JSON.stringify({ q: i.name }))}">${esc(i.upstream || i.name)}</a> <span class="muted">${esc(i.domain_label)}</span></li>`).join('')}${since.length > 8 ? `<li class="muted">+${since.length - 8} more</li>` : ''}</ul>` : ''}
-    ${unclassified.length ? `<p class="muted" style="margin:10px 0 0">Run <code>python scripts/classify.py</code> (or ask Claude Code) to classify new forks.</p>` : ''}
+    ${staleNotes(unclassified.length)}
     ${risky.length ? `<h2 style="margin-top:12px">Watch — used/pinned repos at risk</h2><ul class="plain">${risky.map(i => `<li>${esc(i.upstream)} <span class="tag warn">${i.archived ? 'archived' : i.upstream_deleted ? 'upstream gone' : 'dormant'}</span></li>`).join('')}</ul>` : ''}`;
 }
+
+// ---------------------------------------------------------------- staleness — the page carries the runbook so Dexter doesn't have to
+const daysSince = iso => iso ? Math.floor((Date.now() - Date.parse(iso)) / 864e5) : null;
+const PROMPTS = {
+  classify: 'Classify unclassified forks in fork-atlas (prepare → Sonnet fan-out → ingest → build → push).',
+  board: 'Refresh the fork-atlas Project board snapshot from vault-bridge (Boards/Projects.md) and push.',
+  action: 'Check why the fork-atlas nightly Action stopped building (gh run list in tbalt88/fork-atlas) and fix it.',
+};
+const nag = (title, prompt) => `<div class="nag"><b>${esc(title)}</b><div class="row" style="gap:6px;margin-top:4px"><code style="flex:1;white-space:normal">${esc(prompt)}</code><button class="ghost" data-copy="${esc(prompt)}" style="padding:3px 8px;font-size:11px">copy</button></div></div>`;
+function staleNotes(unclassifiedCount) {
+  const out = [];
+  const built = daysSince(matrix.generated_at);
+  if (built != null && built > 3) out.push(nag(`Catalog last built ${built} days ago — the nightly Action may be broken. Say to Claude Code:`, PROMPTS.action));
+  if (unclassifiedCount) out.push(nag(`${unclassifiedCount} new fork${unclassifiedCount > 1 ? 's' : ''} need the one-shot LLM pass. Say to Claude Code:`, PROMPTS.classify));
+  return out.length ? `<div style="margin-top:10px">${out.join('')}</div>` : '';
+}
+document.addEventListener('click', e => { const b = e.target.closest('[data-copy]'); if (b) copy(b.dataset.copy); });
 
 // ---------------------------------------------------------------- Project board (vault Boards/Projects.md)
 // Order of truth: live (GitHub API + PAT) > browser cache of last live > committed snapshot.
@@ -102,6 +119,7 @@ function renderBoard(markdown, meta) {
   el.innerHTML = `<h2 style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">Project board <span id="boardState" class="tag ${meta.kind === 'live' ? 'ok' : ''}" style="text-transform:none;letter-spacing:0;font-weight:500">${label}</span>
       ${meta.url ? `<a class="muted" style="margin-left:auto;font-size:11px" href="${esc(meta.url)}" target="_blank" rel="noopener">open ↗</a>` : ''}</h2>
     <div id="boardHint" class="muted" style="margin:-6px 0 8px;font-size:11px;text-transform:none;letter-spacing:0"></div>` +
+    (meta.kind !== 'live' && daysSince(meta.at) > 7 ? nag(`Board ${meta.kind} is ${daysSince(meta.at)} days old. Add a GitHub token in ⚙ for live, or say to Claude Code:`, PROMPTS.board) : '') +
     cols.map(col => {
       const kind = columnKind(col.title);
       const collapsed = kind === 'closed' || (kind === 'parked' && !col.cards.length);
