@@ -4,13 +4,18 @@
     "url": "https://github.com/tbalt88/wifi-3d-fusion",
     "created_at": "2026-01-31T07:09:05Z",
     "default_branch": "main",
-    "pushed_at": "2025-08-26T21:22:46Z"
+    "pushed_at": "2025-08-26T21:22:46Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "MaliosDark/wifi-3d-fusion",
     "url": "https://github.com/MaliosDark/wifi-3d-fusion",
     "description": "WiFi-3D-Fusion is an open-source research project that leverages WiFi CSI signals and deep learning to estimate 3D human pose, fusing wireless sensing with computer vision techniques for next-generation spatial awareness.",
-    "stars": 1711,
+    "stars": 1713,
     "forks": 189,
     "watchers": 15,
     "open_issues": 3,
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:37Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:37Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:23Z",
     "signals": [
       "docker",
       "make",
@@ -38,7 +43,8 @@
       "Dockerfile": 287,
       "Makefile": 176
     },
-    "inputs_prepared_at": "2026-08-18T02:18:56Z"
+    "inputs_prepared_at": "2026-08-18T02:18:56Z",
+    "actions_checked_at": "2026-08-18T16:56:23Z"
   },
   "classification": {
     "domain": "misc",

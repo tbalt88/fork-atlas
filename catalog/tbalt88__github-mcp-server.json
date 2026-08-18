@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/github-mcp-server",
     "created_at": "2025-12-12T02:54:00Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:06:46Z"
+    "pushed_at": "2026-07-19T08:06:46Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "github/github-mcp-server",
     "url": "https://github.com/github/github-mcp-server",
     "description": "GitHub's official MCP Server",
-    "stars": 32337,
-    "forks": 4816,
+    "stars": 32338,
+    "forks": 4817,
     "watchers": 376,
     "open_issues": 374,
     "language": "Go",
@@ -24,13 +29,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2025-03-04T16:42:04Z",
-    "pushed_at": "2026-08-18T12:50:41Z",
+    "pushed_at": "2026-08-18T14:40:23Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:07Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:27Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:22Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -44,7 +49,8 @@
       "Dockerfile": 2262,
       "JavaScript": 400
     },
-    "inputs_prepared_at": "2026-08-18T02:16:44Z"
+    "inputs_prepared_at": "2026-08-18T02:16:44Z",
+    "actions_checked_at": "2026-08-18T16:57:22Z"
   },
   "classification": {
     "domain": "agents-skills",

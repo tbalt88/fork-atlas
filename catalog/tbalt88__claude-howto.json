@@ -4,13 +4,18 @@
     "url": "https://github.com/tbalt88/claude-howto",
     "created_at": "2026-05-19T22:28:31Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:07:02Z"
+    "pushed_at": "2026-07-19T08:07:02Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "luongnv89/claude-howto",
     "url": "https://github.com/luongnv89/claude-howto",
     "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-    "stars": 41091,
+    "stars": 41092,
     "forks": 5023,
     "watchers": 186,
     "open_issues": 32,
@@ -30,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:36Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:14Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:59Z",
     "signals": [
       "claude-skill",
       "gh-actions"
@@ -43,7 +48,8 @@
       "JavaScript": 8543,
       "CSS": 2989
     },
-    "inputs_prepared_at": "2026-08-18T02:15:39Z"
+    "inputs_prepared_at": "2026-08-18T02:15:39Z",
+    "actions_checked_at": "2026-08-18T16:54:59Z"
   },
   "classification": {
     "domain": "learning-reference",

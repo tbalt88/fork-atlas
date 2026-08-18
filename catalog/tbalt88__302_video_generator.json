@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/302_video_generator",
     "created_at": "2026-02-10T22:09:50Z",
     "default_branch": "main",
-    "pushed_at": "2025-08-25T02:03:43Z"
+    "pushed_at": "2025-08-25T02:03:43Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "302ai/302_video_generator",
@@ -29,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:18Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:18Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:55Z",
     "signals": [
       "docker",
       "nextjs",
@@ -41,7 +46,8 @@
       "CSS": 2183,
       "JavaScript": 1010
     },
-    "inputs_prepared_at": "2026-08-18T02:14:44Z"
+    "inputs_prepared_at": "2026-08-18T02:14:44Z",
+    "actions_checked_at": "2026-08-18T16:55:54Z"
   },
   "classification": {
     "domain": "media-generation",

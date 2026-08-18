@@ -4,13 +4,18 @@
     "url": "https://github.com/tbalt88/HEAVEN-Autonomous-Penetration-Testing",
     "created_at": "2026-08-16T21:55:30Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-12T12:04:38Z"
+    "pushed_at": "2026-08-12T12:04:38Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "nishu2402/HEAVEN-Autonomous-Penetration-Testing",
     "url": "https://github.com/nishu2402/HEAVEN-Autonomous-Penetration-Testing",
     "description": "☠️ A production-grade autonomous penetration testing platform that automates deep reconnaissance, machine learning-driven risk scoring, verified exploitation, and compliance reporting. Features 172 modules, an async task graph orchestrator, and automated threat mapping to MITRE ATT&CK and OWASP Top 10.",
-    "stars": 56,
+    "stars": 57,
     "forks": 11,
     "watchers": 1,
     "open_issues": 0,
@@ -37,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:44Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:26Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:27Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -55,7 +60,8 @@
       "HTML": 1560,
       "Mako": 635
     },
-    "inputs_prepared_at": "2026-08-18T02:16:47Z"
+    "inputs_prepared_at": "2026-08-18T02:16:47Z",
+    "actions_checked_at": "2026-08-18T16:53:27Z"
   },
   "classification": {
     "domain": "security",

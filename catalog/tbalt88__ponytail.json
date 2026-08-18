@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/ponytail",
     "created_at": "2026-07-05T23:28:00Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-16T08:03:43Z"
+    "pushed_at": "2026-07-16T08:03:43Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "DietrichGebert/ponytail",
     "url": "https://github.com/DietrichGebert/ponytail",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "stars": 105158,
-    "forks": 5804,
+    "stars": 105249,
+    "forks": 5809,
     "watchers": 255,
     "open_issues": 142,
     "language": "JavaScript",
@@ -37,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:17Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:56Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:26Z",
     "signals": [
       "claude-skill",
       "gh-actions"
@@ -48,7 +53,8 @@
       "PowerShell": 885,
       "Shell": 696
     },
-    "inputs_prepared_at": "2026-08-18T02:17:58Z"
+    "inputs_prepared_at": "2026-08-18T02:17:58Z",
+    "actions_checked_at": "2026-08-18T16:54:25Z"
   },
   "classification": {
     "domain": "agents-skills",

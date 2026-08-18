@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/agency-agents",
     "created_at": "2026-03-09T03:38:05Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-18T07:40:37Z"
+    "pushed_at": "2026-07-18T07:40:37Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "msitarzewski/agency-agents",
     "url": "https://github.com/msitarzewski/agency-agents",
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "stars": 146071,
-    "forks": 23610,
+    "stars": 146088,
+    "forks": 23611,
     "watchers": 1082,
     "open_issues": 140,
     "language": "Shell",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:00Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:31Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:30Z",
     "signals": [
       "gh-actions"
     ],
@@ -35,7 +40,8 @@
       "Python": 22283,
       "PowerShell": 1617
     },
-    "inputs_prepared_at": "2026-08-18T02:14:47Z"
+    "inputs_prepared_at": "2026-08-18T02:14:47Z",
+    "actions_checked_at": "2026-08-18T16:55:30Z"
   },
   "classification": {
     "domain": "agents-skills",

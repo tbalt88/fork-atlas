@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/Multi-AI-Agent-Systems-with-crewAI",
     "created_at": "2026-01-03T08:34:59Z",
     "default_branch": "main",
-    "pushed_at": "2024-06-11T14:01:02Z"
+    "pushed_at": "2024-06-11T14:01:02Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "ksm26/Multi-AI-Agent-Systems-with-crewAI",
@@ -46,12 +51,13 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:46Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:46Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:44Z",
     "signals": [],
     "languages": {
       "Jupyter Notebook": 538748
     },
-    "inputs_prepared_at": "2026-08-18T02:17:22Z"
+    "inputs_prepared_at": "2026-08-18T02:17:22Z",
+    "actions_checked_at": "2026-08-18T16:56:43Z"
   },
   "classification": {
     "domain": "agents-skills",

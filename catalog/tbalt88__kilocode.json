@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/kilocode",
     "created_at": "2026-06-17T15:53:56Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-18T07:40:15Z"
+    "pushed_at": "2026-07-18T07:40:15Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "Kilo-Org/kilocode",
     "url": "https://github.com/Kilo-Org/kilocode",
     "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
-    "stars": 26911,
+    "stars": 26915,
     "forks": 3065,
     "watchers": 109,
-    "open_issues": 597,
+    "open_issues": 594,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -33,13 +38,13 @@
     "homepage": "https://kilo.ai/",
     "default_branch": "main",
     "created_at": "2025-03-10T15:34:26Z",
-    "pushed_at": "2026-08-18T13:55:06Z",
+    "pushed_at": "2026-08-18T15:32:50Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:23Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:02Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:36Z",
     "signals": [
       "gh-actions"
     ],
@@ -61,7 +66,8 @@
       "PHP": 633,
       "Scheme": 441
     },
-    "inputs_prepared_at": "2026-08-18T02:17:01Z"
+    "inputs_prepared_at": "2026-08-18T02:17:01Z",
+    "actions_checked_at": "2026-08-18T16:54:36Z"
   },
   "classification": {
     "domain": "agents-skills",

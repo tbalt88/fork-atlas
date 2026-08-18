@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/mem0",
     "created_at": "2026-02-06T18:28:23Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-18T07:40:43Z"
+    "pushed_at": "2026-07-18T07:40:43Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "mem0ai/mem0",
     "url": "https://github.com/mem0ai/mem0",
     "description": "Universal memory layer for AI Agents",
-    "stars": 63526,
-    "forks": 7426,
+    "stars": 63533,
+    "forks": 7429,
     "watchers": 241,
-    "open_issues": 687,
+    "open_issues": 689,
     "language": "Python",
     "topics": [
       "agents",
@@ -35,13 +40,13 @@
     "homepage": "https://mem0.ai",
     "default_branch": "main",
     "created_at": "2023-06-20T08:58:36Z",
-    "pushed_at": "2026-08-18T05:29:39Z",
+    "pushed_at": "2026-08-18T15:51:45Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:25Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:50Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:05Z",
     "signals": [
       "claude-md",
       "gh-actions",
@@ -58,7 +63,8 @@
       "Dockerfile": 2150,
       "Mako": 635
     },
-    "inputs_prepared_at": "2026-08-18T02:17:18Z"
+    "inputs_prepared_at": "2026-08-18T02:17:18Z",
+    "actions_checked_at": "2026-08-18T16:56:05Z"
   },
   "classification": {
     "domain": "agents-skills",

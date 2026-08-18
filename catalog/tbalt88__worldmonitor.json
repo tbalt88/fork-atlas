@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/worldmonitor",
     "created_at": "2026-02-14T05:10:28Z",
     "default_branch": "main",
-    "pushed_at": "2026-02-13T20:25:12Z"
+    "pushed_at": "2026-02-13T20:25:12Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "koala73/worldmonitor",
     "url": "https://github.com/koala73/worldmonitor",
     "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-    "stars": 82854,
-    "forks": 12368,
+    "stars": 82905,
+    "forks": 12372,
     "watchers": 475,
-    "open_issues": 357,
+    "open_issues": 346,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -33,13 +38,13 @@
     "homepage": "https://worldmonitor.app",
     "default_branch": "main",
     "created_at": "2026-01-08T17:26:06Z",
-    "pushed_at": "2026-08-18T14:00:10Z",
+    "pushed_at": "2026-08-18T16:54:16Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:15Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:42Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:51Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -61,7 +66,8 @@
       "Makefile": 7444,
       "NSIS": 1060
     },
-    "inputs_prepared_at": "2026-08-18T02:19:01Z"
+    "inputs_prepared_at": "2026-08-18T02:19:01Z",
+    "actions_checked_at": "2026-08-18T16:55:51Z"
   },
   "classification": {
     "domain": "knowledge-productivity",

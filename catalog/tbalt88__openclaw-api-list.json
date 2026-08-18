@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/openclaw-api-list",
     "created_at": "2026-08-17T19:47:17Z",
     "default_branch": "main",
-    "pushed_at": "2026-03-06T23:44:56Z"
+    "pushed_at": "2026-03-06T23:44:56Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "Kevjade/openclaw-api-list",
@@ -26,12 +31,13 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:41Z",
-    "metadata_refreshed_at": "2026-08-18T02:11:41Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:22Z",
     "signals": [],
     "languages": {
       "JavaScript": 27369
     },
-    "inputs_prepared_at": "2026-08-18T02:17:39Z"
+    "inputs_prepared_at": "2026-08-18T02:17:39Z",
+    "actions_checked_at": "2026-08-18T16:53:21Z"
   },
   "classification": {
     "domain": "automation-integrations",

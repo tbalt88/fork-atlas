@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/python-agentframework-demos",
     "created_at": "2026-02-25T19:10:05Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-08T08:17:27Z"
+    "pushed_at": "2026-07-08T08:17:27Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "Azure-Samples/python-agentframework-demos",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:05Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:35Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:37Z",
     "signals": [
       "claude-skill",
       "docker",
@@ -38,7 +43,8 @@
       "Dockerfile": 853,
       "Shell": 809
     },
-    "inputs_prepared_at": "2026-08-18T02:18:06Z"
+    "inputs_prepared_at": "2026-08-18T02:18:06Z",
+    "actions_checked_at": "2026-08-18T16:55:37Z"
   },
   "classification": {
     "domain": "agents-skills",

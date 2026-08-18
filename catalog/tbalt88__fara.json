@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/fara",
     "created_at": "2025-12-01T18:15:43Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-17T10:47:08Z"
+    "pushed_at": "2026-06-17T10:47:08Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "microsoft/fara",
@@ -32,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:19Z",
-    "metadata_refreshed_at": "2026-08-18T02:14:19Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:41Z",
     "signals": [
       "python"
     ],
@@ -43,7 +48,8 @@
       "Jinja": 13477,
       "Shell": 525
     },
-    "inputs_prepared_at": "2026-08-18T02:16:26Z"
+    "inputs_prepared_at": "2026-08-18T02:16:26Z",
+    "actions_checked_at": "2026-08-18T16:57:41Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/kimi-k3-in-c",
     "created_at": "2026-08-12T14:11:29Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-07T16:39:26Z"
+    "pushed_at": "2026-08-07T16:39:26Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "FareedKhan-dev/kimi-k3-in-c",
     "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
     "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-    "stars": 5990,
-    "forks": 980,
+    "stars": 5996,
+    "forks": 984,
     "watchers": 60,
     "open_issues": 21,
     "language": "C",
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:55Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:36Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:45Z",
     "signals": [
       "gh-actions",
       "make"
@@ -59,7 +64,8 @@
       "Makefile": 12406,
       "CMake": 7414
     },
-    "inputs_prepared_at": "2026-08-18T02:17:02Z"
+    "inputs_prepared_at": "2026-08-18T02:17:02Z",
+    "actions_checked_at": "2026-08-18T16:53:45Z"
   },
   "classification": {
     "domain": "llm-inference-training",

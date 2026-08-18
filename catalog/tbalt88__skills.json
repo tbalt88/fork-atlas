@@ -4,15 +4,20 @@
     "url": "https://github.com/tbalt88/skills",
     "created_at": "2026-08-17T04:37:02Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-16T21:03:27Z"
+    "pushed_at": "2026-08-16T21:03:27Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "stars": 221097,
-    "forks": 19052,
-    "watchers": 1262,
+    "stars": 221258,
+    "forks": 19064,
+    "watchers": 1267,
     "open_issues": 363,
     "language": "Shell",
     "topics": [],
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:42Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:24Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:23Z",
     "signals": [
       "claude-md",
       "claude-skill",
@@ -37,7 +42,8 @@
       "Shell": 12419,
       "JavaScript": 5163
     },
-    "inputs_prepared_at": "2026-08-18T02:18:25Z"
+    "inputs_prepared_at": "2026-08-18T02:18:25Z",
+    "actions_checked_at": "2026-08-18T16:53:23Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/face_recognition",
     "created_at": "2026-06-02T04:14:41Z",
     "default_branch": "master",
-    "pushed_at": "2026-06-26T08:57:29Z"
+    "pushed_at": "2026-06-26T08:57:29Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "ageitgey/face_recognition",
@@ -31,7 +36,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:28Z",
-    "metadata_refreshed_at": "2026-08-18T02:32:45Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:45Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -43,7 +48,8 @@
       "Dockerfile": 6930,
       "Makefile": 2286
     },
-    "inputs_prepared_at": "2026-08-18T02:16:24Z"
+    "inputs_prepared_at": "2026-08-18T02:16:24Z",
+    "actions_checked_at": "2026-08-18T16:54:45Z"
   },
   "classification": {
     "domain": "misc",

@@ -4,29 +4,34 @@
     "url": "https://github.com/tbalt88/mcpservers",
     "created_at": "2025-11-25T04:34:08Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-07T09:31:34Z"
+    "pushed_at": "2026-07-07T09:31:34Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "modelcontextprotocol/servers",
     "url": "https://github.com/modelcontextprotocol/servers",
     "description": "Model Context Protocol Servers",
-    "stars": 89657,
-    "forks": 11473,
-    "watchers": 633,
-    "open_issues": 527,
+    "stars": 89661,
+    "forks": 11474,
+    "watchers": 634,
+    "open_issues": 524,
     "language": "TypeScript",
     "topics": [],
     "license": "NOASSERTION",
     "homepage": "https://modelcontextprotocol.io",
     "default_branch": "main",
     "created_at": "2024-11-19T01:10:17Z",
-    "pushed_at": "2026-08-10T02:41:59Z",
+    "pushed_at": "2026-08-18T16:04:56Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:23Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:41Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:47Z",
     "signals": [
       "claude-md",
       "docker",
@@ -42,7 +47,8 @@
       "JavaScript": 55419,
       "Dockerfile": 6012
     },
-    "inputs_prepared_at": "2026-08-18T02:17:16Z"
+    "inputs_prepared_at": "2026-08-18T02:17:16Z",
+    "actions_checked_at": "2026-08-18T16:57:47Z"
   },
   "classification": {
     "domain": "agents-skills",

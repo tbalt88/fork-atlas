@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/OpenSpec",
     "created_at": "2026-01-28T08:57:53Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:06:08Z"
+    "pushed_at": "2026-07-19T08:06:08Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "Fission-AI/OpenSpec",
     "url": "https://github.com/Fission-AI/OpenSpec",
     "description": "Spec-driven development (SDD) for AI coding assistants.",
-    "stars": 65337,
-    "forks": 4503,
+    "stars": 65357,
+    "forks": 4505,
     "watchers": 269,
-    "open_issues": 210,
+    "open_issues": 213,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -37,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:39Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:01Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:28Z",
     "signals": [
       "claude-skill",
       "gh-actions",
@@ -50,7 +55,8 @@
       "Nix": 2992,
       "CSS": 427
     },
-    "inputs_prepared_at": "2026-08-18T02:17:46Z"
+    "inputs_prepared_at": "2026-08-18T02:17:46Z",
+    "actions_checked_at": "2026-08-18T16:56:28Z"
   },
   "classification": {
     "domain": "agents-skills",

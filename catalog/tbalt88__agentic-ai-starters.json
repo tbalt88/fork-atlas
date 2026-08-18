@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/agentic-ai-starters",
     "created_at": "2026-05-08T21:29:03Z",
     "default_branch": "main",
-    "pushed_at": "2026-04-07T16:12:14Z"
+    "pushed_at": "2026-04-07T16:12:14Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "cporter202/agentic-ai-starters",
@@ -39,10 +44,11 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:46Z",
-    "metadata_refreshed_at": "2026-08-18T02:12:46Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:13Z",
     "signals": [],
     "languages": {},
-    "inputs_prepared_at": "2026-08-18T02:14:53Z"
+    "inputs_prepared_at": "2026-08-18T02:14:53Z",
+    "actions_checked_at": "2026-08-18T16:55:12Z"
   },
   "classification": {
     "domain": "agents-skills",

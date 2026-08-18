@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/agentswarms",
     "created_at": "2026-08-04T07:16:20Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-04T07:08:25Z"
+    "pushed_at": "2026-08-04T07:08:25Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "AgentSwarms-fyi/agentswarms",
@@ -37,13 +42,13 @@
     "homepage": "https://agentswarms.fyi",
     "default_branch": "main",
     "created_at": "2026-07-21T21:35:03Z",
-    "pushed_at": "2026-08-18T10:20:51Z",
+    "pushed_at": "2026-08-18T16:42:19Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:03Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:43Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:00Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -61,7 +66,8 @@
       "Dockerfile": 5995,
       "HTML": 1801
     },
-    "inputs_prepared_at": "2026-08-18T02:14:59Z"
+    "inputs_prepared_at": "2026-08-18T02:14:59Z",
+    "actions_checked_at": "2026-08-18T16:54:00Z"
   },
   "classification": {
     "domain": "agents-skills",

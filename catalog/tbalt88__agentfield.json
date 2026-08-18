@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/agentfield",
     "created_at": "2026-02-20T22:14:58Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-05T17:26:51Z"
+    "pushed_at": "2026-08-05T17:26:51Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "Agent-Field/agentfield",
@@ -13,7 +18,7 @@
     "stars": 2520,
     "forks": 403,
     "watchers": 20,
-    "open_issues": 59,
+    "open_issues": 61,
     "language": "Go",
     "topics": [
       "agent",
@@ -41,13 +46,13 @@
     "homepage": "http://www.agentfield.ai",
     "default_branch": "main",
     "created_at": "2025-11-05T02:04:44Z",
-    "pushed_at": "2026-08-18T13:03:18Z",
+    "pushed_at": "2026-08-18T16:42:07Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:09Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:37Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:42Z",
     "signals": [
       "claude-md",
       "gh-actions",
@@ -65,7 +70,8 @@
       "Dockerfile": 2296,
       "HTML": 872
     },
-    "inputs_prepared_at": "2026-08-18T02:14:51Z"
+    "inputs_prepared_at": "2026-08-18T02:14:51Z",
+    "actions_checked_at": "2026-08-18T16:55:42Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/Shadowbroker",
     "created_at": "2026-05-16T04:31:13Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-11T07:47:05Z"
+    "pushed_at": "2026-07-11T07:47:05Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "BigBodyCobain/Shadowbroker",
     "url": "https://github.com/BigBodyCobain/Shadowbroker",
     "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
     "stars": 10870,
-    "forks": 1730,
+    "forks": 1731,
     "watchers": 92,
     "open_issues": 2,
     "language": "Python",
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:43Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:19Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:09Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -67,7 +72,8 @@
       "Dockerfile": 4090,
       "Makefile": 1571
     },
-    "inputs_prepared_at": "2026-08-18T02:18:21Z"
+    "inputs_prepared_at": "2026-08-18T02:18:21Z",
+    "actions_checked_at": "2026-08-18T16:55:09Z"
   },
   "classification": {
     "domain": "security",

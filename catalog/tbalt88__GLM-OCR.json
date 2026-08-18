@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/GLM-OCR",
     "created_at": "2026-03-17T18:35:16Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-12T21:16:53Z"
+    "pushed_at": "2026-06-12T21:16:53Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "zai-org/GLM-OCR",
@@ -30,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:57Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:29Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:27Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -45,7 +50,8 @@
       "Dockerfile": 3009,
       "HTML": 555
     },
-    "inputs_prepared_at": "2026-08-18T02:16:45Z"
+    "inputs_prepared_at": "2026-08-18T02:16:45Z",
+    "actions_checked_at": "2026-08-18T16:55:26Z"
   },
   "classification": {
     "domain": "data-rag",

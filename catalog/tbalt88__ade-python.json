@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/ade-python",
     "created_at": "2025-12-07T20:37:01Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-18T07:40:41Z"
+    "pushed_at": "2026-07-18T07:40:41Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "landing-ai/ade-python",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:09Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:28Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:24Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -38,7 +43,8 @@
       "Dockerfile": 332,
       "Ruby": 12
     },
-    "inputs_prepared_at": "2026-08-18T02:14:46Z"
+    "inputs_prepared_at": "2026-08-18T02:14:46Z",
+    "actions_checked_at": "2026-08-18T16:57:24Z"
   },
   "classification": {
     "domain": "data-rag",

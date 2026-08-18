@@ -4,15 +4,20 @@
     "url": "https://github.com/tbalt88/open-webui",
     "created_at": "2026-05-09T01:26:37Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-01T09:36:01Z"
+    "pushed_at": "2026-07-01T09:36:01Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "open-webui/open-webui",
     "url": "https://github.com/open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "stars": 149123,
-    "forks": 21721,
-    "watchers": 651,
+    "stars": 149130,
+    "forks": 21724,
+    "watchers": 650,
     "open_issues": 362,
     "language": "Python",
     "topics": [
@@ -42,7 +47,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:45Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:21Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:11Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -61,7 +66,8 @@
       "Mako": 665,
       "Makefile": 643
     },
-    "inputs_prepared_at": "2026-08-18T02:17:37Z"
+    "inputs_prepared_at": "2026-08-18T02:17:37Z",
+    "actions_checked_at": "2026-08-18T16:55:11Z"
   },
   "classification": {
     "domain": "agents-skills",

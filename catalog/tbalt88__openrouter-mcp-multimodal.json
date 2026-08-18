@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/openrouter-mcp-multimodal",
     "created_at": "2026-07-19T22:05:28Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-13T06:29:30Z"
+    "pushed_at": "2026-07-13T06:29:30Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "stabgan/openrouter-mcp-multimodal",
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:10Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:49Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:12Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -60,7 +65,8 @@
       "Python": 2245,
       "Dockerfile": 1461
     },
-    "inputs_prepared_at": "2026-08-18T02:17:44Z"
+    "inputs_prepared_at": "2026-08-18T02:17:44Z",
+    "actions_checked_at": "2026-08-18T16:54:12Z"
   },
   "classification": {
     "domain": "agents-skills",

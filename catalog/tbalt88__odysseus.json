@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/odysseus",
     "created_at": "2026-06-02T04:19:40Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-12T08:07:27Z"
+    "pushed_at": "2026-07-12T08:07:27Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "arcahyadi/odysseus",
     "url": "https://github.com/arcahyadi/odysseus",
     "description": "Self-hosted AI workspace. ",
     "stars": 70,
-    "forks": 10875,
+    "forks": 10874,
     "watchers": 1,
     "open_issues": 4,
     "language": "Python",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:27Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:06Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:44Z",
     "signals": [
       "claude-skill",
       "docker",
@@ -45,7 +50,8 @@
       "Dockerfile": 2690,
       "Batchfile": 1246
     },
-    "inputs_prepared_at": "2026-08-18T02:17:31Z"
+    "inputs_prepared_at": "2026-08-18T02:17:31Z",
+    "actions_checked_at": "2026-08-18T16:54:43Z"
   },
   "classification": {
     "domain": "agents-skills",

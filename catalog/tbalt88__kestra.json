@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/kestra",
     "created_at": "2026-08-11T16:21:48Z",
     "default_branch": "develop",
-    "pushed_at": "2026-08-11T15:52:35Z"
+    "pushed_at": "2026-08-11T15:52:35Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "kestra-io/kestra",
     "url": "https://github.com/kestra-io/kestra",
     "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
-    "stars": 27849,
-    "forks": 2921,
+    "stars": 27851,
+    "forks": 2922,
     "watchers": 184,
-    "open_issues": 546,
+    "open_issues": 544,
     "language": "Java",
     "topics": [
       "ai-agents",
@@ -41,13 +46,13 @@
     "homepage": "https://go.kestra.io/home",
     "default_branch": "develop",
     "created_at": "2019-08-24T13:56:15Z",
-    "pushed_at": "2026-08-18T13:55:30Z",
+    "pushed_at": "2026-08-18T16:12:51Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:56Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:36Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:47Z",
     "signals": [
       "claude-md",
       "docker",
@@ -70,7 +75,8 @@
       "Dockerfile": 3462,
       "CSS": 2909
     },
-    "inputs_prepared_at": "2026-08-18T02:16:59Z"
+    "inputs_prepared_at": "2026-08-18T02:16:59Z",
+    "actions_checked_at": "2026-08-18T16:53:47Z"
   },
   "classification": {
     "domain": "automation-integrations",

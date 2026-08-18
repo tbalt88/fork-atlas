@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/context-hub",
     "created_at": "2026-03-16T17:58:03Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-12T21:16:55Z"
+    "pushed_at": "2026-06-12T21:16:55Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "andrewyng/context-hub",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:59Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:30Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:29Z",
     "signals": [
       "claude-skill",
       "gh-actions",
@@ -35,7 +40,8 @@
     "languages": {
       "JavaScript": 310240
     },
-    "inputs_prepared_at": "2026-08-18T02:15:53Z"
+    "inputs_prepared_at": "2026-08-18T02:15:53Z",
+    "actions_checked_at": "2026-08-18T16:55:29Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/open-seo",
     "created_at": "2026-08-17T04:36:35Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-12T02:39:08Z"
+    "pushed_at": "2026-08-12T02:39:08Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "every-app/open-seo",
     "url": "https://github.com/every-app/open-seo",
     "description": "Open source alternative to Semrush and Ahrefs",
-    "stars": 12489,
+    "stars": 12504,
     "forks": 1432,
     "watchers": 32,
-    "open_issues": 105,
+    "open_issues": 106,
     "language": "TypeScript",
     "topics": [
       "backlink-analysis",
@@ -34,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:43Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:25Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:24Z",
     "signals": [
       "claude-md",
       "claude-skill",
@@ -50,7 +55,8 @@
       "HTML": 5310,
       "Shell": 1890
     },
-    "inputs_prepared_at": "2026-08-18T02:17:35Z"
+    "inputs_prepared_at": "2026-08-18T02:17:35Z",
+    "actions_checked_at": "2026-08-18T16:53:24Z"
   },
   "classification": {
     "domain": "misc",

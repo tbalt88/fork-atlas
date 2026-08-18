@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/docuseal",
     "created_at": "2026-05-06T02:28:01Z",
     "default_branch": "master",
-    "pushed_at": "2026-07-14T07:53:43Z"
+    "pushed_at": "2026-07-14T07:53:43Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "docusealco/docuseal",
     "url": "https://github.com/docusealco/docuseal",
     "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
-    "stars": 18279,
-    "forks": 1828,
+    "stars": 18283,
+    "forks": 1829,
     "watchers": 66,
     "open_issues": 118,
     "language": "Ruby",
@@ -40,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:48Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:23Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:17Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -55,7 +60,8 @@
       "SCSS": 4701,
       "Procfile": 39
     },
-    "inputs_prepared_at": "2026-08-18T02:16:17Z"
+    "inputs_prepared_at": "2026-08-18T02:16:17Z",
+    "actions_checked_at": "2026-08-18T16:55:16Z"
   },
   "classification": {
     "domain": "misc",

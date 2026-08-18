@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/frequi",
     "created_at": "2026-08-05T22:05:44Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-05T04:47:05Z"
+    "pushed_at": "2026-08-05T04:47:05Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "freqtrade/frequi",
@@ -33,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:59Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:40Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:54Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -48,7 +53,8 @@
       "Dockerfile": 600,
       "HTML": 542
     },
-    "inputs_prepared_at": "2026-08-18T02:16:37Z"
+    "inputs_prepared_at": "2026-08-18T02:16:37Z",
+    "actions_checked_at": "2026-08-18T16:53:53Z"
   },
   "classification": {
     "domain": "misc",

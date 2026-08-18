@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/ruflo",
     "created_at": "2026-07-01T03:44:19Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-14T07:53:00Z"
+    "pushed_at": "2026-08-14T07:53:00Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "ruvnet/ruflo",
     "url": "https://github.com/ruvnet/ruflo",
     "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-    "stars": 68165,
-    "forks": 8180,
+    "stars": 68186,
+    "forks": 8184,
     "watchers": 440,
     "open_issues": 841,
     "language": "TypeScript",
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:18Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:57Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:26Z",
     "signals": [
       "claude-skill"
     ],
@@ -67,7 +72,8 @@
       "Go Template": 534,
       "Standard ML": 89
     },
-    "inputs_prepared_at": "2026-08-18T02:18:17Z"
+    "inputs_prepared_at": "2026-08-18T02:18:17Z",
+    "actions_checked_at": "2026-08-18T16:54:26Z"
   },
   "classification": {
     "domain": "agents-skills",

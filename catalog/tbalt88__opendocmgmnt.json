@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/opendocmgmnt",
     "created_at": "2026-02-11T04:20:49Z",
     "default_branch": "master",
-    "pushed_at": "2026-02-09T19:26:47Z"
+    "pushed_at": "2026-02-09T19:26:47Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "sismics/docs",
@@ -40,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:17Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:17Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:53Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -56,7 +61,8 @@
       "Shell": 1509,
       "FreeMarker": 1496
     },
-    "inputs_prepared_at": "2026-08-18T02:17:41Z"
+    "inputs_prepared_at": "2026-08-18T02:17:41Z",
+    "actions_checked_at": "2026-08-18T16:55:53Z"
   },
   "classification": {
     "domain": "knowledge-productivity",

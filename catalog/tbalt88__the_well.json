@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/the_well",
     "created_at": "2026-08-05T15:57:17Z",
     "default_branch": "master",
-    "pushed_at": "2026-07-23T14:39:04Z"
+    "pushed_at": "2026-07-23T14:39:04Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "PolymathicAI/the_well",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:01Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:42Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:58Z",
     "signals": [
       "gh-actions"
     ],
@@ -35,7 +40,8 @@
       "Python": 416509,
       "Shell": 4341
     },
-    "inputs_prepared_at": "2026-08-18T02:18:45Z"
+    "inputs_prepared_at": "2026-08-18T02:18:45Z",
+    "actions_checked_at": "2026-08-18T16:53:57Z"
   },
   "classification": {
     "domain": "misc",

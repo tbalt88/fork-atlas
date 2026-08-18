@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/MCP-Defender",
     "created_at": "2025-12-26T13:15:54Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-12T21:03:37Z"
+    "pushed_at": "2026-06-12T21:03:37Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "MCP-Defender/MCP-Defender",
@@ -35,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:58Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:58Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:08Z",
     "signals": [
       "node"
     ],
@@ -46,7 +51,8 @@
       "Shell": 305,
       "HTML": 198
     },
-    "inputs_prepared_at": "2026-08-18T02:17:14Z"
+    "inputs_prepared_at": "2026-08-18T02:17:14Z",
+    "actions_checked_at": "2026-08-18T16:57:08Z"
   },
   "classification": {
     "domain": "security",

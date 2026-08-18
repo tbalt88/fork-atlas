@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/py-gpt",
     "created_at": "2026-07-19T22:04:54Z",
     "default_branch": "master",
-    "pushed_at": "2026-02-06T03:08:43Z"
+    "pushed_at": "2026-02-06T03:08:43Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "szczyglis-dev/py-gpt",
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:10Z",
-    "metadata_refreshed_at": "2026-08-18T02:12:10Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:14Z",
     "signals": [
       "gh-actions",
       "make",
@@ -60,7 +65,8 @@
       "Shell": 9701,
       "Batchfile": 5127
     },
-    "inputs_prepared_at": "2026-08-18T02:18:05Z"
+    "inputs_prepared_at": "2026-08-18T02:18:05Z",
+    "actions_checked_at": "2026-08-18T16:54:13Z"
   },
   "classification": {
     "domain": "agents-skills",

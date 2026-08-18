@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/Xrm.Tools.CRMWebAPI",
     "created_at": "2019-02-28T18:04:07Z",
     "default_branch": "master",
-    "pushed_at": "2026-06-12T21:04:34Z"
+    "pushed_at": "2026-06-12T21:04:34Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "davidyack/Xrm.Tools.CRMWebAPI",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:31Z",
-    "metadata_refreshed_at": "2026-08-18T02:14:31Z",
+    "metadata_refreshed_at": "2026-08-18T16:58:04Z",
     "signals": [],
     "languages": {
       "JavaScript": 314575,
@@ -37,7 +42,8 @@
       "PHP": 10262,
       "Makefile": 693
     },
-    "inputs_prepared_at": "2026-08-18T02:19:02Z"
+    "inputs_prepared_at": "2026-08-18T02:19:02Z",
+    "actions_checked_at": "2026-08-18T16:58:04Z"
   },
   "classification": {
     "domain": "dev-tooling",

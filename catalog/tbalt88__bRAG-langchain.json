@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/bRAG-langchain",
     "created_at": "2025-11-06T22:58:59Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-12T21:04:21Z"
+    "pushed_at": "2026-06-12T21:04:21Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "bragai/bRAG-langchain",
@@ -35,14 +40,15 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:24Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:42Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:49Z",
     "signals": [
       "python"
     ],
     "languages": {
       "Jupyter Notebook": 5077101
     },
-    "inputs_prepared_at": "2026-08-18T02:15:29Z"
+    "inputs_prepared_at": "2026-08-18T02:15:29Z",
+    "actions_checked_at": "2026-08-18T16:57:48Z"
   },
   "classification": {
     "domain": "data-rag",

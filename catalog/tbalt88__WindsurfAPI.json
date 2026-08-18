@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/WindsurfAPI",
     "created_at": "2026-05-09T01:53:44Z",
     "default_branch": "master",
-    "pushed_at": "2026-05-08T23:28:01Z"
+    "pushed_at": "2026-05-08T23:28:01Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "dwgx/WindsurfAPI",
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:44Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:20Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:10Z",
     "signals": [
       "docker",
       "gh-actions"
@@ -62,7 +67,8 @@
       "Dockerfile": 1577,
       "VBScript": 1160
     },
-    "inputs_prepared_at": "2026-08-18T02:18:58Z"
+    "inputs_prepared_at": "2026-08-18T02:18:58Z",
+    "actions_checked_at": "2026-08-18T16:55:10Z"
   },
   "classification": {
     "domain": "agents-skills",

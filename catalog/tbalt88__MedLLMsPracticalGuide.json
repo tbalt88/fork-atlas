@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/MedLLMsPracticalGuide",
     "created_at": "2025-12-07T04:14:21Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-11T07:47:30Z"
+    "pushed_at": "2026-07-11T07:47:30Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "AI-in-Health/MedLLMsPracticalGuide",
@@ -32,10 +37,11 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:10Z",
-    "metadata_refreshed_at": "2026-08-18T02:14:10Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:27Z",
     "signals": [],
     "languages": {},
-    "inputs_prepared_at": "2026-08-18T02:17:17Z"
+    "inputs_prepared_at": "2026-08-18T02:17:17Z",
+    "actions_checked_at": "2026-08-18T16:57:27Z"
   },
   "classification": {
     "domain": "learning-reference",

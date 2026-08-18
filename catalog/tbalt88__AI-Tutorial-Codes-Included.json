@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/AI-Tutorial-Codes-Included",
     "created_at": "2025-10-25T11:51:07Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:06:06Z"
+    "pushed_at": "2026-07-19T08:06:06Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
@@ -38,7 +43,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:25Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:44Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:52Z",
     "signals": [
       "python"
     ],
@@ -46,7 +51,8 @@
       "Jupyter Notebook": 126293746,
       "Python": 1446233
     },
-    "inputs_prepared_at": "2026-08-18T02:15:03Z"
+    "inputs_prepared_at": "2026-08-18T02:15:03Z",
+    "actions_checked_at": "2026-08-18T16:57:51Z"
   },
   "classification": {
     "domain": "learning-reference",

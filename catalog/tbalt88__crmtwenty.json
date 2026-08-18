@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/crmtwenty",
     "created_at": "2026-02-10T05:15:26Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-22T08:12:02Z"
+    "pushed_at": "2026-07-22T08:12:02Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "twentyhq/twenty",
     "url": "https://github.com/twentyhq/twenty",
     "description": "The open alternative to Salesforce, designed for AI.",
-    "stars": 55084,
-    "forks": 8562,
+    "stars": 55090,
+    "forks": 8565,
     "watchers": 216,
-    "open_issues": 173,
+    "open_issues": 170,
     "language": "TypeScript",
     "topics": [
       "crm",
@@ -38,13 +43,13 @@
     "homepage": "https://twenty.com",
     "default_branch": "main",
     "created_at": "2022-12-01T13:04:40Z",
-    "pushed_at": "2026-08-18T13:56:26Z",
+    "pushed_at": "2026-08-18T16:36:51Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:20Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:47Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:58Z",
     "signals": [
       "claude-skill",
       "docker"
@@ -63,7 +68,8 @@
       "HTML": 3862,
       "Makefile": 3149
     },
-    "inputs_prepared_at": "2026-08-18T02:16:06Z"
+    "inputs_prepared_at": "2026-08-18T02:16:06Z",
+    "actions_checked_at": "2026-08-18T16:55:58Z"
   },
   "classification": {
     "domain": "misc",

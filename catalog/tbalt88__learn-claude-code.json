@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/learn-claude-code",
     "created_at": "2026-03-05T22:42:56Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-27T08:29:51Z"
+    "pushed_at": "2026-06-27T08:29:51Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "shareAI-lab/learn-claude-code",
     "url": "https://github.com/shareAI-lab/learn-claude-code",
     "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-    "stars": 74559,
-    "forks": 12061,
+    "stars": 74568,
+    "forks": 12064,
     "watchers": 295,
     "open_issues": 47,
     "language": "Python",
@@ -37,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:03Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:33Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:34Z",
     "signals": [
       "gh-actions",
       "python"
@@ -48,7 +53,8 @@
       "CSS": 10281,
       "JavaScript": 94
     },
-    "inputs_prepared_at": "2026-08-18T02:17:05Z"
+    "inputs_prepared_at": "2026-08-18T02:17:05Z",
+    "actions_checked_at": "2026-08-18T16:55:34Z"
   },
   "classification": {
     "domain": "learning-reference",

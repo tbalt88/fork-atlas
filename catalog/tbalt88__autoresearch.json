@@ -4,13 +4,18 @@
     "url": "https://github.com/tbalt88/autoresearch",
     "created_at": "2026-03-08T02:37:29Z",
     "default_branch": "master",
-    "pushed_at": "2026-06-12T21:02:02Z"
+    "pushed_at": "2026-06-12T21:02:02Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "karpathy/autoresearch",
     "url": "https://github.com/karpathy/autoresearch",
     "description": "AI agents running research on single-GPU nanochat training automatically",
-    "stars": 94061,
+    "stars": 94075,
     "forks": 13323,
     "watchers": 721,
     "open_issues": 196,
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:01Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:32Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:32Z",
     "signals": [
       "python"
     ],
@@ -34,7 +39,8 @@
       "Python": 41273,
       "Jupyter Notebook": 8208
     },
-    "inputs_prepared_at": "2026-08-18T02:15:22Z"
+    "inputs_prepared_at": "2026-08-18T02:15:22Z",
+    "actions_checked_at": "2026-08-18T16:55:31Z"
   },
   "classification": {
     "domain": "llm-inference-training",

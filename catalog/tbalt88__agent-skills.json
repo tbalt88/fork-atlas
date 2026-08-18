@@ -4,15 +4,20 @@
     "url": "https://github.com/tbalt88/agent-skills",
     "created_at": "2026-05-18T01:07:34Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:06:25Z"
+    "pushed_at": "2026-07-19T08:06:25Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "addyosmani/agent-skills",
     "url": "https://github.com/addyosmani/agent-skills",
     "description": "Production-grade engineering skills for AI coding agents.",
-    "stars": 88235,
-    "forks": 9452,
-    "watchers": 463,
+    "stars": 88277,
+    "forks": 9457,
+    "watchers": 464,
     "open_issues": 109,
     "language": "JavaScript",
     "topics": [
@@ -33,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:41Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:18Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:07Z",
     "signals": [
       "claude-md",
       "gh-actions",
@@ -46,7 +51,8 @@
       "HTML": 869,
       "TypeScript": 306
     },
-    "inputs_prepared_at": "2026-08-18T02:14:50Z"
+    "inputs_prepared_at": "2026-08-18T02:14:50Z",
+    "actions_checked_at": "2026-08-18T16:55:06Z"
   },
   "classification": {
     "domain": "agents-skills",

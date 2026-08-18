@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/openreply",
     "created_at": "2026-08-13T18:45:53Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-08T21:59:22Z"
+    "pushed_at": "2026-08-08T21:59:22Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "diwenne/openreply",
     "url": "https://github.com/diwenne/openreply",
     "description": "Open-source ManyChat alternative: comment-dm automation + account analytics. NOTE: the link below will not allow you to OAuth; you must self-host with your own API keys.",
-    "stars": 1388,
-    "forks": 415,
+    "stars": 1394,
+    "forks": 418,
     "watchers": 8,
     "open_issues": 6,
     "language": "TypeScript",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:52Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:33Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:40Z",
     "signals": [
       "claude-md",
       "gh-actions"
@@ -36,7 +41,8 @@
       "CSS": 2119,
       "JavaScript": 559
     },
-    "inputs_prepared_at": "2026-08-18T02:17:43Z"
+    "inputs_prepared_at": "2026-08-18T02:17:43Z",
+    "actions_checked_at": "2026-08-18T16:53:39Z"
   },
   "classification": {
     "domain": "automation-integrations",

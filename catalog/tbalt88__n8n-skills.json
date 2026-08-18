@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/n8n-skills",
     "created_at": "2026-01-28T21:56:36Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-17T07:59:33Z"
+    "pushed_at": "2026-07-17T07:59:33Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "czlonkowski/n8n-skills",
     "url": "https://github.com/czlonkowski/n8n-skills",
     "description": "n8n skillset for Claude Code to build flawless n8n workflows",
-    "stars": 6080,
-    "forks": 1012,
+    "stars": 6081,
+    "forks": 1011,
     "watchers": 67,
     "open_issues": 8,
     "language": "Shell",
@@ -30,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:38Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:00Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:26Z",
     "signals": [
       "claude-md",
       "claude-skill"
@@ -38,7 +43,8 @@
     "languages": {
       "Shell": 28367
     },
-    "inputs_prepared_at": "2026-08-18T02:17:25Z"
+    "inputs_prepared_at": "2026-08-18T02:17:25Z",
+    "actions_checked_at": "2026-08-18T16:56:26Z"
   },
   "classification": {
     "domain": "agents-skills",

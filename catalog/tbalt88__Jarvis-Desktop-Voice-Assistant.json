@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/Jarvis-Desktop-Voice-Assistant",
     "created_at": "2026-01-18T04:32:33Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-12T21:03:11Z"
+    "pushed_at": "2026-06-12T21:03:11Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "kishanrajput23/Jarvis-Desktop-Voice-Assistant",
     "url": "https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant",
     "description": "A python based desktop voice assistant capable of executing system-level commands, integrating speech recognition and text-to-speech, and handling asynchronous user interactions.",
-    "stars": 884,
-    "forks": 2162,
+    "stars": 883,
+    "forks": 2163,
     "watchers": 20,
     "open_issues": 1,
     "language": "Python",
@@ -47,14 +52,15 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:45Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:06Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:40Z",
     "signals": [
       "python"
     ],
     "languages": {
       "Python": 5982
     },
-    "inputs_prepared_at": "2026-08-18T02:16:58Z"
+    "inputs_prepared_at": "2026-08-18T02:16:58Z",
+    "actions_checked_at": "2026-08-18T16:56:40Z"
   },
   "classification": {
     "domain": "automation-integrations",

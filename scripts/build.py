@@ -42,6 +42,7 @@ def flatten(rec: dict, ov: dict, tax: dict) -> dict:
         "license": up.get("license"),
         "homepage": up.get("homepage"),
         "signals": rec["meta"].get("signals", []),
+        "actions": rec["fork"].get("actions", {}),
         "status": rec.get("status"),
         "domain": domain,
         "domain_label": dom_labels.get(domain, "Unclassified" if domain == "unclassified" else domain),

@@ -4,13 +4,18 @@
     "url": "https://github.com/tbalt88/Rockxy",
     "created_at": "2026-08-15T16:31:10Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-13T12:20:33Z"
+    "pushed_at": "2026-08-13T12:20:33Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "RockxyApp/Rockxy",
     "url": "https://github.com/RockxyApp/Rockxy",
     "description": "Open-source native macOS HTTP debugging proxy — intercept HTTPS, inspect APIs, mock responses, debug WebSocket & GraphQL. Community-driven. For developers, by developers.",
-    "stars": 894,
+    "stars": 895,
     "forks": 50,
     "watchers": 2,
     "open_issues": 96,
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:50Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:31Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:37Z",
     "signals": [
       "gh-actions",
       "make"
@@ -58,7 +63,8 @@
       "HTML": 255,
       "Makefile": 167
     },
-    "inputs_prepared_at": "2026-08-18T02:18:16Z"
+    "inputs_prepared_at": "2026-08-18T02:18:16Z",
+    "actions_checked_at": "2026-08-18T16:53:37Z"
   },
   "classification": {
     "domain": "dev-tooling",

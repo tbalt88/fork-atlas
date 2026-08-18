@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/OmniVoice-Studio",
     "created_at": "2026-05-19T18:26:33Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:06:37Z"
+    "pushed_at": "2026-07-19T08:06:37Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "debpalash/VoiceStudio",
     "url": "https://github.com/debpalash/VoiceStudio",
     "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. No accounts, no API keys, no cloud.",
-    "stars": 10059,
-    "forks": 1670,
+    "stars": 10061,
+    "forks": 1669,
     "watchers": 55,
     "open_issues": 19,
     "language": "Python",
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:37Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:15Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:00Z",
     "signals": [
       "claude-md",
       "claude-skill",
@@ -66,7 +71,8 @@
       "HTML": 1074,
       "Mako": 594
     },
-    "inputs_prepared_at": "2026-08-18T02:17:34Z"
+    "inputs_prepared_at": "2026-08-18T02:17:34Z",
+    "actions_checked_at": "2026-08-18T16:55:00Z"
   },
   "classification": {
     "domain": "media-generation",

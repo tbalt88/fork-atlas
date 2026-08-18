@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/claude-video-vision",
     "created_at": "2026-07-19T22:04:25Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-01T14:37:37Z"
+    "pushed_at": "2026-07-01T14:37:37Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "jordanrendric/claude-video-vision",
@@ -36,7 +41,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:11Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:51Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:15Z",
     "signals": [
       "claude-skill",
       "gh-actions",
@@ -48,7 +53,8 @@
       "TypeScript": 189979,
       "JavaScript": 18192
     },
-    "inputs_prepared_at": "2026-08-18T02:15:42Z"
+    "inputs_prepared_at": "2026-08-18T02:15:42Z",
+    "actions_checked_at": "2026-08-18T16:54:15Z"
   },
   "classification": {
     "domain": "agents-skills",

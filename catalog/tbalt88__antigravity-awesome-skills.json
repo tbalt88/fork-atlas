@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/antigravity-awesome-skills",
     "created_at": "2026-02-03T09:02:56Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-17T07:50:55Z"
+    "pushed_at": "2026-08-17T07:50:55Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "sickn33/agentic-awesome-skills",
     "url": "https://github.com/sickn33/agentic-awesome-skills",
     "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-    "stars": 45085,
-    "forks": 6600,
-    "watchers": 312,
-    "open_issues": 1,
+    "stars": 45095,
+    "forks": 6603,
+    "watchers": 313,
+    "open_issues": 2,
     "language": "Python",
     "topics": [
       "agent-skills",
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:31Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:55Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:14Z",
     "signals": [
       "gh-actions",
       "node"
@@ -67,7 +72,8 @@
       "Swift": 1521,
       "PLpgSQL": 1381
     },
-    "inputs_prepared_at": "2026-08-18T02:15:14Z"
+    "inputs_prepared_at": "2026-08-18T02:15:14Z",
+    "actions_checked_at": "2026-08-18T16:56:14Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/digital-forensics-lab",
     "created_at": "2026-06-21T20:15:42Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-11T07:47:41Z"
+    "pushed_at": "2026-07-11T07:47:41Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "frankwxu/digital-forensics-lab",
@@ -37,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:21Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:00Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:33Z",
     "signals": [],
     "languages": {
       "Jupyter Notebook": 694200,
@@ -51,7 +56,8 @@
       "Java": 17902,
       "Batchfile": 894
     },
-    "inputs_prepared_at": "2026-08-18T02:16:15Z"
+    "inputs_prepared_at": "2026-08-18T02:16:15Z",
+    "actions_checked_at": "2026-08-18T16:54:33Z"
   },
   "classification": {
     "domain": "learning-reference",

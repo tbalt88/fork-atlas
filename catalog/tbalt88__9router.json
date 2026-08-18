@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/9router",
     "created_at": "2026-07-09T17:08:36Z",
     "default_branch": "master",
-    "pushed_at": "2026-07-19T08:06:40Z"
+    "pushed_at": "2026-07-19T08:06:40Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "decolua/9router",
     "url": "https://github.com/decolua/9router",
     "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-    "stars": 25722,
-    "forks": 4611,
+    "stars": 25734,
+    "forks": 4613,
     "watchers": 141,
-    "open_issues": 1694,
+    "open_issues": 1692,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:13Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:53Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:19Z",
     "signals": [
       "claude-md",
       "docker",
@@ -61,7 +66,8 @@
       "Dockerfile": 1980,
       "Shell": 157
     },
-    "inputs_prepared_at": "2026-08-18T02:14:45Z"
+    "inputs_prepared_at": "2026-08-18T02:14:45Z",
+    "actions_checked_at": "2026-08-18T16:54:19Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -4,13 +4,18 @@
     "url": "https://github.com/tbalt88/uniface",
     "created_at": "2026-08-09T21:27:08Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-07T15:32:40Z"
+    "pushed_at": "2026-08-07T15:32:40Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "yakhyo/uniface",
     "url": "https://github.com/yakhyo/uniface",
     "description": "UniFace: A Unified Face Analysis Library for Python | Detection, alignment, landmarks, face-mesh, recognition, parsing, gaze, attributes and anti-spoofing under one API.",
-    "stars": 1462,
+    "stars": 1464,
     "forks": 196,
     "watchers": 11,
     "open_issues": 2,
@@ -47,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:57Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:38Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:49Z",
     "signals": [
       "claude-md",
       "gh-actions"
@@ -55,7 +60,8 @@
     "languages": {
       "Python": 667586
     },
-    "inputs_prepared_at": "2026-08-18T02:18:48Z"
+    "inputs_prepared_at": "2026-08-18T02:18:48Z",
+    "actions_checked_at": "2026-08-18T16:53:49Z"
   },
   "classification": {
     "domain": "media-generation",

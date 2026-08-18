@@ -22,6 +22,7 @@ The assistant page shows these prompts itself when they're needed (amber boxes w
 
 | Situation (the page tells you) | Prompt |
 |---|---|
+| Keeper shows *N forks running upstream crons* | **In fork-atlas, list forks whose upstream scheduled workflows run on my account and disable GitHub Actions on them (gh api PUT repos/<fork>/actions/permissions enabled=false), then rebuild.** |
 | Keeper shows *N unclassified* | **Classify unclassified forks in fork-atlas (prepare → Sonnet fan-out → ingest → build → push).** |
 | Project board label is a stale *snapshot* and you don't want a browser token | **Refresh the fork-atlas Project board snapshot from vault-bridge (Boards/Projects.md) and push.** |
 | *Catalog last built N days ago* | **Check why the fork-atlas nightly Action stopped building (gh run list in tbalt88/fork-atlas) and fix it.** |

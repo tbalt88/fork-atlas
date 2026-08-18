@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/automate-faceless-content",
     "created_at": "2026-08-02T22:30:55Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-04T03:06:11Z"
+    "pushed_at": "2026-06-04T03:06:11Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "cporter202/automate-faceless-content",
     "url": "https://github.com/cporter202/automate-faceless-content",
     "description": "Learn how to automate faceless short-form + long-form video content and dominate YouTube, TikTok, Facebook & Instagram on autopilot — from idea → script → video → scheduled posts.",
     "stars": 2952,
-    "forks": 581,
+    "forks": 582,
     "watchers": 19,
-    "open_issues": 1,
+    "open_issues": 2,
     "language": null,
     "topics": [],
     "license": null,
@@ -26,10 +31,11 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:06Z",
-    "metadata_refreshed_at": "2026-08-18T02:12:06Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:06Z",
     "signals": [],
     "languages": {},
-    "inputs_prepared_at": "2026-08-18T02:15:21Z"
+    "inputs_prepared_at": "2026-08-18T02:15:21Z",
+    "actions_checked_at": "2026-08-18T16:54:06Z"
   },
   "classification": {
     "domain": "learning-reference",

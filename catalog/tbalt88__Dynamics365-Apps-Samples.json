@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/Dynamics365-Apps-Samples",
     "created_at": "2020-05-04T16:59:56Z",
     "default_branch": "master",
-    "pushed_at": "2026-06-12T21:04:31Z"
+    "pushed_at": "2026-06-12T21:04:31Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "microsoft/Dynamics365-Apps-Samples",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:30Z",
-    "metadata_refreshed_at": "2026-08-18T02:14:30Z",
+    "metadata_refreshed_at": "2026-08-18T16:58:01Z",
     "signals": [],
     "languages": {
       "C#": 825761326,
@@ -39,7 +44,8 @@
       "XSLT": 1316,
       "ASP.NET": 517
     },
-    "inputs_prepared_at": "2026-08-18T02:16:20Z"
+    "inputs_prepared_at": "2026-08-18T02:16:20Z",
+    "actions_checked_at": "2026-08-18T16:58:01Z"
   },
   "classification": {
     "domain": "misc",

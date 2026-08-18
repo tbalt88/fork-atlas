@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/Resource2Skill",
     "created_at": "2026-08-13T17:57:26Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-17T16:38:13Z"
+    "pushed_at": "2026-07-17T16:38:13Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "microsoft/Resource2Skill",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:54Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:35Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:44Z",
     "signals": [
       "python"
     ],
@@ -36,7 +41,8 @@
       "CSS": 15607,
       "HTML": 4879
     },
-    "inputs_prepared_at": "2026-08-18T02:18:12Z"
+    "inputs_prepared_at": "2026-08-18T02:18:12Z",
+    "actions_checked_at": "2026-08-18T16:53:44Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -52,6 +52,8 @@ function renderKeeper() {
   const usedIds = new Set([...projects.flatMap(p => p.uses || []), ...items.filter(i => i.pinned || i.note).map(i => i.id)]);
   const risky = items.filter(i => usedIds.has(i.id) && (i.archived || i.upstream_deleted || i.maturity === 'dormant'));
   const dormantAll = items.filter(i => i.archived || i.upstream_deleted).length;
+  const cronForks = items.filter(i => i.actions?.enabled && (i.actions.scheduled_runs || 0) > 0);
+  const cronFailing = cronForks.filter(i => (i.actions.failing_scheduled || []).length);
   const el = $('#keeper');
   const tile = (n, label, cls = '') => `<div class="tile ${cls}"><b>${n}</b><span>${label}</span></div>`;
   el.innerHTML = `<h2>Keeper</h2>
@@ -61,8 +63,10 @@ function renderKeeper() {
       ${tile(unclassified.length, 'unclassified', unclassified.length ? 'warn' : '')}
       ${tile(review.length, 'need review', review.length ? 'warn' : '')}
       ${tile(dormantAll, 'archived / gone')}
+      ${tile(cronForks.length, 'forks running upstream crons', cronForks.length ? 'warn' : 'ok')}
       ${tile(`<span style="font-size:15px;line-height:1.5">${fmtDate(matrix.generated_at)}</span>`, 'catalog updated')}
     </div>
+    ${cronForks.length ? nag(`${cronForks.length} fork${cronForks.length > 1 ? 's' : ''} run upstream scheduled workflows on your account${cronFailing.length ? ` (${cronFailing.length} failing → emails)` : ''}: ${cronForks.slice(0, 6).map(i => esc(i.name)).join(', ')}${cronForks.length > 6 ? '…' : ''}. Say to Claude Code:`, PROMPTS.crons) : ''}
     ${since.length ? `<h2 style="margin-top:12px">New since your last visit${last ? ' (' + fmtDate(last) + ')' : ''}</h2><ul class="plain">${since.slice(0, 8).map(i => `<li><a href="index.html#${encodeURIComponent(JSON.stringify({ q: i.name }))}">${esc(i.upstream || i.name)}</a> <span class="muted">${esc(i.domain_label)}</span></li>`).join('')}${since.length > 8 ? `<li class="muted">+${since.length - 8} more</li>` : ''}</ul>` : ''}
     ${staleNotes(unclassified.length)}
     ${risky.length ? `<h2 style="margin-top:12px">Watch — used/pinned repos at risk</h2><ul class="plain">${risky.map(i => `<li>${esc(i.upstream)} <span class="tag warn">${i.archived ? 'archived' : i.upstream_deleted ? 'upstream gone' : 'dormant'}</span></li>`).join('')}</ul>` : ''}`;
@@ -74,6 +78,7 @@ const PROMPTS = {
   classify: 'Classify unclassified forks in fork-atlas (prepare → Sonnet fan-out → ingest → build → push).',
   board: 'Refresh the fork-atlas Project board snapshot from vault-bridge (Boards/Projects.md) and push.',
   action: 'Check why the fork-atlas nightly Action stopped building (gh run list in tbalt88/fork-atlas) and fix it.',
+  crons: 'In fork-atlas, list forks whose upstream scheduled workflows run on my account and disable GitHub Actions on them (gh api PUT repos/<fork>/actions/permissions enabled=false), then rebuild.',
 };
 const nag = (title, prompt) => `<div class="nag"><b>${esc(title)}</b><div class="row" style="gap:6px;margin-top:4px"><code style="flex:1;white-space:normal">${esc(prompt)}</code><button class="ghost" data-copy="${esc(prompt)}" style="padding:3px 8px;font-size:11px">copy</button></div></div>`;
 function staleNotes(unclassifiedCount) {

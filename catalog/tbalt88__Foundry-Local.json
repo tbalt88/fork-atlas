@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/Foundry-Local",
     "created_at": "2025-12-07T03:30:32Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-18T07:40:10Z"
+    "pushed_at": "2026-07-18T07:40:10Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "microsoft/foundry-local",
     "url": "https://github.com/microsoft/foundry-local",
     "description": null,
-    "stars": 2515,
+    "stars": 2516,
     "forks": 361,
     "watchers": 76,
-    "open_issues": 78,
+    "open_issues": 77,
     "language": "C++",
     "topics": [
       "ai-sdk",
@@ -31,13 +36,13 @@
     "homepage": "https://foundrylocal.ai",
     "default_branch": "main",
     "created_at": "2025-03-31T21:51:15Z",
-    "pushed_at": "2026-08-18T07:53:24Z",
+    "pushed_at": "2026-08-18T16:52:43Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:11Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:31Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:29Z",
     "signals": [
       "gh-actions"
     ],
@@ -57,7 +62,8 @@
       "Shell": 2437,
       "Batchfile": 203
     },
-    "inputs_prepared_at": "2026-08-18T02:16:30Z"
+    "inputs_prepared_at": "2026-08-18T02:16:30Z",
+    "actions_checked_at": "2026-08-18T16:57:28Z"
   },
   "classification": {
     "domain": "llm-inference-training",

@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/Awesome-AI-Hacking-Agents",
     "created_at": "2026-06-08T16:11:07Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-18T07:40:52Z"
+    "pushed_at": "2026-07-18T07:40:52Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "EvanThomasLuke/Awesome-AI-Hacking-Agents",
@@ -26,10 +31,11 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:26Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:04Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:41Z",
     "signals": [],
     "languages": {},
-    "inputs_prepared_at": "2026-08-18T02:15:23Z"
+    "inputs_prepared_at": "2026-08-18T02:15:23Z",
+    "actions_checked_at": "2026-08-18T16:54:41Z"
   },
   "classification": {
     "domain": "security",

@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/nof1.ai-alpha-arena",
     "created_at": "2025-12-29T13:45:58Z",
     "default_branch": "main",
-    "pushed_at": "2025-11-29T18:23:59Z"
+    "pushed_at": "2025-11-29T18:23:59Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "0xSojalSec/nof1.ai-alpha-arena",
@@ -26,14 +31,15 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:48Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:48Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:45Z",
     "signals": [
       "python"
     ],
     "languages": {
       "Python": 297733
     },
-    "inputs_prepared_at": "2026-08-18T02:17:26Z"
+    "inputs_prepared_at": "2026-08-18T02:17:26Z",
+    "actions_checked_at": "2026-08-18T16:56:45Z"
   },
   "classification": {
     "domain": "misc",

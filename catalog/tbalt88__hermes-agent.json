@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/hermes-agent",
     "created_at": "2026-04-13T06:47:43Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:06:22Z"
+    "pushed_at": "2026-07-19T08:06:22Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "NousResearch/hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 232370,
-    "forks": 46325,
-    "watchers": 897,
-    "open_issues": 32999,
+    "stars": 232434,
+    "forks": 46356,
+    "watchers": 894,
+    "open_issues": 33092,
     "language": "Python",
     "topics": [
       "ai",
@@ -34,13 +39,13 @@
     "homepage": "https://hermes-agent.nousresearch.com",
     "default_branch": "main",
     "created_at": "2025-07-22T22:22:28Z",
-    "pushed_at": "2026-08-18T13:52:38Z",
+    "pushed_at": "2026-08-18T16:36:29Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:49Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:24Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:18Z",
     "signals": [
       "docker",
       "gh-actions"
@@ -72,7 +77,8 @@
       "C++": 10,
       "IL Assembly": 9
     },
-    "inputs_prepared_at": "2026-08-18T02:16:49Z"
+    "inputs_prepared_at": "2026-08-18T02:16:49Z",
+    "actions_checked_at": "2026-08-18T16:55:18Z"
   },
   "classification": {
     "domain": "agents-skills",

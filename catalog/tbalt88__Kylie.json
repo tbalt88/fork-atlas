@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/Kylie",
     "created_at": "2025-12-26T10:06:05Z",
     "default_branch": "main",
-    "pushed_at": "2025-11-07T00:01:45Z"
+    "pushed_at": "2025-11-07T00:01:45Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "jonathanmuk/Kylie",
@@ -26,14 +31,15 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:59Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:59Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:09Z",
     "signals": [
       "python"
     ],
     "languages": {
       "Python": 116142
     },
-    "inputs_prepared_at": "2026-08-18T02:17:04Z"
+    "inputs_prepared_at": "2026-08-18T02:17:04Z",
+    "actions_checked_at": "2026-08-18T16:57:09Z"
   },
   "classification": {
     "domain": "agents-skills",

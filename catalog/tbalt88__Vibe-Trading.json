@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/Vibe-Trading",
     "created_at": "2026-04-12T20:34:05Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-02T08:46:50Z"
+    "pushed_at": "2026-07-02T08:46:50Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "HKUDS/Vibe-Trading",
     "url": "https://github.com/HKUDS/Vibe-Trading",
     "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-    "stars": 31188,
-    "forks": 5066,
+    "stars": 31202,
+    "forks": 5069,
     "watchers": 165,
-    "open_issues": 13,
+    "open_issues": 16,
     "language": "Python",
     "topics": [
       "ai-agent",
@@ -37,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:51Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:25Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:20Z",
     "signals": [
       "claude-skill",
       "docker",
@@ -54,7 +59,8 @@
       "Dockerfile": 5541,
       "Jinja": 4741
     },
-    "inputs_prepared_at": "2026-08-18T02:18:51Z"
+    "inputs_prepared_at": "2026-08-18T02:18:51Z",
+    "actions_checked_at": "2026-08-18T16:55:20Z"
   },
   "classification": {
     "domain": "agents-skills",

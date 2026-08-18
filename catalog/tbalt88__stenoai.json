@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/stenoai",
     "created_at": "2025-12-27T06:31:21Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:06:38Z"
+    "pushed_at": "2026-07-19T08:06:38Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "stenolabs/stenoai",
@@ -45,7 +50,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:50Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:50Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:50Z",
     "signals": [
       "claude-md",
       "gh-actions",
@@ -62,7 +67,8 @@
       "HTML": 1519,
       "Makefile": 345
     },
-    "inputs_prepared_at": "2026-08-18T02:18:33Z"
+    "inputs_prepared_at": "2026-08-18T02:18:33Z",
+    "actions_checked_at": "2026-08-18T16:56:50Z"
   },
   "classification": {
     "domain": "knowledge-productivity",

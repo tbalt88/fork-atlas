@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/stock-market-signal-automation",
     "created_at": "2026-07-30T15:15:29Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-24T03:36:16Z"
+    "pushed_at": "2026-06-24T03:36:16Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "cporter202/stock-market-signal-automation",
@@ -26,13 +31,14 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:07Z",
-    "metadata_refreshed_at": "2026-08-18T02:12:07Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:07Z",
     "signals": [
       "node",
       "python"
     ],
     "languages": {},
-    "inputs_prepared_at": "2026-08-18T02:18:34Z"
+    "inputs_prepared_at": "2026-08-18T02:18:34Z",
+    "actions_checked_at": "2026-08-18T16:54:07Z"
   },
   "classification": {
     "domain": "automation-integrations",

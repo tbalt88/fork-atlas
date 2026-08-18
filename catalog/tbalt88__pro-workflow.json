@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/pro-workflow",
     "created_at": "2026-02-08T01:40:43Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:07:35Z"
+    "pushed_at": "2026-07-19T08:07:35Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "rohitg00/pro-workflow",
@@ -46,7 +51,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:22Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:48Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:01Z",
     "signals": [
       "gh-actions",
       "node"
@@ -56,7 +61,8 @@
       "TypeScript": 75032,
       "Shell": 2763
     },
-    "inputs_prepared_at": "2026-08-18T02:18:02Z"
+    "inputs_prepared_at": "2026-08-18T02:18:02Z",
+    "actions_checked_at": "2026-08-18T16:56:01Z"
   },
   "classification": {
     "domain": "agents-skills",

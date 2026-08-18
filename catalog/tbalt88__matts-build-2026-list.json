@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/matts-build-2026-list",
     "created_at": "2026-06-09T22:37:30Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-05T15:04:50Z"
+    "pushed_at": "2026-06-05T15:04:50Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "matthansen0/matts-build-2026-list",
@@ -30,10 +35,11 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:24Z",
-    "metadata_refreshed_at": "2026-08-18T02:12:24Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:39Z",
     "signals": [],
     "languages": {},
-    "inputs_prepared_at": "2026-08-18T02:17:13Z"
+    "inputs_prepared_at": "2026-08-18T02:17:13Z",
+    "actions_checked_at": "2026-08-18T16:54:38Z"
   },
   "classification": {
     "domain": "learning-reference",

@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/stash",
     "created_at": "2026-07-06T05:33:51Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-18T07:40:30Z"
+    "pushed_at": "2026-07-18T07:40:30Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "Fergana-Labs/stash",
@@ -46,7 +51,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:55Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:23Z",
     "signals": [
       "claude-md",
       "docker",
@@ -64,7 +69,8 @@
       "Vim Snippet": 1942,
       "Mako": 1103
     },
-    "inputs_prepared_at": "2026-08-18T02:18:30Z"
+    "inputs_prepared_at": "2026-08-18T02:18:30Z",
+    "actions_checked_at": "2026-08-18T16:54:23Z"
   },
   "classification": {
     "domain": "agents-skills",

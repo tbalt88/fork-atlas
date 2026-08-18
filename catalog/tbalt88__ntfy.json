@@ -4,14 +4,19 @@
     "url": "https://github.com/tbalt88/ntfy",
     "created_at": "2026-08-03T23:20:40Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-03T21:09:26Z"
+    "pushed_at": "2026-08-03T21:09:26Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "binwiederhier/ntfy",
     "url": "https://github.com/binwiederhier/ntfy",
     "description": "Send push notifications to your phone or desktop using PUT/POST",
-    "stars": 33589,
-    "forks": 1550,
+    "stars": 33592,
+    "forks": 1551,
     "watchers": 97,
     "open_issues": 358,
     "language": "Go",
@@ -34,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:03Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:44Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:02Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -49,7 +54,8 @@
       "CSS": 1025,
       "Dockerfile": 638
     },
-    "inputs_prepared_at": "2026-08-18T02:17:27Z"
+    "inputs_prepared_at": "2026-08-18T02:17:27Z",
+    "actions_checked_at": "2026-08-18T16:54:01Z"
   },
   "classification": {
     "domain": "infra-devops",

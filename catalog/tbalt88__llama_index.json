@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/llama_index",
     "created_at": "2025-11-25T08:11:54Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-16T08:03:45Z"
+    "pushed_at": "2026-07-16T08:03:45Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "run-llama/llama_index",
     "url": "https://github.com/run-llama/llama_index",
     "description": "LlamaIndex is the leading document agent and OCR platform",
-    "stars": 51725,
-    "forks": 7955,
+    "stars": 51728,
+    "forks": 7956,
     "watchers": 279,
-    "open_issues": 625,
+    "open_issues": 624,
     "language": "Python",
     "topics": [
       "agents",
@@ -31,13 +36,13 @@
     "homepage": "https://developers.llamaindex.ai",
     "default_branch": "main",
     "created_at": "2022-11-02T04:24:54Z",
-    "pushed_at": "2026-08-17T21:24:42Z",
+    "pushed_at": "2026-08-18T16:37:12Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:21Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:40Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:45Z",
     "signals": [
       "gh-actions",
       "make"
@@ -52,7 +57,8 @@
       "EdgeQL": 3396,
       "Starlark": 341
     },
-    "inputs_prepared_at": "2026-08-18T02:17:07Z"
+    "inputs_prepared_at": "2026-08-18T02:17:07Z",
+    "actions_checked_at": "2026-08-18T16:57:45Z"
   },
   "classification": {
     "domain": "data-rag",

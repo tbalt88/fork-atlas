@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/local-voice-ai",
     "created_at": "2025-12-26T13:20:12Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-17T07:59:56Z"
+    "pushed_at": "2026-07-17T07:59:56Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "ShayneP/local-voice-ai",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:57Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:19Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:06Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -41,7 +46,8 @@
       "Dockerfile": 4782,
       "JavaScript": 570
     },
-    "inputs_prepared_at": "2026-08-18T02:17:12Z"
+    "inputs_prepared_at": "2026-08-18T02:17:12Z",
+    "actions_checked_at": "2026-08-18T16:57:06Z"
   },
   "classification": {
     "domain": "media-generation",

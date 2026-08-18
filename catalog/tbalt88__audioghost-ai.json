@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/audioghost-ai",
     "created_at": "2026-02-10T08:13:28Z",
     "default_branch": "main",
-    "pushed_at": "2025-12-29T18:10:03Z"
+    "pushed_at": "2025-12-29T18:10:03Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "0x0funky/audioghost-ai",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:19Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:46Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:57Z",
     "signals": [
       "docker",
       "node",
@@ -40,7 +45,8 @@
       "CSS": 6280,
       "JavaScript": 559
     },
-    "inputs_prepared_at": "2026-08-18T02:15:17Z"
+    "inputs_prepared_at": "2026-08-18T02:15:17Z",
+    "actions_checked_at": "2026-08-18T16:55:57Z"
   },
   "classification": {
     "domain": "media-generation",

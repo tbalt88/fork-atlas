@@ -4,13 +4,18 @@
     "url": "https://github.com/tbalt88/DorkAgent",
     "created_at": "2026-08-18T13:50:50Z",
     "default_branch": "main",
-    "pushed_at": "2025-12-11T02:28:23Z"
+    "pushed_at": "2025-12-11T02:28:23Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "yee-yore/DorkAgent",
     "url": "https://github.com/yee-yore/DorkAgent",
     "description": "🤖 LLM-powered agent for automated Google Dorking in bug hunting & pentesting.",
-    "stars": 314,
+    "stars": 315,
     "forks": 48,
     "watchers": 4,
     "open_issues": 0,
@@ -38,14 +43,15 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T14:00:22Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:22Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:19Z",
     "signals": [
       "claude-md"
     ],
     "languages": {
       "Python": 44960
     },
-    "inputs_prepared_at": "2026-08-18T14:28:56Z"
+    "inputs_prepared_at": "2026-08-18T14:28:56Z",
+    "actions_checked_at": "2026-08-18T16:53:19Z"
   },
   "classification": {
     "domain": "security",

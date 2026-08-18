@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/hivemind",
     "created_at": "2026-08-14T02:53:00Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-13T23:53:32Z"
+    "pushed_at": "2026-08-13T23:53:32Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "activeloopai/hivemind",
@@ -45,7 +50,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:51Z",
-    "metadata_refreshed_at": "2026-08-18T02:11:51Z",
+    "metadata_refreshed_at": "2026-08-18T16:53:38Z",
     "signals": [
       "claude-skill",
       "gh-actions",
@@ -57,7 +62,8 @@
       "JavaScript": 551091,
       "Shell": 9535
     },
-    "inputs_prepared_at": "2026-08-18T02:16:51Z"
+    "inputs_prepared_at": "2026-08-18T02:16:51Z",
+    "actions_checked_at": "2026-08-18T16:53:38Z"
   },
   "classification": {
     "domain": "agents-skills",

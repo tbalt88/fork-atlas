@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/everything-claude-code",
     "created_at": "2026-01-24T17:41:18Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-18T07:40:48Z"
+    "pushed_at": "2026-08-18T15:01:45Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 240841,
-    "forks": 36534,
+    "stars": 240889,
+    "forks": 36541,
     "watchers": 1233,
-    "open_issues": 134,
+    "open_issues": 135,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -35,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:43Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:04Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:35Z",
     "signals": [
       "claude-skill"
     ],
@@ -50,7 +55,8 @@
       "PowerShell": 1547,
       "Dockerfile": 1312
     },
-    "inputs_prepared_at": "2026-08-18T02:16:23Z"
+    "inputs_prepared_at": "2026-08-18T02:16:23Z",
+    "actions_checked_at": "2026-08-18T16:56:35Z"
   },
   "classification": {
     "domain": "agents-skills",

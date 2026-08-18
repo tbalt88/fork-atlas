@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/agent-openai-python-banking-assistant",
     "created_at": "2026-03-05T19:25:10Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-12T21:02:07Z"
+    "pushed_at": "2026-06-12T21:02:07Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "Azure-Samples/agent-openai-python-banking-assistant",
@@ -29,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:04Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:04Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:36Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -45,7 +50,8 @@
       "HTML": 1059,
       "JavaScript": 869
     },
-    "inputs_prepared_at": "2026-08-18T02:14:48Z"
+    "inputs_prepared_at": "2026-08-18T02:14:48Z",
+    "actions_checked_at": "2026-08-18T16:55:35Z"
   },
   "classification": {
     "domain": "agents-skills",

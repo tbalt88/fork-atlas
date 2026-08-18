@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/BrowserAI",
     "created_at": "2026-01-24T20:26:01Z",
     "default_branch": "main",
-    "pushed_at": "2026-06-12T21:17:30Z"
+    "pushed_at": "2026-06-12T21:17:30Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "sauravpanda/BrowserAI",
@@ -36,7 +41,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:42Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:42Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:34Z",
     "signals": [
       "gh-actions",
       "nextjs",
@@ -50,7 +55,8 @@
       "CSS": 5232,
       "HTML": 947
     },
-    "inputs_prepared_at": "2026-08-18T02:15:30Z"
+    "inputs_prepared_at": "2026-08-18T02:15:30Z",
+    "actions_checked_at": "2026-08-18T16:56:34Z"
   },
   "classification": {
     "domain": "llm-inference-training",

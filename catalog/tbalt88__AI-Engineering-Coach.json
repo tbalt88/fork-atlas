@@ -4,13 +4,18 @@
     "url": "https://github.com/tbalt88/AI-Engineering-Coach",
     "created_at": "2026-05-30T16:36:27Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:07:08Z"
+    "pushed_at": "2026-07-19T08:07:08Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "microsoft/AI-Engineering-Coach",
     "url": "https://github.com/microsoft/AI-Engineering-Coach",
     "description": "better agentic engineering",
-    "stars": 3608,
+    "stars": 3610,
     "forks": 509,
     "watchers": 18,
     "open_issues": 56,
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:30Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:08Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:47Z",
     "signals": [
       "claude-skill",
       "docker",
@@ -40,7 +45,8 @@
       "Shell": 2175,
       "Dockerfile": 435
     },
-    "inputs_prepared_at": "2026-08-18T02:15:01Z"
+    "inputs_prepared_at": "2026-08-18T02:15:01Z",
+    "actions_checked_at": "2026-08-18T16:54:47Z"
   },
   "classification": {
     "domain": "dev-tooling",

@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/llm-god",
     "created_at": "2026-01-14T04:15:45Z",
     "default_branch": "master",
-    "pushed_at": "2026-06-12T21:03:13Z"
+    "pushed_at": "2026-06-12T21:03:13Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "czhou578/llm-god",
@@ -39,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:46Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:46Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:42Z",
     "signals": [
       "gh-actions",
       "node",
@@ -51,7 +56,8 @@
       "JavaScript": 13017,
       "CSS": 2407
     },
-    "inputs_prepared_at": "2026-08-18T02:17:09Z"
+    "inputs_prepared_at": "2026-08-18T02:17:09Z",
+    "actions_checked_at": "2026-08-18T16:56:42Z"
   },
   "classification": {
     "domain": "automation-integrations",

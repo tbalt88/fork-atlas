@@ -4,13 +4,18 @@
     "url": "https://github.com/tbalt88/OpenMontage",
     "created_at": "2026-06-22T22:56:08Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:06:07Z"
+    "pushed_at": "2026-07-19T08:06:07Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "calesthio/OpenMontage",
     "url": "https://github.com/calesthio/OpenMontage",
     "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-    "stars": 48727,
+    "stars": 48747,
     "forks": 6106,
     "watchers": 279,
     "open_issues": 228,
@@ -40,13 +45,13 @@
     "homepage": "https://www.openmontage.video/",
     "default_branch": "main",
     "created_at": "2026-03-29T15:23:22Z",
-    "pushed_at": "2026-08-14T00:23:49Z",
+    "pushed_at": "2026-08-18T15:50:54Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:20Z",
-    "metadata_refreshed_at": "2026-08-18T14:00:59Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:30Z",
     "signals": [
       "claude-skill"
     ],
@@ -59,7 +64,8 @@
       "Shell": 34403,
       "Makefile": 7365
     },
-    "inputs_prepared_at": "2026-08-18T02:17:42Z"
+    "inputs_prepared_at": "2026-08-18T02:17:42Z",
+    "actions_checked_at": "2026-08-18T16:54:30Z"
   },
   "classification": {
     "domain": "media-generation",

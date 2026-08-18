@@ -4,13 +4,18 @@
     "url": "https://github.com/tbalt88/aiallinonesandbox",
     "created_at": "2026-06-10T16:18:00Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-03T08:55:09Z"
+    "pushed_at": "2026-07-03T08:55:09Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "agent-infra/sandbox",
     "url": "https://github.com/agent-infra/sandbox",
     "description": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.",
-    "stars": 5745,
+    "stars": 5746,
     "forks": 515,
     "watchers": 32,
     "open_issues": 68,
@@ -34,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:23Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:02Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:37Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -49,7 +54,8 @@
       "HTML": 376,
       "Shell": 80
     },
-    "inputs_prepared_at": "2026-08-18T02:15:05Z"
+    "inputs_prepared_at": "2026-08-18T02:15:05Z",
+    "actions_checked_at": "2026-08-18T16:54:37Z"
   },
   "classification": {
     "domain": "agents-skills",

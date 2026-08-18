@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/omniparse",
     "created_at": "2026-05-27T04:48:38Z",
     "default_branch": "main",
-    "pushed_at": "2025-12-12T15:47:46Z"
+    "pushed_at": "2025-12-12T15:47:46Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "adithya-s-k/omniparse",
@@ -35,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:32Z",
-    "metadata_refreshed_at": "2026-08-18T02:12:32Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:51Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -45,7 +50,8 @@
       "Python": 157017,
       "Dockerfile": 2502
     },
-    "inputs_prepared_at": "2026-08-18T02:17:32Z"
+    "inputs_prepared_at": "2026-08-18T02:17:32Z",
+    "actions_checked_at": "2026-08-18T16:54:51Z"
   },
   "classification": {
     "domain": "data-rag",

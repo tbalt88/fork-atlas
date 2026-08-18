@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/claude-code-scheduler",
     "created_at": "2026-02-09T07:07:18Z",
     "default_branch": "main",
-    "pushed_at": "2026-01-19T18:25:35Z"
+    "pushed_at": "2026-01-19T18:25:35Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "jshchnz/claude-code-scheduler",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:21Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:21Z",
+    "metadata_refreshed_at": "2026-08-18T16:55:59Z",
     "signals": [],
     "languages": {
       "TypeScript": 126920,
@@ -34,7 +39,8 @@
       "Python": 6877,
       "PowerShell": 3377
     },
-    "inputs_prepared_at": "2026-08-18T02:15:36Z"
+    "inputs_prepared_at": "2026-08-18T02:15:36Z",
+    "actions_checked_at": "2026-08-18T16:55:59Z"
   },
   "classification": {
     "domain": "agents-skills",

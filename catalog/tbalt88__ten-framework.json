@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/ten-framework",
     "created_at": "2026-02-03T19:37:19Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:06:19Z"
+    "pushed_at": "2026-07-19T08:06:19Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "TEN-framework/ten-framework",
@@ -32,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:29Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:54Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:12Z",
     "signals": [
       "claude-md",
       "docker",
@@ -60,7 +65,8 @@
       "Jinja": 1303,
       "Objective-C": 449
     },
-    "inputs_prepared_at": "2026-08-18T02:18:42Z"
+    "inputs_prepared_at": "2026-08-18T02:18:42Z",
+    "actions_checked_at": "2026-08-18T16:56:11Z"
   },
   "classification": {
     "domain": "agents-skills",

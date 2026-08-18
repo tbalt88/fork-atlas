@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/money-Ai-agents",
     "created_at": "2025-12-26T13:44:28Z",
     "default_branch": "master",
-    "pushed_at": "2025-12-19T22:49:30Z"
+    "pushed_at": "2025-12-19T22:49:30Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "0xSojalSec/money-Ai-agents",
@@ -26,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:53Z",
-    "metadata_refreshed_at": "2026-08-18T02:13:53Z",
+    "metadata_refreshed_at": "2026-08-18T16:56:56Z",
     "signals": [
       "gh-actions",
       "node",
@@ -41,7 +46,8 @@
       "JavaScript": 3206,
       "CSS": 1461
     },
-    "inputs_prepared_at": "2026-08-18T02:17:21Z"
+    "inputs_prepared_at": "2026-08-18T02:17:21Z",
+    "actions_checked_at": "2026-08-18T16:56:56Z"
   },
   "classification": {
     "domain": "agents-skills",

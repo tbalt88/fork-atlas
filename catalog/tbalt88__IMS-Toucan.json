@@ -4,7 +4,12 @@
     "url": "https://github.com/tbalt88/IMS-Toucan",
     "created_at": "2025-12-06T22:02:43Z",
     "default_branch": "MassiveScaleToucan",
-    "pushed_at": "2026-06-12T21:03:59Z"
+    "pushed_at": "2026-06-12T21:03:59Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "DigitalPhonetics/IMS-Toucan",
@@ -35,12 +40,13 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:12Z",
-    "metadata_refreshed_at": "2026-08-18T14:02:31Z",
+    "metadata_refreshed_at": "2026-08-18T16:57:30Z",
     "signals": [],
     "languages": {
       "Python": 1204968
     },
-    "inputs_prepared_at": "2026-08-18T02:16:55Z"
+    "inputs_prepared_at": "2026-08-18T02:16:55Z",
+    "actions_checked_at": "2026-08-18T16:57:30Z"
   },
   "classification": {
     "domain": "media-generation",

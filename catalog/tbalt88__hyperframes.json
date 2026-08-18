@@ -4,16 +4,21 @@
     "url": "https://github.com/tbalt88/hyperframes",
     "created_at": "2026-06-08T16:11:38Z",
     "default_branch": "main",
-    "pushed_at": "2026-07-19T08:06:18Z"
+    "pushed_at": "2026-07-19T08:06:18Z",
+    "actions": {
+      "enabled": false,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "upstream": {
     "full_name": "heygen-com/hyperframes",
     "url": "https://github.com/heygen-com/hyperframes",
     "description": "Write HTML. Render video. Built for agents.",
-    "stars": 41499,
-    "forks": 3969,
+    "stars": 41523,
+    "forks": 3972,
     "watchers": 117,
-    "open_issues": 235,
+    "open_issues": 236,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -32,13 +37,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2026-03-10T01:51:06Z",
-    "pushed_at": "2026-08-18T13:51:52Z",
+    "pushed_at": "2026-08-18T16:37:12Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:25Z",
-    "metadata_refreshed_at": "2026-08-18T14:01:04Z",
+    "metadata_refreshed_at": "2026-08-18T16:54:40Z",
     "signals": [
       "claude-skill",
       "gh-actions"
@@ -52,7 +57,8 @@
       "HCL": 13205,
       "Dockerfile": 9429
     },
-    "inputs_prepared_at": "2026-08-18T02:16:54Z"
+    "inputs_prepared_at": "2026-08-18T02:16:54Z",
+    "actions_checked_at": "2026-08-18T16:54:40Z"
   },
   "classification": {
     "domain": "media-generation",
