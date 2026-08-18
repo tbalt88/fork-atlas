@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T02:38:14Z",
+ "generated_at": "2026-08-18T04:12:54Z",
  "taxonomy": {
   "domains": [
    {
@@ -128,7 +128,7 @@
   "total": 205,
   "classified": 205,
   "unclassified": 0,
-  "needs_review": 5
+  "needs_review": 4
  },
  "keywords": {
   "mcp": [
@@ -1698,6 +1698,9 @@
    "tbalt88/open-seo"
   ],
   "dataforseo": [
+   "tbalt88/open-seo"
+  ],
+  "dexevo-site-travel": [
    "tbalt88/open-seo"
   ],
   "keyword-research": [
@@ -3689,8 +3692,8 @@
     "node"
    ],
    "status": "classified",
-   "domain": "misc",
-   "domain_label": "Miscellaneous",
+   "domain": "automation-integrations",
+   "domain_label": "Automation & integrations",
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -3728,6 +3731,7 @@
    "keywords": [
     "backlinks",
     "dataforseo",
+    "dexevo-site-travel",
     "keyword-research",
     "mcp",
     "self-hosted",
@@ -3737,11 +3741,11 @@
    ],
    "confidence": 0.7,
    "proposed_domain": "seo-tools",
-   "needs_review": true,
+   "needs_review": false,
    "classified_at": "2026-08-18T02:24:16Z",
-   "note": null,
+   "note": "Reviewed. Intended use: build the search-engine-optimization plan for dexevo-site-travel (keyword research, rank tracking, site audit) — self-hosted Semrush/Ahrefs alternative.",
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/unsloth",

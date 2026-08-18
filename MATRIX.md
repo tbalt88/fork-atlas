@@ -1,6 +1,6 @@
 # Fork Atlas — Matrix
 
-_Generated 2026-08-18T02:38:14Z · 205 forks · 205 classified · 5 need review_
+_Generated 2026-08-18T04:12:54Z · 205 forks · 205 classified · 4 need review_
 
 Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-once; edit `overrides/` to correct Domain/Form.
 
@@ -12,7 +12,7 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 - [Developer tooling & CLIs](#dev-tooling) (6)
 - [Data, ETL, search & RAG](#data-rag) (16)
 - [Web & UI frameworks](#web-ui) (2)
-- [Automation & integrations](#automation-integrations) (9)
+- [Automation & integrations](#automation-integrations) (10)
 - [Infra, DevOps & self-hosting](#infra-devops) (4)
 - [Security & privacy](#security) (9)
 - [Knowledge & productivity](#knowledge-productivity) (6)
@@ -21,7 +21,7 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 - [Finance & trading](#finance-trading) (7)
 - [Computer vision, sensing & IoT](#vision-sensing) (5)
 - [Games & fun](#games-fun) (1)
-- [Miscellaneous](#misc) (2)
+- [Miscellaneous](#misc) (1)
 
 <a id="llm-inference-training"></a>
 ## LLM inference & training
@@ -198,6 +198,7 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 | Repo | Form | ★ | What it is | Use cases | Keywords |
 |---|---|---:|---|---|---|
 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Application / UI | 55379 | Flowise is a low-code/no-code visual builder for LLM applications and AI agents, letting users drag-and-drop nodes (LangChain components, agentflow steps, chatbots, RAG pipelines) into a workflow without writing code, then deploy it as a chatbot or API. It'… | • Build a RAG chatbot visually without writing LangChain code<br>• Self-host a drag-and-drop agent builder for a small team<br>• Reference an archived visual-agent-builder architecture before migrating to an alternative<br>• Expose a visually built agent flow as a callable API endpoint | agent-orchestration, archived, chatbot, langchain, low-code, rag, self-hosted, typescript |
+| [every-app/open-seo](https://github.com/every-app/open-seo) | Application / UI | 12408 | OpenSEO is an open-source, self-hostable alternative to Semrush/Ahrefs for keyword research, rank tracking, competitor and backlink analysis, and site audits, built on a pay-as-you-go DataForSEO API key rather than a subscription. It ships a modern TypeScri… | • Self-host an SEO suite instead of paying for Semrush/Ahrefs<br>• Let an AI agent run keyword research and site audits<br>• Track competitor backlinks and rankings<br>• Fork and customize an SEO tool's workflows | backlinks, dataforseo, dexevo-site-travel, keyword-research, mcp, self-hosted, seo, site-audit |
 | [diwenne/openreply](https://github.com/diwenne/openreply) | Application / UI | 1366 | OpenReply is a self-hosted, open-source alternative to ManyChat for Instagram comment-to-DM automation: when a comment matches a keyword, it sends the commenter a private reply via Meta's official Instagram API, with optional public replies, tracked links, … | • Auto-DM a link to anyone who comments a keyword on an Instagram post<br>• Self-host a free ManyChat-style comment-to-DM tool for creator clients<br>• Track click-through rates on links sent via automated Instagram DMs | bullmq, comment-automation, dm-automation, instagram, manychat-alternative, nextjs, self-hosted, webhook |
 | [kishanrajput23/Jarvis-Desktop-Voice-Assistant](https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant) | Application / UI | 883 | A small, largely single-file Python desktop voice assistant ('Jarvis') that uses speech recognition and text-to-speech to greet the user, launch apps/websites, search Google/Wikipedia, play music, take screenshots, and jot notes. It's a beginner/educational… | • Learn how to build a basic Python voice assistant<br>• Automate simple desktop tasks with voice commands | beginner-project, desktop-automation, python, pyttsx3, speech-recognition, text-to-speech, voice-assistant |
 | [labring/tentix](https://github.com/labring/tentix) | Application / UI | 410 | Tentix is an open-source AI-native customer service and ticketing platform (TypeScript, Bun) that pairs a support-ticket system with a LangGraph AI agent doing RAG over a unified PostgreSQL+pgvector knowledge base (starred conversations, historical tickets,… | • Self-host an AI-assisted customer support ticketing system<br>• Build a RAG knowledge base from historical support tickets<br>• Design an agent handoff and escalation workflow visually<br>• Route customer messages to a support agent via Feishu | customer-service, helpdesk, langgraph, mcp, pgvector, rag, ticketing, typescript |
@@ -321,6 +322,5 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 
 | Repo | Form | ★ | What it is | Use cases | Keywords |
 |---|---|---:|---|---|---|
-| [every-app/open-seo](https://github.com/every-app/open-seo) ⚠ | Application / UI | 12408 | OpenSEO is an open-source, self-hostable alternative to Semrush/Ahrefs for keyword research, rank tracking, competitor and backlink analysis, and site audits, built on a pay-as-you-go DataForSEO API key rather than a subscription. It ships a modern TypeScri… | • Self-host an SEO suite instead of paying for Semrush/Ahrefs<br>• Let an AI agent run keyword research and site audits<br>• Track competitor backlinks and rankings<br>• Fork and customize an SEO tool's workflows | backlinks, dataforseo, keyword-research, mcp, self-hosted, seo, site-audit, typescript |
 | [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) ⚠ | Model / dataset / weights | 4356 | The Well is a 15TB collection of 16 numerical physics-simulation datasets (fluid dynamics, magnetohydrodynamics, acoustic scattering, biological systems, supernova/neutron-star mergers, etc.) packaged as a PyTorch-loadable Python library, plus benchmark sur… | • Train a PDE surrogate model on standardized physics data<br>• Stream large physics simulation datasets from Hugging Face<br>• Benchmark a new architecture against FNO baselines<br>• Load fluid-dynamics or MHD simulation data into a training pipeline | benchmark, dataset, huggingface, pde, physics-simulation, pytorch, scientific-ml, surrogate-modeling |
 
