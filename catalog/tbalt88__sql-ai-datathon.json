@@ -16,7 +16,7 @@
     "url": "https://github.com/microsoft/sql-ai-datathon",
     "description": null,
     "stars": 27,
-    "forks": 29,
+    "forks": 28,
     "watchers": 0,
     "open_issues": 5,
     "language": "Jupyter Notebook",
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:12Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:53Z",
+    "metadata_refreshed_at": "2026-09-03T17:29:18Z",
     "signals": [
       "docker",
       "node",
@@ -57,7 +57,7 @@
       "Dockerfile": 711
     },
     "inputs_prepared_at": "2026-08-18T02:18:27Z",
-    "actions_checked_at": "2026-08-18T16:55:46Z"
+    "actions_checked_at": "2026-09-03T17:29:18Z"
   },
   "classification": {
     "domain": "learning-reference",

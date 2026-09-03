@@ -1,0 +1,104 @@
+{
+  "fork": {
+    "full_name": "tbalt88/cheap-sora2-api",
+    "url": "https://github.com/tbalt88/cheap-sora2-api",
+    "created_at": "2026-08-22T20:06:51Z",
+    "default_branch": "main",
+    "pushed_at": "2025-12-08T03:04:49Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "cporter202/cheap-sora2-api",
+    "url": "https://github.com/cporter202/cheap-sora2-api",
+    "description": "This GitHub repository provides a step-by-step guide to accessing the Sora 2 API for roughly 70% cheaper than purchasing it directly from OpenAI, while delivering the exact same capabilities.",
+    "stars": 19,
+    "forks": 5,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "topics": [],
+    "license": null,
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-12-06T22:48:07Z",
+    "pushed_at": "2025-12-08T03:04:49Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:20Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:20Z",
+    "actions_checked_at": "2026-09-03T17:26:20Z",
+    "signals": [],
+    "languages": {},
+    "inputs_prepared_at": "2026-09-03T17:31:59Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "dormant",
+    "analysis": "Simple reference guide explaining how to use ViralWave Studio's Sora API as a cost-saving alternative to OpenAI's direct Sora 2 offering (70% cheaper). Documents pricing comparison, step-by-step setup, API integration examples, and key benefits. Minimal ongoing maintenance; primarily archival reference content.",
+    "keywords": [
+      "api-guide",
+      "cost-saving",
+      "how-to",
+      "openai-alternative",
+      "pricing-comparison",
+      "setup-guide",
+      "sora-2",
+      "video-generation",
+      "viralwave"
+    ],
+    "use_cases": [
+      {
+        "title": "Reduce Sora 2 API costs by 70% using ViralWave Studio alternative",
+        "keywords": [
+          "cost-optimization",
+          "pricing",
+          "video-api"
+        ]
+      },
+      {
+        "title": "Get step-by-step instructions for ViralWave Sora API setup",
+        "keywords": [
+          "api-access",
+          "onboarding",
+          "setup-guide"
+        ]
+      },
+      {
+        "title": "Compare pricing between OpenAI and ViralWave video services",
+        "keywords": [
+          "cost-analysis",
+          "evaluation",
+          "pricing-comparison"
+        ]
+      },
+      {
+        "title": "Integrate Sora 2 video generation with 70% cost savings",
+        "keywords": [
+          "implementation",
+          "integration",
+          "video-api"
+        ]
+      },
+      {
+        "title": "Learn API requirements and best practices for video generation",
+        "keywords": [
+          "api-reference",
+          "best-practices",
+          "documentation"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-09-03T17:33:57Z",
+    "model": "claude-code/haiku-4.5"
+  },
+  "status": "classified"
+}

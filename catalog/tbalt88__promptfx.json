@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:24Z",
-    "metadata_refreshed_at": "2026-08-18T17:55:03Z",
+    "metadata_refreshed_at": "2026-09-03T17:31:11Z",
     "signals": [
       "claude-md",
       "gh-actions",
@@ -46,7 +46,7 @@
       "Batchfile": 693
     },
     "inputs_prepared_at": "2026-08-18T02:18:03Z",
-    "actions_checked_at": "2026-08-18T16:57:50Z"
+    "actions_checked_at": "2026-09-03T17:31:10Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -15,8 +15,8 @@
     "full_name": "MCP-Defender/MCP-Defender",
     "url": "https://github.com/MCP-Defender/MCP-Defender",
     "description": "Desktop app that automatically scans and blocks malicious MCP traffic in AI apps like Cursor, Claude, VS Code and Windsurf.",
-    "stars": 255,
-    "forks": 43,
+    "stars": 257,
+    "forks": 42,
     "watchers": 0,
     "open_issues": 5,
     "language": "TypeScript",
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:58Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:37Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:30Z",
     "signals": [
       "node"
     ],
@@ -52,7 +52,7 @@
       "HTML": 198
     },
     "inputs_prepared_at": "2026-08-18T02:17:14Z",
-    "actions_checked_at": "2026-08-18T16:57:08Z"
+    "actions_checked_at": "2026-09-03T17:30:30Z"
   },
   "classification": {
     "domain": "security",

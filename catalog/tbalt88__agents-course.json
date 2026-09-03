@@ -15,10 +15,10 @@
     "full_name": "huggingface/agents-course",
     "url": "https://github.com/huggingface/agents-course",
     "description": "This repository contains the Hugging Face Agents Course. ",
-    "stars": 31108,
-    "forks": 2207,
-    "watchers": 219,
-    "open_issues": 157,
+    "stars": 32144,
+    "forks": 2296,
+    "watchers": 229,
+    "open_issues": 161,
     "language": "MDX",
     "topics": [
       "agentic-ai",
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:58Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:40Z",
+    "metadata_refreshed_at": "2026-09-03T17:28:59Z",
     "signals": [
       "gh-actions",
       "python"
@@ -49,7 +49,7 @@
       "Python": 8090
     },
     "inputs_prepared_at": "2026-08-18T02:14:57Z",
-    "actions_checked_at": "2026-08-18T16:55:28Z"
+    "actions_checked_at": "2026-09-03T17:28:59Z"
   },
   "classification": {
     "domain": "learning-reference",

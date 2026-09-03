@@ -15,10 +15,10 @@
     "full_name": "run-llama/llama_index",
     "url": "https://github.com/run-llama/llama_index",
     "description": "LlamaIndex is the leading document agent and OCR platform",
-    "stars": 51729,
-    "forks": 7957,
-    "watchers": 279,
-    "open_issues": 625,
+    "stars": 52000,
+    "forks": 8076,
+    "watchers": 285,
+    "open_issues": 699,
     "language": "Python",
     "topics": [
       "agents",
@@ -36,13 +36,13 @@
     "homepage": "https://developers.llamaindex.ai",
     "default_branch": "main",
     "created_at": "2022-11-02T04:24:54Z",
-    "pushed_at": "2026-08-18T16:37:12Z",
+    "pushed_at": "2026-09-03T03:05:30Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:21Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:59Z",
+    "metadata_refreshed_at": "2026-09-03T17:31:06Z",
     "signals": [
       "gh-actions",
       "make"
@@ -58,7 +58,7 @@
       "Starlark": 341
     },
     "inputs_prepared_at": "2026-08-18T02:17:07Z",
-    "actions_checked_at": "2026-08-18T16:57:45Z"
+    "actions_checked_at": "2026-09-03T17:31:06Z"
   },
   "classification": {
     "domain": "data-rag",

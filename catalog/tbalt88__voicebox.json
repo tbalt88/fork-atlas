@@ -1,0 +1,119 @@
+{
+  "fork": {
+    "full_name": "tbalt88/voicebox",
+    "url": "https://github.com/tbalt88/voicebox",
+    "created_at": "2026-09-03T17:17:40Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-09T00:03:42Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "jamiepine/voicebox",
+    "url": "https://github.com/jamiepine/voicebox",
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "stars": 52231,
+    "forks": 6503,
+    "watchers": 242,
+    "open_issues": 671,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "cuda",
+      "mlx",
+      "qwen3-tts",
+      "qwen3-tts-ui",
+      "voice-ai",
+      "voice-clone",
+      "whisper"
+    ],
+    "license": "MIT",
+    "homepage": "https://voicebox.sh",
+    "default_branch": "main",
+    "created_at": "2026-01-25T12:27:03Z",
+    "pushed_at": "2026-08-09T00:03:42Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:10Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:10Z",
+    "actions_checked_at": "2026-09-03T17:26:10Z",
+    "signals": [
+      "claude-skill",
+      "docker",
+      "gh-actions",
+      "mcp",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 1368820,
+      "Python": 904840,
+      "Rust": 223173,
+      "Shell": 19794,
+      "Just": 18203,
+      "JavaScript": 10538,
+      "CSS": 9468,
+      "Dockerfile": 4119,
+      "HTML": 2193
+    },
+    "inputs_prepared_at": "2026-09-03T17:32:10Z"
+  },
+  "classification": {
+    "domain": "media-generation",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Voicebox is a local-first AI voice studio desktop app (Tauri + React with a Python FastAPI sidecar) for voice cloning, speech generation across 7 local TTS engines (Qwen3-TTS, LuxTTS, Chatterbox, HumeAI TADA, Kokoro), local Whisper transcription, and system-wide global-hotkey dictation with LLM text refinement — positioned as an offline alternative to ElevenLabs and Wispr Flow. It ships a REST API and a first-class MCP server (speak/transcribe tools plus a stdio shim) so coding agents can use voice I/O, plus a multi-voice Stories timeline editor and an audio effects chain. MIT-licensed with ~52k stars and 77 contributors; prebuilt Windows MSI and macOS DMG, Docker for Linux/headless; release cadence paused since April 2026 with maintainer activity continuing in bursts.",
+    "keywords": [
+      "dictation",
+      "elevenlabs-alternative",
+      "local-first",
+      "mcp",
+      "speech-to-text",
+      "tauri",
+      "tts",
+      "voice-cloning",
+      "whisper"
+    ],
+    "use_cases": [
+      {
+        "title": "Clone a voice and generate speech fully offline",
+        "keywords": [
+          "local-first",
+          "tts",
+          "voice-cloning"
+        ]
+      },
+      {
+        "title": "Give coding agents voice I/O via its MCP server",
+        "keywords": [
+          "mcp",
+          "speech-to-text",
+          "tts"
+        ]
+      },
+      {
+        "title": "Dictate into any app with a global hotkey and local Whisper",
+        "keywords": [
+          "dictation",
+          "whisper"
+        ]
+      },
+      {
+        "title": "Produce multi-voice narrated audio with the Stories timeline editor",
+        "keywords": [
+          "tts",
+          "voice-cloning"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-09-03T17:32:18Z",
+    "model": "claude-code/fable-5"
+  },
+  "status": "classified"
+}

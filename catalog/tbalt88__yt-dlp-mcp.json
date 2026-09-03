@@ -15,8 +15,8 @@
     "full_name": "kevinwatt/yt-dlp-mcp",
     "url": "https://github.com/kevinwatt/yt-dlp-mcp",
     "description": "A Model Context Protocol (MCP) server that bridges Video & Audio content with Large Language Models using yt-dlp.",
-    "stars": 270,
-    "forks": 59,
+    "stars": 277,
+    "forks": 58,
     "watchers": 2,
     "open_issues": 4,
     "language": "TypeScript",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:17Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:54Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:58Z",
     "signals": [
       "claude-md",
       "claude-skill",
@@ -45,7 +45,7 @@
       "Python": 17454
     },
     "inputs_prepared_at": "2026-08-18T02:19:03Z",
-    "actions_checked_at": "2026-08-18T16:57:38Z"
+    "actions_checked_at": "2026-09-03T17:30:58Z"
   },
   "classification": {
     "domain": "agents-skills",

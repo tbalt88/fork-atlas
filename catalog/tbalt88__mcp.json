@@ -15,10 +15,10 @@
     "full_name": "google/mcp",
     "url": "https://github.com/google/mcp",
     "description": "Google 💚 MCP",
-    "stars": 4520,
-    "forks": 523,
-    "watchers": 63,
-    "open_issues": 28,
+    "stars": 4553,
+    "forks": 530,
+    "watchers": 64,
+    "open_issues": 30,
     "language": null,
     "topics": [],
     "license": "Apache-2.0",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:05Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:43Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:39Z",
     "signals": [
       "docker",
       "node",
@@ -40,7 +40,7 @@
     ],
     "languages": {},
     "inputs_prepared_at": "2026-08-18T02:17:15Z",
-    "actions_checked_at": "2026-08-18T16:57:18Z"
+    "actions_checked_at": "2026-09-03T17:30:38Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -15,8 +15,8 @@
     "full_name": "Azure-Samples/python-agentframework-demos",
     "url": "https://github.com/Azure-Samples/python-agentframework-demos",
     "description": null,
-    "stars": 243,
-    "forks": 161,
+    "stars": 244,
+    "forks": 162,
     "watchers": 4,
     "open_issues": 19,
     "language": "Bicep",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:05Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:47Z",
+    "metadata_refreshed_at": "2026-09-03T17:29:10Z",
     "signals": [
       "claude-skill",
       "docker",
@@ -44,7 +44,7 @@
       "Shell": 809
     },
     "inputs_prepared_at": "2026-08-18T02:18:06Z",
-    "actions_checked_at": "2026-08-18T16:55:37Z"
+    "actions_checked_at": "2026-09-03T17:29:09Z"
   },
   "classification": {
     "domain": "agents-skills",

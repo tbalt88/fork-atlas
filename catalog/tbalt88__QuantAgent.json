@@ -15,9 +15,9 @@
     "full_name": "Y-Research-SBU/QuantHarness",
     "url": "https://github.com/Y-Research-SBU/QuantHarness",
     "description": "Official Repository for QuantHarness",
-    "stars": 2832,
-    "forks": 610,
-    "watchers": 27,
+    "stars": 2848,
+    "forks": 614,
+    "watchers": 28,
     "open_issues": 2,
     "language": "HTML",
     "topics": [
@@ -34,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:38Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:16Z",
+    "metadata_refreshed_at": "2026-09-03T17:29:55Z",
     "signals": [
       "gh-actions"
     ],
@@ -43,7 +43,7 @@
       "Python": 141806
     },
     "inputs_prepared_at": "2026-08-18T02:18:07Z",
-    "actions_checked_at": "2026-08-18T16:56:24Z"
+    "actions_checked_at": "2026-09-03T17:29:55Z"
   },
   "classification": {
     "domain": "agents-skills",

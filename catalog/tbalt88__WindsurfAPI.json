@@ -15,10 +15,10 @@
     "full_name": "dwgx/WindsurfAPI",
     "url": "https://github.com/dwgx/WindsurfAPI",
     "description": "Turn Windsurf / Devin Desktop's 100+ AI models (Claude, GPT, Gemini, DeepSeek, Kimi, GLM, SWE) into OpenAI-, Anthropic- & Gemini-compatible APIs. Zero-dependency self-hosted reverse proxy for Claude Code, Cline & Cursor. 把 Windsurf/Devin 云端 100+ 模型变成三套兼容 API。",
-    "stars": 2941,
-    "forks": 607,
+    "stars": 2965,
+    "forks": 616,
     "watchers": 14,
-    "open_issues": 8,
+    "open_issues": 6,
     "language": "JavaScript",
     "topics": [
       "anthropic-compatible",
@@ -46,13 +46,13 @@
     "homepage": "https://dwgx.github.io/WindsurfAPI/",
     "default_branch": "master",
     "created_at": "2026-04-09T09:42:05Z",
-    "pushed_at": "2026-08-18T02:57:58Z",
+    "pushed_at": "2026-09-03T06:58:54Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:44Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:30Z",
+    "metadata_refreshed_at": "2026-09-03T17:28:43Z",
     "signals": [
       "docker",
       "gh-actions"
@@ -68,7 +68,7 @@
       "VBScript": 1160
     },
     "inputs_prepared_at": "2026-08-18T02:18:58Z",
-    "actions_checked_at": "2026-08-18T16:55:10Z"
+    "actions_checked_at": "2026-09-03T17:28:42Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:53Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:31Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:21Z",
     "signals": [
       "gh-actions",
       "node",
@@ -47,7 +47,7 @@
       "CSS": 1461
     },
     "inputs_prepared_at": "2026-08-18T02:17:21Z",
-    "actions_checked_at": "2026-08-18T16:56:56Z"
+    "actions_checked_at": "2026-09-03T17:30:20Z"
   },
   "classification": {
     "domain": "agents-skills",

@@ -1,0 +1,129 @@
+{
+  "fork": {
+    "full_name": "tbalt88/system_prompts_leaks",
+    "url": "https://github.com/tbalt88/system_prompts_leaks",
+    "created_at": "2026-08-31T04:12:25Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-30T00:55:03Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "asgeirtj/system_prompts_leaks",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+    "stars": 64104,
+    "forks": 10517,
+    "watchers": 733,
+    "open_issues": 50,
+    "language": "JavaScript",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-prompts",
+      "anthropic",
+      "chatbot",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini",
+      "generative-ai",
+      "google",
+      "grok",
+      "llm",
+      "openai",
+      "prompt",
+      "prompt-engineering",
+      "system-prompt",
+      "system-prompts"
+    ],
+    "license": "CC0-1.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2025-05-03T02:43:56Z",
+    "pushed_at": "2026-09-03T07:13:21Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:15Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:15Z",
+    "actions_checked_at": "2026-09-03T17:26:15Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "JavaScript": 778578,
+      "Python": 40276
+    },
+    "inputs_prepared_at": "2026-09-03T17:32:09Z"
+  },
+  "classification": {
+    "domain": "learning-reference",
+    "form": "reference",
+    "maturity": "active",
+    "analysis": "Comprehensive public archive of leaked and extracted system prompts from major AI platforms: Anthropic (Claude, Claude Code, Claude Design, Claude Science), OpenAI (ChatGPT, Codex), Google (Gemini), xAI (Grok), and others. Prompts captured verbatim and organized by provider and product. Updated regularly (daily/weekly); used by Washington Post and research organizations for AI transparency analysis and prompt engineering study.",
+    "keywords": [
+      "ai-prompts",
+      "ai-transparency",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "prompt-engineering",
+      "reference",
+      "system-prompts"
+    ],
+    "use_cases": [
+      {
+        "title": "Study system prompt structure and patterns across different AI models",
+        "keywords": [
+          "ai-prompts",
+          "analysis",
+          "learning"
+        ]
+      },
+      {
+        "title": "Understand hidden rules and capabilities of Claude, ChatGPT, and Gemini before using them",
+        "keywords": [
+          "reference",
+          "system-prompts",
+          "understanding"
+        ]
+      },
+      {
+        "title": "Reverse-engineer AI behavior and decision-making constraints from official prompts",
+        "keywords": [
+          "ai-behavior",
+          "prompts",
+          "research"
+        ]
+      },
+      {
+        "title": "Train prompt engineers on real-world system prompt design and formatting",
+        "keywords": [
+          "learning",
+          "prompt-engineering",
+          "training"
+        ]
+      },
+      {
+        "title": "Track prompt changes and model updates across Anthropic Claude releases",
+        "keywords": [
+          "claude",
+          "tracking",
+          "versions"
+        ]
+      }
+    ],
+    "confidence": 0.96,
+    "classified_at": "2026-09-03T17:33:57Z",
+    "model": "claude-code/haiku-4.5"
+  },
+  "status": "classified"
+}

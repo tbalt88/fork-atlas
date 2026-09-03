@@ -14,11 +14,11 @@
   "upstream": {
     "full_name": "Fergana-Labs/stash",
     "url": "https://github.com/Fergana-Labs/stash",
-    "description": "Shared memory for your team's coding agents",
-    "stars": 314,
-    "forks": 50,
+    "description": "Automatically create new skills based on past agent traces ",
+    "stars": 332,
+    "forks": 52,
     "watchers": 3,
-    "open_issues": 56,
+    "open_issues": 53,
     "language": "Python",
     "topics": [
       "agent-collaboration",
@@ -45,13 +45,13 @@
     "homepage": "https://www.joinstash.ai",
     "default_branch": "main",
     "created_at": "2026-02-12T04:36:24Z",
-    "pushed_at": "2026-08-18T17:21:53Z",
+    "pushed_at": "2026-09-02T04:04:25Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-08-18T17:52:59Z",
+    "metadata_refreshed_at": "2026-09-03T17:27:51Z",
     "signals": [
       "claude-md",
       "docker",
@@ -70,7 +70,7 @@
       "Mako": 1103
     },
     "inputs_prepared_at": "2026-08-18T02:18:30Z",
-    "actions_checked_at": "2026-08-18T16:54:23Z"
+    "actions_checked_at": "2026-09-03T17:27:51Z"
   },
   "classification": {
     "domain": "agents-skills",

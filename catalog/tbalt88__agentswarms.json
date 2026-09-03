@@ -14,11 +14,11 @@
   "upstream": {
     "full_name": "AgentSwarms-fyi/agentswarms",
     "url": "https://github.com/AgentSwarms-fyi/agentswarms",
-    "description": "Unified Agentic AI and Business Intelligence Platform",
-    "stars": 203,
-    "forks": 42,
-    "watchers": 3,
-    "open_issues": 20,
+    "description": "Unified Agentic AI and Data Platform",
+    "stars": 231,
+    "forks": 57,
+    "watchers": 4,
+    "open_issues": 24,
     "language": "TypeScript",
     "topics": [
       "agentic-ai",
@@ -42,13 +42,13 @@
     "homepage": "https://agentswarms.fyi",
     "default_branch": "main",
     "created_at": "2026-07-21T21:35:03Z",
-    "pushed_at": "2026-08-18T17:06:31Z",
+    "pushed_at": "2026-09-03T10:47:21Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:03Z",
-    "metadata_refreshed_at": "2026-08-18T17:52:42Z",
+    "metadata_refreshed_at": "2026-09-03T17:27:19Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -67,7 +67,7 @@
       "HTML": 1801
     },
     "inputs_prepared_at": "2026-08-18T02:14:59Z",
-    "actions_checked_at": "2026-08-18T16:54:00Z"
+    "actions_checked_at": "2026-09-03T17:27:19Z"
   },
   "classification": {
     "domain": "agents-skills",

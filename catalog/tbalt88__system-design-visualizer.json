@@ -15,8 +15,8 @@
     "full_name": "mallahyari/system-design-visualizer",
     "url": "https://github.com/mallahyari/system-design-visualizer",
     "description": "An interactive tool that transforms static system design diagrams into explorable, interactive visualizations using AI.",
-    "stars": 597,
-    "forks": 77,
+    "stars": 602,
+    "forks": 76,
     "watchers": 5,
     "open_issues": 0,
     "language": "JavaScript",
@@ -35,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:56Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:34Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:26Z",
     "signals": [
       "node",
       "vite"
@@ -46,7 +46,7 @@
       "HTML": 374
     },
     "inputs_prepared_at": "2026-08-18T02:18:36Z",
-    "actions_checked_at": "2026-08-18T16:57:03Z"
+    "actions_checked_at": "2026-09-03T17:30:26Z"
   },
   "classification": {
     "domain": "dev-tooling",

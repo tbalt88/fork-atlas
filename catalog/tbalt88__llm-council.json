@@ -15,10 +15,10 @@
     "full_name": "karpathy/llm-council",
     "url": "https://github.com/karpathy/llm-council",
     "description": "LLM Council works together to answer your hardest questions",
-    "stars": 24137,
-    "forks": 4274,
-    "watchers": 287,
-    "open_issues": 145,
+    "stars": 24574,
+    "forks": 4322,
+    "watchers": 294,
+    "open_issues": 146,
     "language": "Python",
     "topics": [],
     "license": null,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:19Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:58Z",
+    "metadata_refreshed_at": "2026-09-03T17:31:03Z",
     "signals": [
       "claude-md",
       "node",
@@ -46,7 +46,7 @@
       "HTML": 357
     },
     "inputs_prepared_at": "2026-08-18T02:17:08Z",
-    "actions_checked_at": "2026-08-18T16:57:42Z"
+    "actions_checked_at": "2026-09-03T17:31:03Z"
   },
   "classification": {
     "domain": "agents-skills",

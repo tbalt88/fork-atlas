@@ -1,0 +1,123 @@
+{
+  "fork": {
+    "full_name": "tbalt88/cherry-studio",
+    "url": "https://github.com/tbalt88/cherry-studio",
+    "created_at": "2026-08-19T02:33:24Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-19T02:22:59Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 51404,
+    "forks": 4908,
+    "watchers": 206,
+    "open_issues": 1487,
+    "language": "TypeScript",
+    "topics": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "codex",
+      "deepseek",
+      "deepseek-harness",
+      "hermes-agent",
+      "skills",
+      "vibe-coding"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": "https://cherryai.com",
+    "default_branch": "main",
+    "created_at": "2024-05-24T01:56:26Z",
+    "pushed_at": "2026-09-03T17:02:23Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:27Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:27Z",
+    "actions_checked_at": "2026-09-03T17:26:27Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "TypeScript": 53627559,
+      "JavaScript": 378839,
+      "CSS": 121697,
+      "HTML": 104009,
+      "Python": 89786,
+      "NSIS": 5338
+    },
+    "inputs_prepared_at": "2026-09-03T17:32:00Z"
+  },
+  "classification": {
+    "domain": "ai-platforms",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Cross-platform desktop AI productivity studio (Windows, Mac, Linux) providing unified interface to multiple LLM providers (OpenAI, Anthropic, Gemini, local models). Features 300+ pre-configured assistants, document/image processing, MCP server support, knowledge management, and autonomous agent capabilities. Built in TypeScript/Electron with active development and commercial enterprise offering.",
+    "keywords": [
+      "agent-framework",
+      "ai-platform",
+      "desktop-app",
+      "electron",
+      "llm-client",
+      "mcp-support",
+      "multi-provider",
+      "productivity",
+      "typescript"
+    ],
+    "use_cases": [
+      {
+        "title": "Access and interact with multiple AI models from single desktop interface",
+        "keywords": [
+          "ai-access",
+          "multi-provider",
+          "unified-interface"
+        ]
+      },
+      {
+        "title": "Build and deploy custom AI assistants for domain-specific workflows",
+        "keywords": [
+          "assistants",
+          "customization",
+          "productivity"
+        ]
+      },
+      {
+        "title": "Process documents, images, and data with AI for knowledge extraction",
+        "keywords": [
+          "document-processing",
+          "knowledge-management",
+          "rag"
+        ]
+      },
+      {
+        "title": "Self-host AI platform on-premises for full data control",
+        "keywords": [
+          "enterprise-deployment",
+          "privacy",
+          "self-hosting"
+        ]
+      },
+      {
+        "title": "Extend capabilities through MCP servers and custom plugins",
+        "keywords": [
+          "extensibility",
+          "mcp",
+          "plugin-system"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-09-03T17:33:57Z",
+    "model": "claude-code/haiku-4.5"
+  },
+  "status": "classified"
+}

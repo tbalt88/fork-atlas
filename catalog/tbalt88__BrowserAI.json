@@ -15,8 +15,8 @@
     "full_name": "sauravpanda/BrowserAI",
     "url": "https://github.com/sauravpanda/BrowserAI",
     "description": "Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser",
-    "stars": 1448,
-    "forks": 138,
+    "stars": 1449,
+    "forks": 136,
     "watchers": 8,
     "open_issues": 24,
     "language": "TypeScript",
@@ -41,7 +41,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:42Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:21Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:02Z",
     "signals": [
       "gh-actions",
       "nextjs",
@@ -56,7 +56,7 @@
       "HTML": 947
     },
     "inputs_prepared_at": "2026-08-18T02:15:30Z",
-    "actions_checked_at": "2026-08-18T16:56:34Z"
+    "actions_checked_at": "2026-09-03T17:30:02Z"
   },
   "classification": {
     "domain": "llm-inference-training",

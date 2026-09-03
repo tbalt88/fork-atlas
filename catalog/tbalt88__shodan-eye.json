@@ -1,0 +1,107 @@
+{
+  "fork": {
+    "full_name": "tbalt88/shodan-eye",
+    "url": "https://github.com/tbalt88/shodan-eye",
+    "created_at": "2026-08-20T18:43:19Z",
+    "default_branch": "master",
+    "pushed_at": "2026-08-02T08:38:33Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "BullsEye0/shodan-eye",
+    "url": "https://github.com/BullsEye0/shodan-eye",
+    "description": "Shodan Eye This tool collects all the information about all devices directly connected to the internet using the specified keywords that you enter. Author: Jolanda de Koff",
+    "stars": 1359,
+    "forks": 256,
+    "watchers": 51,
+    "open_issues": 4,
+    "language": "Python",
+    "topics": [],
+    "license": "GPL-3.0",
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2019-04-09T19:23:31Z",
+    "pushed_at": "2026-09-01T13:25:10Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:22Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:22Z",
+    "actions_checked_at": "2026-09-03T17:26:22Z",
+    "signals": [
+      "python"
+    ],
+    "languages": {
+      "Python": 9253
+    },
+    "inputs_prepared_at": "2026-09-03T17:32:07Z"
+  },
+  "classification": {
+    "domain": "security",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Shodan Eye is an OSINT/reconnaissance CLI tool that aggregates device discovery and vulnerability information from the Shodan search engine. Collects metadata about internet-connected devices (webcams, routers, servers, industrial equipment) using user-specified search queries and optional API authentication. Designed for network security audits, vulnerability research, and IoT device discovery; tested on Kali Linux, Parrot OS, BlackArch, Termux, and Windows.",
+    "keywords": [
+      "cli",
+      "device-discovery",
+      "network-security",
+      "osint",
+      "reconnaissance",
+      "security-research",
+      "shodan",
+      "vulnerability"
+    ],
+    "use_cases": [
+      {
+        "title": "Audit internet-facing devices connected to your organization's network",
+        "keywords": [
+          "discovery",
+          "network-audit",
+          "security"
+        ]
+      },
+      {
+        "title": "Research vulnerabilities in exposed industrial and IoT equipment",
+        "keywords": [
+          "iot",
+          "research",
+          "vulnerability"
+        ]
+      },
+      {
+        "title": "Gather device metadata and service banners for penetration testing",
+        "keywords": [
+          "metadata",
+          "pentest",
+          "recon"
+        ]
+      },
+      {
+        "title": "Discover misconfigured servers and endpoints exposed to the internet",
+        "keywords": [
+          "discovery",
+          "endpoints",
+          "security-audit"
+        ]
+      },
+      {
+        "title": "Perform ethical hacking assessments on home or corporate network perimeter",
+        "keywords": [
+          "audit",
+          "ethical-hacking",
+          "network"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-09-03T17:33:57Z",
+    "model": "claude-code/haiku-4.5"
+  },
+  "status": "classified"
+}

@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:41Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:19Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:00Z",
     "signals": [
       "claude-md",
       "docker",
@@ -58,7 +58,7 @@
       "Makefile": 2241
     },
     "inputs_prepared_at": "2026-08-18T02:15:07Z",
-    "actions_checked_at": "2026-08-18T16:56:31Z"
+    "actions_checked_at": "2026-09-03T17:30:00Z"
   },
   "classification": {
     "domain": "data-rag",

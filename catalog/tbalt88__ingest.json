@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:54Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:33Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:24Z",
     "signals": [
       "gh-actions",
       "go",
@@ -50,7 +50,7 @@
       "Shell": 945
     },
     "inputs_prepared_at": "2026-08-18T02:16:56Z",
-    "actions_checked_at": "2026-08-18T16:56:59Z"
+    "actions_checked_at": "2026-09-03T17:30:23Z"
   },
   "classification": {
     "domain": "data-rag",

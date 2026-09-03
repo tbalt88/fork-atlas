@@ -1,0 +1,118 @@
+{
+  "fork": {
+    "full_name": "tbalt88/deepseek-harness",
+    "url": "https://github.com/tbalt88/deepseek-harness",
+    "created_at": "2026-09-02T16:29:22Z",
+    "default_branch": "master",
+    "pushed_at": "2026-09-02T10:02:55Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "deepseek-ai/deepseek-harness",
+    "url": "https://github.com/deepseek-ai/deepseek-harness",
+    "description": "DeepSeek Harness: Everything is a Plugin.",
+    "stars": 210864,
+    "forks": 24688,
+    "watchers": 908,
+    "open_issues": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agents",
+      "cordis",
+      "dsh",
+      "dsh-plugin"
+    ],
+    "license": "MIT",
+    "homepage": "https://deepseek.com/harness",
+    "default_branch": "master",
+    "created_at": "2026-08-13T11:56:32Z",
+    "pushed_at": "2026-09-03T06:23:34Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:12Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:12Z",
+    "actions_checked_at": "2026-09-03T17:26:12Z",
+    "signals": [],
+    "languages": {
+      "TypeScript": 31226802,
+      "CSS": 451887,
+      "Python": 359858,
+      "JavaScript": 127274,
+      "Shell": 17261,
+      "C": 11763,
+      "C++": 4737,
+      "HTML": 421
+    },
+    "inputs_prepared_at": "2026-09-03T17:32:04Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Open-source agent harness framework by DeepSeek built on plugin-based architecture (Cordis framework for spatiotemporal composability). Provides Web UI and TUI interfaces for building, managing, and running AI agents. Extensively documented architecture with rapid iteration and active development. Built in TypeScript with 210k stars indicating strong community adoption.",
+    "keywords": [
+      "agent-framework",
+      "agent-harness",
+      "cordis",
+      "deepseek",
+      "dsh",
+      "plugin-architecture",
+      "tui",
+      "typescript",
+      "web-ui"
+    ],
+    "use_cases": [
+      {
+        "title": "Build extensible AI agents using plugin-based architecture",
+        "keywords": [
+          "architecture",
+          "extensibility",
+          "plugin-system"
+        ]
+      },
+      {
+        "title": "Deploy agent applications with both Web and TUI interfaces",
+        "keywords": [
+          "deployment",
+          "multi-interface",
+          "ui-options"
+        ]
+      },
+      {
+        "title": "Integrate and manage custom DSH plugins for agent workflows",
+        "keywords": [
+          "ecosystem",
+          "integration",
+          "plugin-management"
+        ]
+      },
+      {
+        "title": "Develop production agents with Cordis spatiotemporal composability",
+        "keywords": [
+          "advanced-patterns",
+          "architecture",
+          "composition"
+        ]
+      },
+      {
+        "title": "Leverage active open-source community and plugin ecosystem",
+        "keywords": [
+          "community",
+          "ecosystem",
+          "open-source"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-09-03T17:33:57Z",
+    "model": "claude-code/haiku-4.5"
+  },
+  "status": "classified"
+}

@@ -15,10 +15,10 @@
     "full_name": "beenuar/AiSOC",
     "url": "https://github.com/beenuar/AiSOC",
     "description": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
-    "stars": 2492,
-    "forks": 260,
+    "stars": 2365,
+    "forks": 251,
     "watchers": 36,
-    "open_issues": 20,
+    "open_issues": 24,
     "language": "Python",
     "topics": [
       "agentic-ai",
@@ -46,13 +46,13 @@
     "homepage": "https://tryaisoc.com",
     "default_branch": "main",
     "created_at": "2026-05-02T03:30:19Z",
-    "pushed_at": "2026-08-17T06:17:57Z",
+    "pushed_at": "2026-08-31T06:12:58Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:56Z",
-    "metadata_refreshed_at": "2026-08-18T17:52:36Z",
+    "metadata_refreshed_at": "2026-09-03T17:27:06Z",
     "signals": [
       "docker",
       "gh-actions",
@@ -76,7 +76,7 @@
       "Smarty": 5236
     },
     "inputs_prepared_at": "2026-08-18T02:15:08Z",
-    "actions_checked_at": "2026-08-18T16:53:48Z"
+    "actions_checked_at": "2026-09-03T17:27:05Z"
   },
   "classification": {
     "domain": "security",

@@ -1,0 +1,107 @@
+{
+  "fork": {
+    "full_name": "tbalt88/design-skills",
+    "url": "https://github.com/tbalt88/design-skills",
+    "created_at": "2026-08-20T00:04:09Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-18T13:16:30Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "emilkowalski/skills",
+    "url": "https://github.com/emilkowalski/skills",
+    "description": "Skills for Designers and Engineers.",
+    "stars": 35100,
+    "forks": 1959,
+    "watchers": 130,
+    "open_issues": 1,
+    "language": "Markdown",
+    "topics": [],
+    "license": "MIT",
+    "homepage": "https://emilkowal.ski/skill",
+    "default_branch": "main",
+    "created_at": "2026-03-16T13:52:31Z",
+    "pushed_at": "2026-08-21T09:32:33Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:24Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:24Z",
+    "actions_checked_at": "2026-09-03T17:26:23Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "Markdown": 235999
+    },
+    "inputs_prepared_at": "2026-09-03T17:32:05Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "Collection of Claude skills focused on UI/UX design, animation quality, and front-end development patterns. Skills include animation review/improvement, design principles (Apple's design language, animation vocabulary), UI library selection, Swift coding, and interactive prototyping. Built on Emil Kowalski's years of design expertise at Vercel and Linear, intended to improve AI-generated interfaces by enforcing design best practices and avoiding common animation mistakes.",
+    "keywords": [
+      "animation",
+      "claude-skills",
+      "design-patterns",
+      "front-end",
+      "prototyping",
+      "swift",
+      "ui-design",
+      "web-ui"
+    ],
+    "use_cases": [
+      {
+        "title": "Review and improve animation quality in design systems",
+        "keywords": [
+          "animation",
+          "quality",
+          "review"
+        ]
+      },
+      {
+        "title": "Audit codebase animations with prioritized fix plans",
+        "keywords": [
+          "animation",
+          "audit",
+          "optimization"
+        ]
+      },
+      {
+        "title": "Build polished UI prototypes with correct easing and motion",
+        "keywords": [
+          "animation",
+          "prototype",
+          "ui"
+        ]
+      },
+      {
+        "title": "Learn Apple design principles and fluid motion concepts",
+        "keywords": [
+          "design-patterns",
+          "learning",
+          "motion"
+        ]
+      },
+      {
+        "title": "Write modern Swift with value types and concurrency",
+        "keywords": [
+          "coding",
+          "development",
+          "swift"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-09-03T17:33:57Z",
+    "model": "claude-code/haiku-4.5"
+  },
+  "status": "classified"
+}

@@ -42,8 +42,8 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T17:53:02Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:02Z",
-    "actions_checked_at": "2026-08-18T17:53:02Z",
+    "metadata_refreshed_at": "2026-09-03T17:27:56Z",
+    "actions_checked_at": "2026-09-03T17:27:56Z",
     "signals": [
       "claude-md",
       "gh-actions",

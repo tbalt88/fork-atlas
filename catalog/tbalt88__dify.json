@@ -15,10 +15,10 @@
     "full_name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-    "stars": 152814,
-    "forks": 24139,
-    "watchers": 822,
-    "open_issues": 981,
+    "stars": 154345,
+    "forks": 24400,
+    "watchers": 835,
+    "open_issues": 1021,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -28,6 +28,7 @@
       "ai",
       "automation",
       "claude",
+      "deepseek",
       "genai",
       "gpt",
       "llm",
@@ -36,9 +37,7 @@
       "nextjs",
       "no-code",
       "openai",
-      "orchestration",
       "python",
-      "rag",
       "skills",
       "workflow"
     ],
@@ -46,13 +45,13 @@
     "homepage": "https://dify.ai",
     "default_branch": "main",
     "created_at": "2023-04-12T07:40:24Z",
-    "pushed_at": "2026-08-18T15:17:32Z",
+    "pushed_at": "2026-09-03T15:38:21Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:07Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:48Z",
+    "metadata_refreshed_at": "2026-09-03T17:29:12Z",
     "signals": [
       "claude-skill",
       "docker",
@@ -75,7 +74,7 @@
       "Mako": 518
     },
     "inputs_prepared_at": "2026-08-18T02:16:13Z",
-    "actions_checked_at": "2026-08-18T16:55:39Z"
+    "actions_checked_at": "2026-09-03T17:29:12Z"
   },
   "classification": {
     "domain": "agents-skills",

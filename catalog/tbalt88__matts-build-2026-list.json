@@ -35,11 +35,11 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:24Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:11Z",
+    "metadata_refreshed_at": "2026-09-03T17:28:11Z",
     "signals": [],
     "languages": {},
     "inputs_prepared_at": "2026-08-18T02:17:13Z",
-    "actions_checked_at": "2026-08-18T16:54:38Z"
+    "actions_checked_at": "2026-09-03T17:28:11Z"
   },
   "classification": {
     "domain": "learning-reference",

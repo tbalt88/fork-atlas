@@ -14,18 +14,18 @@
   "upstream": {
     "full_name": "mem0ai/mem0",
     "url": "https://github.com/mem0ai/mem0",
-    "description": "Universal memory layer for AI Agents",
-    "stars": 63535,
-    "forks": 7429,
-    "watchers": 241,
-    "open_issues": 689,
+    "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+    "stars": 64656,
+    "forks": 7574,
+    "watchers": 248,
+    "open_issues": 721,
     "language": "Python",
     "topics": [
+      "agentic-memory",
+      "agentic-memory-system",
       "agents",
       "ai",
       "ai-agents",
-      "application",
-      "chatbots",
       "chatgpt",
       "genai",
       "llm",
@@ -40,13 +40,13 @@
     "homepage": "https://mem0.ai",
     "default_branch": "main",
     "created_at": "2023-06-20T08:58:36Z",
-    "pushed_at": "2026-08-18T15:51:45Z",
+    "pushed_at": "2026-09-03T16:43:03Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:25Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:05Z",
+    "metadata_refreshed_at": "2026-09-03T17:29:38Z",
     "signals": [
       "claude-md",
       "gh-actions",
@@ -64,7 +64,7 @@
       "Mako": 635
     },
     "inputs_prepared_at": "2026-08-18T02:17:18Z",
-    "actions_checked_at": "2026-08-18T16:56:05Z"
+    "actions_checked_at": "2026-09-03T17:29:38Z"
   },
   "classification": {
     "domain": "agents-skills",

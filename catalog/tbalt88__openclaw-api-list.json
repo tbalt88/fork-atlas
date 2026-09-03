@@ -16,9 +16,9 @@
     "url": "https://github.com/Kevjade/openclaw-api-list",
     "description": "OpenClaw API Directory: 10,000+ APIs organized for OpenClaw. Maintained by The Operator Vault.",
     "stars": 63,
-    "forks": 23,
+    "forks": 22,
     "watchers": 0,
-    "open_issues": 2,
+    "open_issues": 1,
     "language": "JavaScript",
     "topics": [],
     "license": null,
@@ -31,13 +31,13 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:41Z",
-    "metadata_refreshed_at": "2026-08-18T17:52:21Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:34Z",
     "signals": [],
     "languages": {
       "JavaScript": 27369
     },
     "inputs_prepared_at": "2026-08-18T02:17:39Z",
-    "actions_checked_at": "2026-08-18T16:53:21Z"
+    "actions_checked_at": "2026-09-03T17:26:33Z"
   },
   "classification": {
     "domain": "automation-integrations",

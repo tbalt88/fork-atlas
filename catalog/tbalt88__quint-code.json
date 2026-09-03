@@ -15,10 +15,10 @@
     "full_name": "m0n0x41d/haft",
     "url": "https://github.com/m0n0x41d/haft",
     "description": "Engineering decisions engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement. For Claude Code, Cursor, Gemini CLI, Codex and more.",
-    "stars": 1383,
+    "stars": 1388,
     "forks": 102,
     "watchers": 16,
-    "open_issues": 8,
+    "open_issues": 10,
     "language": "Go",
     "topics": [
       "ai-agents",
@@ -49,7 +49,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:06Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:43Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:40Z",
     "signals": [
       "claude-md",
       "gh-actions"
@@ -63,7 +63,7 @@
       "JavaScript": 1603
     },
     "inputs_prepared_at": "2026-08-18T02:18:09Z",
-    "actions_checked_at": "2026-08-18T16:57:19Z"
+    "actions_checked_at": "2026-09-03T17:30:40Z"
   },
   "classification": {
     "domain": "agents-skills",

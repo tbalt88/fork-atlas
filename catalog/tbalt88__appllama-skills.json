@@ -1,0 +1,127 @@
+{
+  "fork": {
+    "full_name": "tbalt88/appllama-skills",
+    "url": "https://github.com/tbalt88/appllama-skills",
+    "created_at": "2026-08-26T00:45:53Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-25T16:04:53Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "Appllama/appllama-skills",
+    "url": "https://github.com/Appllama/appllama-skills",
+    "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
+    "stars": 523,
+    "forks": 39,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "codex-skill",
+      "cursor",
+      "design-system",
+      "expo",
+      "mcp",
+      "mobile-app-development",
+      "mobile-design",
+      "mobile-ui",
+      "model-context-protocol",
+      "react-native",
+      "skills",
+      "ui-design"
+    ],
+    "license": "MIT",
+    "homepage": "https://appllama.io/mcp",
+    "default_branch": "main",
+    "created_at": "2026-08-13T07:19:54Z",
+    "pushed_at": "2026-09-01T08:15:18Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:19Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:19Z",
+    "actions_checked_at": "2026-09-03T17:26:18Z",
+    "signals": [
+      "claude-skill",
+      "mcp"
+    ],
+    "languages": {},
+    "inputs_prepared_at": "2026-09-03T17:31:58Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "Collection of Claude/Cursor/Codex skills for AI-assisted mobile app design and development. Combines a research engine (Appllama MCP) that studies top-grossing app patterns with a React Native/Expo build skill enforcing production quality, fidelity to Apple HIG, and simulator verification. For developers building mobile apps with LLM agents.",
+    "keywords": [
+      "agent-skills",
+      "app-design",
+      "claude-skill",
+      "design-system",
+      "expo",
+      "mcp",
+      "mobile-design",
+      "react-native",
+      "ui-design"
+    ],
+    "use_cases": [
+      {
+        "title": "Build production-quality mobile apps with AI using design patterns from top-grossing apps",
+        "keywords": [
+          "ai-agents",
+          "mobile-design",
+          "react-native"
+        ]
+      },
+      {
+        "title": "Research and compare UI patterns across leading mobile applications",
+        "keywords": [
+          "appllama",
+          "design-research",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Design screens matching Apple HIG fidelity and native control patterns",
+        "keywords": [
+          "apple-hig",
+          "ios",
+          "ui-design"
+        ]
+      },
+      {
+        "title": "Automate mobile screen design with simulator-verified output",
+        "keywords": [
+          "automation",
+          "simulator",
+          "testing"
+        ]
+      },
+      {
+        "title": "Improve existing mobile screens against industry benchmarks",
+        "keywords": [
+          "comparison",
+          "design-audit",
+          "optimization"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-09-03T17:33:57Z",
+    "model": "claude-code/haiku-4.5"
+  },
+  "status": "classified"
+}

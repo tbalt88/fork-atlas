@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:48Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:26Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:11Z",
     "signals": [
       "python"
     ],
@@ -39,7 +39,7 @@
       "Python": 297733
     },
     "inputs_prepared_at": "2026-08-18T02:17:26Z",
-    "actions_checked_at": "2026-08-18T16:56:45Z"
+    "actions_checked_at": "2026-09-03T17:30:11Z"
   },
   "classification": {
     "domain": "misc",

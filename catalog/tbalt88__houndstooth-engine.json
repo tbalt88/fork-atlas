@@ -7,7 +7,7 @@
     "pushed_at": "2026-07-24T18:05:15Z",
     "actions": {
       "enabled": true,
-      "scheduled_runs": 25,
+      "scheduled_runs": 41,
       "failing_scheduled": [
         "daily-pipeline"
       ]
@@ -34,8 +34,8 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T17:52:49Z",
-    "metadata_refreshed_at": "2026-08-18T17:52:49Z",
-    "actions_checked_at": "2026-08-18T17:52:48Z",
+    "metadata_refreshed_at": "2026-09-03T17:27:31Z",
+    "actions_checked_at": "2026-09-03T17:27:30Z",
     "signals": [
       "gh-actions",
       "python"

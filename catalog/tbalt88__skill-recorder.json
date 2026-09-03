@@ -15,10 +15,10 @@
     "full_name": "microsoft/skill-recorder",
     "url": "https://github.com/microsoft/skill-recorder",
     "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
-    "stars": 3258,
-    "forks": 328,
-    "watchers": 18,
-    "open_issues": 32,
+    "stars": 3807,
+    "forks": 383,
+    "watchers": 21,
+    "open_issues": 34,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -36,13 +36,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2026-07-29T18:16:14Z",
-    "pushed_at": "2026-08-12T13:31:33Z",
+    "pushed_at": "2026-09-03T12:03:38Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:04Z",
-    "metadata_refreshed_at": "2026-08-18T17:52:44Z",
+    "metadata_refreshed_at": "2026-09-03T17:27:22Z",
     "signals": [
       "gh-actions"
     ],
@@ -56,7 +56,7 @@
       "NSIS": 367
     },
     "inputs_prepared_at": "2026-08-18T02:18:24Z",
-    "actions_checked_at": "2026-08-18T16:54:03Z"
+    "actions_checked_at": "2026-09-03T17:27:22Z"
   },
   "classification": {
     "domain": "agents-skills",

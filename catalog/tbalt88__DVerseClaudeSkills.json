@@ -32,8 +32,8 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T17:53:42Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:42Z",
-    "actions_checked_at": "2026-08-18T17:53:42Z",
+    "metadata_refreshed_at": "2026-09-03T17:29:01Z",
+    "actions_checked_at": "2026-09-03T17:29:01Z",
     "signals": [
       "claude-skill"
     ],

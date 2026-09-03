@@ -32,8 +32,8 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T17:52:58Z",
-    "metadata_refreshed_at": "2026-08-18T17:52:58Z",
-    "actions_checked_at": "2026-08-18T17:52:58Z",
+    "metadata_refreshed_at": "2026-09-03T17:27:50Z",
+    "actions_checked_at": "2026-09-03T17:27:49Z",
     "signals": [
       "gh-actions",
       "node",

@@ -15,10 +15,10 @@
     "full_name": "AndyMik90/Aperant",
     "url": "https://github.com/AndyMik90/Aperant",
     "description": "Autonomous multi-session AI coding",
-    "stars": 14533,
-    "forks": 1922,
-    "watchers": 108,
-    "open_issues": 74,
+    "stars": 14553,
+    "forks": 1918,
+    "watchers": 110,
+    "open_issues": 63,
     "language": "TypeScript",
     "topics": [],
     "license": "AGPL-3.0",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:12Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:54Z",
+    "metadata_refreshed_at": "2026-09-03T17:29:20Z",
     "signals": [
       "claude-md",
       "gh-actions",
@@ -47,7 +47,7 @@
       "HTML": 1573
     },
     "inputs_prepared_at": "2026-08-18T02:15:19Z",
-    "actions_checked_at": "2026-08-18T16:55:47Z"
+    "actions_checked_at": "2026-09-03T17:29:20Z"
   },
   "classification": {
     "domain": "agents-skills",

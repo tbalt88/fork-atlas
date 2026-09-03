@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:10Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:51Z",
+    "metadata_refreshed_at": "2026-09-03T17:29:15Z",
     "signals": [
       "claude-skill",
       "node"
@@ -43,7 +43,7 @@
       "Shell": 12271
     },
     "inputs_prepared_at": "2026-08-18T02:15:46Z",
-    "actions_checked_at": "2026-08-18T16:55:43Z"
+    "actions_checked_at": "2026-09-03T17:29:15Z"
   },
   "classification": {
     "domain": "agents-skills",

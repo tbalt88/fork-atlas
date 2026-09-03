@@ -15,23 +15,23 @@
     "full_name": "modelcontextprotocol/servers",
     "url": "https://github.com/modelcontextprotocol/servers",
     "description": "Model Context Protocol Servers",
-    "stars": 89662,
-    "forks": 11474,
-    "watchers": 634,
-    "open_issues": 524,
+    "stars": 90055,
+    "forks": 11549,
+    "watchers": 641,
+    "open_issues": 478,
     "language": "TypeScript",
     "topics": [],
     "license": "NOASSERTION",
     "homepage": "https://modelcontextprotocol.io",
     "default_branch": "main",
     "created_at": "2024-11-19T01:10:17Z",
-    "pushed_at": "2026-08-18T16:04:56Z",
+    "pushed_at": "2026-09-03T01:42:26Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:23Z",
-    "metadata_refreshed_at": "2026-08-18T17:55:01Z",
+    "metadata_refreshed_at": "2026-09-03T17:31:08Z",
     "signals": [
       "claude-md",
       "docker",
@@ -48,7 +48,7 @@
       "Dockerfile": 6012
     },
     "inputs_prepared_at": "2026-08-18T02:17:16Z",
-    "actions_checked_at": "2026-08-18T16:57:47Z"
+    "actions_checked_at": "2026-09-03T17:31:08Z"
   },
   "classification": {
     "domain": "agents-skills",

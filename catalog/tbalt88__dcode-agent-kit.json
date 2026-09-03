@@ -1,0 +1,118 @@
+{
+  "fork": {
+    "full_name": "tbalt88/dcode-agent-kit",
+    "url": "https://github.com/tbalt88/dcode-agent-kit",
+    "created_at": "2026-08-19T16:17:39Z",
+    "default_branch": "main",
+    "pushed_at": "2026-06-23T15:38:15Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "EliaAlberti/dcode-agent-kit",
+    "url": "https://github.com/EliaAlberti/dcode-agent-kit",
+    "description": "A Claude Code skill that scaffolds ready-to-run LangChain Deep Agents and dcode CLI agents into any project.",
+    "stars": 58,
+    "forks": 12,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "topics": [
+      "agent-scaffolding",
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "deepagents",
+      "developer-tools",
+      "langchain",
+      "llm",
+      "python"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-06-23T11:12:42Z",
+    "pushed_at": "2026-06-23T15:38:15Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:25Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:25Z",
+    "actions_checked_at": "2026-09-03T17:26:25Z",
+    "signals": [
+      "claude-md",
+      "claude-skill"
+    ],
+    "languages": {},
+    "inputs_prepared_at": "2026-09-03T17:32:01Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "Claude Code skill that scaffolds LangChain Deep Agents and dcode CLI agents through interactive interview workflow. Generates self-contained, provider-agnostic Python agents that work with any OpenAI-compatible API. Includes safety gates for destructive operations and reference documentation for Deep Agents framework. Suitable for automating agent creation in development workflows.",
+    "keywords": [
+      "agent-scaffolding",
+      "automation",
+      "claude-skill",
+      "dcode",
+      "deepagents",
+      "langchain",
+      "llm-agents",
+      "provider-agnostic",
+      "python"
+    ],
+    "use_cases": [
+      {
+        "title": "Scaffold production-ready LangChain Deep Agents with interactive CLI",
+        "keywords": [
+          "agent-generation",
+          "automation",
+          "langchain"
+        ]
+      },
+      {
+        "title": "Generate provider-agnostic Python agents for any OpenAI-compatible API",
+        "keywords": [
+          "flexibility",
+          "portability",
+          "provider-neutral"
+        ]
+      },
+      {
+        "title": "Create interactive dcode CLI agents for terminal-based workflows",
+        "keywords": [
+          "cli-agents",
+          "dcode",
+          "interactive"
+        ]
+      },
+      {
+        "title": "Build autonomous agents with built-in approval gates for safety",
+        "keywords": [
+          "approval-gates",
+          "destructive-ops",
+          "safety"
+        ]
+      },
+      {
+        "title": "Generate both standalone SDK programs and interactive agent identities",
+        "keywords": [
+          "deployment",
+          "flexibility",
+          "scaffolding"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-09-03T17:33:57Z",
+    "model": "claude-code/haiku-4.5"
+  },
+  "status": "classified"
+}

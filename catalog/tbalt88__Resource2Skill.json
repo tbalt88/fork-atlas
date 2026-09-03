@@ -15,8 +15,8 @@
     "full_name": "microsoft/Resource2Skill",
     "url": "https://github.com/microsoft/Resource2Skill",
     "description": "A general framework for distilling human-created multimodal resources into reusable, executable skills that AI agents can browse, compose, and run, validated across diverse domains including web, PowerPoint, Excel, Blender, CAD, Unreal Engine 5, and REAPER-based music production.",
-    "stars": 478,
-    "forks": 56,
+    "stars": 516,
+    "forks": 61,
     "watchers": 5,
     "open_issues": 5,
     "language": "Python",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:54Z",
-    "metadata_refreshed_at": "2026-08-18T17:52:33Z",
+    "metadata_refreshed_at": "2026-09-03T17:27:01Z",
     "signals": [
       "python"
     ],
@@ -42,7 +42,7 @@
       "HTML": 4879
     },
     "inputs_prepared_at": "2026-08-18T02:18:12Z",
-    "actions_checked_at": "2026-08-18T16:53:44Z"
+    "actions_checked_at": "2026-09-03T17:27:00Z"
   },
   "classification": {
     "domain": "agents-skills",

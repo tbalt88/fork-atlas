@@ -4,10 +4,10 @@
     "url": "https://github.com/tbalt88/fork-atlas",
     "created_at": "2026-08-18T02:21:11Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-18T16:58:49Z",
+    "pushed_at": "2026-08-28T02:32:08Z",
     "actions": {
       "enabled": true,
-      "scheduled_runs": 1,
+      "scheduled_runs": 17,
       "failing_scheduled": [
         "Fork Atlas — discover & publish"
       ]
@@ -44,14 +44,14 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2026-08-18T02:21:11Z",
-    "pushed_at": "2026-08-18T16:58:49Z",
+    "pushed_at": "2026-08-28T02:32:08Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T17:52:20Z",
-    "metadata_refreshed_at": "2026-08-18T17:52:20Z",
-    "actions_checked_at": "2026-08-18T17:52:20Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:32Z",
+    "actions_checked_at": "2026-09-03T17:26:31Z",
     "signals": [
       "gh-actions"
     ],

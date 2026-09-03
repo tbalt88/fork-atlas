@@ -15,7 +15,7 @@
     "full_name": "Tbeninnovation/Baiss",
     "url": "https://github.com/Tbeninnovation/Baiss",
     "description": null,
-    "stars": 141,
+    "stars": 142,
     "forks": 25,
     "watchers": 1,
     "open_issues": 2,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:51Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:30Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:18Z",
     "signals": [
       "gh-actions"
     ],
@@ -43,7 +43,7 @@
       "Shell": 53
     },
     "inputs_prepared_at": "2026-08-18T02:15:28Z",
-    "actions_checked_at": "2026-08-18T16:56:53Z"
+    "actions_checked_at": "2026-09-03T17:30:18Z"
   },
   "classification": {
     "domain": "agents-skills",

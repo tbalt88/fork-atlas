@@ -14,11 +14,11 @@
   "upstream": {
     "full_name": "stenolabs/stenoai",
     "url": "https://github.com/stenolabs/stenoai",
-    "description": "Steno is the highly secure privacy-first AI notepad & notetaker for all your confidential conversations. On Windows & MacOS. For government and defence sectors.",
-    "stars": 1278,
-    "forks": 168,
-    "watchers": 4,
-    "open_issues": 45,
+    "description": "StenoAI is the secure privacy-first AI notepad & notetaker for confidential conversations in government & defence sectors. On Windows & MacOS.",
+    "stars": 1301,
+    "forks": 178,
+    "watchers": 5,
+    "open_issues": 59,
     "language": "Python",
     "topics": [
       "ai",
@@ -28,11 +28,6 @@
       "gemma4",
       "gov-tech",
       "government",
-      "healthcare",
-      "healthcare-ai",
-      "legal",
-      "legal-ai",
-      "legal-tech",
       "localllm",
       "meeting-minutes",
       "meeting-notes",
@@ -44,13 +39,13 @@
     "homepage": "https://stenoai.co/",
     "default_branch": "main",
     "created_at": "2025-08-19T19:26:28Z",
-    "pushed_at": "2026-08-12T07:47:06Z",
+    "pushed_at": "2026-09-03T17:21:04Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:50Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:28Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:15Z",
     "signals": [
       "claude-md",
       "gh-actions",
@@ -68,7 +63,7 @@
       "Makefile": 345
     },
     "inputs_prepared_at": "2026-08-18T02:18:33Z",
-    "actions_checked_at": "2026-08-18T16:56:50Z"
+    "actions_checked_at": "2026-09-03T17:30:15Z"
   },
   "classification": {
     "domain": "knowledge-productivity",

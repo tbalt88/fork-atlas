@@ -32,8 +32,8 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T17:54:55Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:55Z",
-    "actions_checked_at": "2026-08-18T17:54:55Z",
+    "metadata_refreshed_at": "2026-09-03T17:30:59Z",
+    "actions_checked_at": "2026-09-03T17:30:59Z",
     "signals": [
       "node",
       "typescript"

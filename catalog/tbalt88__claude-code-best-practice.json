@@ -15,10 +15,10 @@
     "full_name": "shanraisshan/claude-code-best-practice",
     "url": "https://github.com/shanraisshan/claude-code-best-practice",
     "description": "from vibe coding to agentic engineering - practice makes claude perfect",
-    "stars": 64669,
-    "forks": 6429,
-    "watchers": 481,
-    "open_issues": 30,
+    "stars": 65581,
+    "forks": 6525,
+    "watchers": 491,
+    "open_issues": 19,
     "language": "HTML",
     "topics": [
       "agentic-ai",
@@ -46,20 +46,20 @@
     "homepage": "https://linkedin.com/in/shanraisshan",
     "default_branch": "main",
     "created_at": "2025-10-31T14:15:28Z",
-    "pushed_at": "2026-08-18T06:37:38Z",
+    "pushed_at": "2026-09-03T06:38:20Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:23Z",
-    "metadata_refreshed_at": "2026-08-18T17:54:03Z",
+    "metadata_refreshed_at": "2026-09-03T17:29:35Z",
     "signals": [],
     "languages": {
       "HTML": 593729,
       "Python": 28999
     },
     "inputs_prepared_at": "2026-08-18T02:15:34Z",
-    "actions_checked_at": "2026-08-18T16:56:02Z"
+    "actions_checked_at": "2026-09-03T17:29:35Z"
   },
   "classification": {
     "domain": "agents-skills",

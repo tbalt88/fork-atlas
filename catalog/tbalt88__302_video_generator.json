@@ -34,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:18Z",
-    "metadata_refreshed_at": "2026-08-18T17:53:59Z",
+    "metadata_refreshed_at": "2026-09-03T17:29:27Z",
     "signals": [
       "docker",
       "nextjs",
@@ -47,7 +47,7 @@
       "JavaScript": 1010
     },
     "inputs_prepared_at": "2026-08-18T02:14:44Z",
-    "actions_checked_at": "2026-08-18T16:55:54Z"
+    "actions_checked_at": "2026-09-03T17:29:27Z"
   },
   "classification": {
     "domain": "media-generation",

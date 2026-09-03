@@ -1,0 +1,121 @@
+{
+  "fork": {
+    "full_name": "tbalt88/FreeToken",
+    "url": "https://github.com/tbalt88/FreeToken",
+    "created_at": "2026-08-31T16:43:02Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-31T05:43:50Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "FlashML-org/FreeToken",
+    "url": "https://github.com/FlashML-org/FreeToken",
+    "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+    "stars": 11436,
+    "forks": 1075,
+    "watchers": 95,
+    "open_issues": 280,
+    "language": "Python",
+    "topics": [
+      "deepseek-v4",
+      "edge",
+      "glm",
+      "inference",
+      "minimax",
+      "moe",
+      "qwen",
+      "transformer"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "flashml.ai",
+    "default_branch": "main",
+    "created_at": "2026-07-20T20:44:11Z",
+    "pushed_at": "2026-09-03T02:01:57Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:14Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:14Z",
+    "actions_checked_at": "2026-09-03T17:26:13Z",
+    "signals": [
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 4782282,
+      "Cuda": 248663,
+      "C++": 151207,
+      "C": 111184,
+      "Shell": 34588
+    },
+    "inputs_prepared_at": "2026-09-03T17:32:06Z"
+  },
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "FreeToken is an edge-native MoE (Mixture-of-Experts) inference engine for running frontier-scale open-weight models (290B+ parameters) locally on consumer hardware like gaming PCs and laptops. Features semantic-aware caching, bandwidth-adaptive GPU-CPU co-execution, elastic memory management, and support for quantized formats (MXFP4, NVFP8, BF16). Distributed as both a desktop app with GUI and a CLI/Python package; compatible with Anthropic/OpenAI APIs for real-world agent integration.",
+    "keywords": [
+      "desktop-app",
+      "edge-computing",
+      "gpu-optimization",
+      "llm-inference",
+      "local-inference",
+      "model-serving",
+      "moe",
+      "quantization"
+    ],
+    "use_cases": [
+      {
+        "title": "Run frontier MoE models locally on gaming PC without datacenter hardware",
+        "keywords": [
+          "desktop",
+          "edge",
+          "inference"
+        ]
+      },
+      {
+        "title": "Serve large language models with low latency and dynamic memory allocation",
+        "keywords": [
+          "memory",
+          "model-serving",
+          "optimization"
+        ]
+      },
+      {
+        "title": "Integrate local LLM inference into agentic systems via OpenAI-compatible API",
+        "keywords": [
+          "agents",
+          "api",
+          "integration"
+        ]
+      },
+      {
+        "title": "Benchmark and tune inference performance with adaptive bandwidth management",
+        "keywords": [
+          "benchmark",
+          "optimization",
+          "tuning"
+        ]
+      },
+      {
+        "title": "Deploy open-weight models (DeepSeek, Qwen, GLM) at interactive speeds on consumer GPUs",
+        "keywords": [
+          "deployment",
+          "gpu",
+          "models"
+        ]
+      }
+    ],
+    "confidence": 0.92,
+    "classified_at": "2026-09-03T17:33:57Z",
+    "model": "claude-code/haiku-4.5"
+  },
+  "status": "classified"
+}

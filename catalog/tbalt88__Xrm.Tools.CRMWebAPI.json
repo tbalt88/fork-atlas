@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:31Z",
-    "metadata_refreshed_at": "2026-08-18T17:55:10Z",
+    "metadata_refreshed_at": "2026-09-03T17:31:23Z",
     "signals": [],
     "languages": {
       "JavaScript": 314575,
@@ -43,7 +43,7 @@
       "Makefile": 693
     },
     "inputs_prepared_at": "2026-08-18T02:19:02Z",
-    "actions_checked_at": "2026-08-18T16:58:04Z"
+    "actions_checked_at": "2026-09-03T17:31:23Z"
   },
   "classification": {
     "domain": "dev-tooling",

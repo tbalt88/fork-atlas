@@ -1,0 +1,108 @@
+{
+  "fork": {
+    "full_name": "tbalt88/social-media-skills",
+    "url": "https://github.com/tbalt88/social-media-skills",
+    "created_at": "2026-08-30T15:44:57Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-30T01:06:51Z",
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "charlie947/social-media-skills",
+    "url": "https://github.com/charlie947/social-media-skills",
+    "description": null,
+    "stars": 3192,
+    "forks": 748,
+    "watchers": 31,
+    "open_issues": 14,
+    "language": "Shell",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-04-22T12:56:33Z",
+    "pushed_at": "2026-08-30T01:06:51Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-03T17:26:17Z",
+    "metadata_refreshed_at": "2026-09-03T17:26:17Z",
+    "actions_checked_at": "2026-09-03T17:26:17Z",
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "Shell": 3711
+    },
+    "inputs_prepared_at": "2026-09-03T17:32:08Z"
+  },
+  "classification": {
+    "domain": "agents-skills",
+    "proposed_domain": "marketing-growth",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "Collection of Claude skills for social media content creation, optimization, and analytics across LinkedIn, Instagram, YouTube, Substack, and X. Built on Charlie Hills' 415k-follower multi-platform content system, skills include voice/brand building, post writing, graphic design, analytics dashboards, hook generation, niche research, and platform-specific formatting. All skills read shared voice context to ensure consistent tone and messaging across channels.",
+    "keywords": [
+      "analytics",
+      "claude-skills",
+      "content-marketing",
+      "instagram",
+      "linkedin",
+      "social-media",
+      "voice-builder",
+      "youtube"
+    ],
+    "use_cases": [
+      {
+        "title": "Build consistent personal brand voice across all social platforms",
+        "keywords": [
+          "branding",
+          "content",
+          "voice"
+        ]
+      },
+      {
+        "title": "Draft LinkedIn posts optimized for engagement based on historical performance",
+        "keywords": [
+          "linkedin",
+          "optimization",
+          "writing"
+        ]
+      },
+      {
+        "title": "Generate YouTube thumbnails and Reels scripts from newsletter content",
+        "keywords": [
+          "reels",
+          "video",
+          "youtube"
+        ]
+      },
+      {
+        "title": "Create carousel graphics and infographics from topic outlines",
+        "keywords": [
+          "content",
+          "design",
+          "graphics"
+        ]
+      },
+      {
+        "title": "Score and analyze social posts against niche trends and historical analytics",
+        "keywords": [
+          "analytics",
+          "research",
+          "scoring"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-09-03T17:33:57Z",
+    "model": "claude-code/haiku-4.5"
+  },
+  "status": "classified"
+}

@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:30Z",
-    "metadata_refreshed_at": "2026-08-18T17:55:09Z",
+    "metadata_refreshed_at": "2026-09-03T17:31:22Z",
     "signals": [],
     "languages": {
       "JavaScript": 62792,
@@ -39,7 +39,7 @@
       "C#": 1439
     },
     "inputs_prepared_at": "2026-08-18T02:16:08Z",
-    "actions_checked_at": "2026-08-18T16:58:02Z"
+    "actions_checked_at": "2026-09-03T17:31:21Z"
   },
   "classification": {
     "domain": "dev-tooling",
