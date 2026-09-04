@@ -15,8 +15,8 @@
     "full_name": "shareAI-lab/learn-claude-code",
     "url": "https://github.com/shareAI-lab/learn-claude-code",
     "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-    "stars": 75987,
-    "forks": 12236,
+    "stars": 76030,
+    "forks": 12245,
     "watchers": 304,
     "open_issues": 34,
     "language": "Python",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:03Z",
-    "metadata_refreshed_at": "2026-09-03T17:29:07Z",
+    "metadata_refreshed_at": "2026-09-04T11:24:53Z",
     "signals": [
       "gh-actions",
       "python"

@@ -15,7 +15,7 @@
     "full_name": "jonathanmuk/Kylie",
     "url": "https://github.com/jonathanmuk/Kylie",
     "description": "Whatsap Agent",
-    "stars": 109,
+    "stars": 108,
     "forks": 33,
     "watchers": 1,
     "open_issues": 0,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:59Z",
-    "metadata_refreshed_at": "2026-09-03T17:30:31Z",
+    "metadata_refreshed_at": "2026-09-04T11:25:27Z",
     "signals": [
       "python"
     ],

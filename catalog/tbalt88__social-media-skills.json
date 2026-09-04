@@ -16,10 +16,10 @@
     "full_name": "charlie947/social-media-skills",
     "url": "https://github.com/charlie947/social-media-skills",
     "description": null,
-    "stars": 3192,
-    "forks": 748,
-    "watchers": 31,
-    "open_issues": 14,
+    "stars": 3248,
+    "forks": 762,
+    "watchers": 32,
+    "open_issues": 15,
     "language": "Shell",
     "topics": [],
     "license": "MIT",
@@ -32,7 +32,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:17Z",
-    "metadata_refreshed_at": "2026-09-03T17:26:17Z",
+    "metadata_refreshed_at": "2026-09-04T11:23:57Z",
     "actions_checked_at": "2026-09-03T17:26:17Z",
     "signals": [
       "claude-skill"

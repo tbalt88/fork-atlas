@@ -18,7 +18,7 @@
     "stars": 1301,
     "forks": 178,
     "watchers": 5,
-    "open_issues": 59,
+    "open_issues": 62,
     "language": "Python",
     "topics": [
       "ai",
@@ -39,13 +39,13 @@
     "homepage": "https://stenoai.co/",
     "default_branch": "main",
     "created_at": "2025-08-19T19:26:28Z",
-    "pushed_at": "2026-09-03T17:21:04Z",
+    "pushed_at": "2026-09-03T17:43:37Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:50Z",
-    "metadata_refreshed_at": "2026-09-03T17:30:15Z",
+    "metadata_refreshed_at": "2026-09-04T11:25:21Z",
     "signals": [
       "claude-md",
       "gh-actions",

@@ -16,7 +16,7 @@
     "url": "https://github.com/beenuar/AiSOC",
     "description": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
     "stars": 2365,
-    "forks": 251,
+    "forks": 252,
     "watchers": 36,
     "open_issues": 24,
     "language": "Python",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:56Z",
-    "metadata_refreshed_at": "2026-09-03T17:27:06Z",
+    "metadata_refreshed_at": "2026-09-04T11:24:12Z",
     "signals": [
       "docker",
       "gh-actions",

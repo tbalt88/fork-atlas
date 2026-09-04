@@ -15,9 +15,9 @@
     "full_name": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
     "description": "Public repository for Agent Skills",
-    "stars": 173538,
-    "forks": 20592,
-    "watchers": 1118,
+    "stars": 173893,
+    "forks": 20617,
+    "watchers": 1119,
     "open_issues": 1207,
     "language": "Python",
     "topics": [
@@ -33,7 +33,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:02Z",
-    "metadata_refreshed_at": "2026-09-03T17:30:36Z",
+    "metadata_refreshed_at": "2026-09-04T11:25:29Z",
     "signals": [
       "claude-skill"
     ],
