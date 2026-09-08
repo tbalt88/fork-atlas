@@ -1,0 +1,45 @@
+{
+  "fork": {
+    "full_name": "tbalt88/langflow",
+    "url": "https://github.com/tbalt88/langflow",
+    "created_at": "2026-09-08T18:20:50Z",
+    "default_branch": "main",
+    "pushed_at": "2026-09-08T18:13:41Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "stars": 154471,
+    "forks": 10058,
+    "watchers": 544,
+    "open_issues": 1069,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "chatgpt",
+      "generative-ai",
+      "large-language-models",
+      "multiagent",
+      "react-flow"
+    ],
+    "license": "MIT",
+    "homepage": "http://www.langflow.org",
+    "default_branch": "main",
+    "created_at": "2023-02-08T22:28:03Z",
+    "pushed_at": "2026-09-08T20:18:17Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-08T20:21:26Z",
+    "metadata_refreshed_at": "2026-09-08T20:21:26Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

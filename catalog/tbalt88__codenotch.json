@@ -1,0 +1,38 @@
+{
+  "fork": {
+    "full_name": "tbalt88/codenotch",
+    "url": "https://github.com/tbalt88/codenotch",
+    "created_at": "2026-09-06T17:39:36Z",
+    "default_branch": "main",
+    "pushed_at": "2026-09-06T12:05:14Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "vinzdg/codenotch",
+    "url": "https://github.com/vinzdg/codenotch",
+    "description": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
+    "stars": 1074,
+    "forks": 174,
+    "watchers": 6,
+    "open_issues": 30,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-09-05T14:55:35Z",
+    "pushed_at": "2026-09-08T10:16:53Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-08T20:21:29Z",
+    "metadata_refreshed_at": "2026-09-08T20:21:29Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

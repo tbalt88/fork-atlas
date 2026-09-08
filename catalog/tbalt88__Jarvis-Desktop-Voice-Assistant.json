@@ -15,8 +15,8 @@
     "full_name": "kishanrajput23/Jarvis-Desktop-Voice-Assistant",
     "url": "https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant",
     "description": "A python based desktop voice assistant capable of executing system-level commands, integrating speech recognition and text-to-speech, and handling asynchronous user interactions.",
-    "stars": 914,
-    "forks": 2264,
+    "stars": 920,
+    "forks": 2294,
     "watchers": 20,
     "open_issues": 1,
     "language": "Python",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:45Z",
-    "metadata_refreshed_at": "2026-09-04T11:25:18Z",
+    "metadata_refreshed_at": "2026-09-08T20:23:46Z",
     "signals": [
       "python"
     ],

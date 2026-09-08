@@ -1,0 +1,59 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Scrapling",
+    "url": "https://github.com/tbalt88/Scrapling",
+    "created_at": "2026-09-05T15:24:11Z",
+    "default_branch": "main",
+    "pushed_at": "2026-09-04T12:33:28Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "D4Vinci/Scrapling",
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+    "stars": 79386,
+    "forks": 7979,
+    "watchers": 289,
+    "open_issues": 15,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-scraping",
+      "automation",
+      "crawler",
+      "crawling",
+      "crawling-python",
+      "data",
+      "data-extraction",
+      "mcp",
+      "mcp-server",
+      "playwright",
+      "python",
+      "scraping",
+      "selectors",
+      "stealth",
+      "web-scraper",
+      "web-scraping",
+      "web-scraping-python",
+      "webscraping",
+      "xpath"
+    ],
+    "license": "BSD-3-Clause",
+    "homepage": "https://scrapling.readthedocs.io/en/latest/",
+    "default_branch": "main",
+    "created_at": "2024-10-13T20:29:53Z",
+    "pushed_at": "2026-09-04T12:33:28Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-08T20:21:32Z",
+    "metadata_refreshed_at": "2026-09-08T20:21:32Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

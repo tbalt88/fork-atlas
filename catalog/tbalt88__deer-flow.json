@@ -15,10 +15,10 @@
     "full_name": "bytedance/deer-flow",
     "url": "https://github.com/bytedance/deer-flow",
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "stars": 81349,
-    "forks": 11218,
+    "stars": 82077,
+    "forks": 11306,
     "watchers": 345,
-    "open_issues": 874,
+    "open_issues": 906,
     "language": "Python",
     "topics": [
       "agent",
@@ -44,13 +44,13 @@
     "homepage": "https://deerflow.tech",
     "default_branch": "main",
     "created_at": "2025-05-07T02:50:19Z",
-    "pushed_at": "2026-09-04T08:11:34Z",
+    "pushed_at": "2026-09-08T16:05:10Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:47Z",
-    "metadata_refreshed_at": "2026-09-04T11:24:46Z",
+    "metadata_refreshed_at": "2026-09-08T20:22:55Z",
     "signals": [
       "claude-md",
       "claude-skill",

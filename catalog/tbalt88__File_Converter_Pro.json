@@ -1,0 +1,52 @@
+{
+  "fork": {
+    "full_name": "tbalt88/File_Converter_Pro",
+    "url": "https://github.com/tbalt88/File_Converter_Pro",
+    "created_at": "2026-09-07T03:56:11Z",
+    "default_branch": "main",
+    "pushed_at": "2026-09-04T14:01:39Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "Hyacinthe-primus/File_Converter_Pro",
+    "url": "https://github.com/Hyacinthe-primus/File_Converter_Pro",
+    "description": "Free offline all-in-one file converter for Windows. Converts documents, images, audio and video locally. No uploads, no internet, no dependencies. Built with Python & PySide6. Features dark/light theme, stats dashboard, achievements, and multi-engine fallback.",
+    "stars": 545,
+    "forks": 78,
+    "watchers": 8,
+    "open_issues": 3,
+    "language": "Python",
+    "topics": [
+      "conversion",
+      "convert",
+      "converter",
+      "desktop-app",
+      "document-conversion",
+      "file-conversion",
+      "file-converter",
+      "offline",
+      "open-source",
+      "pdf-converter",
+      "pyside6",
+      "python",
+      "windows"
+    ],
+    "license": "GPL-3.0",
+    "homepage": "https://file-converter-pro.org/",
+    "default_branch": "main",
+    "created_at": "2026-04-04T20:32:38Z",
+    "pushed_at": "2026-09-08T17:37:43Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-08T20:21:29Z",
+    "metadata_refreshed_at": "2026-09-08T20:21:29Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

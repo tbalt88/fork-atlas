@@ -1,0 +1,38 @@
+{
+  "fork": {
+    "full_name": "tbalt88/editor",
+    "url": "https://github.com/tbalt88/editor",
+    "created_at": "2026-09-04T17:50:58Z",
+    "default_branch": "main",
+    "pushed_at": "2026-09-03T18:31:37Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "diffusionstudio/editor",
+    "url": "https://github.com/diffusionstudio/editor",
+    "description": "An open-source video editor built for agents. Edits become code, code becomes video.",
+    "stars": 2586,
+    "forks": 225,
+    "watchers": 6,
+    "open_issues": 22,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MPL-2.0",
+    "homepage": "https://diffusion.studio",
+    "default_branch": "main",
+    "created_at": "2026-07-07T07:22:20Z",
+    "pushed_at": "2026-09-08T10:17:08Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-08T20:21:33Z",
+    "metadata_refreshed_at": "2026-09-08T20:21:33Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

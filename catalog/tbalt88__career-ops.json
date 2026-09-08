@@ -15,10 +15,10 @@
     "full_name": "career-ops-hq/career-ops",
     "url": "https://github.com/career-ops-hq/career-ops",
     "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-    "stars": 70107,
-    "forks": 13269,
+    "stars": 70619,
+    "forks": 13342,
     "watchers": 265,
-    "open_issues": 400,
+    "open_issues": 455,
     "language": "JavaScript",
     "topics": [
       "ai",
@@ -46,13 +46,13 @@
     "homepage": "https://career-ops.org",
     "default_branch": "main",
     "created_at": "2026-04-04T18:21:18Z",
-    "pushed_at": "2026-09-04T08:06:28Z",
+    "pushed_at": "2026-09-08T17:52:40Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:40Z",
-    "metadata_refreshed_at": "2026-09-04T11:24:42Z",
+    "metadata_refreshed_at": "2026-09-08T20:22:49Z",
     "signals": [
       "claude-md",
       "claude-skill",

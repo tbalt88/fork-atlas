@@ -16,7 +16,7 @@
     "url": "https://github.com/google/dreambooth",
     "description": null,
     "stars": 1029,
-    "forks": 97,
+    "forks": 98,
     "watchers": 1,
     "open_issues": 4,
     "language": null,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:21Z",
-    "metadata_refreshed_at": "2026-09-03T17:31:05Z",
+    "metadata_refreshed_at": "2026-09-08T20:24:22Z",
     "signals": [],
     "languages": {},
     "inputs_prepared_at": "2026-08-18T02:16:18Z",

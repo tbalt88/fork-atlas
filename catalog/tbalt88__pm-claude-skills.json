@@ -15,10 +15,10 @@
     "full_name": "mohitagw15856/pm-claude-skills",
     "url": "https://github.com/mohitagw15856/pm-claude-skills",
     "description": "1098 professional Agent Skills for Claude, ChatGPT, Gemini, Cursor & Codex — from PRDs and postmortems to appealing a disability benefit, building a go-bag, and settling into a new country. Plain-markdown, MIT, in Anthropic's official plugin directory. Free in-browser or 'npx pm-claude-skills add'.",
-    "stars": 1336,
-    "forks": 233,
+    "stars": 1344,
+    "forks": 237,
     "watchers": 10,
-    "open_issues": 9,
+    "open_issues": 10,
     "language": "HTML",
     "topics": [
       "agent-skills",
@@ -46,13 +46,13 @@
     "homepage": "https://mohitagw15856.github.io/pm-claude-skills/",
     "default_branch": "main",
     "created_at": "2026-01-29T08:28:07Z",
-    "pushed_at": "2026-09-04T10:12:56Z",
+    "pushed_at": "2026-09-07T18:16:53Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:42Z",
-    "metadata_refreshed_at": "2026-09-04T11:24:44Z",
+    "metadata_refreshed_at": "2026-09-08T20:22:51Z",
     "signals": [
       "docker",
       "gh-actions"

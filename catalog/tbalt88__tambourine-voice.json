@@ -1,0 +1,52 @@
+{
+  "fork": {
+    "full_name": "tbalt88/tambourine-voice",
+    "url": "https://github.com/tbalt88/tambourine-voice",
+    "created_at": "2026-09-05T17:42:52Z",
+    "default_branch": "main",
+    "pushed_at": "2026-07-17T20:17:00Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "kstonekuan/tambourine-voice",
+    "url": "https://github.com/kstonekuan/tambourine-voice",
+    "description": "Your personal voice interface for any app. Speak naturally and your words appear wherever your cursor is, with fully customizable AI voice dictation.  Open source alternative to Wispr Flow.",
+    "stars": 383,
+    "forks": 74,
+    "watchers": 8,
+    "open_issues": 34,
+    "language": "Rust",
+    "topics": [
+      "accessibility",
+      "cross-platform",
+      "macos",
+      "pipecat",
+      "python",
+      "rust",
+      "speech-to-text",
+      "tauri",
+      "typescript",
+      "voice-ai",
+      "webrtc",
+      "whisper",
+      "windows"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": "https://tambourinevoice.com",
+    "default_branch": "main",
+    "created_at": "2025-11-28T08:09:32Z",
+    "pushed_at": "2026-07-17T20:17:00Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-08T20:21:31Z",
+    "metadata_refreshed_at": "2026-09-08T20:21:31Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

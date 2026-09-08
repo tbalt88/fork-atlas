@@ -1,0 +1,38 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Personal-AI-Router",
+    "url": "https://github.com/tbalt88/Personal-AI-Router",
+    "created_at": "2026-09-05T17:43:46Z",
+    "default_branch": "main",
+    "pushed_at": "2026-08-28T22:46:09Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "NVIDIA/Personal-AI-Router",
+    "url": "https://github.com/NVIDIA/Personal-AI-Router",
+    "description": "Router that virtually distributes inference across connected devices in the home.",
+    "stars": 1027,
+    "forks": 169,
+    "watchers": 15,
+    "open_issues": 48,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache-2.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-07-02T20:03:57Z",
+    "pushed_at": "2026-08-28T22:46:09Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-08T20:21:30Z",
+    "metadata_refreshed_at": "2026-09-08T20:21:30Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

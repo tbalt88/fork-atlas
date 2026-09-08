@@ -15,7 +15,7 @@
     "full_name": "LeapLabTHU/cooragent",
     "url": "https://github.com/LeapLabTHU/cooragent",
     "description": "Official Repository of Cooragent.",
-    "stars": 1675,
+    "stars": 1674,
     "forks": 145,
     "watchers": 62,
     "open_issues": 13,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:18Z",
-    "metadata_refreshed_at": "2026-09-03T17:31:01Z",
+    "metadata_refreshed_at": "2026-09-08T20:24:19Z",
     "signals": [
       "docker",
       "make",
