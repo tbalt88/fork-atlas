@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T20:43:42Z",
+ "generated_at": "2026-09-08T20:46:37Z",
  "taxonomy": {
   "domains": [
    {
@@ -148,7 +148,7 @@
   "total": 238,
   "classified": 238,
   "unclassified": 0,
-  "needs_review": 1,
+  "needs_review": 0,
   "owned": 11
  },
  "keywords": {
@@ -4105,6 +4105,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -4188,6 +4194,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -4290,6 +4302,12 @@
    "status": "classified",
    "domain": "infra-devops",
    "domain_label": "Infra, DevOps & self-hosting",
+   "domains": [
+    "infra-devops"
+   ],
+   "domain_labels": [
+    "Infra, DevOps & self-hosting"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -4385,6 +4403,12 @@
    "status": "classified",
    "domain": "dev-tooling",
    "domain_label": "Developer tooling & CLIs",
+   "domains": [
+    "dev-tooling"
+   ],
+   "domain_labels": [
+    "Developer tooling & CLIs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -4460,6 +4484,12 @@
    "status": "classified",
    "domain": "dev-tooling",
    "domain_label": "Developer tooling & CLIs",
+   "domains": [
+    "dev-tooling"
+   ],
+   "domain_labels": [
+    "Developer tooling & CLIs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -4543,6 +4573,12 @@
    "status": "classified",
    "domain": "ai-platforms",
    "domain_label": "Self-hosted AI platforms & chat UIs",
+   "domains": [
+    "ai-platforms"
+   ],
+   "domain_labels": [
+    "Self-hosted AI platforms & chat UIs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -4642,6 +4678,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -4746,6 +4788,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -4829,6 +4877,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -4923,6 +4977,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -5009,6 +5069,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -5112,6 +5178,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -5225,6 +5297,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -5317,6 +5395,14 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills",
+    "marketing-growth"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs",
+    "Marketing, SEO & growth"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -5375,11 +5461,11 @@
    ],
    "confidence": 0.95,
    "proposed_domain": "marketing-growth",
-   "needs_review": true,
+   "needs_review": false,
    "classified_at": "2026-09-03T17:33:57Z",
-   "note": null,
+   "note": "Reviewed: filed under both Agents & Skills (what it is) and Marketing & Growth (what it is for).",
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/appllama-skills",
@@ -5430,6 +5516,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -5521,6 +5613,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "dormant",
@@ -5614,6 +5712,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -5706,6 +5810,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -5810,6 +5920,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -5913,6 +6029,12 @@
    "status": "classified",
    "domain": "ai-platforms",
    "domain_label": "Self-hosted AI platforms & chat UIs",
+   "domains": [
+    "ai-platforms"
+   ],
+   "domain_labels": [
+    "Self-hosted AI platforms & chat UIs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -6018,6 +6140,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -6115,6 +6243,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "production",
@@ -6222,6 +6356,12 @@
    "status": "classified",
    "domain": "knowledge-productivity",
    "domain_label": "Knowledge & productivity",
+   "domains": [
+    "knowledge-productivity"
+   ],
+   "domain_labels": [
+    "Knowledge & productivity"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -6302,6 +6442,12 @@
    "status": "classified",
    "domain": "automation-integrations",
    "domain_label": "Automation & integrations",
+   "domains": [
+    "automation-integrations"
+   ],
+   "domain_labels": [
+    "Automation & integrations"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "dormant",
@@ -6377,6 +6523,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -6469,6 +6621,12 @@
    "status": "classified",
    "domain": "marketing-growth",
    "domain_label": "Marketing, SEO & growth",
+   "domains": [
+    "marketing-growth"
+   ],
+   "domain_labels": [
+    "Marketing, SEO & growth"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -6571,6 +6729,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -6670,6 +6834,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -6764,6 +6934,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -6858,6 +7034,12 @@
    "status": "classified",
    "domain": "games-fun",
    "domain_label": "Games & fun",
+   "domains": [
+    "games-fun"
+   ],
+   "domain_labels": [
+    "Games & fun"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -6936,6 +7118,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -7013,6 +7201,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -7103,6 +7297,12 @@
    "status": "classified",
    "domain": "infra-devops",
    "domain_label": "Infra, DevOps & self-hosting",
+   "domains": [
+    "infra-devops"
+   ],
+   "domain_labels": [
+    "Infra, DevOps & self-hosting"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -7197,6 +7397,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -7297,6 +7503,12 @@
    "status": "classified",
    "domain": "dev-tooling",
    "domain_label": "Developer tooling & CLIs",
+   "domains": [
+    "dev-tooling"
+   ],
+   "domain_labels": [
+    "Developer tooling & CLIs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -7399,6 +7611,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -7480,6 +7698,12 @@
    "status": "classified",
    "domain": "marketing-growth",
    "domain_label": "Marketing, SEO & growth",
+   "domains": [
+    "marketing-growth"
+   ],
+   "domain_labels": [
+    "Marketing, SEO & growth"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -7575,6 +7799,12 @@
    "status": "classified",
    "domain": "web-ui",
    "domain_label": "Web & UI frameworks",
+   "domains": [
+    "web-ui"
+   ],
+   "domain_labels": [
+    "Web & UI frameworks"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -7672,6 +7902,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -7745,6 +7981,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "active",
@@ -7849,6 +8091,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "active",
@@ -7948,6 +8196,12 @@
    "status": "classified",
    "domain": "automation-integrations",
    "domain_label": "Automation & integrations",
+   "domains": [
+    "automation-integrations"
+   ],
+   "domain_labels": [
+    "Automation & integrations"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -8044,6 +8298,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -8147,6 +8407,12 @@
    "status": "classified",
    "domain": "vision-sensing",
    "domain_label": "Computer vision, sensing & IoT",
+   "domains": [
+    "vision-sensing"
+   ],
+   "domain_labels": [
+    "Computer vision, sensing & IoT"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "active",
@@ -8232,6 +8498,12 @@
    "status": "classified",
    "domain": "finance-trading",
    "domain_label": "Finance & trading",
+   "domains": [
+    "finance-trading"
+   ],
+   "domain_labels": [
+    "Finance & trading"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -8309,6 +8581,12 @@
    "status": "classified",
    "domain": "finance-trading",
    "domain_label": "Finance & trading",
+   "domains": [
+    "finance-trading"
+   ],
+   "domain_labels": [
+    "Finance & trading"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -8383,6 +8661,12 @@
    "status": "classified",
    "domain": "finance-trading",
    "domain_label": "Finance & trading",
+   "domains": [
+    "finance-trading"
+   ],
+   "domain_labels": [
+    "Finance & trading"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -8467,6 +8751,12 @@
    "status": "classified",
    "domain": "finance-trading",
    "domain_label": "Finance & trading",
+   "domains": [
+    "finance-trading"
+   ],
+   "domain_labels": [
+    "Finance & trading"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -8540,6 +8830,12 @@
    "status": "classified",
    "domain": "science-research",
    "domain_label": "Scientific ML, datasets & simulation",
+   "domains": [
+    "science-research"
+   ],
+   "domain_labels": [
+    "Scientific ML, datasets & simulation"
+   ],
    "form": "model-dataset",
    "form_label": "Model / dataset / weights",
    "maturity": "active",
@@ -8645,6 +8941,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -8744,6 +9046,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -8835,6 +9143,12 @@
    "status": "classified",
    "domain": "infra-devops",
    "domain_label": "Infra, DevOps & self-hosting",
+   "domains": [
+    "infra-devops"
+   ],
+   "domain_labels": [
+    "Infra, DevOps & self-hosting"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "production",
@@ -8919,6 +9233,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -8995,6 +9315,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -9067,6 +9393,12 @@
    "status": "classified",
    "domain": "marketing-growth",
    "domain_label": "Marketing, SEO & growth",
+   "domains": [
+    "marketing-growth"
+   ],
+   "domain_labels": [
+    "Marketing, SEO & growth"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -9141,6 +9473,12 @@
    "status": "classified",
    "domain": "automation-integrations",
    "domain_label": "Automation & integrations",
+   "domains": [
+    "automation-integrations"
+   ],
+   "domain_labels": [
+    "Automation & integrations"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -9228,6 +9566,12 @@
    "status": "classified",
    "domain": "business-apps",
    "domain_label": "Business apps, CRM/ERP & Power Platform",
+   "domains": [
+    "business-apps"
+   ],
+   "domain_labels": [
+    "Business apps, CRM/ERP & Power Platform"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -9319,6 +9663,12 @@
    "status": "classified",
    "domain": "business-apps",
    "domain_label": "Business apps, CRM/ERP & Power Platform",
+   "domains": [
+    "business-apps"
+   ],
+   "domain_labels": [
+    "Business apps, CRM/ERP & Power Platform"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -9395,6 +9745,12 @@
    "status": "classified",
    "domain": "automation-integrations",
    "domain_label": "Automation & integrations",
+   "domains": [
+    "automation-integrations"
+   ],
+   "domain_labels": [
+    "Automation & integrations"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -9474,6 +9830,12 @@
    "status": "classified",
    "domain": "knowledge-productivity",
    "domain_label": "Knowledge & productivity",
+   "domains": [
+    "knowledge-productivity"
+   ],
+   "domain_labels": [
+    "Knowledge & productivity"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "production",
@@ -9576,6 +9938,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -9683,6 +10051,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -9785,6 +10159,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "production",
@@ -9882,6 +10262,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -9976,6 +10362,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -10058,6 +10450,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -10129,6 +10527,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -10212,6 +10616,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -10316,6 +10726,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -10420,6 +10836,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -10518,6 +10940,12 @@
    "status": "classified",
    "domain": "knowledge-productivity",
    "domain_label": "Knowledge & productivity",
+   "domains": [
+    "knowledge-productivity"
+   ],
+   "domain_labels": [
+    "Knowledge & productivity"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -10593,6 +11021,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "production",
@@ -10696,6 +11130,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -10793,6 +11233,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -10884,6 +11330,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -10976,6 +11428,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -11060,6 +11518,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -11162,6 +11626,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -11260,6 +11730,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -11360,6 +11836,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -11442,6 +11924,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "dormant",
@@ -11523,6 +12011,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -11607,6 +12101,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "production",
@@ -11694,6 +12194,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -11772,6 +12278,12 @@
    "status": "classified",
    "domain": "dev-tooling",
    "domain_label": "Developer tooling & CLIs",
+   "domains": [
+    "dev-tooling"
+   ],
+   "domain_labels": [
+    "Developer tooling & CLIs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -11847,6 +12359,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "production",
@@ -11928,6 +12446,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "dormant",
@@ -12004,6 +12528,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "active",
@@ -12083,6 +12613,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -12169,6 +12705,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -12253,6 +12795,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -12339,6 +12887,12 @@
    "status": "classified",
    "domain": "vision-sensing",
    "domain_label": "Computer vision, sensing & IoT",
+   "domains": [
+    "vision-sensing"
+   ],
+   "domain_labels": [
+    "Computer vision, sensing & IoT"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -12429,6 +12983,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -12513,6 +13073,12 @@
    "status": "classified",
    "domain": "dev-tooling",
    "domain_label": "Developer tooling & CLIs",
+   "domains": [
+    "dev-tooling"
+   ],
+   "domain_labels": [
+    "Developer tooling & CLIs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -12593,6 +13159,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -12687,6 +13259,12 @@
    "status": "classified",
    "domain": "finance-trading",
    "domain_label": "Finance & trading",
+   "domains": [
+    "finance-trading"
+   ],
+   "domain_labels": [
+    "Finance & trading"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -12778,6 +13356,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "dormant",
@@ -12873,6 +13457,12 @@
    "status": "classified",
    "domain": "knowledge-productivity",
    "domain_label": "Knowledge & productivity",
+   "domains": [
+    "knowledge-productivity"
+   ],
+   "domain_labels": [
+    "Knowledge & productivity"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -12961,6 +13551,12 @@
    "status": "classified",
    "domain": "vision-sensing",
    "domain_label": "Computer vision, sensing & IoT",
+   "domains": [
+    "vision-sensing"
+   ],
+   "domain_labels": [
+    "Computer vision, sensing & IoT"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "production",
@@ -13049,6 +13645,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -13130,6 +13732,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -13203,6 +13811,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -13278,6 +13892,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -13373,6 +13993,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -13466,6 +14092,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -13564,6 +14196,12 @@
    "status": "classified",
    "domain": "business-apps",
    "domain_label": "Business apps, CRM/ERP & Power Platform",
+   "domains": [
+    "business-apps"
+   ],
+   "domain_labels": [
+    "Business apps, CRM/ERP & Power Platform"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -13652,6 +14290,12 @@
    "status": "classified",
    "domain": "automation-integrations",
    "domain_label": "Automation & integrations",
+   "domains": [
+    "automation-integrations"
+   ],
+   "domain_labels": [
+    "Automation & integrations"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -13750,6 +14394,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -13839,6 +14489,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -13940,6 +14596,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -14045,6 +14707,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -14140,6 +14808,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -14231,6 +14905,12 @@
    "status": "classified",
    "domain": "ai-platforms",
    "domain_label": "Self-hosted AI platforms & chat UIs",
+   "domains": [
+    "ai-platforms"
+   ],
+   "domain_labels": [
+    "Self-hosted AI platforms & chat UIs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -14324,6 +15004,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -14427,6 +15113,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -14527,6 +15219,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -14622,6 +15320,12 @@
    "status": "classified",
    "domain": "business-apps",
    "domain_label": "Business apps, CRM/ERP & Power Platform",
+   "domains": [
+    "business-apps"
+   ],
+   "domain_labels": [
+    "Business apps, CRM/ERP & Power Platform"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -14710,6 +15414,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -14795,6 +15505,12 @@
    "status": "classified",
    "domain": "dev-tooling",
    "domain_label": "Developer tooling & CLIs",
+   "domains": [
+    "dev-tooling"
+   ],
+   "domain_labels": [
+    "Developer tooling & CLIs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -14881,6 +15597,12 @@
    "status": "classified",
    "domain": "finance-trading",
    "domain_label": "Finance & trading",
+   "domains": [
+    "finance-trading"
+   ],
+   "domain_labels": [
+    "Finance & trading"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -14963,6 +15685,12 @@
    "status": "classified",
    "domain": "dev-tooling",
    "domain_label": "Developer tooling & CLIs",
+   "domains": [
+    "dev-tooling"
+   ],
+   "domain_labels": [
+    "Developer tooling & CLIs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -15064,6 +15792,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -15143,6 +15877,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -15227,6 +15967,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "model-dataset",
    "form_label": "Model / dataset / weights",
    "maturity": "active",
@@ -15309,6 +16055,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -15394,6 +16146,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -15467,6 +16225,12 @@
    "status": "classified",
    "domain": "business-apps",
    "domain_label": "Business apps, CRM/ERP & Power Platform",
+   "domains": [
+    "business-apps"
+   ],
+   "domain_labels": [
+    "Business apps, CRM/ERP & Power Platform"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "dormant",
@@ -15533,6 +16297,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -15612,6 +16382,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "dormant",
@@ -15695,6 +16471,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -15788,6 +16570,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -15873,6 +16661,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -15956,6 +16750,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -16055,6 +16855,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -16150,6 +16956,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -16226,6 +17038,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "production",
@@ -16329,6 +17147,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -16409,6 +17233,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -16492,6 +17322,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -16585,6 +17421,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "toy",
@@ -16669,6 +17511,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -16743,6 +17591,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -16830,6 +17684,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -16919,6 +17779,12 @@
    "status": "classified",
    "domain": "knowledge-productivity",
    "domain_label": "Knowledge & productivity",
+   "domains": [
+    "knowledge-productivity"
+   ],
+   "domain_labels": [
+    "Knowledge & productivity"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -17002,6 +17868,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "dormant",
@@ -17082,6 +17954,12 @@
    "status": "classified",
    "domain": "knowledge-productivity",
    "domain_label": "Knowledge & productivity",
+   "domains": [
+    "knowledge-productivity"
+   ],
+   "domain_labels": [
+    "Knowledge & productivity"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -17159,6 +18037,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -17233,6 +18117,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -17317,6 +18207,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -17409,6 +18305,12 @@
    "status": "classified",
    "domain": "business-apps",
    "domain_label": "Business apps, CRM/ERP & Power Platform",
+   "domains": [
+    "business-apps"
+   ],
+   "domain_labels": [
+    "Business apps, CRM/ERP & Power Platform"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -17489,6 +18391,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -17583,6 +18491,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -17677,6 +18591,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -17751,6 +18671,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -17841,6 +18767,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -17942,6 +18874,12 @@
    "status": "classified",
    "domain": "automation-integrations",
    "domain_label": "Automation & integrations",
+   "domains": [
+    "automation-integrations"
+   ],
+   "domain_labels": [
+    "Automation & integrations"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -18047,6 +18985,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "production",
@@ -18123,6 +19067,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "production",
@@ -18210,6 +19160,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "active",
@@ -18301,6 +19257,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -18382,6 +19344,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -18482,6 +19450,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -18567,6 +19541,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -18643,6 +19623,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -18729,6 +19715,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "active",
@@ -18819,6 +19811,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -18900,6 +19898,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -18981,6 +19985,12 @@
    "status": "classified",
    "domain": "vision-sensing",
    "domain_label": "Computer vision, sensing & IoT",
+   "domains": [
+    "vision-sensing"
+   ],
+   "domain_labels": [
+    "Computer vision, sensing & IoT"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -19057,6 +20067,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -19140,6 +20156,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "active",
@@ -19233,6 +20255,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "production",
@@ -19305,6 +20333,12 @@
    "status": "classified",
    "domain": "web-ui",
    "domain_label": "Web & UI frameworks",
+   "domains": [
+    "web-ui"
+   ],
+   "domain_labels": [
+    "Web & UI frameworks"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -19389,6 +20423,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -19484,6 +20524,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -19579,6 +20625,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "active",
@@ -19670,6 +20722,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "production",
@@ -19756,6 +20814,12 @@
    "status": "classified",
    "domain": "infra-devops",
    "domain_label": "Infra, DevOps & self-hosting",
+   "domains": [
+    "infra-devops"
+   ],
+   "domain_labels": [
+    "Infra, DevOps & self-hosting"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -19835,6 +20899,12 @@
    "status": "classified",
    "domain": "marketing-growth",
    "domain_label": "Marketing, SEO & growth",
+   "domains": [
+    "marketing-growth"
+   ],
+   "domain_labels": [
+    "Marketing, SEO & growth"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "toy",
@@ -19923,6 +20993,12 @@
    "status": "classified",
    "domain": "automation-integrations",
    "domain_label": "Automation & integrations",
+   "domains": [
+    "automation-integrations"
+   ],
+   "domain_labels": [
+    "Automation & integrations"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "toy",
@@ -20003,6 +21079,12 @@
    "status": "classified",
    "domain": "automation-integrations",
    "domain_label": "Automation & integrations",
+   "domains": [
+    "automation-integrations"
+   ],
+   "domain_labels": [
+    "Automation & integrations"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -20094,6 +21176,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "dormant",
@@ -20165,6 +21253,12 @@
    "status": "classified",
    "domain": "finance-trading",
    "domain_label": "Finance & trading",
+   "domains": [
+    "finance-trading"
+   ],
+   "domain_labels": [
+    "Finance & trading"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "toy",
@@ -20247,6 +21341,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -20333,6 +21433,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -20420,6 +21526,12 @@
    "status": "classified",
    "domain": "knowledge-productivity",
    "domain_label": "Knowledge & productivity",
+   "domains": [
+    "knowledge-productivity"
+   ],
+   "domain_labels": [
+    "Knowledge & productivity"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -20505,6 +21617,12 @@
    "status": "classified",
    "domain": "automation-integrations",
    "domain_label": "Automation & integrations",
+   "domains": [
+    "automation-integrations"
+   ],
+   "domain_labels": [
+    "Automation & integrations"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -20585,6 +21703,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -20672,6 +21796,12 @@
    "status": "classified",
    "domain": "media-management",
    "domain_label": "Photos, media libraries & backup",
+   "domains": [
+    "media-management"
+   ],
+   "domain_labels": [
+    "Photos, media libraries & backup"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -20748,6 +21878,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "toy",
@@ -20831,6 +21967,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -20921,6 +22063,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -21009,6 +22157,12 @@
    "status": "classified",
    "domain": "knowledge-productivity",
    "domain_label": "Knowledge & productivity",
+   "domains": [
+    "knowledge-productivity"
+   ],
+   "domain_labels": [
+    "Knowledge & productivity"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -21093,6 +22247,12 @@
    "status": "classified",
    "domain": "dev-tooling",
    "domain_label": "Developer tooling & CLIs",
+   "domains": [
+    "dev-tooling"
+   ],
+   "domain_labels": [
+    "Developer tooling & CLIs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -21171,6 +22331,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "dormant",
@@ -21246,6 +22412,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -21329,6 +22501,12 @@
    "status": "classified",
    "domain": "security",
    "domain_label": "Security & privacy",
+   "domains": [
+    "security"
+   ],
+   "domain_labels": [
+    "Security & privacy"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -21395,6 +22573,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "dormant",
@@ -21485,6 +22669,12 @@
    "status": "classified",
    "domain": "vision-sensing",
    "domain_label": "Computer vision, sensing & IoT",
+   "domains": [
+    "vision-sensing"
+   ],
+   "domain_labels": [
+    "Computer vision, sensing & IoT"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -21572,6 +22762,12 @@
    "status": "classified",
    "domain": "dev-tooling",
    "domain_label": "Developer tooling & CLIs",
+   "domains": [
+    "dev-tooling"
+   ],
+   "domain_labels": [
+    "Developer tooling & CLIs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -21664,6 +22860,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "production",
@@ -21746,6 +22948,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "skill-pack",
    "form_label": "Skill / plugin / prompt pack",
    "maturity": "production",
@@ -21839,6 +23047,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -21922,6 +23136,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -22013,6 +23233,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -22092,6 +23318,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -22179,6 +23411,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "production",
@@ -22276,6 +23514,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -22350,6 +23594,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "active",
@@ -22431,6 +23681,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "active",
@@ -22516,6 +23772,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -22600,6 +23862,12 @@
    "status": "classified",
    "domain": "llm-inference-training",
    "domain_label": "LLM inference & training",
+   "domains": [
+    "llm-inference-training"
+   ],
+   "domain_labels": [
+    "LLM inference & training"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -22686,6 +23954,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "active",
@@ -22763,6 +24037,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "production",
@@ -22834,6 +24114,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -22918,6 +24204,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -23004,6 +24296,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "production",
@@ -23082,6 +24380,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -23166,6 +24470,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "active",
@@ -23247,6 +24557,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "dormant",
@@ -23314,6 +24630,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -23400,6 +24722,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "model-dataset",
    "form_label": "Model / dataset / weights",
    "maturity": "active",
@@ -23475,6 +24803,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "toy",
@@ -23544,6 +24878,12 @@
    "status": "classified",
    "domain": "media-generation",
    "domain_label": "Image, video & audio generation",
+   "domains": [
+    "media-generation"
+   ],
+   "domain_labels": [
+    "Image, video & audio generation"
+   ],
    "form": "model-dataset",
    "form_label": "Model / dataset / weights",
    "maturity": "dormant",
@@ -23621,6 +24961,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "production",
@@ -23711,6 +25057,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "cli",
    "form_label": "CLI tool",
    "maturity": "active",
@@ -23790,6 +25142,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "service",
    "form_label": "Server / service / API",
    "maturity": "production",
@@ -23872,6 +25230,12 @@
    "status": "classified",
    "domain": "data-rag",
    "domain_label": "Data, ETL, search & RAG",
+   "domains": [
+    "data-rag"
+   ],
+   "domain_labels": [
+    "Data, ETL, search & RAG"
+   ],
    "form": "template",
    "form_label": "Template / starter",
    "maturity": "active",
@@ -23953,6 +25317,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "toy",
@@ -24038,6 +25408,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -24124,6 +25500,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "dormant",
@@ -24217,6 +25599,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -24297,6 +25685,12 @@
    "status": "classified",
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
+   "domains": [
+    "agents-skills"
+   ],
+   "domain_labels": [
+    "Agents, skills & prompt packs"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "production",
@@ -24379,6 +25773,12 @@
    "status": "classified",
    "domain": "learning-reference",
    "domain_label": "Learning & reference",
+   "domains": [
+    "learning-reference"
+   ],
+   "domain_labels": [
+    "Learning & reference"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -24467,6 +25867,12 @@
    "status": "classified",
    "domain": "business-apps",
    "domain_label": "Business apps, CRM/ERP & Power Platform",
+   "domains": [
+    "business-apps"
+   ],
+   "domain_labels": [
+    "Business apps, CRM/ERP & Power Platform"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -24538,6 +25944,12 @@
    "status": "classified",
    "domain": "business-apps",
    "domain_label": "Business apps, CRM/ERP & Power Platform",
+   "domains": [
+    "business-apps"
+   ],
+   "domain_labels": [
+    "Business apps, CRM/ERP & Power Platform"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "active",
@@ -24601,6 +26013,12 @@
    "status": "classified",
    "domain": "business-apps",
    "domain_label": "Business apps, CRM/ERP & Power Platform",
+   "domains": [
+    "business-apps"
+   ],
+   "domain_labels": [
+    "Business apps, CRM/ERP & Power Platform"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "dormant",
@@ -24663,6 +26081,12 @@
    "status": "classified",
    "domain": "business-apps",
    "domain_label": "Business apps, CRM/ERP & Power Platform",
+   "domains": [
+    "business-apps"
+   ],
+   "domain_labels": [
+    "Business apps, CRM/ERP & Power Platform"
+   ],
    "form": "library",
    "form_label": "Library / SDK",
    "maturity": "dormant",
@@ -24733,6 +26157,12 @@
    "status": "classified",
    "domain": "misc",
    "domain_label": "Miscellaneous",
+   "domains": [
+    "misc"
+   ],
+   "domain_labels": [
+    "Miscellaneous"
+   ],
    "form": "reference",
    "form_label": "Reference / docs / list",
    "maturity": "toy",

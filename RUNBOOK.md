@@ -64,7 +64,7 @@ Everything in ⚙ lives in that browser's localStorage. **Nothing here is ever c
 
 ```
 catalog/      one JSON per repo: forks + my own public repos, `relation: fork|owner` (API metadata + write-once classification)
-overrides/    your corrections (domain/form/maturity/note/keywords_add/pinned/hidden)
+overrides/    your corrections (domain/form/domains_extra/maturity/note/keywords_add/pinned/hidden)
 projects/     optional atlas-only briefs (the vault board is the real project list)
 taxonomy.yaml 20 domains × 8 forms × 4 maturity levels
 scripts/      discover · classify · build · stats

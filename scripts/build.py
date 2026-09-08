@@ -1,7 +1,8 @@
 """Merge catalog + overrides -> matrix.json, MATRIX.md, matrix.csv, site/matrix.json.
 
 Overrides (overrides/<owner>__<repo>.yaml) may set any of:
-  domain, form, maturity, note, keywords_add (list), hidden (bool), pinned (bool)
+  domain, form, maturity, note, keywords_add (list), hidden (bool), pinned (bool),
+  domains_extra (list of taxonomy domain keys: file the record under these too; `domain` stays primary)
 They win over LLM fields in the matrix but never modify catalog/ files.
 """
 from __future__ import annotations
@@ -25,6 +26,8 @@ def flatten(rec: dict, ov: dict, tax: dict) -> dict:
     domain = ov.get("domain") or c.get("domain") or "unclassified"
     form = ov.get("form") or c.get("form") or "unclassified"
     keywords = sorted(set(c.get("keywords", [])) | set(ov.get("keywords_add", [])))
+    extra = [d for d in (ov.get("domains_extra") or []) if d != domain and d in dom_labels]
+    domains = [domain] + extra
     return {
         "id": rec["fork"]["full_name"],
         "name": rec["fork"]["full_name"].split("/", 1)[1],
@@ -47,6 +50,9 @@ def flatten(rec: dict, ov: dict, tax: dict) -> dict:
         "status": rec.get("status"),
         "domain": domain,
         "domain_label": dom_labels.get(domain, "Unclassified" if domain == "unclassified" else domain),
+        # every domain the record is filed under (primary first); viewer/markdown use this for membership
+        "domains": domains,
+        "domain_labels": [dom_labels.get(d, "Unclassified" if d == "unclassified" else d) for d in domains],
         "form": form,
         "form_label": form_labels.get(form, "Unclassified" if form == "unclassified" else form),
         "maturity": ov.get("maturity") or c.get("maturity"),
@@ -55,8 +61,8 @@ def flatten(rec: dict, ov: dict, tax: dict) -> dict:
         "keywords": keywords,
         "confidence": c.get("confidence"),
         "proposed_domain": c.get("proposed_domain"),
-        # an override on domain/form counts as "reviewed by human"
-        "needs_review": not (ov.get("domain") or ov.get("form")) and (
+        # an override on domain/form/domains_extra counts as "reviewed by human"
+        "needs_review": not (ov.get("domain") or ov.get("form") or ov.get("domains_extra")) and (
             bool(c.get("proposed_domain")) or (c.get("confidence") is not None and c["confidence"] < 0.5)),
         "classified_at": c.get("classified_at"),
         "note": ov.get("note"),
@@ -72,7 +78,8 @@ def md_escape(s: str) -> str:
 def write_markdown(items: list[dict], tax: dict, generated: str):
     by_dom = defaultdict(list)
     for it in items:
-        by_dom[it["domain"]].append(it)
+        for d in it["domains"]:
+            by_dom[d].append(it)
     order = [d["key"] for d in tax["domains"]] + ["unclassified"]
     labels = {d["key"]: d["label"] for d in tax["domains"]}
     labels["unclassified"] = "Unclassified (awaiting one-shot LLM pass)"
@@ -105,6 +112,8 @@ def write_markdown(items: list[dict], tax: dict, generated: str):
                 repo = "📌 " + repo
             if it["relation"] == "owner":
                 repo += " (own)"
+            if key != it["domain"]:
+                repo += f" (also under {labels.get(it['domain'], it['domain'])})"
             ucs = "<br>".join("• " + md_escape(u["title"]) for u in it["use_cases"][:4])
             what = md_escape(it["analysis"] or it["description"])
             if len(what) > 260:
@@ -116,7 +125,7 @@ def write_markdown(items: list[dict], tax: dict, generated: str):
 
 
 def write_csv(items: list[dict]):
-    cols = ["id", "upstream", "upstream_url", "domain_label", "form_label", "maturity", "stars", "language",
+    cols = ["id", "upstream", "upstream_url", "domain_label", "domains", "form_label", "maturity", "stars", "language",
             "analysis", "use_cases", "keywords", "topics", "signals", "forked_at", "pushed_at", "archived",
             "needs_review", "note"]
     with (ROOT / "matrix.csv").open("w", newline="", encoding="utf-8") as f:
@@ -125,6 +134,7 @@ def write_csv(items: list[dict]):
         for it in items:
             row = {k: it.get(k) for k in cols}
             row["use_cases"] = " | ".join(u["title"] for u in it["use_cases"])
+            row["domains"] = ", ".join(it["domains"])
             row["keywords"] = ", ".join(it["keywords"])
             row["topics"] = ", ".join(it["topics"])
             row["signals"] = ", ".join(it["signals"])
@@ -215,6 +225,7 @@ def write_agent_artifacts(items: list[dict], tax: dict, generated: str):
             "s": it["stars"], "l": it["language"], "one": one,
             "kw": it["keywords"][:10], "uc": [u["title"] for u in it["use_cases"][:4]],
             "note": it["note"] or None,
+            **({"ds": it["domains"][1:]} if len(it["domains"]) > 1 else {}),
         })
     (SITE / "index.compact.json").write_text(
         json.dumps({"generated_at": generated, "items": compact}, ensure_ascii=False, separators=(",", ":")) + "\n",

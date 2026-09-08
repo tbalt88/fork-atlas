@@ -1,0 +1,5 @@
+# Reviewed 2026-09-08: LLM filed under agents-skills (conf 0.95) and proposed marketing-growth.
+# Both are right - a Claude skill pack whose subject is social-media marketing. File under both.
+domain: agents-skills
+domains_extra: [marketing-growth]
+note: "Reviewed: filed under both Agents & Skills (what it is) and Marketing & Growth (what it is for)."

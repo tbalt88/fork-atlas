@@ -151,13 +151,15 @@
     document.querySelectorAll('.toggle button').forEach(b => b.classList.toggle('on', b.dataset.view === state.view));
   };
 
-  const hay = i => (i.name + ' ' + (i.upstream||'') + ' ' + i.description + ' ' + i.analysis + ' ' + i.keywords.join(' ') + ' ' + i.topics.join(' ') + ' ' + i.use_cases.map(u => u.title + ' ' + u.keywords.join(' ')).join(' ') + ' ' + (i.note||'') + ' ' + i.domain_label + ' ' + i.form_label + ' ' + (i.language||'')).toLowerCase();
+  const doms = i => i.domains || [i.domain];           // every domain a record is filed under (overrides may add domains_extra)
+  const domLabels = i => i.domain_labels || [i.domain_label];
+  const hay = i => (i.name + ' ' + (i.upstream||'') + ' ' + i.description + ' ' + i.analysis + ' ' + i.keywords.join(' ') + ' ' + i.topics.join(' ') + ' ' + i.use_cases.map(u => u.title + ' ' + u.keywords.join(' ')).join(' ') + ' ' + (i.note||'') + ' ' + domLabels(i).join(' ') + ' ' + i.form_label + ' ' + (i.language||'')).toLowerCase();
   const thirtyDays = 30 * 864e5;
 
   function baseFilter(ignoreCell) {
     const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
     return items.filter(i => {
-      if (!ignoreCell) { if (state.domain && i.domain !== state.domain) return false; if (state.form && i.form !== state.form) return false; }
+      if (!ignoreCell) { if (state.domain && !doms(i).includes(state.domain)) return false; if (state.form && i.form !== state.form) return false; }
       if (state.mat && i.maturity !== state.mat) return false;
       if (state.lang && i.language !== state.lang) return false;
       if (state.rel && (i.relation || 'fork') !== state.rel) return false;
@@ -180,9 +182,9 @@
 
   function renderMatrix() {
     const pool = baseFilter(true);
-    const counts = {}; pool.forEach(i => { counts[i.domain + '|' + i.form] = (counts[i.domain + '|' + i.form] || 0) + 1; });
+    const counts = {}; pool.forEach(i => doms(i).forEach(d => { counts[d + '|' + i.form] = (counts[d + '|' + i.form] || 0) + 1; }));
     const usedForms = formKeys.filter(f => pool.some(i => i.form === f));
-    const usedDoms = domainKeys.filter(d => pool.some(i => i.domain === d));
+    const usedDoms = domainKeys.filter(d => pool.some(i => doms(i).includes(d)));
     let h = '<table><thead><tr><th class="rowh">Domain \\ Form</th>' + usedForms.map(f => `<th>${forms.find(x=>x.key===f).label}</th>`).join('') + '<th>Total</th></tr></thead><tbody>';
     for (const d of usedDoms) {
       let tot = 0;
@@ -214,7 +216,7 @@
   function card(i) {
     return `<div class="card" data-id="${esc(i.id)}">
       <h3>${i.pinned?'<span class="tag pin">📌</span>':''}<span>${esc(i.upstream||i.name)}</span><span class="stars">★ ${i.stars||0}${i.archived?' · archived':''}${i.upstream_deleted?' · upstream gone':''}</span></h3>
-      <div class="meta">${i.relation==='owner'?'<span class="tag" style="background:var(--pin);color:#fff">own</span>':''}${i.private?'<span class="tag warn">private · live</span>':''}<span class="tag dom">${esc(i.domain_label)}</span><span class="tag">${esc(i.form_label)}</span>${i.maturity?`<span class="tag">${esc(i.maturity)}</span>`:''}${i.language?`<span class="tag">${esc(i.language)}</span>`:''}${i.needs_review?'<span class="tag warn">⚠ review</span>':''}${i.status!=='classified'?'<span class="tag warn">unclassified</span>':''}</div>
+      <div class="meta">${i.relation==='owner'?'<span class="tag" style="background:var(--pin);color:#fff">own</span>':''}${i.private?'<span class="tag warn">private · live</span>':''}${domLabels(i).map(l=>`<span class="tag dom">${esc(l)}</span>`).join('')}<span class="tag">${esc(i.form_label)}</span>${i.maturity?`<span class="tag">${esc(i.maturity)}</span>`:''}${i.language?`<span class="tag">${esc(i.language)}</span>`:''}${i.needs_review?'<span class="tag warn">⚠ review</span>':''}${i.status!=='classified'?'<span class="tag warn">unclassified</span>':''}</div>
       <p>${esc(i.analysis || i.description || '—')}</p>
       ${i.use_cases.length?`<ul>${i.use_cases.slice(0,3).map(u=>`<li>${esc(u.title)}</li>`).join('')}</ul>`:''}
     </div>`;
@@ -222,7 +224,7 @@
 
   function listRow(i) {
     return `<tr data-id="${esc(i.id)}"><td><b>${esc(i.upstream||i.name)}</b>${i.pinned?' 📌':''}${i.needs_review?' ⚠':''}<br><span style="color:var(--muted)">${esc(i.language||'')}</span></td>
-      <td>${esc(i.domain_label)}</td><td>${esc(i.form_label)}</td><td class="num">${i.stars||0}</td>
+      <td>${esc(domLabels(i).join(' · '))}</td><td>${esc(i.form_label)}</td><td class="num">${i.stars||0}</td>
       <td>${esc((i.analysis||i.description||'').slice(0,220))}</td>
       <td>${i.use_cases.slice(0,3).map(u=>'• '+esc(u.title)).join('<br>')}</td>
       <td>${i.keywords.slice(0,6).map(k=>`<span class="tag">${esc(k)}</span>`).join(' ')}</td>
@@ -246,7 +248,7 @@
     const d = $('#drawer');
     d.innerHTML = `<button class="close" title="close">×</button>
       <h2>${esc(i.upstream||i.name)}</h2>
-      <div class="meta"><span class="tag dom">${esc(i.domain_label)}</span> <span class="tag">${esc(i.form_label)}</span> ${i.maturity?`<span class="tag">${esc(i.maturity)}</span>`:''} ${i.needs_review?'<span class="tag warn">⚠ needs review</span>':''}</div>
+      <div class="meta">${domLabels(i).map(l=>`<span class="tag dom">${esc(l)}</span>`).join(' ')} <span class="tag">${esc(i.form_label)}</span> ${i.maturity?`<span class="tag">${esc(i.maturity)}</span>`:''} ${i.needs_review?'<span class="tag warn">⚠ needs review</span>':''}</div>
       ${i.note?`<p class="note">${esc(i.note)}</p>`:''}
       ${i.proposed_domain && !i.overridden?`<p class="note">LLM proposed new domain: <b>${esc(i.proposed_domain)}</b> — accept by adding it to taxonomy.yaml + an override, or leave in ${esc(i.domain_label)}.</p>`:''}
       <dl>

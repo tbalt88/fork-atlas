@@ -150,5 +150,5 @@ export function rankForBrief(index, brief, opts = {}) {
 }
 
 export const itemText = it => [it.upstream || it.id, it.description, it.analysis, (it.keywords || []).join(' '), (it.topics || []).join(' '),
-  (it.use_cases || []).map(u => u.title + ' ' + (u.keywords || []).join(' ')).join(' '), it.note, it.domain_label, it.form_label, it.language].join(' \n ');
-export const compactText = c => [c.id, c.one, (c.kw || []).join(' '), (c.uc || []).join(' '), c.note, c.d, c.f, c.l].join(' \n ');
+  (it.use_cases || []).map(u => u.title + ' ' + (u.keywords || []).join(' ')).join(' '), it.note, (it.domain_labels || [it.domain_label]).join(' '), it.form_label, it.language].join(' \n ');
+export const compactText = c => [c.id, c.one, (c.kw || []).join(' '), (c.uc || []).join(' '), c.note, c.d, (c.ds || []).join(' '), c.f, c.l].join(' \n ');

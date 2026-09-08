@@ -165,7 +165,9 @@ note: "Reviewed. Intended use: SEO plan for a travel site (keyword research, ran
 keywords_add: [seo, keyword-research, site-audit]
 ```
 
-An override on `domain` or `form` also clears the review flag, so "reviewed by a human" is
+A repo that genuinely belongs in two rows gets `domains_extra: [marketing-growth]` — it stays
+under its primary `domain` and is also filed (and counted) under each extra one.
+An override on `domain`, `form` or `domains_extra` also clears the review flag, so "reviewed by a human" is
 a property of the data, not a memory. 28 overrides exist today; the review queue is empty.
 
 <p align="right">(<a href="#fork-atlas">back to top</a>)</p>

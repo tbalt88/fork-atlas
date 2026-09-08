@@ -5,5 +5,6 @@ form: app                        # a key from taxonomy.yaml
 maturity: production             # toy | active | production | dormant
 note: "Why I forked this / how I use it."
 keywords_add: [homelab, weekend]
+domains_extra: [marketing-growth]  # also file under these domains (taxonomy keys); `domain` stays primary
 pinned: false                    # float to top of every view
 hidden: false                    # drop from matrix entirely (record stays in catalog/)
