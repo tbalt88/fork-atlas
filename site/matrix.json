@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T20:34:04Z",
+ "generated_at": "2026-09-08T20:43:42Z",
  "taxonomy": {
   "domains": [
    {
@@ -148,7 +148,7 @@
   "total": 238,
   "classified": 238,
   "unclassified": 0,
-  "needs_review": 2,
+  "needs_review": 1,
   "owned": 11
  },
  "keywords": {
@@ -4383,8 +4383,8 @@
     "failing_scheduled": []
    },
    "status": "classified",
-   "domain": "misc",
-   "domain_label": "Miscellaneous",
+   "domain": "dev-tooling",
+   "domain_label": "Developer tooling & CLIs",
    "form": "app",
    "form_label": "Application / UI",
    "maturity": "active",
@@ -4425,11 +4425,11 @@
    ],
    "confidence": 0.6,
    "proposed_domain": "file-conversion-utility",
-   "needs_review": true,
+   "needs_review": false,
    "classified_at": "2026-09-08T20:34:04Z",
-   "note": null,
+   "note": "Reviewed: desktop file-conversion utility; filed as dev-tooling rather than a new taxonomy domain.",
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/codenotch",

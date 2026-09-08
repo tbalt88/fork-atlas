@@ -1,6 +1,6 @@
 # Fork Atlas — Matrix
 
-_Generated 2026-09-08T20:34:04Z · 238 forks · 238 classified · 2 need review_
+_Generated 2026-09-08T20:43:42Z · 238 forks · 238 classified · 1 need review_
 
 Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-once; edit `overrides/` to correct Domain/Form.
 
@@ -9,7 +9,7 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 - [LLM inference & training](#llm-inference-training) (11)
 - [Agents, skills & prompt packs](#agents-skills) (97)
 - [Image, video & audio generation](#media-generation) (14)
-- [Developer tooling & CLIs](#dev-tooling) (8)
+- [Developer tooling & CLIs](#dev-tooling) (9)
 - [Data, ETL, search & RAG](#data-rag) (16)
 - [Web & UI frameworks](#web-ui) (2)
 - [Automation & integrations](#automation-integrations) (9)
@@ -25,7 +25,7 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 - [Photos, media libraries & backup](#media-management) (1)
 - [Scientific ML, datasets & simulation](#science-research) (1)
 - [Games & fun](#games-fun) (1)
-- [Miscellaneous](#misc) (2)
+- [Miscellaneous](#misc) (1)
 
 <a id="llm-inference-training"></a>
 ## LLM inference & training
@@ -177,6 +177,7 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 | [RockxyApp/Rockxy](https://github.com/RockxyApp/Rockxy) | Application / UI | 1352 | Rockxy is a native macOS Swift application that acts as an HTTP/HTTPS/WebSocket/GraphQL debugging proxy, positioned as an open-source (AGPL Community edition) alternative to Proxyman and Charles Proxy. It offers traffic capture and inspection, advanced filt… | • Intercept and inspect HTTPS traffic from an iOS app or Mac process<br>• Ask an AI assistant to explain why a captured API call failed<br>• Query captured network traffic from Claude Desktop or Cursor via MCP<br>• Mock or redirect a flaky third-party API with Map Local/Map Remote | certificate-management, graphql, http-proxy, https-inspection, macos-app, mcp, network-debugging, websocket |
 | [vinzdg/codenotch](https://github.com/vinzdg/codenotch) | Application / UI | 1074 | Codenotch is a macOS menu-bar/notch app (with a Rust/Tauri Windows port) that shows live usage-limit rings for AI coding assistants -- Claude Code, Cursor, Codex, Antigravity, GLM, Grok, OpenCode, and GitHub Copilot -- pinned to a screen edge. It reads what… | • Watch Claude Code / Cursor / Codex usage limits at a glance without switching apps<br>• Get alerted when an AI coding session finishes or is blocked waiting on you<br>• Track separate work and personal Claude Code accounts side by side<br>• Jump straight to the app behind a finished or stuck agent session | claude-code, codex, cursor, macos, menu-bar, rate-limits, session-monitoring, swift |
 | [mallahyari/system-design-visualizer](https://github.com/mallahyari/system-design-visualizer) | Application / UI | 601 | System Design Visualizer is a React/Vite web app that turns a static system-design image (architecture diagram, flowchart) into an interactive, explorable graph: it uses OpenAI GPT-4o vision to convert the uploaded image into an editable Mermaid.js diagram,… | • Upload a system architecture screenshot and get an editable Mermaid diagram<br>• Click through an interactive system design graph to see component details | architecture, diagram, gpt-4o, mermaid, react-flow, system-design, visualization, vite |
+| [Hyacinthe-primus/File_Converter_Pro](https://github.com/Hyacinthe-primus/File_Converter_Pro) | Application / UI | 545 | File Converter Pro is a free, fully offline Windows desktop app (Python + PySide6) that converts documents, images, audio, and video locally with no uploads, no internet requirement, and no telemetry. It bundles batch conversion, a Windows right-click conte… | • Convert documents, images, audio, or video offline on Windows without uploading files<br>• Batch-convert a folder of files via a right-click context menu<br>• Automate recurring conversions with watch-folders and scheduled tasks | batch-processing, desktop-app, document-conversion, file-conversion, offline, privacy, pyside6, python |
 | [freecodexyz/free-code](https://github.com/freecodexyz/free-code) | CLI tool | 8738 | free-code is a community rebuild of Anthropic's Claude Code CLI from a leaked source map, distributed as a buildable Bun/TypeScript project with all telemetry (OpenTelemetry, GrowthBook reporting, Sentry) stripped, Anthropic's injected security-prompt guard… | • Run a telemetry-free build of a Claude Code-style terminal agent<br>• Unlock experimental Claude Code feature flags like ultrathink or voice mode<br>• Switch a Claude-Code-like CLI between Anthropic, Bedrock, Vertex, or Codex backends<br>• Inspect the internal architecture of a Claude Code-style CLI (tools, commands, bridge) | bun, claude-code, cli, feature-flags, ink, mcp, telemetry-removal, terminal-agent |
 | [Dicklesworthstone/agentic_coding_flywheel_setup](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup) | CLI tool | 1635 | Agentic Coding Flywheel Setup (ACFS) is a one-liner curl-to-bash installer that turns a fresh Ubuntu VPS into a fully configured multi-agent AI coding environment in about 30 minutes. It installs and wires up three coding agents (Claude Code, Codex CLI, Ant… | • Spin up a fresh VPS pre-configured for AI coding agents in one command<br>• Standardize a team's agentic dev environment so every box is identical<br>• Onboard a non-technical beginner to agent-assisted coding via a guided wizard<br>• Wire up coordination tooling (NTM, MCP Agent Mail) for multiple agents working in parallel | agent-orchestration, bootstrap, claude-code, codex, dev-environment, installer, onboarding, shell |
 | [tbalt88/repo-tracker](https://github.com/tbalt88/repo-tracker) (own) | CLI tool | 0 | repo-tracker is a personal GitHub automation tool that generates an auto-updated index and dashboard of all of a user's repositories, including fork-sync status against upstream (auto-rebase vs. conflict needing manual fix). A Node.js script (`scripts/sync.… | • Auto-rebase tracked GitHub forks against upstream on a schedule and flag merge conflicts<br>• Generate a live repo-index dashboard embedded in a GitHub profile README | automation, dashboard, fork-sync, github-actions, github-forks, node, profile-readme |
@@ -382,6 +383,5 @@ Interactive viewer: see `site/index.html` (GitHub Pages). LLM columns are write-
 
 | Repo | Form | ★ | What it is | Use cases | Keywords |
 |---|---|---:|---|---|---|
-| [Hyacinthe-primus/File_Converter_Pro](https://github.com/Hyacinthe-primus/File_Converter_Pro) ⚠ | Application / UI | 545 | File Converter Pro is a free, fully offline Windows desktop app (Python + PySide6) that converts documents, images, audio, and video locally with no uploads, no internet requirement, and no telemetry. It bundles batch conversion, a Windows right-click conte… | • Convert documents, images, audio, or video offline on Windows without uploading files<br>• Batch-convert a folder of files via a right-click context menu<br>• Automate recurring conversions with watch-folders and scheduled tasks | batch-processing, desktop-app, document-conversion, file-conversion, offline, privacy, pyside6, python |
 | [tbalt88/flying-monkey](https://github.com/tbalt88/flying-monkey) (own) | Reference / docs / list | 0 | flying-monkey is an empty placeholder repository from 2016, containing only a single-line README with the repo's name and nothing else. There is no code, description, language, or topic metadata, so no real functionality or purpose can be determined. | • No practical use case; repository contains no content | empty, placeholder, stub |
 
