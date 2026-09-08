@@ -15,7 +15,7 @@
     "full_name": "ruvnet/ruflo",
     "url": "https://github.com/ruvnet/ruflo",
     "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-    "stars": 71651,
+    "stars": 71653,
     "forks": 8478,
     "watchers": 457,
     "open_issues": 953,
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:18Z",
-    "metadata_refreshed_at": "2026-09-08T20:22:22Z",
+    "metadata_refreshed_at": "2026-09-08T20:28:13Z",
     "signals": [
       "claude-skill"
     ],

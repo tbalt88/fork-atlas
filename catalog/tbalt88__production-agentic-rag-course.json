@@ -5,14 +5,18 @@
     "created_at": "2026-09-07T23:19:48Z",
     "default_branch": "main",
     "pushed_at": "2026-06-05T07:23:49Z",
-    "actions": {}
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "relation": "fork",
   "upstream": {
     "full_name": "jamwithai/production-agentic-rag-course",
     "url": "https://github.com/jamwithai/production-agentic-rag-course",
     "description": null,
-    "stars": 8814,
+    "stars": 8815,
     "forks": 1949,
     "watchers": 81,
     "open_issues": 27,
@@ -28,11 +32,71 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:27Z",
-    "metadata_refreshed_at": "2026-09-08T20:21:27Z",
-    "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "metadata_refreshed_at": "2026-09-08T20:27:18Z",
+    "actions_checked_at": "2026-09-08T20:27:18Z",
+    "signals": [
+      "docker",
+      "make",
+      "python"
+    ],
+    "languages": {
+      "Python": 383790,
+      "Jupyter Notebook": 253146,
+      "Dockerfile": 2705,
+      "Makefile": 1403,
+      "Shell": 844
+    },
+    "inputs_prepared_at": "2026-09-08T20:30:16Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "learning-reference",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "\"The Mother of AI Project\" is a free, week-by-week open-source course that walks learners through building a production-grade agentic RAG system (an arXiv paper research assistant) from scratch, with a search-first philosophy: solid BM25 keyword search before adding vectors. Each of its seven weeks adds a layer -- Docker/FastAPI/PostgreSQL infrastructure, an Airflow-driven arXiv ingestion pipeline, OpenSearch BM25 retrieval, hybrid keyword+vector search with chunking, a full RAG pipeline with a local LLM and Gradio UI, Langfuse monitoring with Redis caching, and finally a LangGraph agentic RAG workflow with document grading, query rewriting, guardrails, and a Telegram bot front end. It targets engineers who want a hands-on, tagged-release-per-week path to production RAG, each paired with a companion Jupyter notebook and Substack blog post.",
+    "keywords": [
+      "agentic-rag",
+      "airflow",
+      "course",
+      "fastapi",
+      "hybrid-search",
+      "langgraph",
+      "opensearch",
+      "rag",
+      "tutorial"
+    ],
+    "use_cases": [
+      {
+        "title": "Follow a week-by-week hands-on course to build a production RAG system",
+        "keywords": [
+          "course",
+          "rag"
+        ]
+      },
+      {
+        "title": "Learn hybrid BM25 plus vector search before jumping to embeddings-only RAG",
+        "keywords": [
+          "hybrid-search",
+          "opensearch"
+        ]
+      },
+      {
+        "title": "Reference a LangGraph agentic RAG workflow with grading, rewriting, and guardrails",
+        "keywords": [
+          "agentic-rag",
+          "langgraph"
+        ]
+      },
+      {
+        "title": "See a full RAG stack wired together: FastAPI, Airflow, Postgres, Langfuse, Redis",
+        "keywords": [
+          "airflow",
+          "fastapi"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-09-08T20:34:04Z",
+    "model": "claude-code/sonnet-5"
+  },
+  "status": "classified"
 }

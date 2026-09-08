@@ -5,7 +5,11 @@
     "created_at": "2026-09-07T18:28:36Z",
     "default_branch": "main",
     "pushed_at": "2026-09-07T13:33:31Z",
-    "actions": {}
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "relation": "fork",
   "upstream": {
@@ -49,11 +53,73 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:28Z",
-    "metadata_refreshed_at": "2026-09-08T20:21:28Z",
-    "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "metadata_refreshed_at": "2026-09-08T20:27:19Z",
+    "actions_checked_at": "2026-09-08T20:27:19Z",
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 22925139,
+      "Python": 850879,
+      "JavaScript": 562751,
+      "Shell": 361524,
+      "Astro": 261133,
+      "Dockerfile": 43284,
+      "CSS": 27228,
+      "Vue": 17204,
+      "HTML": 2385
+    },
+    "inputs_prepared_at": "2026-09-08T20:30:19Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "infra-devops",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "SnapOtter is a self-hosted, open-source file-processing suite that replaces cloud tools like CloudConvert, Smallpdf, TinyPNG, and Otter.ai with 200+ tools across image, video, audio, PDF, and document formats, plus local AI features (background removal, upscaling, face blur/enhance, OCR, audio/video transcription) that never send files off the local network. It runs as a single Docker container with embedded Postgres and Redis, or a production Compose stack, exposing every tool through a web UI, a documented REST API with API-key auth, and chainable multi-step pipelines, plus a built-in layer-based image editor, OIDC/SSO login, and 21 languages. It targets privacy-conscious individuals and homelab/self-hosted-infrastructure users who want one unified, on-premise file-conversion platform instead of many separate SaaS tools; dual-licensed AGPLv3/commercial, actively developed TypeScript/Python monorepo.",
+    "keywords": [
+      "docker",
+      "file-conversion",
+      "homelab",
+      "image-editing",
+      "local-ai",
+      "ocr",
+      "pdf",
+      "rest-api",
+      "self-hosted"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a private replacement for CloudConvert, Smallpdf, or TinyPNG on your own hardware",
+        "keywords": [
+          "file-conversion",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Run local AI background removal, upscaling, or OCR without sending files to the cloud",
+        "keywords": [
+          "local-ai",
+          "privacy"
+        ]
+      },
+      {
+        "title": "Chain multiple conversion or compression steps into a reusable pipeline via the REST API",
+        "keywords": [
+          "pipelines",
+          "rest-api"
+        ]
+      },
+      {
+        "title": "Batch-process images, video, audio, and PDFs from a homelab Docker stack",
+        "keywords": [
+          "docker",
+          "homelab"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-09-08T20:34:04Z",
+    "model": "claude-code/sonnet-5"
+  },
+  "status": "classified"
 }

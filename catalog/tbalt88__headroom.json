@@ -15,7 +15,7 @@
     "full_name": "headroomlabs-ai/headroom",
     "url": "https://github.com/headroomlabs-ai/headroom",
     "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-    "stars": 70733,
+    "stars": 70738,
     "forks": 5428,
     "watchers": 212,
     "open_issues": 676,
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:19Z",
-    "metadata_refreshed_at": "2026-09-08T20:22:24Z",
+    "metadata_refreshed_at": "2026-09-08T20:28:15Z",
     "signals": [
       "docker",
       "gh-actions",

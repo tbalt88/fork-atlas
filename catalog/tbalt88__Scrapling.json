@@ -5,14 +5,18 @@
     "created_at": "2026-09-05T15:24:11Z",
     "default_branch": "main",
     "pushed_at": "2026-09-04T12:33:28Z",
-    "actions": {}
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "relation": "fork",
   "upstream": {
     "full_name": "D4Vinci/Scrapling",
     "url": "https://github.com/D4Vinci/Scrapling",
     "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-    "stars": 79386,
+    "stars": 79387,
     "forks": 7979,
     "watchers": 289,
     "open_issues": 15,
@@ -49,11 +53,68 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:32Z",
-    "metadata_refreshed_at": "2026-09-08T20:21:32Z",
-    "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "metadata_refreshed_at": "2026-09-08T20:27:25Z",
+    "actions_checked_at": "2026-09-08T20:27:25Z",
+    "signals": [
+      "claude-skill",
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 1149251,
+      "Dockerfile": 1158
+    },
+    "inputs_prepared_at": "2026-09-08T20:30:17Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "data-rag",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "Scrapling is a high-throughput, adaptive Python web-scraping framework combining fast static/dynamic/stealth fetchers that bypass anti-bot systems like Cloudflare Turnstile out of the box, a parser that automatically relocates CSS/XPath selectors when a site's HTML structure changes, and a Spider framework for concurrent, resumable, proxy-rotating crawls whose speed adapts to how a target site responds. It ships a CLI and interactive shell, an MCP server plus a bundled AI-agent skill for LLM-driven scraping and RAG-building, and Scrapy-compatible response objects for easy migration. It targets Python developers building scrapers, crawlers, and AI data-collection pipelines who need resilience against site changes and anti-bot defenses without hand-rolling browser automation; a very large, actively maintained, trending project.",
+    "keywords": [
+      "adaptive-selectors",
+      "anti-bot",
+      "cli",
+      "crawling",
+      "mcp",
+      "playwright",
+      "python",
+      "stealth",
+      "web-scraping"
+    ],
+    "use_cases": [
+      {
+        "title": "Scrape a site behind Cloudflare or other anti-bot protection with a stealth fetcher",
+        "keywords": [
+          "anti-bot",
+          "stealth"
+        ]
+      },
+      {
+        "title": "Keep scrapers working automatically when a site's HTML structure changes",
+        "keywords": [
+          "adaptive-selectors",
+          "web-scraping"
+        ]
+      },
+      {
+        "title": "Run a concurrent, resumable, proxy-rotating crawl at scale",
+        "keywords": [
+          "crawling",
+          "proxy-rotation"
+        ]
+      },
+      {
+        "title": "Give an LLM agent an MCP server or skill to scrape pages on its own",
+        "keywords": [
+          "ai-agents",
+          "mcp"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-09-08T20:34:04Z",
+    "model": "claude-code/sonnet-5"
+  },
+  "status": "classified"
 }

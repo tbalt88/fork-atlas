@@ -5,7 +5,11 @@
     "created_at": "2026-09-08T18:20:50Z",
     "default_branch": "main",
     "pushed_at": "2026-09-08T18:13:41Z",
-    "actions": {}
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "relation": "fork",
   "upstream": {
@@ -35,11 +39,77 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:26Z",
-    "metadata_refreshed_at": "2026-09-08T20:21:26Z",
-    "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "metadata_refreshed_at": "2026-09-08T20:27:17Z",
+    "actions_checked_at": "2026-09-08T20:27:16Z",
+    "signals": [
+      "claude-skill",
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 32227964,
+      "TypeScript": 10786160,
+      "JavaScript": 4166109,
+      "CSS": 93250,
+      "Makefile": 60019,
+      "Shell": 47142,
+      "Dockerfile": 33513,
+      "PowerShell": 5904,
+      "Batchfile": 4447,
+      "HTML": 1091,
+      "Mako": 789
+    },
+    "inputs_prepared_at": "2026-09-08T20:30:14Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "Langflow is a widely-adopted open-source platform for visually building and deploying AI agents and multi-agent workflows: a React Flow drag-and-drop canvas over Python components, with full source-code access to customize any node. Flows can be deployed as a REST API or as an MCP server (turning a flow into a tool for MCP clients) directly from the builder, and Langflow supports essentially all major LLMs and vector databases plus observability integrations like LangSmith and Langfuse. It targets developers and teams building production agentic and RAG applications who want both low-code visual authoring and full code-level control; distributed as a pip package, Docker image, and a bundled desktop app for Windows/macOS.",
+    "keywords": [
+      "agents",
+      "langchain",
+      "low-code",
+      "mcp",
+      "multi-agent",
+      "python",
+      "rag",
+      "visual-builder",
+      "workflow-builder"
+    ],
+    "use_cases": [
+      {
+        "title": "Visually build and deploy a multi-agent LLM workflow as an API",
+        "keywords": [
+          "agents",
+          "workflow-builder"
+        ]
+      },
+      {
+        "title": "Expose a flow as an MCP server so other AI clients can call it as a tool",
+        "keywords": [
+          "deployment",
+          "mcp"
+        ]
+      },
+      {
+        "title": "Prototype a RAG pipeline over a vector database with built-in tracing",
+        "keywords": [
+          "observability",
+          "rag"
+        ]
+      },
+      {
+        "title": "Self-host an agent-building platform via Docker for a team",
+        "keywords": [
+          "docker",
+          "self-hosted"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-09-08T20:34:04Z",
+    "model": "claude-code/sonnet-5"
+  },
+  "status": "classified"
 }

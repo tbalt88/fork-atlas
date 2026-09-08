@@ -18,7 +18,7 @@
     "stars": 48046,
     "forks": 3434,
     "watchers": 250,
-    "open_issues": 69,
+    "open_issues": 70,
     "language": null,
     "topics": [
       "agents",
@@ -48,7 +48,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-09-08T20:22:19Z",
+    "metadata_refreshed_at": "2026-09-08T20:28:10Z",
     "signals": [
       "claude-skill"
     ],

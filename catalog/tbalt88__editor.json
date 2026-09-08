@@ -5,14 +5,18 @@
     "created_at": "2026-09-04T17:50:58Z",
     "default_branch": "main",
     "pushed_at": "2026-09-03T18:31:37Z",
-    "actions": {}
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "relation": "fork",
   "upstream": {
     "full_name": "diffusionstudio/editor",
     "url": "https://github.com/diffusionstudio/editor",
     "description": "An open-source video editor built for agents. Edits become code, code becomes video.",
-    "stars": 2586,
+    "stars": 2587,
     "forks": 225,
     "watchers": 6,
     "open_issues": 22,
@@ -28,11 +32,72 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:33Z",
-    "metadata_refreshed_at": "2026-09-08T20:21:33Z",
-    "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "metadata_refreshed_at": "2026-09-08T20:27:27Z",
+    "actions_checked_at": "2026-09-08T20:27:26Z",
+    "signals": [
+      "gh-actions",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 2706577,
+      "JavaScript": 19165,
+      "Objective-C": 11305,
+      "CSS": 11148,
+      "HTML": 7172,
+      "Shell": 545
+    },
+    "inputs_prepared_at": "2026-09-08T20:30:11Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "media-generation",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Diffusion Studio is an open-source desktop video editor (Electron + SolidJS, with a headless \"koota\" ECS runtime) built to be driven by coding agents like Claude Code, Codex, and Cursor: every edit is represented as JSX composition code, and editing the canvas updates the code while editing the code redraws the canvas. It ships a `dapi` CLI and an `/editor` agent skill so an agent can inspect footage (probe, transcribe, waveform, filmstrip), generate images/video/voiceover assets inline via `generate.*`, cut/caption/color-grade a timeline, and render the final video, with the finished project remaining fully editable by a human afterward. It targets people who want to produce motion graphics, social clips, and edited video by prompting an AI agent rather than manual timeline editing; built by the YC-backed Diffusion Studio Inc.",
+    "keywords": [
+      "ai-agents",
+      "claude-code-skill",
+      "cli",
+      "electron",
+      "motion-graphics",
+      "solidjs",
+      "timeline",
+      "video-editing",
+      "video-generation"
+    ],
+    "use_cases": [
+      {
+        "title": "Let an AI coding agent cut and caption raw footage into a finished video",
+        "keywords": [
+          "ai-agents",
+          "video-editing"
+        ]
+      },
+      {
+        "title": "Generate a promo or explainer video with AI-generated images, video, and voiceover",
+        "keywords": [
+          "generative-assets",
+          "motion-graphics"
+        ]
+      },
+      {
+        "title": "Clip highlights from a long video into a vertical social-media cut",
+        "keywords": [
+          "clipping",
+          "social-video"
+        ]
+      },
+      {
+        "title": "Drive video editing from a CLI or JSX code instead of a manual timeline",
+        "keywords": [
+          "cli",
+          "compositions-as-code"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-09-08T20:34:04Z",
+    "model": "claude-code/sonnet-5"
+  },
+  "status": "classified"
 }

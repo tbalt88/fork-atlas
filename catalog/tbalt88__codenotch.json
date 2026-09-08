@@ -5,7 +5,11 @@
     "created_at": "2026-09-06T17:39:36Z",
     "default_branch": "main",
     "pushed_at": "2026-09-06T12:05:14Z",
-    "actions": {}
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "relation": "fork",
   "upstream": {
@@ -28,11 +32,71 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:29Z",
-    "metadata_refreshed_at": "2026-09-08T20:21:29Z",
-    "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "metadata_refreshed_at": "2026-09-08T20:27:22Z",
+    "actions_checked_at": "2026-09-08T20:27:21Z",
+    "signals": [
+      "gh-actions",
+      "make"
+    ],
+    "languages": {
+      "Swift": 1184529,
+      "Rust": 211278,
+      "HTML": 22577,
+      "Makefile": 10159,
+      "Shell": 3482
+    },
+    "inputs_prepared_at": "2026-09-08T20:30:10Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "dev-tooling",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Codenotch is a macOS menu-bar/notch app (with a Rust/Tauri Windows port) that shows live usage-limit rings for AI coding assistants -- Claude Code, Cursor, Codex, Antigravity, GLM, Grok, OpenCode, and GitHub Copilot -- pinned to a screen edge. It reads whatever credential or local session each tool already holds (no separate sign-in), shows per-provider status (running, waiting on you, blocked) with a peek-and-sound alert when a session ends or needs input, and fires notifications at 80%/100% of a provider's usage window. It targets developers juggling several AI coding tool subscriptions who want a persistent, at-a-glance usage HUD instead of switching apps to check `/usage`.",
+    "keywords": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "macos",
+      "menu-bar",
+      "rate-limits",
+      "session-monitoring",
+      "swift",
+      "tauri",
+      "usage-tracking"
+    ],
+    "use_cases": [
+      {
+        "title": "Watch Claude Code / Cursor / Codex usage limits at a glance without switching apps",
+        "keywords": [
+          "menu-bar",
+          "usage-tracking"
+        ]
+      },
+      {
+        "title": "Get alerted when an AI coding session finishes or is blocked waiting on you",
+        "keywords": [
+          "notifications",
+          "session-monitoring"
+        ]
+      },
+      {
+        "title": "Track separate work and personal Claude Code accounts side by side",
+        "keywords": [
+          "claude-code",
+          "multi-account"
+        ]
+      },
+      {
+        "title": "Jump straight to the app behind a finished or stuck agent session",
+        "keywords": [
+          "macos",
+          "session-monitoring"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-09-08T20:34:04Z",
+    "model": "claude-code/sonnet-5"
+  },
+  "status": "classified"
 }

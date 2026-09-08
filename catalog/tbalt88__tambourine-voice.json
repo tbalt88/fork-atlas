@@ -5,7 +5,11 @@
     "created_at": "2026-09-05T17:42:52Z",
     "default_branch": "main",
     "pushed_at": "2026-07-17T20:17:00Z",
-    "actions": {}
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "relation": "fork",
   "upstream": {
@@ -42,11 +46,76 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:31Z",
-    "metadata_refreshed_at": "2026-09-08T20:21:31Z",
-    "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "metadata_refreshed_at": "2026-09-08T20:27:24Z",
+    "actions_checked_at": "2026-09-08T20:27:24Z",
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "gh-actions",
+      "node",
+      "rust"
+    ],
+    "languages": {
+      "Rust": 289206,
+      "TypeScript": 279960,
+      "Python": 224296,
+      "Shell": 12018,
+      "CSS": 10407,
+      "JavaScript": 2773,
+      "Dockerfile": 2441,
+      "HTML": 740
+    },
+    "inputs_prepared_at": "2026-09-08T20:30:20Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "media-generation",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Tambourine is an open-source, cross-platform (Windows/macOS) voice-dictation app: a global hotkey starts recording, a Rust/Tauri desktop client streams audio over WebRTC (Pipecat SmallWebRTC) to a local or self-hosted Python server, and an LLM cleans up the raw transcript (removing filler words, adding punctuation, applying a personal dictionary, and adapting formatting to the focused app) before typing it at the cursor. It's bring-your-own-key across many STT providers (Cartesia, Deepgram, AssemblyAI, Groq, etc.) and LLM providers (OpenAI, Anthropic, Gemini, Cerebras, etc.), or fully local via Whisper/Faster-Whisper/MLX and Ollama, and is positioned as an open-source alternative to Wispr Flow and Superwhisper for people who want full control over their voice-to-text pipeline. Built on Pipecat's modular voice-agent pipeline; still under active development with a planned hosted service.",
+    "keywords": [
+      "accessibility",
+      "pipecat",
+      "rust",
+      "speech-to-text",
+      "tauri",
+      "voice-ai",
+      "voice-dictation",
+      "webrtc",
+      "whisper"
+    ],
+    "use_cases": [
+      {
+        "title": "Dictate text into any app on Windows or macOS with a global hotkey",
+        "keywords": [
+          "accessibility",
+          "voice-dictation"
+        ]
+      },
+      {
+        "title": "Clean up raw speech transcripts with an LLM before they're typed",
+        "keywords": [
+          "llm-formatting",
+          "speech-to-text"
+        ]
+      },
+      {
+        "title": "Run voice dictation fully offline with local Whisper and Ollama",
+        "keywords": [
+          "local-llm",
+          "whisper"
+        ]
+      },
+      {
+        "title": "Self-host a private, open-source alternative to Wispr Flow or Superwhisper",
+        "keywords": [
+          "self-hosted",
+          "voice-ai"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-09-08T20:34:04Z",
+    "model": "claude-code/sonnet-5"
+  },
+  "status": "classified"
 }

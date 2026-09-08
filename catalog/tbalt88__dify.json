@@ -18,7 +18,7 @@
     "stars": 155058,
     "forks": 24490,
     "watchers": 836,
-    "open_issues": 1040,
+    "open_issues": 1041,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -45,13 +45,13 @@
     "homepage": "https://dify.ai",
     "default_branch": "main",
     "created_at": "2023-04-12T07:40:24Z",
-    "pushed_at": "2026-09-08T18:24:09Z",
+    "pushed_at": "2026-09-08T20:28:19Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:07Z",
-    "metadata_refreshed_at": "2026-09-08T20:23:10Z",
+    "metadata_refreshed_at": "2026-09-08T20:28:54Z",
     "signals": [
       "claude-skill",
       "docker",

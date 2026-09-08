@@ -5,7 +5,11 @@
     "created_at": "2026-09-05T17:43:46Z",
     "default_branch": "main",
     "pushed_at": "2026-08-28T22:46:09Z",
-    "actions": {}
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "relation": "fork",
   "upstream": {
@@ -28,11 +32,76 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:30Z",
-    "metadata_refreshed_at": "2026-09-08T20:21:30Z",
-    "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "metadata_refreshed_at": "2026-09-08T20:27:23Z",
+    "actions_checked_at": "2026-09-08T20:27:23Z",
+    "signals": [
+      "make",
+      "node"
+    ],
+    "languages": {
+      "Go": 3629864,
+      "TypeScript": 1513165,
+      "CSS": 382435,
+      "Shell": 42595,
+      "NSIS": 39697,
+      "Swift": 24316,
+      "PowerShell": 15756,
+      "JavaScript": 13963,
+      "Batchfile": 13120,
+      "Makefile": 6366,
+      "HTML": 1301
+    },
+    "inputs_prepared_at": "2026-09-08T20:30:15Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "ai-platforms",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "NVIDIA Personal AI Router (PAIR) is a local inference router that pairs multiple Windows/Linux/macOS machines on a home network and routes each independent inference request to whichever paired node has a compatible engine, the requested model, and available capacity. It presents Ollama-compatible and OpenAI-compatible proxy endpoints so existing apps and agents work unchanged, can auto-install and manage the Ollama or LM Studio engines on each node, and ships as a signed cross-platform desktop app (Electron front end, Go services, native macOS/Windows privileged helpers) plus a terminal interface for headless machines. It targets home-lab users running concurrent local LLM workloads, such as multi-agent applications, who want to pool spare GPU machines without prompts or models leaving the LAN; it explicitly does not shard a model or pool GPU memory across nodes.",
+    "keywords": [
+      "electron",
+      "home-network",
+      "inference-routing",
+      "lm-studio",
+      "load-balancing",
+      "local-llm",
+      "nvidia",
+      "ollama",
+      "openai-compatible"
+    ],
+    "use_cases": [
+      {
+        "title": "Route local LLM requests across multiple home-network machines by availability",
+        "keywords": [
+          "home-network",
+          "inference-routing"
+        ]
+      },
+      {
+        "title": "Keep prompts and models entirely on the local network instead of the cloud",
+        "keywords": [
+          "local-llm",
+          "privacy"
+        ]
+      },
+      {
+        "title": "Point an existing Ollama- or OpenAI-compatible client at a pooled multi-machine backend",
+        "keywords": [
+          "ollama",
+          "openai-compatible"
+        ]
+      },
+      {
+        "title": "Run concurrent multi-agent workloads across spare home GPUs",
+        "keywords": [
+          "load-balancing",
+          "multi-agent"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-09-08T20:34:04Z",
+    "model": "claude-code/sonnet-5"
+  },
+  "status": "classified"
 }

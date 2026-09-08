@@ -5,7 +5,11 @@
     "created_at": "2026-09-07T03:56:11Z",
     "default_branch": "main",
     "pushed_at": "2026-09-04T14:01:39Z",
-    "actions": {}
+    "actions": {
+      "enabled": true,
+      "scheduled_runs": 0,
+      "failing_scheduled": []
+    }
   },
   "relation": "fork",
   "upstream": {
@@ -42,11 +46,63 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:29Z",
-    "metadata_refreshed_at": "2026-09-08T20:21:29Z",
-    "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "metadata_refreshed_at": "2026-09-08T20:27:20Z",
+    "actions_checked_at": "2026-09-08T20:27:20Z",
+    "signals": [
+      "python"
+    ],
+    "languages": {
+      "Python": 1604279,
+      "HTML": 134604,
+      "CSS": 88110,
+      "Inno Setup": 56752,
+      "PowerShell": 36009
+    },
+    "inputs_prepared_at": "2026-09-08T20:30:12Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "misc",
+    "proposed_domain": "file-conversion-utility",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "File Converter Pro is a free, fully offline Windows desktop app (Python + PySide6) that converts documents, images, audio, and video locally with no uploads, no internet requirement, and no telemetry. It bundles batch conversion, a Windows right-click context-menu integration, folder-watch automation and scheduled tasks running as a background daemon, a stats dashboard, gamified achievements, dark/light theming, and community-contributed language packs, packaged as a signed installer/portable build via PyInstaller and Inno Setup. It targets everyday Windows users who want a private, all-in-one converter instead of browser-based conversion sites; a solo-developer project distributed on GitHub and itch.io.",
+    "keywords": [
+      "batch-processing",
+      "desktop-app",
+      "document-conversion",
+      "file-conversion",
+      "offline",
+      "privacy",
+      "pyside6",
+      "python",
+      "windows"
+    ],
+    "use_cases": [
+      {
+        "title": "Convert documents, images, audio, or video offline on Windows without uploading files",
+        "keywords": [
+          "file-conversion",
+          "offline"
+        ]
+      },
+      {
+        "title": "Batch-convert a folder of files via a right-click context menu",
+        "keywords": [
+          "batch-processing",
+          "windows"
+        ]
+      },
+      {
+        "title": "Automate recurring conversions with watch-folders and scheduled tasks",
+        "keywords": [
+          "automation",
+          "file-conversion"
+        ]
+      }
+    ],
+    "confidence": 0.6,
+    "classified_at": "2026-09-08T20:34:04Z",
+    "model": "claude-code/sonnet-5"
+  },
+  "status": "classified"
 }
