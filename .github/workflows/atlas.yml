@@ -43,7 +43,9 @@ jobs:
         if: github.event_name != 'push'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/discover.py --user ${{ github.repository_owner }}
+        # --no-probe-actions: GITHUB_TOKEN is scoped to this repo and cannot read other repos'
+        # Actions settings (403). The Actions probe runs from local PAT-backed refreshes instead.
+        run: python scripts/discover.py --user ${{ github.repository_owner }} --no-probe-actions
       - name: Build matrix
         run: python scripts/build.py
       - name: Commit changes (scheduled/manual runs only)

@@ -12,7 +12,7 @@
 
 | Thing | How | When | Where to look if it stops |
 |---|---|---|---|
-| Discover new forks, refresh stars/pushed/archived, rebuild matrix + MATRIX.md + CSV, deploy Pages | GitHub Action `atlas.yml` (holds only `GITHUB_TOKEN`) | nightly 06:17 UTC, on every push, or **Actions → Run workflow** | https://github.com/tbalt88/fork-atlas/actions — GitHub emails you on failure |
+| Discover new forks, refresh stars/pushed/archived, rebuild matrix + MATRIX.md + CSV, deploy Pages | GitHub Action `atlas.yml` (holds only `GITHUB_TOKEN`; runs `discover.py --no-probe-actions` — the per-fork Actions probe needs a PAT with admin on the forks, so it only refreshes during local runs; fixed 2026-09-08 after 10 nights of 75-min stalls on a 403 misread as a rate limit) | nightly 06:17 UTC, on every push, or **Actions → Run workflow** | https://github.com/tbalt88/fork-atlas/actions — GitHub emails you on failure |
 | Board snapshot push (`site/board.snapshot.json`) | Mac mini `~/.config/obsidian-second-brain/vault-autopush.sh` → `push_board_snapshot()` (Claude Code SessionEnd hook + launchd `io.dexevo.secondbrain.autopush` daily 22:40; skips when board sha unchanged, state in `fork-atlas-board.sha`; done 2026-08-18, Memory Bridge `7375ade0…` archived) | after board regeneration | `/tmp/vault-autopush.log` on the Mac mini; assistant page label `snapshot · <date>` goes stale → see prompts below |
 | Provider auto-detect (Ollama on the machine you're on) | the page, on load | every load | ⚙ Providers → Detect models |
 | Private repos merged into search (if a token is saved in that browser) | the page, on load, GitHub API + ETag cache | every load | keeper tile *private repos (live)* + hint |

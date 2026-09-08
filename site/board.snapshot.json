@@ -1,7 +1,7 @@
 {
  "source": "tbalt88/second-brain:Boards/Projects.md",
  "sha": "59df257268fa590228daab9284c528d1c858192e",
- "fetched_at": "2026-08-28T02:32:07Z",
- "fetched_via": "mac-mini autopush",
+ "fetched_at": "2026-09-08T20:20:02Z",
+ "fetched_via": "gh api contents (windows laptop; vault-bridge not mounted in this session)",
  "markdown": "---\n\nkanban-plugin: board\n\n---\n\n> [!info] AUTO-GENERATED from `Projects/*.md` frontmatter by `scripts/gen_projects_board.py`.\n> To move a card, change `status:` in the project note — never edit cards here (regeneration overwrites).\n\n## 🟡 Active\n\n- [ ] **[[DVerse v2]]** · `v2-closed` · 3 open\n- [ ] **[[DexEvo Site Design]]** · `active`\n- [ ] **[[DexEvo Site]]** · `active`\n- [ ] **[[DexEvo Travel]]** · `v2-closed` · 12 open · travel.dexevo.io\n- [ ] **[[Dexevo Launch Marketing Plan]]** · `active` · 13 open\n- [ ] **[[Dexevo Marketing]]** · `active` · 4 open\n- [ ] **[[Dexter Command Center]]** · `active` · 5 open\n- [ ] **[[Fork Atlas]]** · `active`\n- [ ] **[[Omni Channel]]** · `research`\n- [ ] **[[Tristan]]** · `active` · 6 open\n\n## 🚀 Shipped\n\n- [ ] **[[Auction Scanner]]** · `phase-2a-shipped` · 4 open · scanner.dexevo.io\n- [ ] **[[Dex Fabric]]** · `shipped`\n\n## ✅ Closed\n\n- [x] **[[Agentic CRM Support Architecture]]** · `completed`\n\n## 💤 Parked\n\n\n"
 }

@@ -6,7 +6,7 @@
 
 Never touches `classification` on existing records.
 
-Usage: python scripts/discover.py [--user tbalt88] [--limit N]
+Usage: python scripts/discover.py [--user tbalt88] [--limit N] [--no-probe-actions] [--recheck-actions]
 """
 from __future__ import annotations
 
@@ -42,10 +42,14 @@ def upstream_block(parent: dict | None) -> dict:
     }
 
 
-def actions_block(full: str) -> dict:
+def actions_block(full: str) -> dict | None:
     """Are upstream workflows running on MY fork? (cron runs on forks = noise + failure emails).
-    Cheap: 2 calls. actions_enabled from repo permissions; scheduled = count of schedule-triggered runs."""
-    perm = gh_get(f"/repos/{full}/actions/permissions") or {}
+    Cheap: 2 calls. actions_enabled from repo permissions; scheduled = count of schedule-triggered runs.
+    Returns None when the token cannot read the repo's Actions settings (needs admin on that repo;
+    the nightly Action's GITHUB_TOKEN only has it for fork-atlas itself) -> caller keeps prior data."""
+    perm = gh_get(f"/repos/{full}/actions/permissions")
+    if perm is None:
+        return None
     enabled = bool(perm.get("enabled", False))
     out = {"enabled": enabled, "scheduled_runs": 0, "failing_scheduled": [], "checked_at": now_iso()}
     if enabled:
@@ -60,6 +64,9 @@ def main() -> int:
     ap.add_argument("--user", default="tbalt88")
     ap.add_argument("--limit", type=int, default=0, help="stop after N forks (debug)")
     ap.add_argument("--recheck-actions", action="store_true", help="re-probe Actions state on every fork now (default: weekly)")
+    ap.add_argument("--probe-actions", action=argparse.BooleanOptionalAction, default=True,
+                    help="probe each fork's Actions settings (needs a PAT with admin on the forks; "
+                         "the nightly Action passes --no-probe-actions because GITHUB_TOKEN cannot)")
     ap.add_argument("--include-owned", action=argparse.BooleanOptionalAction, default=True,
                     help="also catalog the user's own PUBLIC non-fork repos as relation=owner (default: on)")
     args = ap.parse_args()
@@ -110,13 +117,18 @@ def main() -> int:
         # under GITHUB_TOKEN's 1000 req/hour in the nightly run.
         prev = existing.get(full)
         prev_checked = (prev or {}).get("meta", {}).get("actions_checked_at")
-        if prev and prev_checked and (datetime.now(timezone.utc) - datetime.fromisoformat(prev_checked.replace("Z", "+00:00"))).days < 7 and not args.recheck_actions:
-            fork_block["actions"] = prev["fork"].get("actions", {})
-            actions_checked_at = prev_checked
-        else:
+        fresh = bool(prev_checked) and (datetime.now(timezone.utc) - datetime.fromisoformat(prev_checked.replace("Z", "+00:00"))).days < 7
+        actions = None
+        if args.probe_actions and (args.recheck_actions or not (prev and fresh)):
             actions = actions_block(full)
+        if actions is not None:
             fork_block["actions"] = {k: v for k, v in actions.items() if k != "checked_at"}
             actions_checked_at = actions["checked_at"]
+        else:
+            # probe skipped or not permitted: carry the last known state forward untouched
+            # (checked_at stays old, so the next PAT-backed local run re-probes it)
+            fork_block["actions"] = (prev or {}).get("fork", {}).get("actions", {})
+            actions_checked_at = prev_checked
 
         if full in existing:
             rec = existing[full]

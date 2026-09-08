@@ -69,13 +69,24 @@ def gh_get(path: str, params: dict | None = None, raw: bool = False, accept: str
             if e.code == 404:
                 return None
             if e.code in (403, 429):
-                reset = e.headers.get("X-RateLimit-Reset")
-                wait = 60
-                if reset:
-                    wait = max(5, min(900, int(reset) - int(time.time()) + 2))
-                print(f"  rate-limited on {path}; sleeping {wait}s", file=sys.stderr)
-                time.sleep(wait)
-                continue
+                # Only a real rate limit is worth sleeping on: 429, primary limit exhausted
+                # (X-RateLimit-Remaining: 0) or a secondary limit (Retry-After). Any other 403 is
+                # a permission denial (e.g. the workflow's GITHUB_TOKEN probing another repo's
+                # Actions settings) -> treat like 404 so callers degrade instead of stalling 75 min.
+                remaining = e.headers.get("X-RateLimit-Remaining")
+                retry_after = e.headers.get("Retry-After")
+                if e.code == 429 or remaining == "0" or retry_after:
+                    reset = e.headers.get("X-RateLimit-Reset")
+                    wait = 60
+                    if retry_after and retry_after.isdigit():
+                        wait = max(5, min(900, int(retry_after) + 1))
+                    elif reset:
+                        wait = max(5, min(900, int(reset) - int(time.time()) + 2))
+                    print(f"  rate-limited on {path}; sleeping {wait}s", file=sys.stderr)
+                    time.sleep(wait)
+                    continue
+                print(f"  forbidden (token lacks permission) on {path}; treating as unavailable", file=sys.stderr)
+                return None
             if e.code >= 500:
                 time.sleep(2 * (attempt + 1))
                 continue
