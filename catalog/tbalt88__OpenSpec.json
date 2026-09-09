@@ -15,10 +15,10 @@
     "full_name": "Fission-AI/OpenSpec",
     "url": "https://github.com/Fission-AI/OpenSpec",
     "description": "Spec-driven development (SDD) for AI coding assistants.",
-    "stars": 67664,
-    "forks": 4650,
-    "watchers": 280,
-    "open_issues": 239,
+    "stars": 67740,
+    "forks": 4654,
+    "watchers": 281,
+    "open_issues": 241,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:39Z",
-    "metadata_refreshed_at": "2026-09-08T20:23:39Z",
+    "metadata_refreshed_at": "2026-09-09T11:31:17Z",
     "signals": [
       "claude-skill",
       "gh-actions",

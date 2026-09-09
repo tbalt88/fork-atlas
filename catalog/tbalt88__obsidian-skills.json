@@ -15,10 +15,10 @@
     "full_name": "kepano/obsidian-skills",
     "url": "https://github.com/kepano/obsidian-skills",
     "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
-    "stars": 48046,
-    "forks": 3434,
-    "watchers": 250,
-    "open_issues": 70,
+    "stars": 48063,
+    "forks": 3436,
+    "watchers": 249,
+    "open_issues": 71,
     "language": null,
     "topics": [
       "agents",
@@ -48,7 +48,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-09-08T20:28:10Z",
+    "metadata_refreshed_at": "2026-09-09T11:30:17Z",
     "signals": [
       "claude-skill"
     ],

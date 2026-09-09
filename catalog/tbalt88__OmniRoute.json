@@ -15,10 +15,10 @@
     "full_name": "diegosouzapw/OmniRoute",
     "url": "https://github.com/diegosouzapw/OmniRoute",
     "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
-    "stars": 62932,
-    "forks": 8795,
-    "watchers": 367,
-    "open_issues": 545,
+    "stars": 63207,
+    "forks": 8830,
+    "watchers": 365,
+    "open_issues": 588,
     "language": "TypeScript",
     "topics": [
       "a2a",
@@ -46,13 +46,13 @@
     "homepage": "https://omniroute.online",
     "default_branch": "release/v3.8.51",
     "created_at": "2026-02-13T12:38:31Z",
-    "pushed_at": "2026-09-08T12:31:33Z",
+    "pushed_at": "2026-09-09T10:34:32Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:09Z",
-    "metadata_refreshed_at": "2026-09-08T20:28:03Z",
+    "metadata_refreshed_at": "2026-09-09T11:30:11Z",
     "signals": [
       "claude-md",
       "gh-actions",

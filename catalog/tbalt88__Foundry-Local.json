@@ -18,7 +18,7 @@
     "stars": 2543,
     "forks": 364,
     "watchers": 76,
-    "open_issues": 105,
+    "open_issues": 107,
     "language": "C++",
     "topics": [
       "ai-sdk",
@@ -36,13 +36,13 @@
     "homepage": "https://foundrylocal.ai",
     "default_branch": "main",
     "created_at": "2025-03-31T21:51:15Z",
-    "pushed_at": "2026-09-08T20:06:28Z",
+    "pushed_at": "2026-09-09T07:40:47Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:11Z",
-    "metadata_refreshed_at": "2026-09-08T20:24:12Z",
+    "metadata_refreshed_at": "2026-09-09T11:31:42Z",
     "signals": [
       "gh-actions"
     ],

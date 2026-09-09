@@ -18,20 +18,20 @@
     "stars": 660,
     "forks": 174,
     "watchers": 19,
-    "open_issues": 117,
+    "open_issues": 123,
     "language": "C#",
     "topics": [],
     "license": "MIT",
     "homepage": null,
     "default_branch": "main",
     "created_at": "2024-01-31T16:31:33Z",
-    "pushed_at": "2026-09-08T04:29:59Z",
+    "pushed_at": "2026-09-09T11:28:07Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:30Z",
-    "metadata_refreshed_at": "2026-09-08T20:23:32Z",
+    "metadata_refreshed_at": "2026-09-09T11:31:11Z",
     "signals": [
       "claude-skill",
       "gh-actions"

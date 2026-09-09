@@ -15,9 +15,9 @@
     "full_name": "luongnv89/claude-howto",
     "url": "https://github.com/luongnv89/claude-howto",
     "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-    "stars": 41413,
-    "forks": 5077,
-    "watchers": 190,
+    "stars": 41412,
+    "forks": 5081,
+    "watchers": 189,
     "open_issues": 30,
     "language": "Python",
     "topics": [
@@ -35,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:36Z",
-    "metadata_refreshed_at": "2026-09-08T20:22:45Z",
+    "metadata_refreshed_at": "2026-09-09T11:30:37Z",
     "signals": [
       "claude-skill",
       "gh-actions"

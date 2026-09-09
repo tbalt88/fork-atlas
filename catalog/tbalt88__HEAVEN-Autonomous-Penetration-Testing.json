@@ -41,13 +41,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2026-05-05T15:30:45Z",
-    "pushed_at": "2026-09-06T17:25:59Z",
+    "pushed_at": "2026-09-09T09:02:28Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:44Z",
-    "metadata_refreshed_at": "2026-09-08T20:21:47Z",
+    "metadata_refreshed_at": "2026-09-09T11:29:52Z",
     "signals": [
       "docker",
       "gh-actions",

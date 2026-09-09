@@ -16,8 +16,8 @@
     "full_name": "D4Vinci/Scrapling",
     "url": "https://github.com/D4Vinci/Scrapling",
     "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-    "stars": 79387,
-    "forks": 7979,
+    "stars": 79515,
+    "forks": 7992,
     "watchers": 289,
     "open_issues": 15,
     "language": "Python",
@@ -53,7 +53,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:32Z",
-    "metadata_refreshed_at": "2026-09-08T20:27:25Z",
+    "metadata_refreshed_at": "2026-09-09T11:29:40Z",
     "actions_checked_at": "2026-09-08T20:27:25Z",
     "signals": [
       "claude-skill",
