@@ -16,7 +16,7 @@
     "url": "https://github.com/cablate/Claude-Code-Board",
     "description": "Use Claude Code on Kanban WebUI",
     "stars": 155,
-    "forks": 24,
+    "forks": 25,
     "watchers": 3,
     "open_issues": 0,
     "language": "TypeScript",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:49Z",
-    "metadata_refreshed_at": "2026-09-08T20:23:50Z",
+    "metadata_refreshed_at": "2026-09-10T11:27:37Z",
     "signals": [
       "docker",
       "node",

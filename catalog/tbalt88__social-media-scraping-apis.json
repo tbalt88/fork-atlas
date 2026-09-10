@@ -15,8 +15,8 @@
     "full_name": "cporter202/social-media-scraping-apis",
     "url": "https://github.com/cporter202/social-media-scraping-apis",
     "description": "A curated collection of social media scraping APIs and tools for Instagram, LinkedIn, Twitter/X, TikTok, YouTube, Facebook, and more. Extract posts, profiles, videos, comments, and engagement metrics.",
-    "stars": 2216,
-    "forks": 452,
+    "stars": 2215,
+    "forks": 451,
     "watchers": 27,
     "open_issues": 2,
     "language": "JavaScript",
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:44Z",
-    "metadata_refreshed_at": "2026-09-09T11:31:21Z",
+    "metadata_refreshed_at": "2026-09-10T11:27:34Z",
     "signals": [],
     "languages": {
       "JavaScript": 27243

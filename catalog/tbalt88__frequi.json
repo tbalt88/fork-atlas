@@ -32,13 +32,13 @@
     "homepage": "https://github.com/freqtrade/freqtrade",
     "default_branch": "main",
     "created_at": "2020-05-14T09:18:16Z",
-    "pushed_at": "2026-09-09T04:53:28Z",
+    "pushed_at": "2026-09-10T04:39:41Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:59Z",
-    "metadata_refreshed_at": "2026-09-09T11:30:03Z",
+    "metadata_refreshed_at": "2026-09-10T11:26:30Z",
     "signals": [
       "docker",
       "gh-actions",

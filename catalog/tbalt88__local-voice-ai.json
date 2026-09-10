@@ -16,7 +16,7 @@
     "url": "https://github.com/ShayneP/local-voice-ai",
     "description": "Local voice AI powered by llama-cpp, Kokoro, Nemotron STT, and LiveKit.",
     "stars": 712,
-    "forks": 210,
+    "forks": 211,
     "watchers": 13,
     "open_issues": 4,
     "language": "Python",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:57Z",
-    "metadata_refreshed_at": "2026-09-09T11:31:31Z",
+    "metadata_refreshed_at": "2026-09-10T11:27:43Z",
     "signals": [
       "docker",
       "gh-actions",

@@ -15,7 +15,7 @@
     "full_name": "nishu2402/HEAVEN-Autonomous-Penetration-Testing",
     "url": "https://github.com/nishu2402/HEAVEN-Autonomous-Penetration-Testing",
     "description": "☠️ Advanced autonomous penetration testing framework. Automates web, network, and cloud vulnerability scanning with contextual CVSS scoring, AI-driven attack planning, and compliance reporting.",
-    "stars": 90,
+    "stars": 91,
     "forks": 22,
     "watchers": 2,
     "open_issues": 0,
@@ -41,13 +41,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2026-05-05T15:30:45Z",
-    "pushed_at": "2026-09-09T09:02:28Z",
+    "pushed_at": "2026-09-10T08:57:54Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:44Z",
-    "metadata_refreshed_at": "2026-09-09T11:29:52Z",
+    "metadata_refreshed_at": "2026-09-10T11:26:21Z",
     "signals": [
       "docker",
       "gh-actions",

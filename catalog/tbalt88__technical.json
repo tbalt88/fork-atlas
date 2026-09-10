@@ -18,7 +18,7 @@
     "stars": 1033,
     "forks": 249,
     "watchers": 44,
-    "open_issues": 7,
+    "open_issues": 5,
     "language": "Python",
     "topics": [
       "dataframe",
@@ -36,7 +36,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:58Z",
-    "metadata_refreshed_at": "2026-09-09T11:30:02Z",
+    "metadata_refreshed_at": "2026-09-10T11:26:29Z",
     "signals": [
       "gh-actions",
       "python"
