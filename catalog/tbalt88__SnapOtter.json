@@ -16,10 +16,10 @@
     "full_name": "snapotter-hq/SnapOtter",
     "url": "https://github.com/snapotter-hq/SnapOtter",
     "description": "Open-source, self-hosted file-processing tool. Convert, compress, OCR, transcribe & run local AI across image, video, audio, PDF & documents, via UI, REST API & pipelines. Your files never leave your network.",
-    "stars": 2605,
+    "stars": 2628,
     "forks": 133,
     "watchers": 6,
-    "open_issues": 129,
+    "open_issues": 143,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -47,13 +47,13 @@
     "homepage": "https://snapotter.com",
     "default_branch": "main",
     "created_at": "2026-03-29T15:33:21Z",
-    "pushed_at": "2026-09-08T16:18:33Z",
+    "pushed_at": "2026-09-11T09:25:29Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:28Z",
-    "metadata_refreshed_at": "2026-09-10T11:26:09Z",
+    "metadata_refreshed_at": "2026-09-11T11:28:09Z",
     "actions_checked_at": "2026-09-08T20:27:19Z",
     "signals": [
       "gh-actions"

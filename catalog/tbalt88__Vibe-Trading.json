@@ -15,10 +15,10 @@
     "full_name": "HKUDS/Vibe-Trading",
     "url": "https://github.com/HKUDS/Vibe-Trading",
     "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-    "stars": 33172,
-    "forks": 5404,
-    "watchers": 176,
-    "open_issues": 4,
+    "stars": 33234,
+    "forks": 5413,
+    "watchers": 175,
+    "open_issues": 18,
     "language": "Python",
     "topics": [
       "ai-agent",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:51Z",
-    "metadata_refreshed_at": "2026-09-10T11:27:04Z",
+    "metadata_refreshed_at": "2026-09-11T11:29:22Z",
     "signals": [
       "claude-skill",
       "docker",

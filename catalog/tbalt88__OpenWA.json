@@ -15,8 +15,8 @@
     "full_name": "rmyndharis/OpenWA",
     "url": "https://github.com/rmyndharis/OpenWA",
     "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
-    "stars": 13998,
-    "forks": 3256,
+    "stars": 14030,
+    "forks": 3267,
     "watchers": 77,
     "open_issues": 13,
     "language": "TypeScript",
@@ -44,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:39Z",
-    "metadata_refreshed_at": "2026-09-10T11:26:58Z",
+    "metadata_refreshed_at": "2026-09-11T11:29:14Z",
     "signals": [
       "docker",
       "gh-actions",

@@ -15,9 +15,9 @@
     "full_name": "ultraworkers/claw-code",
     "url": "https://github.com/ultraworkers/claw-code",
     "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
-    "stars": 195195,
-    "forks": 108610,
-    "watchers": 1923,
+    "stars": 195201,
+    "forks": 108590,
+    "watchers": 1921,
     "open_issues": 42,
     "language": "Rust",
     "topics": [],
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:36Z",
-    "metadata_refreshed_at": "2026-09-10T11:26:56Z",
+    "metadata_refreshed_at": "2026-09-11T11:29:11Z",
     "signals": [
       "claude-md",
       "docker",

@@ -15,10 +15,10 @@
     "full_name": "msitarzewski/agency-agents",
     "url": "https://github.com/msitarzewski/agency-agents",
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "stars": 151443,
-    "forks": 24371,
-    "watchers": 1106,
-    "open_issues": 142,
+    "stars": 151649,
+    "forks": 24427,
+    "watchers": 1108,
+    "open_issues": 144,
     "language": "Shell",
     "topics": [],
     "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:00Z",
-    "metadata_refreshed_at": "2026-09-10T11:27:08Z",
+    "metadata_refreshed_at": "2026-09-11T11:29:27Z",
     "signals": [
       "gh-actions"
     ],

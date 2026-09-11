@@ -15,10 +15,10 @@
     "full_name": "usememos/memos",
     "url": "https://github.com/usememos/memos",
     "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
-    "stars": 62888,
-    "forks": 4734,
+    "stars": 62912,
+    "forks": 4737,
     "watchers": 188,
-    "open_issues": 67,
+    "open_issues": 68,
     "language": "Go",
     "topics": [
       "docker",
@@ -39,13 +39,13 @@
     "homepage": "https://usememos.com",
     "default_branch": "main",
     "created_at": "2021-12-08T15:30:18Z",
-    "pushed_at": "2026-09-10T01:31:45Z",
+    "pushed_at": "2026-09-10T15:26:03Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:33Z",
-    "metadata_refreshed_at": "2026-09-10T11:26:51Z",
+    "metadata_refreshed_at": "2026-09-11T11:29:05Z",
     "signals": [
       "gh-actions",
       "go"
