@@ -16,10 +16,10 @@
     "full_name": "diffusionstudio/editor",
     "url": "https://github.com/diffusionstudio/editor",
     "description": "An open-source video editor built for agents. Edits become code, code becomes video.",
-    "stars": 2645,
-    "forks": 228,
+    "stars": 2661,
+    "forks": 234,
     "watchers": 7,
-    "open_issues": 22,
+    "open_issues": 23,
     "language": "TypeScript",
     "topics": [],
     "license": "MPL-2.0",
@@ -32,7 +32,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:33Z",
-    "metadata_refreshed_at": "2026-09-11T11:28:13Z",
+    "metadata_refreshed_at": "2026-09-12T10:52:53Z",
     "actions_checked_at": "2026-09-08T20:27:26Z",
     "signals": [
       "gh-actions",

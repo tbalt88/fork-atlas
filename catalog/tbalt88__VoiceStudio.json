@@ -15,10 +15,10 @@
     "full_name": "debpalash/VoiceStudio",
     "url": "https://github.com/debpalash/VoiceStudio",
     "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "stars": 22415,
-    "forks": 2761,
+    "stars": 22716,
+    "forks": 2796,
     "watchers": 91,
-    "open_issues": 10,
+    "open_issues": 18,
     "language": "Python",
     "topics": [
       "ai",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:37Z",
-    "metadata_refreshed_at": "2026-09-11T11:29:12Z",
+    "metadata_refreshed_at": "2026-09-12T10:53:35Z",
     "signals": [
       "claude-md",
       "claude-skill",

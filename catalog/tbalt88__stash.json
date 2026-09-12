@@ -18,7 +18,7 @@
     "stars": 332,
     "forks": 52,
     "watchers": 3,
-    "open_issues": 54,
+    "open_issues": 55,
     "language": "Python",
     "topics": [
       "agent-collaboration",
@@ -51,7 +51,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-09-08T20:22:20Z",
+    "metadata_refreshed_at": "2026-09-12T10:53:21Z",
     "signals": [
       "claude-md",
       "docker",

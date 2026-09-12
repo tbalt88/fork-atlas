@@ -15,10 +15,10 @@
     "full_name": "mem0ai/mem0",
     "url": "https://github.com/mem0ai/mem0",
     "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
-    "stars": 65113,
-    "forks": 7623,
+    "stars": 65162,
+    "forks": 7628,
     "watchers": 248,
-    "open_issues": 744,
+    "open_issues": 738,
     "language": "Python",
     "topics": [
       "agentic-memory",
@@ -40,13 +40,13 @@
     "homepage": "https://mem0.ai",
     "default_branch": "main",
     "created_at": "2023-06-20T08:58:36Z",
-    "pushed_at": "2026-09-11T10:43:07Z",
+    "pushed_at": "2026-09-11T15:36:33Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:25Z",
-    "metadata_refreshed_at": "2026-09-11T11:29:44Z",
+    "metadata_refreshed_at": "2026-09-12T10:53:57Z",
     "signals": [
       "claude-md",
       "gh-actions",
