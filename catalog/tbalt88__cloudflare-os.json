@@ -15,10 +15,10 @@
     "full_name": "cloudflare/cloudflare-os",
     "url": "https://github.com/cloudflare/cloudflare-os",
     "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
-    "stars": 9848,
-    "forks": 1178,
+    "stars": 9862,
+    "forks": 1183,
     "watchers": 41,
-    "open_issues": 118,
+    "open_issues": 119,
     "language": "TypeScript",
     "topics": [],
     "license": "Apache-2.0",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:47Z",
-    "metadata_refreshed_at": "2026-09-12T10:53:03Z",
+    "metadata_refreshed_at": "2026-09-13T11:58:42Z",
     "signals": [
       "claude-skill",
       "gh-actions",

@@ -17,7 +17,7 @@
     "description": " Open-source framework for conversational voice AI agents",
     "stars": 11120,
     "forks": 1360,
-    "watchers": 72,
+    "watchers": 71,
     "open_issues": 238,
     "language": "Python",
     "topics": [
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:29Z",
-    "metadata_refreshed_at": "2026-09-12T10:53:59Z",
+    "metadata_refreshed_at": "2026-09-13T12:00:54Z",
     "signals": [
       "claude-md",
       "docker",

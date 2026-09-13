@@ -15,10 +15,10 @@
     "full_name": "microsoft/autogen",
     "url": "https://github.com/microsoft/autogen",
     "description": "A programming framework for agentic AI",
-    "stars": 60940,
+    "stars": 60963,
     "forks": 9207,
     "watchers": 531,
-    "open_issues": 1065,
+    "open_issues": 1066,
     "language": "Python",
     "topics": [
       "agentic",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:26Z",
-    "metadata_refreshed_at": "2026-09-12T10:54:29Z",
+    "metadata_refreshed_at": "2026-09-13T12:02:06Z",
     "signals": [
       "docker",
       "gh-actions"
