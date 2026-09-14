@@ -15,7 +15,7 @@
     "full_name": "adithya-s-k/omniparse",
     "url": "https://github.com/adithya-s-k/omniparse",
     "description": "Ingest, parse, and optimize any data format ➡️ from documents to multimedia ➡️ for enhanced compatibility with GenAI frameworks",
-    "stars": 7929,
+    "stars": 7927,
     "forks": 676,
     "watchers": 48,
     "open_issues": 75,
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:32Z",
-    "metadata_refreshed_at": "2026-09-13T11:59:45Z",
+    "metadata_refreshed_at": "2026-09-14T12:56:31Z",
     "signals": [
       "docker",
       "gh-actions",

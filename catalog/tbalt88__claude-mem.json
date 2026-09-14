@@ -15,10 +15,10 @@
     "full_name": "thedotmack/claude-mem",
     "url": "https://github.com/thedotmack/claude-mem",
     "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-    "stars": 93777,
-    "forks": 8251,
-    "watchers": 299,
-    "open_issues": 171,
+    "stars": 93835,
+    "forks": 8254,
+    "watchers": 298,
+    "open_issues": 182,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:26Z",
-    "metadata_refreshed_at": "2026-09-13T12:00:51Z",
+    "metadata_refreshed_at": "2026-09-14T12:57:01Z",
     "signals": [
       "claude-md",
       "docker",

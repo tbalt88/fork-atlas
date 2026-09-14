@@ -15,10 +15,10 @@
     "full_name": "agent-infra/sandbox",
     "url": "https://github.com/agent-infra/sandbox",
     "description": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.",
-    "stars": 5904,
+    "stars": 5906,
     "forks": 529,
     "watchers": 32,
-    "open_issues": 72,
+    "open_issues": 71,
     "language": "Python",
     "topics": [
       "agent",
@@ -33,13 +33,13 @@
     "homepage": "https://sandbox.agent-infra.com",
     "default_branch": "main",
     "created_at": "2025-08-06T14:51:05Z",
-    "pushed_at": "2026-09-11T12:14:19Z",
+    "pushed_at": "2026-09-14T08:47:20Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:23Z",
-    "metadata_refreshed_at": "2026-09-13T11:59:33Z",
+    "metadata_refreshed_at": "2026-09-14T12:56:27Z",
     "signals": [
       "docker",
       "gh-actions",

@@ -16,7 +16,7 @@
     "full_name": "EliaAlberti/dcode-agent-kit",
     "url": "https://github.com/EliaAlberti/dcode-agent-kit",
     "description": "A Claude Code skill that scaffolds ready-to-run LangChain Deep Agents and dcode CLI agents into any project.",
-    "stars": 58,
+    "stars": 57,
     "forks": 12,
     "watchers": 0,
     "open_issues": 0,
@@ -43,7 +43,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:25Z",
-    "metadata_refreshed_at": "2026-09-03T17:26:25Z",
+    "metadata_refreshed_at": "2026-09-14T12:55:58Z",
     "actions_checked_at": "2026-09-03T17:26:25Z",
     "signals": [
       "claude-md",

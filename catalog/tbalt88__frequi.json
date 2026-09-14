@@ -15,8 +15,8 @@
     "full_name": "freqtrade/frequi",
     "url": "https://github.com/freqtrade/frequi",
     "description": "Freqtrade UI - Frontend for Freqtrade",
-    "stars": 1073,
-    "forks": 464,
+    "stars": 1074,
+    "forks": 466,
     "watchers": 29,
     "open_issues": 15,
     "language": "Vue",
@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:59Z",
-    "metadata_refreshed_at": "2026-09-13T11:58:58Z",
+    "metadata_refreshed_at": "2026-09-14T12:56:10Z",
     "signals": [
       "docker",
       "gh-actions",

@@ -15,7 +15,7 @@
     "full_name": "ksm26/Multi-AI-Agent-Systems-with-crewAI",
     "url": "https://github.com/ksm26/Multi-AI-Agent-Systems-with-crewAI",
     "description": "Master the art of designing and organizing AI agents. Learn to automate complex, multi-step business processes by creating specialized AI agent teams using the open-source library crewAI.",
-    "stars": 166,
+    "stars": 167,
     "forks": 61,
     "watchers": 2,
     "open_issues": 1,
@@ -51,7 +51,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:46Z",
-    "metadata_refreshed_at": "2026-09-03T17:30:10Z",
+    "metadata_refreshed_at": "2026-09-14T12:57:12Z",
     "signals": [],
     "languages": {
       "Jupyter Notebook": 538748

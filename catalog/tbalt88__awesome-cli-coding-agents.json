@@ -15,10 +15,10 @@
     "full_name": "bradAGI/awesome-cli-coding-agents",
     "url": "https://github.com/bradAGI/awesome-cli-coding-agents",
     "description": "Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous loops, and agent infrastructure. ",
-    "stars": 1203,
-    "forks": 337,
+    "stars": 1208,
+    "forks": 340,
     "watchers": 12,
-    "open_issues": 10,
+    "open_issues": 12,
     "language": "Python",
     "topics": [],
     "license": null,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:35Z",
-    "metadata_refreshed_at": "2026-09-13T11:59:52Z",
+    "metadata_refreshed_at": "2026-09-14T12:56:36Z",
     "signals": [
       "gh-actions"
     ],
