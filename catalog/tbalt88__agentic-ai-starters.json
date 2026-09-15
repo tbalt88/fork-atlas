@@ -16,7 +16,7 @@
     "url": "https://github.com/cporter202/agentic-ai-starters",
     "description": "A practical collection of plug-and-play starter blueprints for building autonomous AI apps with real APIs. Discover ready-to-build agent workflows, API stacks, architecture patterns, prompts, and monetization ideas for research agents, lead gen systems, SEO automations, MCP toolchains, and more.",
     "stars": 278,
-    "forks": 78,
+    "forks": 79,
     "watchers": 1,
     "open_issues": 0,
     "language": null,
@@ -44,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:46Z",
-    "metadata_refreshed_at": "2026-09-13T12:00:06Z",
+    "metadata_refreshed_at": "2026-09-15T11:51:35Z",
     "signals": [],
     "languages": {},
     "inputs_prepared_at": "2026-08-18T02:14:53Z",

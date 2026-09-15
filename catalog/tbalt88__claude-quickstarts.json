@@ -15,10 +15,10 @@
     "full_name": "anthropics/claude-quickstarts",
     "url": "https://github.com/anthropics/claude-quickstarts",
     "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-    "stars": 17653,
-    "forks": 3031,
+    "stars": 17663,
+    "forks": 3032,
     "watchers": 175,
-    "open_issues": 217,
+    "open_issues": 218,
     "language": "TypeScript",
     "topics": [],
     "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:08Z",
-    "metadata_refreshed_at": "2026-09-14T12:56:51Z",
+    "metadata_refreshed_at": "2026-09-15T11:51:49Z",
     "signals": [
       "claude-md",
       "claude-skill",

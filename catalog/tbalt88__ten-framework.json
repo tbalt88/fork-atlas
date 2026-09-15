@@ -15,7 +15,7 @@
     "full_name": "TEN-framework/ten-framework",
     "url": "https://github.com/TEN-framework/ten-framework",
     "description": " Open-source framework for conversational voice AI agents",
-    "stars": 11124,
+    "stars": 11129,
     "forks": 1362,
     "watchers": 71,
     "open_issues": 238,
@@ -31,13 +31,13 @@
     "homepage": "https://agent.theten.ai/",
     "default_branch": "main",
     "created_at": "2024-06-19T14:26:15Z",
-    "pushed_at": "2026-09-14T08:21:31Z",
+    "pushed_at": "2026-09-15T09:58:22Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:29Z",
-    "metadata_refreshed_at": "2026-09-14T12:57:02Z",
+    "metadata_refreshed_at": "2026-09-15T11:52:05Z",
     "signals": [
       "claude-md",
       "docker",

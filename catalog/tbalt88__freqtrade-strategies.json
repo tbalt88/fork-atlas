@@ -15,7 +15,7 @@
     "full_name": "freqtrade/freqtrade-strategies",
     "url": "https://github.com/freqtrade/freqtrade-strategies",
     "description": "Free trading strategies for Freqtrade bot",
-    "stars": 5477,
+    "stars": 5481,
     "forks": 1443,
     "watchers": 173,
     "open_issues": 12,
@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:59Z",
-    "metadata_refreshed_at": "2026-09-14T12:56:10Z",
+    "metadata_refreshed_at": "2026-09-15T11:50:49Z",
     "signals": [],
     "languages": {
       "Python": 370085
