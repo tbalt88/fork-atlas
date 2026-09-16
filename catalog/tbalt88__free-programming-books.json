@@ -15,10 +15,10 @@
     "full_name": "EbookFoundation/free-programming-books",
     "url": "https://github.com/EbookFoundation/free-programming-books",
     "description": ":books: Freely available programming books",
-    "stars": 396809,
-    "forks": 66769,
-    "watchers": 9794,
-    "open_issues": 82,
+    "stars": 396938,
+    "forks": 66781,
+    "watchers": 9795,
+    "open_issues": 81,
     "language": "Python",
     "topics": [
       "books",
@@ -31,13 +31,13 @@
     "homepage": "https://ebookfoundation.github.io/free-programming-books/",
     "default_branch": "main",
     "created_at": "2013-10-11T06:50:37Z",
-    "pushed_at": "2026-09-14T14:39:47Z",
+    "pushed_at": "2026-09-15T15:54:40Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:13Z",
-    "metadata_refreshed_at": "2026-09-15T11:52:42Z",
+    "metadata_refreshed_at": "2026-09-16T11:44:30Z",
     "signals": [
       "gh-actions"
     ],

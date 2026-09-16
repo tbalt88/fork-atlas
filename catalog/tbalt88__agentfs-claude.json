@@ -15,7 +15,7 @@
     "full_name": "run-llama/agentfs-claude",
     "url": "https://github.com/run-llama/agentfs-claude",
     "description": "Run Claude Code/Codex within AgentFS, orchestrated by LlamaIndex Workflows",
-    "stars": 324,
+    "stars": 325,
     "forks": 30,
     "watchers": 6,
     "open_issues": 0,
@@ -36,7 +36,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:07Z",
-    "metadata_refreshed_at": "2026-09-13T12:01:41Z",
+    "metadata_refreshed_at": "2026-09-16T11:44:27Z",
     "signals": [
       "gh-actions",
       "node",

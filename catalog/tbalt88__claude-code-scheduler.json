@@ -15,7 +15,7 @@
     "full_name": "jshchnz/claude-code-scheduler",
     "url": "https://github.com/jshchnz/claude-code-scheduler",
     "description": "Put Claude on autopilot",
-    "stars": 511,
+    "stars": 512,
     "forks": 38,
     "watchers": 6,
     "open_issues": 1,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:21Z",
-    "metadata_refreshed_at": "2026-09-15T11:51:59Z",
+    "metadata_refreshed_at": "2026-09-16T11:44:00Z",
     "signals": [],
     "languages": {
       "TypeScript": 126920,

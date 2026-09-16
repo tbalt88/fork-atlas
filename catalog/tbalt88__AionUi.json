@@ -15,10 +15,10 @@
     "full_name": "iOfficeAI/AionUi",
     "url": "https://github.com/iOfficeAI/AionUi",
     "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
-    "stars": 32853,
-    "forks": 3393,
+    "stars": 32879,
+    "forks": 3395,
     "watchers": 147,
-    "open_issues": 906,
+    "open_issues": 914,
     "language": "TypeScript",
     "topics": [
       "acp",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:02Z",
-    "metadata_refreshed_at": "2026-09-15T11:50:52Z",
+    "metadata_refreshed_at": "2026-09-16T11:43:15Z",
     "signals": [
       "claude-md",
       "claude-skill",
