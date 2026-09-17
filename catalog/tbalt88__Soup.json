@@ -1,0 +1,59 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Soup",
+    "url": "https://github.com/tbalt88/Soup",
+    "created_at": "2026-09-16T23:29:42Z",
+    "default_branch": "main",
+    "pushed_at": "2026-09-16T11:01:49Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "MakazhanAlpamys/Soup",
+    "url": "https://github.com/MakazhanAlpamys/Soup",
+    "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+    "stars": 6738,
+    "forks": 1053,
+    "watchers": 49,
+    "open_issues": 142,
+    "language": "Python",
+    "topics": [
+      "cli",
+      "consumer-gpu",
+      "dpo",
+      "fine-tuning",
+      "gguf",
+      "huggingface",
+      "llm",
+      "llmops",
+      "local-ai",
+      "local-llm",
+      "lora",
+      "low-vram",
+      "machine-learning",
+      "ollama",
+      "peft",
+      "python",
+      "pytorch",
+      "qlora",
+      "sft",
+      "transformers"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://trysoup.dev",
+    "default_branch": "main",
+    "created_at": "2026-02-20T11:05:01Z",
+    "pushed_at": "2026-09-17T11:44:50Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-17T11:47:53Z",
+    "metadata_refreshed_at": "2026-09-17T11:47:53Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

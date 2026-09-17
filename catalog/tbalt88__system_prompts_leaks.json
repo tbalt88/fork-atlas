@@ -16,9 +16,9 @@
     "full_name": "asgeirtj/system_prompts_leaks",
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
     "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
-    "stars": 67302,
-    "forks": 10924,
-    "watchers": 753,
+    "stars": 67416,
+    "forks": 10941,
+    "watchers": 754,
     "open_issues": 54,
     "language": "JavaScript",
     "topics": [
@@ -53,7 +53,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:15Z",
-    "metadata_refreshed_at": "2026-09-16T11:42:58Z",
+    "metadata_refreshed_at": "2026-09-17T11:48:04Z",
     "actions_checked_at": "2026-09-03T17:26:15Z",
     "signals": [
       "claude-skill"
