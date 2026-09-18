@@ -15,8 +15,8 @@
     "full_name": "microsoft/skill-recorder",
     "url": "https://github.com/microsoft/skill-recorder",
     "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
-    "stars": 3968,
-    "forks": 409,
+    "stars": 3974,
+    "forks": 411,
     "watchers": 20,
     "open_issues": 35,
     "language": "TypeScript",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:04Z",
-    "metadata_refreshed_at": "2026-09-17T11:48:29Z",
+    "metadata_refreshed_at": "2026-09-18T11:22:48Z",
     "signals": [
       "gh-actions"
     ],

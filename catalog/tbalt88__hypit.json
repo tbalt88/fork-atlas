@@ -1,0 +1,59 @@
+{
+  "fork": {
+    "full_name": "tbalt88/hypit",
+    "url": "https://github.com/tbalt88/hypit",
+    "created_at": "2026-09-17T15:39:05Z",
+    "default_branch": "main",
+    "pushed_at": "2026-09-17T15:28:42Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "hypit-ai/hypit",
+    "url": "https://github.com/hypit-ai/hypit",
+    "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
+    "stars": 9662,
+    "forks": 1188,
+    "watchers": 17,
+    "open_issues": 7,
+    "language": "TypeScript",
+    "topics": [
+      "agentic-ai",
+      "ai",
+      "ai-agents",
+      "ai-video",
+      "compiler",
+      "dsl",
+      "ffmpeg",
+      "generative-ai",
+      "llm",
+      "markup-language",
+      "monorepo",
+      "plugin-system",
+      "programming-language",
+      "text-to-video",
+      "typescript",
+      "video",
+      "video-automation",
+      "video-clone",
+      "video-editing",
+      "video-generation"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://hypit.ai",
+    "default_branch": "main",
+    "created_at": "2026-07-29T18:49:19Z",
+    "pushed_at": "2026-09-18T10:06:11Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-18T11:22:23Z",
+    "metadata_refreshed_at": "2026-09-18T11:22:23Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

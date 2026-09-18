@@ -1,0 +1,51 @@
+{
+  "fork": {
+    "full_name": "tbalt88/hypitoken",
+    "url": "https://github.com/tbalt88/hypitoken",
+    "created_at": "2026-09-17T15:40:45Z",
+    "default_branch": "main",
+    "pushed_at": "2026-09-16T16:07:56Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "hypit-ai/hypitoken",
+    "url": "https://github.com/hypit-ai/hypitoken",
+    "description": "Multi-tenant LLM API gateway for Claude and Codex — single Go binary, USD wallet, Alipay top-up, per-token caps, status-page health, fumadocs-style /docs.",
+    "stars": 25,
+    "forks": 8,
+    "watchers": 1,
+    "open_issues": 3,
+    "language": "Go",
+    "topics": [
+      "alipay",
+      "anthropic",
+      "api-gateway",
+      "claude",
+      "codex",
+      "go",
+      "llm",
+      "multi-tenant",
+      "openai",
+      "proxy",
+      "saas",
+      "self-hosted"
+    ],
+    "license": "NOASSERTION",
+    "homepage": "https://github.com/cashdiffusion/hypitoken",
+    "default_branch": "main",
+    "created_at": "2026-05-05T06:13:27Z",
+    "pushed_at": "2026-09-18T08:53:52Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-09-18T11:22:23Z",
+    "metadata_refreshed_at": "2026-09-18T11:22:23Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

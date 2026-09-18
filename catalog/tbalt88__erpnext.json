@@ -15,10 +15,10 @@
     "full_name": "frappe/erpnext",
     "url": "https://github.com/frappe/erpnext",
     "description": "Free and Open Source Enterprise Resource Planning (ERP)",
-    "stars": 39314,
-    "forks": 12827,
+    "stars": 39347,
+    "forks": 12842,
     "watchers": 680,
-    "open_issues": 1834,
+    "open_issues": 1837,
     "language": "Python",
     "topics": [
       "accounting",
@@ -42,13 +42,13 @@
     "homepage": "https://frappe.io/erpnext",
     "default_branch": "develop",
     "created_at": "2011-06-08T08:20:56Z",
-    "pushed_at": "2026-09-17T10:12:32Z",
+    "pushed_at": "2026-09-18T11:02:32Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:39Z",
-    "metadata_refreshed_at": "2026-09-17T11:49:03Z",
+    "metadata_refreshed_at": "2026-09-18T11:23:11Z",
     "signals": [
       "gh-actions",
       "node"

@@ -18,7 +18,7 @@
     "stars": 807,
     "forks": 259,
     "watchers": 23,
-    "open_issues": 28,
+    "open_issues": 29,
     "language": "Python",
     "topics": [
       "ai",
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:31Z",
-    "metadata_refreshed_at": "2026-09-17T11:48:53Z",
+    "metadata_refreshed_at": "2026-09-18T11:23:07Z",
     "signals": [
       "claude-md",
       "claude-skill",
