@@ -15,7 +15,7 @@
     "full_name": "aplpolaris/promptfx",
     "url": "https://github.com/aplpolaris/promptfx",
     "description": "Kotlin LLM Prompts and User Interface",
-    "stars": 38,
+    "stars": 39,
     "forks": 8,
     "watchers": 1,
     "open_issues": 43,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:24Z",
-    "metadata_refreshed_at": "2026-09-03T17:31:11Z",
+    "metadata_refreshed_at": "2026-09-19T11:08:04Z",
     "signals": [
       "claude-md",
       "gh-actions",

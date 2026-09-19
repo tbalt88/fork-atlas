@@ -18,20 +18,20 @@
     "stars": 245,
     "forks": 165,
     "watchers": 4,
-    "open_issues": 21,
+    "open_issues": 22,
     "language": "Bicep",
     "topics": [],
     "license": "MIT",
     "homepage": null,
     "default_branch": "main",
     "created_at": "2026-02-09T13:49:40Z",
-    "pushed_at": "2026-09-18T06:59:55Z",
+    "pushed_at": "2026-09-19T09:32:36Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:05Z",
-    "metadata_refreshed_at": "2026-09-18T11:23:23Z",
+    "metadata_refreshed_at": "2026-09-19T11:07:11Z",
     "signals": [
       "claude-skill",
       "docker",

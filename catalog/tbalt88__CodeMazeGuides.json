@@ -18,7 +18,7 @@
     "stars": 982,
     "forks": 1167,
     "watchers": 26,
-    "open_issues": 26,
+    "open_issues": 24,
     "language": "C#",
     "topics": [
       "aspnetcore",
@@ -33,13 +33,13 @@
     "homepage": "https://code-maze.com",
     "default_branch": "main",
     "created_at": "2021-09-16T11:17:55Z",
-    "pushed_at": "2026-09-18T10:11:40Z",
+    "pushed_at": "2026-09-19T09:21:16Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:28Z",
-    "metadata_refreshed_at": "2026-09-18T11:24:07Z",
+    "metadata_refreshed_at": "2026-09-19T11:08:07Z",
     "signals": [
       "gh-actions"
     ],
