@@ -15,9 +15,9 @@
     "full_name": "addyosmani/agent-skills",
     "url": "https://github.com/addyosmani/agent-skills",
     "description": "Production-grade engineering skills for AI coding agents.",
-    "stars": 96647,
-    "forks": 10209,
-    "watchers": 513,
+    "stars": 97381,
+    "forks": 10272,
+    "watchers": 514,
     "open_issues": 111,
     "language": "JavaScript",
     "topics": [
@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:41Z",
-    "metadata_refreshed_at": "2026-09-19T11:06:58Z",
+    "metadata_refreshed_at": "2026-09-20T11:31:29Z",
     "signals": [
       "claude-md",
       "gh-actions",

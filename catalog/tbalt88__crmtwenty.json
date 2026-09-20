@@ -15,10 +15,10 @@
     "full_name": "twentyhq/twenty",
     "url": "https://github.com/twentyhq/twenty",
     "description": "The open alternative to Salesforce, designed for AI.",
-    "stars": 57034,
-    "forks": 9179,
+    "stars": 57130,
+    "forks": 9202,
     "watchers": 228,
-    "open_issues": 198,
+    "open_issues": 195,
     "language": "TypeScript",
     "topics": [
       "crm",
@@ -43,13 +43,13 @@
     "homepage": "https://twenty.com",
     "default_branch": "main",
     "created_at": "2022-12-01T13:04:40Z",
-    "pushed_at": "2026-09-19T10:41:47Z",
+    "pushed_at": "2026-09-20T11:22:44Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:20Z",
-    "metadata_refreshed_at": "2026-09-19T11:07:21Z",
+    "metadata_refreshed_at": "2026-09-20T11:31:46Z",
     "signals": [
       "claude-skill",
       "docker"

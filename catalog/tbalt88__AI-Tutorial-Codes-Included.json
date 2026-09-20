@@ -37,13 +37,13 @@
     "homepage": "https://marktechpost.com/",
     "default_branch": "main",
     "created_at": "2025-05-15T09:00:54Z",
-    "pushed_at": "2026-09-04T15:52:16Z",
+    "pushed_at": "2026-09-19T11:35:06Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:25Z",
-    "metadata_refreshed_at": "2026-09-18T11:24:05Z",
+    "metadata_refreshed_at": "2026-09-20T11:32:20Z",
     "signals": [
       "python"
     ],

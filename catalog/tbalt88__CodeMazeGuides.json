@@ -16,9 +16,9 @@
     "url": "https://github.com/CodeMazeBlog/CodeMazeGuides",
     "description": "Source code for 800+ C# and .NET articles from code-maze.com. Every article is a runnable solution, most with tests.",
     "stars": 982,
-    "forks": 1167,
+    "forks": 1166,
     "watchers": 26,
-    "open_issues": 24,
+    "open_issues": 20,
     "language": "C#",
     "topics": [
       "aspnetcore",
@@ -33,13 +33,13 @@
     "homepage": "https://code-maze.com",
     "default_branch": "main",
     "created_at": "2021-09-16T11:17:55Z",
-    "pushed_at": "2026-09-19T09:21:16Z",
+    "pushed_at": "2026-09-20T10:11:52Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:28Z",
-    "metadata_refreshed_at": "2026-09-19T11:08:07Z",
+    "metadata_refreshed_at": "2026-09-20T11:32:22Z",
     "signals": [
       "gh-actions"
     ],

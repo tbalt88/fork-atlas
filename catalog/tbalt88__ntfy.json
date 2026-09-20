@@ -15,10 +15,10 @@
     "full_name": "binwiederhier/ntfy",
     "url": "https://github.com/binwiederhier/ntfy",
     "description": "Send push notifications to your phone or desktop using PUT/POST",
-    "stars": 34311,
+    "stars": 34337,
     "forks": 1608,
-    "watchers": 101,
-    "open_issues": 405,
+    "watchers": 102,
+    "open_issues": 407,
     "language": "Go",
     "topics": [
       "curl",
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:03Z",
-    "metadata_refreshed_at": "2026-09-19T11:06:26Z",
+    "metadata_refreshed_at": "2026-09-20T11:31:05Z",
     "signals": [
       "docker",
       "gh-actions",

@@ -15,10 +15,10 @@
     "full_name": "open-webui/open-webui",
     "url": "https://github.com/open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "stars": 152525,
-    "forks": 22316,
-    "watchers": 662,
-    "open_issues": 331,
+    "stars": 152602,
+    "forks": 22332,
+    "watchers": 664,
+    "open_issues": 322,
     "language": "Python",
     "topics": [
       "ai",
@@ -41,13 +41,13 @@
     "homepage": "https://openwebui.com",
     "default_branch": "main",
     "created_at": "2023-10-06T22:08:27Z",
-    "pushed_at": "2026-09-19T03:54:10Z",
+    "pushed_at": "2026-09-19T22:03:15Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:45Z",
-    "metadata_refreshed_at": "2026-09-19T11:07:00Z",
+    "metadata_refreshed_at": "2026-09-20T11:31:31Z",
     "signals": [
       "docker",
       "gh-actions",
