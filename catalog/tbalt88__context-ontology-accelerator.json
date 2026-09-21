@@ -15,8 +15,8 @@
     "full_name": "aws/context-ontology-accelerator",
     "url": "https://github.com/aws/context-ontology-accelerator",
     "description": "An open-source, ontology-based semantic context accelerator that enables AI agents to make more accurate, consistent, and explainable decisions.",
-    "stars": 766,
-    "forks": 88,
+    "stars": 771,
+    "forks": 89,
     "watchers": 15,
     "open_issues": 55,
     "language": "Python",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:05Z",
-    "metadata_refreshed_at": "2026-09-20T11:31:06Z",
+    "metadata_refreshed_at": "2026-09-21T12:55:55Z",
     "signals": [
       "gh-actions",
       "make",

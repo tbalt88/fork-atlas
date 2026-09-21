@@ -16,9 +16,9 @@
     "url": "https://github.com/Fergana-Labs/stash",
     "description": "Automatically create new skills based on past agent traces ",
     "stars": 336,
-    "forks": 52,
+    "forks": 53,
     "watchers": 3,
-    "open_issues": 60,
+    "open_issues": 61,
     "language": "Python",
     "topics": [
       "agent-collaboration",
@@ -51,7 +51,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-09-19T11:06:36Z",
+    "metadata_refreshed_at": "2026-09-21T12:56:03Z",
     "signals": [
       "claude-md",
       "docker",

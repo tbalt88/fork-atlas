@@ -46,13 +46,13 @@
     "homepage": "https://pygpt.net",
     "default_branch": "master",
     "created_at": "2023-04-09T23:48:06Z",
-    "pushed_at": "2026-09-19T22:34:19Z",
+    "pushed_at": "2026-09-20T19:39:36Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:10Z",
-    "metadata_refreshed_at": "2026-09-20T11:31:09Z",
+    "metadata_refreshed_at": "2026-09-21T12:55:59Z",
     "signals": [
       "gh-actions",
       "make",

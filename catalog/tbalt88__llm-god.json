@@ -15,10 +15,10 @@
     "full_name": "czhou578/llm-god",
     "url": "https://github.com/czhou578/llm-god",
     "description": "Desktop app to multi-prompt ChatGPT, Gemini and more at the same time!",
-    "stars": 281,
+    "stars": 279,
     "forks": 55,
     "watchers": 5,
-    "open_issues": 5,
+    "open_issues": 4,
     "language": "TypeScript",
     "topics": [
       "chatgpt",
@@ -38,13 +38,13 @@
     "homepage": null,
     "default_branch": "master",
     "created_at": "2024-07-24T19:38:35Z",
-    "pushed_at": "2026-09-13T17:55:33Z",
+    "pushed_at": "2026-09-21T05:23:17Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:46Z",
-    "metadata_refreshed_at": "2026-09-14T12:57:11Z",
+    "metadata_refreshed_at": "2026-09-21T12:56:56Z",
     "signals": [
       "gh-actions",
       "node",

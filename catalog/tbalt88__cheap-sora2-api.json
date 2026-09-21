@@ -16,7 +16,7 @@
     "full_name": "cporter202/cheap-sora2-api",
     "url": "https://github.com/cporter202/cheap-sora2-api",
     "description": "This GitHub repository provides a step-by-step guide to accessing the Sora 2 API for roughly 70% cheaper than purchasing it directly from OpenAI, while delivering the exact same capabilities.",
-    "stars": 18,
+    "stars": 19,
     "forks": 4,
     "watchers": 0,
     "open_issues": 0,
@@ -32,7 +32,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:20Z",
-    "metadata_refreshed_at": "2026-09-10T11:26:15Z",
+    "metadata_refreshed_at": "2026-09-21T12:55:37Z",
     "actions_checked_at": "2026-09-03T17:26:20Z",
     "signals": [],
     "languages": {},
