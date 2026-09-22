@@ -16,7 +16,7 @@
     "url": "https://github.com/ballred/obsidian-claude-pkm",
     "description": "A complete starter kit for an Obsidian + Claude Code personal knowledge management system.",
     "stars": 1870,
-    "forks": 123,
+    "forks": 124,
     "watchers": 12,
     "open_issues": 11,
     "language": "Shell",
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:55Z",
-    "metadata_refreshed_at": "2026-09-21T12:57:02Z",
+    "metadata_refreshed_at": "2026-09-22T11:47:28Z",
     "signals": [
       "claude-md",
       "claude-skill"

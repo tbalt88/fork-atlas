@@ -15,8 +15,8 @@
     "full_name": "sismics/docs",
     "url": "https://github.com/sismics/docs",
     "description": "Lightweight document management system packed with all the features you can expect from big expensive solutions",
-    "stars": 2567,
-    "forks": 689,
+    "stars": 2566,
+    "forks": 690,
     "watchers": 51,
     "open_issues": 113,
     "language": "JavaScript",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:17Z",
-    "metadata_refreshed_at": "2026-09-21T12:56:40Z",
+    "metadata_refreshed_at": "2026-09-22T11:46:56Z",
     "signals": [
       "docker",
       "gh-actions",

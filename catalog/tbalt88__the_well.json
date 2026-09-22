@@ -17,7 +17,7 @@
     "description": "A 15TB Collection of Physics Simulation Datasets",
     "stars": 4458,
     "forks": 570,
-    "watchers": 50,
+    "watchers": 49,
     "open_issues": 22,
     "language": "Jupyter Notebook",
     "topics": [],
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:01Z",
-    "metadata_refreshed_at": "2026-09-21T12:55:52Z",
+    "metadata_refreshed_at": "2026-09-22T11:45:49Z",
     "signals": [
       "gh-actions"
     ],

@@ -15,10 +15,10 @@
     "full_name": "Fergana-Labs/stash",
     "url": "https://github.com/Fergana-Labs/stash",
     "description": "Automatically create new skills based on past agent traces ",
-    "stars": 336,
+    "stars": 337,
     "forks": 53,
     "watchers": 3,
-    "open_issues": 61,
+    "open_issues": 62,
     "language": "Python",
     "topics": [
       "agent-collaboration",
@@ -45,13 +45,13 @@
     "homepage": "https://www.joinstash.ai",
     "default_branch": "main",
     "created_at": "2026-02-12T04:36:24Z",
-    "pushed_at": "2026-09-18T21:47:43Z",
+    "pushed_at": "2026-09-22T06:16:17Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-09-21T12:56:03Z",
+    "metadata_refreshed_at": "2026-09-22T11:46:02Z",
     "signals": [
       "claude-md",
       "docker",

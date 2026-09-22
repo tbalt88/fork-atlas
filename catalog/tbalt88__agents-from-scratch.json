@@ -15,8 +15,8 @@
     "full_name": "pguso/agents-from-scratch",
     "url": "https://github.com/pguso/agents-from-scratch",
     "description": "Build AI agents from first principles using a local LLM - no frameworks, no cloud APIs, no hidden reasoning.",
-    "stars": 1019,
-    "forks": 251,
+    "stars": 1020,
+    "forks": 252,
     "watchers": 13,
     "open_issues": 4,
     "language": "Python",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:34Z",
-    "metadata_refreshed_at": "2026-09-21T12:56:17Z",
+    "metadata_refreshed_at": "2026-09-22T11:46:25Z",
     "signals": [
       "python"
     ],

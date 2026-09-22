@@ -18,7 +18,7 @@
     "stars": 664,
     "forks": 175,
     "watchers": 19,
-    "open_issues": 130,
+    "open_issues": 131,
     "language": "C#",
     "topics": [],
     "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:30Z",
-    "metadata_refreshed_at": "2026-09-20T11:31:51Z",
+    "metadata_refreshed_at": "2026-09-22T11:47:07Z",
     "signals": [
       "claude-skill",
       "gh-actions"

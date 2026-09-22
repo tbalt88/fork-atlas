@@ -12,10 +12,10 @@
     "full_name": "fleetbase/fleetbase",
     "url": "https://github.com/fleetbase/fleetbase",
     "description": "Modular logistics and supply chain operating system (LSOS)",
-    "stars": 3829,
-    "forks": 1027,
+    "stars": 3856,
+    "forks": 1031,
     "watchers": 48,
-    "open_issues": 19,
+    "open_issues": 16,
     "language": "JavaScript",
     "topics": [
       "driver-app",
@@ -39,13 +39,13 @@
     "homepage": "https://fleetbase.io",
     "default_branch": "main",
     "created_at": "2022-09-23T09:36:08Z",
-    "pushed_at": "2026-09-21T10:31:10Z",
+    "pushed_at": "2026-09-22T11:44:04Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-15T11:50:18Z",
-    "metadata_refreshed_at": "2026-09-21T12:55:28Z",
+    "metadata_refreshed_at": "2026-09-22T11:45:16Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}
