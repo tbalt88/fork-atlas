@@ -15,10 +15,10 @@
     "full_name": "sickn33/agentic-awesome-skills",
     "url": "https://github.com/sickn33/agentic-awesome-skills",
     "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,445+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-    "stars": 46760,
-    "forks": 6810,
+    "stars": 46817,
+    "forks": 6817,
     "watchers": 326,
-    "open_issues": 6,
+    "open_issues": 7,
     "language": "Python",
     "topics": [
       "agent-skills",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:31Z",
-    "metadata_refreshed_at": "2026-09-22T11:47:07Z",
+    "metadata_refreshed_at": "2026-09-23T11:45:48Z",
     "signals": [
       "gh-actions",
       "node"

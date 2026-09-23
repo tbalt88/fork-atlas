@@ -15,8 +15,8 @@
     "full_name": "docusealco/docuseal",
     "url": "https://github.com/docusealco/docuseal",
     "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
-    "stars": 18596,
-    "forks": 1873,
+    "stars": 18604,
+    "forks": 1875,
     "watchers": 71,
     "open_issues": 123,
     "language": "Ruby",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:48Z",
-    "metadata_refreshed_at": "2026-09-22T11:46:37Z",
+    "metadata_refreshed_at": "2026-09-23T11:45:26Z",
     "signals": [
       "docker",
       "gh-actions",

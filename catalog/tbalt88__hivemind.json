@@ -15,7 +15,7 @@
     "full_name": "activeloopai/hivemind",
     "url": "https://github.com/activeloopai/hivemind",
     "description": "Hivemind turns your traces into reusable skills across agents",
-    "stars": 1620,
+    "stars": 1619,
     "forks": 108,
     "watchers": 9,
     "open_issues": 90,
@@ -50,7 +50,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:51Z",
-    "metadata_refreshed_at": "2026-09-22T11:45:40Z",
+    "metadata_refreshed_at": "2026-09-23T11:44:50Z",
     "signals": [
       "claude-skill",
       "gh-actions",
