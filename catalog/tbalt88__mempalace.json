@@ -12,10 +12,10 @@
     "full_name": "MemPalace/mempalace",
     "url": "https://github.com/MemPalace/mempalace",
     "description": "The best-benchmarked open-source AI memory system. And it's free.",
-    "stars": 59243,
-    "forks": 7565,
+    "stars": 59261,
+    "forks": 7568,
     "watchers": 323,
-    "open_issues": 747,
+    "open_issues": 751,
     "language": "Python",
     "topics": [
       "ai",
@@ -35,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-12T10:52:48Z",
-    "metadata_refreshed_at": "2026-09-23T11:44:32Z",
+    "metadata_refreshed_at": "2026-09-24T11:53:05Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

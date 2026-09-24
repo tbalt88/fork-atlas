@@ -16,9 +16,9 @@
     "url": "https://github.com/LeapLabTHU/cooragent",
     "description": "Official Repository of Cooragent.",
     "stars": 1673,
-    "forks": 144,
+    "forks": 143,
     "watchers": 62,
-    "open_issues": 14,
+    "open_issues": 13,
     "language": "Python",
     "topics": [],
     "license": "Apache-2.0",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:18Z",
-    "metadata_refreshed_at": "2026-09-18T11:24:01Z",
+    "metadata_refreshed_at": "2026-09-24T11:54:50Z",
     "signals": [
       "docker",
       "make",

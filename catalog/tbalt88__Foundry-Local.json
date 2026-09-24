@@ -15,7 +15,7 @@
     "full_name": "microsoft/foundry-local",
     "url": "https://github.com/microsoft/foundry-local",
     "description": null,
-    "stars": 2561,
+    "stars": 2562,
     "forks": 371,
     "watchers": 76,
     "open_issues": 120,
@@ -36,13 +36,13 @@
     "homepage": "https://foundrylocal.ai",
     "default_branch": "main",
     "created_at": "2025-03-31T21:51:15Z",
-    "pushed_at": "2026-09-23T07:40:04Z",
+    "pushed_at": "2026-09-24T08:19:16Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:11Z",
-    "metadata_refreshed_at": "2026-09-23T11:46:11Z",
+    "metadata_refreshed_at": "2026-09-24T11:54:46Z",
     "signals": [
       "gh-actions"
     ],
