@@ -18,7 +18,7 @@
     "stars": 1022,
     "forks": 252,
     "watchers": 13,
-    "open_issues": 4,
+    "open_issues": 5,
     "language": "Python",
     "topics": [
       "agent-architecture",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:34Z",
-    "metadata_refreshed_at": "2026-09-23T11:45:19Z",
+    "metadata_refreshed_at": "2026-09-25T11:56:49Z",
     "signals": [
       "python"
     ],
