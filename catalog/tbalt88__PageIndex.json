@@ -15,8 +15,8 @@
     "full_name": "VectifyAI/PageIndex",
     "url": "https://github.com/VectifyAI/PageIndex",
     "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-    "stars": 35847,
-    "forks": 3159,
+    "stars": 35860,
+    "forks": 3158,
     "watchers": 148,
     "open_issues": 107,
     "language": "Python",
@@ -44,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:33Z",
-    "metadata_refreshed_at": "2026-09-25T11:57:18Z",
+    "metadata_refreshed_at": "2026-09-26T11:31:50Z",
     "signals": [
       "gh-actions"
     ],

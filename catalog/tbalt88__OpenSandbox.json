@@ -15,10 +15,10 @@
     "full_name": "opensandbox-group/OpenSandbox",
     "url": "https://github.com/opensandbox-group/OpenSandbox",
     "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
-    "stars": 15508,
-    "forks": 1427,
+    "stars": 15516,
+    "forks": 1428,
     "watchers": 60,
-    "open_issues": 130,
+    "open_issues": 125,
     "language": "Python",
     "topics": [
       "ai",
@@ -31,13 +31,13 @@
     "homepage": "https://open-sandbox.ai",
     "default_branch": "main",
     "created_at": "2025-12-17T08:41:09Z",
-    "pushed_at": "2026-09-25T04:09:47Z",
+    "pushed_at": "2026-09-26T09:15:28Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:48Z",
-    "metadata_refreshed_at": "2026-09-25T11:56:19Z",
+    "metadata_refreshed_at": "2026-09-26T11:30:32Z",
     "signals": [
       "claude-md",
       "docker",

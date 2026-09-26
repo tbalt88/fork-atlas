@@ -15,8 +15,8 @@
     "full_name": "microsoft/fara",
     "url": "https://github.com/microsoft/fara",
     "description": "Fara1.5 – A family of frontier computer use agent models",
-    "stars": 6192,
-    "forks": 603,
+    "stars": 6196,
+    "forks": 604,
     "watchers": 44,
     "open_issues": 42,
     "language": "Python",
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:19Z",
-    "metadata_refreshed_at": "2026-09-23T11:46:15Z",
+    "metadata_refreshed_at": "2026-09-26T11:32:24Z",
     "signals": [
       "python"
     ],

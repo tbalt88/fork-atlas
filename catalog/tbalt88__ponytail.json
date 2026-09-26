@@ -15,10 +15,10 @@
     "full_name": "DietrichGebert/ponytail",
     "url": "https://github.com/DietrichGebert/ponytail",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "stars": 145734,
-    "forks": 7812,
-    "watchers": 351,
-    "open_issues": 306,
+    "stars": 146208,
+    "forks": 7846,
+    "watchers": 352,
+    "open_issues": 307,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:17Z",
-    "metadata_refreshed_at": "2026-09-25T11:56:36Z",
+    "metadata_refreshed_at": "2026-09-26T11:30:55Z",
     "signals": [
       "claude-skill",
       "gh-actions"
