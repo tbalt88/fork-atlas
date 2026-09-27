@@ -15,7 +15,7 @@
     "full_name": "Y-Research-SBU/QuantHarness",
     "url": "https://github.com/Y-Research-SBU/QuantHarness",
     "description": "Official Repository for QuantHarness",
-    "stars": 2869,
+    "stars": 2868,
     "forks": 616,
     "watchers": 28,
     "open_issues": 2,
@@ -34,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:38Z",
-    "metadata_refreshed_at": "2026-09-26T11:31:52Z",
+    "metadata_refreshed_at": "2026-09-27T12:10:27Z",
     "signals": [
       "gh-actions"
     ],

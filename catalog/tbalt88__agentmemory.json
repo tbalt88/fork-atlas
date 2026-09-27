@@ -15,8 +15,8 @@
     "full_name": "rohitg00/agentmemory",
     "url": "https://github.com/rohitg00/agentmemory",
     "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-    "stars": 28872,
-    "forks": 2512,
+    "stars": 28915,
+    "forks": 2513,
     "watchers": 85,
     "open_issues": 611,
     "language": "TypeScript",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:38Z",
-    "metadata_refreshed_at": "2026-09-26T11:31:14Z",
+    "metadata_refreshed_at": "2026-09-27T12:09:49Z",
     "signals": [
       "gh-actions"
     ],
