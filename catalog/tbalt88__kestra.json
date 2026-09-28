@@ -15,10 +15,10 @@
     "full_name": "kestra-io/kestra",
     "url": "https://github.com/kestra-io/kestra",
     "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
-    "stars": 28373,
-    "forks": 3055,
-    "watchers": 182,
-    "open_issues": 693,
+    "stars": 28403,
+    "forks": 3060,
+    "watchers": 180,
+    "open_issues": 684,
     "language": "Java",
     "topics": [
       "ai-agents",
@@ -46,13 +46,13 @@
     "homepage": "https://go.kestra.io/home",
     "default_branch": "develop",
     "created_at": "2019-08-24T13:56:15Z",
-    "pushed_at": "2026-09-25T17:07:12Z",
+    "pushed_at": "2026-09-28T14:00:32Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:56Z",
-    "metadata_refreshed_at": "2026-09-27T12:09:15Z",
+    "metadata_refreshed_at": "2026-09-28T14:04:20Z",
     "signals": [
       "claude-md",
       "docker",

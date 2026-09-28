@@ -15,8 +15,8 @@
     "full_name": "skalesapp/skales",
     "url": "https://github.com/skalesapp/skales",
     "description": "Personal AI agent for macOS, Windows, Linux, Android & iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and humans across paired desktops. Agent2Agent, MCP, computer use, voice, local LLMs (Ollama), Agent Skills (SKILL.md). 26 AI providers, BYOK. No Docker, no terminal.",
-    "stars": 1920,
-    "forks": 265,
+    "stars": 1923,
+    "forks": 266,
     "watchers": 17,
     "open_issues": 1,
     "language": null,
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:53Z",
-    "metadata_refreshed_at": "2026-09-27T12:09:59Z",
+    "metadata_refreshed_at": "2026-09-28T14:05:18Z",
     "signals": [
       "nextjs",
       "node"
