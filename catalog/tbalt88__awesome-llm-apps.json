@@ -15,8 +15,8 @@
     "full_name": "Shubhamsaboo/awesome-llm-apps",
     "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
     "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-    "stars": 140047,
-    "forks": 20567,
+    "stars": 140165,
+    "forks": 20584,
     "watchers": 1301,
     "open_issues": 16,
     "language": "Python",
@@ -30,13 +30,13 @@
     "homepage": "https://www.theunwindai.com",
     "default_branch": "main",
     "created_at": "2024-04-29T05:30:25Z",
-    "pushed_at": "2026-09-26T08:27:01Z",
+    "pushed_at": "2026-09-29T04:56:53Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:27Z",
-    "metadata_refreshed_at": "2026-09-28T14:06:37Z",
+    "metadata_refreshed_at": "2026-09-29T13:02:56Z",
     "signals": [
       "docker",
       "gh-actions",

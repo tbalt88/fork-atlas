@@ -14,11 +14,11 @@
   "upstream": {
     "full_name": "usememos/memos",
     "url": "https://github.com/usememos/memos",
-    "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
-    "stars": 63398,
-    "forks": 4791,
+    "description": "A personal timeline for quick notes. Write short memos, find them later by search, tag, or date. Open source and self-hosted.",
+    "stars": 63420,
+    "forks": 4795,
     "watchers": 189,
-    "open_issues": 76,
+    "open_issues": 82,
     "language": "Go",
     "topics": [
       "docker",
@@ -28,24 +28,25 @@
       "memo",
       "microblog",
       "note-taking",
-      "notecard",
+      "notes",
+      "open-source",
       "own-your-data",
       "react",
       "self-hosted",
-      "social-network",
-      "sqlite"
+      "sqlite",
+      "timeline"
     ],
     "license": "MIT",
     "homepage": "https://usememos.com",
     "default_branch": "main",
     "created_at": "2021-12-08T15:30:18Z",
-    "pushed_at": "2026-09-28T12:20:27Z",
+    "pushed_at": "2026-09-28T14:26:11Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:33Z",
-    "metadata_refreshed_at": "2026-09-28T14:05:01Z",
+    "metadata_refreshed_at": "2026-09-29T13:01:06Z",
     "signals": [
       "gh-actions",
       "go"

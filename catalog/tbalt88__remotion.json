@@ -12,10 +12,10 @@
     "full_name": "remotion-dev/remotion",
     "url": "https://github.com/remotion-dev/remotion",
     "description": "🎥      Make videos programmatically with React",
-    "stars": 60877,
-    "forks": 4704,
-    "watchers": 183,
-    "open_issues": 217,
+    "stars": 61046,
+    "forks": 4712,
+    "watchers": 184,
+    "open_issues": 225,
     "language": "TypeScript",
     "topics": [
       "javascript",
@@ -26,13 +26,13 @@
     "homepage": "https://remotion.dev",
     "default_branch": "main",
     "created_at": "2020-06-23T19:49:10Z",
-    "pushed_at": "2026-09-28T13:54:44Z",
+    "pushed_at": "2026-09-29T12:52:15Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-27T12:08:46Z",
-    "metadata_refreshed_at": "2026-09-28T14:03:43Z",
+    "metadata_refreshed_at": "2026-09-29T12:59:39Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

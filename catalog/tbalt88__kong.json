@@ -15,7 +15,7 @@
     "full_name": "amruth-sn/kong",
     "url": "https://github.com/amruth-sn/kong",
     "description": "The world's first agentic reverse engineer.",
-    "stars": 1181,
+    "stars": 1192,
     "forks": 131,
     "watchers": 12,
     "open_issues": 6,
@@ -35,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:54Z",
-    "metadata_refreshed_at": "2026-09-28T14:05:18Z",
+    "metadata_refreshed_at": "2026-09-29T13:01:26Z",
     "signals": [
       "gh-actions",
       "python",
