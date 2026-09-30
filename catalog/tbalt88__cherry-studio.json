@@ -16,10 +16,10 @@
     "full_name": "CherryHQ/cherry-studio",
     "url": "https://github.com/CherryHQ/cherry-studio",
     "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 52235,
-    "forks": 5023,
-    "watchers": 205,
-    "open_issues": 1682,
+    "stars": 52268,
+    "forks": 5029,
+    "watchers": 206,
+    "open_issues": 1686,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -36,13 +36,13 @@
     "homepage": "https://cherryai.com",
     "default_branch": "main",
     "created_at": "2024-05-24T01:56:26Z",
-    "pushed_at": "2026-09-29T12:58:22Z",
+    "pushed_at": "2026-09-30T12:36:51Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:27Z",
-    "metadata_refreshed_at": "2026-09-29T13:00:01Z",
+    "metadata_refreshed_at": "2026-09-30T12:42:24Z",
     "actions_checked_at": "2026-09-03T17:26:27Z",
     "signals": [
       "claude-skill"

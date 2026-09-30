@@ -15,8 +15,8 @@
     "full_name": "FareedKhan-dev/kimi-k3-in-c",
     "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
     "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-    "stars": 8790,
-    "forks": 1422,
+    "stars": 8812,
+    "forks": 1426,
     "watchers": 76,
     "open_issues": 22,
     "language": "C",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:55Z",
-    "metadata_refreshed_at": "2026-09-29T13:00:18Z",
+    "metadata_refreshed_at": "2026-09-30T12:42:37Z",
     "signals": [
       "gh-actions",
       "make"
