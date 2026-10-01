@@ -15,7 +15,7 @@
     "full_name": "jpjacobpadilla/Stealth-Requests",
     "url": "https://github.com/jpjacobpadilla/Stealth-Requests",
     "description": "Undetected web-scraping & seamless HTML parsing in Python!",
-    "stars": 564,
+    "stars": 565,
     "forks": 57,
     "watchers": 5,
     "open_issues": 0,
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:34Z",
-    "metadata_refreshed_at": "2026-09-30T12:44:02Z",
+    "metadata_refreshed_at": "2026-10-01T13:26:54Z",
     "signals": [
       "python"
     ],

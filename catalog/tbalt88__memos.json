@@ -15,10 +15,10 @@
     "full_name": "usememos/memos",
     "url": "https://github.com/usememos/memos",
     "description": "A personal timeline for quick notes. Write short memos, find them later by search, tag, or date. Open source and self-hosted.",
-    "stars": 63443,
-    "forks": 4798,
-    "watchers": 189,
-    "open_issues": 92,
+    "stars": 63467,
+    "forks": 4802,
+    "watchers": 190,
+    "open_issues": 95,
     "language": "Go",
     "topics": [
       "docker",
@@ -46,7 +46,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:33Z",
-    "metadata_refreshed_at": "2026-09-30T12:43:17Z",
+    "metadata_refreshed_at": "2026-10-01T13:26:20Z",
     "signals": [
       "gh-actions",
       "go"

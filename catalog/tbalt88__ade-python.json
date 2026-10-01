@@ -15,7 +15,7 @@
     "full_name": "landing-ai/ade-python",
     "url": "https://github.com/landing-ai/ade-python",
     "description": "Python library for Agentic Document Extraction (ADE).",
-    "stars": 1034,
+    "stars": 1035,
     "forks": 168,
     "watchers": 9,
     "open_issues": 14,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:09Z",
-    "metadata_refreshed_at": "2026-09-30T12:44:32Z",
+    "metadata_refreshed_at": "2026-10-01T13:27:19Z",
     "signals": [
       "docker",
       "gh-actions",
