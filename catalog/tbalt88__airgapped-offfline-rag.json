@@ -16,7 +16,7 @@
     "url": "https://github.com/vincentkoc/airgapped-offfline-rag",
     "description": "Secure, locally-run Retrieval-Augmented Generation system for document-based question-answering, utilizing Llama 3, Mistral, and Gemini models with a user-friendly Streamlit interface.",
     "stars": 87,
-    "forks": 29,
+    "forks": 30,
     "watchers": 4,
     "open_issues": 1,
     "language": "Python",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:41Z",
-    "metadata_refreshed_at": "2026-09-03T17:30:00Z",
+    "metadata_refreshed_at": "2026-10-02T12:46:12Z",
     "signals": [
       "claude-md",
       "docker",

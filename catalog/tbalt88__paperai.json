@@ -15,7 +15,7 @@
     "full_name": "neuml/paperai",
     "url": "https://github.com/neuml/paperai",
     "description": "📄 🤖 AI for medical and scientific papers",
-    "stars": 1783,
+    "stars": 1784,
     "forks": 148,
     "watchers": 29,
     "open_issues": 1,
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:04Z",
-    "metadata_refreshed_at": "2026-10-01T13:27:16Z",
+    "metadata_refreshed_at": "2026-10-02T12:46:37Z",
     "signals": [
       "docker",
       "gh-actions",

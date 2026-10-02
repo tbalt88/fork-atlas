@@ -15,10 +15,10 @@
     "full_name": "AlexsJones/llmfit",
     "url": "https://github.com/AlexsJones/llmfit",
     "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-    "stars": 37410,
-    "forks": 2397,
+    "stars": 37438,
+    "forks": 2398,
     "watchers": 115,
-    "open_issues": 73,
+    "open_issues": 76,
     "language": "Rust",
     "topics": [
       "gguf",
@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:02Z",
-    "metadata_refreshed_at": "2026-10-01T13:26:36Z",
+    "metadata_refreshed_at": "2026-10-02T12:45:37Z",
     "signals": [
       "docker",
       "gh-actions",

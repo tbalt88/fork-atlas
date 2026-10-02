@@ -12,8 +12,8 @@
     "full_name": "miqdadbadjuber/anti-slop",
     "url": "https://github.com/miqdadbadjuber/anti-slop",
     "description": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
-    "stars": 4210,
-    "forks": 286,
+    "stars": 4285,
+    "forks": 289,
     "watchers": 6,
     "open_issues": 0,
     "language": "JavaScript",
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-30T12:42:01Z",
-    "metadata_refreshed_at": "2026-10-01T13:25:18Z",
+    "metadata_refreshed_at": "2026-10-02T12:43:47Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}
