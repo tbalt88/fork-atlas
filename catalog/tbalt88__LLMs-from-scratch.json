@@ -15,10 +15,10 @@
     "full_name": "rasbt/LLMs-from-scratch",
     "url": "https://github.com/rasbt/LLMs-from-scratch",
     "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-    "stars": 105882,
-    "forks": 16287,
+    "stars": 105922,
+    "forks": 16292,
     "watchers": 860,
-    "open_issues": 2,
+    "open_issues": 1,
     "language": "Jupyter Notebook",
     "topics": [
       "ai",
@@ -45,13 +45,13 @@
     "homepage": "https://amzn.to/4fqvn0D",
     "default_branch": "main",
     "created_at": "2023-07-23T18:15:57Z",
-    "pushed_at": "2026-10-01T17:08:20Z",
+    "pushed_at": "2026-10-02T14:55:52Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:27Z",
-    "metadata_refreshed_at": "2026-10-02T12:46:59Z",
+    "metadata_refreshed_at": "2026-10-03T11:46:29Z",
     "signals": [
       "gh-actions"
     ],

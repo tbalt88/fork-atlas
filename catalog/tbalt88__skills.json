@@ -15,10 +15,10 @@
     "full_name": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "stars": 274355,
-    "forks": 23049,
-    "watchers": 1517,
-    "open_issues": 544,
+    "stars": 275008,
+    "forks": 23081,
+    "watchers": 1518,
+    "open_issues": 545,
     "language": "Shell",
     "topics": [],
     "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:42Z",
-    "metadata_refreshed_at": "2026-10-02T12:44:14Z",
+    "metadata_refreshed_at": "2026-10-03T11:44:52Z",
     "signals": [
       "claude-md",
       "claude-skill",

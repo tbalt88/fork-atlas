@@ -15,10 +15,10 @@
     "full_name": "jordanrendric/claude-video-vision",
     "url": "https://github.com/jordanrendric/claude-video-vision",
     "description": "Give Claude the ability to watch and understand videos — Claude Code plugin with frame extraction and multimodal audio analysis",
-    "stars": 1342,
-    "forks": 157,
+    "stars": 1341,
+    "forks": 156,
     "watchers": 10,
-    "open_issues": 18,
+    "open_issues": 17,
     "language": "TypeScript",
     "topics": [
       "claude-code",
@@ -41,7 +41,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:11Z",
-    "metadata_refreshed_at": "2026-10-02T12:44:44Z",
+    "metadata_refreshed_at": "2026-10-03T11:45:10Z",
     "signals": [
       "claude-skill",
       "gh-actions",

@@ -15,10 +15,10 @@
     "full_name": "FareedKhan-dev/train-llm-from-scratch",
     "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
     "description": "A straightforward method for training your LLM, from downloading data to generating text.",
-    "stars": 11914,
-    "forks": 1638,
-    "watchers": 88,
-    "open_issues": 7,
+    "stars": 11933,
+    "forks": 1642,
+    "watchers": 87,
+    "open_issues": 1,
     "language": "Python",
     "topics": [
       "gemini",
@@ -32,13 +32,13 @@
     "homepage": "https://fareedkhan-dev.github.io/train-llm-from-scratch/",
     "default_branch": "main",
     "created_at": "2025-01-12T04:03:05Z",
-    "pushed_at": "2026-08-17T05:07:26Z",
+    "pushed_at": "2026-10-02T14:45:19Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:30Z",
-    "metadata_refreshed_at": "2026-10-02T12:45:09Z",
+    "metadata_refreshed_at": "2026-10-03T11:45:25Z",
     "signals": [
       "gh-actions"
     ],

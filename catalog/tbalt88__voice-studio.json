@@ -12,7 +12,7 @@
     "full_name": "msrbuilds/voice-studio",
     "url": "https://github.com/msrbuilds/voice-studio",
     "description": "A multi-model local AI Voice Generator (TTS) studio. An open-source alternative to ElevenLabs and expensive online voice generators.",
-    "stars": 205,
+    "stars": 207,
     "forks": 45,
     "watchers": 2,
     "open_issues": 1,
@@ -33,7 +33,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-26T11:30:07Z",
-    "metadata_refreshed_at": "2026-10-01T13:25:20Z",
+    "metadata_refreshed_at": "2026-10-03T11:44:37Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

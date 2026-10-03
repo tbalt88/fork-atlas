@@ -16,7 +16,7 @@
     "url": "https://github.com/0xSojalSec/Run-Local-LLMs-on-Any-Device",
     "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
     "stars": 53,
-    "forks": 17,
+    "forks": 16,
     "watchers": 1,
     "open_issues": 0,
     "language": null,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:24Z",
-    "metadata_refreshed_at": "2026-09-03T17:29:37Z",
+    "metadata_refreshed_at": "2026-10-03T11:45:52Z",
     "signals": [
       "gh-actions"
     ],

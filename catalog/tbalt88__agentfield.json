@@ -15,10 +15,10 @@
     "full_name": "Agent-Field/agentfield",
     "url": "https://github.com/Agent-Field/agentfield",
     "description": "Build, run and scale AI agents like API and microservices",
-    "stars": 2602,
+    "stars": 2605,
     "forks": 429,
     "watchers": 16,
-    "open_issues": 28,
+    "open_issues": 29,
     "language": "Go",
     "topics": [
       "agent",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:09Z",
-    "metadata_refreshed_at": "2026-10-02T12:45:43Z",
+    "metadata_refreshed_at": "2026-10-03T11:45:44Z",
     "signals": [
       "claude-md",
       "gh-actions",

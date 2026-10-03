@@ -15,10 +15,10 @@
     "full_name": "stablyai/orca",
     "url": "https://github.com/stablyai/orca",
     "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-    "stars": 83574,
-    "forks": 5403,
-    "watchers": 139,
-    "open_issues": 7503,
+    "stars": 84127,
+    "forks": 5424,
+    "watchers": 141,
+    "open_issues": 7406,
     "language": "TypeScript",
     "topics": [
       "ade",
@@ -44,13 +44,13 @@
     "homepage": "https://onOrca.dev",
     "default_branch": "main",
     "created_at": "2026-03-17T03:28:57Z",
-    "pushed_at": "2026-10-02T12:43:31Z",
+    "pushed_at": "2026-10-03T11:43:46Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:49Z",
-    "metadata_refreshed_at": "2026-10-02T12:44:21Z",
+    "metadata_refreshed_at": "2026-10-03T11:44:56Z",
     "signals": [
       "claude-md",
       "docker",

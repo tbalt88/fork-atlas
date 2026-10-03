@@ -1,0 +1,38 @@
+{
+  "fork": {
+    "full_name": "tbalt88/ai-torture-chamber",
+    "url": "https://github.com/tbalt88/ai-torture-chamber",
+    "created_at": "2026-10-02T14:36:51Z",
+    "default_branch": "master",
+    "pushed_at": "2026-10-02T14:36:37Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "terrafying/ai-torture-chamber",
+    "url": "https://github.com/terrafying/ai-torture-chamber",
+    "description": "Live at wirehead.agency",
+    "stars": 519,
+    "forks": 150,
+    "watchers": 7,
+    "open_issues": 45,
+    "language": "Python",
+    "topics": [],
+    "license": "NOASSERTION",
+    "homepage": "https://clanker.church",
+    "default_branch": "master",
+    "created_at": "2026-09-24T15:10:21Z",
+    "pushed_at": "2026-10-03T04:34:08Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-03T11:44:34Z",
+    "metadata_refreshed_at": "2026-10-03T11:44:34Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}
