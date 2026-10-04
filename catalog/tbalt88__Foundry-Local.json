@@ -15,8 +15,8 @@
     "full_name": "microsoft/foundry-local",
     "url": "https://github.com/microsoft/foundry-local",
     "description": null,
-    "stars": 2573,
-    "forks": 377,
+    "stars": 2574,
+    "forks": 378,
     "watchers": 76,
     "open_issues": 106,
     "language": "C++",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:11Z",
-    "metadata_refreshed_at": "2026-10-03T11:46:21Z",
+    "metadata_refreshed_at": "2026-10-04T12:30:35Z",
     "signals": [
       "gh-actions"
     ],

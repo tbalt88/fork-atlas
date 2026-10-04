@@ -15,8 +15,8 @@
     "full_name": "0xNyk/council-of-high-intelligence",
     "url": "https://github.com/0xNyk/council-of-high-intelligence",
     "description": "Structured multi-perspective deliberation for hard decisions. Run full councils, focused triads, or duo debates across Claude Code, Codex, Gemini CLI, and OpenCode.",
-    "stars": 4534,
-    "forks": 428,
+    "stars": 4537,
+    "forks": 430,
     "watchers": 20,
     "open_issues": 21,
     "language": "Shell",
@@ -46,7 +46,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T14:00:23Z",
-    "metadata_refreshed_at": "2026-10-03T11:44:51Z",
+    "metadata_refreshed_at": "2026-10-04T12:28:05Z",
     "signals": [
       "claude-md",
       "claude-skill",

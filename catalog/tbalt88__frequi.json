@@ -18,7 +18,7 @@
     "stars": 1087,
     "forks": 470,
     "watchers": 28,
-    "open_issues": 13,
+    "open_issues": 14,
     "language": "Vue",
     "topics": [
       "freqtrade",
@@ -32,13 +32,13 @@
     "homepage": "https://github.com/freqtrade/freqtrade",
     "default_branch": "main",
     "created_at": "2020-05-14T09:18:16Z",
-    "pushed_at": "2026-10-01T05:07:25Z",
+    "pushed_at": "2026-10-04T06:16:17Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:59Z",
-    "metadata_refreshed_at": "2026-10-03T11:45:02Z",
+    "metadata_refreshed_at": "2026-10-04T12:28:24Z",
     "signals": [
       "docker",
       "gh-actions",

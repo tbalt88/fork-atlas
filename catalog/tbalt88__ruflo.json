@@ -15,10 +15,10 @@
     "full_name": "ruvnet/ruflo",
     "url": "https://github.com/ruvnet/ruflo",
     "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-    "stars": 73768,
-    "forks": 8762,
-    "watchers": 463,
-    "open_issues": 1054,
+    "stars": 73831,
+    "forks": 8772,
+    "watchers": 464,
+    "open_issues": 1077,
     "language": "TypeScript",
     "topics": [
       "agentic-ai",
@@ -46,13 +46,13 @@
     "homepage": "https://Cognitum.One",
     "default_branch": "main",
     "created_at": "2025-06-02T21:24:20Z",
-    "pushed_at": "2026-10-03T08:33:22Z",
+    "pushed_at": "2026-10-04T05:56:40Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:18Z",
-    "metadata_refreshed_at": "2026-10-03T11:45:14Z",
+    "metadata_refreshed_at": "2026-10-04T12:28:45Z",
     "signals": [
       "claude-skill"
     ],
