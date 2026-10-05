@@ -17,7 +17,7 @@
     "description": "The world's simplest facial recognition api for Python and the command line",
     "stars": 56796,
     "forks": 13677,
-    "watchers": 1540,
+    "watchers": 1539,
     "open_issues": 832,
     "language": "Python",
     "topics": [
@@ -36,7 +36,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:28Z",
-    "metadata_refreshed_at": "2026-10-04T12:28:59Z",
+    "metadata_refreshed_at": "2026-10-05T14:50:07Z",
     "signals": [
       "docker",
       "gh-actions",

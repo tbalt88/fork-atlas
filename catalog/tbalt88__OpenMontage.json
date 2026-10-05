@@ -15,10 +15,10 @@
     "full_name": "calesthio/OpenMontage",
     "url": "https://github.com/calesthio/OpenMontage",
     "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-    "stars": 62826,
-    "forks": 8023,
-    "watchers": 346,
-    "open_issues": 342,
+    "stars": 63666,
+    "forks": 8100,
+    "watchers": 347,
+    "open_issues": 355,
     "language": "Python",
     "topics": [
       "agent",
@@ -51,7 +51,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:20Z",
-    "metadata_refreshed_at": "2026-10-04T12:28:48Z",
+    "metadata_refreshed_at": "2026-10-05T14:49:57Z",
     "signals": [
       "claude-skill"
     ],

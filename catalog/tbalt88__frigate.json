@@ -15,10 +15,10 @@
     "full_name": "blakeblackshear/frigate",
     "url": "https://github.com/blakeblackshear/frigate",
     "description": "NVR with realtime local object detection for IP cameras",
-    "stars": 36353,
-    "forks": 3662,
-    "watchers": 259,
-    "open_issues": 111,
+    "stars": 36382,
+    "forks": 3666,
+    "watchers": 260,
+    "open_issues": 113,
     "language": "Python",
     "topics": [
       "ai",
@@ -38,13 +38,13 @@
     "homepage": "https://frigate.video",
     "default_branch": "dev",
     "created_at": "2019-01-26T13:52:38Z",
-    "pushed_at": "2026-10-04T12:24:40Z",
+    "pushed_at": "2026-10-05T12:58:08Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:33Z",
-    "metadata_refreshed_at": "2026-10-04T12:29:05Z",
+    "metadata_refreshed_at": "2026-10-05T14:50:10Z",
     "signals": [
       "claude-md",
       "docker",

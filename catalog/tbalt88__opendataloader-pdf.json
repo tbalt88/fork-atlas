@@ -15,8 +15,8 @@
     "full_name": "opendataloader-project/opendataloader-pdf",
     "url": "https://github.com/opendataloader-project/opendataloader-pdf",
     "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
-    "stars": 29472,
-    "forks": 2808,
+    "stars": 29479,
+    "forks": 2809,
     "watchers": 116,
     "open_issues": 90,
     "language": "Java",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:14Z",
-    "metadata_refreshed_at": "2026-10-04T12:28:41Z",
+    "metadata_refreshed_at": "2026-10-05T14:49:53Z",
     "signals": [
       "claude-md",
       "gh-actions",
