@@ -12,10 +12,10 @@
     "full_name": "Mathieu2301/TradingView-API",
     "url": "https://github.com/Mathieu2301/TradingView-API",
     "description": "📈 Get real-time stocks from TradingView",
-    "stars": 5533,
+    "stars": 5538,
     "forks": 977,
     "watchers": 77,
-    "open_issues": 103,
+    "open_issues": 102,
     "language": "TypeScript",
     "topics": [
       "backtesting",
@@ -40,13 +40,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2021-03-05T22:24:02Z",
-    "pushed_at": "2026-10-05T11:21:26Z",
+    "pushed_at": "2026-10-05T21:26:05Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-10-03T11:44:35Z",
-    "metadata_refreshed_at": "2026-10-05T14:49:10Z",
+    "metadata_refreshed_at": "2026-10-06T13:23:06Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

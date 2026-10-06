@@ -15,8 +15,8 @@
     "full_name": "yangshun/tech-interview-handbook",
     "url": "https://github.com/yangshun/tech-interview-handbook",
     "description": "Curated coding interview preparation materials for busy software engineers",
-    "stars": 143125,
-    "forks": 16851,
+    "stars": 143136,
+    "forks": 16854,
     "watchers": 2192,
     "open_issues": 37,
     "language": "TypeScript",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:16Z",
-    "metadata_refreshed_at": "2026-10-05T14:51:13Z",
+    "metadata_refreshed_at": "2026-10-06T13:25:16Z",
     "signals": [
       "gh-actions",
       "nextjs",

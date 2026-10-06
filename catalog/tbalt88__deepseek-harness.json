@@ -16,8 +16,8 @@
     "full_name": "deepseek-ai/deepseek-harness",
     "url": "https://github.com/deepseek-ai/deepseek-harness",
     "description": "DeepSeek Harness: Everything is a Plugin.",
-    "stars": 243823,
-    "forks": 29211,
+    "stars": 244386,
+    "forks": 29275,
     "watchers": 1052,
     "open_issues": 0,
     "language": "TypeScript",
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:12Z",
-    "metadata_refreshed_at": "2026-10-05T14:49:22Z",
+    "metadata_refreshed_at": "2026-10-06T13:23:19Z",
     "actions_checked_at": "2026-09-03T17:26:12Z",
     "signals": [],
     "languages": {

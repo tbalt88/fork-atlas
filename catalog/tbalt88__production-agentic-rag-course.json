@@ -16,9 +16,9 @@
     "full_name": "jamwithai/production-agentic-rag-course",
     "url": "https://github.com/jamwithai/production-agentic-rag-course",
     "description": null,
-    "stars": 9598,
-    "forks": 2090,
-    "watchers": 88,
+    "stars": 9623,
+    "forks": 2094,
+    "watchers": 87,
     "open_issues": 29,
     "language": "Python",
     "topics": [],
@@ -32,7 +32,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:27Z",
-    "metadata_refreshed_at": "2026-10-05T14:49:17Z",
+    "metadata_refreshed_at": "2026-10-06T13:23:14Z",
     "actions_checked_at": "2026-09-08T20:27:18Z",
     "signals": [
       "docker",

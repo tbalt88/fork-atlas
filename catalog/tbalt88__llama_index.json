@@ -15,10 +15,10 @@
     "full_name": "run-llama/llama_index",
     "url": "https://github.com/run-llama/llama_index",
     "description": "LlamaIndex is the document processing platform for AI",
-    "stars": 52410,
-    "forks": 8281,
+    "stars": 52422,
+    "forks": 8291,
     "watchers": 289,
-    "open_issues": 877,
+    "open_issues": 898,
     "language": "Python",
     "topics": [
       "agents",
@@ -36,13 +36,13 @@
     "homepage": "https://developers.llamaindex.ai",
     "default_branch": "main",
     "created_at": "2022-11-02T04:24:54Z",
-    "pushed_at": "2026-10-01T18:39:47Z",
+    "pushed_at": "2026-10-05T15:17:10Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:21Z",
-    "metadata_refreshed_at": "2026-10-05T14:51:17Z",
+    "metadata_refreshed_at": "2026-10-06T13:25:21Z",
     "signals": [
       "gh-actions",
       "make"

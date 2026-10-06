@@ -15,7 +15,7 @@
     "full_name": "microsoft/PowerApps-Samples",
     "url": "https://github.com/microsoft/PowerApps-Samples",
     "description": "Sample code for Power Apps, including Dataverse, model-driven apps, canvas apps, Power Apps component framework, portals, and AI Builder.",
-    "stars": 1989,
+    "stars": 1990,
     "forks": 1824,
     "watchers": 124,
     "open_issues": 45,
@@ -44,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:29Z",
-    "metadata_refreshed_at": "2026-10-05T14:51:22Z",
+    "metadata_refreshed_at": "2026-10-06T13:25:26Z",
     "signals": [
       "claude-md",
       "node",
