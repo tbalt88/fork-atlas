@@ -15,7 +15,7 @@
     "full_name": "google/mcp",
     "url": "https://github.com/google/mcp",
     "description": "Google 💚 MCP",
-    "stars": 4626,
+    "stars": 4627,
     "forks": 537,
     "watchers": 65,
     "open_issues": 31,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:05Z",
-    "metadata_refreshed_at": "2026-10-06T13:25:05Z",
+    "metadata_refreshed_at": "2026-10-07T13:34:39Z",
     "signals": [
       "docker",
       "node",

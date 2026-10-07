@@ -15,7 +15,7 @@
     "full_name": "MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
     "url": "https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
     "description": "Multi-agent systems, memory, planning, reasoning loops",
-    "stars": 2919,
+    "stars": 2920,
     "forks": 617,
     "watchers": 77,
     "open_issues": 9,
@@ -43,7 +43,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:25Z",
-    "metadata_refreshed_at": "2026-10-06T13:25:24Z",
+    "metadata_refreshed_at": "2026-10-07T13:35:05Z",
     "signals": [
       "python"
     ],

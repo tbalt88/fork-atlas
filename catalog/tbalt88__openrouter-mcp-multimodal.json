@@ -15,10 +15,10 @@
     "full_name": "stabgan/openrouter-mcp-multimodal",
     "url": "https://github.com/stabgan/openrouter-mcp-multimodal",
     "description": "MCP server for OpenRouter — chat with 300+ LLMs (Claude, Gemini, GPT), analyze images / audio / video, generate images / speech / music / video (Veo 3.1, Sora, Seedance, Wan) from Claude Desktop, Cursor, Kiro, VS Code.",
-    "stars": 95,
+    "stars": 96,
     "forks": 29,
     "watchers": 5,
-    "open_issues": 10,
+    "open_issues": 1,
     "language": "TypeScript",
     "topics": [
       "ai-agent",
@@ -46,13 +46,13 @@
     "homepage": "https://www.npmjs.com/package/@stabgan/openrouter-mcp-multimodal",
     "default_branch": "main",
     "created_at": "2025-03-26T16:49:03Z",
-    "pushed_at": "2026-10-06T10:17:05Z",
+    "pushed_at": "2026-10-07T10:15:17Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:10Z",
-    "metadata_refreshed_at": "2026-10-06T13:23:46Z",
+    "metadata_refreshed_at": "2026-10-07T13:32:33Z",
     "signals": [
       "docker",
       "gh-actions",

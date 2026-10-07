@@ -15,10 +15,10 @@
     "full_name": "github/github-mcp-server",
     "url": "https://github.com/github/github-mcp-server",
     "description": "GitHub's official MCP Server",
-    "stars": 33402,
-    "forks": 5094,
+    "stars": 33427,
+    "forks": 5102,
     "watchers": 403,
-    "open_issues": 351,
+    "open_issues": 336,
     "language": "Go",
     "topics": [
       "github",
@@ -29,13 +29,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2025-03-04T16:42:04Z",
-    "pushed_at": "2026-10-06T09:06:41Z",
+    "pushed_at": "2026-10-07T08:10:08Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:07Z",
-    "metadata_refreshed_at": "2026-10-06T13:25:07Z",
+    "metadata_refreshed_at": "2026-10-07T13:34:42Z",
     "signals": [
       "docker",
       "gh-actions",

@@ -15,9 +15,9 @@
     "full_name": "AndyMik90/Aperant",
     "url": "https://github.com/AndyMik90/Aperant",
     "description": "Autonomous multi-session AI coding",
-    "stars": 14581,
+    "stars": 14583,
     "forks": 1905,
-    "watchers": 109,
+    "watchers": 108,
     "open_issues": 36,
     "language": "TypeScript",
     "topics": [],
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:12Z",
-    "metadata_refreshed_at": "2026-10-06T13:24:30Z",
+    "metadata_refreshed_at": "2026-10-07T13:33:44Z",
     "signals": [
       "claude-md",
       "gh-actions",
