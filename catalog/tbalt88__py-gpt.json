@@ -15,7 +15,7 @@
     "full_name": "szczyglis-dev/py-gpt",
     "url": "https://github.com/szczyglis-dev/py-gpt",
     "description": "Desktop AI Assistant powered by GPT-6, GPT-5, Gemini, Claude, Grok, Ollama, DeepSeek, Perplexity, and more - chat, agents, tools, MCP, plugins, RAG, vision, voice, image and video generation, speech synthesis and speech recognition, web search, memory, presets, canvas, assistants, themes, computer use. Windows, Linux, and Mac.",
-    "stars": 1981,
+    "stars": 1985,
     "forks": 351,
     "watchers": 42,
     "open_issues": 64,
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:10Z",
-    "metadata_refreshed_at": "2026-10-07T13:32:33Z",
+    "metadata_refreshed_at": "2026-10-08T13:38:27Z",
     "signals": [
       "gh-actions",
       "make",

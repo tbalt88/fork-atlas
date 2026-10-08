@@ -15,7 +15,7 @@
     "full_name": "frankwxu/digital-forensics-lab",
     "url": "https://github.com/frankwxu/digital-forensics-lab",
     "description": "Free hands-on digital forensics labs for students and faculty",
-    "stars": 2994,
+    "stars": 2997,
     "forks": 629,
     "watchers": 92,
     "open_issues": 11,
@@ -36,13 +36,13 @@
     "homepage": "https://github.com/frankwxu/digital-forensics-lab",
     "default_branch": "main",
     "created_at": "2021-01-11T00:14:20Z",
-    "pushed_at": "2026-10-01T01:30:55Z",
+    "pushed_at": "2026-10-07T20:54:07Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:21Z",
-    "metadata_refreshed_at": "2026-10-07T13:32:48Z",
+    "metadata_refreshed_at": "2026-10-08T13:38:39Z",
     "signals": [],
     "languages": {
       "Jupyter Notebook": 694200,

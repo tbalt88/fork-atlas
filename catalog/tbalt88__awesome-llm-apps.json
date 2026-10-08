@@ -15,10 +15,10 @@
     "full_name": "Shubhamsaboo/awesome-llm-apps",
     "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
     "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-    "stars": 140921,
-    "forks": 20710,
-    "watchers": 1305,
-    "open_issues": 28,
+    "stars": 140993,
+    "forks": 20720,
+    "watchers": 1304,
+    "open_issues": 29,
     "language": "Python",
     "topics": [
       "agents",
@@ -36,7 +36,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:27Z",
-    "metadata_refreshed_at": "2026-10-07T13:35:08Z",
+    "metadata_refreshed_at": "2026-10-08T13:40:36Z",
     "signals": [
       "docker",
       "gh-actions",

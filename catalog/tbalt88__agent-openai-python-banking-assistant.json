@@ -18,7 +18,7 @@
     "stars": 43,
     "forks": 48,
     "watchers": 0,
-    "open_issues": 38,
+    "open_issues": 39,
     "language": "TypeScript",
     "topics": [
       "ai-azd-templates",
@@ -34,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:04Z",
-    "metadata_refreshed_at": "2026-09-27T12:10:05Z",
+    "metadata_refreshed_at": "2026-10-08T13:39:18Z",
     "signals": [
       "docker",
       "gh-actions",
