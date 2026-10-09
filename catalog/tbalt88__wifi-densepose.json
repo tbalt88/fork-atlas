@@ -15,10 +15,10 @@
     "full_name": "ruvnet/RuView",
     "url": "https://github.com/ruvnet/RuView",
     "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-    "stars": 96884,
-    "forks": 12737,
-    "watchers": 870,
-    "open_issues": 390,
+    "stars": 97013,
+    "forks": 12749,
+    "watchers": 871,
+    "open_issues": 397,
     "language": "Rust",
     "topics": [
       "awesome",
@@ -46,13 +46,13 @@
     "homepage": "https://Cognitum.One/RuView",
     "default_branch": "main",
     "created_at": "2025-06-07T04:32:30Z",
-    "pushed_at": "2026-10-08T12:24:57Z",
+    "pushed_at": "2026-10-09T12:45:17Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:00Z",
-    "metadata_refreshed_at": "2026-10-08T13:40:10Z",
+    "metadata_refreshed_at": "2026-10-09T13:26:09Z",
     "signals": [],
     "languages": {
       "Rust": 11541539,

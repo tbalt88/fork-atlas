@@ -15,10 +15,10 @@
     "full_name": "microsoft/foundry-local",
     "url": "https://github.com/microsoft/foundry-local",
     "description": null,
-    "stars": 2577,
-    "forks": 378,
+    "stars": 2578,
+    "forks": 377,
     "watchers": 76,
-    "open_issues": 108,
+    "open_issues": 110,
     "language": "C++",
     "topics": [
       "ai-sdk",
@@ -36,13 +36,13 @@
     "homepage": "https://foundrylocal.ai",
     "default_branch": "main",
     "created_at": "2025-03-31T21:51:15Z",
-    "pushed_at": "2026-10-08T04:18:40Z",
+    "pushed_at": "2026-10-09T00:15:29Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:11Z",
-    "metadata_refreshed_at": "2026-10-08T13:40:19Z",
+    "metadata_refreshed_at": "2026-10-09T13:26:16Z",
     "signals": [
       "gh-actions"
     ],

@@ -15,10 +15,10 @@
     "full_name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 296618,
-    "forks": 26476,
-    "watchers": 1098,
-    "open_issues": 327,
+    "stars": 296774,
+    "forks": 26503,
+    "watchers": 1097,
+    "open_issues": 323,
     "language": "Shell",
     "topics": [
       "ai",
@@ -34,13 +34,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2025-10-09T19:45:18Z",
-    "pushed_at": "2026-10-08T04:15:27Z",
+    "pushed_at": "2026-10-09T03:17:19Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:22Z",
-    "metadata_refreshed_at": "2026-10-08T13:38:39Z",
+    "metadata_refreshed_at": "2026-10-09T13:24:42Z",
     "signals": [
       "claude-md",
       "claude-skill",

@@ -15,10 +15,10 @@
     "full_name": "Kilo-Org/kilocode",
     "url": "https://github.com/Kilo-Org/kilocode",
     "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
-    "stars": 27535,
-    "forks": 3241,
+    "stars": 27541,
+    "forks": 3242,
     "watchers": 117,
-    "open_issues": 591,
+    "open_issues": 583,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -38,13 +38,13 @@
     "homepage": "https://kilo.ai/",
     "default_branch": "main",
     "created_at": "2025-03-10T15:34:26Z",
-    "pushed_at": "2026-10-08T13:37:26Z",
+    "pushed_at": "2026-10-09T12:29:26Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:23Z",
-    "metadata_refreshed_at": "2026-10-08T13:38:40Z",
+    "metadata_refreshed_at": "2026-10-09T13:24:43Z",
     "signals": [
       "gh-actions"
     ],

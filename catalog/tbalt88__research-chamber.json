@@ -12,9 +12,9 @@
     "full_name": "0xD3bt/research-chamber",
     "url": "https://github.com/0xD3bt/research-chamber",
     "description": "Code, data and findings behind researchchamber.fun: experiments on open AI models with a pain pattern switched on",
-    "stars": 45,
+    "stars": 46,
     "forks": 10,
-    "watchers": 0,
+    "watchers": 1,
     "open_issues": 2,
     "language": "Python",
     "topics": [],
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-03T11:44:35Z",
-    "metadata_refreshed_at": "2026-10-08T13:37:32Z",
+    "metadata_refreshed_at": "2026-10-09T13:23:42Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

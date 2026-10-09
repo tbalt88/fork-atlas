@@ -16,7 +16,7 @@
     "full_name": "Hyacinthe-primus/File_Converter_Pro",
     "url": "https://github.com/Hyacinthe-primus/File_Converter_Pro",
     "description": "Free offline all-in-one file converter for Windows. Converts documents, images, audio and video locally. No uploads, no internet, no dependencies. Built with Python & PySide6. Features dark/light theme, stats dashboard, achievements, and multi-engine fallback.",
-    "stars": 591,
+    "stars": 592,
     "forks": 82,
     "watchers": 8,
     "open_issues": 4,
@@ -46,7 +46,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:29Z",
-    "metadata_refreshed_at": "2026-10-08T13:37:44Z",
+    "metadata_refreshed_at": "2026-10-09T13:23:51Z",
     "actions_checked_at": "2026-09-08T20:27:20Z",
     "signals": [
       "python"
