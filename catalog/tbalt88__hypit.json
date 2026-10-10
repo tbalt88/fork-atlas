@@ -12,9 +12,9 @@
     "full_name": "hypit-ai/hypit",
     "url": "https://github.com/hypit-ai/hypit",
     "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
-    "stars": 20535,
-    "forks": 2256,
-    "watchers": 35,
+    "stars": 20737,
+    "forks": 2276,
+    "watchers": 34,
     "open_issues": 11,
     "language": "TypeScript",
     "topics": [
@@ -43,13 +43,13 @@
     "homepage": "https://hypit.ai",
     "default_branch": "main",
     "created_at": "2026-07-29T18:49:19Z",
-    "pushed_at": "2026-10-09T11:05:12Z",
+    "pushed_at": "2026-10-09T18:03:34Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-18T11:22:23Z",
-    "metadata_refreshed_at": "2026-10-09T13:23:47Z",
+    "metadata_refreshed_at": "2026-10-10T12:38:41Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

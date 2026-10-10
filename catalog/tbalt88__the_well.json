@@ -15,7 +15,7 @@
     "full_name": "PolymathicAI/the_well",
     "url": "https://github.com/PolymathicAI/the_well",
     "description": "A 15TB Collection of Physics Simulation Datasets",
-    "stars": 4468,
+    "stars": 4469,
     "forks": 572,
     "watchers": 49,
     "open_issues": 23,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:01Z",
-    "metadata_refreshed_at": "2026-10-09T13:24:21Z",
+    "metadata_refreshed_at": "2026-10-10T12:39:15Z",
     "signals": [
       "gh-actions"
     ],

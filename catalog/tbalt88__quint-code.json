@@ -18,7 +18,7 @@
     "stars": 1397,
     "forks": 101,
     "watchers": 15,
-    "open_issues": 14,
+    "open_issues": 15,
     "language": "Go",
     "topics": [
       "ai-agents",
@@ -49,7 +49,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:06Z",
-    "metadata_refreshed_at": "2026-10-09T13:26:12Z",
+    "metadata_refreshed_at": "2026-10-10T12:40:50Z",
     "signals": [
       "claude-md",
       "gh-actions"

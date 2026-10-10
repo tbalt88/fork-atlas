@@ -15,10 +15,10 @@
     "full_name": "Fergana-Labs/stash",
     "url": "https://github.com/Fergana-Labs/stash",
     "description": "Open-source infrastructure for agents that learn from experience. Capture production traces and turn lessons into reusable knowledge and skills.",
-    "stars": 335,
+    "stars": 336,
     "forks": 43,
     "watchers": 3,
-    "open_issues": 34,
+    "open_issues": 21,
     "language": "Python",
     "topics": [
       "agent-collaboration",
@@ -45,13 +45,13 @@
     "homepage": "https://www.joinstash.ai",
     "default_branch": "main",
     "created_at": "2026-02-12T04:36:24Z",
-    "pushed_at": "2026-10-09T06:18:52Z",
+    "pushed_at": "2026-10-10T03:08:49Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-10-09T13:24:36Z",
+    "metadata_refreshed_at": "2026-10-10T12:39:27Z",
     "signals": [
       "claude-md",
       "docker",
