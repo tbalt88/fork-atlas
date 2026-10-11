@@ -18,7 +18,7 @@
     "stars": 468,
     "forks": 50,
     "watchers": 6,
-    "open_issues": 17,
+    "open_issues": 18,
     "language": "Kotlin",
     "topics": [
       "android",
@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:52Z",
-    "metadata_refreshed_at": "2026-10-08T13:40:02Z",
+    "metadata_refreshed_at": "2026-10-11T13:00:08Z",
     "signals": [
       "gh-actions"
     ],

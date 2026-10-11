@@ -15,8 +15,8 @@
     "full_name": "FareedKhan-dev/all-agentic-architectures",
     "url": "https://github.com/FareedKhan-dev/all-agentic-architectures",
     "description": "35 production-grade agentic AI architectures (Reflexion, LATS, GraphRAG, MemGPT, Voyager, BrowserAgent, ...) — a Python library and runnable textbook with multi-provider LLM support and a 17-task benchmark leaderboard.",
-    "stars": 4590,
-    "forks": 775,
+    "stars": 4596,
+    "forks": 776,
     "watchers": 35,
     "open_issues": 11,
     "language": "Jupyter Notebook",
@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:10Z",
-    "metadata_refreshed_at": "2026-10-10T12:40:53Z",
+    "metadata_refreshed_at": "2026-10-11T13:00:22Z",
     "signals": [
       "docker",
       "gh-actions"

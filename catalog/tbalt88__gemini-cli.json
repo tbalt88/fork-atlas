@@ -15,10 +15,10 @@
     "full_name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 107269,
-    "forks": 14703,
+    "stars": 107282,
+    "forks": 14705,
     "watchers": 589,
-    "open_issues": 759,
+    "open_issues": 760,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:22Z",
-    "metadata_refreshed_at": "2026-10-10T12:41:03Z",
+    "metadata_refreshed_at": "2026-10-11T13:00:32Z",
     "signals": [
       "claude-skill"
     ],

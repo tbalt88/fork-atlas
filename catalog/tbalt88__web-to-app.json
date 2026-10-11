@@ -15,10 +15,10 @@
     "full_name": "shiaho777/web-to-app",
     "url": "https://github.com/shiaho777/web-to-app",
     "description": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
-    "stars": 6758,
-    "forks": 1039,
+    "stars": 6771,
+    "forks": 1043,
     "watchers": 30,
-    "open_issues": 4,
+    "open_issues": 7,
     "language": "Kotlin",
     "topics": [
       "android",
@@ -29,13 +29,13 @@
     "homepage": "https://shiaho777.github.io/web-to-app/",
     "default_branch": "main",
     "created_at": "2025-11-26T04:45:16Z",
-    "pushed_at": "2026-10-10T12:36:16Z",
+    "pushed_at": "2026-10-11T12:43:53Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:50Z",
-    "metadata_refreshed_at": "2026-10-10T12:39:56Z",
+    "metadata_refreshed_at": "2026-10-11T12:59:23Z",
     "signals": [
       "gh-actions",
       "go"
