@@ -16,9 +16,9 @@
     "full_name": "emilkowalski/skills",
     "url": "https://github.com/emilkowalski/skills",
     "description": "Skills for Designers and Engineers.",
-    "stars": 45169,
-    "forks": 2563,
-    "watchers": 172,
+    "stars": 45613,
+    "forks": 2595,
+    "watchers": 174,
     "open_issues": 4,
     "language": "Markdown",
     "topics": [],
@@ -26,13 +26,13 @@
     "homepage": "https://emilkowal.ski/skill",
     "default_branch": "main",
     "created_at": "2026-03-16T13:52:31Z",
-    "pushed_at": "2026-10-02T10:43:36Z",
+    "pushed_at": "2026-10-11T13:58:36Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:24Z",
-    "metadata_refreshed_at": "2026-10-11T12:58:21Z",
+    "metadata_refreshed_at": "2026-10-12T15:35:57Z",
     "actions_checked_at": "2026-09-03T17:26:23Z",
     "signals": [
       "claude-skill"

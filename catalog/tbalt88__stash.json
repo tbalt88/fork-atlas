@@ -18,7 +18,7 @@
     "stars": 337,
     "forks": 43,
     "watchers": 3,
-    "open_issues": 21,
+    "open_issues": 22,
     "language": "Python",
     "topics": [
       "agent-collaboration",
@@ -45,13 +45,13 @@
     "homepage": "https://www.joinstash.ai",
     "default_branch": "main",
     "created_at": "2026-02-12T04:36:24Z",
-    "pushed_at": "2026-10-10T03:08:49Z",
+    "pushed_at": "2026-10-12T15:32:10Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-10-11T12:58:53Z",
+    "metadata_refreshed_at": "2026-10-12T15:36:24Z",
     "signals": [
       "claude-md",
       "docker",
