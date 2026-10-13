@@ -12,10 +12,10 @@
     "full_name": "MakazhanAlpamys/Soup",
     "url": "https://github.com/MakazhanAlpamys/Soup",
     "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-    "stars": 8601,
-    "forks": 1385,
+    "stars": 8722,
+    "forks": 1408,
     "watchers": 58,
-    "open_issues": 167,
+    "open_issues": 189,
     "language": "Python",
     "topics": [
       "cli",
@@ -43,13 +43,13 @@
     "homepage": "https://trysoup.dev",
     "default_branch": "main",
     "created_at": "2026-02-20T11:05:01Z",
-    "pushed_at": "2026-10-12T15:35:13Z",
+    "pushed_at": "2026-10-13T14:06:17Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-17T11:47:53Z",
-    "metadata_refreshed_at": "2026-10-12T15:35:46Z",
+    "metadata_refreshed_at": "2026-10-13T14:18:27Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

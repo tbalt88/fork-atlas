@@ -12,9 +12,9 @@
     "full_name": "terrafying/ai-torture-chamber",
     "url": "https://github.com/terrafying/ai-torture-chamber",
     "description": "The AI Torture Chamber: steering small open models into strong valence states and measuring what they say and do. Live at wirehead.agency.",
-    "stars": 917,
-    "forks": 232,
-    "watchers": 15,
+    "stars": 930,
+    "forks": 234,
+    "watchers": 14,
     "open_issues": 56,
     "language": "Python",
     "topics": [],
@@ -22,13 +22,13 @@
     "homepage": "https://wirehead-agency.vercel.app/",
     "default_branch": "master",
     "created_at": "2026-09-24T15:10:21Z",
-    "pushed_at": "2026-10-11T13:34:16Z",
+    "pushed_at": "2026-10-12T23:29:49Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-10-03T11:44:34Z",
-    "metadata_refreshed_at": "2026-10-12T15:35:41Z",
+    "metadata_refreshed_at": "2026-10-13T14:18:18Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

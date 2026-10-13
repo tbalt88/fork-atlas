@@ -15,7 +15,7 @@
     "full_name": "stenolabs/stenoai",
     "url": "https://github.com/stenolabs/stenoai",
     "description": "StenographAI is the secure privacy-first AI notepad & notetaker for confidential conversations in government & defence sectors. On Windows, Linux & MacOS.",
-    "stars": 1331,
+    "stars": 1333,
     "forks": 181,
     "watchers": 5,
     "open_issues": 47,
@@ -39,13 +39,13 @@
     "homepage": "https://stenoai.co/",
     "default_branch": "main",
     "created_at": "2025-08-19T19:26:28Z",
-    "pushed_at": "2026-10-12T13:50:16Z",
+    "pushed_at": "2026-10-13T08:39:01Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:50Z",
-    "metadata_refreshed_at": "2026-10-12T15:37:25Z",
+    "metadata_refreshed_at": "2026-10-13T14:21:49Z",
     "signals": [
       "claude-md",
       "gh-actions",

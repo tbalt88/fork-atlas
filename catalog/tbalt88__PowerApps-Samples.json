@@ -18,7 +18,7 @@
     "stars": 1991,
     "forks": 1824,
     "watchers": 124,
-    "open_issues": 45,
+    "open_issues": 46,
     "language": "C#",
     "topics": [
       "ai-builder",
@@ -44,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:29Z",
-    "metadata_refreshed_at": "2026-10-12T15:37:49Z",
+    "metadata_refreshed_at": "2026-10-13T14:22:42Z",
     "signals": [
       "claude-md",
       "node",
