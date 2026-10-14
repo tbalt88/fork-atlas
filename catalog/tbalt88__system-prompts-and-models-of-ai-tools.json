@@ -15,9 +15,9 @@
     "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-    "stars": 143991,
+    "stars": 144019,
     "forks": 34755,
-    "watchers": 1680,
+    "watchers": 1679,
     "open_issues": 161,
     "language": null,
     "topics": [
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:06Z",
-    "metadata_refreshed_at": "2026-10-13T14:20:53Z",
+    "metadata_refreshed_at": "2026-10-14T12:01:55Z",
     "signals": [],
     "languages": {},
     "inputs_prepared_at": "2026-08-18T02:18:37Z",

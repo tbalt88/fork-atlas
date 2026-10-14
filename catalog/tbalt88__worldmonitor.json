@@ -15,10 +15,10 @@
     "full_name": "koala73/worldmonitor",
     "url": "https://github.com/koala73/worldmonitor",
     "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-    "stars": 88365,
-    "forks": 13510,
-    "watchers": 503,
-    "open_issues": 369,
+    "stars": 88423,
+    "forks": 13528,
+    "watchers": 504,
+    "open_issues": 368,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -38,13 +38,13 @@
     "homepage": "https://worldmonitor.app",
     "default_branch": "main",
     "created_at": "2026-01-08T17:26:06Z",
-    "pushed_at": "2026-10-13T10:59:29Z",
+    "pushed_at": "2026-10-14T10:55:29Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:15Z",
-    "metadata_refreshed_at": "2026-10-13T14:21:04Z",
+    "metadata_refreshed_at": "2026-10-14T12:02:04Z",
     "signals": [
       "docker",
       "gh-actions",
