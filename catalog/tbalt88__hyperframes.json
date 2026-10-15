@@ -15,10 +15,10 @@
     "full_name": "heygen-com/hyperframes",
     "url": "https://github.com/heygen-com/hyperframes",
     "description": "Write HTML. Render video. Built for agents.",
-    "stars": 63257,
-    "forks": 5673,
-    "watchers": 166,
-    "open_issues": 283,
+    "stars": 64092,
+    "forks": 5757,
+    "watchers": 172,
+    "open_issues": 287,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -37,13 +37,13 @@
     "homepage": "https://hyperframes.dev",
     "default_branch": "main",
     "created_at": "2026-03-10T01:51:06Z",
-    "pushed_at": "2026-10-14T11:25:09Z",
+    "pushed_at": "2026-10-15T11:36:51Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:25Z",
-    "metadata_refreshed_at": "2026-10-14T12:01:13Z",
+    "metadata_refreshed_at": "2026-10-15T11:38:03Z",
     "signals": [
       "claude-skill",
       "gh-actions"
