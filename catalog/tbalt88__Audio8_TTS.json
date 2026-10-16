@@ -1,0 +1,38 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Audio8_TTS",
+    "url": "https://github.com/tbalt88/Audio8_TTS",
+    "created_at": "2026-10-15T18:44:29Z",
+    "default_branch": "master",
+    "pushed_at": "2026-09-02T02:35:38Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "Edge0-AI/Audio8_TTS",
+    "url": "https://github.com/Edge0-AI/Audio8_TTS",
+    "description": "SOTA-Class TTS at Compact Scale",
+    "stars": 1786,
+    "forks": 197,
+    "watchers": 42,
+    "open_issues": 10,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache-2.0",
+    "homepage": null,
+    "default_branch": "master",
+    "created_at": "2026-07-29T03:58:19Z",
+    "pushed_at": "2026-09-02T02:35:38Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-16T11:30:52Z",
+    "metadata_refreshed_at": "2026-10-16T11:30:52Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

@@ -15,10 +15,10 @@
     "full_name": "Y-Research-SBU/QuantHarness",
     "url": "https://github.com/Y-Research-SBU/QuantHarness",
     "description": "Official Repository for QuantHarness",
-    "stars": 2874,
+    "stars": 2877,
     "forks": 620,
     "watchers": 28,
-    "open_issues": 3,
+    "open_issues": 2,
     "language": "HTML",
     "topics": [
       "agentic-ai",
@@ -34,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:38Z",
-    "metadata_refreshed_at": "2026-10-15T11:39:04Z",
+    "metadata_refreshed_at": "2026-10-16T11:33:18Z",
     "signals": [
       "gh-actions"
     ],

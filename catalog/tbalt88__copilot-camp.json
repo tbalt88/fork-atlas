@@ -15,23 +15,23 @@
     "full_name": "microsoft/copilot-camp",
     "url": "https://github.com/microsoft/copilot-camp",
     "description": "Hands-on labs for extending Microsoft 365 Copilot and building custom engine agents",
-    "stars": 669,
+    "stars": 670,
     "forks": 180,
-    "watchers": 19,
-    "open_issues": 144,
+    "watchers": 20,
+    "open_issues": 146,
     "language": "C#",
     "topics": [],
     "license": "MIT",
     "homepage": null,
     "default_branch": "main",
     "created_at": "2024-01-31T16:31:33Z",
-    "pushed_at": "2026-10-15T00:19:55Z",
+    "pushed_at": "2026-10-16T00:12:10Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:30Z",
-    "metadata_refreshed_at": "2026-10-15T11:38:59Z",
+    "metadata_refreshed_at": "2026-10-16T11:33:11Z",
     "signals": [
       "claude-skill",
       "gh-actions"

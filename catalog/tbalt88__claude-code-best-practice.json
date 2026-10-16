@@ -15,9 +15,9 @@
     "full_name": "shanraisshan/claude-code-best-practice",
     "url": "https://github.com/shanraisshan/claude-code-best-practice",
     "description": "from vibe coding to agentic engineering - practice makes claude perfect",
-    "stars": 67576,
-    "forks": 6742,
-    "watchers": 497,
+    "stars": 67631,
+    "forks": 6745,
+    "watchers": 496,
     "open_issues": 22,
     "language": "HTML",
     "topics": [
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:23Z",
-    "metadata_refreshed_at": "2026-10-15T11:38:52Z",
+    "metadata_refreshed_at": "2026-10-16T11:33:05Z",
     "signals": [],
     "languages": {
       "HTML": 593729,

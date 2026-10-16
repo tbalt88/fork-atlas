@@ -15,7 +15,7 @@
     "full_name": "bestruirui/octopus",
     "url": "https://github.com/bestruirui/octopus",
     "description": "One Hub All LLMs For You | 为个人打造的 LLM API 聚合网关",
-    "stars": 2707,
+    "stars": 2711,
     "forks": 444,
     "watchers": 12,
     "open_issues": 17,
@@ -48,7 +48,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:48Z",
-    "metadata_refreshed_at": "2026-10-15T11:39:14Z",
+    "metadata_refreshed_at": "2026-10-16T11:33:29Z",
     "signals": [
       "docker",
       "gh-actions",
