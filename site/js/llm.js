@@ -57,8 +57,9 @@ async function ollamaChat({ url, model, system, user, schema, numCtx, onToken, s
 }
 
 // ---- Anthropic --------------------------------------------------------------
-async function anthropicChat({ key, model, system, user, schema, onToken, signal, maxTokens = 4096 }) {
-  const body = { model, max_tokens: maxTokens, output_config: { effort: 'low' }, system, messages: [{ role: 'user', content: user }], stream: true };
+async function anthropicChat({ key, model, system, user, schema, onToken, signal, maxTokens = 4096, effort }) {
+  const body = { model, max_tokens: maxTokens, system, messages: [{ role: 'user', content: user }], stream: true };
+  if (effort) body.output_config = { effort };
   if (schema) {
     body.tools = [{ name: 'emit', description: 'Emit the structured answer.', input_schema: schema }];
     body.tool_choice = { type: 'tool', name: 'emit' };
@@ -87,7 +88,7 @@ export async function complete({ provider, cfg, slot, system, user, schema, onTo
   if (!model) throw new Error(`${provider}: no ${slot} model configured`);
   const text = provider === 'ollama'
     ? await ollamaChat({ url: p.url, model, system, user, schema, numCtx: p.numCtx, onToken, signal })
-    : await anthropicChat({ key: p.key, model, system, user, schema, onToken, signal });
+    : await anthropicChat({ key: p.key, model, system, user, schema, onToken, signal, effort: slot === 'reason' ? undefined : 'low' });
   return schema ? parseJson(text) : text;
 }
 
