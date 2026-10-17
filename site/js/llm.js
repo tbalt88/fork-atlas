@@ -7,7 +7,7 @@ const KEY = 'atlas.llm.v1';
 export const DEFAULTS = {
   order: ['ollama', 'anthropic'],
   ollama: { url: 'http://localhost:11434', shortlistModel: '', reasonModel: '', enabled: true, numCtx: 8192 },
-  anthropic: { key: '', shortlistModel: 'claude-haiku-4-5-20251001', reasonModel: 'claude-sonnet-5', enabled: true },
+  anthropic: { key: '', shortlistModel: 'claude-haiku-5-5', reasonModel: 'claude-sonnet-5', enabled: true },
   // read-only fine-grained GitHub PAT for the private vault repo (Contents: read) — Project board source
   board: { token: '', repo: 'tbalt88/second-brain', path: 'Boards/Projects.md', branch: 'main', enabled: true },
   // read-only fine-grained GitHub PAT, "All repositories", Metadata + Contents: read — LIVE private repos in search
@@ -57,8 +57,8 @@ async function ollamaChat({ url, model, system, user, schema, numCtx, onToken, s
 }
 
 // ---- Anthropic --------------------------------------------------------------
-async function anthropicChat({ key, model, system, user, schema, onToken, signal, maxTokens = 4000 }) {
-  const body = { model, max_tokens: maxTokens, system, messages: [{ role: 'user', content: user }], stream: true };
+async function anthropicChat({ key, model, system, user, schema, onToken, signal, maxTokens = 4096 }) {
+  const body = { model, max_tokens: maxTokens, output_config: { effort: 'low' }, system, messages: [{ role: 'user', content: user }], stream: true };
   if (schema) {
     body.tools = [{ name: 'emit', description: 'Emit the structured answer.', input_schema: schema }];
     body.tool_choice = { type: 'tool', name: 'emit' };
