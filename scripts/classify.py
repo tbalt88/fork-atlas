@@ -149,7 +149,11 @@ def call_anthropic(prompt: str, model: str) -> dict:
         sys.exit("ANTHROPIC_API_KEY not set in local environment (do not put it in GitHub).")
     body = {
         "model": model,
-        "max_tokens": 1500,
+        # Haiku 5.5 thinks adaptively by default and thinking tokens count
+        # against max_tokens; low effort keeps the thinking short and 4096
+        # leaves room for it plus the ~300-token JSON answer.
+        "max_tokens": 4096,
+        "output_config": {"effort": "low"},
         "system": "You classify GitHub repositories. Reply with a single JSON object and nothing else.",
         "messages": [{"role": "user", "content": prompt}],
     }
