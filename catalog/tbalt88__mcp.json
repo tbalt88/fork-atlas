@@ -17,7 +17,7 @@
     "description": "Google 💚 MCP",
     "stars": 4642,
     "forks": 537,
-    "watchers": 65,
+    "watchers": 64,
     "open_issues": 32,
     "language": null,
     "topics": [],
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:05Z",
-    "metadata_refreshed_at": "2026-10-16T11:33:46Z",
+    "metadata_refreshed_at": "2026-10-17T10:53:14Z",
     "signals": [
       "docker",
       "node",

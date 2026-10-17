@@ -15,7 +15,7 @@
     "full_name": "beenuar/AiSOC",
     "url": "https://github.com/beenuar/AiSOC",
     "description": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
-    "stars": 2414,
+    "stars": 2415,
     "forks": 271,
     "watchers": 35,
     "open_issues": 7,
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:56Z",
-    "metadata_refreshed_at": "2026-10-16T11:31:40Z",
+    "metadata_refreshed_at": "2026-10-17T10:51:31Z",
     "signals": [
       "docker",
       "gh-actions",
