@@ -7,7 +7,7 @@ const KEY = 'atlas.llm.v1';
 export const DEFAULTS = {
   order: ['ollama', 'anthropic'],
   ollama: { url: 'http://localhost:11434', shortlistModel: '', reasonModel: '', enabled: true, numCtx: 8192 },
-  anthropic: { key: '', shortlistModel: 'claude-haiku-4-5-20251001', reasonModel: 'claude-sonnet-5', enabled: true },
+  anthropic: { key: '', shortlistModel: 'claude-haiku-5-5', reasonModel: 'claude-sonnet-5', enabled: true },
   // read-only fine-grained GitHub PAT for the private vault repo (Contents: read) — Project board source
   board: { token: '', repo: 'tbalt88/second-brain', path: 'Boards/Projects.md', branch: 'main', enabled: true },
   // read-only fine-grained GitHub PAT, "All repositories", Metadata + Contents: read — LIVE private repos in search
@@ -57,8 +57,9 @@ async function ollamaChat({ url, model, system, user, schema, numCtx, onToken, s
 }
 
 // ---- Anthropic --------------------------------------------------------------
-async function anthropicChat({ key, model, system, user, schema, onToken, signal, maxTokens = 4000 }) {
+async function anthropicChat({ key, model, system, user, schema, onToken, signal, maxTokens = 4096, effort }) {
   const body = { model, max_tokens: maxTokens, system, messages: [{ role: 'user', content: user }], stream: true };
+  if (effort) body.output_config = { effort };
   if (schema) {
     body.tools = [{ name: 'emit', description: 'Emit the structured answer.', input_schema: schema }];
     body.tool_choice = { type: 'tool', name: 'emit' };
@@ -87,7 +88,7 @@ export async function complete({ provider, cfg, slot, system, user, schema, onTo
   if (!model) throw new Error(`${provider}: no ${slot} model configured`);
   const text = provider === 'ollama'
     ? await ollamaChat({ url: p.url, model, system, user, schema, numCtx: p.numCtx, onToken, signal })
-    : await anthropicChat({ key: p.key, model, system, user, schema, onToken, signal });
+    : await anthropicChat({ key: p.key, model, system, user, schema, onToken, signal, effort: slot === 'reason' ? undefined : 'low' });
   return schema ? parseJson(text) : text;
 }
 
