@@ -25,7 +25,7 @@ import urllib.request
 from common import (INPUTS, all_records, fetch_readme, fetch_tree_summary, gh_get,
                     load_taxonomy, now_iso, record_id, save_record, signals_from_tree)
 
-DEFAULT_MODEL = "claude-haiku-4-5-20251001"
+DEFAULT_MODEL = "claude-haiku-5-5"
 
 RESULT_SCHEMA_DOC = """{
   "domain": "<one key from DOMAINS>",
