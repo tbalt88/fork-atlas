@@ -18,7 +18,7 @@
     "stars": 2613,
     "forks": 430,
     "watchers": 16,
-    "open_issues": 35,
+    "open_issues": 36,
     "language": "Go",
     "topics": [
       "agent",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:09Z",
-    "metadata_refreshed_at": "2026-10-17T10:52:30Z",
+    "metadata_refreshed_at": "2026-10-18T11:16:51Z",
     "signals": [
       "claude-md",
       "gh-actions",

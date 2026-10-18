@@ -15,10 +15,10 @@
     "full_name": "bragai/bRAG-langchain",
     "url": "https://github.com/bragai/bRAG-langchain",
     "description": "Everything you need to know to build your own RAG application",
-    "stars": 4190,
-    "forks": 514,
+    "stars": 4191,
+    "forks": 520,
     "watchers": 41,
-    "open_issues": 4,
+    "open_issues": 5,
     "language": "Jupyter Notebook",
     "topics": [
       "agentic-rag",
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:24Z",
-    "metadata_refreshed_at": "2026-10-17T10:53:29Z",
+    "metadata_refreshed_at": "2026-10-18T11:17:50Z",
     "signals": [
       "python"
     ],

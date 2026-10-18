@@ -15,7 +15,7 @@
     "full_name": "cporter202/stock-market-signal-automation",
     "url": "https://github.com/cporter202/stock-market-signal-automation",
     "description": "Build your own data-driven market edge with swing-trade signal webhooks, dashboards, alerts, AI agents, and automation examples.",
-    "stars": 291,
+    "stars": 292,
     "forks": 72,
     "watchers": 2,
     "open_issues": 0,
@@ -40,13 +40,13 @@
     "homepage": "https://kamdenai.com",
     "default_branch": "main",
     "created_at": "2026-06-13T04:24:25Z",
-    "pushed_at": "2026-10-10T01:16:28Z",
+    "pushed_at": "2026-10-17T16:09:59Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:07Z",
-    "metadata_refreshed_at": "2026-10-15T11:37:40Z",
+    "metadata_refreshed_at": "2026-10-18T11:15:59Z",
     "signals": [
       "node",
       "python"

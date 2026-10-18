@@ -16,9 +16,9 @@
     "url": "https://github.com/sismics/docs",
     "description": "Lightweight document management system packed with all the features you can expect from big expensive solutions",
     "stars": 2570,
-    "forks": 710,
+    "forks": 712,
     "watchers": 51,
-    "open_issues": 113,
+    "open_issues": 111,
     "language": "JavaScript",
     "topics": [
       "cloud",
@@ -39,13 +39,13 @@
     "homepage": "https://teedy.io",
     "default_branch": "master",
     "created_at": "2013-07-27T16:20:09Z",
-    "pushed_at": "2026-08-17T07:16:50Z",
+    "pushed_at": "2026-10-17T15:19:54Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:17Z",
-    "metadata_refreshed_at": "2026-10-17T10:52:36Z",
+    "metadata_refreshed_at": "2026-10-18T11:16:57Z",
     "signals": [
       "docker",
       "gh-actions",

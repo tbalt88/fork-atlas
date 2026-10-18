@@ -15,10 +15,10 @@
     "full_name": "business-science/ai-data-science-team",
     "url": "https://github.com/business-science/ai-data-science-team",
     "description": "An AI-powered data science team of agents to help you perform common data science tasks 10X faster.",
-    "stars": 5458,
-    "forks": 938,
+    "stars": 5460,
+    "forks": 939,
     "watchers": 90,
-    "open_issues": 37,
+    "open_issues": 38,
     "language": "Python",
     "topics": [
       "agents",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:28Z",
-    "metadata_refreshed_at": "2026-10-17T10:52:44Z",
+    "metadata_refreshed_at": "2026-10-18T11:17:05Z",
     "signals": [
       "python"
     ],

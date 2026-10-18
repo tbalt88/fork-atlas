@@ -1,0 +1,59 @@
+{
+  "fork": {
+    "full_name": "tbalt88/rea",
+    "url": "https://github.com/tbalt88/rea",
+    "created_at": "2026-10-17T15:33:34Z",
+    "default_branch": "main",
+    "pushed_at": "2026-10-17T15:26:42Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "morluto/rea",
+    "url": "https://github.com/morluto/rea",
+    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "stars": 314556,
+    "forks": 79737,
+    "watchers": 1125,
+    "open_issues": 1215,
+    "language": "TypeScript",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "binary-analysis",
+      "claude-code",
+      "cli",
+      "codex",
+      "cordis",
+      "decompiler",
+      "developer-tools",
+      "dsh",
+      "dsh-plugin",
+      "ghidra",
+      "hopper",
+      "llm",
+      "mcp",
+      "model-context-protocol",
+      "rea",
+      "reverse-engineering",
+      "static-analysis",
+      "touhou"
+    ],
+    "license": "MIT",
+    "homepage": "https://rea.tools",
+    "default_branch": "main",
+    "created_at": "2026-04-14T00:51:32Z",
+    "pushed_at": "2026-10-18T11:09:45Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-18T11:15:12Z",
+    "metadata_refreshed_at": "2026-10-18T11:15:12Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

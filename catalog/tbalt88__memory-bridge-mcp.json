@@ -4,7 +4,7 @@
     "url": "https://github.com/tbalt88/memory-bridge-mcp",
     "created_at": "2026-07-07T03:43:39Z",
     "default_branch": "main",
-    "pushed_at": "2026-08-06T23:53:59Z",
+    "pushed_at": "2026-10-17T19:25:16Z",
     "actions": {
       "enabled": true,
       "scheduled_runs": 0,
@@ -26,13 +26,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2026-07-07T03:43:39Z",
-    "pushed_at": "2026-08-06T23:53:59Z",
+    "pushed_at": "2026-10-17T19:25:16Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T17:52:58Z",
-    "metadata_refreshed_at": "2026-09-03T17:27:50Z",
+    "metadata_refreshed_at": "2026-10-18T11:16:08Z",
     "actions_checked_at": "2026-09-03T17:27:49Z",
     "signals": [
       "gh-actions",
