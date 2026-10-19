@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T06:53:19Z",
+ "generated_at": "2026-10-19T06:59:27Z",
  "taxonomy": {
   "domains": [
    {
@@ -148,7 +148,7 @@
   "total": 257,
   "classified": 257,
   "unclassified": 0,
-  "needs_review": 4,
+  "needs_review": 0,
   "owned": 11
  },
  "keywords": {
@@ -4913,10 +4913,12 @@
    "domain": "science-research",
    "domain_label": "Scientific ML, datasets & simulation",
    "domains": [
-    "science-research"
+    "science-research",
+    "llm-inference-training"
    ],
    "domain_labels": [
-    "Scientific ML, datasets & simulation"
+    "Scientific ML, datasets & simulation",
+    "LLM inference & training"
    ],
    "form": "app",
    "form_label": "Application / UI",
@@ -4965,11 +4967,11 @@
    ],
    "confidence": 0.75,
    "proposed_domain": "AI welfare / activation steering research",
-   "needs_review": true,
+   "needs_review": false,
    "classified_at": "2026-10-19T06:53:18Z",
-   "note": null,
+   "note": "Reviewed: research codebase alongside research-chamber; also llm-inference-training for activation steering and evaluation of open models.",
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/research-chamber",
@@ -5701,12 +5703,14 @@
    ],
    "actions": {},
    "status": "classified",
-   "domain": "infra-devops",
-   "domain_label": "Infra, DevOps & self-hosting",
+   "domain": "llm-inference-training",
+   "domain_label": "LLM inference & training",
    "domains": [
+    "llm-inference-training",
     "infra-devops"
    ],
    "domain_labels": [
+    "LLM inference & training",
     "Infra, DevOps & self-hosting"
    ],
    "form": "service",
@@ -5769,11 +5773,11 @@
    ],
    "confidence": 0.85,
    "proposed_domain": "LLM API gateway / proxy",
-   "needs_review": true,
+   "needs_review": false,
    "classified_at": "2026-10-19T06:53:18Z",
-   "note": null,
+   "note": "Reviewed: LLM gateway, grouped with OmniRoute / octopus. Caution: pools Anthropic OAuth credentials; do not route Claude Code subscription traffic through it.",
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/hypit",
@@ -6108,11 +6112,11 @@
    ],
    "confidence": 0.9,
    "proposed_domain": "logistics / fleet management",
-   "needs_review": true,
+   "needs_review": false,
    "classified_at": "2026-10-19T06:53:18Z",
-   "note": null,
+   "note": "Reviewed: logistics/supply-chain OS is ERP-class business software; one repo does not justify a logistics domain.",
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/mempalace",
@@ -6152,10 +6156,12 @@
    "domain": "agents-skills",
    "domain_label": "Agents, skills & prompt packs",
    "domains": [
-    "agents-skills"
+    "agents-skills",
+    "data-rag"
    ],
    "domain_labels": [
-    "Agents, skills & prompt packs"
+    "Agents, skills & prompt packs",
+    "Data, ETL, search & RAG"
    ],
    "form": "library",
    "form_label": "Library / SDK",
@@ -6215,11 +6221,11 @@
    ],
    "confidence": 0.85,
    "proposed_domain": "AI agent memory",
-   "needs_review": true,
+   "needs_review": false,
    "classified_at": "2026-10-19T06:53:18Z",
-   "note": null,
+   "note": "Reviewed: agent memory sits with mem0 / memory-bridge-mcp / stash in agents-skills; also data-rag for its semantic-search store (Chroma/Qdrant/pgvector).",
    "pinned": false,
-   "overridden": false
+   "overridden": true
   },
   {
    "id": "tbalt88/experiential",

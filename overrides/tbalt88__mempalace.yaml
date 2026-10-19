@@ -1,0 +1,4 @@
+# Reviewed 2026-10-19: LLM filed under agents-skills (conf 0.85, proposed "AI agent memory").
+domain: agents-skills
+domains_extra: [data-rag]
+note: "Reviewed: agent memory sits with mem0 / memory-bridge-mcp / stash in agents-skills; also data-rag for its semantic-search store (Chroma/Qdrant/pgvector)."

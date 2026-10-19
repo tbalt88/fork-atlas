@@ -1,0 +1,3 @@
+# Reviewed 2026-10-19: LLM filed under business-apps (conf 0.9, proposed "logistics / fleet management").
+domain: business-apps
+note: "Reviewed: logistics/supply-chain OS is ERP-class business software; one repo does not justify a logistics domain."

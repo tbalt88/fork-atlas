@@ -1,0 +1,4 @@
+# Reviewed 2026-10-19: LLM filed under infra-devops (conf 0.85, proposed "LLM API gateway / proxy").
+domain: llm-inference-training
+domains_extra: [infra-devops]
+note: "Reviewed: LLM gateway, grouped with OmniRoute / octopus. Caution: pools Anthropic OAuth credentials; do not route Claude Code subscription traffic through it."
