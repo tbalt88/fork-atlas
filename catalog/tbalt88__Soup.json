@@ -51,9 +51,79 @@
     "discovered_at": "2026-09-17T11:47:53Z",
     "metadata_refreshed_at": "2026-10-18T11:15:22Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "docker",
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 25050593,
+      "Jupyter Notebook": 263079,
+      "JavaScript": 42255,
+      "CSS": 11278,
+      "HTML": 10134,
+      "PowerShell": 6456,
+      "Shell": 2366,
+      "Dockerfile": 1023
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:58Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "llm-inference-training",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Soup (soup-cli) is a Python CLI that fine-tunes and post-trains LLMs from a single YAML config, covering SFT, DPO, GRPO and other methods with LoRA/QLoRA. Its layer-streaming mode keeps frozen weights out of VRAM so an 8B model can train on a 4 GB laptop GPU. It also provides data cleaning, evaluation, adapter checks, GGUF/Ollama export, inference and a web UI. Aimed at solo builders with consumer GPUs; built on PyTorch, transformers, peft and trl, with extensive benchmark records.",
+    "keywords": [
+      "cli",
+      "consumer-gpu",
+      "dpo",
+      "fine-tuning",
+      "gguf",
+      "lora",
+      "low-vram",
+      "ollama",
+      "peft",
+      "qlora"
+    ],
+    "use_cases": [
+      {
+        "title": "Fine-tune an 8B model on a 4 GB laptop GPU",
+        "keywords": [
+          "low-vram",
+          "qlora"
+        ]
+      },
+      {
+        "title": "Run SFT or DPO from one YAML config",
+        "keywords": [
+          "dpo",
+          "fine-tuning"
+        ]
+      },
+      {
+        "title": "Export a tuned adapter to GGUF for Ollama",
+        "keywords": [
+          "gguf",
+          "ollama"
+        ]
+      },
+      {
+        "title": "Clean and validate a training dataset before a run",
+        "keywords": [
+          "data-cleaning",
+          "dataset"
+        ]
+      },
+      {
+        "title": "Check a LoRA adapter for silent failure before deploying",
+        "keywords": [
+          "evaluation",
+          "lora"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

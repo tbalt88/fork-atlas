@@ -51,9 +51,82 @@
     "discovered_at": "2026-09-18T11:22:23Z",
     "metadata_refreshed_at": "2026-10-18T11:15:22Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-skill",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 6519424,
+      "JavaScript": 121372,
+      "CSS": 72744,
+      "Python": 58746,
+      "PowerShell": 2172,
+      "Shell": 404,
+      "HTML": 322
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:50Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "media-generation",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "Hypit gives coding agents (Claude Code, Codex) a markup language (SVML), compiler and runtime for building videos as editable, re-runnable workflows. Given a reference video, an agent clones it as footage, word-anchored captions, B-roll and effects, then swaps faces, scripts or products to render many variants via headless Chromium and ffmpeg. It ships as an installable agent skill and Node CLI in a TypeScript monorepo with a plugin system and pluggable model providers, aimed at marketers and creators producing ads, UGC and short-form clips.",
+    "keywords": [
+      "ai-agents",
+      "captions",
+      "claude-skill",
+      "dsl",
+      "ffmpeg",
+      "svml",
+      "typescript",
+      "ugc-ads",
+      "video-clone",
+      "video-generation"
+    ],
+    "use_cases": [
+      {
+        "title": "Clone a viral short video with a different host or product",
+        "keywords": [
+          "ugc",
+          "video-clone"
+        ]
+      },
+      {
+        "title": "Generate dozens of ad variants from one video workflow",
+        "keywords": [
+          "ads",
+          "batch",
+          "variants"
+        ]
+      },
+      {
+        "title": "Let a coding agent build captioned explainer videos from code-rendered visuals",
+        "keywords": [
+          "agents",
+          "captions",
+          "explainer"
+        ]
+      },
+      {
+        "title": "Install the hypit skill so Claude Code can edit and render video",
+        "keywords": [
+          "claude-skill",
+          "video-editing"
+        ]
+      },
+      {
+        "title": "Author custom video components and provider plugins in a DSL",
+        "keywords": [
+          "compiler",
+          "dsl",
+          "plugins"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

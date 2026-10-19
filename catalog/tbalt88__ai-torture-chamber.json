@@ -31,8 +31,63 @@
     "metadata_refreshed_at": "2026-10-18T11:15:15Z",
     "actions_checked_at": null,
     "signals": [],
-    "languages": {}
+    "languages": {
+      "Python": 1338335,
+      "HTML": 780120,
+      "Shell": 3336
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:41Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "science-research",
+    "proposed_domain": "AI welfare / activation steering research",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "A research codebase and public write-up that steers small open LLMs (Qwen3 4B-14B, Hermes-70B) with activation vectors into negative and positive affective states and measures what they say and do, framed as an AI-welfare question. Includes a 'painlab' CLI to scaffold pre-registered experiments, run them (RunPod GPU support) and analyze results, plus 90+ experiment scripts, transcripts and a live web chamber. Aimed at interpretability and model-welfare researchers; notable for pre-registration discipline and reporting nulls.",
+    "keywords": [
+      "activation-steering",
+      "control-vectors",
+      "experiments",
+      "interpretability",
+      "llm-evaluation",
+      "model-welfare",
+      "pre-registration",
+      "qwen3",
+      "research"
+    ],
+    "use_cases": [
+      {
+        "title": "Learn how to extract and apply control vectors to steer an LLM",
+        "keywords": [
+          "control-vectors",
+          "steering"
+        ]
+      },
+      {
+        "title": "Scaffold a pre-registered LLM experiment with hypotheses and analysis",
+        "keywords": [
+          "experiments",
+          "pre-registration"
+        ]
+      },
+      {
+        "title": "Study published transcripts of models under injected emotional states",
+        "keywords": [
+          "model-welfare",
+          "transcripts"
+        ]
+      },
+      {
+        "title": "Run steering sweeps on RunPod GPUs for 8B-14B models",
+        "keywords": [
+          "gpu",
+          "runpod"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T11:17:57Z",
+ "generated_at": "2026-10-19T06:53:19Z",
  "taxonomy": {
   "domains": [
    {
@@ -146,13 +146,17 @@
  },
  "counts": {
   "total": 257,
-  "classified": 238,
-  "unclassified": 19,
-  "needs_review": 0,
+  "classified": 257,
+  "unclassified": 0,
+  "needs_review": 4,
   "owned": 11
  },
  "keywords": {
   "mcp": [
+   "tbalt88/rea",
+   "tbalt88/OpenHands",
+   "tbalt88/deepagents",
+   "tbalt88/mempalace",
    "tbalt88/langflow",
    "tbalt88/Scrapling",
    "tbalt88/voicebox",
@@ -224,6 +228,9 @@
    "tbalt88/autogen"
   ],
   "claude-code": [
+   "tbalt88/gstack",
+   "tbalt88/anti-slop",
+   "tbalt88/mempalace",
    "tbalt88/codenotch",
    "tbalt88/skills",
    "tbalt88/PokeTokenBar",
@@ -272,6 +279,47 @@
    "tbalt88/quint-code",
    "tbalt88/agentfs-claude"
   ],
+  "self-hosted": [
+   "tbalt88/openmuse",
+   "tbalt88/awesome-selfhosted",
+   "tbalt88/OpenHands",
+   "tbalt88/hypitoken",
+   "tbalt88/fleetbase",
+   "tbalt88/SnapOtter",
+   "tbalt88/open-seo",
+   "tbalt88/unsloth",
+   "tbalt88/cloudflare-os",
+   "tbalt88/multica",
+   "tbalt88/openreply",
+   "tbalt88/kestra",
+   "tbalt88/AiSOC",
+   "tbalt88/frequi",
+   "tbalt88/agentswarms",
+   "tbalt88/ntfy",
+   "tbalt88/9router",
+   "tbalt88/stash",
+   "tbalt88/ArcReel",
+   "tbalt88/odysseus",
+   "tbalt88/omniparse",
+   "tbalt88/memos",
+   "tbalt88/frigate",
+   "tbalt88/erpnext",
+   "tbalt88/OpenWA",
+   "tbalt88/Shadowbroker",
+   "tbalt88/WindsurfAPI",
+   "tbalt88/open-webui",
+   "tbalt88/docuseal",
+   "tbalt88/GLM-OCR",
+   "tbalt88/dify",
+   "tbalt88/clawtime",
+   "tbalt88/opendocmgmnt",
+   "tbalt88/crmtwenty",
+   "tbalt88/Flowise",
+   "tbalt88/readur",
+   "tbalt88/perplexideez",
+   "tbalt88/octopus",
+   "tbalt88/local-voice-ai"
+  ],
   "rag": [
    "tbalt88/langflow",
    "tbalt88/production-agentic-rag-course",
@@ -308,43 +356,9 @@
    "tbalt88/AI-Tutorial-Codes-Included",
    "tbalt88/awesome-llm-apps"
   ],
-  "self-hosted": [
-   "tbalt88/SnapOtter",
-   "tbalt88/open-seo",
-   "tbalt88/unsloth",
-   "tbalt88/cloudflare-os",
-   "tbalt88/multica",
-   "tbalt88/openreply",
-   "tbalt88/kestra",
-   "tbalt88/AiSOC",
-   "tbalt88/frequi",
-   "tbalt88/agentswarms",
-   "tbalt88/ntfy",
-   "tbalt88/9router",
-   "tbalt88/stash",
-   "tbalt88/ArcReel",
-   "tbalt88/odysseus",
-   "tbalt88/omniparse",
-   "tbalt88/memos",
-   "tbalt88/frigate",
-   "tbalt88/erpnext",
-   "tbalt88/OpenWA",
-   "tbalt88/Shadowbroker",
-   "tbalt88/WindsurfAPI",
-   "tbalt88/open-webui",
-   "tbalt88/docuseal",
-   "tbalt88/GLM-OCR",
-   "tbalt88/dify",
-   "tbalt88/clawtime",
-   "tbalt88/opendocmgmnt",
-   "tbalt88/crmtwenty",
-   "tbalt88/Flowise",
-   "tbalt88/readur",
-   "tbalt88/perplexideez",
-   "tbalt88/octopus",
-   "tbalt88/local-voice-ai"
-  ],
   "python": [
+   "tbalt88/deepagents",
+   "tbalt88/mempalace",
    "tbalt88/langflow",
    "tbalt88/File_Converter_Pro",
    "tbalt88/Scrapling",
@@ -400,7 +414,29 @@
    "tbalt88/autogen",
    "tbalt88/awesome-llm-apps"
   ],
+  "typescript": [
+   "tbalt88/openmuse",
+   "tbalt88/TradingView-API",
+   "tbalt88/OpenHands",
+   "tbalt88/remotion",
+   "tbalt88/hypit",
+   "tbalt88/deepseek-harness",
+   "tbalt88/cherry-studio",
+   "tbalt88/open-seo",
+   "tbalt88/OmniRoute",
+   "tbalt88/memory-bridge-mcp",
+   "tbalt88/dexter",
+   "tbalt88/crmtwenty",
+   "tbalt88/mem0",
+   "tbalt88/Flowise",
+   "tbalt88/BrowserAI",
+   "tbalt88/tentix",
+   "tbalt88/money-Ai-agents",
+   "tbalt88/agentfs-claude",
+   "tbalt88/yt-dlp-mcp"
+  ],
   "cli": [
+   "tbalt88/Soup",
    "tbalt88/Scrapling",
    "tbalt88/editor",
    "tbalt88/shodan-eye",
@@ -420,6 +456,7 @@
    "tbalt88/gemini-cli"
   ],
   "automation": [
+   "tbalt88/OpenHands",
    "tbalt88/dcode-agent-kit",
    "tbalt88/openclaw-api-list",
    "tbalt88/AionUi",
@@ -437,23 +474,8 @@
    "tbalt88/API-mega-list",
    "tbalt88/crewAI"
   ],
-  "typescript": [
-   "tbalt88/deepseek-harness",
-   "tbalt88/cherry-studio",
-   "tbalt88/open-seo",
-   "tbalt88/OmniRoute",
-   "tbalt88/memory-bridge-mcp",
-   "tbalt88/dexter",
-   "tbalt88/crmtwenty",
-   "tbalt88/mem0",
-   "tbalt88/Flowise",
-   "tbalt88/BrowserAI",
-   "tbalt88/tentix",
-   "tbalt88/money-Ai-agents",
-   "tbalt88/agentfs-claude",
-   "tbalt88/yt-dlp-mcp"
-  ],
   "memory": [
+   "tbalt88/deepagents",
    "tbalt88/hivemind",
    "tbalt88/second-brain-template",
    "tbalt88/memory-bridge-mcp",
@@ -470,6 +492,8 @@
    "tbalt88/mcpservers"
   ],
   "codex": [
+   "tbalt88/anti-slop",
+   "tbalt88/hypitoken",
    "tbalt88/codenotch",
    "tbalt88/council-of-high-intelligence",
    "tbalt88/multica",
@@ -484,6 +508,8 @@
    "tbalt88/agentfs-claude"
   ],
   "docker": [
+   "tbalt88/awesome-selfhosted",
+   "tbalt88/OpenHands",
    "tbalt88/SnapOtter",
    "tbalt88/OpenSandbox",
    "tbalt88/ArcReel",
@@ -496,7 +522,23 @@
    "tbalt88/local-voice-ai",
    "tbalt88/github-mcp-server"
   ],
+  "skills": [
+   "tbalt88/gstack",
+   "tbalt88/deepagents",
+   "tbalt88/stash",
+   "tbalt88/claude-howto",
+   "tbalt88/pm-claude-skills",
+   "tbalt88/hermes-agent",
+   "tbalt88/pro-workflow",
+   "tbalt88/claude-code-best-practice",
+   "tbalt88/antigravity-awesome-skills",
+   "tbalt88/everything-claude-code",
+   "tbalt88/obsidian-claude-pkm",
+   "tbalt88/awesome-copilot",
+   "tbalt88/anthro-skills"
+  ],
   "electron": [
+   "tbalt88/rea",
    "tbalt88/Personal-AI-Router",
    "tbalt88/editor",
    "tbalt88/cherry-studio",
@@ -509,18 +551,69 @@
    "tbalt88/stenoai",
    "tbalt88/MCP-Defender"
   ],
-  "skills": [
-   "tbalt88/stash",
-   "tbalt88/claude-howto",
-   "tbalt88/pm-claude-skills",
-   "tbalt88/hermes-agent",
+  "agent-skills": [
+   "tbalt88/rea",
+   "tbalt88/anti-slop",
+   "tbalt88/remotion",
+   "tbalt88/appllama-skills",
+   "tbalt88/skills",
+   "tbalt88/Resource2Skill",
+   "tbalt88/obsidian-skills",
+   "tbalt88/OpenMontage",
+   "tbalt88/superpowers",
+   "tbalt88/ai-job-search",
+   "tbalt88/agent-skills"
+  ],
+  "plugin": [
+   "tbalt88/anti-slop",
+   "tbalt88/claude-video-vision",
+   "tbalt88/claude-code-workflows",
+   "tbalt88/superpowers",
+   "tbalt88/get-shit-done",
+   "tbalt88/claude-code-scheduler",
    "tbalt88/pro-workflow",
-   "tbalt88/claude-code-best-practice",
+   "tbalt88/claude-mem",
    "tbalt88/antigravity-awesome-skills",
    "tbalt88/everything-claude-code",
-   "tbalt88/obsidian-claude-pkm",
-   "tbalt88/awesome-copilot",
    "tbalt88/anthro-skills"
+  ],
+  "langchain": [
+   "tbalt88/deepagents",
+   "tbalt88/langflow",
+   "tbalt88/dcode-agent-kit",
+   "tbalt88/agentswarms",
+   "tbalt88/opendataloader-pdf",
+   "tbalt88/SQL-AI-samples",
+   "tbalt88/Flowise",
+   "tbalt88/ai-data-science-team",
+   "tbalt88/airgapped-offfline-rag",
+   "tbalt88/cooragent",
+   "tbalt88/bRAG-langchain"
+  ],
+  "langgraph": [
+   "tbalt88/deepagents",
+   "tbalt88/production-agentic-rag-course",
+   "tbalt88/AiSOC",
+   "tbalt88/agentswarms",
+   "tbalt88/deer-flow",
+   "tbalt88/agents-course",
+   "tbalt88/QuantAgent",
+   "tbalt88/tentix",
+   "tbalt88/Kylie",
+   "tbalt88/all-agentic-architectures",
+   "tbalt88/AI-Tutorial-Codes-Included"
+  ],
+  "awesome-list": [
+   "tbalt88/awesome-selfhosted",
+   "tbalt88/openclaw-api-list",
+   "tbalt88/Awesome-AI-Hacking-Agents",
+   "tbalt88/awesome-cli-coding-agents",
+   "tbalt88/awesome-copilot",
+   "tbalt88/API-mega-list",
+   "tbalt88/MedLLMsPracticalGuide",
+   "tbalt88/free-programming-books",
+   "tbalt88/resources-to-become-a-great-engineering-leader",
+   "tbalt88/coding-interview-university"
   ],
   "agents": [
    "tbalt88/langflow",
@@ -534,30 +627,6 @@
    "tbalt88/awesome-copilot",
    "tbalt88/llama_index"
   ],
-  "langchain": [
-   "tbalt88/langflow",
-   "tbalt88/dcode-agent-kit",
-   "tbalt88/agentswarms",
-   "tbalt88/opendataloader-pdf",
-   "tbalt88/SQL-AI-samples",
-   "tbalt88/Flowise",
-   "tbalt88/ai-data-science-team",
-   "tbalt88/airgapped-offfline-rag",
-   "tbalt88/cooragent",
-   "tbalt88/bRAG-langchain"
-  ],
-  "langgraph": [
-   "tbalt88/production-agentic-rag-course",
-   "tbalt88/AiSOC",
-   "tbalt88/agentswarms",
-   "tbalt88/deer-flow",
-   "tbalt88/agents-course",
-   "tbalt88/QuantAgent",
-   "tbalt88/tentix",
-   "tbalt88/Kylie",
-   "tbalt88/all-agentic-architectures",
-   "tbalt88/AI-Tutorial-Codes-Included"
-  ],
   "prompt-engineering": [
    "tbalt88/system_prompts_leaks",
    "tbalt88/council-of-high-intelligence",
@@ -570,17 +639,49 @@
    "tbalt88/awesome-copilot",
    "tbalt88/promptfx"
   ],
-  "plugin": [
+  "privacy": [
+   "tbalt88/awesome-selfhosted",
+   "tbalt88/File_Converter_Pro",
+   "tbalt88/watermarks-remover",
+   "tbalt88/aithing",
+   "tbalt88/airgapped-offfline-rag",
+   "tbalt88/BrowserAI",
+   "tbalt88/stenoai",
+   "tbalt88/Baiss",
+   "tbalt88/CloudGallery"
+  ],
+  "tts": [
+   "tbalt88/Audio8_TTS",
+   "tbalt88/voice-studio",
+   "tbalt88/voicebox",
+   "tbalt88/openrouter-mcp-multimodal",
+   "tbalt88/VoiceStudio",
+   "tbalt88/clawtime",
+   "tbalt88/ten-framework",
+   "tbalt88/BrowserAI",
+   "tbalt88/local-voice-ai"
+  ],
+  "whisper": [
+   "tbalt88/voice-studio",
+   "tbalt88/tambourine-voice",
+   "tbalt88/voicebox",
+   "tbalt88/skill-recorder",
    "tbalt88/claude-video-vision",
-   "tbalt88/claude-code-workflows",
-   "tbalt88/superpowers",
-   "tbalt88/get-shit-done",
-   "tbalt88/claude-code-scheduler",
-   "tbalt88/pro-workflow",
-   "tbalt88/claude-mem",
-   "tbalt88/antigravity-awesome-skills",
-   "tbalt88/everything-claude-code",
-   "tbalt88/anthro-skills"
+   "tbalt88/omniparse",
+   "tbalt88/BrowserAI",
+   "tbalt88/stenoai",
+   "tbalt88/Foundry-Local"
+  ],
+  "ai-agents": [
+   "tbalt88/hypit",
+   "tbalt88/editor",
+   "tbalt88/OpenSandbox",
+   "tbalt88/Awesome-AI-Hacking-Agents",
+   "tbalt88/agentic-ai-starters",
+   "tbalt88/system-prompts-and-models-of-ai-tools",
+   "tbalt88/mem0",
+   "tbalt88/n8n-skills",
+   "tbalt88/awesome-llm-apps"
   ],
   "desktop-app": [
    "tbalt88/File_Converter_Pro",
@@ -593,16 +694,55 @@
    "tbalt88/llm-god",
    "tbalt88/Baiss"
   ],
-  "awesome-list": [
-   "tbalt88/openclaw-api-list",
-   "tbalt88/Awesome-AI-Hacking-Agents",
-   "tbalt88/awesome-cli-coding-agents",
-   "tbalt88/awesome-copilot",
-   "tbalt88/API-mega-list",
+  "fine-tuning": [
+   "tbalt88/Audio8_TTS",
+   "tbalt88/Soup",
+   "tbalt88/unsloth",
+   "tbalt88/train-llm-from-scratch",
+   "tbalt88/agents-course",
+   "tbalt88/terraform-genai-knowledge-base",
    "tbalt88/MedLLMsPracticalGuide",
-   "tbalt88/free-programming-books",
-   "tbalt88/resources-to-become-a-great-engineering-leader",
-   "tbalt88/coding-interview-university"
+   "tbalt88/dreambooth"
+  ],
+  "cursor": [
+   "tbalt88/anti-slop",
+   "tbalt88/codenotch",
+   "tbalt88/agentmemory",
+   "tbalt88/agent-skills",
+   "tbalt88/agency-agents",
+   "tbalt88/system-prompts-and-models-of-ai-tools",
+   "tbalt88/antigravity-awesome-skills",
+   "tbalt88/MCP-Defender"
+  ],
+  "react": [
+   "tbalt88/remotion",
+   "tbalt88/CopilotKit",
+   "tbalt88/Vibe-Trading",
+   "tbalt88/crmtwenty",
+   "tbalt88/readur",
+   "tbalt88/Claude-Code-Board",
+   "tbalt88/all-agentic-architectures",
+   "tbalt88/llm-council"
+  ],
+  "go": [
+   "tbalt88/hypitoken",
+   "tbalt88/HEAVEN-Autonomous-Penetration-Testing",
+   "tbalt88/ntfy",
+   "tbalt88/Pentest-Swarm-AI",
+   "tbalt88/memos",
+   "tbalt88/octopus",
+   "tbalt88/ingest",
+   "tbalt88/github-mcp-server"
+  ],
+  "video-generation": [
+   "tbalt88/hypit",
+   "tbalt88/editor",
+   "tbalt88/cheap-sora2-api",
+   "tbalt88/Wan2GP",
+   "tbalt88/openrouter-mcp-multimodal",
+   "tbalt88/ArcReel",
+   "tbalt88/hyperframes",
+   "tbalt88/302_video_generator"
   ],
   "ocr": [
    "tbalt88/SnapOtter",
@@ -614,16 +754,6 @@
    "tbalt88/ade-python",
    "tbalt88/llama_index"
   ],
-  "privacy": [
-   "tbalt88/File_Converter_Pro",
-   "tbalt88/watermarks-remover",
-   "tbalt88/aithing",
-   "tbalt88/airgapped-offfline-rag",
-   "tbalt88/BrowserAI",
-   "tbalt88/stenoai",
-   "tbalt88/Baiss",
-   "tbalt88/CloudGallery"
-  ],
   "local-llm": [
    "tbalt88/Personal-AI-Router",
    "tbalt88/unsloth",
@@ -633,26 +763,6 @@
    "tbalt88/BrowserAI",
    "tbalt88/stenoai",
    "tbalt88/Baiss"
-  ],
-  "whisper": [
-   "tbalt88/tambourine-voice",
-   "tbalt88/voicebox",
-   "tbalt88/skill-recorder",
-   "tbalt88/claude-video-vision",
-   "tbalt88/omniparse",
-   "tbalt88/BrowserAI",
-   "tbalt88/stenoai",
-   "tbalt88/Foundry-Local"
-  ],
-  "ai-agents": [
-   "tbalt88/editor",
-   "tbalt88/OpenSandbox",
-   "tbalt88/Awesome-AI-Hacking-Agents",
-   "tbalt88/agentic-ai-starters",
-   "tbalt88/system-prompts-and-models-of-ai-tools",
-   "tbalt88/mem0",
-   "tbalt88/n8n-skills",
-   "tbalt88/awesome-llm-apps"
   ],
   "agent-framework": [
    "tbalt88/deepseek-harness",
@@ -664,51 +774,41 @@
    "tbalt88/copilot-camp",
    "tbalt88/openagi"
   ],
-  "agent-skills": [
-   "tbalt88/appllama-skills",
-   "tbalt88/skills",
-   "tbalt88/Resource2Skill",
-   "tbalt88/obsidian-skills",
-   "tbalt88/OpenMontage",
-   "tbalt88/superpowers",
-   "tbalt88/ai-job-search",
-   "tbalt88/agent-skills"
+  "workflow": [
+   "tbalt88/gstack",
+   "tbalt88/claude-code-workflows",
+   "tbalt88/python-agentframework-demos",
+   "tbalt88/opendocmgmnt",
+   "tbalt88/ChatDev",
+   "tbalt88/crewAI",
+   "tbalt88/cooragent"
   ],
-  "cursor": [
-   "tbalt88/codenotch",
-   "tbalt88/agentmemory",
-   "tbalt88/agent-skills",
-   "tbalt88/agency-agents",
-   "tbalt88/system-prompts-and-models-of-ai-tools",
-   "tbalt88/antigravity-awesome-skills",
-   "tbalt88/MCP-Defender"
-  ],
-  "video-generation": [
-   "tbalt88/editor",
-   "tbalt88/cheap-sora2-api",
-   "tbalt88/Wan2GP",
-   "tbalt88/openrouter-mcp-multimodal",
-   "tbalt88/ArcReel",
-   "tbalt88/hyperframes",
-   "tbalt88/302_video_generator"
-  ],
-  "tts": [
-   "tbalt88/voicebox",
-   "tbalt88/openrouter-mcp-multimodal",
-   "tbalt88/VoiceStudio",
-   "tbalt88/clawtime",
-   "tbalt88/ten-framework",
-   "tbalt88/BrowserAI",
-   "tbalt88/local-voice-ai"
-  ],
-  "go": [
+  "fastapi": [
+   "tbalt88/voice-studio",
+   "tbalt88/production-agentic-rag-course",
    "tbalt88/HEAVEN-Autonomous-Penetration-Testing",
-   "tbalt88/ntfy",
-   "tbalt88/Pentest-Swarm-AI",
-   "tbalt88/memos",
-   "tbalt88/octopus",
-   "tbalt88/ingest",
-   "tbalt88/github-mcp-server"
+   "tbalt88/Vibe-Trading",
+   "tbalt88/claude-code-agentic-rag-masterclass",
+   "tbalt88/audioghost-ai",
+   "tbalt88/llm-council"
+  ],
+  "agent-harness": [
+   "tbalt88/deepagents",
+   "tbalt88/deepseek-harness",
+   "tbalt88/ruflo",
+   "tbalt88/claw-code",
+   "tbalt88/deer-flow",
+   "tbalt88/learn-claude-code",
+   "tbalt88/everything-claude-code"
+  ],
+  "ollama": [
+   "tbalt88/Soup",
+   "tbalt88/Personal-AI-Router",
+   "tbalt88/fork-atlas",
+   "tbalt88/open-webui",
+   "tbalt88/skales",
+   "tbalt88/llm-whatgives",
+   "tbalt88/perplexideez"
   ],
   "orchestration": [
    "tbalt88/orca",
@@ -718,15 +818,6 @@
    "tbalt88/agentfield",
    "tbalt88/ChatDev",
    "tbalt88/autogen"
-  ],
-  "react": [
-   "tbalt88/CopilotKit",
-   "tbalt88/Vibe-Trading",
-   "tbalt88/crmtwenty",
-   "tbalt88/readur",
-   "tbalt88/Claude-Code-Board",
-   "tbalt88/all-agentic-architectures",
-   "tbalt88/llm-council"
   ],
   "subagents": [
    "tbalt88/claude-code-workflows",
@@ -746,14 +837,6 @@
    "tbalt88/n8n-skills",
    "tbalt88/everything-claude-code"
   ],
-  "fastapi": [
-   "tbalt88/production-agentic-rag-course",
-   "tbalt88/HEAVEN-Autonomous-Penetration-Testing",
-   "tbalt88/Vibe-Trading",
-   "tbalt88/claude-code-agentic-rag-masterclass",
-   "tbalt88/audioghost-ai",
-   "tbalt88/llm-council"
-  ],
   "tutorial": [
    "tbalt88/production-agentic-rag-course",
    "tbalt88/zero-to-hardened-agents",
@@ -770,14 +853,6 @@
    "tbalt88/aithing",
    "tbalt88/worldmonitor"
   ],
-  "ollama": [
-   "tbalt88/Personal-AI-Router",
-   "tbalt88/fork-atlas",
-   "tbalt88/open-webui",
-   "tbalt88/skales",
-   "tbalt88/llm-whatgives",
-   "tbalt88/perplexideez"
-  ],
   "claude-code-skill": [
    "tbalt88/editor",
    "tbalt88/DVerse",
@@ -785,14 +860,6 @@
    "tbalt88/scroll-world",
    "tbalt88/career-ops",
    "tbalt88/DVerseClaudeSkills"
-  ],
-  "agent-harness": [
-   "tbalt88/deepseek-harness",
-   "tbalt88/ruflo",
-   "tbalt88/claw-code",
-   "tbalt88/deer-flow",
-   "tbalt88/learn-claude-code",
-   "tbalt88/everything-claude-code"
   ],
   "gemini": [
    "tbalt88/system_prompts_leaks",
@@ -810,14 +877,6 @@
    "tbalt88/yt-dlp-mcp",
    "tbalt88/kevinwatt_yt-dlp-mcp"
   ],
-  "fine-tuning": [
-   "tbalt88/unsloth",
-   "tbalt88/train-llm-from-scratch",
-   "tbalt88/agents-course",
-   "tbalt88/terraform-genai-knowledge-base",
-   "tbalt88/MedLLMsPracticalGuide",
-   "tbalt88/dreambooth"
-  ],
   "embeddings": [
    "tbalt88/hivemind",
    "tbalt88/SQL-AI-samples",
@@ -834,13 +893,82 @@
    "tbalt88/Dynamics365-Apps-Samples",
    "tbalt88/D365WebApi"
   ],
-  "workflow": [
-   "tbalt88/claude-code-workflows",
-   "tbalt88/python-agentframework-demos",
-   "tbalt88/opendocmgmnt",
+  "voice-cloning": [
+   "tbalt88/Audio8_TTS",
+   "tbalt88/voice-studio",
+   "tbalt88/voicebox",
+   "tbalt88/VoiceStudio",
+   "tbalt88/IMS-Toucan"
+  ],
+  "slash-commands": [
+   "tbalt88/gstack",
+   "tbalt88/skills",
+   "tbalt88/claude-howto",
+   "tbalt88/agent-skills",
+   "tbalt88/OpenSpec"
+  ],
+  "research": [
+   "tbalt88/ai-torture-chamber",
+   "tbalt88/research-chamber",
    "tbalt88/ChatDev",
-   "tbalt88/crewAI",
-   "tbalt88/cooragent"
+   "tbalt88/wifi-3d-fusion",
+   "tbalt88/social-media-scraping-apis"
+  ],
+  "backtesting": [
+   "tbalt88/TradingView-API",
+   "tbalt88/freqtrade-strategies",
+   "tbalt88/frequi",
+   "tbalt88/freqtrade",
+   "tbalt88/Vibe-Trading"
+  ],
+  "coding-agents": [
+   "tbalt88/OpenHands",
+   "tbalt88/9router",
+   "tbalt88/headroom",
+   "tbalt88/awesome-cli-coding-agents",
+   "tbalt88/context-hub"
+  ],
+  "claude": [
+   "tbalt88/hypitoken",
+   "tbalt88/system_prompts_leaks",
+   "tbalt88/llm-god",
+   "tbalt88/anthro-skills",
+   "tbalt88/yt-dlp-mcp"
+  ],
+  "llm-gateway": [
+   "tbalt88/hypitoken",
+   "tbalt88/OmniRoute",
+   "tbalt88/9router",
+   "tbalt88/WindsurfAPI",
+   "tbalt88/octopus"
+  ],
+  "ffmpeg": [
+   "tbalt88/hypit",
+   "tbalt88/claude-video-vision",
+   "tbalt88/ArcReel",
+   "tbalt88/OpenMontage",
+   "tbalt88/hyperframes"
+  ],
+  "gguf": [
+   "tbalt88/Soup",
+   "tbalt88/unsloth",
+   "tbalt88/Wan2GP",
+   "tbalt88/llm-whatgives",
+   "tbalt88/BrowserAI"
+  ],
+  "chromadb": [
+   "tbalt88/mempalace",
+   "tbalt88/zero-to-hardened-agents",
+   "tbalt88/claude-mem",
+   "tbalt88/airgapped-offfline-rag",
+   "tbalt88/bRAG-langchain"
+  ],
+  "local-first": [
+   "tbalt88/mempalace",
+   "tbalt88/voicebox",
+   "tbalt88/odysseus",
+   "tbalt88/VoiceStudio",
+   "tbalt88/skales"
   ],
   "course": [
    "tbalt88/production-agentic-rag-course",
@@ -940,6 +1068,54 @@
    "tbalt88/agents-course",
    "tbalt88/free-programming-books"
   ],
+  "playwright": [
+   "tbalt88/openmuse",
+   "tbalt88/Scrapling",
+   "tbalt88/career-ops",
+   "tbalt88/fara"
+  ],
+  "homelab": [
+   "tbalt88/awesome-selfhosted",
+   "tbalt88/SnapOtter",
+   "tbalt88/ntfy",
+   "tbalt88/frigate"
+  ],
+  "bun": [
+   "tbalt88/gstack",
+   "tbalt88/free-code",
+   "tbalt88/dexter",
+   "tbalt88/money-Ai-agents"
+  ],
+  "code-review": [
+   "tbalt88/gstack",
+   "tbalt88/claude-code-workflows",
+   "tbalt88/superpowers",
+   "tbalt88/agent-skills"
+  ],
+  "websocket": [
+   "tbalt88/TradingView-API",
+   "tbalt88/Rockxy",
+   "tbalt88/metatrader-mcp-server",
+   "tbalt88/clawtime"
+  ],
+  "claude-skill": [
+   "tbalt88/hypit",
+   "tbalt88/appllama-skills",
+   "tbalt88/dcode-agent-kit",
+   "tbalt88/watermarks-remover"
+  ],
+  "agent-memory": [
+   "tbalt88/mempalace",
+   "tbalt88/second-brain-template",
+   "tbalt88/memory-bridge-mcp",
+   "tbalt88/stash"
+  ],
+  "long-term-memory": [
+   "tbalt88/mempalace",
+   "tbalt88/deer-flow",
+   "tbalt88/mem0",
+   "tbalt88/openagi"
+  ],
   "low-code": [
    "tbalt88/langflow",
    "tbalt88/power-platform-skills",
@@ -970,12 +1146,6 @@
    "tbalt88/Stealth-Requests",
    "tbalt88/API-mega-list"
   ],
-  "local-first": [
-   "tbalt88/voicebox",
-   "tbalt88/odysseus",
-   "tbalt88/VoiceStudio",
-   "tbalt88/skales"
-  ],
   "tui": [
    "tbalt88/deepseek-harness",
    "tbalt88/hermes-agent",
@@ -987,12 +1157,6 @@
    "tbalt88/kimi-k3-in-c",
    "tbalt88/llm-whatgives",
    "tbalt88/Run-Local-LLMs-on-Any-Device"
-  ],
-  "claude": [
-   "tbalt88/system_prompts_leaks",
-   "tbalt88/llm-god",
-   "tbalt88/anthro-skills",
-   "tbalt88/yt-dlp-mcp"
   ],
   "social-media": [
    "tbalt88/social-media-skills",
@@ -1024,23 +1188,11 @@
    "tbalt88/repo-tracker",
    "tbalt88/gemini-cli"
   ],
-  "slash-commands": [
-   "tbalt88/skills",
-   "tbalt88/claude-howto",
-   "tbalt88/agent-skills",
-   "tbalt88/OpenSpec"
-  ],
   "spec-driven-development": [
    "tbalt88/skills",
    "tbalt88/agent-skills",
    "tbalt88/get-shit-done",
    "tbalt88/OpenSpec"
-  ],
-  "gguf": [
-   "tbalt88/unsloth",
-   "tbalt88/Wan2GP",
-   "tbalt88/llm-whatgives",
-   "tbalt88/BrowserAI"
   ],
   "image-generation": [
    "tbalt88/Wan2GP",
@@ -1059,12 +1211,6 @@
    "tbalt88/face_recognition",
    "tbalt88/wifi-3d-fusion",
    "tbalt88/dreambooth"
-  ],
-  "backtesting": [
-   "tbalt88/freqtrade-strategies",
-   "tbalt88/frequi",
-   "tbalt88/freqtrade",
-   "tbalt88/Vibe-Trading"
   ],
   "trading-bot": [
    "tbalt88/freqtrade-strategies",
@@ -1096,24 +1242,6 @@
    "tbalt88/memos",
    "tbalt88/obsidian-claude-pkm"
   ],
-  "llm-gateway": [
-   "tbalt88/OmniRoute",
-   "tbalt88/9router",
-   "tbalt88/WindsurfAPI",
-   "tbalt88/octopus"
-  ],
-  "ffmpeg": [
-   "tbalt88/claude-video-vision",
-   "tbalt88/ArcReel",
-   "tbalt88/OpenMontage",
-   "tbalt88/hyperframes"
-  ],
-  "coding-agents": [
-   "tbalt88/9router",
-   "tbalt88/headroom",
-   "tbalt88/awesome-cli-coding-agents",
-   "tbalt88/context-hub"
-  ],
   "proxy": [
    "tbalt88/9router",
    "tbalt88/headroom",
@@ -1137,12 +1265,6 @@
    "tbalt88/OpenMontage",
    "tbalt88/all-agentic-architectures",
    "tbalt88/AI-Tutorial-Codes-Included"
-  ],
-  "chromadb": [
-   "tbalt88/zero-to-hardened-agents",
-   "tbalt88/claude-mem",
-   "tbalt88/airgapped-offfline-rag",
-   "tbalt88/bRAG-langchain"
   ],
   "autonomous-agent": [
    "tbalt88/kilocode",
@@ -1198,10 +1320,55 @@
    "tbalt88/D365WebApi",
    "tbalt88/Xrm.Tools.CRMWebAPI"
   ],
-  "homelab": [
-   "tbalt88/SnapOtter",
-   "tbalt88/ntfy",
-   "tbalt88/frigate"
+  "android": [
+   "tbalt88/rea",
+   "tbalt88/web-to-app",
+   "tbalt88/CloudGallery"
+  ],
+  "reverse-engineering": [
+   "tbalt88/rea",
+   "tbalt88/reverse-skill",
+   "tbalt88/kong"
+  ],
+  "multilingual": [
+   "tbalt88/Audio8_TTS",
+   "tbalt88/IMS-Toucan",
+   "tbalt88/free-programming-books"
+  ],
+  "crypto": [
+   "tbalt88/TradingView-API",
+   "tbalt88/technical",
+   "tbalt88/frequi"
+  ],
+  "accessibility": [
+   "tbalt88/anti-slop",
+   "tbalt88/tambourine-voice",
+   "tbalt88/opendataloader-pdf"
+  ],
+  "ui-design": [
+   "tbalt88/anti-slop",
+   "tbalt88/appllama-skills",
+   "tbalt88/design-skills"
+  ],
+  "transcription": [
+   "tbalt88/voice-studio",
+   "tbalt88/claude-video-vision",
+   "tbalt88/stenoai"
+  ],
+  "coding-agent": [
+   "tbalt88/deepagents",
+   "tbalt88/stash",
+   "tbalt88/claw-code"
+  ],
+  "lora": [
+   "tbalt88/Soup",
+   "tbalt88/unsloth",
+   "tbalt88/Wan2GP"
+  ],
+  "evals": [
+   "tbalt88/experiential",
+   "tbalt88/agents-from-scratch",
+   "tbalt88/dexter"
   ],
   "rest-api": [
    "tbalt88/SnapOtter",
@@ -1228,16 +1395,6 @@
    "tbalt88/ten-framework",
    "tbalt88/local-voice-ai"
   ],
-  "playwright": [
-   "tbalt88/Scrapling",
-   "tbalt88/career-ops",
-   "tbalt88/fara"
-  ],
-  "voice-cloning": [
-   "tbalt88/voicebox",
-   "tbalt88/VoiceStudio",
-   "tbalt88/IMS-Toucan"
-  ],
   "chatgpt": [
    "tbalt88/system_prompts_leaks",
    "tbalt88/pm-claude-skills",
@@ -1247,11 +1404,6 @@
    "tbalt88/social-media-skills",
    "tbalt88/openreply",
    "tbalt88/social-media-scraping-apis"
-  ],
-  "claude-skill": [
-   "tbalt88/appllama-skills",
-   "tbalt88/dcode-agent-kit",
-   "tbalt88/watermarks-remover"
   ],
   "llm-agents": [
    "tbalt88/dcode-agent-kit",
@@ -1318,11 +1470,6 @@
    "tbalt88/awesome-cli-coding-agents",
    "tbalt88/gemini-cli"
   ],
-  "websocket": [
-   "tbalt88/Rockxy",
-   "tbalt88/metatrader-mcp-server",
-   "tbalt88/clawtime"
-  ],
   "chat-ui": [
    "tbalt88/CopilotKit",
    "tbalt88/open-webui",
@@ -1378,11 +1525,6 @@
    "tbalt88/ai-job-search",
    "tbalt88/career-ops"
   ],
-  "agent-memory": [
-   "tbalt88/second-brain-template",
-   "tbalt88/memory-bridge-mcp",
-   "tbalt88/stash"
-  ],
   "llamaindex": [
    "tbalt88/py-gpt",
    "tbalt88/agents-course",
@@ -1402,11 +1544,6 @@
    "tbalt88/opendataloader-pdf",
    "tbalt88/PageIndex",
    "tbalt88/ade-python"
-  ],
-  "code-review": [
-   "tbalt88/claude-code-workflows",
-   "tbalt88/superpowers",
-   "tbalt88/agent-skills"
   ],
   "workshop": [
    "tbalt88/github-copilot-mcp-tutorial",
@@ -1443,20 +1580,10 @@
    "tbalt88/pro-workflow",
    "tbalt88/claude-mem"
   ],
-  "long-term-memory": [
-   "tbalt88/deer-flow",
-   "tbalt88/mem0",
-   "tbalt88/openagi"
-  ],
   "kotlin": [
    "tbalt88/web-to-app",
    "tbalt88/CloudGallery",
    "tbalt88/promptfx"
-  ],
-  "bun": [
-   "tbalt88/free-code",
-   "tbalt88/dexter",
-   "tbalt88/money-Ai-agents"
   ],
   "archived": [
    "tbalt88/DVerseClaudeSkills",
@@ -1478,11 +1605,6 @@
    "tbalt88/sql-ai-datathon",
    "tbalt88/terraform-genai-knowledge-base"
   ],
-  "research": [
-   "tbalt88/ChatDev",
-   "tbalt88/wifi-3d-fusion",
-   "tbalt88/social-media-scraping-apis"
-  ],
   "streamlit": [
    "tbalt88/ai-data-science-team",
    "tbalt88/airgapped-offfline-rag",
@@ -1497,6 +1619,114 @@
    "tbalt88/CodeMazeGuides",
    "tbalt88/D365WebApi",
    "tbalt88/Xrm.Tools.CRMWebAPI"
+  ],
+  "binary-analysis": [
+   "tbalt88/rea",
+   "tbalt88/kong"
+  ],
+  "ghidra": [
+   "tbalt88/rea",
+   "tbalt88/kong"
+  ],
+  "ag-ui": [
+   "tbalt88/openmuse",
+   "tbalt88/CopilotKit"
+  ],
+  "browser-agent": [
+   "tbalt88/openmuse",
+   "tbalt88/fara"
+  ],
+  "react-native": [
+   "tbalt88/openmuse",
+   "tbalt88/appllama-skills"
+  ],
+  "speech-synthesis": [
+   "tbalt88/Audio8_TTS",
+   "tbalt88/IMS-Toucan"
+  ],
+  "activation-steering": [
+   "tbalt88/ai-torture-chamber",
+   "tbalt88/research-chamber"
+  ],
+  "interpretability": [
+   "tbalt88/ai-torture-chamber",
+   "tbalt88/research-chamber"
+  ],
+  "llm-evaluation": [
+   "tbalt88/ai-torture-chamber",
+   "tbalt88/research-chamber"
+  ],
+  "qwen": [
+   "tbalt88/research-chamber",
+   "tbalt88/fara"
+  ],
+  "indicators": [
+   "tbalt88/TradingView-API",
+   "tbalt88/technical"
+  ],
+  "acp": [
+   "tbalt88/OpenHands",
+   "tbalt88/AionUi"
+  ],
+  "captions": [
+   "tbalt88/remotion",
+   "tbalt88/hypit"
+  ],
+  "remotion": [
+   "tbalt88/remotion",
+   "tbalt88/OpenMontage"
+  ],
+  "rendering": [
+   "tbalt88/remotion",
+   "tbalt88/hyperframes"
+  ],
+  "video": [
+   "tbalt88/remotion",
+   "tbalt88/audioghost-ai"
+  ],
+  "dubbing": [
+   "tbalt88/voice-studio",
+   "tbalt88/VoiceStudio"
+  ],
+  "kokoro": [
+   "tbalt88/voice-studio",
+   "tbalt88/local-voice-ai"
+  ],
+  "local-ai": [
+   "tbalt88/voice-studio",
+   "tbalt88/SnapOtter"
+  ],
+  "sub-agents": [
+   "tbalt88/deepagents",
+   "tbalt88/deer-flow"
+  ],
+  "dpo": [
+   "tbalt88/Soup",
+   "tbalt88/train-llm-from-scratch"
+  ],
+  "low-vram": [
+   "tbalt88/Soup",
+   "tbalt88/Wan2GP"
+  ],
+  "qlora": [
+   "tbalt88/Soup",
+   "tbalt88/unsloth"
+  ],
+  "semantic-search": [
+   "tbalt88/mempalace",
+   "tbalt88/stash"
+  ],
+  "vector-store": [
+   "tbalt88/mempalace",
+   "tbalt88/llama_index"
+  ],
+  "model-routing": [
+   "tbalt88/experiential",
+   "tbalt88/OmniRoute"
+  ],
+  "traces": [
+   "tbalt88/experiential",
+   "tbalt88/hivemind"
   ],
   "visual-builder": [
    "tbalt88/langflow",
@@ -1521,10 +1751,6 @@
   "menu-bar": [
    "tbalt88/codenotch",
    "tbalt88/PokeTokenBar"
-  ],
-  "accessibility": [
-   "tbalt88/tambourine-voice",
-   "tbalt88/opendataloader-pdf"
   ],
   "webrtc": [
    "tbalt88/tambourine-voice",
@@ -1558,10 +1784,6 @@
    "tbalt88/social-media-skills",
    "tbalt88/social-media-scraping-apis"
   ],
-  "ui-design": [
-   "tbalt88/appllama-skills",
-   "tbalt88/design-skills"
-  ],
   "animation": [
    "tbalt88/design-skills",
    "tbalt88/hyperframes"
@@ -1593,10 +1815,6 @@
   "diffusion": [
    "tbalt88/unsloth",
    "tbalt88/fastsdcpu"
-  ],
-  "lora": [
-   "tbalt88/unsloth",
-   "tbalt88/Wan2GP"
   ],
   "penetration-testing": [
    "tbalt88/HEAVEN-Autonomous-Penetration-Testing",
@@ -1657,10 +1875,6 @@
   "face-recognition": [
    "tbalt88/uniface",
    "tbalt88/face_recognition"
-  ],
-  "crypto": [
-   "tbalt88/technical",
-   "tbalt88/frequi"
   ],
   "technical-analysis": [
    "tbalt88/technical",
@@ -1726,10 +1940,6 @@
    "tbalt88/openrouter-mcp-multimodal",
    "tbalt88/llm-council"
   ],
-  "transcription": [
-   "tbalt88/claude-video-vision",
-   "tbalt88/stenoai"
-  ],
   "mermaid": [
    "tbalt88/scroll-world",
    "tbalt88/system-design-visualizer"
@@ -1738,10 +1948,6 @@
    "tbalt88/reverse-skill",
    "tbalt88/Awesome-AI-Hacking-Agents"
   ],
-  "reverse-engineering": [
-   "tbalt88/reverse-skill",
-   "tbalt88/kong"
-  ],
   "table-extraction": [
    "tbalt88/opendataloader-pdf",
    "tbalt88/GLM-OCR"
@@ -1749,10 +1955,6 @@
   "oauth": [
    "tbalt88/memory-bridge-mcp",
    "tbalt88/github-mcp-server"
-  ],
-  "coding-agent": [
-   "tbalt88/stash",
-   "tbalt88/claw-code"
   ],
   "developer-tools": [
    "tbalt88/claude-code-workflows",
@@ -1806,10 +2008,6 @@
    "tbalt88/agents-from-scratch",
    "tbalt88/learn-claude-code"
   ],
-  "evals": [
-   "tbalt88/agents-from-scratch",
-   "tbalt88/dexter"
-  ],
   "planning": [
    "tbalt88/agents-from-scratch",
    "tbalt88/OpenSpec"
@@ -1841,10 +2039,6 @@
   "ai-agent": [
    "tbalt88/hermes-agent",
    "tbalt88/gemini-cli"
-  ],
-  "android": [
-   "tbalt88/web-to-app",
-   "tbalt88/CloudGallery"
   ],
   "byok": [
    "tbalt88/skales",
@@ -1946,10 +2140,6 @@
    "tbalt88/agentfs-claude",
    "tbalt88/mcpservers"
   ],
-  "multilingual": [
-   "tbalt88/IMS-Toucan",
-   "tbalt88/free-programming-books"
-  ],
   "algorithms": [
    "tbalt88/coding-interview-university",
    "tbalt88/tech-interview-handbook"
@@ -1978,6 +2168,225 @@
    "tbalt88/D365WebApi",
    "tbalt88/Xrm.Tools.CRMWebAPI"
   ],
+  "decompiler": [
+   "tbalt88/rea"
+  ],
+  "hopper": [
+   "tbalt88/rea"
+  ],
+  "static-analysis": [
+   "tbalt88/rea"
+  ],
+  "copilotkit": [
+   "tbalt88/openmuse"
+  ],
+  "gmail": [
+   "tbalt88/openmuse"
+  ],
+  "hono": [
+   "tbalt88/openmuse"
+  ],
+  "personal-agent": [
+   "tbalt88/openmuse"
+  ],
+  "directory": [
+   "tbalt88/awesome-selfhosted"
+  ],
+  "free-software": [
+   "tbalt88/awesome-selfhosted"
+  ],
+  "saas-alternatives": [
+   "tbalt88/awesome-selfhosted"
+  ],
+  "audio": [
+   "tbalt88/Audio8_TTS"
+  ],
+  "falcon-h1": [
+   "tbalt88/Audio8_TTS"
+  ],
+  "onnx": [
+   "tbalt88/Audio8_TTS"
+  ],
+  "sglang": [
+   "tbalt88/Audio8_TTS"
+  ],
+  "autoplan": [
+   "tbalt88/gstack"
+  ],
+  "multi-agent-host": [
+   "tbalt88/gstack"
+  ],
+  "qa": [
+   "tbalt88/gstack"
+  ],
+  "release-automation": [
+   "tbalt88/gstack"
+  ],
+  "control-vectors": [
+   "tbalt88/ai-torture-chamber"
+  ],
+  "experiments": [
+   "tbalt88/ai-torture-chamber"
+  ],
+  "model-welfare": [
+   "tbalt88/ai-torture-chamber"
+  ],
+  "pre-registration": [
+   "tbalt88/ai-torture-chamber"
+  ],
+  "qwen3": [
+   "tbalt88/ai-torture-chamber"
+  ],
+  "ai-welfare": [
+   "tbalt88/research-chamber"
+  ],
+  "datasets": [
+   "tbalt88/research-chamber"
+  ],
+  "gemma": [
+   "tbalt88/research-chamber"
+  ],
+  "llama": [
+   "tbalt88/research-chamber"
+  ],
+  "reproducibility": [
+   "tbalt88/research-chamber"
+  ],
+  "market-data": [
+   "tbalt88/TradingView-API"
+  ],
+  "nodejs": [
+   "tbalt88/TradingView-API"
+  ],
+  "screener": [
+   "tbalt88/TradingView-API"
+  ],
+  "stocks": [
+   "tbalt88/TradingView-API"
+  ],
+  "tradingview": [
+   "tbalt88/TradingView-API"
+  ],
+  "ai-slop": [
+   "tbalt88/anti-slop"
+  ],
+  "copywriting": [
+   "tbalt88/anti-slop"
+  ],
+  "design-rules": [
+   "tbalt88/anti-slop"
+  ],
+  "agent-canvas": [
+   "tbalt88/OpenHands"
+  ],
+  "multi-backend": [
+   "tbalt88/OpenHands"
+  ],
+  "openhands": [
+   "tbalt88/OpenHands"
+  ],
+  "lambda": [
+   "tbalt88/remotion"
+  ],
+  "programmatic-video": [
+   "tbalt88/remotion"
+  ],
+  "webcodecs": [
+   "tbalt88/remotion"
+  ],
+  "podcast": [
+   "tbalt88/voice-studio"
+  ],
+  "vibevoice": [
+   "tbalt88/voice-studio"
+  ],
+  "tool-calling": [
+   "tbalt88/deepagents"
+  ],
+  "alipay": [
+   "tbalt88/hypitoken"
+  ],
+  "api-proxy": [
+   "tbalt88/hypitoken"
+  ],
+  "billing": [
+   "tbalt88/hypitoken"
+  ],
+  "credential-pooling": [
+   "tbalt88/hypitoken"
+  ],
+  "multi-tenant": [
+   "tbalt88/hypitoken"
+  ],
+  "dsl": [
+   "tbalt88/hypit"
+  ],
+  "svml": [
+   "tbalt88/hypit"
+  ],
+  "ugc-ads": [
+   "tbalt88/hypit"
+  ],
+  "video-clone": [
+   "tbalt88/hypit"
+  ],
+  "consumer-gpu": [
+   "tbalt88/Soup"
+  ],
+  "peft": [
+   "tbalt88/Soup"
+  ],
+  "dispatch": [
+   "tbalt88/fleetbase"
+  ],
+  "ember": [
+   "tbalt88/fleetbase"
+  ],
+  "fleet-management": [
+   "tbalt88/fleetbase"
+  ],
+  "laravel": [
+   "tbalt88/fleetbase"
+  ],
+  "last-mile-delivery": [
+   "tbalt88/fleetbase"
+  ],
+  "logistics": [
+   "tbalt88/fleetbase"
+  ],
+  "supply-chain": [
+   "tbalt88/fleetbase"
+  ],
+  "tms": [
+   "tbalt88/fleetbase"
+  ],
+  "warehouse": [
+   "tbalt88/fleetbase"
+  ],
+  "longmemeval": [
+   "tbalt88/mempalace"
+  ],
+  "agent-simulation": [
+   "tbalt88/experiential"
+  ],
+  "cost-reduction": [
+   "tbalt88/experiential"
+  ],
+  "distillation": [
+   "tbalt88/experiential"
+  ],
+  "e2b": [
+   "tbalt88/experiential"
+  ],
+  "harness-optimization": [
+   "tbalt88/experiential"
+  ],
+  "opentelemetry": [
+   "tbalt88/experiential"
+  ],
+  "world-model": [
+   "tbalt88/experiential"
+  ],
   "workflow-builder": [
    "tbalt88/langflow"
   ],
@@ -1988,9 +2397,6 @@
    "tbalt88/production-agentic-rag-course"
   ],
   "image-editing": [
-   "tbalt88/SnapOtter"
-  ],
-  "local-ai": [
    "tbalt88/SnapOtter"
   ],
   "batch-processing": [
@@ -2108,9 +2514,6 @@
    "tbalt88/appllama-skills"
   ],
   "mobile-design": [
-   "tbalt88/appllama-skills"
-  ],
-  "react-native": [
    "tbalt88/appllama-skills"
   ],
   "api-guide": [
@@ -2254,9 +2657,6 @@
   "site-audit": [
    "tbalt88/open-seo"
   ],
-  "qlora": [
-   "tbalt88/unsloth"
-  ],
   "reinforcement-learning": [
    "tbalt88/unsloth"
   ],
@@ -2270,9 +2670,6 @@
    "tbalt88/HEAVEN-Autonomous-Penetration-Testing"
   ],
   "hunyuan": [
-   "tbalt88/Wan2GP"
-  ],
-  "low-vram": [
    "tbalt88/Wan2GP"
   ],
   "wan": [
@@ -2341,9 +2738,6 @@
   "team-memory": [
    "tbalt88/hivemind"
   ],
-  "traces": [
-   "tbalt88/hivemind"
-  ],
   "bullmq": [
    "tbalt88/openreply"
   ],
@@ -2358,9 +2752,6 @@
   ],
   "webhook": [
    "tbalt88/openreply"
-  ],
-  "ag-ui": [
-   "tbalt88/CopilotKit"
   ],
   "agent-ui": [
    "tbalt88/CopilotKit"
@@ -2470,9 +2861,6 @@
   "algo-trading": [
    "tbalt88/technical"
   ],
-  "indicators": [
-   "tbalt88/technical"
-  ],
   "pandas": [
    "tbalt88/technical"
   ],
@@ -2502,9 +2890,6 @@
   ],
   "surrogate-modeling": [
    "tbalt88/the_well"
-  ],
-  "acp": [
-   "tbalt88/AionUi"
   ],
   "cowork": [
    "tbalt88/AionUi"
@@ -2617,9 +3002,6 @@
   "free-tier": [
    "tbalt88/OmniRoute"
   ],
-  "model-routing": [
-   "tbalt88/OmniRoute"
-  ],
   "token-compression": [
    "tbalt88/OmniRoute"
   ],
@@ -2704,9 +3086,6 @@
   "knowledge-base": [
    "tbalt88/stash"
   ],
-  "semantic-search": [
-   "tbalt88/stash"
-  ],
   "design-doc": [
    "tbalt88/claude-code-workflows"
   ],
@@ -2759,9 +3138,6 @@
    "tbalt88/headroom"
   ],
   "elevenlabs": [
-   "tbalt88/OpenMontage"
-  ],
-  "remotion": [
    "tbalt88/OpenMontage"
   ],
   "video-production": [
@@ -2839,9 +3215,6 @@
   "html-to-video": [
    "tbalt88/hyperframes"
   ],
-  "rendering": [
-   "tbalt88/hyperframes"
-  ],
   "cover-letter": [
    "tbalt88/ai-job-search"
   ],
@@ -2871,9 +3244,6 @@
   ],
   "developer-analytics": [
    "tbalt88/AI-Engineering-Coach"
-  ],
-  "dpo": [
-   "tbalt88/train-llm-from-scratch"
   ],
   "grpo": [
    "tbalt88/train-llm-from-scratch"
@@ -2948,9 +3318,6 @@
    "tbalt88/claude-howto"
   ],
   "audiobook": [
-   "tbalt88/VoiceStudio"
-  ],
-  "dubbing": [
    "tbalt88/VoiceStudio"
   ],
   "context-persistence": [
@@ -3034,9 +3401,6 @@
   "starter-kit": [
    "tbalt88/agentic-ai-starters"
   ],
-  "sub-agents": [
-   "tbalt88/deer-flow"
-  ],
   "codebase-analysis": [
    "tbalt88/Understand-Anything"
   ],
@@ -3106,13 +3470,7 @@
   "desktop-agent": [
    "tbalt88/skales"
   ],
-  "binary-analysis": [
-   "tbalt88/kong"
-  ],
   "deobfuscation": [
-   "tbalt88/kong"
-  ],
-  "ghidra": [
    "tbalt88/kong"
   ],
   "glm": [
@@ -3314,9 +3672,6 @@
    "tbalt88/audioghost-ai"
   ],
   "text-to-audio": [
-   "tbalt88/audioghost-ai"
-  ],
-  "video": [
    "tbalt88/audioghost-ai"
   ],
   "monorepo": [
@@ -3718,9 +4073,6 @@
   "vite": [
    "tbalt88/system-design-visualizer"
   ],
-  "kokoro": [
-   "tbalt88/local-voice-ai"
-  ],
   "livekit": [
    "tbalt88/local-voice-ai"
   ],
@@ -3868,9 +4220,6 @@
   "onnx-runtime": [
    "tbalt88/Foundry-Local"
   ],
-  "speech-synthesis": [
-   "tbalt88/IMS-Toucan"
-  ],
   "tts-toolkit": [
    "tbalt88/IMS-Toucan"
   ],
@@ -3931,13 +4280,7 @@
   "agent-studio": [
    "tbalt88/cooragent"
   ],
-  "browser-agent": [
-   "tbalt88/fara"
-  ],
   "model-weights": [
-   "tbalt88/fara"
-  ],
-  "qwen": [
    "tbalt88/fara"
   ],
   "webagent": [
@@ -3965,9 +4308,6 @@
    "tbalt88/llama_index"
   ],
   "llamaparse": [
-   "tbalt88/llama_index"
-  ],
-  "vector-store": [
    "tbalt88/llama_index"
   ],
   "google": [
@@ -4106,27 +4446,77 @@
    "archived": false,
    "license": "MIT",
    "homepage": "https://rea.tools",
-   "signals": [],
+   "signals": [
+    "claude-skill",
+    "gh-actions"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "agents-skills",
+   "domain_label": "Agents, skills & prompt packs",
    "domains": [
-    "unclassified"
+    "agents-skills"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Agents, skills & prompt packs"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "service",
+   "form_label": "Server / service / API",
+   "maturity": "active",
+   "analysis": "REA is an MCP server and CLI (npm package rea-agents) that lets coding agents reverse engineer targets: native binaries via Hopper, Ghidra or IDA, JavaScript/Electron apps, .NET assemblies, Android APKs, websites and network captures. It returns findings with evidence and limitations, and ships agent skills plus a setup command that registers it with Claude Code, Codex, Cursor and Gemini CLI. Aimed at developers and security researchers who want to understand how an app feature works without source. Written mostly in TypeScript with Java, Python and Swift bridges to the analysis engines.",
+   "use_cases": [
+    {
+     "title": "Ask an agent to explain how a closed-source app feature works",
+     "keywords": [
+      "mcp",
+      "reverse-engineering"
+     ]
+    },
+    {
+     "title": "Analyze an Electron or ASAR app's modules, IPC and imports",
+     "keywords": [
+      "electron",
+      "javascript"
+     ]
+    },
+    {
+     "title": "Decompile a native binary through Ghidra or Hopper from an agent",
+     "keywords": [
+      "binary-analysis",
+      "ghidra"
+     ]
+    },
+    {
+     "title": "Inspect an Android APK's manifest and decompiled methods",
+     "keywords": [
+      "android",
+      "apk"
+     ]
+    },
+    {
+     "title": "Borrow its skill layout for a tool-backed agent workflow",
+     "keywords": [
+      "agent-skills",
+      "mcp"
+     ]
+    }
+   ],
+   "keywords": [
+    "agent-skills",
+    "android",
+    "binary-analysis",
+    "decompiler",
+    "electron",
+    "ghidra",
+    "hopper",
+    "mcp",
+    "reverse-engineering",
+    "static-analysis"
+   ],
+   "confidence": 0.85,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4148,27 +4538,84 @@
    "archived": false,
    "license": "MIT",
    "homepage": null,
-   "signals": [],
+   "signals": [
+    "docker",
+    "gh-actions",
+    "node",
+    "typescript"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "agents-skills",
+   "domain_label": "Agents, skills & prompt packs",
    "domains": [
-    "unclassified"
+    "agents-skills"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Agents, skills & prompt packs"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "template",
+   "form_label": "Template / starter",
+   "maturity": "active",
+   "analysis": "OpenMuse is an alpha personal-agent app from CopilotKit that gives an agent a persistent Chromium browser, an optional Linux terminal and files, with durable tasks that keep running and a takeover console for the user. It has a Hono API with task and browser workers, an Expo React Native client for iOS, Android and web, and CopilotKit/AG-UI streaming with inline email, PDF, plan and finance cards. Gmail/Calendar integration, PDF form filling and goal tracking are included, and the README invites cloning it as a template, with a Render blueprint for deployment.",
+   "use_cases": [
+    {
+     "title": "Clone a starter for a personal agent app with browser and terminal tools",
+     "keywords": [
+      "agent-app",
+      "browser",
+      "starter"
+     ]
+    },
+    {
+     "title": "Build an AG-UI streaming chat with inline generative UI cards",
+     "keywords": [
+      "ag-ui",
+      "copilotkit",
+      "generative-ui"
+     ]
+    },
+    {
+     "title": "Add durable background tasks with approvals and resume to an agent",
+     "keywords": [
+      "approvals",
+      "durability",
+      "tasks"
+     ]
+    },
+    {
+     "title": "Deploy an agent API, web app and private browser worker on Render",
+     "keywords": [
+      "deploy",
+      "playwright",
+      "render"
+     ]
+    },
+    {
+     "title": "Wire Gmail and Calendar into an agent with reviewed writes",
+     "keywords": [
+      "calendar",
+      "gmail",
+      "oauth"
+     ]
+    }
+   ],
+   "keywords": [
+    "ag-ui",
+    "browser-agent",
+    "copilotkit",
+    "gmail",
+    "hono",
+    "personal-agent",
+    "playwright",
+    "react-native",
+    "self-hosted",
+    "typescript"
+   ],
+   "confidence": 0.8,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4201,25 +4648,64 @@
    "homepage": "https://awesome-selfhosted.net/",
    "signals": [],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "infra-devops",
+   "domain_label": "Infra, DevOps & self-hosting",
    "domains": [
-    "unclassified"
+    "infra-devops"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Infra, DevOps & self-hosting"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "reference",
+   "form_label": "Reference / docs / list",
+   "maturity": "production",
+   "analysis": "The canonical curated list of free-software network services and web applications you can host on your own servers, organized into roughly 90 categories (analytics, backup, CMS, CRM, monitoring, note-taking, media, password managers, VPN and more). Each entry gives a description, license and deployment stack tag, with a non-free companion list. A discovery resource for homelabbers and anyone replacing SaaS with self-hosted tools.",
+   "use_cases": [
+    {
+     "title": "Find a self-hosted alternative to a SaaS product",
+     "keywords": [
+      "alternatives",
+      "self-hosted"
+     ]
+    },
+    {
+     "title": "Pick a self-hosted analytics, monitoring or status page tool",
+     "keywords": [
+      "analytics",
+      "monitoring"
+     ]
+    },
+    {
+     "title": "Browse self-hosted password managers, wikis and note apps",
+     "keywords": [
+      "notes",
+      "password-manager",
+      "wiki"
+     ]
+    },
+    {
+     "title": "Shortlist homelab apps by license and Docker support",
+     "keywords": [
+      "docker",
+      "homelab"
+     ]
+    }
+   ],
+   "keywords": [
+    "awesome-list",
+    "directory",
+    "docker",
+    "free-software",
+    "homelab",
+    "privacy",
+    "saas-alternatives",
+    "self-hosted"
+   ],
+   "confidence": 0.95,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4241,27 +4727,68 @@
    "archived": false,
    "license": "Apache-2.0",
    "homepage": null,
-   "signals": [],
+   "signals": [
+    "gh-actions"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "media-generation",
+   "domain_label": "Image, video & audio generation",
    "domains": [
-    "unclassified"
+    "media-generation"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Image, video & audio generation"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "model-dataset",
+   "form_label": "Model / dataset / weights",
+   "maturity": "active",
+   "analysis": "Inference code, an SFT pipeline and serving adapters for Audio8-TTS, a compact multilingual text-to-speech model (0.6B preview and 0.1B Falcon-H1 hybrid variants) with zero-shot voice cloning. It uses a DualAR slow/fast transformer over 10 codec codebooks, supports 11 languages, and offers a CPU ONNX INT4 runtime and an OpenAI-compatible SGLang Omni service. Aimed at engineers who want small, self-hostable TTS and voice cloning.",
+   "use_cases": [
+    {
+     "title": "Clone a voice from a short reference clip with a small TTS model",
+     "keywords": [
+      "tts",
+      "voice-cloning"
+     ]
+    },
+    {
+     "title": "Run text-to-speech on CPU with an INT4 ONNX runtime",
+     "keywords": [
+      "cpu",
+      "onnx"
+     ]
+    },
+    {
+     "title": "Serve an OpenAI-compatible speech endpoint with SGLang Omni",
+     "keywords": [
+      "serving",
+      "sglang"
+     ]
+    },
+    {
+     "title": "Fine-tune a TTS model on custom voice data with the SFT pipeline",
+     "keywords": [
+      "fine-tuning",
+      "sft"
+     ]
+    }
+   ],
+   "keywords": [
+    "audio",
+    "falcon-h1",
+    "fine-tuning",
+    "multilingual",
+    "onnx",
+    "sglang",
+    "speech-synthesis",
+    "tts",
+    "voice-cloning"
+   ],
+   "confidence": 0.88,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4283,27 +4810,82 @@
    "archived": false,
    "license": "MIT",
    "homepage": null,
-   "signals": [],
+   "signals": [
+    "claude-md",
+    "claude-skill",
+    "gh-actions"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "agents-skills",
+   "domain_label": "Agents, skills & prompt packs",
    "domains": [
-    "unclassified"
+    "agents-skills"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Agents, skills & prompt packs"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "skill-pack",
+   "form_label": "Skill / plugin / prompt pack",
+   "maturity": "production",
+   "analysis": "gstack is Garry Tan's Claude Code setup packaged as roughly 23 slash-command skills plus power tools that role-play CEO, eng manager, designer, reviewer, QA, security officer and release engineer. Skills are Markdown templates with a Bun/TypeScript runtime, a bundled headless browser, and installers for Codex, Cursor, OpenCode, Kiro and Copilot hosts. It targets founders, tech leads and first-time Claude Code users who want a structured plan, review, QA and ship workflow, backed by extensive CI and eval workflows.",
+   "use_cases": [
+    {
+     "title": "Install a structured plan-review-QA-ship skill suite into Claude Code",
+     "keywords": [
+      "claude-code",
+      "skills",
+      "workflow"
+     ]
+    },
+    {
+     "title": "Run an automated security audit with /cso on a repo",
+     "keywords": [
+      "audit",
+      "cso",
+      "security"
+     ]
+    },
+    {
+     "title": "Use /autoplan to turn a feature idea into a reviewed implementation plan",
+     "keywords": [
+      "autoplan",
+      "planning",
+      "product"
+     ]
+    },
+    {
+     "title": "Borrow the SKILL.md template and generator pattern to build my own skill pack",
+     "keywords": [
+      "skill-authoring",
+      "templates"
+     ]
+    },
+    {
+     "title": "Roll out shared team-mode skills with auto-update across a repo",
+     "keywords": [
+      "auto-update",
+      "claude-code",
+      "team"
+     ]
+    }
+   ],
+   "keywords": [
+    "autoplan",
+    "bun",
+    "claude-code",
+    "code-review",
+    "multi-agent-host",
+    "qa",
+    "release-automation",
+    "skills",
+    "slash-commands",
+    "workflow"
+   ],
+   "confidence": 0.93,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4327,25 +4909,64 @@
    "homepage": "https://wirehead-agency.vercel.app/",
    "signals": [],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "science-research",
+   "domain_label": "Scientific ML, datasets & simulation",
    "domains": [
-    "unclassified"
+    "science-research"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Scientific ML, datasets & simulation"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
-   "proposed_domain": null,
-   "needs_review": false,
-   "classified_at": null,
+   "form": "app",
+   "form_label": "Application / UI",
+   "maturity": "active",
+   "analysis": "A research codebase and public write-up that steers small open LLMs (Qwen3 4B-14B, Hermes-70B) with activation vectors into negative and positive affective states and measures what they say and do, framed as an AI-welfare question. Includes a 'painlab' CLI to scaffold pre-registered experiments, run them (RunPod GPU support) and analyze results, plus 90+ experiment scripts, transcripts and a live web chamber. Aimed at interpretability and model-welfare researchers; notable for pre-registration discipline and reporting nulls.",
+   "use_cases": [
+    {
+     "title": "Learn how to extract and apply control vectors to steer an LLM",
+     "keywords": [
+      "control-vectors",
+      "steering"
+     ]
+    },
+    {
+     "title": "Scaffold a pre-registered LLM experiment with hypotheses and analysis",
+     "keywords": [
+      "experiments",
+      "pre-registration"
+     ]
+    },
+    {
+     "title": "Study published transcripts of models under injected emotional states",
+     "keywords": [
+      "model-welfare",
+      "transcripts"
+     ]
+    },
+    {
+     "title": "Run steering sweeps on RunPod GPUs for 8B-14B models",
+     "keywords": [
+      "gpu",
+      "runpod"
+     ]
+    }
+   ],
+   "keywords": [
+    "activation-steering",
+    "control-vectors",
+    "experiments",
+    "interpretability",
+    "llm-evaluation",
+    "model-welfare",
+    "pre-registration",
+    "qwen3",
+    "research"
+   ],
+   "confidence": 0.75,
+   "proposed_domain": "AI welfare / activation steering research",
+   "needs_review": true,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4367,27 +4988,70 @@
    "archived": false,
    "license": "MIT",
    "homepage": null,
-   "signals": [],
+   "signals": [
+    "docker",
+    "python"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "science-research",
+   "domain_label": "Scientific ML, datasets & simulation",
    "domains": [
-    "unclassified"
+    "science-research"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Scientific ML, datasets & simulation"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "model-dataset",
+   "form_label": "Model / dataset / weights",
+   "maturity": "toy",
+   "analysis": "Code, data and findings behind researchchamber.fun: experiments that steer open LLMs (Qwen, Llama, Gemma, Phi) with a pain-associated activation direction and test whether this changes their choices, such as paying a cost to press a stop button. It includes 118k saved test transcripts, steering vectors, LoRA fine-tune scripts, a games arena and a live Saw Test server. Based on the Pain Axis paper and its code. For interpretability and AI welfare researchers who want to reproduce or audit the numbers; very new and low-star.",
+   "use_cases": [
+    {
+     "title": "Reproduce a steering-vector behavioral experiment on open LLMs",
+     "keywords": [
+      "activation-steering",
+      "llm-evaluation"
+     ]
+    },
+    {
+     "title": "Reuse saved transcripts and steering vectors as a research dataset",
+     "keywords": [
+      "datasets",
+      "interpretability"
+     ]
+    },
+    {
+     "title": "Copy the harness for running many seeded LLM trials with a database",
+     "keywords": [
+      "evaluation",
+      "python"
+     ]
+    },
+    {
+     "title": "Study how to apply a pretrained steering vector at a chosen layer",
+     "keywords": [
+      "pytorch",
+      "steering"
+     ]
+    }
+   ],
+   "keywords": [
+    "activation-steering",
+    "ai-welfare",
+    "datasets",
+    "gemma",
+    "interpretability",
+    "llama",
+    "llm-evaluation",
+    "qwen",
+    "reproducibility",
+    "research"
+   ],
+   "confidence": 0.75,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4427,27 +5091,77 @@
    "archived": false,
    "license": null,
    "homepage": null,
-   "signals": [],
+   "signals": [
+    "gh-actions",
+    "node"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "finance-trading",
+   "domain_label": "Finance & trading",
    "domains": [
-    "unclassified"
+    "finance-trading"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Finance & trading"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "library",
+   "form_label": "Library / SDK",
+   "maturity": "active",
+   "analysis": "An unofficial Node.js/TypeScript client for TradingView's websocket and HTTP endpoints. It fetches real-time quotes and historical candles, runs built-in and Pine indicators and strategies, and covers screeners, watchlists, drawings and replay mode. A v4 rewrite adds a data API, protocol layer, CLI and examples. For developers building trading dashboards, watchers or backtesting tools; it depends on a reverse-engineered protocol so it may break when TradingView changes.",
+   "use_cases": [
+    {
+     "title": "Fetch historical candles for a symbol and timeframe",
+     "keywords": [
+      "candles",
+      "market-data"
+     ]
+    },
+    {
+     "title": "Stream real-time quotes into a trading dashboard",
+     "keywords": [
+      "quotes",
+      "websocket"
+     ]
+    },
+    {
+     "title": "Run a TradingView indicator or strategy and read its report",
+     "keywords": [
+      "backtesting",
+      "indicators"
+     ]
+    },
+    {
+     "title": "Build a screener or watchlist automation script",
+     "keywords": [
+      "automation",
+      "screener"
+     ]
+    },
+    {
+     "title": "Search symbols across exchanges from code",
+     "keywords": [
+      "search",
+      "symbols"
+     ]
+    }
+   ],
+   "keywords": [
+    "backtesting",
+    "crypto",
+    "indicators",
+    "market-data",
+    "nodejs",
+    "screener",
+    "stocks",
+    "tradingview",
+    "typescript",
+    "websocket"
+   ],
+   "confidence": 0.9,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4480,27 +5194,71 @@
    "archived": false,
    "license": "MIT",
    "homepage": null,
-   "signals": [],
+   "signals": [
+    "claude-skill",
+    "gh-actions",
+    "node"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "agents-skills",
+   "domain_label": "Agents, skills & prompt packs",
    "domains": [
-    "unclassified"
+    "agents-skills"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Agents, skills & prompt packs"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "skill-pack",
+   "form_label": "Skill / plugin / prompt pack",
+   "maturity": "active",
+   "analysis": "A rulebook packaged as agent skills that filters generic AI-generated UI, copy and code: 38 mandatory rules in tiers, a liveliness toolkit, and a PASS/FAIL Delivery Gate report. Ships six SKILL.md skills (core, ui, copywriting, accessibility, mobile layout, code comments) plus plugin manifests for Claude Code, Codex, Cursor, Cline, Kimi and others, an npx installer, and a contrast-check script. For developers using AI coding agents who want less boilerplate output.",
+   "use_cases": [
+    {
+     "title": "Install a filter skill that stops agents shipping generic UI",
+     "keywords": [
+      "skills",
+      "ui-design"
+     ]
+    },
+    {
+     "title": "Audit existing AI-generated copy or code for slop patterns",
+     "keywords": [
+      "audit",
+      "copywriting"
+     ]
+    },
+    {
+     "title": "Check color contrast and keyboard accessibility in agent output",
+     "keywords": [
+      "accessibility",
+      "contrast"
+     ]
+    },
+    {
+     "title": "Model a multi-agent plugin layout that installs across many coding agents",
+     "keywords": [
+      "packaging",
+      "plugin"
+     ]
+    }
+   ],
+   "keywords": [
+    "accessibility",
+    "agent-skills",
+    "ai-slop",
+    "claude-code",
+    "codex",
+    "copywriting",
+    "cursor",
+    "design-rules",
+    "plugin",
+    "ui-design"
+   ],
+   "confidence": 0.92,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4532,27 +5290,81 @@
    "archived": false,
    "license": "MIT",
    "homepage": "https://openhands.dev",
-   "signals": [],
+   "signals": [
+    "claude-skill"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "agents-skills",
+   "domain_label": "Agents, skills & prompt packs",
    "domains": [
-    "unclassified"
+    "agents-skills"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Agents, skills & prompt packs"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "app",
+   "form_label": "Application / UI",
+   "maturity": "production",
+   "analysis": "OpenHands is now centered on Agent Canvas, a self-hosted web control center for running and automating coding agents. It connects to OpenHands Agent Servers on local, Docker, VM or cloud backends and also drives Claude Code, Codex, Gemini, Pi, OpenCode or any ACP agent. It adds LLM profiles, MCP servers, skills, plugins, secrets and scheduled or webhook-triggered automations that integrate with Slack, GitHub and Linear. Frontend is TypeScript, installed via npm (@openhands/agent-canvas) or a Docker image, for developers and teams.",
+   "use_cases": [
+    {
+     "title": "Run Claude Code, Codex and OpenHands agents from one self-hosted UI",
+     "keywords": [
+      "acp",
+      "coding-agents",
+      "ui"
+     ]
+    },
+    {
+     "title": "Schedule agent automations triggered by cron or webhooks",
+     "keywords": [
+      "automation",
+      "schedules",
+      "webhooks"
+     ]
+    },
+    {
+     "title": "Sandbox each agent conversation in its own Docker container",
+     "keywords": [
+      "docker",
+      "isolation",
+      "sandbox"
+     ]
+    },
+    {
+     "title": "Share a team agent server for code review and dependency updates",
+     "keywords": [
+      "code-review",
+      "remote",
+      "team"
+     ]
+    },
+    {
+     "title": "Manage LLM profiles, secrets and MCP servers for agents in one place",
+     "keywords": [
+      "llm-profiles",
+      "mcp",
+      "secrets"
+     ]
+    }
+   ],
+   "keywords": [
+    "acp",
+    "agent-canvas",
+    "automation",
+    "coding-agents",
+    "docker",
+    "mcp",
+    "multi-backend",
+    "openhands",
+    "self-hosted",
+    "typescript"
+   ],
+   "confidence": 0.85,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4578,27 +5390,76 @@
    "archived": false,
    "license": "NOASSERTION",
    "homepage": "https://remotion.dev",
-   "signals": [],
+   "signals": [
+    "claude-skill"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "media-generation",
+   "domain_label": "Image, video & audio generation",
    "domains": [
-    "unclassified"
+    "media-generation"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Image, video & audio generation"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "library",
+   "form_label": "Library / SDK",
+   "maturity": "production",
+   "analysis": "Remotion is a framework for creating videos programmatically with React: compositions are components, rendered to MP4 and other formats via a CLI, server-side rendering, Lambda/Cloud Run, or in-browser WebCodecs. It includes a Studio for previewing and editing, a Player for embedding, and a large set of packages for captions, maps, media and effects. Used by developers building templated, data-driven or agent-generated video. The repo also ships many agent skills for Claude and Codex.",
+   "use_cases": [
+    {
+     "title": "Generate personalized videos from data with React components",
+     "keywords": [
+      "react",
+      "video"
+     ]
+    },
+    {
+     "title": "Render videos at scale on AWS Lambda",
+     "keywords": [
+      "lambda",
+      "rendering"
+     ]
+    },
+    {
+     "title": "Embed an interactive video player in a web app",
+     "keywords": [
+      "player",
+      "react"
+     ]
+    },
+    {
+     "title": "Let a coding agent author and render video via Remotion skills",
+     "keywords": [
+      "agent-skills",
+      "video"
+     ]
+    },
+    {
+     "title": "Auto-caption videos and burn in subtitles",
+     "keywords": [
+      "captions",
+      "video"
+     ]
+    }
+   ],
+   "keywords": [
+    "agent-skills",
+    "captions",
+    "lambda",
+    "programmatic-video",
+    "react",
+    "remotion",
+    "rendering",
+    "typescript",
+    "video",
+    "webcodecs"
+   ],
+   "confidence": 0.9,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4625,27 +5486,78 @@
    "archived": false,
    "license": "MIT",
    "homepage": "https://voicestudio.msrbuilds.com/",
-   "signals": [],
+   "signals": [
+    "claude-md",
+    "gh-actions",
+    "python"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "media-generation",
+   "domain_label": "Image, video & audio generation",
    "domains": [
-    "unclassified"
+    "media-generation"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Image, video & audio generation"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "app",
+   "form_label": "Application / UI",
+   "maturity": "active",
+   "analysis": "Voice Studio is a local web app (FastAPI backend, React/TypeScript frontend) for text-to-speech with seven switchable open models: VibeVoice, Kokoro, Kitten TTS, Chatterbox, OmniVoice, VoxCPM2 and Qwen3-TTS. It offers a multi-speaker podcast editor, voice cloning, Whisper transcription with SRT/VTT export, offline translation and voice-to-voice dubbing. Everything runs offline on GPU, CPU or MPS, with isolated virtualenvs for incompatible engines. Aimed at creators wanting an open-source ElevenLabs alternative.",
+   "use_cases": [
+    {
+     "title": "Generate a multi-speaker podcast from a script locally",
+     "keywords": [
+      "podcast",
+      "tts"
+     ]
+    },
+    {
+     "title": "Clone a voice from a short reference clip",
+     "keywords": [
+      "tts",
+      "voice-cloning"
+     ]
+    },
+    {
+     "title": "Transcribe audio to an editable transcript and SRT subtitles",
+     "keywords": [
+      "subtitles",
+      "whisper"
+     ]
+    },
+    {
+     "title": "Dub a clip into another language and voice offline",
+     "keywords": [
+      "dubbing",
+      "translation"
+     ]
+    },
+    {
+     "title": "Compare several open TTS engines behind one UI",
+     "keywords": [
+      "engines",
+      "tts"
+     ]
+    }
+   ],
+   "keywords": [
+    "dubbing",
+    "fastapi",
+    "kokoro",
+    "local-ai",
+    "podcast",
+    "transcription",
+    "tts",
+    "vibevoice",
+    "voice-cloning",
+    "whisper"
+   ],
+   "confidence": 0.9,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4676,27 +5588,76 @@
    "archived": false,
    "license": "MIT",
    "homepage": "https://docs.langchain.com/deepagents",
-   "signals": [],
+   "signals": [
+    "claude-skill"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "agents-skills",
+   "domain_label": "Agents, skills & prompt packs",
    "domains": [
-    "unclassified"
+    "agents-skills"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Agents, skills & prompt packs"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "library",
+   "form_label": "Library / SDK",
+   "maturity": "production",
+   "analysis": "LangChain's opinionated, batteries-included agent harness built on LangGraph, inspired by Claude Code. It bundles planning, sub-agents with isolated context, pluggable filesystem and sandbox backends, context summarization, persistent memory, human-in-the-loop approval, skills and MCP tools, exposed through create_deep_agent. Model-agnostic for any tool-calling LLM; also ships a terminal coding agent (Deep Agents Code) and eval/release infrastructure. For developers building long-horizon agents in Python.",
+   "use_cases": [
+    {
+     "title": "Build a long-horizon research agent with planning and sub-agents",
+     "keywords": [
+      "agents",
+      "sub-agents"
+     ]
+    },
+    {
+     "title": "Add filesystem, sandbox and shell access to an LLM agent",
+     "keywords": [
+      "filesystem",
+      "sandbox"
+     ]
+    },
+    {
+     "title": "Run a terminal coding agent on any LLM, including local models",
+     "keywords": [
+      "cli",
+      "coding-agent"
+     ]
+    },
+    {
+     "title": "Add human approval gates to agent tool calls",
+     "keywords": [
+      "human-in-the-loop",
+      "safety"
+     ]
+    },
+    {
+     "title": "Study how a harness manages context and memory for agents",
+     "keywords": [
+      "context",
+      "memory"
+     ]
+    }
+   ],
+   "keywords": [
+    "agent-harness",
+    "coding-agent",
+    "langchain",
+    "langgraph",
+    "mcp",
+    "memory",
+    "python",
+    "skills",
+    "sub-agents",
+    "tool-calling"
+   ],
+   "confidence": 0.95,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4731,27 +5692,85 @@
    "archived": false,
    "license": "NOASSERTION",
    "homepage": "https://github.com/cashdiffusion/hypitoken",
-   "signals": [],
+   "signals": [
+    "claude-md",
+    "gh-actions",
+    "go",
+    "make",
+    "node"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "infra-devops",
+   "domain_label": "Infra, DevOps & self-hosting",
    "domains": [
-    "unclassified"
+    "infra-devops"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Infra, DevOps & self-hosting"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
-   "proposed_domain": null,
-   "needs_review": false,
-   "classified_at": null,
+   "form": "service",
+   "form_label": "Server / service / API",
+   "maturity": "active",
+   "analysis": "HypiToken is a self-hostable multi-tenant LLM API gateway written in Go that pools Anthropic and OpenAI/Codex OAuth credentials and API keys behind Claude (/v1/messages) and Codex (/v1/chat/completions, /v1/responses) endpoints. It adds a SaaS layer with email-verified accounts, a USD wallet topped up via Alipay, per-token spend and rate caps, pricing groups, sticky sessions with credential rotation, a status page and a React operator console. It ships as a single binary with SQLite, aimed at operators reselling pooled model access, mainly in the Chinese market.",
+   "use_cases": [
+    {
+     "title": "Self-host a proxy that pools Claude and Codex credentials behind one endpoint",
+     "keywords": [
+      "llm-gateway",
+      "proxy",
+      "self-hosted"
+     ]
+    },
+    {
+     "title": "Issue per-user API tokens with daily or monthly USD caps",
+     "keywords": [
+      "api-keys",
+      "billing",
+      "rate-limits"
+     ]
+    },
+    {
+     "title": "Study a wallet and ledger design with payment reconciliation",
+     "keywords": [
+      "go",
+      "payments",
+      "wallet"
+     ]
+    },
+    {
+     "title": "Point Claude Code or Codex CLI at a custom base URL",
+     "keywords": [
+      "base-url",
+      "claude-code",
+      "codex"
+     ]
+    },
+    {
+     "title": "Ship a single-binary Go service with embedded React admin UI",
+     "keywords": [
+      "embedded-spa",
+      "go",
+      "single-binary"
+     ]
+    }
+   ],
+   "keywords": [
+    "alipay",
+    "api-proxy",
+    "billing",
+    "claude",
+    "codex",
+    "credential-pooling",
+    "go",
+    "llm-gateway",
+    "multi-tenant",
+    "self-hosted"
+   ],
+   "confidence": 0.85,
+   "proposed_domain": "LLM API gateway / proxy",
+   "needs_review": true,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4794,27 +5813,81 @@
    "archived": false,
    "license": "NOASSERTION",
    "homepage": "https://hypit.ai",
-   "signals": [],
+   "signals": [
+    "claude-skill",
+    "gh-actions",
+    "node"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "media-generation",
+   "domain_label": "Image, video & audio generation",
    "domains": [
-    "unclassified"
+    "media-generation"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Image, video & audio generation"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "cli",
+   "form_label": "CLI tool",
+   "maturity": "active",
+   "analysis": "Hypit gives coding agents (Claude Code, Codex) a markup language (SVML), compiler and runtime for building videos as editable, re-runnable workflows. Given a reference video, an agent clones it as footage, word-anchored captions, B-roll and effects, then swaps faces, scripts or products to render many variants via headless Chromium and ffmpeg. It ships as an installable agent skill and Node CLI in a TypeScript monorepo with a plugin system and pluggable model providers, aimed at marketers and creators producing ads, UGC and short-form clips.",
+   "use_cases": [
+    {
+     "title": "Clone a viral short video with a different host or product",
+     "keywords": [
+      "ugc",
+      "video-clone"
+     ]
+    },
+    {
+     "title": "Generate dozens of ad variants from one video workflow",
+     "keywords": [
+      "ads",
+      "batch",
+      "variants"
+     ]
+    },
+    {
+     "title": "Let a coding agent build captioned explainer videos from code-rendered visuals",
+     "keywords": [
+      "agents",
+      "captions",
+      "explainer"
+     ]
+    },
+    {
+     "title": "Install the hypit skill so Claude Code can edit and render video",
+     "keywords": [
+      "claude-skill",
+      "video-editing"
+     ]
+    },
+    {
+     "title": "Author custom video components and provider plugins in a DSL",
+     "keywords": [
+      "compiler",
+      "dsl",
+      "plugins"
+     ]
+    }
+   ],
+   "keywords": [
+    "ai-agents",
+    "captions",
+    "claude-skill",
+    "dsl",
+    "ffmpeg",
+    "svml",
+    "typescript",
+    "ugc-ads",
+    "video-clone",
+    "video-generation"
+   ],
+   "confidence": 0.85,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4857,27 +5930,77 @@
    "archived": false,
    "license": "Apache-2.0",
    "homepage": "https://trysoup.dev",
-   "signals": [],
+   "signals": [
+    "docker",
+    "gh-actions"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "llm-inference-training",
+   "domain_label": "LLM inference & training",
    "domains": [
-    "unclassified"
+    "llm-inference-training"
    ],
    "domain_labels": [
-    "Unclassified"
+    "LLM inference & training"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "cli",
+   "form_label": "CLI tool",
+   "maturity": "active",
+   "analysis": "Soup (soup-cli) is a Python CLI that fine-tunes and post-trains LLMs from a single YAML config, covering SFT, DPO, GRPO and other methods with LoRA/QLoRA. Its layer-streaming mode keeps frozen weights out of VRAM so an 8B model can train on a 4 GB laptop GPU. It also provides data cleaning, evaluation, adapter checks, GGUF/Ollama export, inference and a web UI. Aimed at solo builders with consumer GPUs; built on PyTorch, transformers, peft and trl, with extensive benchmark records.",
+   "use_cases": [
+    {
+     "title": "Fine-tune an 8B model on a 4 GB laptop GPU",
+     "keywords": [
+      "low-vram",
+      "qlora"
+     ]
+    },
+    {
+     "title": "Run SFT or DPO from one YAML config",
+     "keywords": [
+      "dpo",
+      "fine-tuning"
+     ]
+    },
+    {
+     "title": "Export a tuned adapter to GGUF for Ollama",
+     "keywords": [
+      "gguf",
+      "ollama"
+     ]
+    },
+    {
+     "title": "Clean and validate a training dataset before a run",
+     "keywords": [
+      "data-cleaning",
+      "dataset"
+     ]
+    },
+    {
+     "title": "Check a LoRA adapter for silent failure before deploying",
+     "keywords": [
+      "evaluation",
+      "lora"
+     ]
+    }
+   ],
+   "keywords": [
+    "cli",
+    "consumer-gpu",
+    "dpo",
+    "fine-tuning",
+    "gguf",
+    "lora",
+    "low-vram",
+    "ollama",
+    "peft",
+    "qlora"
+   ],
+   "confidence": 0.9,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4916,27 +6039,77 @@
    "archived": false,
    "license": "AGPL-3.0",
    "homepage": "https://fleetbase.io",
-   "signals": [],
+   "signals": [
+    "gh-actions",
+    "node"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "business-apps",
+   "domain_label": "Business apps, CRM/ERP & Power Platform",
    "domains": [
-    "unclassified"
+    "business-apps"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Business apps, CRM/ERP & Power Platform"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
-   "proposed_domain": null,
-   "needs_review": false,
-   "classified_at": null,
+   "form": "service",
+   "form_label": "Server / service / API",
+   "maturity": "production",
+   "analysis": "Fleetbase is an open-source, modular logistics and supply chain operating system: a Laravel/PHP API plus an Ember-based console, with modules for dispatch and fleet ops, headless commerce, warehouse management, ledger/invoicing, customer portal, IAM and an AI assistant. It exposes a REST API, WebSockets and webhooks, supports extensions, and has open-source iOS/Android driver and storefront apps. Self-host with Docker via the flb CLI or use Fleetbase Cloud; aimed at trucking, courier, delivery and e-commerce operators and developers building logistics products.",
+   "use_cases": [
+    {
+     "title": "Self-host a dispatch and fleet tracking platform with Docker",
+     "keywords": [
+      "fleet",
+      "self-hosted"
+     ]
+    },
+    {
+     "title": "Build a custom logistics product on a REST API and extension system",
+     "keywords": [
+      "api",
+      "extensions"
+     ]
+    },
+    {
+     "title": "Run an on-demand delivery marketplace with driver and storefront apps",
+     "keywords": [
+      "delivery",
+      "mobile"
+     ]
+    },
+    {
+     "title": "Replace a legacy TMS with route optimization and proof of delivery",
+     "keywords": [
+      "routing",
+      "tms"
+     ]
+    },
+    {
+     "title": "Add warehouse inventory and invoicing to a logistics stack",
+     "keywords": [
+      "invoicing",
+      "warehouse"
+     ]
+    }
+   ],
+   "keywords": [
+    "dispatch",
+    "ember",
+    "fleet-management",
+    "laravel",
+    "last-mile-delivery",
+    "logistics",
+    "self-hosted",
+    "supply-chain",
+    "tms",
+    "warehouse"
+   ],
+   "confidence": 0.9,
+   "proposed_domain": "logistics / fleet management",
+   "needs_review": true,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -4965,27 +6138,85 @@
    "archived": false,
    "license": "MIT",
    "homepage": "http://mempalaceofficial.com/",
-   "signals": [],
+   "signals": [
+    "claude-md",
+    "claude-skill",
+    "docker",
+    "gh-actions",
+    "mcp",
+    "node",
+    "rust"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "agents-skills",
+   "domain_label": "Agents, skills & prompt packs",
    "domains": [
-    "unclassified"
+    "agents-skills"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Agents, skills & prompt packs"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
-   "proposed_domain": null,
-   "needs_review": false,
-   "classified_at": null,
+   "form": "library",
+   "form_label": "Library / SDK",
+   "maturity": "active",
+   "analysis": "MemPalace is a local-first AI memory system that stores conversation history and project files verbatim and retrieves them by semantic search, organized into wings (people/projects), rooms (topics) and drawers (content). It provides a Python CLI, an MCP server, and plugins, skills and hooks for Claude Code, Codex, Cursor and Antigravity, with a pluggable vector backend (ChromaDB default, plus SQLite exact, Rust, Milvus, Qdrant, pgvector). It reports 96.6% R@5 on LongMemEval with no LLM or API calls and targets developers who want persistent memory across agent sessions.",
+   "use_cases": [
+    {
+     "title": "Give Claude Code persistent searchable memory across sessions",
+     "keywords": [
+      "claude-code",
+      "mcp",
+      "memory"
+     ]
+    },
+    {
+     "title": "Mine old Claude Code transcripts into a searchable archive",
+     "keywords": [
+      "archive",
+      "search",
+      "transcripts"
+     ]
+    },
+    {
+     "title": "Swap the vector backend between Chroma, Qdrant or pgvector",
+     "keywords": [
+      "backends",
+      "vector-db"
+     ]
+    },
+    {
+     "title": "Run the memory MCP server in Docker for a team",
+     "keywords": [
+      "docker",
+      "mcp",
+      "team"
+     ]
+    },
+    {
+     "title": "Benchmark my own memory retrieval against LongMemEval",
+     "keywords": [
+      "benchmark",
+      "retrieval"
+     ]
+    }
+   ],
+   "keywords": [
+    "agent-memory",
+    "chromadb",
+    "claude-code",
+    "local-first",
+    "long-term-memory",
+    "longmemeval",
+    "mcp",
+    "python",
+    "semantic-search",
+    "vector-store"
+   ],
+   "confidence": 0.85,
+   "proposed_domain": "AI agent memory",
+   "needs_review": true,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false
@@ -5007,27 +6238,79 @@
    "archived": false,
    "license": null,
    "homepage": null,
-   "signals": [],
+   "signals": [
+    "claude-md",
+    "claude-skill",
+    "gh-actions",
+    "python"
+   ],
    "actions": {},
-   "status": "unclassified",
-   "domain": "unclassified",
-   "domain_label": "Unclassified",
+   "status": "classified",
+   "domain": "agents-skills",
+   "domain_label": "Agents, skills & prompt packs",
    "domains": [
-    "unclassified"
+    "agents-skills"
    ],
    "domain_labels": [
-    "Unclassified"
+    "Agents, skills & prompt packs"
    ],
-   "form": "unclassified",
-   "form_label": "Unclassified",
-   "maturity": null,
-   "analysis": "",
-   "use_cases": [],
-   "keywords": [],
-   "confidence": null,
+   "form": "cli",
+   "form_label": "CLI tool",
+   "maturity": "active",
+   "analysis": "World Model Optimizer (wmo): a Python CLI and server that uses LLM-simulated agent environments (world models) to test and improve agents. It turns collected OTel agent traces into routers across frontier and smaller models (reported 27% lower cost on RouterBench), distills small open models via the Tinker API, and optimizes agent harnesses (prompts, tools, skills) in E2B sandboxes with closed-loop evaluation. Includes SWE-bench, tau-bench and terminal-task cookbooks. For teams tuning agent cost and quality.",
+   "use_cases": [
+    {
+     "title": "Route requests between frontier and cheaper models from your traces",
+     "keywords": [
+      "cost",
+      "routing"
+     ]
+    },
+    {
+     "title": "Simulate an agent environment with an LLM world model for testing",
+     "keywords": [
+      "simulation",
+      "world-model"
+     ]
+    },
+    {
+     "title": "Optimize an agent harness against simulated tasks with eval gates",
+     "keywords": [
+      "evals",
+      "optimization"
+     ]
+    },
+    {
+     "title": "Distill a small open model from collected agent traces",
+     "keywords": [
+      "distillation",
+      "traces"
+     ]
+    },
+    {
+     "title": "Run agent evals in isolated E2B sandboxes",
+     "keywords": [
+      "e2b",
+      "sandbox"
+     ]
+    }
+   ],
+   "keywords": [
+    "agent-simulation",
+    "cost-reduction",
+    "distillation",
+    "e2b",
+    "evals",
+    "harness-optimization",
+    "model-routing",
+    "opentelemetry",
+    "traces",
+    "world-model"
+   ],
+   "confidence": 0.8,
    "proposed_domain": null,
    "needs_review": false,
-   "classified_at": null,
+   "classified_at": "2026-10-19T06:53:18Z",
    "note": null,
    "pinned": false,
    "overridden": false

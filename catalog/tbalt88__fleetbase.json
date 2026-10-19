@@ -47,9 +47,84 @@
     "discovered_at": "2026-09-15T11:50:18Z",
     "metadata_refreshed_at": "2026-10-18T11:15:23Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "JavaScript": 1954482,
+      "PHP": 267772,
+      "Handlebars": 259119,
+      "Mermaid": 112253,
+      "Shell": 53950,
+      "Python": 27433,
+      "Blade": 18386,
+      "Dockerfile": 15021,
+      "CSS": 7107,
+      "Go Template": 4271,
+      "HTML": 2870,
+      "HCL": 2426
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:47Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "business-apps",
+    "proposed_domain": "logistics / fleet management",
+    "form": "service",
+    "maturity": "production",
+    "analysis": "Fleetbase is an open-source, modular logistics and supply chain operating system: a Laravel/PHP API plus an Ember-based console, with modules for dispatch and fleet ops, headless commerce, warehouse management, ledger/invoicing, customer portal, IAM and an AI assistant. It exposes a REST API, WebSockets and webhooks, supports extensions, and has open-source iOS/Android driver and storefront apps. Self-host with Docker via the flb CLI or use Fleetbase Cloud; aimed at trucking, courier, delivery and e-commerce operators and developers building logistics products.",
+    "keywords": [
+      "dispatch",
+      "ember",
+      "fleet-management",
+      "laravel",
+      "last-mile-delivery",
+      "logistics",
+      "self-hosted",
+      "supply-chain",
+      "tms",
+      "warehouse"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a dispatch and fleet tracking platform with Docker",
+        "keywords": [
+          "fleet",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Build a custom logistics product on a REST API and extension system",
+        "keywords": [
+          "api",
+          "extensions"
+        ]
+      },
+      {
+        "title": "Run an on-demand delivery marketplace with driver and storefront apps",
+        "keywords": [
+          "delivery",
+          "mobile"
+        ]
+      },
+      {
+        "title": "Replace a legacy TMS with route optimization and proof of delivery",
+        "keywords": [
+          "routing",
+          "tms"
+        ]
+      },
+      {
+        "title": "Add warehouse inventory and invoicing to a logistics stack",
+        "keywords": [
+          "invoicing",
+          "warehouse"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

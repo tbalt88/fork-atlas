@@ -30,9 +30,76 @@
     "discovered_at": "2026-09-11T11:28:06Z",
     "metadata_refreshed_at": "2026-10-17T10:51:05Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 7163217,
+      "TypeScript": 64613,
+      "Just": 742
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:46Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "agents-skills",
+    "form": "cli",
+    "maturity": "active",
+    "analysis": "World Model Optimizer (wmo): a Python CLI and server that uses LLM-simulated agent environments (world models) to test and improve agents. It turns collected OTel agent traces into routers across frontier and smaller models (reported 27% lower cost on RouterBench), distills small open models via the Tinker API, and optimizes agent harnesses (prompts, tools, skills) in E2B sandboxes with closed-loop evaluation. Includes SWE-bench, tau-bench and terminal-task cookbooks. For teams tuning agent cost and quality.",
+    "keywords": [
+      "agent-simulation",
+      "cost-reduction",
+      "distillation",
+      "e2b",
+      "evals",
+      "harness-optimization",
+      "model-routing",
+      "opentelemetry",
+      "traces",
+      "world-model"
+    ],
+    "use_cases": [
+      {
+        "title": "Route requests between frontier and cheaper models from your traces",
+        "keywords": [
+          "cost",
+          "routing"
+        ]
+      },
+      {
+        "title": "Simulate an agent environment with an LLM world model for testing",
+        "keywords": [
+          "simulation",
+          "world-model"
+        ]
+      },
+      {
+        "title": "Optimize an agent harness against simulated tasks with eval gates",
+        "keywords": [
+          "evals",
+          "optimization"
+        ]
+      },
+      {
+        "title": "Distill a small open model from collected agent traces",
+        "keywords": [
+          "distillation",
+          "traces"
+        ]
+      },
+      {
+        "title": "Run agent evals in isolated E2B sandboxes",
+        "keywords": [
+          "e2b",
+          "sandbox"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

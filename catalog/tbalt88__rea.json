@@ -51,9 +51,87 @@
     "discovered_at": "2026-10-18T11:15:12Z",
     "metadata_refreshed_at": "2026-10-18T11:15:12Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-skill",
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 28009616,
+      "JavaScript": 2816987,
+      "HTML": 730230,
+      "Python": 631414,
+      "Java": 407586,
+      "C++": 85808,
+      "CSS": 56798,
+      "Swift": 52669,
+      "C": 27736,
+      "Shell": 12663,
+      "Assembly": 7479,
+      "Go Template": 7196,
+      "Objective-C": 3047,
+      "Linker Script": 692,
+      "Solidity": 470,
+      "Makefile": 250
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:55Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "agents-skills",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "REA is an MCP server and CLI (npm package rea-agents) that lets coding agents reverse engineer targets: native binaries via Hopper, Ghidra or IDA, JavaScript/Electron apps, .NET assemblies, Android APKs, websites and network captures. It returns findings with evidence and limitations, and ships agent skills plus a setup command that registers it with Claude Code, Codex, Cursor and Gemini CLI. Aimed at developers and security researchers who want to understand how an app feature works without source. Written mostly in TypeScript with Java, Python and Swift bridges to the analysis engines.",
+    "keywords": [
+      "agent-skills",
+      "android",
+      "binary-analysis",
+      "decompiler",
+      "electron",
+      "ghidra",
+      "hopper",
+      "mcp",
+      "reverse-engineering",
+      "static-analysis"
+    ],
+    "use_cases": [
+      {
+        "title": "Ask an agent to explain how a closed-source app feature works",
+        "keywords": [
+          "mcp",
+          "reverse-engineering"
+        ]
+      },
+      {
+        "title": "Analyze an Electron or ASAR app's modules, IPC and imports",
+        "keywords": [
+          "electron",
+          "javascript"
+        ]
+      },
+      {
+        "title": "Decompile a native binary through Ghidra or Hopper from an agent",
+        "keywords": [
+          "binary-analysis",
+          "ghidra"
+        ]
+      },
+      {
+        "title": "Inspect an Android APK's manifest and decompiled methods",
+        "keywords": [
+          "android",
+          "apk"
+        ]
+      },
+      {
+        "title": "Borrow its skill layout for a tool-backed agent workflow",
+        "keywords": [
+          "agent-skills",
+          "mcp"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

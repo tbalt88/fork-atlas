@@ -30,9 +30,82 @@
     "discovered_at": "2026-10-17T10:50:53Z",
     "metadata_refreshed_at": "2026-10-18T11:15:13Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "docker",
+      "gh-actions",
+      "node",
+      "typescript"
+    ],
+    "languages": {
+      "TypeScript": 1380481,
+      "Python": 4799,
+      "JavaScript": 3089,
+      "Dockerfile": 834
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:54Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "agents-skills",
+    "form": "template",
+    "maturity": "active",
+    "analysis": "OpenMuse is an alpha personal-agent app from CopilotKit that gives an agent a persistent Chromium browser, an optional Linux terminal and files, with durable tasks that keep running and a takeover console for the user. It has a Hono API with task and browser workers, an Expo React Native client for iOS, Android and web, and CopilotKit/AG-UI streaming with inline email, PDF, plan and finance cards. Gmail/Calendar integration, PDF form filling and goal tracking are included, and the README invites cloning it as a template, with a Render blueprint for deployment.",
+    "keywords": [
+      "ag-ui",
+      "browser-agent",
+      "copilotkit",
+      "gmail",
+      "hono",
+      "personal-agent",
+      "playwright",
+      "react-native",
+      "self-hosted",
+      "typescript"
+    ],
+    "use_cases": [
+      {
+        "title": "Clone a starter for a personal agent app with browser and terminal tools",
+        "keywords": [
+          "agent-app",
+          "browser",
+          "starter"
+        ]
+      },
+      {
+        "title": "Build an AG-UI streaming chat with inline generative UI cards",
+        "keywords": [
+          "ag-ui",
+          "copilotkit",
+          "generative-ui"
+        ]
+      },
+      {
+        "title": "Add durable background tasks with approvals and resume to an agent",
+        "keywords": [
+          "approvals",
+          "durability",
+          "tasks"
+        ]
+      },
+      {
+        "title": "Deploy an agent API, web app and private browser worker on Render",
+        "keywords": [
+          "deploy",
+          "playwright",
+          "render"
+        ]
+      },
+      {
+        "title": "Wire Gmail and Calendar into an agent with reviewed writes",
+        "keywords": [
+          "calendar",
+          "gmail",
+          "oauth"
+        ]
+      }
+    ],
+    "confidence": 0.8,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

@@ -39,9 +39,76 @@
     "discovered_at": "2026-09-24T11:53:03Z",
     "metadata_refreshed_at": "2026-10-18T11:15:20Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "Python": 25029365,
+      "Shell": 188384,
+      "JavaScript": 47748,
+      "Makefile": 33869,
+      "Dockerfile": 17006,
+      "Go Template": 2458
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:45Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "agents-skills",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "LangChain's opinionated, batteries-included agent harness built on LangGraph, inspired by Claude Code. It bundles planning, sub-agents with isolated context, pluggable filesystem and sandbox backends, context summarization, persistent memory, human-in-the-loop approval, skills and MCP tools, exposed through create_deep_agent. Model-agnostic for any tool-calling LLM; also ships a terminal coding agent (Deep Agents Code) and eval/release infrastructure. For developers building long-horizon agents in Python.",
+    "keywords": [
+      "agent-harness",
+      "coding-agent",
+      "langchain",
+      "langgraph",
+      "mcp",
+      "memory",
+      "python",
+      "skills",
+      "sub-agents",
+      "tool-calling"
+    ],
+    "use_cases": [
+      {
+        "title": "Build a long-horizon research agent with planning and sub-agents",
+        "keywords": [
+          "agents",
+          "sub-agents"
+        ]
+      },
+      {
+        "title": "Add filesystem, sandbox and shell access to an LLM agent",
+        "keywords": [
+          "filesystem",
+          "sandbox"
+        ]
+      },
+      {
+        "title": "Run a terminal coding agent on any LLM, including local models",
+        "keywords": [
+          "cli",
+          "coding-agent"
+        ]
+      },
+      {
+        "title": "Add human approval gates to agent tool calls",
+        "keywords": [
+          "human-in-the-loop",
+          "safety"
+        ]
+      },
+      {
+        "title": "Study how a harness manages context and memory for agents",
+        "keywords": [
+          "context",
+          "memory"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }
