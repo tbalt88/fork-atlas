@@ -1,0 +1,4 @@
+# Reviewed 2026-10-19: LLM filed under science-research (conf 0.75, proposed "AI welfare / activation steering research").
+domain: science-research
+domains_extra: [llm-inference-training]
+note: "Reviewed: research codebase alongside research-chamber; also llm-inference-training for activation steering and evaluation of open models."
