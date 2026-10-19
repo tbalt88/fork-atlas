@@ -12,8 +12,8 @@
     "full_name": "Edge0-AI/Audio8_TTS",
     "url": "https://github.com/Edge0-AI/Audio8_TTS",
     "description": "SOTA-Class TTS at Compact Scale",
-    "stars": 1820,
-    "forks": 207,
+    "stars": 1846,
+    "forks": 212,
     "watchers": 43,
     "open_issues": 10,
     "language": "Python",
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-16T11:30:52Z",
-    "metadata_refreshed_at": "2026-10-18T11:15:14Z",
+    "metadata_refreshed_at": "2026-10-19T13:27:20Z",
     "actions_checked_at": null,
     "signals": [
       "gh-actions"

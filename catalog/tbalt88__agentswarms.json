@@ -46,13 +46,13 @@
     "homepage": "https://agentswarms.fyi",
     "default_branch": "main",
     "created_at": "2026-07-21T21:35:03Z",
-    "pushed_at": "2026-10-17T13:06:47Z",
+    "pushed_at": "2026-10-19T11:17:16Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:03Z",
-    "metadata_refreshed_at": "2026-10-18T11:15:56Z",
+    "metadata_refreshed_at": "2026-10-19T13:28:08Z",
     "signals": [
       "docker",
       "gh-actions",

@@ -16,8 +16,8 @@
     "full_name": "Appllama/appllama-skills",
     "url": "https://github.com/Appllama/appllama-skills",
     "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
-    "stars": 2889,
-    "forks": 152,
+    "stars": 2894,
+    "forks": 155,
     "watchers": 1,
     "open_issues": 1,
     "language": null,
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:19Z",
-    "metadata_refreshed_at": "2026-10-18T11:15:34Z",
+    "metadata_refreshed_at": "2026-10-19T13:27:43Z",
     "actions_checked_at": "2026-09-03T17:26:18Z",
     "signals": [
       "claude-skill",
