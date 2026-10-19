@@ -30,9 +30,67 @@
     "discovered_at": "2026-10-03T11:44:35Z",
     "metadata_refreshed_at": "2026-10-17T10:50:57Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "docker",
+      "python"
+    ],
+    "languages": {
+      "Python": 193664,
+      "Shell": 2624,
+      "Dockerfile": 546
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:57Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "science-research",
+    "form": "model-dataset",
+    "maturity": "toy",
+    "analysis": "Code, data and findings behind researchchamber.fun: experiments that steer open LLMs (Qwen, Llama, Gemma, Phi) with a pain-associated activation direction and test whether this changes their choices, such as paying a cost to press a stop button. It includes 118k saved test transcripts, steering vectors, LoRA fine-tune scripts, a games arena and a live Saw Test server. Based on the Pain Axis paper and its code. For interpretability and AI welfare researchers who want to reproduce or audit the numbers; very new and low-star.",
+    "keywords": [
+      "activation-steering",
+      "ai-welfare",
+      "datasets",
+      "gemma",
+      "interpretability",
+      "llama",
+      "llm-evaluation",
+      "qwen",
+      "reproducibility",
+      "research"
+    ],
+    "use_cases": [
+      {
+        "title": "Reproduce a steering-vector behavioral experiment on open LLMs",
+        "keywords": [
+          "activation-steering",
+          "llm-evaluation"
+        ]
+      },
+      {
+        "title": "Reuse saved transcripts and steering vectors as a research dataset",
+        "keywords": [
+          "datasets",
+          "interpretability"
+        ]
+      },
+      {
+        "title": "Copy the harness for running many seeded LLM trials with a database",
+        "keywords": [
+          "evaluation",
+          "python"
+        ]
+      },
+      {
+        "title": "Study how to apply a pretrained steering vector at a chosen layer",
+        "keywords": [
+          "pytorch",
+          "steering"
+        ]
+      }
+    ],
+    "confidence": 0.75,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

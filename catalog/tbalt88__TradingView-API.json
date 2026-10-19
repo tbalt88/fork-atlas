@@ -48,9 +48,73 @@
     "discovered_at": "2026-10-03T11:44:35Z",
     "metadata_refreshed_at": "2026-10-18T11:15:17Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "TypeScript": 349446,
+      "JavaScript": 26060
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:59Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "finance-trading",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "An unofficial Node.js/TypeScript client for TradingView's websocket and HTTP endpoints. It fetches real-time quotes and historical candles, runs built-in and Pine indicators and strategies, and covers screeners, watchlists, drawings and replay mode. A v4 rewrite adds a data API, protocol layer, CLI and examples. For developers building trading dashboards, watchers or backtesting tools; it depends on a reverse-engineered protocol so it may break when TradingView changes.",
+    "keywords": [
+      "backtesting",
+      "crypto",
+      "indicators",
+      "market-data",
+      "nodejs",
+      "screener",
+      "stocks",
+      "tradingview",
+      "typescript",
+      "websocket"
+    ],
+    "use_cases": [
+      {
+        "title": "Fetch historical candles for a symbol and timeframe",
+        "keywords": [
+          "candles",
+          "market-data"
+        ]
+      },
+      {
+        "title": "Stream real-time quotes into a trading dashboard",
+        "keywords": [
+          "quotes",
+          "websocket"
+        ]
+      },
+      {
+        "title": "Run a TradingView indicator or strategy and read its report",
+        "keywords": [
+          "backtesting",
+          "indicators"
+        ]
+      },
+      {
+        "title": "Build a screener or watchlist automation script",
+        "keywords": [
+          "automation",
+          "screener"
+        ]
+      },
+      {
+        "title": "Search symbols across exchanges from code",
+        "keywords": [
+          "search",
+          "symbols"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

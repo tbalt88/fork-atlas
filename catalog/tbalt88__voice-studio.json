@@ -35,9 +35,78 @@
     "discovered_at": "2026-09-26T11:30:07Z",
     "metadata_refreshed_at": "2026-10-18T11:15:20Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "python"
+    ],
+    "languages": {
+      "Python": 639985,
+      "TypeScript": 391482,
+      "PowerShell": 2720,
+      "CSS": 1328,
+      "HTML": 807,
+      "JavaScript": 345
+    },
+    "inputs_prepared_at": "2026-10-19T06:51:00Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "media-generation",
+    "form": "app",
+    "maturity": "active",
+    "analysis": "Voice Studio is a local web app (FastAPI backend, React/TypeScript frontend) for text-to-speech with seven switchable open models: VibeVoice, Kokoro, Kitten TTS, Chatterbox, OmniVoice, VoxCPM2 and Qwen3-TTS. It offers a multi-speaker podcast editor, voice cloning, Whisper transcription with SRT/VTT export, offline translation and voice-to-voice dubbing. Everything runs offline on GPU, CPU or MPS, with isolated virtualenvs for incompatible engines. Aimed at creators wanting an open-source ElevenLabs alternative.",
+    "keywords": [
+      "dubbing",
+      "fastapi",
+      "kokoro",
+      "local-ai",
+      "podcast",
+      "transcription",
+      "tts",
+      "vibevoice",
+      "voice-cloning",
+      "whisper"
+    ],
+    "use_cases": [
+      {
+        "title": "Generate a multi-speaker podcast from a script locally",
+        "keywords": [
+          "podcast",
+          "tts"
+        ]
+      },
+      {
+        "title": "Clone a voice from a short reference clip",
+        "keywords": [
+          "tts",
+          "voice-cloning"
+        ]
+      },
+      {
+        "title": "Transcribe audio to an editable transcript and SRT subtitles",
+        "keywords": [
+          "subtitles",
+          "whisper"
+        ]
+      },
+      {
+        "title": "Dub a clip into another language and voice offline",
+        "keywords": [
+          "dubbing",
+          "translation"
+        ]
+      },
+      {
+        "title": "Compare several open TTS engines behind one UI",
+        "keywords": [
+          "engines",
+          "tts"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

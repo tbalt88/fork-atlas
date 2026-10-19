@@ -43,9 +43,87 @@
     "discovered_at": "2026-09-18T11:22:23Z",
     "metadata_refreshed_at": "2026-10-17T10:51:01Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-md",
+      "gh-actions",
+      "go",
+      "make",
+      "node"
+    ],
+    "languages": {
+      "Go": 2246190,
+      "TypeScript": 1153026,
+      "HTML": 128708,
+      "CSS": 18089,
+      "Shell": 15969,
+      "Python": 2665,
+      "Makefile": 2467
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:51Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "infra-devops",
+    "proposed_domain": "LLM API gateway / proxy",
+    "form": "service",
+    "maturity": "active",
+    "analysis": "HypiToken is a self-hostable multi-tenant LLM API gateway written in Go that pools Anthropic and OpenAI/Codex OAuth credentials and API keys behind Claude (/v1/messages) and Codex (/v1/chat/completions, /v1/responses) endpoints. It adds a SaaS layer with email-verified accounts, a USD wallet topped up via Alipay, per-token spend and rate caps, pricing groups, sticky sessions with credential rotation, a status page and a React operator console. It ships as a single binary with SQLite, aimed at operators reselling pooled model access, mainly in the Chinese market.",
+    "keywords": [
+      "alipay",
+      "api-proxy",
+      "billing",
+      "claude",
+      "codex",
+      "credential-pooling",
+      "go",
+      "llm-gateway",
+      "multi-tenant",
+      "self-hosted"
+    ],
+    "use_cases": [
+      {
+        "title": "Self-host a proxy that pools Claude and Codex credentials behind one endpoint",
+        "keywords": [
+          "llm-gateway",
+          "proxy",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Issue per-user API tokens with daily or monthly USD caps",
+        "keywords": [
+          "api-keys",
+          "billing",
+          "rate-limits"
+        ]
+      },
+      {
+        "title": "Study a wallet and ledger design with payment reconciliation",
+        "keywords": [
+          "go",
+          "payments",
+          "wallet"
+        ]
+      },
+      {
+        "title": "Point Claude Code or Codex CLI at a custom base URL",
+        "keywords": [
+          "base-url",
+          "claude-code",
+          "codex"
+        ]
+      },
+      {
+        "title": "Ship a single-binary Go service with embedded React admin UI",
+        "keywords": [
+          "embedded-spa",
+          "go",
+          "single-binary"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

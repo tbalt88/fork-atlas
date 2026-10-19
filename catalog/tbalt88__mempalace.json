@@ -37,9 +37,91 @@
     "discovered_at": "2026-09-12T10:52:48Z",
     "metadata_refreshed_at": "2026-10-18T11:15:23Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "docker",
+      "gh-actions",
+      "mcp",
+      "node",
+      "rust"
+    ],
+    "languages": {
+      "Python": 9187504,
+      "Shell": 134703,
+      "JavaScript": 79671,
+      "HTML": 72274,
+      "CSS": 50707,
+      "Rust": 46503,
+      "Vue": 22112,
+      "TypeScript": 19645,
+      "Go": 15415,
+      "Dockerfile": 4091,
+      "Go Template": 385
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:52Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "agents-skills",
+    "proposed_domain": "AI agent memory",
+    "form": "library",
+    "maturity": "active",
+    "analysis": "MemPalace is a local-first AI memory system that stores conversation history and project files verbatim and retrieves them by semantic search, organized into wings (people/projects), rooms (topics) and drawers (content). It provides a Python CLI, an MCP server, and plugins, skills and hooks for Claude Code, Codex, Cursor and Antigravity, with a pluggable vector backend (ChromaDB default, plus SQLite exact, Rust, Milvus, Qdrant, pgvector). It reports 96.6% R@5 on LongMemEval with no LLM or API calls and targets developers who want persistent memory across agent sessions.",
+    "keywords": [
+      "agent-memory",
+      "chromadb",
+      "claude-code",
+      "local-first",
+      "long-term-memory",
+      "longmemeval",
+      "mcp",
+      "python",
+      "semantic-search",
+      "vector-store"
+    ],
+    "use_cases": [
+      {
+        "title": "Give Claude Code persistent searchable memory across sessions",
+        "keywords": [
+          "claude-code",
+          "mcp",
+          "memory"
+        ]
+      },
+      {
+        "title": "Mine old Claude Code transcripts into a searchable archive",
+        "keywords": [
+          "archive",
+          "search",
+          "transcripts"
+        ]
+      },
+      {
+        "title": "Swap the vector backend between Chroma, Qdrant or pgvector",
+        "keywords": [
+          "backends",
+          "vector-db"
+        ]
+      },
+      {
+        "title": "Run the memory MCP server in Docker for a team",
+        "keywords": [
+          "docker",
+          "mcp",
+          "team"
+        ]
+      },
+      {
+        "title": "Benchmark my own memory retrieval against LongMemEval",
+        "keywords": [
+          "benchmark",
+          "retrieval"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

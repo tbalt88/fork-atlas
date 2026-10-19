@@ -30,9 +30,66 @@
     "discovered_at": "2026-10-16T11:30:52Z",
     "metadata_refreshed_at": "2026-10-18T11:15:14Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "gh-actions"
+    ],
+    "languages": {
+      "Python": 289214,
+      "Shell": 11874,
+      "PowerShell": 6863,
+      "Vim Snippet": 1004
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:42Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "media-generation",
+    "form": "model-dataset",
+    "maturity": "active",
+    "analysis": "Inference code, an SFT pipeline and serving adapters for Audio8-TTS, a compact multilingual text-to-speech model (0.6B preview and 0.1B Falcon-H1 hybrid variants) with zero-shot voice cloning. It uses a DualAR slow/fast transformer over 10 codec codebooks, supports 11 languages, and offers a CPU ONNX INT4 runtime and an OpenAI-compatible SGLang Omni service. Aimed at engineers who want small, self-hostable TTS and voice cloning.",
+    "keywords": [
+      "audio",
+      "falcon-h1",
+      "fine-tuning",
+      "multilingual",
+      "onnx",
+      "sglang",
+      "speech-synthesis",
+      "tts",
+      "voice-cloning"
+    ],
+    "use_cases": [
+      {
+        "title": "Clone a voice from a short reference clip with a small TTS model",
+        "keywords": [
+          "tts",
+          "voice-cloning"
+        ]
+      },
+      {
+        "title": "Run text-to-speech on CPU with an INT4 ONNX runtime",
+        "keywords": [
+          "cpu",
+          "onnx"
+        ]
+      },
+      {
+        "title": "Serve an OpenAI-compatible speech endpoint with SGLang Omni",
+        "keywords": [
+          "serving",
+          "sglang"
+        ]
+      },
+      {
+        "title": "Fine-tune a TTS model on custom voice data with the SFT pipeline",
+        "keywords": [
+          "fine-tuning",
+          "sft"
+        ]
+      }
+    ],
+    "confidence": 0.88,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

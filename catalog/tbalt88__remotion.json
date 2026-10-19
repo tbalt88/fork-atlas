@@ -34,9 +34,89 @@
     "discovered_at": "2026-09-27T12:08:46Z",
     "metadata_refreshed_at": "2026-10-18T11:15:19Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "TypeScript": 52820805,
+      "PHP": 5733934,
+      "MDX": 4317272,
+      "JavaScript": 2649839,
+      "Rust": 157963,
+      "Python": 116355,
+      "CSS": 90105,
+      "Go": 57977,
+      "Shell": 17601,
+      "Ruby": 16568,
+      "C++": 10014,
+      "HTML": 6734,
+      "Dockerfile": 2573,
+      "Nix": 2460,
+      "HCL": 1826,
+      "Rich Text Format": 1361,
+      "Astro": 686,
+      "Swift": 210,
+      "SCSS": 206
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:56Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "media-generation",
+    "form": "library",
+    "maturity": "production",
+    "analysis": "Remotion is a framework for creating videos programmatically with React: compositions are components, rendered to MP4 and other formats via a CLI, server-side rendering, Lambda/Cloud Run, or in-browser WebCodecs. It includes a Studio for previewing and editing, a Player for embedding, and a large set of packages for captions, maps, media and effects. Used by developers building templated, data-driven or agent-generated video. The repo also ships many agent skills for Claude and Codex.",
+    "keywords": [
+      "agent-skills",
+      "captions",
+      "lambda",
+      "programmatic-video",
+      "react",
+      "remotion",
+      "rendering",
+      "typescript",
+      "video",
+      "webcodecs"
+    ],
+    "use_cases": [
+      {
+        "title": "Generate personalized videos from data with React components",
+        "keywords": [
+          "react",
+          "video"
+        ]
+      },
+      {
+        "title": "Render videos at scale on AWS Lambda",
+        "keywords": [
+          "lambda",
+          "rendering"
+        ]
+      },
+      {
+        "title": "Embed an interactive video player in a web app",
+        "keywords": [
+          "player",
+          "react"
+        ]
+      },
+      {
+        "title": "Let a coding agent author and render video via Remotion skills",
+        "keywords": [
+          "agent-skills",
+          "video"
+        ]
+      },
+      {
+        "title": "Auto-caption videos and burn in subtitles",
+        "keywords": [
+          "captions",
+          "video"
+        ]
+      }
+    ],
+    "confidence": 0.9,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

@@ -40,8 +40,58 @@
     "metadata_refreshed_at": "2026-10-18T11:15:13Z",
     "actions_checked_at": null,
     "signals": [],
-    "languages": {}
+    "languages": {},
+    "inputs_prepared_at": "2026-10-19T06:50:44Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "infra-devops",
+    "form": "reference",
+    "maturity": "production",
+    "analysis": "The canonical curated list of free-software network services and web applications you can host on your own servers, organized into roughly 90 categories (analytics, backup, CMS, CRM, monitoring, note-taking, media, password managers, VPN and more). Each entry gives a description, license and deployment stack tag, with a non-free companion list. A discovery resource for homelabbers and anyone replacing SaaS with self-hosted tools.",
+    "keywords": [
+      "awesome-list",
+      "directory",
+      "docker",
+      "free-software",
+      "homelab",
+      "privacy",
+      "saas-alternatives",
+      "self-hosted"
+    ],
+    "use_cases": [
+      {
+        "title": "Find a self-hosted alternative to a SaaS product",
+        "keywords": [
+          "alternatives",
+          "self-hosted"
+        ]
+      },
+      {
+        "title": "Pick a self-hosted analytics, monitoring or status page tool",
+        "keywords": [
+          "analytics",
+          "monitoring"
+        ]
+      },
+      {
+        "title": "Browse self-hosted password managers, wikis and note apps",
+        "keywords": [
+          "notes",
+          "password-manager",
+          "wiki"
+        ]
+      },
+      {
+        "title": "Shortlist homelab apps by license and Docker support",
+        "keywords": [
+          "docker",
+          "homelab"
+        ]
+      }
+    ],
+    "confidence": 0.95,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

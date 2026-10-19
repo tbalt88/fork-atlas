@@ -41,9 +41,67 @@
     "discovered_at": "2026-09-30T12:42:01Z",
     "metadata_refreshed_at": "2026-10-18T11:15:18Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-skill",
+      "gh-actions",
+      "node"
+    ],
+    "languages": {
+      "JavaScript": 78048,
+      "Python": 9659
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:42Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "active",
+    "analysis": "A rulebook packaged as agent skills that filters generic AI-generated UI, copy and code: 38 mandatory rules in tiers, a liveliness toolkit, and a PASS/FAIL Delivery Gate report. Ships six SKILL.md skills (core, ui, copywriting, accessibility, mobile layout, code comments) plus plugin manifests for Claude Code, Codex, Cursor, Cline, Kimi and others, an npx installer, and a contrast-check script. For developers using AI coding agents who want less boilerplate output.",
+    "keywords": [
+      "accessibility",
+      "agent-skills",
+      "ai-slop",
+      "claude-code",
+      "codex",
+      "copywriting",
+      "cursor",
+      "design-rules",
+      "plugin",
+      "ui-design"
+    ],
+    "use_cases": [
+      {
+        "title": "Install a filter skill that stops agents shipping generic UI",
+        "keywords": [
+          "skills",
+          "ui-design"
+        ]
+      },
+      {
+        "title": "Audit existing AI-generated copy or code for slop patterns",
+        "keywords": [
+          "audit",
+          "copywriting"
+        ]
+      },
+      {
+        "title": "Check color contrast and keyboard accessibility in agent output",
+        "keywords": [
+          "accessibility",
+          "contrast"
+        ]
+      },
+      {
+        "title": "Model a multi-agent plugin layout that installs across many coding agents",
+        "keywords": [
+          "packaging",
+          "plugin"
+        ]
+      }
+    ],
+    "confidence": 0.92,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

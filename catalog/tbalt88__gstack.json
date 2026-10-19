@@ -30,9 +30,88 @@
     "discovered_at": "2026-10-04T12:27:37Z",
     "metadata_refreshed_at": "2026-10-18T11:15:15Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-md",
+      "claude-skill",
+      "gh-actions"
+    ],
+    "languages": {
+      "TypeScript": 29706675,
+      "Shell": 1599705,
+      "Go Template": 1331623,
+      "JavaScript": 257217,
+      "C": 49012,
+      "CSS": 40053,
+      "Swift": 31214,
+      "HTML": 26479,
+      "Python": 14326,
+      "PowerShell": 12863,
+      "Dockerfile": 4815,
+      "jq": 1011
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:49Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "agents-skills",
+    "form": "skill-pack",
+    "maturity": "production",
+    "analysis": "gstack is Garry Tan's Claude Code setup packaged as roughly 23 slash-command skills plus power tools that role-play CEO, eng manager, designer, reviewer, QA, security officer and release engineer. Skills are Markdown templates with a Bun/TypeScript runtime, a bundled headless browser, and installers for Codex, Cursor, OpenCode, Kiro and Copilot hosts. It targets founders, tech leads and first-time Claude Code users who want a structured plan, review, QA and ship workflow, backed by extensive CI and eval workflows.",
+    "keywords": [
+      "autoplan",
+      "bun",
+      "claude-code",
+      "code-review",
+      "multi-agent-host",
+      "qa",
+      "release-automation",
+      "skills",
+      "slash-commands",
+      "workflow"
+    ],
+    "use_cases": [
+      {
+        "title": "Install a structured plan-review-QA-ship skill suite into Claude Code",
+        "keywords": [
+          "claude-code",
+          "skills",
+          "workflow"
+        ]
+      },
+      {
+        "title": "Run an automated security audit with /cso on a repo",
+        "keywords": [
+          "audit",
+          "cso",
+          "security"
+        ]
+      },
+      {
+        "title": "Use /autoplan to turn a feature idea into a reviewed implementation plan",
+        "keywords": [
+          "autoplan",
+          "planning",
+          "product"
+        ]
+      },
+      {
+        "title": "Borrow the SKILL.md template and generator pattern to build my own skill pack",
+        "keywords": [
+          "skill-authoring",
+          "templates"
+        ]
+      },
+      {
+        "title": "Roll out shared team-mode skills with auto-update across a repo",
+        "keywords": [
+          "auto-update",
+          "claude-code",
+          "team"
+        ]
+      }
+    ],
+    "confidence": 0.93,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }

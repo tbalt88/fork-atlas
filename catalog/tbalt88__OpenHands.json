@@ -40,9 +40,83 @@
     "discovered_at": "2026-09-29T12:59:38Z",
     "metadata_refreshed_at": "2026-10-18T11:15:18Z",
     "actions_checked_at": null,
-    "signals": [],
-    "languages": {}
+    "signals": [
+      "claude-skill"
+    ],
+    "languages": {
+      "TypeScript": 12845728,
+      "JavaScript": 989248,
+      "Python": 64061,
+      "Shell": 31271,
+      "CSS": 29229,
+      "HTML": 12038,
+      "Dockerfile": 10085,
+      "Go Template": 3195
+    },
+    "inputs_prepared_at": "2026-10-19T06:50:53Z"
   },
-  "classification": null,
-  "status": "unclassified"
+  "classification": {
+    "domain": "agents-skills",
+    "form": "app",
+    "maturity": "production",
+    "analysis": "OpenHands is now centered on Agent Canvas, a self-hosted web control center for running and automating coding agents. It connects to OpenHands Agent Servers on local, Docker, VM or cloud backends and also drives Claude Code, Codex, Gemini, Pi, OpenCode or any ACP agent. It adds LLM profiles, MCP servers, skills, plugins, secrets and scheduled or webhook-triggered automations that integrate with Slack, GitHub and Linear. Frontend is TypeScript, installed via npm (@openhands/agent-canvas) or a Docker image, for developers and teams.",
+    "keywords": [
+      "acp",
+      "agent-canvas",
+      "automation",
+      "coding-agents",
+      "docker",
+      "mcp",
+      "multi-backend",
+      "openhands",
+      "self-hosted",
+      "typescript"
+    ],
+    "use_cases": [
+      {
+        "title": "Run Claude Code, Codex and OpenHands agents from one self-hosted UI",
+        "keywords": [
+          "acp",
+          "coding-agents",
+          "ui"
+        ]
+      },
+      {
+        "title": "Schedule agent automations triggered by cron or webhooks",
+        "keywords": [
+          "automation",
+          "schedules",
+          "webhooks"
+        ]
+      },
+      {
+        "title": "Sandbox each agent conversation in its own Docker container",
+        "keywords": [
+          "docker",
+          "isolation",
+          "sandbox"
+        ]
+      },
+      {
+        "title": "Share a team agent server for code review and dependency updates",
+        "keywords": [
+          "code-review",
+          "remote",
+          "team"
+        ]
+      },
+      {
+        "title": "Manage LLM profiles, secrets and MCP servers for agents in one place",
+        "keywords": [
+          "llm-profiles",
+          "mcp",
+          "secrets"
+        ]
+      }
+    ],
+    "confidence": 0.85,
+    "classified_at": "2026-10-19T06:53:18Z",
+    "model": "claude-code/sonnet-5.5"
+  },
+  "status": "classified"
 }
