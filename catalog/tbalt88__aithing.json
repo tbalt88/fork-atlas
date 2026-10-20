@@ -15,7 +15,7 @@
     "full_name": "thisisnsh/aithing",
     "url": "https://github.com/thisisnsh/aithing",
     "description": "AI, Agents, and Automation",
-    "stars": 92,
+    "stars": 91,
     "forks": 14,
     "watchers": 2,
     "open_issues": 16,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:13Z",
-    "metadata_refreshed_at": "2026-09-29T13:01:42Z",
+    "metadata_refreshed_at": "2026-10-20T11:47:40Z",
     "signals": [
       "node",
       "rust"

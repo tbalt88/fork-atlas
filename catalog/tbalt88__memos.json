@@ -14,11 +14,11 @@
   "upstream": {
     "full_name": "usememos/memos",
     "url": "https://github.com/usememos/memos",
-    "description": "A timeline for your thoughts. Just type. It stays yours.",
-    "stars": 63910,
-    "forks": 4868,
+    "description": "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.",
+    "stars": 63941,
+    "forks": 4871,
     "watchers": 191,
-    "open_issues": 88,
+    "open_issues": 91,
     "language": "Go",
     "topics": [
       "docker",
@@ -46,7 +46,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:33Z",
-    "metadata_refreshed_at": "2026-10-19T13:28:42Z",
+    "metadata_refreshed_at": "2026-10-20T11:47:02Z",
     "signals": [
       "gh-actions",
       "go"

@@ -16,7 +16,7 @@
     "url": "https://github.com/aiplanethub/openagi",
     "description": "Paving the way for open agents and AGI for all.",
     "stars": 618,
-    "forks": 138,
+    "forks": 143,
     "watchers": 12,
     "open_issues": 11,
     "language": "Jupyter Notebook",
@@ -43,7 +43,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:57Z",
-    "metadata_refreshed_at": "2026-10-19T13:29:59Z",
+    "metadata_refreshed_at": "2026-10-20T11:48:27Z",
     "signals": [
       "gh-actions"
     ],
