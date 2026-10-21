@@ -18,7 +18,7 @@
     "stars": 2615,
     "forks": 434,
     "watchers": 16,
-    "open_issues": 36,
+    "open_issues": 29,
     "language": "Go",
     "topics": [
       "agent",
@@ -46,13 +46,13 @@
     "homepage": "http://www.agentfield.ai",
     "default_branch": "main",
     "created_at": "2025-11-05T02:04:44Z",
-    "pushed_at": "2026-10-19T22:33:27Z",
+    "pushed_at": "2026-10-20T14:10:41Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:09Z",
-    "metadata_refreshed_at": "2026-10-20T11:47:35Z",
+    "metadata_refreshed_at": "2026-10-21T11:59:07Z",
     "signals": [
       "claude-md",
       "gh-actions",

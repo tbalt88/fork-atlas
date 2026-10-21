@@ -15,10 +15,10 @@
     "full_name": "every-app/open-seo",
     "url": "https://github.com/every-app/open-seo",
     "description": "Open source alternative to Semrush and Ahrefs",
-    "stars": 24233,
-    "forks": 3254,
-    "watchers": 73,
-    "open_issues": 211,
+    "stars": 24382,
+    "forks": 3292,
+    "watchers": 74,
+    "open_issues": 212,
     "language": "TypeScript",
     "topics": [
       "backlink-analysis",
@@ -43,7 +43,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:43Z",
-    "metadata_refreshed_at": "2026-10-20T11:46:01Z",
+    "metadata_refreshed_at": "2026-10-21T11:57:58Z",
     "signals": [
       "claude-md",
       "claude-skill",

@@ -17,7 +17,7 @@
     "description": "Free hands-on digital forensics labs for students and faculty",
     "stars": 3019,
     "forks": 630,
-    "watchers": 92,
+    "watchers": 93,
     "open_issues": 11,
     "language": "Jupyter Notebook",
     "topics": [
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:21Z",
-    "metadata_refreshed_at": "2026-10-20T11:46:49Z",
+    "metadata_refreshed_at": "2026-10-21T11:58:34Z",
     "signals": [],
     "languages": {
       "Jupyter Notebook": 694200,
