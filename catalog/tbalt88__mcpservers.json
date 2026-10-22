@@ -15,10 +15,10 @@
     "full_name": "modelcontextprotocol/servers",
     "url": "https://github.com/modelcontextprotocol/servers",
     "description": "Model Context Protocol Servers",
-    "stars": 91443,
-    "forks": 11836,
-    "watchers": 632,
-    "open_issues": 139,
+    "stars": 91472,
+    "forks": 11837,
+    "watchers": 633,
+    "open_issues": 140,
     "language": "TypeScript",
     "topics": [],
     "license": "NOASSERTION",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:23Z",
-    "metadata_refreshed_at": "2026-10-21T12:00:06Z",
+    "metadata_refreshed_at": "2026-10-22T12:03:30Z",
     "signals": [
       "claude-md",
       "docker",
