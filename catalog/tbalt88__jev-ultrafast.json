@@ -12,9 +12,9 @@
     "full_name": "browser-use/jev-ultrafast",
     "url": "https://github.com/browser-use/jev-ultrafast",
     "description": "Fastest and cheapest web agent",
-    "stars": 23460,
-    "forks": 1762,
-    "watchers": 57,
+    "stars": 23512,
+    "forks": 1770,
+    "watchers": 58,
     "open_issues": 205,
     "language": "Python",
     "topics": [],
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-22T11:59:40Z",
-    "metadata_refreshed_at": "2026-10-22T11:59:40Z",
+    "metadata_refreshed_at": "2026-10-23T11:45:33Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

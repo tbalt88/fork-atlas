@@ -15,8 +15,8 @@
     "full_name": "oso95/scroll-world",
     "url": "https://github.com/oso95/scroll-world",
     "description": "A skill that turn any brand into a scrollable 3D world landing page",
-    "stars": 10350,
-    "forks": 1144,
+    "stars": 10383,
+    "forks": 1148,
     "watchers": 50,
     "open_issues": 10,
     "language": "JavaScript",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:12Z",
-    "metadata_refreshed_at": "2026-10-22T12:00:57Z",
+    "metadata_refreshed_at": "2026-10-23T11:46:41Z",
     "signals": [
       "claude-skill"
     ],

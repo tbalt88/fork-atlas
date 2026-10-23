@@ -1,0 +1,47 @@
+{
+  "fork": {
+    "full_name": "tbalt88/MoneyPrinterV2",
+    "url": "https://github.com/tbalt88/MoneyPrinterV2",
+    "created_at": "2026-10-22T18:33:49Z",
+    "default_branch": "main",
+    "pushed_at": "2026-09-15T22:35:17Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "FujiwaraChoki/MoneyPrinterV2",
+    "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+    "description": "Automate the process of making money online.",
+    "stars": 32176,
+    "forks": 3453,
+    "watchers": 255,
+    "open_issues": 91,
+    "language": "Python",
+    "topics": [
+      "automation",
+      "cli",
+      "json",
+      "money",
+      "outreach",
+      "python",
+      "twitter",
+      "youtube"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2024-02-12T11:20:42Z",
+    "pushed_at": "2026-09-15T22:35:17Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-23T11:45:31Z",
+    "metadata_refreshed_at": "2026-10-23T11:45:31Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

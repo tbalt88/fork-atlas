@@ -1,0 +1,43 @@
+{
+  "fork": {
+    "full_name": "tbalt88/MoneyPrinter",
+    "url": "https://github.com/tbalt88/MoneyPrinter",
+    "created_at": "2026-10-22T18:34:16Z",
+    "default_branch": "main",
+    "pushed_at": "2026-03-26T22:17:17Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "FujiwaraChoki/MoneyPrinter",
+    "url": "https://github.com/FujiwaraChoki/MoneyPrinter",
+    "description": "Automate Creation of YouTube Shorts using MoviePy.",
+    "stars": 14083,
+    "forks": 1831,
+    "watchers": 106,
+    "open_issues": 19,
+    "language": "Python",
+    "topics": [
+      "automation",
+      "chatgpt",
+      "moviepy",
+      "python"
+    ],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2024-01-31T18:53:24Z",
+    "pushed_at": "2026-03-26T22:17:17Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-23T11:45:30Z",
+    "metadata_refreshed_at": "2026-10-23T11:45:30Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

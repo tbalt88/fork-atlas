@@ -15,10 +15,10 @@
     "full_name": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 286081,
-    "forks": 42439,
-    "watchers": 1420,
-    "open_issues": 248,
+    "stars": 286915,
+    "forks": 42553,
+    "watchers": 1414,
+    "open_issues": 263,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:43Z",
-    "metadata_refreshed_at": "2026-10-22T12:02:39Z",
+    "metadata_refreshed_at": "2026-10-23T11:48:13Z",
     "signals": [
       "claude-skill"
     ],

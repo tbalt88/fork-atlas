@@ -16,7 +16,7 @@
     "url": "https://github.com/AKS-Labs/CloudGallery",
     "description": "CloudGallery is an Android app that lets you instantly back up all your images to Telegram using Bot API — simple, Secure, and infinite.",
     "stars": 472,
-    "forks": 53,
+    "forks": 54,
     "watchers": 6,
     "open_issues": 18,
     "language": "Kotlin",
@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:52Z",
-    "metadata_refreshed_at": "2026-10-21T11:59:42Z",
+    "metadata_refreshed_at": "2026-10-23T11:48:23Z",
     "signals": [
       "gh-actions"
     ],
