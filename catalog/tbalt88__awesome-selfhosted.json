@@ -12,9 +12,9 @@
     "full_name": "awesome-selfhosted/awesome-selfhosted",
     "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
     "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-    "stars": 329519,
-    "forks": 15489,
-    "watchers": 3367,
+    "stars": 329823,
+    "forks": 15508,
+    "watchers": 3369,
     "open_issues": 0,
     "language": null,
     "topics": [
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-17T10:50:54Z",
-    "metadata_refreshed_at": "2026-10-23T11:45:38Z",
+    "metadata_refreshed_at": "2026-10-24T11:09:38Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {},

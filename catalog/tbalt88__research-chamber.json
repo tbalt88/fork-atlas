@@ -13,7 +13,7 @@
     "url": "https://github.com/0xD3bt/research-chamber",
     "description": "Code, data and findings behind researchchamber.fun: experiments on open AI models with a pain pattern switched on",
     "stars": 52,
-    "forks": 12,
+    "forks": 13,
     "watchers": 1,
     "open_issues": 2,
     "language": "Python",
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-03T11:44:35Z",
-    "metadata_refreshed_at": "2026-10-17T10:50:57Z",
+    "metadata_refreshed_at": "2026-10-24T11:09:40Z",
     "actions_checked_at": null,
     "signals": [
       "docker",

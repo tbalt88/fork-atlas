@@ -12,8 +12,8 @@
     "full_name": "CopilotKit/openmuse",
     "url": "https://github.com/CopilotKit/openmuse",
     "description": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
-    "stars": 5470,
-    "forks": 774,
+    "stars": 5490,
+    "forks": 782,
     "watchers": 23,
     "open_issues": 63,
     "language": "TypeScript",
@@ -22,13 +22,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2026-09-15T16:05:44Z",
-    "pushed_at": "2026-10-22T19:14:35Z",
+    "pushed_at": "2026-10-23T19:41:39Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-10-17T10:50:53Z",
-    "metadata_refreshed_at": "2026-10-23T11:45:37Z",
+    "metadata_refreshed_at": "2026-10-24T11:09:37Z",
     "actions_checked_at": null,
     "signals": [
       "docker",

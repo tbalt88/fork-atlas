@@ -15,7 +15,7 @@
     "full_name": "labring/tentix",
     "url": "https://github.com/labring/tentix",
     "description": "TenTix (10x Efficiency) - An AI native customer service platform with 10x accelerated resolution. Support MCP extension, and AI knowlage base system.",
-    "stars": 412,
+    "stars": 413,
     "forks": 60,
     "watchers": 2,
     "open_issues": 9,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:51Z",
-    "metadata_refreshed_at": "2026-10-22T12:02:51Z",
+    "metadata_refreshed_at": "2026-10-24T11:11:18Z",
     "signals": [
       "claude-md",
       "docker",

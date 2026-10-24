@@ -18,7 +18,7 @@
     "stars": 4479,
     "forks": 571,
     "watchers": 50,
-    "open_issues": 20,
+    "open_issues": 21,
     "language": "Jupyter Notebook",
     "topics": [],
     "license": "BSD-3-Clause",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:01Z",
-    "metadata_refreshed_at": "2026-10-23T11:46:29Z",
+    "metadata_refreshed_at": "2026-10-24T11:10:09Z",
     "signals": [
       "gh-actions"
     ],
