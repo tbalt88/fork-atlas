@@ -15,10 +15,10 @@
     "full_name": "Panniantong/Agent-Reach",
     "url": "https://github.com/Panniantong/Agent-Reach",
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-    "stars": 101494,
-    "forks": 8954,
-    "watchers": 337,
-    "open_issues": 230,
+    "stars": 102162,
+    "forks": 9039,
+    "watchers": 334,
+    "open_issues": 233,
     "language": "Python",
     "topics": [
       "agent-infrastructure",
@@ -43,13 +43,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2026-02-24T02:10:24Z",
-    "pushed_at": "2026-10-23T06:44:33Z",
+    "pushed_at": "2026-10-25T04:37:26Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:08Z",
-    "metadata_refreshed_at": "2026-10-24T11:10:14Z",
+    "metadata_refreshed_at": "2026-10-25T11:39:55Z",
     "signals": [
       "claude-md",
       "claude-skill",

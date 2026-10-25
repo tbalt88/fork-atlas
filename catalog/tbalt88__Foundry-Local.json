@@ -18,7 +18,7 @@
     "stars": 2596,
     "forks": 377,
     "watchers": 75,
-    "open_issues": 128,
+    "open_issues": 129,
     "language": "C++",
     "topics": [
       "ai-sdk",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:11Z",
-    "metadata_refreshed_at": "2026-10-24T11:11:29Z",
+    "metadata_refreshed_at": "2026-10-25T11:41:08Z",
     "signals": [
       "gh-actions"
     ],

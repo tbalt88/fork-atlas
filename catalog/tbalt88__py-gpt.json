@@ -18,7 +18,7 @@
     "stars": 2002,
     "forks": 353,
     "watchers": 42,
-    "open_issues": 65,
+    "open_issues": 66,
     "language": "Python",
     "topics": [
       "agents",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:10Z",
-    "metadata_refreshed_at": "2026-10-24T11:10:15Z",
+    "metadata_refreshed_at": "2026-10-25T11:39:57Z",
     "signals": [
       "gh-actions",
       "make",

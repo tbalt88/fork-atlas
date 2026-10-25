@@ -15,10 +15,10 @@
     "full_name": "rohitg00/agentmemory",
     "url": "https://github.com/rohitg00/agentmemory",
     "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-    "stars": 29845,
-    "forks": 2637,
-    "watchers": 85,
-    "open_issues": 570,
+    "stars": 29877,
+    "forks": 2639,
+    "watchers": 81,
+    "open_issues": 566,
     "language": "TypeScript",
     "topics": [
       "agentmemory",
@@ -33,19 +33,22 @@
       "harness",
       "hermes",
       "memory",
-      "openclaw"
+      "omp",
+      "openclaw",
+      "opencode",
+      "pi"
     ],
     "license": "Apache-2.0",
     "homepage": "https://agent-memory.dev",
     "default_branch": "main",
     "created_at": "2026-02-25T07:32:52Z",
-    "pushed_at": "2026-10-23T17:56:55Z",
+    "pushed_at": "2026-10-25T11:11:55Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:38Z",
-    "metadata_refreshed_at": "2026-10-24T11:10:36Z",
+    "metadata_refreshed_at": "2026-10-25T11:40:17Z",
     "signals": [
       "gh-actions"
     ],

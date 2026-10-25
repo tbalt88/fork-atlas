@@ -17,8 +17,8 @@
     "description": "StenographAI is the secure privacy-first AI notepad & notetaker for confidential conversations in government & defence sectors. On Windows, Linux & MacOS.",
     "stars": 1348,
     "forks": 181,
-    "watchers": 5,
-    "open_issues": 49,
+    "watchers": 4,
+    "open_issues": 50,
     "language": "Python",
     "topics": [
       "ai",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:50Z",
-    "metadata_refreshed_at": "2026-10-24T11:11:17Z",
+    "metadata_refreshed_at": "2026-10-25T11:40:56Z",
     "signals": [
       "claude-md",
       "gh-actions",

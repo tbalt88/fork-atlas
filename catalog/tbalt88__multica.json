@@ -15,10 +15,10 @@
     "full_name": "multica-ai/multica",
     "url": "https://github.com/multica-ai/multica",
     "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
-    "stars": 53696,
-    "forks": 7041,
-    "watchers": 181,
-    "open_issues": 1861,
+    "stars": 53750,
+    "forks": 7054,
+    "watchers": 176,
+    "open_issues": 1880,
     "language": "Go",
     "topics": [],
     "license": "NOASSERTION",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:48Z",
-    "metadata_refreshed_at": "2026-10-24T11:10:00Z",
+    "metadata_refreshed_at": "2026-10-25T11:39:42Z",
     "signals": [
       "claude-md",
       "claude-skill",

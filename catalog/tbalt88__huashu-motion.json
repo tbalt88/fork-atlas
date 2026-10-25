@@ -1,0 +1,47 @@
+{
+  "fork": {
+    "full_name": "tbalt88/huashu-motion",
+    "url": "https://github.com/tbalt88/huashu-motion",
+    "created_at": "2026-10-25T00:53:11Z",
+    "default_branch": "main",
+    "pushed_at": "2026-10-22T12:19:37Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "alchaincyf/huashu-motion",
+    "url": "https://github.com/alchaincyf/huashu-motion",
+    "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+    "stars": 1625,
+    "forks": 159,
+    "watchers": 6,
+    "open_issues": 3,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "animation",
+      "claude-code",
+      "codex",
+      "gsap",
+      "launch-video",
+      "motion-graphics",
+      "skills"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/alchaincyf/huashu-motion",
+    "default_branch": "main",
+    "created_at": "2026-10-18T12:19:27Z",
+    "pushed_at": "2026-10-22T12:19:37Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-25T11:39:15Z",
+    "metadata_refreshed_at": "2026-10-25T11:39:15Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

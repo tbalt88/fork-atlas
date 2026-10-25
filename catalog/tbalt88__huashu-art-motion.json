@@ -1,0 +1,38 @@
+{
+  "fork": {
+    "full_name": "tbalt88/huashu-art-motion",
+    "url": "https://github.com/tbalt88/huashu-art-motion",
+    "created_at": "2026-10-25T00:53:51Z",
+    "default_branch": "main",
+    "pushed_at": "2026-10-16T17:03:31Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "alchaincyf/huashu-art-motion",
+    "url": "https://github.com/alchaincyf/huashu-art-motion",
+    "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+    "stars": 5149,
+    "forks": 541,
+    "watchers": 7,
+    "open_issues": 7,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2026-10-06T04:49:37Z",
+    "pushed_at": "2026-10-16T17:03:31Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-25T11:39:14Z",
+    "metadata_refreshed_at": "2026-10-25T11:39:14Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

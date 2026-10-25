@@ -15,9 +15,9 @@
     "full_name": "freecodexyz/free-code",
     "url": "https://github.com/freecodexyz/free-code",
     "description": "The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.",
-    "stars": 8776,
-    "forks": 2037,
-    "watchers": 100,
+    "stars": 8780,
+    "forks": 2036,
+    "watchers": 99,
     "open_issues": 23,
     "language": "TypeScript",
     "topics": [],
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:52Z",
-    "metadata_refreshed_at": "2026-10-24T11:10:44Z",
+    "metadata_refreshed_at": "2026-10-25T11:40:24Z",
     "signals": [
       "claude-md",
       "gh-actions",
