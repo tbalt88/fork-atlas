@@ -15,8 +15,8 @@
     "full_name": "pamelafox/github-copilot-mcp-tutorial",
     "url": "https://github.com/pamelafox/github-copilot-mcp-tutorial",
     "description": "2 hour MCP tutorial focusing on GitHub Copilot",
-    "stars": 42,
-    "forks": 19,
+    "stars": 43,
+    "forks": 20,
     "watchers": 0,
     "open_issues": 15,
     "language": "Python",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:20Z",
-    "metadata_refreshed_at": "2026-10-17T10:51:53Z",
+    "metadata_refreshed_at": "2026-10-26T13:12:51Z",
     "signals": [
       "mcp",
       "python"

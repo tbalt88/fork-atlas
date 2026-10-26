@@ -1,0 +1,49 @@
+{
+  "fork": {
+    "full_name": "tbalt88/price-monitoring-apis",
+    "url": "https://github.com/tbalt88/price-monitoring-apis",
+    "created_at": "2026-10-25T19:06:56Z",
+    "default_branch": "main",
+    "pushed_at": "2026-10-20T04:13:25Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "cporter202/price-monitoring-apis",
+    "url": "https://github.com/cporter202/price-monitoring-apis",
+    "description": "A powerhouse collection of 262 price monitoring APIs: track prices, catch deal drops, find arbitrage gaps, and watch competitors. Never overpay again.",
+    "stars": 15,
+    "forks": 4,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "topics": [
+      "apify",
+      "apis",
+      "arbitrage",
+      "competitor-analysis",
+      "deal-alerts",
+      "ecommerce",
+      "flipping",
+      "price-monitoring",
+      "price-tracking",
+      "web-scraping"
+    ],
+    "license": "MIT",
+    "homepage": "https://apify.com?fpr=p2hrc6",
+    "default_branch": "main",
+    "created_at": "2026-10-08T01:45:43Z",
+    "pushed_at": "2026-10-20T04:13:25Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-26T13:11:47Z",
+    "metadata_refreshed_at": "2026-10-26T13:11:47Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

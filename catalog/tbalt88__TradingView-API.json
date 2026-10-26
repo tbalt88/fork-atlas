@@ -12,8 +12,8 @@
     "full_name": "Mathieu2301/TradingView-API",
     "url": "https://github.com/Mathieu2301/TradingView-API",
     "description": "📈 Get real-time stocks from TradingView",
-    "stars": 5736,
-    "forks": 1006,
+    "stars": 5757,
+    "forks": 1013,
     "watchers": 74,
     "open_issues": 77,
     "language": "TypeScript",
@@ -46,7 +46,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-03T11:44:35Z",
-    "metadata_refreshed_at": "2026-10-25T11:39:22Z",
+    "metadata_refreshed_at": "2026-10-26T13:11:58Z",
     "actions_checked_at": null,
     "signals": [
       "gh-actions",

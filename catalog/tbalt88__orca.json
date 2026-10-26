@@ -15,10 +15,10 @@
     "full_name": "stablyai/orca",
     "url": "https://github.com/stablyai/orca",
     "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-    "stars": 105307,
-    "forks": 6653,
-    "watchers": 142,
-    "open_issues": 8553,
+    "stars": 106563,
+    "forks": 6726,
+    "watchers": 145,
+    "open_issues": 8348,
     "language": "TypeScript",
     "topics": [
       "ade",
@@ -46,13 +46,13 @@
     "homepage": "https://orca.dev",
     "default_branch": "main",
     "created_at": "2026-03-17T03:28:57Z",
-    "pushed_at": "2026-10-25T11:36:50Z",
+    "pushed_at": "2026-10-26T13:12:12Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:49Z",
-    "metadata_refreshed_at": "2026-10-25T11:39:43Z",
+    "metadata_refreshed_at": "2026-10-26T13:12:24Z",
     "signals": [
       "claude-md",
       "docker",

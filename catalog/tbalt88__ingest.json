@@ -15,7 +15,7 @@
     "full_name": "sammcj/ingest",
     "url": "https://github.com/sammcj/ingest",
     "description": "Parse files (e.g. code repos) and websites to clipboard or a file for ingestions by AI / LLMs",
-    "stars": 389,
+    "stars": 388,
     "forks": 30,
     "watchers": 5,
     "open_issues": 2,
@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:54Z",
-    "metadata_refreshed_at": "2026-10-20T11:48:24Z",
+    "metadata_refreshed_at": "2026-10-26T13:13:55Z",
     "signals": [
       "gh-actions",
       "go",

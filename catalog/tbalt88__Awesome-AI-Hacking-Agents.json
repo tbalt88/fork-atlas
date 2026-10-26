@@ -16,7 +16,7 @@
     "url": "https://github.com/EvanThomasLuke/Awesome-AI-Hacking-Agents",
     "description": "List of AI Hacking Agents",
     "stars": 721,
-    "forks": 114,
+    "forks": 115,
     "watchers": 15,
     "open_issues": 7,
     "language": null,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:26Z",
-    "metadata_refreshed_at": "2026-10-25T11:40:09Z",
+    "metadata_refreshed_at": "2026-10-26T13:12:56Z",
     "signals": [],
     "languages": {},
     "inputs_prepared_at": "2026-08-18T02:15:23Z",

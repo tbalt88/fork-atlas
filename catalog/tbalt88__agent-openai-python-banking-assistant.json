@@ -15,7 +15,7 @@
     "full_name": "Azure-Samples/agent-openai-python-banking-assistant",
     "url": "https://github.com/Azure-Samples/agent-openai-python-banking-assistant",
     "description": "Multi-agent banking assistant with Python and Microsoft Agent Framework",
-    "stars": 44,
+    "stars": 45,
     "forks": 48,
     "watchers": 0,
     "open_issues": 39,
@@ -34,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:04Z",
-    "metadata_refreshed_at": "2026-10-12T15:36:56Z",
+    "metadata_refreshed_at": "2026-10-26T13:13:20Z",
     "signals": [
       "docker",
       "gh-actions",

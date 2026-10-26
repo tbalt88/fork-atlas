@@ -12,9 +12,9 @@
     "full_name": "666ghj/MiroFish",
     "url": "https://github.com/666ghj/MiroFish",
     "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
-    "stars": 81766,
-    "forks": 12382,
-    "watchers": 475,
+    "stars": 82027,
+    "forks": 12409,
+    "watchers": 479,
     "open_issues": 202,
     "language": "Python",
     "topics": [
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-22T11:59:39Z",
-    "metadata_refreshed_at": "2026-10-25T11:39:17Z",
+    "metadata_refreshed_at": "2026-10-26T13:11:51Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}
