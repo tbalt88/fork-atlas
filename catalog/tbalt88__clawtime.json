@@ -15,7 +15,7 @@
     "full_name": "youngkent/clawtime",
     "url": "https://github.com/youngkent/clawtime",
     "description": "An engaging 1-on-1 chat interface between you and your AI agent.",
-    "stars": 68,
+    "stars": 69,
     "forks": 16,
     "watchers": 2,
     "open_issues": 0,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:10Z",
-    "metadata_refreshed_at": "2026-10-24T11:10:52Z",
+    "metadata_refreshed_at": "2026-10-27T12:21:35Z",
     "signals": [
       "claude-skill",
       "node"

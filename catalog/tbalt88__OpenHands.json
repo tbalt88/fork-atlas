@@ -12,10 +12,10 @@
     "full_name": "OpenHands/OpenHands",
     "url": "https://github.com/OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 91891,
-    "forks": 12206,
-    "watchers": 495,
-    "open_issues": 1121,
+    "stars": 91987,
+    "forks": 12222,
+    "watchers": 496,
+    "open_issues": 1113,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -32,13 +32,13 @@
     "homepage": "https://openhands.dev",
     "default_branch": "main",
     "created_at": "2024-03-13T03:33:31Z",
-    "pushed_at": "2026-10-26T13:08:59Z",
+    "pushed_at": "2026-10-27T12:18:47Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-29T12:59:38Z",
-    "metadata_refreshed_at": "2026-10-26T13:11:59Z",
+    "metadata_refreshed_at": "2026-10-27T12:20:01Z",
     "actions_checked_at": null,
     "signals": [
       "claude-skill"

@@ -1,0 +1,52 @@
+{
+  "fork": {
+    "full_name": "tbalt88/airllm",
+    "url": "https://github.com/tbalt88/airllm",
+    "created_at": "2026-10-27T02:31:39Z",
+    "default_branch": "main",
+    "pushed_at": "2026-10-26T06:26:03Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "lyogavin/airllm",
+    "url": "https://github.com/lyogavin/airllm",
+    "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+    "stars": 40919,
+    "forks": 4177,
+    "watchers": 318,
+    "open_issues": 150,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "chinese-llm",
+      "chinese-nlp",
+      "finetune",
+      "generative-ai",
+      "instruct-gpt",
+      "instruction-set",
+      "llama",
+      "llm",
+      "lora",
+      "open-models",
+      "open-source",
+      "open-source-models",
+      "qlora"
+    ],
+    "license": "Apache-2.0",
+    "homepage": null,
+    "default_branch": "main",
+    "created_at": "2023-06-12T16:28:41Z",
+    "pushed_at": "2026-10-27T06:21:04Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-27T12:19:47Z",
+    "metadata_refreshed_at": "2026-10-27T12:19:47Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}
