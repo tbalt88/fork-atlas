@@ -15,10 +15,10 @@
     "full_name": "usememos/memos",
     "url": "https://github.com/usememos/memos",
     "description": "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.",
-    "stars": 64110,
-    "forks": 4904,
+    "stars": 64140,
+    "forks": 4907,
     "watchers": 187,
-    "open_issues": 64,
+    "open_issues": 65,
     "language": "Go",
     "topics": [
       "docker",
@@ -40,13 +40,13 @@
     "homepage": "https://usememos.com",
     "default_branch": "main",
     "created_at": "2021-12-08T15:30:18Z",
-    "pushed_at": "2026-10-27T00:20:17Z",
+    "pushed_at": "2026-10-28T12:56:38Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:33Z",
-    "metadata_refreshed_at": "2026-10-27T12:21:10Z",
+    "metadata_refreshed_at": "2026-10-28T13:05:06Z",
     "signals": [
       "gh-actions",
       "go"

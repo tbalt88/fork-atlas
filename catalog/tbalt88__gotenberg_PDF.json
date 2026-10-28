@@ -1,0 +1,59 @@
+{
+  "fork": {
+    "full_name": "tbalt88/gotenberg_PDF",
+    "url": "https://github.com/tbalt88/gotenberg_PDF",
+    "created_at": "2026-10-27T16:19:27Z",
+    "default_branch": "main",
+    "pushed_at": "2026-10-27T07:55:19Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "gotenberg/gotenberg",
+    "url": "https://github.com/gotenberg/gotenberg",
+    "description": "A developer-friendly API for converting many document formats into PDF files, and more!",
+    "stars": 13465,
+    "forks": 892,
+    "watchers": 76,
+    "open_issues": 29,
+    "language": "Go",
+    "topics": [
+      "api",
+      "chrome",
+      "chromium",
+      "convert-to-pdf",
+      "docker",
+      "docx-to-pdf",
+      "excel",
+      "exiftool",
+      "html-to-pdf",
+      "libreoffice",
+      "openoffice",
+      "pdf",
+      "pdf-converter",
+      "pdftk",
+      "puppeteer",
+      "qpdf",
+      "screenshots",
+      "unoconv",
+      "wkhtmltopdf",
+      "word"
+    ],
+    "license": "MIT",
+    "homepage": "https://gotenberg.dev",
+    "default_branch": "main",
+    "created_at": "2018-03-23T14:05:59Z",
+    "pushed_at": "2026-10-27T18:56:50Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-28T13:03:13Z",
+    "metadata_refreshed_at": "2026-10-28T13:03:13Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

@@ -16,8 +16,8 @@
     "full_name": "diffusionstudio/editor",
     "url": "https://github.com/diffusionstudio/editor",
     "description": "The VS Code of video editing, built for agents.",
-    "stars": 3413,
-    "forks": 317,
+    "stars": 3423,
+    "forks": 316,
     "watchers": 13,
     "open_issues": 42,
     "language": "TypeScript",
@@ -32,7 +32,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:33Z",
-    "metadata_refreshed_at": "2026-10-27T12:20:13Z",
+    "metadata_refreshed_at": "2026-10-28T13:03:48Z",
     "actions_checked_at": "2026-09-08T20:27:26Z",
     "signals": [
       "gh-actions",

@@ -15,10 +15,10 @@
     "full_name": "mohitagw15856/pm-claude-skills",
     "url": "https://github.com/mohitagw15856/pm-claude-skills",
     "description": "1,310 professional Agent Skills for Claude, Claude Duet, ChatGPT, Gemini, Cursor & Codex: PRDs, postmortems, leases, medical bills, payroll checks, morning briefs. 21 skills built for always-on agents like Claude Duet. Plain markdown, MIT, in Anthropic's plugin directory. Free in-browser or npx pm-claude-skills add.",
-    "stars": 1485,
-    "forks": 261,
+    "stars": 1489,
+    "forks": 263,
     "watchers": 9,
-    "open_issues": 6,
+    "open_issues": 8,
     "language": "HTML",
     "topics": [
       "agent-skills",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:42Z",
-    "metadata_refreshed_at": "2026-10-27T12:21:17Z",
+    "metadata_refreshed_at": "2026-10-28T13:05:17Z",
     "signals": [
       "docker",
       "gh-actions"

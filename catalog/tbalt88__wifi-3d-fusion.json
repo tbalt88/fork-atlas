@@ -18,7 +18,7 @@
     "stars": 1757,
     "forks": 193,
     "watchers": 15,
-    "open_issues": 4,
+    "open_issues": 5,
     "language": "Python",
     "topics": [],
     "license": "NOASSERTION",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:37Z",
-    "metadata_refreshed_at": "2026-10-26T13:13:40Z",
+    "metadata_refreshed_at": "2026-10-28T13:06:11Z",
     "signals": [
       "docker",
       "make",

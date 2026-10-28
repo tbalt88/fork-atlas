@@ -14,7 +14,7 @@
   "upstream": {
     "full_name": "thisisnsh/aithing",
     "url": "https://github.com/thisisnsh/aithing",
-    "description": "AI, Agents, and Automation",
+    "description": "Privacy-first desktop AI that runs agents, automations and MCP servers locally and in parallel, with your own model keys. Being rebuilt for Mac and Windows.",
     "stars": 91,
     "forks": 14,
     "watchers": 2,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:13Z",
-    "metadata_refreshed_at": "2026-10-27T12:21:38Z",
+    "metadata_refreshed_at": "2026-10-28T13:05:45Z",
     "signals": [
       "node",
       "rust"
