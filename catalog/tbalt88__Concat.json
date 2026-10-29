@@ -1,0 +1,54 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Concat",
+    "url": "https://github.com/tbalt88/Concat",
+    "created_at": "2026-10-28T16:11:00Z",
+    "default_branch": "main",
+    "pushed_at": "2026-10-28T10:25:43Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "jub0t/Concat",
+    "url": "https://github.com/jub0t/Concat",
+    "description": "The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.",
+    "stars": 12535,
+    "forks": 1542,
+    "watchers": 85,
+    "open_issues": 239,
+    "language": "Rust",
+    "topics": [
+      "ffmpeg",
+      "free-video-editor",
+      "model-context-protocol",
+      "non-linear-editor",
+      "offline-first",
+      "open-source-video-editor",
+      "self-hosted",
+      "video-editing",
+      "video-editing-automation",
+      "video-editing-software",
+      "video-editing-tools",
+      "video-editor",
+      "voice-cloning",
+      "youtube-automation",
+      "youtube-shorts"
+    ],
+    "license": "AGPL-3.0",
+    "homepage": "https://concat.standalones.org",
+    "default_branch": "main",
+    "created_at": "2026-08-25T18:34:47Z",
+    "pushed_at": "2026-10-28T10:25:43Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-10-29T13:10:31Z",
+    "metadata_refreshed_at": "2026-10-29T13:10:31Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

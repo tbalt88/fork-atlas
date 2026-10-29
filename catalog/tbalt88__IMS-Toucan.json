@@ -15,7 +15,7 @@
     "full_name": "DigitalPhonetics/IMS-Toucan",
     "url": "https://github.com/DigitalPhonetics/IMS-Toucan",
     "description": "Controllable and fast Text-to-Speech for over 7000 languages!",
-    "stars": 2211,
+    "stars": 2212,
     "forks": 318,
     "watchers": 25,
     "open_issues": 4,
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:12Z",
-    "metadata_refreshed_at": "2026-10-28T13:06:50Z",
+    "metadata_refreshed_at": "2026-10-29T13:13:29Z",
     "signals": [],
     "languages": {
       "Python": 1204968
