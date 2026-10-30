@@ -15,10 +15,10 @@
     "full_name": "ai-job-search-dev/ai-job-search",
     "url": "https://github.com/ai-job-search-dev/ai-job-search",
     "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-    "stars": 67366,
-    "forks": 21361,
-    "watchers": 224,
-    "open_issues": 68,
+    "stars": 67657,
+    "forks": 21482,
+    "watchers": 225,
+    "open_issues": 79,
     "language": "Python",
     "topics": [
       "ai",
@@ -44,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:26Z",
-    "metadata_refreshed_at": "2026-10-29T13:11:59Z",
+    "metadata_refreshed_at": "2026-10-30T13:04:24Z",
     "signals": [
       "claude-skill",
       "node",

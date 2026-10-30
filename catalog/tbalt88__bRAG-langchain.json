@@ -15,7 +15,7 @@
     "full_name": "bragai/bRAG-langchain",
     "url": "https://github.com/bragai/bRAG-langchain",
     "description": "Everything you need to know to build your own RAG application",
-    "stars": 4188,
+    "stars": 4190,
     "forks": 505,
     "watchers": 40,
     "open_issues": 5,
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:24Z",
-    "metadata_refreshed_at": "2026-10-29T13:13:39Z",
+    "metadata_refreshed_at": "2026-10-30T13:05:42Z",
     "signals": [
       "python"
     ],

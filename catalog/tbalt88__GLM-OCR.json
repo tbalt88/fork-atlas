@@ -15,8 +15,8 @@
     "full_name": "zai-org/GLM-OCR",
     "url": "https://github.com/zai-org/GLM-OCR",
     "description": "GLM-OCR: Accurate ×  Fast × Comprehensive",
-    "stars": 7551,
-    "forks": 674,
+    "stars": 7559,
+    "forks": 675,
     "watchers": 28,
     "open_issues": 67,
     "language": "Python",
@@ -35,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:57Z",
-    "metadata_refreshed_at": "2026-10-29T13:12:23Z",
+    "metadata_refreshed_at": "2026-10-30T13:04:42Z",
     "signals": [
       "docker",
       "gh-actions",

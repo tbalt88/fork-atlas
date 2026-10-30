@@ -15,9 +15,9 @@
     "full_name": "Free-TV/IPTV",
     "url": "https://github.com/Free-TV/IPTV",
     "description": "M3U Playlist for free TV channels",
-    "stars": 21538,
-    "forks": 3112,
-    "watchers": 852,
+    "stars": 21585,
+    "forks": 3118,
+    "watchers": 856,
     "open_issues": 8,
     "language": "Python",
     "topics": [
@@ -34,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:32Z",
-    "metadata_refreshed_at": "2026-10-29T13:12:51Z",
+    "metadata_refreshed_at": "2026-10-30T13:05:07Z",
     "signals": [
       "gh-actions"
     ],

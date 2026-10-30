@@ -15,34 +15,31 @@
   "upstream": {
     "full_name": "CherryHQ/cherry-studio",
     "url": "https://github.com/CherryHQ/cherry-studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 53072,
-    "forks": 5141,
+    "description": "Your AI workspace for models, agents, and productivity.",
+    "stars": 53102,
+    "forks": 5144,
     "watchers": 206,
-    "open_issues": 2254,
+    "open_issues": 2298,
     "language": "TypeScript",
     "topics": [
-      "agent-skills",
-      "ai-agent",
-      "claude-code",
-      "codex",
-      "deepseek",
-      "hermes-agent",
-      "open-code-review",
-      "skills",
-      "vibe-coding"
+      "agent-workspace",
+      "agentic-workspace",
+      "ai-agents",
+      "ai-models",
+      "ai-productivity",
+      "ai-workspace"
     ],
     "license": "AGPL-3.0",
     "homepage": "https://cherryai.com",
     "default_branch": "main",
     "created_at": "2024-05-24T01:56:26Z",
-    "pushed_at": "2026-10-29T13:10:19Z",
+    "pushed_at": "2026-10-30T12:43:11Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:27Z",
-    "metadata_refreshed_at": "2026-10-29T13:11:08Z",
+    "metadata_refreshed_at": "2026-10-30T13:03:45Z",
     "actions_checked_at": "2026-09-03T17:26:27Z",
     "signals": [
       "claude-skill"

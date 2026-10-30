@@ -18,7 +18,7 @@
     "stars": 1676,
     "forks": 186,
     "watchers": 4,
-    "open_issues": 27,
+    "open_issues": 28,
     "language": "Shell",
     "topics": [
       "agentic-ai",
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:00Z",
-    "metadata_refreshed_at": "2026-10-29T13:13:20Z",
+    "metadata_refreshed_at": "2026-10-30T13:05:27Z",
     "signals": [
       "gh-actions"
     ],

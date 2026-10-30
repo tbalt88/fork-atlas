@@ -16,8 +16,8 @@
     "full_name": "jamiepine/voicebox",
     "url": "https://github.com/jamiepine/voicebox",
     "description": "The open-source AI voice studio. Clone, dictate, create.",
-    "stars": 58970,
-    "forks": 7405,
+    "stars": 59046,
+    "forks": 7413,
     "watchers": 262,
     "open_issues": 526,
     "language": "Python",
@@ -41,7 +41,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:10Z",
-    "metadata_refreshed_at": "2026-10-29T13:11:01Z",
+    "metadata_refreshed_at": "2026-10-30T13:03:39Z",
     "actions_checked_at": "2026-09-03T17:26:10Z",
     "signals": [
       "claude-skill",

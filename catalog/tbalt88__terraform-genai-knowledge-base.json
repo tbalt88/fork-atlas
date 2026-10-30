@@ -16,7 +16,7 @@
     "url": "https://github.com/GoogleCloudPlatform/terraform-genai-knowledge-base",
     "description": "Fine tune an LLM model to answer questions from your documents.",
     "stars": 178,
-    "forks": 92,
+    "forks": 93,
     "watchers": 34,
     "open_issues": 40,
     "language": "HCL",
@@ -33,7 +33,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:44Z",
-    "metadata_refreshed_at": "2026-10-29T13:13:04Z",
+    "metadata_refreshed_at": "2026-10-30T13:05:14Z",
     "signals": [
       "gh-actions",
       "go",

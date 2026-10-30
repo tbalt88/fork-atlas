@@ -14,11 +14,11 @@
   "upstream": {
     "full_name": "career-ops-hq/career-ops",
     "url": "https://github.com/career-ops-hq/career-ops",
-    "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
-    "stars": 78554,
-    "forks": 14497,
-    "watchers": 254,
-    "open_issues": 474,
+    "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
+    "stars": 78802,
+    "forks": 14542,
+    "watchers": 253,
+    "open_issues": 534,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -28,6 +28,8 @@
       "career",
       "career-ops",
       "claude-code",
+      "claude-code-plugin",
+      "claude-plugin",
       "cover-letter",
       "cv",
       "good-first-issue",
@@ -36,9 +38,7 @@
       "job-application",
       "job-hunting",
       "job-search",
-      "job-search-tools",
       "latex",
-      "local-first",
       "open-source",
       "resume"
     ],
@@ -46,13 +46,13 @@
     "homepage": "https://career-ops.org",
     "default_branch": "main",
     "created_at": "2026-04-04T18:21:18Z",
-    "pushed_at": "2026-10-29T13:11:29Z",
+    "pushed_at": "2026-10-30T12:47:28Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:40Z",
-    "metadata_refreshed_at": "2026-10-29T13:12:12Z",
+    "metadata_refreshed_at": "2026-10-30T13:04:34Z",
     "signals": [
       "claude-md",
       "claude-skill",

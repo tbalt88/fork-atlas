@@ -15,7 +15,7 @@
     "full_name": "shinpr/claude-code-workflows",
     "url": "https://github.com/shinpr/claude-code-workflows",
     "description": "Development workflows for Claude Code that keep broad exploration focused on the outcome you approved.",
-    "stars": 706,
+    "stars": 708,
     "forks": 107,
     "watchers": 8,
     "open_issues": 0,
@@ -47,7 +47,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:16Z",
-    "metadata_refreshed_at": "2026-10-29T13:11:48Z",
+    "metadata_refreshed_at": "2026-10-30T13:04:15Z",
     "signals": [
       "claude-skill",
       "gh-actions"
