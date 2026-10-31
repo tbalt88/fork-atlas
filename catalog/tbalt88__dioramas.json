@@ -12,8 +12,8 @@
     "full_name": "blendi-remade/dioramas",
     "url": "https://github.com/blendi-remade/dioramas",
     "description": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
-    "stars": 821,
-    "forks": 82,
+    "stars": 840,
+    "forks": 83,
     "watchers": 4,
     "open_issues": 0,
     "language": "JavaScript",
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-29T13:10:30Z",
-    "metadata_refreshed_at": "2026-10-30T13:03:15Z",
+    "metadata_refreshed_at": "2026-10-31T12:41:15Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

@@ -18,7 +18,7 @@
     "stars": 102,
     "forks": 30,
     "watchers": 5,
-    "open_issues": 8,
+    "open_issues": 9,
     "language": "TypeScript",
     "topics": [
       "ai-agent",
@@ -46,13 +46,13 @@
     "homepage": "https://www.npmjs.com/package/@stabgan/openrouter-mcp-multimodal",
     "default_branch": "main",
     "created_at": "2025-03-26T16:49:03Z",
-    "pushed_at": "2026-10-30T09:59:53Z",
+    "pushed_at": "2026-10-31T09:38:21Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:10Z",
-    "metadata_refreshed_at": "2026-10-30T13:04:08Z",
+    "metadata_refreshed_at": "2026-10-31T12:42:18Z",
     "signals": [
       "docker",
       "gh-actions",

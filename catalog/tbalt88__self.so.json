@@ -15,8 +15,8 @@
     "full_name": "Nutlope/self.so",
     "url": "https://github.com/Nutlope/self.so",
     "description": "LinkedIn -> personal site generator",
-    "stars": 3102,
-    "forks": 324,
+    "stars": 3103,
+    "forks": 325,
     "watchers": 14,
     "open_issues": 13,
     "language": "TypeScript",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:40Z",
-    "metadata_refreshed_at": "2026-10-30T13:05:12Z",
+    "metadata_refreshed_at": "2026-10-31T12:43:26Z",
     "signals": [
       "gh-actions"
     ],

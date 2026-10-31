@@ -15,10 +15,10 @@
     "full_name": "TEN-framework/ten-framework",
     "url": "https://github.com/TEN-framework/ten-framework",
     "description": " Open-source framework for conversational voice AI agents",
-    "stars": 11215,
-    "forks": 1368,
+    "stars": 11213,
+    "forks": 1369,
     "watchers": 67,
-    "open_issues": 254,
+    "open_issues": 255,
     "language": "Python",
     "topics": [
       "ai",
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:29Z",
-    "metadata_refreshed_at": "2026-10-30T13:05:03Z",
+    "metadata_refreshed_at": "2026-10-31T12:43:19Z",
     "signals": [
       "claude-md",
       "docker",

@@ -15,10 +15,10 @@
     "full_name": "github/awesome-copilot",
     "url": "https://github.com/github/awesome-copilot",
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-    "stars": 40593,
-    "forks": 5241,
+    "stars": 40619,
+    "forks": 5250,
     "watchers": 345,
-    "open_issues": 76,
+    "open_issues": 90,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:01Z",
-    "metadata_refreshed_at": "2026-10-30T13:05:28Z",
+    "metadata_refreshed_at": "2026-10-31T12:43:40Z",
     "signals": [
       "claude-skill",
       "gh-actions"
