@@ -16,9 +16,9 @@
     "url": "https://github.com/readur/readur",
     "description": "Quick, painless, intuitive OCR platform written in Rust and TypeScript. Modern UI with modern API, with an emphasis on intuitive user experience.",
     "stars": 812,
-    "forks": 80,
+    "forks": 81,
     "watchers": 3,
-    "open_issues": 64,
+    "open_issues": 65,
     "language": "Rust",
     "topics": [
       "api",
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:35Z",
-    "metadata_refreshed_at": "2026-10-31T12:43:23Z",
+    "metadata_refreshed_at": "2026-11-01T13:33:32Z",
     "signals": [
       "docker",
       "gh-actions",

@@ -15,7 +15,7 @@
     "full_name": "virattt/dexter",
     "url": "https://github.com/virattt/dexter",
     "description": "An autonomous agent for deep financial research",
-    "stars": 27736,
+    "stars": 27744,
     "forks": 3416,
     "watchers": 158,
     "open_issues": 106,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:19Z",
-    "metadata_refreshed_at": "2026-10-31T12:43:12Z",
+    "metadata_refreshed_at": "2026-11-01T13:33:18Z",
     "signals": [
       "gh-actions",
       "node"

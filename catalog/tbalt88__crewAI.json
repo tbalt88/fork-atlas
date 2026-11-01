@@ -15,10 +15,10 @@
     "full_name": "crewAIInc/crewAI",
     "url": "https://github.com/crewAIInc/crewAI",
     "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-    "stars": 60335,
-    "forks": 8985,
+    "stars": 60376,
+    "forks": 8992,
     "watchers": 390,
-    "open_issues": 957,
+    "open_issues": 982,
     "language": "Python",
     "topics": [
       "agents",
@@ -31,13 +31,13 @@
     "homepage": "https://crewai.com",
     "default_branch": "main",
     "created_at": "2023-10-27T03:26:59Z",
-    "pushed_at": "2026-10-30T08:57:18Z",
+    "pushed_at": "2026-11-01T11:37:18Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:16Z",
-    "metadata_refreshed_at": "2026-10-31T12:43:48Z",
+    "metadata_refreshed_at": "2026-11-01T13:34:06Z",
     "signals": [
       "gh-actions"
     ],

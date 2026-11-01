@@ -15,10 +15,10 @@
     "full_name": "sickn33/agentic-awesome-skills",
     "url": "https://github.com/sickn33/agentic-awesome-skills",
     "description": "2,884+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
-    "stars": 48884,
-    "forks": 7095,
+    "stars": 48952,
+    "forks": 7105,
     "watchers": 303,
-    "open_issues": 1,
+    "open_issues": 6,
     "language": "Python",
     "topics": [
       "agent-skills",
@@ -46,13 +46,13 @@
     "homepage": "https://aaskills.tech/",
     "default_branch": "main",
     "created_at": "2026-01-14T17:48:09Z",
-    "pushed_at": "2026-10-31T11:16:41Z",
+    "pushed_at": "2026-11-01T10:10:44Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:31Z",
-    "metadata_refreshed_at": "2026-10-31T12:43:21Z",
+    "metadata_refreshed_at": "2026-11-01T13:33:29Z",
     "signals": [
       "gh-actions",
       "node"

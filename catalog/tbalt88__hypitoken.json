@@ -12,7 +12,7 @@
     "full_name": "hypit-ai/hypitoken",
     "url": "https://github.com/hypit-ai/hypitoken",
     "description": "Multi-tenant LLM API gateway for Claude and Codex — single Go binary, USD wallet, Alipay top-up, per-token caps, status-page health, fumadocs-style /docs.",
-    "stars": 72,
+    "stars": 73,
     "forks": 17,
     "watchers": 1,
     "open_issues": 3,
@@ -41,7 +41,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-18T11:22:23Z",
-    "metadata_refreshed_at": "2026-10-31T12:41:34Z",
+    "metadata_refreshed_at": "2026-11-01T13:31:37Z",
     "actions_checked_at": null,
     "signals": [
       "claude-md",

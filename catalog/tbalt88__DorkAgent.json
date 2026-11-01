@@ -15,7 +15,7 @@
     "full_name": "yee-yore/DorkAgent",
     "url": "https://github.com/yee-yore/DorkAgent",
     "description": "🤖 LLM-powered agent for automated Google Dorking in bug hunting & pentesting.",
-    "stars": 330,
+    "stars": 331,
     "forks": 54,
     "watchers": 4,
     "open_issues": 1,
@@ -43,7 +43,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T14:00:22Z",
-    "metadata_refreshed_at": "2026-10-28T13:03:59Z",
+    "metadata_refreshed_at": "2026-11-01T13:31:55Z",
     "signals": [
       "claude-md"
     ],

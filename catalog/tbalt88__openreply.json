@@ -15,10 +15,10 @@
     "full_name": "diwenne/openreply",
     "url": "https://github.com/diwenne/openreply",
     "description": "The open-source Manychat alternative",
-    "stars": 2936,
-    "forks": 1313,
+    "stars": 2989,
+    "forks": 1331,
     "watchers": 14,
-    "open_issues": 17,
+    "open_issues": 18,
     "language": "TypeScript",
     "topics": [],
     "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:52Z",
-    "metadata_refreshed_at": "2026-10-31T12:42:00Z",
+    "metadata_refreshed_at": "2026-11-01T13:32:05Z",
     "signals": [
       "claude-md",
       "gh-actions"

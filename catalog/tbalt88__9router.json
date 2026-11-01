@@ -15,10 +15,10 @@
     "full_name": "decolua/9router",
     "url": "https://github.com/decolua/9router",
     "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-    "stars": 31737,
-    "forks": 6182,
-    "watchers": 143,
-    "open_issues": 2714,
+    "stars": 31789,
+    "forks": 6188,
+    "watchers": 142,
+    "open_issues": 2723,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:13Z",
-    "metadata_refreshed_at": "2026-10-31T12:42:22Z",
+    "metadata_refreshed_at": "2026-11-01T13:32:27Z",
     "signals": [
       "claude-md",
       "docker",

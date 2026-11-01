@@ -18,7 +18,7 @@
     "stars": 537,
     "forks": 160,
     "watchers": 0,
-    "open_issues": 51,
+    "open_issues": 53,
     "language": "Swift",
     "topics": [
       "ai-coding",
@@ -43,7 +43,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:46Z",
-    "metadata_refreshed_at": "2026-10-31T12:41:56Z",
+    "metadata_refreshed_at": "2026-11-01T13:32:00Z",
     "signals": [
       "claude-md",
       "gh-actions"

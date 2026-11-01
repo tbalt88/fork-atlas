@@ -12,10 +12,10 @@
     "full_name": "jub0t/Concat",
     "url": "https://github.com/jub0t/Concat",
     "description": "The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.",
-    "stars": 13007,
-    "forks": 1600,
-    "watchers": 87,
-    "open_issues": 253,
+    "stars": 13419,
+    "forks": 1653,
+    "watchers": 91,
+    "open_issues": 262,
     "language": "Rust",
     "topics": [
       "ffmpeg",
@@ -44,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-29T13:10:31Z",
-    "metadata_refreshed_at": "2026-10-31T12:41:16Z",
+    "metadata_refreshed_at": "2026-11-01T13:31:19Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

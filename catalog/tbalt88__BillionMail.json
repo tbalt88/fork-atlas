@@ -12,9 +12,9 @@
     "full_name": "Billionmail/BillionMail",
     "url": "https://github.com/Billionmail/BillionMail",
     "description": "BillionMail gives you open-source MailServer, NewsLetter,  Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
-    "stars": 16080,
-    "forks": 1785,
-    "watchers": 65,
+    "stars": 16135,
+    "forks": 1791,
+    "watchers": 66,
     "open_issues": 252,
     "language": "Go",
     "topics": [
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-31T12:41:12Z",
-    "metadata_refreshed_at": "2026-10-31T12:41:12Z",
+    "metadata_refreshed_at": "2026-11-01T13:31:15Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}
