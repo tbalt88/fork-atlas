@@ -16,9 +16,9 @@
     "url": "https://github.com/rupeshs/fastsdcpu",
     "description": "Fast stable diffusion on CPU and AI PC",
     "stars": 2202,
-    "forks": 222,
+    "forks": 223,
     "watchers": 29,
-    "open_issues": 67,
+    "open_issues": 68,
     "language": "Python",
     "topics": [
       "aipc",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:41Z",
-    "metadata_refreshed_at": "2026-11-01T13:33:37Z",
+    "metadata_refreshed_at": "2026-11-02T16:08:23Z",
     "signals": [
       "docker",
       "python"

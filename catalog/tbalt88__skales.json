@@ -15,10 +15,10 @@
     "full_name": "skalesapp/skales",
     "url": "https://github.com/skalesapp/skales",
     "description": "Personal AI agent harness for macOS, Windows, Linux, Android & iOS. New: Skales Scout, lasting AI agents that keep working on your desk, each optionally in its own virtual machine. Chat, coding (Skales Code), Flow, automations, computer use, browser, voice, MCP, local LLMs (Ollama). BYOK, 26 providers. No Docker, no terminal.",
-    "stars": 2223,
+    "stars": 2225,
     "forks": 297,
     "watchers": 17,
-    "open_issues": 14,
+    "open_issues": 15,
     "language": null,
     "topics": [
       "agentic-ai",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:53Z",
-    "metadata_refreshed_at": "2026-11-01T13:33:01Z",
+    "metadata_refreshed_at": "2026-11-02T16:07:48Z",
     "signals": [
       "nextjs",
       "node"

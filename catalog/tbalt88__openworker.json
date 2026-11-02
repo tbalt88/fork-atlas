@@ -1,0 +1,38 @@
+{
+  "fork": {
+    "full_name": "tbalt88/openworker",
+    "url": "https://github.com/tbalt88/openworker",
+    "created_at": "2026-11-01T17:36:37Z",
+    "default_branch": "main",
+    "pushed_at": "2026-11-01T17:04:29Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "andrewyng/openworker",
+    "url": "https://github.com/andrewyng/openworker",
+    "description": null,
+    "stars": 18866,
+    "forks": 2678,
+    "watchers": 124,
+    "open_issues": 375,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT",
+    "homepage": "http://openworker.com",
+    "default_branch": "main",
+    "created_at": "2026-07-20T01:52:32Z",
+    "pushed_at": "2026-11-02T14:32:02Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-11-02T16:06:10Z",
+    "metadata_refreshed_at": "2026-11-02T16:06:10Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

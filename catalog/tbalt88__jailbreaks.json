@@ -12,10 +12,10 @@
     "full_name": "togg53192-cmd/jailbreaks",
     "url": "https://github.com/togg53192-cmd/jailbreaks",
     "description": "LIST OF ALL MY JAILBREAKS",
-    "stars": 12583,
-    "forks": 1898,
-    "watchers": 113,
-    "open_issues": 22,
+    "stars": 13508,
+    "forks": 2034,
+    "watchers": 121,
+    "open_issues": 25,
     "language": null,
     "topics": [],
     "license": null,
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-30T13:03:13Z",
-    "metadata_refreshed_at": "2026-11-01T13:31:16Z",
+    "metadata_refreshed_at": "2026-11-02T16:06:12Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

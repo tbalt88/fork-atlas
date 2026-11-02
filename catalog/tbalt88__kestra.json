@@ -15,10 +15,10 @@
     "full_name": "kestra-io/kestra",
     "url": "https://github.com/kestra-io/kestra",
     "description": "Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-versioned, scalable to millions of executions.",
-    "stars": 30100,
-    "forks": 3494,
+    "stars": 30121,
+    "forks": 3495,
     "watchers": 169,
-    "open_issues": 827,
+    "open_issues": 780,
     "language": "Java",
     "topics": [
       "ai-agents",
@@ -46,13 +46,13 @@
     "homepage": "https://go.kestra.io/home",
     "default_branch": "develop",
     "created_at": "2019-08-24T13:56:15Z",
-    "pushed_at": "2026-10-30T23:52:02Z",
+    "pushed_at": "2026-11-02T16:06:44Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:56Z",
-    "metadata_refreshed_at": "2026-11-01T13:32:08Z",
+    "metadata_refreshed_at": "2026-11-02T16:06:59Z",
     "signals": [
       "claude-md",
       "docker",
