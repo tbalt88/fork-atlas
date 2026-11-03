@@ -15,10 +15,10 @@
     "full_name": "302ai/302_video_generator",
     "url": "https://github.com/302ai/302_video_generator",
     "description": "🎬🤖 302 AI Video Generator! 🚀✨",
-    "stars": 114,
+    "stars": 113,
     "forks": 37,
     "watchers": 5,
-    "open_issues": 3,
+    "open_issues": 2,
     "language": "TypeScript",
     "topics": [
       "302ai",
@@ -34,7 +34,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:18Z",
-    "metadata_refreshed_at": "2026-10-30T13:04:55Z",
+    "metadata_refreshed_at": "2026-11-03T14:26:55Z",
     "signals": [
       "docker",
       "nextjs",
