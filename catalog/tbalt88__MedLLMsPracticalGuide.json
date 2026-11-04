@@ -15,10 +15,10 @@
     "full_name": "AI-in-Health/MedLLMsPracticalGuide",
     "url": "https://github.com/AI-in-Health/MedLLMsPracticalGuide",
     "description": " [Nature Reviews Bioengineering🔥] Application of Large Language Models in Medicine.  A curated list of practical guide resources of Medical LLMs (Medical LLMs Tree, Tables, and Papers)",
-    "stars": 2049,
+    "stars": 2050,
     "forks": 182,
     "watchers": 77,
-    "open_issues": 1,
+    "open_issues": 2,
     "language": null,
     "topics": [
       "ai-in-medicine",
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:10Z",
-    "metadata_refreshed_at": "2026-11-03T14:27:50Z",
+    "metadata_refreshed_at": "2026-11-04T14:42:34Z",
     "signals": [],
     "languages": {},
     "inputs_prepared_at": "2026-08-18T02:17:17Z",

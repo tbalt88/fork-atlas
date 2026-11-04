@@ -15,10 +15,10 @@
     "full_name": "NousResearch/hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 260112,
-    "forks": 57310,
-    "watchers": 993,
-    "open_issues": 52532,
+    "stars": 260450,
+    "forks": 57397,
+    "watchers": 996,
+    "open_issues": 52768,
     "language": "Python",
     "topics": [
       "ai",
@@ -39,13 +39,13 @@
     "homepage": "https://hermes-agent.nousresearch.com",
     "default_branch": "main",
     "created_at": "2025-07-22T22:22:28Z",
-    "pushed_at": "2026-11-03T14:20:47Z",
+    "pushed_at": "2026-11-04T14:36:56Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:49Z",
-    "metadata_refreshed_at": "2026-11-03T14:26:31Z",
+    "metadata_refreshed_at": "2026-11-04T14:41:14Z",
     "signals": [
       "docker",
       "gh-actions"
