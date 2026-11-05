@@ -16,10 +16,10 @@
     "full_name": "NVIDIA/Personal-AI-Router",
     "url": "https://github.com/NVIDIA/Personal-AI-Router",
     "description": "Router that virtually distributes inference across connected devices in the home.",
-    "stars": 1705,
-    "forks": 290,
-    "watchers": 25,
-    "open_issues": 81,
+    "stars": 1707,
+    "forks": 293,
+    "watchers": 24,
+    "open_issues": 87,
     "language": "Go",
     "topics": [],
     "license": "Apache-2.0",
@@ -32,7 +32,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:30Z",
-    "metadata_refreshed_at": "2026-11-04T14:39:38Z",
+    "metadata_refreshed_at": "2026-11-05T14:44:57Z",
     "actions_checked_at": "2026-09-08T20:27:23Z",
     "signals": [
       "make",
