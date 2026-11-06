@@ -15,10 +15,10 @@
     "full_name": "guillaumemeyer/watermarks-remover",
     "url": "https://github.com/guillaumemeyer/watermarks-remover",
     "description": "A privacy-first app that strips AI watermarks from content you own.",
-    "stars": 26370,
-    "forks": 3011,
+    "stars": 26478,
+    "forks": 3024,
     "watchers": 116,
-    "open_issues": 45,
+    "open_issues": 46,
     "language": "Python",
     "topics": [
       "agent-skill",
@@ -47,7 +47,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:53Z",
-    "metadata_refreshed_at": "2026-11-05T14:45:24Z",
+    "metadata_refreshed_at": "2026-11-06T14:23:03Z",
     "signals": [
       "claude-skill",
       "docker",

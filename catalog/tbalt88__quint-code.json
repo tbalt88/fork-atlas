@@ -16,7 +16,7 @@
     "url": "https://github.com/m0n0x41d/haft",
     "description": "Engineering decisions engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement. For Claude Code, Cursor, Gemini CLI, Codex and more.",
     "stars": 1395,
-    "forks": 102,
+    "forks": 103,
     "watchers": 15,
     "open_issues": 14,
     "language": "Go",
@@ -49,7 +49,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:06Z",
-    "metadata_refreshed_at": "2026-11-05T14:47:45Z",
+    "metadata_refreshed_at": "2026-11-06T14:25:02Z",
     "signals": [
       "claude-md",
       "gh-actions"

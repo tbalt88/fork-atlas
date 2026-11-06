@@ -15,8 +15,8 @@
     "full_name": "freqtrade/freqtrade",
     "url": "https://github.com/freqtrade/freqtrade",
     "description": "Free, open source crypto trading bot",
-    "stars": 56480,
-    "forks": 11672,
+    "stars": 56526,
+    "forks": 11684,
     "watchers": 778,
     "open_issues": 24,
     "language": "Python",
@@ -41,7 +41,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:00Z",
-    "metadata_refreshed_at": "2026-11-05T14:45:32Z",
+    "metadata_refreshed_at": "2026-11-06T14:23:09Z",
     "signals": [
       "docker",
       "gh-actions"
