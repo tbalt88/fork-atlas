@@ -12,10 +12,10 @@
     "full_name": "Human-Agent-Society/reef",
     "url": "https://github.com/Human-Agent-Society/reef",
     "description": "Infrastructure for continually self‑improving agents",
-    "stars": 7802,
-    "forks": 730,
+    "stars": 7781,
+    "forks": 731,
     "watchers": 516,
-    "open_issues": 153,
+    "open_issues": 157,
     "language": "Python",
     "topics": [
       "agent-infrastructure",
@@ -31,13 +31,13 @@
     "homepage": "https://reefinfra.ai",
     "default_branch": "main",
     "created_at": "2026-08-31T01:39:18Z",
-    "pushed_at": "2026-11-06T14:15:10Z",
+    "pushed_at": "2026-11-07T13:11:14Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-10-19T13:27:18Z",
-    "metadata_refreshed_at": "2026-11-06T14:22:25Z",
+    "metadata_refreshed_at": "2026-11-07T13:11:27Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}
