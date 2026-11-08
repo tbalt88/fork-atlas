@@ -15,7 +15,7 @@
     "full_name": "0x0funky/audioghost-ai",
     "url": "https://github.com/0x0funky/audioghost-ai",
     "description": "Extract any sound with text prompts. Memory-optimized SAM-Audio with modern UI.",
-    "stars": 468,
+    "stars": 469,
     "forks": 54,
     "watchers": 2,
     "open_issues": 3,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:19Z",
-    "metadata_refreshed_at": "2026-11-02T16:08:05Z",
+    "metadata_refreshed_at": "2026-11-08T13:34:35Z",
     "signals": [
       "docker",
       "node",

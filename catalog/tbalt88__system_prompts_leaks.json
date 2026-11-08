@@ -16,7 +16,7 @@
     "full_name": "asgeirtj/system_prompts_leaks",
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
     "description": "Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily.",
-    "stars": 70970,
+    "stars": 71023,
     "forks": 11465,
     "watchers": 752,
     "open_issues": 22,
@@ -47,13 +47,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2025-05-03T02:43:56Z",
-    "pushed_at": "2026-11-06T21:02:05Z",
+    "pushed_at": "2026-11-08T08:33:05Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:15Z",
-    "metadata_refreshed_at": "2026-11-07T13:11:48Z",
+    "metadata_refreshed_at": "2026-11-08T13:33:05Z",
     "actions_checked_at": "2026-09-03T17:26:15Z",
     "signals": [
       "claude-skill"

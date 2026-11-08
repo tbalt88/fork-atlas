@@ -12,7 +12,7 @@
     "full_name": "everywall/ladder",
     "url": "https://github.com/everywall/ladder",
     "description": "Selfhosted alternative to 12ft.io. and 1ft.io. Proxy to remove CORS headers and modify HTML",
-    "stars": 9284,
+    "stars": 9288,
     "forks": 531,
     "watchers": 37,
     "open_issues": 38,
@@ -35,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-11-03T14:24:19Z",
-    "metadata_refreshed_at": "2026-11-07T13:11:12Z",
+    "metadata_refreshed_at": "2026-11-08T13:32:29Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

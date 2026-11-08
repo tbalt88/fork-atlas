@@ -12,10 +12,10 @@
     "full_name": "morluto/rea",
     "url": "https://github.com/morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "stars": 439603,
-    "forks": 108865,
-    "watchers": 1672,
-    "open_issues": 1622,
+    "stars": 442479,
+    "forks": 109401,
+    "watchers": 1693,
+    "open_issues": 1623,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -43,13 +43,13 @@
     "homepage": "https://rea.tools",
     "default_branch": "main",
     "created_at": "2026-04-14T00:51:32Z",
-    "pushed_at": "2026-11-07T12:23:00Z",
+    "pushed_at": "2026-11-08T13:32:11Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-10-18T11:15:12Z",
-    "metadata_refreshed_at": "2026-11-07T13:11:27Z",
+    "metadata_refreshed_at": "2026-11-08T13:32:44Z",
     "actions_checked_at": null,
     "signals": [
       "claude-skill",
