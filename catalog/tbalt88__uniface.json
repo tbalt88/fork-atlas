@@ -15,7 +15,7 @@
     "full_name": "yakhyo/uniface",
     "url": "https://github.com/yakhyo/uniface",
     "description": "A Unified Face Analysis Library for Python | Detection, alignment, landmarks, face-mesh, recognition, parsing, gaze, attributes and anti-spoofing under one API.",
-    "stars": 2204,
+    "stars": 2208,
     "forks": 310,
     "watchers": 13,
     "open_issues": 5,
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:57Z",
-    "metadata_refreshed_at": "2026-11-08T13:33:25Z",
+    "metadata_refreshed_at": "2026-11-09T16:31:06Z",
     "signals": [
       "claude-md",
       "gh-actions"

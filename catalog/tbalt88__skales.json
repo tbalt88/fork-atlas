@@ -18,7 +18,7 @@
     "stars": 2231,
     "forks": 298,
     "watchers": 17,
-    "open_issues": 7,
+    "open_issues": 2,
     "language": null,
     "topics": [
       "agentic-ai",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:53Z",
-    "metadata_refreshed_at": "2026-11-08T13:34:17Z",
+    "metadata_refreshed_at": "2026-11-09T16:32:01Z",
     "signals": [
       "nextjs",
       "node"

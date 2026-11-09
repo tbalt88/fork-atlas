@@ -16,7 +16,7 @@
     "full_name": "tbalt88/memory-bridge-mcp",
     "url": "https://github.com/tbalt88/memory-bridge-mcp",
     "description": "Cross-surface personal memory system exposed as a remote MCP server (Cloudflare Workers + D1).",
-    "stars": 1,
+    "stars": 0,
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
@@ -32,7 +32,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T17:52:58Z",
-    "metadata_refreshed_at": "2026-11-02T16:07:19Z",
+    "metadata_refreshed_at": "2026-11-09T16:31:27Z",
     "actions_checked_at": "2026-09-03T17:27:49Z",
     "signals": [
       "gh-actions",

@@ -17,8 +17,8 @@
     "description": " [Nature Reviews Bioengineering🔥] Application of Large Language Models in Medicine.  A curated list of practical guide resources of Medical LLMs (Medical LLMs Tree, Tables, and Papers)",
     "stars": 2051,
     "forks": 184,
-    "watchers": 77,
-    "open_issues": 4,
+    "watchers": 76,
+    "open_issues": 0,
     "language": null,
     "topics": [
       "ai-in-medicine",
@@ -31,13 +31,13 @@
     "homepage": "https://arxiv.org/abs/2311.05112",
     "default_branch": "main",
     "created_at": "2023-11-07T10:11:16Z",
-    "pushed_at": "2026-10-26T05:59:41Z",
+    "pushed_at": "2026-11-08T22:54:58Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:10Z",
-    "metadata_refreshed_at": "2026-11-08T13:35:19Z",
+    "metadata_refreshed_at": "2026-11-09T16:33:07Z",
     "signals": [],
     "languages": {},
     "inputs_prepared_at": "2026-08-18T02:17:17Z",
