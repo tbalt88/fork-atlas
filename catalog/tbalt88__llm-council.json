@@ -15,10 +15,10 @@
     "full_name": "karpathy/llm-council",
     "url": "https://github.com/karpathy/llm-council",
     "description": "LLM Council works together to answer your hardest questions",
-    "stars": 26362,
-    "forks": 4516,
+    "stars": 26378,
+    "forks": 4520,
     "watchers": 296,
-    "open_issues": 147,
+    "open_issues": 148,
     "language": "Python",
     "topics": [],
     "license": null,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:19Z",
-    "metadata_refreshed_at": "2026-11-09T16:33:17Z",
+    "metadata_refreshed_at": "2026-11-10T15:02:27Z",
     "signals": [
       "claude-md",
       "node",

@@ -15,7 +15,7 @@
     "full_name": "microsoft/AI-Engineering-Coach",
     "url": "https://github.com/microsoft/AI-Engineering-Coach",
     "description": "better agentic engineering",
-    "stars": 4393,
+    "stars": 4396,
     "forks": 615,
     "watchers": 23,
     "open_issues": 78,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:30Z",
-    "metadata_refreshed_at": "2026-11-09T16:31:42Z",
+    "metadata_refreshed_at": "2026-11-10T15:00:29Z",
     "signals": [
       "claude-skill",
       "docker",

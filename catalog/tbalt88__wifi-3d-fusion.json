@@ -17,7 +17,7 @@
     "description": "WiFi-3D-Fusion is an open-source research project that leverages WiFi CSI signals and deep learning to estimate 3D human pose, fusing wireless sensing with computer vision techniques for next-generation spatial awareness.",
     "stars": 1764,
     "forks": 193,
-    "watchers": 15,
+    "watchers": 16,
     "open_issues": 5,
     "language": "Python",
     "topics": [],
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:37Z",
-    "metadata_refreshed_at": "2026-11-08T13:34:50Z",
+    "metadata_refreshed_at": "2026-11-10T15:01:45Z",
     "signals": [
       "docker",
       "make",
