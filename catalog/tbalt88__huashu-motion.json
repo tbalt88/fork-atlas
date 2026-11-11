@@ -12,8 +12,8 @@
     "full_name": "alchaincyf/huashu-motion",
     "url": "https://github.com/alchaincyf/huashu-motion",
     "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
-    "stars": 2597,
-    "forks": 260,
+    "stars": 2635,
+    "forks": 263,
     "watchers": 6,
     "open_issues": 4,
     "language": "JavaScript",
@@ -42,7 +42,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-25T11:39:15Z",
-    "metadata_refreshed_at": "2026-11-10T14:58:46Z",
+    "metadata_refreshed_at": "2026-11-11T14:29:20Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

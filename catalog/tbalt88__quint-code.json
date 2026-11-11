@@ -17,7 +17,7 @@
     "description": "Engineering decisions engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement. For Claude Code, Cursor, Gemini CLI, Codex and more.",
     "stars": 1397,
     "forks": 103,
-    "watchers": 15,
+    "watchers": 14,
     "open_issues": 14,
     "language": "Go",
     "topics": [
@@ -49,7 +49,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:06Z",
-    "metadata_refreshed_at": "2026-11-09T16:33:02Z",
+    "metadata_refreshed_at": "2026-11-11T14:33:32Z",
     "signals": [
       "claude-md",
       "gh-actions"

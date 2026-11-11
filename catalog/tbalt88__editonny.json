@@ -12,8 +12,8 @@
     "full_name": "soumatheusgomes/editonny",
     "url": "https://github.com/soumatheusgomes/editonny",
     "description": "Local video editing through conversation. Created by Matheus Gomes.",
-    "stars": 802,
-    "forks": 92,
+    "stars": 808,
+    "forks": 93,
     "watchers": 9,
     "open_issues": 13,
     "language": "Python",
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-11-02T16:06:10Z",
-    "metadata_refreshed_at": "2026-11-10T14:58:33Z",
+    "metadata_refreshed_at": "2026-11-11T14:29:04Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

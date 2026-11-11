@@ -15,10 +15,10 @@
     "full_name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-    "stars": 160842,
-    "forks": 25442,
-    "watchers": 838,
-    "open_issues": 1224,
+    "stars": 160971,
+    "forks": 25456,
+    "watchers": 836,
+    "open_issues": 1237,
     "language": "Python",
     "topics": [
       "agent",
@@ -45,13 +45,13 @@
     "homepage": "https://dify.ai",
     "default_branch": "main",
     "created_at": "2023-04-12T07:40:24Z",
-    "pushed_at": "2026-11-10T14:53:29Z",
+    "pushed_at": "2026-11-11T14:31:47Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:07Z",
-    "metadata_refreshed_at": "2026-11-10T15:01:08Z",
+    "metadata_refreshed_at": "2026-11-11T14:32:14Z",
     "signals": [
       "claude-skill",
       "docker",
