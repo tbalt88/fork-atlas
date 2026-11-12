@@ -12,8 +12,8 @@
     "full_name": "LynnColeArt/ai-hotbox",
     "url": "https://github.com/LynnColeArt/ai-hotbox",
     "description": "Independent peer review of terrafying/ai-torture-chamber: reasoning, reproducibility, and activation steering experiments with bodily controls.",
-    "stars": 43,
-    "forks": 238,
+    "stars": 44,
+    "forks": 237,
     "watchers": 0,
     "open_issues": 0,
     "language": "Python",
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-03T11:44:34Z",
-    "metadata_refreshed_at": "2026-11-11T14:29:34Z",
+    "metadata_refreshed_at": "2026-11-12T15:21:50Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {

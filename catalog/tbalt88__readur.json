@@ -18,7 +18,7 @@
     "stars": 814,
     "forks": 82,
     "watchers": 3,
-    "open_issues": 18,
+    "open_issues": 20,
     "language": "Rust",
     "topics": [
       "api",
@@ -33,13 +33,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2025-06-17T18:20:15Z",
-    "pushed_at": "2026-11-11T11:59:58Z",
+    "pushed_at": "2026-11-12T10:59:08Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:35Z",
-    "metadata_refreshed_at": "2026-11-11T14:32:50Z",
+    "metadata_refreshed_at": "2026-11-12T15:24:46Z",
     "signals": [
       "docker",
       "gh-actions",

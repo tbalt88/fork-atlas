@@ -18,7 +18,7 @@
     "stars": 324,
     "forks": 31,
     "watchers": 5,
-    "open_issues": 1,
+    "open_issues": 0,
     "language": "TypeScript",
     "topics": [
       "claude-code",
@@ -36,7 +36,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:07Z",
-    "metadata_refreshed_at": "2026-11-10T15:02:13Z",
+    "metadata_refreshed_at": "2026-11-12T15:25:25Z",
     "signals": [
       "gh-actions",
       "node",

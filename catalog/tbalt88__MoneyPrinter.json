@@ -12,7 +12,7 @@
     "full_name": "FujiwaraChoki/MoneyPrinter",
     "url": "https://github.com/FujiwaraChoki/MoneyPrinter",
     "description": "Automate Creation of YouTube Shorts using MoviePy.",
-    "stars": 14188,
+    "stars": 14193,
     "forks": 1842,
     "watchers": 104,
     "open_issues": 17,
@@ -33,7 +33,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-23T11:45:30Z",
-    "metadata_refreshed_at": "2026-11-11T14:29:21Z",
+    "metadata_refreshed_at": "2026-11-12T15:21:40Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}
