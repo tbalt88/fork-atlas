@@ -15,8 +15,8 @@
     "full_name": "AgentSwarms-fyi/agentswarms",
     "url": "https://github.com/AgentSwarms-fyi/agentswarms",
     "description": "Unified Agentic AI and Data Platform",
-    "stars": 299,
-    "forks": 65,
+    "stars": 300,
+    "forks": 66,
     "watchers": 4,
     "open_issues": 29,
     "language": "TypeScript",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:03Z",
-    "metadata_refreshed_at": "2026-11-12T15:22:51Z",
+    "metadata_refreshed_at": "2026-11-13T14:40:49Z",
     "signals": [
       "docker",
       "gh-actions",

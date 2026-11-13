@@ -15,10 +15,10 @@
     "full_name": "cheaper-inference/OmniRoute",
     "url": "https://github.com/cheaper-inference/OmniRoute",
     "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
-    "stars": 86776,
-    "forks": 13256,
+    "stars": 87044,
+    "forks": 13316,
     "watchers": 494,
-    "open_issues": 499,
+    "open_issues": 524,
     "language": "TypeScript",
     "topics": [
       "a2a",
@@ -46,13 +46,13 @@
     "homepage": "https://omniroute.online",
     "default_branch": "release/v3.8.54",
     "created_at": "2026-02-13T12:38:31Z",
-    "pushed_at": "2026-11-12T13:03:26Z",
+    "pushed_at": "2026-11-13T14:14:25Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:09Z",
-    "metadata_refreshed_at": "2026-11-12T15:23:04Z",
+    "metadata_refreshed_at": "2026-11-13T14:40:58Z",
     "signals": [
       "claude-md",
       "gh-actions",

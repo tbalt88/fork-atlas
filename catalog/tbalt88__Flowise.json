@@ -15,10 +15,10 @@
     "full_name": "FlowiseAI/Flowise",
     "url": "https://github.com/FlowiseAI/Flowise",
     "description": "Build AI Agents, Visually",
-    "stars": 55572,
-    "forks": 25092,
+    "stars": 55569,
+    "forks": 25094,
     "watchers": 387,
-    "open_issues": 1038,
+    "open_issues": 1033,
     "language": "TypeScript",
     "topics": [
       "agentic-ai",
@@ -49,7 +49,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:26Z",
-    "metadata_refreshed_at": "2026-11-12T15:24:37Z",
+    "metadata_refreshed_at": "2026-11-13T14:41:58Z",
     "signals": [
       "docker",
       "gh-actions",

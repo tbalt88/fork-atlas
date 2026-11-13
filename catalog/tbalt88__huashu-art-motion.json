@@ -12,9 +12,9 @@
     "full_name": "alchaincyf/huashu-art-motion",
     "url": "https://github.com/alchaincyf/huashu-art-motion",
     "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
-    "stars": 6804,
-    "forks": 671,
-    "watchers": 8,
+    "stars": 6856,
+    "forks": 678,
+    "watchers": 9,
     "open_issues": 9,
     "language": "JavaScript",
     "topics": [
@@ -41,7 +41,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-25T11:39:14Z",
-    "metadata_refreshed_at": "2026-11-12T15:21:38Z",
+    "metadata_refreshed_at": "2026-11-13T14:40:01Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

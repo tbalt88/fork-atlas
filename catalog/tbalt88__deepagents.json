@@ -12,8 +12,8 @@
     "full_name": "langchain-ai/deepagents",
     "url": "https://github.com/langchain-ai/deepagents",
     "description": "The batteries-included agent harness.",
-    "stars": 31242,
-    "forks": 4414,
+    "stars": 31263,
+    "forks": 4418,
     "watchers": 140,
     "open_issues": 235,
     "language": "Python",
@@ -31,13 +31,13 @@
     "homepage": "https://docs.langchain.com/deepagents",
     "default_branch": "main",
     "created_at": "2025-07-27T23:07:53Z",
-    "pushed_at": "2026-11-12T14:12:09Z",
+    "pushed_at": "2026-11-13T14:35:16Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-24T11:53:03Z",
-    "metadata_refreshed_at": "2026-11-12T15:21:56Z",
+    "metadata_refreshed_at": "2026-11-13T14:40:14Z",
     "actions_checked_at": null,
     "signals": [
       "claude-skill"

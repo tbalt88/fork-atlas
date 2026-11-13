@@ -15,7 +15,7 @@
     "full_name": "gsd-build/get-shit-done",
     "url": "https://github.com/gsd-build/get-shit-done",
     "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
-    "stars": 64151,
+    "stars": 64141,
     "forks": 5451,
     "watchers": 272,
     "open_issues": 0,
@@ -36,7 +36,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:16Z",
-    "metadata_refreshed_at": "2026-11-12T15:24:21Z",
+    "metadata_refreshed_at": "2026-11-13T14:41:48Z",
     "signals": [],
     "languages": {
       "JavaScript": 7254398,
