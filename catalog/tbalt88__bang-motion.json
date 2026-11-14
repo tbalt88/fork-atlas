@@ -12,10 +12,10 @@
     "full_name": "bangtutorial/bang-motion",
     "url": "https://github.com/bangtutorial/bang-motion",
     "description": "Agent skill for browser motion graphics — openers, promos, bumpers, kinetic typography, and five explainer styles that move like video, not slides. Single index.html output. Works with Claude Code, Codex, Gemini CLI, Cursor.",
-    "stars": 2115,
-    "forks": 247,
+    "stars": 2152,
+    "forks": 251,
     "watchers": 7,
-    "open_issues": 3,
+    "open_issues": 4,
     "language": "HTML",
     "topics": [],
     "license": "MIT",
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-11-08T13:32:27Z",
-    "metadata_refreshed_at": "2026-11-13T14:39:51Z",
+    "metadata_refreshed_at": "2026-11-14T13:37:27Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

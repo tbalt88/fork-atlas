@@ -15,8 +15,8 @@
     "full_name": "obsidianmd/obsidian-skills",
     "url": "https://github.com/obsidianmd/obsidian-skills",
     "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
-    "stars": 52222,
-    "forks": 3710,
+    "stars": 52425,
+    "forks": 3729,
     "watchers": 235,
     "open_issues": 2,
     "language": "Shell",
@@ -49,7 +49,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-11-13T14:41:03Z",
+    "metadata_refreshed_at": "2026-11-14T13:38:27Z",
     "signals": [
       "claude-skill"
     ],

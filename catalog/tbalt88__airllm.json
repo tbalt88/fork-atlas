@@ -12,8 +12,8 @@
     "full_name": "lyogavin/airllm",
     "url": "https://github.com/lyogavin/airllm",
     "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
-    "stars": 42299,
-    "forks": 4364,
+    "stars": 42359,
+    "forks": 4366,
     "watchers": 333,
     "open_issues": 157,
     "language": "Jupyter Notebook",
@@ -36,13 +36,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2023-06-12T16:28:41Z",
-    "pushed_at": "2026-11-13T06:13:46Z",
+    "pushed_at": "2026-11-14T06:13:31Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-10-27T12:19:47Z",
-    "metadata_refreshed_at": "2026-11-13T14:39:59Z",
+    "metadata_refreshed_at": "2026-11-14T13:37:34Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

@@ -16,7 +16,7 @@
     "url": "https://github.com/arcahyadi/odysseus",
     "description": "Self-hosted AI workspace. ",
     "stars": 138,
-    "forks": 10465,
+    "forks": 10461,
     "watchers": 2,
     "open_issues": 10,
     "language": "Python",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:27Z",
-    "metadata_refreshed_at": "2026-11-13T14:41:14Z",
+    "metadata_refreshed_at": "2026-11-14T13:38:36Z",
     "signals": [
       "claude-skill",
       "docker",

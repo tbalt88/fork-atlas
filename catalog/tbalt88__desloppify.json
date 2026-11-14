@@ -15,7 +15,7 @@
     "stars": 4131,
     "forks": 315,
     "watchers": 11,
-    "open_issues": 331,
+    "open_issues": 335,
     "language": "Python",
     "topics": [
       "agent-harness"
@@ -30,7 +30,7 @@
   },
   "meta": {
     "discovered_at": "2026-11-02T16:06:11Z",
-    "metadata_refreshed_at": "2026-11-13T14:39:54Z",
+    "metadata_refreshed_at": "2026-11-14T13:37:30Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

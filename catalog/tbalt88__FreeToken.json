@@ -16,10 +16,10 @@
     "full_name": "FlashML-org/FreeToken",
     "url": "https://github.com/FlashML-org/FreeToken",
     "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
-    "stars": 17144,
-    "forks": 1698,
-    "watchers": 102,
-    "open_issues": 469,
+    "stars": 17181,
+    "forks": 1702,
+    "watchers": 103,
+    "open_issues": 470,
     "language": "Python",
     "topics": [
       "deepseek-v4",
@@ -35,13 +35,13 @@
     "homepage": "flashml.ai",
     "default_branch": "main",
     "created_at": "2026-07-20T20:44:11Z",
-    "pushed_at": "2026-11-13T11:19:08Z",
+    "pushed_at": "2026-11-14T11:19:00Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:14Z",
-    "metadata_refreshed_at": "2026-11-13T14:40:25Z",
+    "metadata_refreshed_at": "2026-11-14T13:37:56Z",
     "actions_checked_at": "2026-09-03T17:26:13Z",
     "signals": [
       "gh-actions",
