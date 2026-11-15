@@ -1,0 +1,46 @@
+{
+  "fork": {
+    "full_name": "tbalt88/rederive",
+    "url": "https://github.com/tbalt88/rederive",
+    "created_at": "2026-11-14T17:22:04Z",
+    "default_branch": "master",
+    "pushed_at": "2026-10-25T20:29:45Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "EricJujianZou/rederive",
+    "url": "https://github.com/EricJujianZou/rederive",
+    "description": "Learn a codebase by re-deriving its design decisions yourself. A Claude Code skill.",
+    "stars": 849,
+    "forks": 33,
+    "watchers": 1,
+    "open_issues": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "learning",
+      "socratic-method",
+      "system-design"
+    ],
+    "license": "MIT",
+    "homepage": "https://ericzou.dev/rederive/",
+    "default_branch": "master",
+    "created_at": "2026-10-19T03:05:36Z",
+    "pushed_at": "2026-10-25T20:29:45Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-11-15T14:00:43Z",
+    "metadata_refreshed_at": "2026-11-15T14:00:43Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

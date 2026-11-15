@@ -12,10 +12,10 @@
     "full_name": "andrewyng/openworker",
     "url": "https://github.com/andrewyng/openworker",
     "description": null,
-    "stars": 19162,
-    "forks": 2735,
-    "watchers": 126,
-    "open_issues": 408,
+    "stars": 19301,
+    "forks": 2753,
+    "watchers": 128,
+    "open_issues": 412,
     "language": "Python",
     "topics": [],
     "license": "MIT",
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-11-02T16:06:10Z",
-    "metadata_refreshed_at": "2026-11-14T13:37:29Z",
+    "metadata_refreshed_at": "2026-11-15T14:00:49Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

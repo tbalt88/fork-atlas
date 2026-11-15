@@ -15,8 +15,8 @@
     "full_name": "ageitgey/face_recognition",
     "url": "https://github.com/ageitgey/face_recognition",
     "description": "The world's simplest facial recognition api for Python and the command line",
-    "stars": 56900,
-    "forks": 13655,
+    "stars": 56901,
+    "forks": 13656,
     "watchers": 1536,
     "open_issues": 833,
     "language": "Python",
@@ -36,7 +36,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:28Z",
-    "metadata_refreshed_at": "2026-11-14T13:38:37Z",
+    "metadata_refreshed_at": "2026-11-15T14:02:44Z",
     "signals": [
       "docker",
       "gh-actions",

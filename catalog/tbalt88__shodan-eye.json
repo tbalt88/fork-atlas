@@ -16,7 +16,7 @@
     "full_name": "BullsEye0/shodan-eye",
     "url": "https://github.com/BullsEye0/shodan-eye",
     "description": "Shodan Eye This tool collects all the information about all devices directly connected to the internet using the specified keywords that you enter. Author: Jolanda de Koff",
-    "stars": 1391,
+    "stars": 1392,
     "forks": 258,
     "watchers": 50,
     "open_issues": 5,
@@ -32,7 +32,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:22Z",
-    "metadata_refreshed_at": "2026-11-14T13:37:58Z",
+    "metadata_refreshed_at": "2026-11-15T14:01:39Z",
     "actions_checked_at": "2026-09-03T17:26:22Z",
     "signals": [
       "python"

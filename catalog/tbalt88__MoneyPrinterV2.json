@@ -12,9 +12,9 @@
     "full_name": "FujiwaraChoki/MoneyPrinterV2",
     "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
     "description": "Automate the process of making money online.",
-    "stars": 32425,
-    "forks": 3473,
-    "watchers": 250,
+    "stars": 32440,
+    "forks": 3474,
+    "watchers": 249,
     "open_issues": 94,
     "language": "Python",
     "topics": [
@@ -37,7 +37,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-23T11:45:31Z",
-    "metadata_refreshed_at": "2026-11-14T13:37:37Z",
+    "metadata_refreshed_at": "2026-11-15T14:01:03Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}
