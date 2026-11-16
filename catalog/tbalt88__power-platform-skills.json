@@ -15,8 +15,8 @@
     "full_name": "microsoft/power-platform-skills",
     "url": "https://github.com/microsoft/power-platform-skills",
     "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
-    "stars": 1151,
-    "forks": 233,
+    "stars": 1153,
+    "forks": 234,
     "watchers": 15,
     "open_issues": 188,
     "language": "JavaScript",
@@ -33,13 +33,13 @@
     "homepage": "https://microsoft.github.io/power-platform-skills/",
     "default_branch": "main",
     "created_at": "2026-01-21T18:25:14Z",
-    "pushed_at": "2026-11-14T23:03:55Z",
+    "pushed_at": "2026-11-16T15:34:04Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:07Z",
-    "metadata_refreshed_at": "2026-11-15T14:02:17Z",
+    "metadata_refreshed_at": "2026-11-16T15:57:39Z",
     "signals": [
       "claude-md",
       "gh-actions"

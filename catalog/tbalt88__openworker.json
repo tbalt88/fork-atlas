@@ -12,8 +12,8 @@
     "full_name": "andrewyng/openworker",
     "url": "https://github.com/andrewyng/openworker",
     "description": null,
-    "stars": 19301,
-    "forks": 2753,
+    "stars": 19384,
+    "forks": 2761,
     "watchers": 128,
     "open_issues": 412,
     "language": "Python",
@@ -22,13 +22,13 @@
     "homepage": "http://openworker.com",
     "default_branch": "main",
     "created_at": "2026-07-20T01:52:32Z",
-    "pushed_at": "2026-11-14T00:34:18Z",
+    "pushed_at": "2026-11-16T13:52:52Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-11-02T16:06:10Z",
-    "metadata_refreshed_at": "2026-11-15T14:00:49Z",
+    "metadata_refreshed_at": "2026-11-16T15:56:30Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

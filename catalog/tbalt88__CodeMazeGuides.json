@@ -16,7 +16,7 @@
     "url": "https://github.com/CodeMazeBlog/CodeMazeGuides",
     "description": "Source code for 800+ C# and .NET articles from code-maze.com. Every article is a runnable solution, most with tests.",
     "stars": 993,
-    "forks": 1162,
+    "forks": 1163,
     "watchers": 24,
     "open_issues": 52,
     "language": "C#",
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:28Z",
-    "metadata_refreshed_at": "2026-11-15T14:04:49Z",
+    "metadata_refreshed_at": "2026-11-16T15:59:43Z",
     "signals": [
       "gh-actions"
     ],

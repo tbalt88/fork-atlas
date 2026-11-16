@@ -12,10 +12,10 @@
     "full_name": "microsoft/VibeVoice",
     "url": "https://github.com/microsoft/VibeVoice",
     "description": "Open-Source Frontier Voice AI",
-    "stars": 57187,
-    "forks": 6462,
+    "stars": 57208,
+    "forks": 6464,
     "watchers": 278,
-    "open_issues": 205,
+    "open_issues": 206,
     "language": "Python",
     "topics": [],
     "license": "MIT",
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-11-13T14:39:50Z",
-    "metadata_refreshed_at": "2026-11-15T14:00:44Z",
+    "metadata_refreshed_at": "2026-11-16T15:56:25Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}
