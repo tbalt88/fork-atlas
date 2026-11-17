@@ -1,0 +1,46 @@
+{
+  "fork": {
+    "full_name": "tbalt88/excalidraw",
+    "url": "https://github.com/tbalt88/excalidraw",
+    "created_at": "2026-11-16T16:07:17Z",
+    "default_branch": "master",
+    "pushed_at": "2026-11-16T15:23:26Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "excalidraw/excalidraw",
+    "url": "https://github.com/excalidraw/excalidraw",
+    "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+    "stars": 135859,
+    "forks": 16205,
+    "watchers": 515,
+    "open_issues": 3564,
+    "language": "TypeScript",
+    "topics": [
+      "canvas",
+      "collaboration",
+      "diagrams",
+      "drawing",
+      "hacktoberfest",
+      "productivity",
+      "whiteboard"
+    ],
+    "license": "MIT",
+    "homepage": "https://excalidraw.com",
+    "default_branch": "master",
+    "created_at": "2020-01-02T01:04:43Z",
+    "pushed_at": "2026-11-17T16:02:07Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-11-17T16:08:22Z",
+    "metadata_refreshed_at": "2026-11-17T16:08:22Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}

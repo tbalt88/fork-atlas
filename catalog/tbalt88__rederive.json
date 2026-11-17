@@ -12,10 +12,10 @@
     "full_name": "EricJujianZou/rederive",
     "url": "https://github.com/EricJujianZou/rederive",
     "description": "Learn a codebase by re-deriving its design decisions yourself. A Claude Code skill.",
-    "stars": 937,
-    "forks": 37,
-    "watchers": 1,
-    "open_issues": 0,
+    "stars": 1013,
+    "forks": 40,
+    "watchers": 3,
+    "open_issues": 7,
     "language": "Python",
     "topics": [
       "agent-skills",
@@ -36,7 +36,7 @@
   },
   "meta": {
     "discovered_at": "2026-11-15T14:00:43Z",
-    "metadata_refreshed_at": "2026-11-16T15:56:25Z",
+    "metadata_refreshed_at": "2026-11-17T16:08:23Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

@@ -15,10 +15,10 @@
     "full_name": "OpenMontageInc/OpenMontage",
     "url": "https://github.com/OpenMontageInc/OpenMontage",
     "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-    "stars": 80914,
-    "forks": 10950,
-    "watchers": 407,
-    "open_issues": 344,
+    "stars": 81263,
+    "forks": 11020,
+    "watchers": 411,
+    "open_issues": 346,
     "language": "Python",
     "topics": [
       "agent",
@@ -51,7 +51,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:20Z",
-    "metadata_refreshed_at": "2026-11-16T15:57:52Z",
+    "metadata_refreshed_at": "2026-11-17T16:10:14Z",
     "signals": [
       "claude-skill"
     ],
