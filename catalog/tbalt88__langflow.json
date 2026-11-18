@@ -16,10 +16,10 @@
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 156722,
-    "forks": 10425,
-    "watchers": 526,
-    "open_issues": 1339,
+    "stars": 156743,
+    "forks": 10429,
+    "watchers": 527,
+    "open_issues": 1333,
     "language": "Python",
     "topics": [
       "agents",
@@ -33,13 +33,13 @@
     "homepage": "http://www.langflow.org",
     "default_branch": "main",
     "created_at": "2023-02-08T22:28:03Z",
-    "pushed_at": "2026-11-17T15:55:13Z",
+    "pushed_at": "2026-11-18T15:33:08Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:26Z",
-    "metadata_refreshed_at": "2026-11-17T16:09:06Z",
+    "metadata_refreshed_at": "2026-11-18T15:45:22Z",
     "actions_checked_at": "2026-09-08T20:27:16Z",
     "signals": [
       "claude-skill",

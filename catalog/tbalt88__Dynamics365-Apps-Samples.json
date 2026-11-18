@@ -15,9 +15,9 @@
     "full_name": "microsoft/Dynamics365-Apps-Samples",
     "url": "https://github.com/microsoft/Dynamics365-Apps-Samples",
     "description": "Sample code for Dynamics 365 apps",
-    "stars": 187,
+    "stars": 188,
     "forks": 243,
-    "watchers": 19,
+    "watchers": 20,
     "open_issues": 22,
     "language": "C#",
     "topics": [],
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:30Z",
-    "metadata_refreshed_at": "2026-11-11T14:34:04Z",
+    "metadata_refreshed_at": "2026-11-18T15:48:11Z",
     "signals": [],
     "languages": {
       "C#": 825761326,

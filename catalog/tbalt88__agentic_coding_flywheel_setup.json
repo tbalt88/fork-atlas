@@ -17,7 +17,7 @@
     "description": "Bootstraps a fresh Ubuntu VPS into a complete multi-agent AI development environment in 30 minutes: coding agents, session management, safety tools, and coordination infrastructure",
     "stars": 1677,
     "forks": 185,
-    "watchers": 3,
+    "watchers": 4,
     "open_issues": 36,
     "language": "Shell",
     "topics": [
@@ -31,13 +31,13 @@
     "homepage": "https://agent-flywheel.com/",
     "default_branch": "main",
     "created_at": "2025-12-20T03:17:03Z",
-    "pushed_at": "2026-11-16T12:32:17Z",
+    "pushed_at": "2026-11-18T13:17:11Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:00Z",
-    "metadata_refreshed_at": "2026-11-17T16:12:04Z",
+    "metadata_refreshed_at": "2026-11-18T15:47:47Z",
     "signals": [
       "gh-actions"
     ],
