@@ -15,10 +15,10 @@
     "full_name": "heygen-com/hyperframes",
     "url": "https://github.com/heygen-com/hyperframes",
     "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
-    "stars": 86352,
-    "forks": 8004,
-    "watchers": 205,
-    "open_issues": 294,
+    "stars": 86878,
+    "forks": 8075,
+    "watchers": 207,
+    "open_issues": 298,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -41,13 +41,13 @@
     "homepage": "https://hyperframes.heygen.com",
     "default_branch": "main",
     "created_at": "2026-03-10T01:51:06Z",
-    "pushed_at": "2026-11-18T15:39:39Z",
+    "pushed_at": "2026-11-19T15:20:52Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:25Z",
-    "metadata_refreshed_at": "2026-11-18T15:46:25Z",
+    "metadata_refreshed_at": "2026-11-19T15:52:05Z",
     "signals": [
       "claude-skill",
       "gh-actions"

@@ -12,8 +12,8 @@
     "full_name": "phone-harness/phone-harness",
     "url": "https://github.com/phone-harness/phone-harness",
     "description": "let your agent control your phone",
-    "stars": 5091,
-    "forks": 526,
+    "stars": 5106,
+    "forks": 529,
     "watchers": 25,
     "open_issues": 100,
     "language": "Python",
@@ -35,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-11-08T13:32:28Z",
-    "metadata_refreshed_at": "2026-11-18T15:44:50Z",
+    "metadata_refreshed_at": "2026-11-19T15:50:23Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

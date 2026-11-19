@@ -15,8 +15,8 @@
     "full_name": "freqtrade/technical",
     "url": "https://github.com/freqtrade/technical",
     "description": "Various indicators developed or collected for the Freqtrade",
-    "stars": 1041,
-    "forks": 251,
+    "stars": 1043,
+    "forks": 252,
     "watchers": 42,
     "open_issues": 5,
     "language": "Python",
@@ -36,7 +36,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:58Z",
-    "metadata_refreshed_at": "2026-11-17T16:09:42Z",
+    "metadata_refreshed_at": "2026-11-19T15:51:32Z",
     "signals": [
       "gh-actions",
       "python"

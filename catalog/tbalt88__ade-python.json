@@ -18,7 +18,7 @@
     "stars": 1040,
     "forks": 168,
     "watchers": 9,
-    "open_issues": 13,
+    "open_issues": 14,
     "language": "Python",
     "topics": [],
     "license": "Apache-2.0",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:09Z",
-    "metadata_refreshed_at": "2026-11-18T15:47:53Z",
+    "metadata_refreshed_at": "2026-11-19T15:53:45Z",
     "signals": [
       "docker",
       "gh-actions",
