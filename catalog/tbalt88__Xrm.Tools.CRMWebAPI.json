@@ -16,9 +16,9 @@
     "url": "https://github.com/davidyack/Xrm.Tools.CRMWebAPI",
     "description": "This is an API helper for working with the Common Data Service (CDS)  Web API",
     "stars": 141,
-    "forks": 70,
+    "forks": 69,
     "watchers": 32,
-    "open_issues": 37,
+    "open_issues": 35,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:31Z",
-    "metadata_refreshed_at": "2026-11-02T16:08:58Z",
+    "metadata_refreshed_at": "2026-11-20T15:36:08Z",
     "signals": [],
     "languages": {
       "JavaScript": 314575,

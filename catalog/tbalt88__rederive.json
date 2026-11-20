@@ -12,10 +12,10 @@
     "full_name": "EricJujianZou/rederive",
     "url": "https://github.com/EricJujianZou/rederive",
     "description": "Explain code that AI wrote for you, in an interview or at work. An open source Claude Code skill that asks how you would build each part of your repo, so you re-derive its design decisions yourself. It also works on open source repos you want to learn.",
-    "stars": 1097,
-    "forks": 45,
+    "stars": 1204,
+    "forks": 53,
     "watchers": 3,
-    "open_issues": 7,
+    "open_issues": 3,
     "language": "Python",
     "topics": [
       "agent-skills",
@@ -36,13 +36,13 @@
     "homepage": "https://ericzou.dev/rederive/",
     "default_branch": "master",
     "created_at": "2026-10-19T03:05:36Z",
-    "pushed_at": "2026-11-18T23:35:14Z",
+    "pushed_at": "2026-11-19T16:36:37Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-11-15T14:00:43Z",
-    "metadata_refreshed_at": "2026-11-19T15:50:20Z",
+    "metadata_refreshed_at": "2026-11-20T15:32:37Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

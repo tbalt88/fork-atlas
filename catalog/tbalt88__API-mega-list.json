@@ -18,7 +18,7 @@
     "stars": 8401,
     "forks": 1640,
     "watchers": 93,
-    "open_issues": 23,
+    "open_issues": 24,
     "language": "JavaScript",
     "topics": [
       "ai-tools",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:08Z",
-    "metadata_refreshed_at": "2026-11-19T15:53:44Z",
+    "metadata_refreshed_at": "2026-11-20T15:35:48Z",
     "signals": [],
     "languages": {
       "JavaScript": 37100
