@@ -12,8 +12,8 @@
     "full_name": "CopilotKit/openfuse",
     "url": "https://github.com/CopilotKit/openfuse",
     "description": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
-    "stars": 6544,
-    "forks": 964,
+    "stars": 6557,
+    "forks": 967,
     "watchers": 25,
     "open_issues": 67,
     "language": "TypeScript",
@@ -22,13 +22,13 @@
     "homepage": null,
     "default_branch": "main",
     "created_at": "2026-09-15T16:05:44Z",
-    "pushed_at": "2026-11-20T00:13:41Z",
+    "pushed_at": "2026-11-21T03:58:39Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-10-17T10:50:53Z",
-    "metadata_refreshed_at": "2026-11-20T15:32:59Z",
+    "metadata_refreshed_at": "2026-11-21T14:44:19Z",
     "actions_checked_at": null,
     "signals": [
       "docker",

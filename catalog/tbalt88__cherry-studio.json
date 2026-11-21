@@ -16,10 +16,10 @@
     "full_name": "CherryHQ/cherry-studio",
     "url": "https://github.com/CherryHQ/cherry-studio",
     "description": "Your AI workspace for models, agents, and productivity.",
-    "stars": 53694,
-    "forks": 5242,
+    "stars": 53719,
+    "forks": 5246,
     "watchers": 205,
-    "open_issues": 2828,
+    "open_issues": 2880,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -40,13 +40,13 @@
     "homepage": "https://cherryai.com",
     "default_branch": "main",
     "created_at": "2024-05-24T01:56:26Z",
-    "pushed_at": "2026-11-20T15:31:32Z",
+    "pushed_at": "2026-11-21T14:36:11Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:27Z",
-    "metadata_refreshed_at": "2026-11-20T15:33:29Z",
+    "metadata_refreshed_at": "2026-11-21T14:44:51Z",
     "actions_checked_at": "2026-09-03T17:26:27Z",
     "signals": [
       "claude-skill"

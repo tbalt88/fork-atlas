@@ -18,7 +18,7 @@
     "stars": 179,
     "forks": 93,
     "watchers": 34,
-    "open_issues": 31,
+    "open_issues": 32,
     "language": "HCL",
     "topics": [
       "cft-terraform"
@@ -33,7 +33,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:44Z",
-    "metadata_refreshed_at": "2026-11-19T15:53:19Z",
+    "metadata_refreshed_at": "2026-11-21T14:47:09Z",
     "signals": [
       "gh-actions",
       "go",

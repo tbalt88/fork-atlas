@@ -16,8 +16,8 @@
     "full_name": "Appllama/appllama-skills",
     "url": "https://github.com/Appllama/appllama-skills",
     "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
-    "stars": 5272,
-    "forks": 266,
+    "stars": 5588,
+    "forks": 279,
     "watchers": 3,
     "open_issues": 2,
     "language": null,
@@ -46,13 +46,13 @@
     "homepage": "https://appllama.io/mcp",
     "default_branch": "main",
     "created_at": "2026-08-13T07:19:54Z",
-    "pushed_at": "2026-09-06T09:01:39Z",
+    "pushed_at": "2026-11-21T04:50:38Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-03T17:26:19Z",
-    "metadata_refreshed_at": "2026-11-20T15:33:26Z",
+    "metadata_refreshed_at": "2026-11-21T14:44:46Z",
     "actions_checked_at": "2026-09-03T17:26:18Z",
     "signals": [
       "claude-skill",

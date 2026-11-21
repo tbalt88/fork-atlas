@@ -12,7 +12,7 @@
     "full_name": "peteromallet/desloppify",
     "url": "https://github.com/peteromallet/desloppify",
     "description": "Agent harness to make your slop code well-engineered and beautiful.",
-    "stars": 4144,
+    "stars": 4145,
     "forks": 316,
     "watchers": 11,
     "open_issues": 325,
@@ -30,7 +30,7 @@
   },
   "meta": {
     "discovered_at": "2026-11-02T16:06:11Z",
-    "metadata_refreshed_at": "2026-11-20T15:32:43Z",
+    "metadata_refreshed_at": "2026-11-21T14:44:00Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}
