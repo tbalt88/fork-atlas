@@ -18,7 +18,7 @@
     "stars": 14623,
     "forks": 1883,
     "watchers": 107,
-    "open_issues": 20,
+    "open_issues": 19,
     "language": "TypeScript",
     "topics": [],
     "license": "AGPL-3.0",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:12Z",
-    "metadata_refreshed_at": "2026-11-21T14:46:35Z",
+    "metadata_refreshed_at": "2026-11-22T14:41:40Z",
     "signals": [
       "claude-md",
       "gh-actions",

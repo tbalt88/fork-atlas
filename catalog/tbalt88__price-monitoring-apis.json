@@ -12,7 +12,7 @@
     "full_name": "cporter202/price-monitoring-apis",
     "url": "https://github.com/cporter202/price-monitoring-apis",
     "description": "A powerhouse collection of 262 price monitoring APIs: track prices, catch deal drops, find arbitrage gaps, and watch competitors. Never overpay again.",
-    "stars": 19,
+    "stars": 20,
     "forks": 6,
     "watchers": 0,
     "open_issues": 0,
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-26T13:11:47Z",
-    "metadata_refreshed_at": "2026-11-15T14:00:59Z",
+    "metadata_refreshed_at": "2026-11-22T14:40:08Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

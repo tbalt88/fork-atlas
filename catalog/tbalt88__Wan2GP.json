@@ -15,10 +15,10 @@
     "full_name": "deepbeepmeep/WanGP",
     "url": "https://github.com/deepbeepmeep/WanGP",
     "description": "A fast AI Video Generator for the GPU Poor. Supports Minimax H3, LTX-2.3/2.5, Wan 2.1/2.2,  Qwen Image 1/2, Krea 2, Hunyuan Video, LTX  Video and Flux.",
-    "stars": 12089,
-    "forks": 1910,
-    "watchers": 113,
-    "open_issues": 1408,
+    "stars": 12131,
+    "forks": 1912,
+    "watchers": 114,
+    "open_issues": 1414,
     "language": "Python",
     "topics": [
       "ai",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:45Z",
-    "metadata_refreshed_at": "2026-11-21T14:44:58Z",
+    "metadata_refreshed_at": "2026-11-22T14:40:39Z",
     "signals": [
       "docker"
     ],

@@ -18,7 +18,7 @@
     "stars": 4203,
     "forks": 506,
     "watchers": 40,
-    "open_issues": 5,
+    "open_issues": 4,
     "language": "Jupyter Notebook",
     "topics": [
       "agentic-rag",
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:24Z",
-    "metadata_refreshed_at": "2026-11-19T15:53:59Z",
+    "metadata_refreshed_at": "2026-11-22T14:42:29Z",
     "signals": [
       "python"
     ],
