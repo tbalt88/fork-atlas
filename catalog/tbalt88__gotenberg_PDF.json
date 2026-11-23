@@ -12,8 +12,8 @@
     "full_name": "gotenberg/gotenberg",
     "url": "https://github.com/gotenberg/gotenberg",
     "description": "A developer-friendly API for converting many document formats into PDF files, and more!",
-    "stars": 13648,
-    "forks": 916,
+    "stars": 13654,
+    "forks": 917,
     "watchers": 75,
     "open_issues": 9,
     "language": "Go",
@@ -49,7 +49,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-28T13:03:13Z",
-    "metadata_refreshed_at": "2026-11-22T14:40:07Z",
+    "metadata_refreshed_at": "2026-11-23T18:19:57Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

@@ -15,10 +15,10 @@
     "full_name": "chattymin/PokeTokenBar",
     "url": "https://github.com/chattymin/PokeTokenBar",
     "description": "Use your tokens to raise, evolve, and collect Pokémon! 🥚",
-    "stars": 575,
+    "stars": 577,
     "forks": 177,
     "watchers": 0,
-    "open_issues": 67,
+    "open_issues": 69,
     "language": "Swift",
     "topics": [
       "ai-coding",
@@ -43,7 +43,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:46Z",
-    "metadata_refreshed_at": "2026-11-22T14:40:40Z",
+    "metadata_refreshed_at": "2026-11-23T18:20:36Z",
     "signals": [
       "claude-md",
       "gh-actions"

@@ -16,7 +16,7 @@
     "url": "https://github.com/bradcstevens/Foundry-Local",
     "description": null,
     "stars": 1,
-    "forks": 379,
+    "forks": 378,
     "watchers": 0,
     "open_issues": 0,
     "language": null,
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:11Z",
-    "metadata_refreshed_at": "2026-11-22T14:42:21Z",
+    "metadata_refreshed_at": "2026-11-23T18:22:34Z",
     "signals": [
       "gh-actions"
     ],

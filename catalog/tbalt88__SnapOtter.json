@@ -16,10 +16,10 @@
     "full_name": "snapotter-hq/SnapOtter",
     "url": "https://github.com/snapotter-hq/SnapOtter",
     "description": "Free, open-source file toolkit for PDFs, images, video and audio. Compress, convert, OCR, remove backgrounds and transcribe on your own server with one Docker command. 200+ tools, local AI, REST API. An alternative to iLovePDF, TinyWow CloudConvert and remove.bg.",
-    "stars": 3003,
+    "stars": 3006,
     "forks": 190,
     "watchers": 7,
-    "open_issues": 456,
+    "open_issues": 429,
     "language": "TypeScript",
     "topics": [
       "background-removal",
@@ -47,13 +47,13 @@
     "homepage": "https://snapotter.com",
     "default_branch": "main",
     "created_at": "2026-03-29T15:33:21Z",
-    "pushed_at": "2026-11-22T14:32:29Z",
+    "pushed_at": "2026-11-23T16:28:21Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:28Z",
-    "metadata_refreshed_at": "2026-11-22T14:40:26Z",
+    "metadata_refreshed_at": "2026-11-23T18:20:20Z",
     "actions_checked_at": "2026-09-08T20:27:19Z",
     "signals": [
       "gh-actions"

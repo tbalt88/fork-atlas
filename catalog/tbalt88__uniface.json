@@ -15,8 +15,8 @@
     "full_name": "yakhyo/uniface",
     "url": "https://github.com/yakhyo/uniface",
     "description": "A Unified Face Analysis Library for Python",
-    "stars": 2285,
-    "forks": 319,
+    "stars": 2290,
+    "forks": 318,
     "watchers": 13,
     "open_issues": 7,
     "language": "Python",
@@ -52,7 +52,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:57Z",
-    "metadata_refreshed_at": "2026-11-22T14:40:47Z",
+    "metadata_refreshed_at": "2026-11-23T18:20:45Z",
     "signals": [
       "claude-md",
       "gh-actions"

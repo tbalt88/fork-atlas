@@ -18,7 +18,7 @@
     "stars": 2573,
     "forks": 718,
     "watchers": 49,
-    "open_issues": 113,
+    "open_issues": 114,
     "language": "JavaScript",
     "topics": [
       "cloud",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:17Z",
-    "metadata_refreshed_at": "2026-11-21T14:46:40Z",
+    "metadata_refreshed_at": "2026-11-23T18:21:49Z",
     "signals": [
       "docker",
       "gh-actions",

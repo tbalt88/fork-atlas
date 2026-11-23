@@ -15,10 +15,10 @@
     "full_name": "microsoft/power-platform-skills",
     "url": "https://github.com/microsoft/power-platform-skills",
     "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
-    "stars": 1169,
+    "stars": 1172,
     "forks": 238,
     "watchers": 15,
-    "open_issues": 190,
+    "open_issues": 192,
     "language": "JavaScript",
     "topics": [
       "claude-code-plugin",
@@ -33,13 +33,13 @@
     "homepage": "https://microsoft.github.io/power-platform-skills/",
     "default_branch": "main",
     "created_at": "2026-01-21T18:25:14Z",
-    "pushed_at": "2026-11-21T23:03:53Z",
+    "pushed_at": "2026-11-22T23:04:03Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:07Z",
-    "metadata_refreshed_at": "2026-11-22T14:40:57Z",
+    "metadata_refreshed_at": "2026-11-23T18:20:56Z",
     "signals": [
       "claude-md",
       "gh-actions"
