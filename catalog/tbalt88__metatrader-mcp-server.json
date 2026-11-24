@@ -15,10 +15,10 @@
     "full_name": "ariadng/metatrader-mcp-server",
     "url": "https://github.com/ariadng/metatrader-mcp-server",
     "description": "Model Context Protocol (MCP) to enable AI LLMs to trade using MetaTrader platform",
-    "stars": 861,
+    "stars": 859,
     "forks": 278,
     "watchers": 22,
-    "open_issues": 32,
+    "open_issues": 31,
     "language": "Python",
     "topics": [
       "ai",
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:31Z",
-    "metadata_refreshed_at": "2026-11-23T18:21:18Z",
+    "metadata_refreshed_at": "2026-11-24T17:53:54Z",
     "signals": [
       "claude-md",
       "claude-skill",

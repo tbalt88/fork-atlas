@@ -15,7 +15,7 @@
     "full_name": "Azure-Samples/SQL-AI-samples",
     "url": "https://github.com/Azure-Samples/SQL-AI-samples",
     "description": "Samples using AI and Azure SQL DB",
-    "stars": 334,
+    "stars": 335,
     "forks": 208,
     "watchers": 12,
     "open_issues": 28,
@@ -40,7 +40,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:11Z",
-    "metadata_refreshed_at": "2026-11-21T14:46:33Z",
+    "metadata_refreshed_at": "2026-11-24T17:54:21Z",
     "signals": [
       "python"
     ],

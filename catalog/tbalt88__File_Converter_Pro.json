@@ -19,7 +19,7 @@
     "stars": 607,
     "forks": 85,
     "watchers": 7,
-    "open_issues": 3,
+    "open_issues": 2,
     "language": "Python",
     "topics": [
       "conversion",
@@ -41,13 +41,13 @@
     "homepage": "https://file-converter-pro.org/",
     "default_branch": "main",
     "created_at": "2026-04-04T20:32:38Z",
-    "pushed_at": "2026-11-22T14:18:51Z",
+    "pushed_at": "2026-11-24T12:05:47Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:29Z",
-    "metadata_refreshed_at": "2026-11-23T18:20:20Z",
+    "metadata_refreshed_at": "2026-11-24T17:52:52Z",
     "actions_checked_at": "2026-09-08T20:27:20Z",
     "signals": [
       "python"

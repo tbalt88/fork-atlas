@@ -15,10 +15,10 @@
     "full_name": "OpenBMB/ChatDev",
     "url": "https://github.com/OpenBMB/ChatDev",
     "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
-    "stars": 34855,
-    "forks": 4356,
+    "stars": 34866,
+    "forks": 4359,
     "watchers": 362,
-    "open_issues": 135,
+    "open_issues": 137,
     "language": "Python",
     "topics": [],
     "license": "Apache-2.0",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:27Z",
-    "metadata_refreshed_at": "2026-11-23T18:21:59Z",
+    "metadata_refreshed_at": "2026-11-24T17:54:38Z",
     "signals": [
       "claude-skill",
       "docker",

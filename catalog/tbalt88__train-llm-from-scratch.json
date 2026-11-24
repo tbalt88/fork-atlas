@@ -15,8 +15,8 @@
     "full_name": "FareedKhan-dev/train-llm-from-scratch",
     "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
     "description": "A straightforward method for training your LLM, from downloading data to generating text.",
-    "stars": 13290,
-    "forks": 1843,
+    "stars": 13299,
+    "forks": 1845,
     "watchers": 93,
     "open_issues": 1,
     "language": "Python",
@@ -38,7 +38,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:30Z",
-    "metadata_refreshed_at": "2026-11-23T18:21:17Z",
+    "metadata_refreshed_at": "2026-11-24T17:53:53Z",
     "signals": [
       "gh-actions"
     ],

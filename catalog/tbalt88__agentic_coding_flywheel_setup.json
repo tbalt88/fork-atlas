@@ -15,7 +15,7 @@
     "full_name": "Dicklesworthstone/agentic_coding_flywheel_setup",
     "url": "https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup",
     "description": "Bootstraps a fresh Ubuntu VPS into a complete multi-agent AI development environment in 30 minutes: coding agents, session management, safety tools, and coordination infrastructure",
-    "stars": 1678,
+    "stars": 1679,
     "forks": 186,
     "watchers": 4,
     "open_issues": 35,
@@ -31,13 +31,13 @@
     "homepage": "https://agent-flywheel.com/",
     "default_branch": "main",
     "created_at": "2025-12-20T03:17:03Z",
-    "pushed_at": "2026-11-23T14:46:32Z",
+    "pushed_at": "2026-11-24T16:31:24Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:00Z",
-    "metadata_refreshed_at": "2026-11-23T18:22:25Z",
+    "metadata_refreshed_at": "2026-11-24T17:55:06Z",
     "signals": [
       "gh-actions"
     ],

@@ -15,8 +15,8 @@
     "full_name": "andrewyng/context-hub",
     "url": "https://github.com/andrewyng/context-hub",
     "description": null,
-    "stars": 13995,
-    "forks": 1202,
+    "stars": 13998,
+    "forks": 1201,
     "watchers": 85,
     "open_issues": 138,
     "language": "JavaScript",
@@ -31,7 +31,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:59Z",
-    "metadata_refreshed_at": "2026-11-23T18:21:36Z",
+    "metadata_refreshed_at": "2026-11-24T17:54:13Z",
     "signals": [
       "claude-skill",
       "gh-actions",

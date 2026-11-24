@@ -11,11 +11,11 @@
   "upstream": {
     "full_name": "jub0t/Concat",
     "url": "https://github.com/jub0t/Concat",
-    "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
-    "stars": 19793,
-    "forks": 2421,
+    "description": "Beta: The open-source CapCut alternative. Scriptable through a JSON-RPC API & MCP.",
+    "stars": 19978,
+    "forks": 2447,
     "watchers": 106,
-    "open_issues": 304,
+    "open_issues": 311,
     "language": "Rust",
     "topics": [
       "ffmpeg",
@@ -38,13 +38,13 @@
     "homepage": "https://concat.standalones.org",
     "default_branch": "main",
     "created_at": "2026-08-25T18:34:47Z",
-    "pushed_at": "2026-11-23T14:41:49Z",
+    "pushed_at": "2026-11-24T17:42:22Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-10-29T13:10:31Z",
-    "metadata_refreshed_at": "2026-11-23T18:19:57Z",
+    "metadata_refreshed_at": "2026-11-24T17:52:29Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}
