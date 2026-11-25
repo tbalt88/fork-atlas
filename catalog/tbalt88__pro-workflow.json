@@ -16,7 +16,7 @@
     "url": "https://github.com/rohitg00/pro-workflow",
     "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
     "stars": 2971,
-    "forks": 301,
+    "forks": 300,
     "watchers": 19,
     "open_issues": 34,
     "language": "JavaScript",
@@ -51,7 +51,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:22Z",
-    "metadata_refreshed_at": "2026-11-24T17:54:34Z",
+    "metadata_refreshed_at": "2026-11-25T17:21:38Z",
     "signals": [
       "gh-actions",
       "node"

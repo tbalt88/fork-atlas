@@ -15,7 +15,7 @@
     "full_name": "Fergana-Labs/stash",
     "url": "https://github.com/Fergana-Labs/stash",
     "description": "Open-source infrastructure for agents that learn from experience. Capture production traces and turn lessons into reusable knowledge and skills.",
-    "stars": 345,
+    "stars": 346,
     "forks": 46,
     "watchers": 3,
     "open_issues": 27,
@@ -51,7 +51,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:15Z",
-    "metadata_refreshed_at": "2026-11-23T18:21:04Z",
+    "metadata_refreshed_at": "2026-11-25T17:20:38Z",
     "signals": [
       "claude-md",
       "docker",

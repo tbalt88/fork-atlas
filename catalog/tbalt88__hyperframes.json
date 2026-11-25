@@ -15,10 +15,10 @@
     "full_name": "heygen-com/hyperframes",
     "url": "https://github.com/heygen-com/hyperframes",
     "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
-    "stars": 89426,
-    "forks": 8333,
+    "stars": 90017,
+    "forks": 8383,
     "watchers": 209,
-    "open_issues": 341,
+    "open_issues": 330,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -46,13 +46,13 @@
     "homepage": "https://hyperframes.heygen.com",
     "default_branch": "main",
     "created_at": "2026-03-10T01:51:06Z",
-    "pushed_at": "2026-11-24T17:53:31Z",
+    "pushed_at": "2026-11-25T17:18:27Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:25Z",
-    "metadata_refreshed_at": "2026-11-24T17:53:48Z",
+    "metadata_refreshed_at": "2026-11-25T17:20:54Z",
     "signals": [
       "claude-skill",
       "gh-actions"

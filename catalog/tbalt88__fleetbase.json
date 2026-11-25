@@ -12,8 +12,8 @@
     "full_name": "fleetbase/fleetbase",
     "url": "https://github.com/fleetbase/fleetbase",
     "description": "Modular logistics and supply chain operating system (LSOS)",
-    "stars": 4893,
-    "forks": 1252,
+    "stars": 4920,
+    "forks": 1258,
     "watchers": 51,
     "open_issues": 21,
     "language": "JavaScript",
@@ -45,7 +45,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-15T11:50:18Z",
-    "metadata_refreshed_at": "2026-11-24T17:52:48Z",
+    "metadata_refreshed_at": "2026-11-25T17:19:47Z",
     "actions_checked_at": null,
     "signals": [
       "gh-actions",

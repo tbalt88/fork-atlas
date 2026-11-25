@@ -1,0 +1,43 @@
+{
+  "fork": {
+    "full_name": "tbalt88/Handy",
+    "url": "https://github.com/tbalt88/Handy",
+    "created_at": "2026-11-24T19:10:49Z",
+    "default_branch": "main",
+    "pushed_at": "2026-11-24T14:22:12Z",
+    "actions": {}
+  },
+  "relation": "fork",
+  "upstream": {
+    "full_name": "cjpais/Handy",
+    "url": "https://github.com/cjpais/Handy",
+    "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+    "stars": 40196,
+    "forks": 3795,
+    "watchers": 101,
+    "open_issues": 161,
+    "language": "Rust",
+    "topics": [
+      "accessibility",
+      "cross-platform",
+      "speech-to-text",
+      "tauri-v2"
+    ],
+    "license": "MIT",
+    "homepage": "https://handy.computer",
+    "default_branch": "main",
+    "created_at": "2025-02-13T02:42:29Z",
+    "pushed_at": "2026-11-25T15:05:28Z",
+    "archived": false,
+    "deleted": false
+  },
+  "meta": {
+    "discovered_at": "2026-11-25T17:19:17Z",
+    "metadata_refreshed_at": "2026-11-25T17:19:17Z",
+    "actions_checked_at": null,
+    "signals": [],
+    "languages": {}
+  },
+  "classification": null,
+  "status": "unclassified"
+}
