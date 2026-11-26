@@ -15,10 +15,10 @@
     "full_name": "CopilotKit/CopilotKit",
     "url": "https://github.com/CopilotKit/CopilotKit",
     "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
-    "stars": 38972,
-    "forks": 4853,
+    "stars": 38991,
+    "forks": 4857,
     "watchers": 183,
-    "open_issues": 488,
+    "open_issues": 495,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -46,13 +46,13 @@
     "homepage": "https://docs.copilotkit.ai",
     "default_branch": "main",
     "created_at": "2023-06-19T04:08:31Z",
-    "pushed_at": "2026-11-25T13:22:22Z",
+    "pushed_at": "2026-11-26T15:38:58Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-08-18T02:11:52Z",
-    "metadata_refreshed_at": "2026-11-25T17:20:11Z",
+    "metadata_refreshed_at": "2026-11-26T17:00:56Z",
     "signals": [
       "claude-md",
       "gh-actions",

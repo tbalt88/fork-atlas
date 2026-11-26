@@ -12,10 +12,10 @@
     "full_name": "google-research/harness2",
     "url": "https://github.com/google-research/harness2",
     "description": null,
-    "stars": 25176,
-    "forks": 2521,
-    "watchers": 114,
-    "open_issues": 187,
+    "stars": 25314,
+    "forks": 2537,
+    "watchers": 113,
+    "open_issues": 188,
     "language": "Python",
     "topics": [],
     "license": "Apache-2.0",
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-19T13:27:17Z",
-    "metadata_refreshed_at": "2026-11-25T17:19:36Z",
+    "metadata_refreshed_at": "2026-11-26T17:00:01Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

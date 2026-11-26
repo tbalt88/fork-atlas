@@ -15,8 +15,8 @@
     "full_name": "czlonkowski/n8n-skills",
     "url": "https://github.com/czlonkowski/n8n-skills",
     "description": "n8n skillset for Claude Code to build flawless n8n workflows",
-    "stars": 6709,
-    "forks": 1088,
+    "stars": 6716,
+    "forks": 1091,
     "watchers": 64,
     "open_issues": 20,
     "language": "Shell",
@@ -35,7 +35,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:13:38Z",
-    "metadata_refreshed_at": "2026-11-25T17:21:48Z",
+    "metadata_refreshed_at": "2026-11-26T17:03:05Z",
     "signals": [
       "claude-md",
       "claude-skill"
