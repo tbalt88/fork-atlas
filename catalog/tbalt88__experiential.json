@@ -12,10 +12,10 @@
     "full_name": "experientiallabs/experiential",
     "url": "https://github.com/experientiallabs/experiential",
     "description": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.",
-    "stars": 19425,
-    "forks": 330,
+    "stars": 19625,
+    "forks": 332,
     "watchers": 22,
-    "open_issues": 189,
+    "open_issues": 191,
     "language": "Python",
     "topics": [],
     "license": "Apache-2.0",
@@ -28,7 +28,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-11T11:28:06Z",
-    "metadata_refreshed_at": "2026-11-26T17:00:21Z",
+    "metadata_refreshed_at": "2026-11-27T16:45:36Z",
     "actions_checked_at": null,
     "signals": [
       "claude-md",

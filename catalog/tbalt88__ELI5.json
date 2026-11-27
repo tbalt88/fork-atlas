@@ -12,7 +12,7 @@
     "full_name": "DreambigOu/ELI5",
     "url": "https://github.com/DreambigOu/ELI5",
     "description": "ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents. Adapts tone, vocabulary, and analogies to match the audience.",
-    "stars": 2178,
+    "stars": 2190,
     "forks": 126,
     "watchers": 7,
     "open_issues": 1,
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-25T11:39:14Z",
-    "metadata_refreshed_at": "2026-11-26T16:59:54Z",
+    "metadata_refreshed_at": "2026-11-27T16:45:20Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

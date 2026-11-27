@@ -15,10 +15,10 @@
     "full_name": "jwasham/coding-interview-university",
     "url": "https://github.com/jwasham/coding-interview-university",
     "description": "A complete computer science study plan to become a software engineer.",
-    "stars": 365098,
-    "forks": 85254,
+    "stars": 365136,
+    "forks": 85280,
     "watchers": 8468,
-    "open_issues": 26,
+    "open_issues": 27,
     "language": null,
     "topics": [
       "algorithm",
@@ -44,7 +44,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:14:15Z",
-    "metadata_refreshed_at": "2026-11-26T17:03:49Z",
+    "metadata_refreshed_at": "2026-11-27T16:47:43Z",
     "signals": [
       "gh-actions"
     ],
