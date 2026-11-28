@@ -12,10 +12,10 @@
     "full_name": "excalidraw/excalidraw",
     "url": "https://github.com/excalidraw/excalidraw",
     "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
-    "stars": 136401,
-    "forks": 16335,
+    "stars": 136447,
+    "forks": 16347,
     "watchers": 522,
-    "open_issues": 3625,
+    "open_issues": 3629,
     "language": "TypeScript",
     "topics": [
       "canvas",
@@ -30,13 +30,13 @@
     "homepage": "https://excalidraw.com",
     "default_branch": "master",
     "created_at": "2020-01-02T01:04:43Z",
-    "pushed_at": "2026-11-27T16:28:37Z",
+    "pushed_at": "2026-11-28T14:39:37Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-11-17T16:08:22Z",
-    "metadata_refreshed_at": "2026-11-27T16:45:08Z",
+    "metadata_refreshed_at": "2026-11-28T15:37:51Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

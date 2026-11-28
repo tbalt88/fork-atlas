@@ -12,10 +12,10 @@
     "full_name": "cjpais/Handy",
     "url": "https://github.com/cjpais/Handy",
     "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
-    "stars": 40462,
-    "forks": 3824,
+    "stars": 40597,
+    "forks": 3833,
     "watchers": 102,
-    "open_issues": 162,
+    "open_issues": 163,
     "language": "Rust",
     "topics": [
       "accessibility",
@@ -33,7 +33,7 @@
   },
   "meta": {
     "discovered_at": "2026-11-25T17:19:17Z",
-    "metadata_refreshed_at": "2026-11-27T16:45:06Z",
+    "metadata_refreshed_at": "2026-11-28T15:37:49Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

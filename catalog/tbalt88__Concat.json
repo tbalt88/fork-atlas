@@ -12,10 +12,10 @@
     "full_name": "jub0t/Concat",
     "url": "https://github.com/jub0t/Concat",
     "description": "The open-source CapCut alternative.",
-    "stars": 22289,
-    "forks": 2739,
-    "watchers": 106,
-    "open_issues": 331,
+    "stars": 22718,
+    "forks": 2804,
+    "watchers": 108,
+    "open_issues": 342,
     "language": "Rust",
     "topics": [
       "ffmpeg",
@@ -38,13 +38,13 @@
     "homepage": "https://concatapp.com",
     "default_branch": "main",
     "created_at": "2026-08-25T18:34:47Z",
-    "pushed_at": "2026-11-27T10:01:21Z",
+    "pushed_at": "2026-11-27T19:52:13Z",
     "archived": false,
     "deleted": false
   },
   "meta": {
     "discovered_at": "2026-10-29T13:10:31Z",
-    "metadata_refreshed_at": "2026-11-27T16:45:17Z",
+    "metadata_refreshed_at": "2026-11-28T15:38:04Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

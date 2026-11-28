@@ -12,10 +12,10 @@
     "full_name": "666ghj/MiroFish",
     "url": "https://github.com/666ghj/MiroFish",
     "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
-    "stars": 86897,
-    "forks": 13165,
+    "stars": 86965,
+    "forks": 13180,
     "watchers": 497,
-    "open_issues": 250,
+    "open_issues": 254,
     "language": "Python",
     "topics": [
       "agent-memory",
@@ -39,7 +39,7 @@
   },
   "meta": {
     "discovered_at": "2026-10-22T11:59:39Z",
-    "metadata_refreshed_at": "2026-11-27T16:45:23Z",
+    "metadata_refreshed_at": "2026-11-28T15:38:12Z",
     "actions_checked_at": null,
     "signals": [],
     "languages": {}

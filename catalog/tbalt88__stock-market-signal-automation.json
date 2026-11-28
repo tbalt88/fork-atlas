@@ -16,7 +16,7 @@
     "url": "https://github.com/cporter202/stock-market-signal-automation",
     "description": "Build your own data-driven market edge with swing-trade signal webhooks, dashboards, alerts, AI agents, and automation examples.",
     "stars": 389,
-    "forks": 99,
+    "forks": 100,
     "watchers": 4,
     "open_issues": 0,
     "language": null,
@@ -46,7 +46,7 @@
   },
   "meta": {
     "discovered_at": "2026-08-18T02:12:07Z",
-    "metadata_refreshed_at": "2026-11-27T16:46:10Z",
+    "metadata_refreshed_at": "2026-11-28T15:39:21Z",
     "signals": [
       "node",
       "python"

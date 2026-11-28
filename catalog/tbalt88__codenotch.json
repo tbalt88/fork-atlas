@@ -16,10 +16,10 @@
     "full_name": "vinzdg/codenotch",
     "url": "https://github.com/vinzdg/codenotch",
     "description": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
-    "stars": 3115,
-    "forks": 524,
+    "stars": 3125,
+    "forks": 529,
     "watchers": 13,
-    "open_issues": 65,
+    "open_issues": 72,
     "language": "Swift",
     "topics": [],
     "license": "MIT",
@@ -32,7 +32,7 @@
   },
   "meta": {
     "discovered_at": "2026-09-08T20:21:29Z",
-    "metadata_refreshed_at": "2026-11-27T16:45:39Z",
+    "metadata_refreshed_at": "2026-11-28T15:38:36Z",
     "actions_checked_at": "2026-09-08T20:27:21Z",
     "signals": [
       "gh-actions",
